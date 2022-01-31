@@ -2,7 +2,7 @@
 permalink: snmp-config/task_verifying_snmp_is_enabled.html 
 sidebar: sidebar 
 keywords: system, manager, verify, snmp, enable, cluster, verify that snmp is enabled 
-summary: ONTAP 9.7 이하와 ONTAP System Manager의 '클래식' 인터페이스를 사용하여 클러스터에서 SNMP가 활성화되어 있는지 확인할 수 있습니다. 
+summary: ONTAP 9.7 이하와 ONTAP System Manager의 \'클래식\' 인터페이스를 사용하여 클러스터에서 SNMP가 활성화되어 있는지 확인할 수 있습니다. 
 ---
 = SNMP가 활성화되어 있는지 확인합니다
 :icons: font
