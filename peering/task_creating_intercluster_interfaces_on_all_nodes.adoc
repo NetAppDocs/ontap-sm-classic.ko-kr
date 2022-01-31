@@ -2,7 +2,7 @@
 permalink: peering/task_creating_intercluster_interfaces_on_all_nodes.html 
 sidebar: sidebar 
 keywords: cluster, communicate, logical, interface, lif, intercluster, create, ipspace, peer, relationship, create intercluster interfaces on all nodes, ontap 9.2 or earlier 
-summary: ONTAP 9.2 또는 이전 버전의 ONTAP 9 릴리스에 있는 ONTAP 시스템 관리자의 \'클래식\' 인터페이스를 사용하여 피어링을 위해 사용될 인터클러스터 LIF를 만들 수 있습니다. 
+summary: 'ONTAP 9.2 또는 이전 버전의 ONTAP 9 릴리스에 있는 ONTAP 시스템 관리자의 "클래식" 인터페이스를 사용하여 피어링을 위해 사용될 인터클러스터 LIF를 만들 수 있습니다.' 
 ---
 = 모든 노드에 대한 인터클러스터 인터페이스 만들기(ONTAP 9.2 이하)
 :icons: font

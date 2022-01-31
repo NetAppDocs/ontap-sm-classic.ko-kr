@@ -2,7 +2,7 @@
 permalink: peering/task_preparing_for_cluster_peering.html 
 sidebar: sidebar 
 keywords: create, creating, cluster, peer, relationship, verify, time, synchronized, external, network, procotol, ntp, server, subnet, port, passphrase, prepare, prepare for cluster peering 
-summary: 'ONTAP 9.7 이하 버전의 ONTAP System Manager \'클래식\' 인터페이스를 사용하여 클러스터 피어링 관계를 생성하기 전에, 각 클러스터의 시간이 외부 NTP(네트워크 시간 프로토콜) 서버와 동기화되는지 확인하고 사용하려는 서브넷, 포트 및 암호 문구를 결정해야 합니다.' 
+summary: 'ONTAP 9.7 이하 버전의 ONTAP System Manager "클래식" 인터페이스를 사용하여 클러스터 피어링 관계를 생성하기 전에, 각 클러스터의 시간이 외부 NTP(네트워크 시간 프로토콜) 서버와 동기화되는지 확인하고 사용하려는 서브넷, 포트 및 암호 문구를 결정해야 합니다.' 
 ---
 = 클러스터 피어링을 준비합니다
 :icons: font
