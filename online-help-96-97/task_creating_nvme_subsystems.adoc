@@ -1,0 +1,45 @@
+---
+permalink: online-help-96-97/task_creating_nvme_subsystems.html 
+sidebar: sidebar 
+keywords: create, nvme, subsystem, online, help, system, manager 
+summary: System Manager를 사용하여 NVMe 서브시스템을 생성할 수 있습니다. 
+---
+= NVMe 하위 시스템을 생성합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하여 NVMe 서브시스템을 생성할 수 있습니다.
+
+.단계
+. NVMe Subsystems * 창에서 * Create * 를 클릭합니다.
+. 다음 필드에 * NVMe Subsystems:Create * 창에 항목을 제공합니다.
++
+** * SVM *
++
+드롭다운 메뉴에서 서브시스템을 생성할 SVM을 선택합니다.
+
+** * 이름 *
++
+하위 시스템의 이름을 입력합니다. SVM에 서브시스템 이름이 이미 존재할 수 없습니다. 이름은 대/소문자를 구분하며 96자로 제한됩니다. 특수 문자를 사용할 수 있습니다.
+
+** * 호스트 OS *
++
+드롭다운 메뉴에서 하위 시스템의 호스트 OS 유형을 선택합니다.
+
+** * 호스트 NQN *
++
+컨트롤러에 연결된 호스트 NQN을 입력합니다. 여러 호스트 NQN을 쉼표로 구분하여 입력할 수 있습니다.
+
+
+
+. 저장 * 을 클릭합니다.
++
+NVMe 하위 시스템이 생성되고 NVMe 하위 시스템 드린도 표시됩니다.
+
+
+
+* 관련 정보 *
+
+xref:reference_nvme_subsystems_window.adoc[NVMe 하위 시스템 창]

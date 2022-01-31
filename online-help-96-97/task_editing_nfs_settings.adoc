@@ -1,0 +1,26 @@
+---
+permalink: online-help-96-97/task_editing_nfs_settings.html 
+sidebar: sidebar 
+keywords: edit, nfs, settings, online, help, system, management 
+summary: System Manager를 사용하여 NFSv3, NFSv4 및 NFSv4.1에서 설정 또는 해제, NFSv4 클라이언트에 대한 읽기 및 쓰기 위임 설정 또는 해제, NFSv4 ACL 설정 등의 NFS 설정을 편집할 수 있습니다. 기본 Windows 사용자도 편집할 수 있습니다. 
+---
+= NFS 설정을 편집하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하여 NFSv3, NFSv4 및 NFSv4.1에서 설정 또는 해제, NFSv4 클라이언트에 대한 읽기 및 쓰기 위임 설정 또는 해제, NFSv4 ACL 설정 등의 NFS 설정을 편집할 수 있습니다. 기본 Windows 사용자도 편집할 수 있습니다.
+
+.단계
+. 스토리지 * > * SVM * 을 클릭합니다.
+. SVM을 선택한 다음 * SVM 설정 * 을 클릭합니다.
+. 프로토콜 * 창에서 * NFS * 를 클릭합니다.
+. NFS * 창에서 * Edit * 를 클릭합니다.
+. NFS 설정 편집 * 대화 상자에서 필요한 사항을 변경합니다.
+. 저장 후 닫기 * 를 클릭합니다.
+
+
+* 관련 정보 *
+
+xref:reference_nfs_window.adoc[NFS 창]

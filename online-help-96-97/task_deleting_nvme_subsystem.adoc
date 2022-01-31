@@ -1,0 +1,36 @@
+---
+permalink: online-help-96-97/task_deleting_nvme_subsystem.html 
+sidebar: sidebar 
+keywords: delete, nvme, subsystem, online, help, system, manager, cluster 
+summary: System Manager를 사용하여 클러스터에서 NVMe 하위 시스템을 삭제할 수 있습니다. 
+---
+= NVMe 하위 시스템 삭제
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하여 클러스터에서 NVMe 하위 시스템을 삭제할 수 있습니다.
+
+NVMe 하위 시스템을 삭제할 때 다음 작업이 수행됩니다.
+
+* NVMe 서브시스템에서 호스트를 구성한 경우 매핑된 호스트가 제거됩니다.
+* NVMe 서브시스템에 매핑된 네임스페이스가 있는 경우 매핑 해제됩니다.
+
+
+.단계
+. NVMe 하위 시스템 * 창에서 삭제하려는 NVMe 하위 시스템을 찾으십시오.
+. 삭제할 하위 시스템 이름 왼쪽에 있는 확인란을 선택합니다.
+. 삭제 * 를 클릭합니다.
++
+경고 메시지가 표시됩니다.
+
+. 삭제를 확인하려면 * NVMe 하위 시스템 삭제 * 확인란을 클릭한 다음 * 예 * 를 클릭합니다.
++
+NVMe 하위 시스템이 클러스터에서 삭제되고 NVMe 하위 시스템 창이 표시됩니다.
+
+
+
+* 관련 정보 *
+
+xref:reference_nvme_subsystems_window.adoc[NVMe 하위 시스템 창]

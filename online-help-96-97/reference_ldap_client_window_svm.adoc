@@ -1,0 +1,71 @@
+---
+permalink: online-help-96-97/reference_ldap_client_window_svm.html 
+sidebar: sidebar 
+keywords: ldap, client, window, command, button, online, help, nfs, cifs, list 
+summary: 'LDAP 클라이언트 창을 사용하여 SVM(Storage Virtual Machine) 수준에서 사용자 인증, 파일 액세스 인증, 사용자 검색 및 NFS와 CIFS 간 매핑 서비스를 위한 LDAP 클라이언트를 생성할 수 있습니다.' 
+---
+= LDAP 클라이언트 창
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+LDAP 클라이언트 창을 사용하여 SVM(Storage Virtual Machine) 수준에서 사용자 인증, 파일 액세스 인증, 사용자 검색 및 NFS와 CIFS 간 매핑 서비스를 위한 LDAP 클라이언트를 생성할 수 있습니다.
+
+
+
+== 명령 버튼
+
+* * 추가 *
++
+LDAP 클라이언트를 생성 및 구성할 수 있는 Create LDAP Client 대화 상자를 엽니다.
+
+* * 편집 *
++
+LDAP 클라이언트 구성을 편집할 수 있는 Edit LDAP Client 대화 상자를 엽니다. 활성 LDAP 클라이언트를 편집할 수도 있습니다.
+
+* * 삭제 *
++
+LDAP 클라이언트 구성을 삭제할 수 있는 LDAP 클라이언트 삭제 대화 상자를 엽니다. 활성 LDAP 클라이언트를 삭제할 수도 있습니다.
+
+* * 새로 고침 *
++
+창에서 정보를 업데이트합니다.
+
+
+
+
+
+== LDAP 클라이언트 목록입니다
+
+LDAP 클라이언트에 대한 세부 정보를 표 형식으로 표시합니다.
+
+* * LDAP 클라이언트 구성 *
++
+지정한 LDAP 클라이언트 구성의 이름을 표시합니다.
+
+* * 스토리지 가상 머신 *
++
+각 LDAP 클라이언트 구성의 SVM 이름을 표시합니다.
+
+* * 스키마 *
++
+각 LDAP 클라이언트에 대한 스키마를 표시합니다.
+
+* * 최소 바인딩 레벨 *
++
+각 LDAP 클라이언트의 최소 바인딩 수준을 표시합니다.
+
+* * Active Directory 도메인 *
++
+각 LDAP 클라이언트 구성에 대한 Active Directory 도메인을 표시합니다.
+
+* LDAP 서버 *
++
+각 LDAP 클라이언트 구성에 대한 LDAP 서버를 표시합니다.
+
+* * 기본 Active Directory 서버 *
++
+각 LDAP 클라이언트 구성에 대한 기본 Active Directory 서버를 표시합니다.
+
+

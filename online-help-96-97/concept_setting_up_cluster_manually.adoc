@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_setting_up_cluster_manually.html 
+sidebar: sidebar 
+keywords: online, help, system, manager, cluster, node, management, event, notification 
+summary: System Manager를 사용하면 클러스터를 생성하고, 노드 관리 및 클러스터 관리 네트워크를 설정하고, 이벤트 알림을 설정하여 클러스터를 수동으로 설정할 수 있습니다. 
+---
+= 수동으로 클러스터 설정
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하면 클러스터를 생성하고, 노드 관리 및 클러스터 관리 네트워크를 설정하고, 이벤트 알림을 설정하여 클러스터를 수동으로 설정할 수 있습니다.

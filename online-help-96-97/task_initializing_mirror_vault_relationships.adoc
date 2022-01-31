@@ -1,0 +1,26 @@
+---
+permalink: online-help-96-97/task_initializing_mirror_vault_relationships.html 
+sidebar: sidebar 
+keywords: initialize, mirror, vault, relationship, online, help, system, manager 
+summary: 관계를 생성하는 동안 관계를 초기화하지 않은 경우 System Manager를 사용하여 미러 및 볼트 관계를 초기화할 수 있습니다. 관계를 초기화할 때 데이터의 전체 베이스라인 전송이 소스 볼륨에서 대상으로 수행됩니다. 
+---
+= 대칭 복사 및 볼트 관계를 초기화하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+관계를 생성하는 동안 관계를 초기화하지 않은 경우 System Manager를 사용하여 미러 및 볼트 관계를 초기화할 수 있습니다. 관계를 초기화할 때 데이터의 전체 베이스라인 전송이 소스 볼륨에서 대상으로 수행됩니다.
+
+소스 및 대상 클러스터는 정상 피어 관계에 있어야 합니다.
+
+.단계
+. 보호 * > * 볼륨 관계 * 를 클릭합니다.
+. 초기화하려는 미러 및 볼트 관계를 선택한 다음 * 작업 * > * 초기화 * 를 클릭합니다.
+. 확인 확인란을 선택한 다음 * Initialize * 를 클릭합니다.
+. Protection * 창에서 관계 상태를 확인합니다.
+
+
+스냅샷 복사본이 생성되어 타겟으로 전송됩니다.
+
+이 스냅샷 복사본은 이후의 증분 스냅샷 복사본을 위한 기준으로 사용됩니다.

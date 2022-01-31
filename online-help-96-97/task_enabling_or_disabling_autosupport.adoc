@@ -1,0 +1,22 @@
+---
+permalink: online-help-96-97/task_enabling_or_disabling_autosupport.html 
+sidebar: sidebar 
+keywords: enable, disable, autosupport, settings, online, help 
+summary: 시스템 관리자를 사용하여 스토리지 시스템에서 AutoSupport 설정을 활성화하거나 비활성화할 수 있습니다. AutoSupport 메시지를 사용하면 스토리지 시스템 상태를 모니터링하거나 기술 지원 부서 및 내부 지원 조직에 알림을 보낼 수 있습니다. 
+---
+= AutoSupport 설정 활성화 또는 비활성화
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+시스템 관리자를 사용하여 스토리지 시스템에서 AutoSupport 설정을 활성화하거나 비활성화할 수 있습니다. AutoSupport 메시지를 사용하면 스토리지 시스템 상태를 모니터링하거나 기술 지원 부서 및 내부 지원 조직에 알림을 보낼 수 있습니다.
+
+AutoSupport 옵션은 기본적으로 활성화되어 있습니다.
+
+.단계
+. 를 클릭합니다image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]* > * AutoSupport *.
+. 노드를 선택한 다음 * 활성화 * 또는 * 비활성화 * 를 클릭합니다.
+. 확인 * 을 클릭합니다.
+. AutoSupport 상태가 변경 사항을 올바르게 표시하는지 확인합니다.
+

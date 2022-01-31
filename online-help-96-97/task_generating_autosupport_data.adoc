@@ -1,0 +1,29 @@
+---
+permalink: online-help-96-97/task_generating_autosupport_data.html 
+sidebar: sidebar 
+keywords: generate, autosupport, data, online, help, system, manager 
+summary: System Manager를 사용하면 단일 노드 또는 여러 노드에 대한 AutoSupport 데이터를 생성하여 상태를 모니터링하고 기술 지원 팀에 알림을 보낼 수 있습니다. 
+---
+= AutoSupport 데이터를 생성하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하면 단일 노드 또는 여러 노드에 대한 AutoSupport 데이터를 생성하여 상태를 모니터링하고 기술 지원 팀에 알림을 보낼 수 있습니다.
+
+.단계
+. 를 클릭합니다image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]* > * AutoSupport *.
+. 노드를 선택한 다음 * AutoSupport 요청 * > * AutoSupport 생성 * 을 클릭합니다.
++
+기본적으로 AutoSupport 데이터는 모든 노드에 대해 생성됩니다.
+
+. AutoSupport* 생성 대화 상자에서 다음 단계를 수행하십시오.
++
+.. 특정 노드에 대한 AutoSupport 데이터를 생성하려면 * 모든 노드에 대한 AutoSupport 데이터 생성 * 확인란의 선택을 취소한 다음 노드를 선택합니다.
+.. 케이스 번호를 입력합니다.
+
+
+. Generate * 를 클릭합니다.
+. Confirmation * (확인 *) 대화 상자에서 * OK * (확인 *)를 클릭합니다.
+

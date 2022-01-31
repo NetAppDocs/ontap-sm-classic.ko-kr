@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_deleting_branchcache_configuration.html 
+sidebar: sidebar 
+keywords: branchcache, delete, configuration, system, manager, online, help 
+summary: 'BranchCache용으로 구성된 SVM(스토리지 가상 머신)에 캐싱 서비스를 더 이상 제공하지 않으려는 경우 System Manager를 사용하여 BranchCache 구성을 삭제할 수 있습니다.' 
+---
+= BranchCache 구성을 삭제하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+BranchCache용으로 구성된 SVM(스토리지 가상 머신)에 캐싱 서비스를 더 이상 제공하지 않으려는 경우 System Manager를 사용하여 BranchCache 구성을 삭제할 수 있습니다.
+
+.단계
+. 스토리지 * > * SVM * 을 클릭합니다.
+. SVM을 선택한 다음 * SVM 설정 * 을 클릭합니다.
+. BranchCache * 탭에서 * 삭제 * 를 클릭합니다.
+. 확인 확인란을 선택한 다음 * 삭제 * 를 클릭합니다.
++
+해시 저장소에서 기존 해시를 제거할 수도 있습니다.
+
+

@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_snapshot_configuration.html 
+sidebar: sidebar 
+keywords: online, help, snapshot, configuration, copy, policy, flexvol 
+summary: 기존 스냅샷 정책에 대한 일정을 설정하여 스냅샷 복사본을 구성할 수 있습니다. ONTAP 9.4부터는 FlexVol 볼륨의 Snapshot 복사본을 1024개 미만으로 생성할 수 있습니다. 
+---
+= 스냅샷 구성
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+기존 스냅샷 정책에 대한 일정을 설정하여 스냅샷 복사본을 구성할 수 있습니다. ONTAP 9.4부터는 FlexVol 볼륨의 Snapshot 복사본을 1024개 미만으로 생성할 수 있습니다.

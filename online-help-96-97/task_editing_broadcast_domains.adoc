@@ -1,0 +1,32 @@
+---
+permalink: online-help-96-97/task_editing_broadcast_domains.html 
+sidebar: sidebar 
+keywords: system, manager, edit, broadcast, domain, settings, online, help, port 
+summary: System Manager를 사용하여 이름, MTU 크기 및 브로드캐스트 도메인과 연결된 포트와 같은 브로드캐스트 도메인의 속성을 수정할 수 있습니다. 
+---
+= 브로드캐스트 도메인 설정을 편집하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하여 이름, MTU 크기 및 브로드캐스트 도메인과 연결된 포트와 같은 브로드캐스트 도메인의 속성을 수정할 수 있습니다.
+
+.이 작업에 대해
+* 관리 포트 e0M이 할당된 브로드캐스트 도메인의 MTU 크기를 수정하면 안 됩니다.
+* 시스템 관리자를 사용하여 클러스터 IPspace에서 브로드캐스트 도메인을 편집할 수는 없습니다.
++
+대신 CLI(Command-Line Interface)를 사용해야 합니다.
+
+
+
+.단계
+. 네트워크 * > * 브로드캐스트 도메인 * 을 클릭합니다.
+. 수정할 브로드캐스트 도메인을 선택한 다음 * 편집 * 을 클릭합니다.
+. [브로드캐스트 도메인 편집] * 대화 상자에서 필요에 따라 브로드캐스트 도메인 속성을 수정합니다.
+. 저장 후 닫기 * 를 클릭합니다.
+
+
+* 관련 정보 *
+
+xref:reference_network_window.adoc[네트워크 창]

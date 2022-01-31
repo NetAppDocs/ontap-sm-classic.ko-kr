@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/reference_how_flash_cache_modules_work.html 
+sidebar: sidebar 
+keywords: flash, cache, module, storage, system, online, free, hardware 
+summary: Flash Cache 모듈을 사용하면 스토리지 시스템의 성능이 향상됩니다. Flash Cache 모듈을 사용할 때의 영향이 하드웨어 캐시 창에 표시됩니다. 
+---
+= Flash Cache 모듈의 작동 방식
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Flash Cache 모듈을 사용하면 스토리지 시스템의 성능이 향상됩니다. Flash Cache 모듈을 사용할 때의 영향이 하드웨어 캐시 창에 표시됩니다.
+
+스토리지 시스템의 워크로드 요구사항에 따라 Flash Cache 모듈과 디스크를 구성할 수 있습니다. Flash Cache 모듈과 디스크가 제공하는 읽기 워크로드(읽기 작업 수)를 확인하여 스토리지 시스템의 성능을 분석할 수 있습니다.
+
+스토리지 시스템 부팅 중에 또는 테이크오버 이벤트 후 제어가 스토리지 시스템으로 반환되는 경우에는 Flash Cache 모듈에 데이터가 없습니다. 따라서 디스크는 스토리지 시스템의 모든 데이터 읽기 요청을 처리합니다.
+
+데이터 읽기 요청이 처리되면 Flash Cache 모듈이 서서히 데이터로 채워집니다. Flash Cache 모듈이 제공하는 데이터 읽기 요청이 디스크에서 제공하는 것보다 빠르기 때문에 스토리지 시스템의 성능이 향상됩니다.
+
+Flash Cache 모듈이 제공하는 데이터 읽기 요청은 디스크에서 제공되는 데이터 읽기 요청을 대체하므로 스토리지 시스템의 성능 향상 기능은 교체된 디스크 읽기와 직접 연결됩니다. Flash Cache 모듈이 스토리지 시스템 성능에 미치는 영향을 이해하려면 Flash Cache 모듈에 데이터가 포함되어 있을 때 하드웨어 캐시 창에서 읽기 워크로드 그래프를 확인해야 합니다.

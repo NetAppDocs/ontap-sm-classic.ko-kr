@@ -1,0 +1,35 @@
+---
+permalink: online-help-96-97/task_enabling_or_disabling_ddns.html 
+sidebar: sidebar 
+keywords: enable, disable, ddns, storage, system, manager, online, help 
+summary: System Manager를 사용하여 스토리지 시스템에서 DDNS를 활성화 또는 비활성화할 수 있습니다. 
+---
+= DDNS 활성화 또는 비활성화
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하여 스토리지 시스템에서 DDNS를 활성화 또는 비활성화할 수 있습니다.
+
+.이 작업에 대해
+* DNS는 기본적으로 사용하도록 설정되어 있습니다.
+* DDNS는 기본적으로 비활성화되어 있습니다.
+* System Manager는 DNS 및 DDNS 설정에 대한 유효성 검사를 수행하지 않습니다.
+
+
+.단계
+. 스토리지 * > * SVM * 을 클릭합니다.
+. SVM을 선택한 다음 * SVM 설정 * 을 클릭합니다.
+. 서비스 * 창에서 * DNS/DDNS * 를 클릭합니다.
+. DNS/DDNS 서비스 * 창에서 * 편집 * 을 클릭합니다.
+. DNS/DDNS 설정 편집 * 대화 상자에서 * DDNS 서비스 * 확인란을 선택하여 DDNS를 활성화합니다.
++
+DDNS 서비스 * 확인란을 선택 취소하여 DDNS를 비활성화할 수 있습니다.
+
+. 확인 * 을 클릭합니다.
+
+
+* 관련 정보 *
+
+xref:reference_dns_ddns_window.adoc[DNS/DDNS 서비스 창]

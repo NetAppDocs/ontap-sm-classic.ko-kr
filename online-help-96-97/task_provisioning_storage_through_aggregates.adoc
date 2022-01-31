@@ -1,0 +1,33 @@
+---
+permalink: online-help-96-97/task_provisioning_storage_through_aggregates.html 
+sidebar: sidebar 
+keywords: provision, storage, aggregates, snaplock, fabricpool, online, help, flash, pool 
+summary: 스토리지 권장 사항에 따라 애그리게이트를 생성할 수 있으며, 요구사항에 따라 수동으로 생성할 수도 있습니다. System Manager를 사용하여 Flash Pool 애그리게이트, SnapLock 애그리게이트 및 FabricPool 지원 애그리게이트를 만들어 하나 이상의 볼륨에 스토리지를 제공할 수 있습니다. 
+---
+= 애그리게이트를 통한 스토리지 프로비저닝
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 권장 사항에 따라 애그리게이트를 생성할 수 있으며, 요구사항에 따라 수동으로 생성할 수도 있습니다. System Manager를 사용하여 Flash Pool 애그리게이트, SnapLock 애그리게이트 및 FabricPool 지원 애그리게이트를 만들어 하나 이상의 볼륨에 스토리지를 제공할 수 있습니다.
+
+Aggregate를 생성하려면 스페어 디스크가 충분해야 합니다.
+
+System Manager를 사용하면 다음 작업을 수행할 수 없습니다.
+
+* 크기가 다른 스페어 디스크가 충분하더라도 크기가 다른 디스크를 결합합니다.
++
+처음에 동일한 크기의 디스크로 애그리게이트를 생성한 다음 나중에 다른 크기의 디스크를 추가할 수 있습니다.
+
+* 서로 다른 체크섬 유형의 디스크를 결합합니다.
++
+처음에 단일 체크섬 유형의 애그리게이트를 생성하고 나중에 다른 체크섬 유형의 스토리지를 추가할 수 있습니다.
+
+
+
+* 관련 정보 *
+
+xref:reference_aggregates_window.adoc[애그리게이트 창]
+
+xref:reference_storage_tiers_window.adoc[Storage Tiers 창]

@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_autosupport.html 
+sidebar: sidebar 
+keywords: autosupport, notification, message, monitor, system, health, storage 
+summary: System Manager를 사용하면 스토리지 시스템 상태를 모니터링하는 데 도움이 되는 AutoSupport 알림을 구성할 수 있습니다. 
+---
+= AutoSupport 알림
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하면 스토리지 시스템 상태를 모니터링하는 데 도움이 되는 AutoSupport 알림을 구성할 수 있습니다.

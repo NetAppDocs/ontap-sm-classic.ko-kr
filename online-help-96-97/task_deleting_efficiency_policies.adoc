@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_deleting_efficiency_policies.html 
+sidebar: sidebar 
+keywords: delete, efficiency, policies, system, manager, online, help 
+summary: System Manager를 사용하면 더 이상 필요하지 않은 효율성 정책을 삭제할 수 있습니다. 
+---
+= 효율성 정책을 삭제하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Managerto를 사용하면 더 이상 필요하지 않은 효율성 정책을 삭제할 수 있습니다.
+
+효율성 정책을 사용하지 않도록 설정해야 합니다.
+
+.단계
+. 스토리지 * > * SVM * 을 클릭합니다.
+. SVM을 선택한 다음 * SVM 설정 * 을 클릭합니다.
+. Policies * 창에서 * Efficiency Policies * 를 클릭합니다.
+. 삭제할 효율성 정책을 선택한 다음 * 삭제 * 를 클릭합니다.
+. 확인 확인란을 선택한 다음 * 삭제 * 를 클릭합니다.
+

@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/concept_quota_management.html 
+sidebar: sidebar 
+keywords: quota, management, system, manager, create, edit, delete, online help, user, group, tree 
+summary: System Manager에는 할당량을 생성, 편집 또는 삭제하는 데 도움이 되는 몇 가지 기능이 있습니다. 사용자, 그룹 또는 트리 할당량을 생성하고 디스크 및 파일 레벨에서 할당량 제한을 지정할 수 있습니다. 모든 할당량은 볼륨별로 설정됩니다. 
+---
+= 할당량 관리
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager에는 할당량을 생성, 편집 또는 삭제하는 데 도움이 되는 몇 가지 기능이 있습니다. 사용자, 그룹 또는 트리 할당량을 생성하고 디스크 및 파일 레벨에서 할당량 제한을 지정할 수 있습니다. 모든 할당량은 볼륨별로 설정됩니다.
+
+할당량을 생성한 후 다음 작업을 수행할 수 있습니다.
+
+* 할당량을 설정 및 해제합니다
+* 할당량 크기 조정
+

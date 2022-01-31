@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/task_resuming_vault_relationships.html 
+sidebar: sidebar 
+keywords: resume, vault, relationship, online, help, system, manager, data, transfer 
+summary: System Manager를 사용하여 정지된 볼트 관계를 재개할 수 있습니다. 관계를 재개하면 대상 FlexVol 볼륨에 대한 정상적인 데이터 전송이 재개되고 모든 볼트 작업이 다시 시작됩니다. 
+---
+= 볼트 관계를 다시 시작합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하여 정지된 볼트 관계를 재개할 수 있습니다. 관계를 재개하면 대상 FlexVol 볼륨에 대한 정상적인 데이터 전송이 재개되고 모든 볼트 작업이 다시 시작됩니다.
+
+.단계
+. 보호 * > * 볼륨 관계 * 를 클릭합니다.
+. 데이터 전송을 재개할 관계를 선택하고 * 작업 * > * 재개 * 를 클릭합니다.
+. Resume* 창에서 * Resume * 을 클릭합니다.
+
+
+정상적인 데이터 전송이 다시 시작됩니다. 관계에 대해 예약된 전송이 있는 경우 다음 일정에서 전송이 시작됩니다.
+
+* 관련 정보 *
+
+xref:reference_protection_window.adoc[보호 윈도우]

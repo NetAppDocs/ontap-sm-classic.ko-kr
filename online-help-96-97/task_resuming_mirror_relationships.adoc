@@ -1,0 +1,28 @@
+---
+permalink: online-help-96-97/task_resuming_mirror_relationships.html 
+sidebar: sidebar 
+keywords: resume, mirror, relationship, normal, data, transfer, online, help 
+summary: 중지된 미러 관계를 재개할 수 있습니다. 관계를 재개하면 미러 대상에 대한 정상적인 데이터 전송이 재개되고 모든 미러 작업이 다시 시작됩니다. 
+---
+= 미러 관계를 재개하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+중지된 미러 관계를 재개할 수 있습니다. 관계를 재개하면 미러 대상에 대한 정상적인 데이터 전송이 재개되고 모든 미러 작업이 다시 시작됩니다.
+
+CLI(Command-Line Interface)에서 손상된 미러 관계를 중지했다면 System Manager에서 관계를 재개할 수 없습니다. CLI를 사용하여 관계를 재개해야 합니다.
+
+.단계
+. 보호 * > * 볼륨 관계 * 를 클릭합니다.
+. 재개할 미러 관계를 선택합니다.
+. Operations * > * Resume * 을 클릭합니다.
+. 확인 확인란을 선택하고 * Resume * 을 클릭합니다.
+
+
+미러 대상에 대한 데이터 전송이 선택한 미러 관계에 대해 재개됩니다.
+
+* 관련 정보 *
+
+xref:reference_protection_window.adoc[보호 윈도우]

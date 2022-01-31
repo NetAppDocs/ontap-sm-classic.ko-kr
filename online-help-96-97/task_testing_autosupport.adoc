@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_testing_autosupport.html 
+sidebar: sidebar 
+keywords: test, autosupport, setting, online, help, system, manager 
+summary: 시스템 관리자의 AutoSupport 테스트 대화 상자를 사용하여 AutoSupport 설정이 올바르게 구성되었는지 테스트할 수 있습니다. 
+---
+= AutoSupport 설정을 테스트하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+시스템 관리자의 AutoSupport 테스트 대화 상자를 사용하여 AutoSupport 설정이 올바르게 구성되었는지 테스트할 수 있습니다.
+
+.단계
+. 를 클릭합니다image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]* > * AutoSupport *.
+. 노드를 선택한 다음 * 테스트 * 를 클릭합니다.
+. AutoSupport 테스트 * 대화 상자에서 AutoSupport 제목 텍스트 ""Test AutoSupport"" 또는 수신자에게 AutoSupport 설정 테스트 중임을 알리는 텍스트를 입력합니다.
+. Test * 를 클릭합니다.
++
+제목 ""Test AutoSupport(테스트 제목)" 또는 * AutoSupport subject(제목) * 필드에 입력한 텍스트가 있는 이메일 메시지가 지정된 수신자에게 전송됩니다.
+
+

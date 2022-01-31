@@ -1,0 +1,26 @@
+---
+permalink: online-help-96-97/task_adding_initiators.html 
+sidebar: sidebar 
+keywords: online, help, add, initiator, system, help, group, lun, online, help 
+summary: System Manager를 사용하여 이니시에이터를 이니시에이터 그룹에 추가할 수 있습니다. 이니시에이터는 LUN이 속한 이니시에이터 그룹이 해당 LUN에 매핑될 때 LUN에 대한 액세스를 제공합니다. 
+---
+= 이니시에이터를 추가합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하여 이니시에이터를 이니시에이터 그룹에 추가할 수 있습니다. 이니시에이터는 LUN이 속한 이니시에이터 그룹이 해당 LUN에 매핑될 때 LUN에 대한 액세스를 제공합니다.
+
+.단계
+. 스토리지 * > * LUN * 을 클릭합니다.
+. LUN 관리 * 탭에서 이니시에이터를 추가할 이니시에이터 그룹을 선택하고 * 편집 * 을 클릭합니다.
+. 이니시에이터 그룹 편집 * 대화 상자에서 * 이니시에이터 * 를 클릭합니다.
+. 추가 * 를 클릭합니다.
+. 이니시에이터 이름을 지정하고 * OK * 를 클릭합니다.
+. 저장 후 닫기 * 를 클릭합니다.
+
+
+* 관련 정보 *
+
+xref:reference_luns_window.adoc[LUN 창]

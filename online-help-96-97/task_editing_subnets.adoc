@@ -1,0 +1,38 @@
+---
+permalink: online-help-96-97/task_editing_subnets.html 
+sidebar: sidebar 
+keywords: edit, subnet, settings, system, manager, modify, online, help 
+summary: System Manager를 사용하여 서브넷의 이름, 서브넷 주소, IP 주소 범위, 게이트웨이 주소 등과 같은 서브넷 특성을 수정할 수 있습니다. 
+---
+= 서브넷 설정 편집
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하여 서브넷의 이름, 서브넷 주소, IP 주소 범위, 게이트웨이 주소 등과 같은 서브넷 특성을 수정할 수 있습니다.
+
+.이 작업에 대해
+* 시스템 관리자를 사용하여 클러스터 IPspace에서 서브넷을 편집할 수는 없습니다.
++
+대신 CLI(Command-Line Interface)를 사용해야 합니다.
+
+* 게이트웨이 주소를 수정해도 경로가 업데이트되지 않습니다.
++
+경로를 업데이트하려면 CLI를 사용해야 합니다.
+
+
+
+.단계
+. 네트워크 * > * 서브넷 * 을 클릭합니다.
+. 수정할 서브넷을 선택한 다음 * 편집 * 을 클릭합니다.
++
+해당 서브넷의 LIF가 아직 사용 중인 경우에도 서브넷을 수정할 수 있습니다.
+
+. [서브넷 편집] * 대화 상자에서 필요에 따라 서브넷 속성을 수정합니다.
+. 저장 후 닫기 * 를 클릭합니다.
+
+
+* 관련 정보 *
+
+xref:reference_network_window.adoc[네트워크 창]

@@ -1,0 +1,109 @@
+---
+settings:
+  name: System Manager Classic
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+  search: ontap
+  harmony_enabled: true
+  langs: ko-kr,us-en,ja-jp,zh-cn
+sidebar:
+  entries:
+  - title: System Manager Classic 문서
+    url: "/index.html"
+  - title: NAS 스토리지 용량 할당
+    entries:
+    - section: nfs-config
+    - section: nfs-config-esxi
+    - section: nas-multiprotocol-config
+    - section: smb-config
+  - title: SAN 스토리지 용량 할당
+    entries:
+    - section: fc-config-esxi
+    - section: fc-config-rhel
+    - section: fc-config-windows
+    - section: iscsi-config-esxi
+    - section: iscsi-config-rhel
+    - section: iscsi-config-windows
+  - title: 데이터 보호 및 재해 복구
+    entries:
+    - section: peering
+    - section: volume-disaster-recovery
+    - section: volume-disaster-prep
+    - section: volume-backup-snapvault
+    - section: volume-restore-snapvault
+  - title: 클러스터 관리
+    entries:
+    - section: expansion
+    - section: volume-move
+    - section: snmp-config
+  - title: System Manager 9.6 및 9.7을 사용한 클러스터 관리
+    entries:
+    - section: online-help-96-97
+  - title: ONTAP 문서
+    url: https://docs.netapp.com/us-en/ontap/
+  - title: 법적 고지
+    url: "/reference_legal_notices.html"
+homepage:
+  tiles:
+  - title: 시작하십시오
+    links:
+    - title: System Manager 클래식 이해
+      url: "/online-help-96-97/index.html"
+    - title: ONTAP 9.7 이상을 위한 차세대 System Manager로 ONTAP를 관리하십시오
+      url: https://docs.netapp.com/us-en/ontap/concept_administration_overview.html
+    - title: CLI를 사용하여 ONTAP를 관리합니다
+      url: https://docs.netapp.com/us-en/ontap/system-admin/index.html
+  - title: NAS 스토리지 용량 할당
+    links:
+    - title: NFS 구성
+      url: "/nfs-config/index.html"
+    - title: VSC를 사용한 ESXi용 NFS 구성
+      url: "/nfs-config-esxi/index.html"
+    - title: SMB 및 NFS 멀티 프로토콜 구성
+      url: "/nas-multiprotocol-config/index.html"
+    - title: SMB 구성
+      url: "/smb-config/index.html"
+  - title: SAN 스토리지 용량 할당
+    links:
+    - title: VSC를 사용한 ESXi에 대한 FC 구성
+      url: "/fc-config-esxi/index.html"
+    - title: Red Hat Enterprise Linux용 FC 구성
+      url: "/fc-config-rhel/index.html"
+    - title: Windows용 FC 구성
+      url: "/fc-config-windows/index.html"
+    - title: VSC를 사용한 ESXi용 iSCSI 구성
+      url: "/iscsi-config-esxi/index.html"
+    - title: Red Hat Enterprise Linux용 iSCSI 구성
+      url: "/iscsi-config-rhel/index.html"
+    - title: Windows용 iSCSI 구성
+      url: "/iscsi-config-windows/index.html"
+  - title: 데이터 보호 및 재해 복구
+    links:
+    - title: 클러스터 및 SVM 피어링 구성
+      url: "/peering/index.html"
+    - title: 볼륨 재해 복구
+      url: "/volume-disaster-recovery/index.html"
+    - title: 볼륨 재해 복구 준비
+      url: "/volume-disaster-prep/index.html"
+    - title: 볼륨 백업 SnapVault
+      url: "/volume-backup-snapvault/index.html"
+    - title: SnapVault를 사용한 볼륨 복원 관리
+      url: "/volume-restore-snapvault/index.html"
+  - title: 클러스터 관리
+    links:
+    - title: 클러스터 확장 구성
+      url: "/expansion/index.html"
+    - title: 볼륨 이동 관리
+      url: "/volume-move/index.html"
+    - title: SNMP 구성
+      url: "/snmp-config/index.html"
+    - title: System Manger 9.6 및 9.7을 사용한 클러스터 관리
+      url: "/online-help-96-97/index.html"
+  - title: 더 많은 리소스
+    links:
+    - title: ONTAP 9 설명서
+      url: https://docs.netapp.com/us-en/ontap/
+    - title: 자동화 및 REST API 문서
+      url: https://docs.netapp.com/us-en/ontap-automation/index.html

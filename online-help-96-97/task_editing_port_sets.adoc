@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/task_editing_port_sets.html 
+sidebar: sidebar 
+keywords: edit, port, set, portset, tab, system, manager, online, help 
+summary: System Manager의 Portsets 탭을 사용하여 포트 세트와 관련된 설정을 편집할 수 있습니다. 
+---
+= 포트 세트 편집
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager의 Portsets 탭을 사용하여 포트 세트와 관련된 설정을 편집할 수 있습니다.
+
+.단계
+. 스토리지 * > * LUN * 을 클릭합니다.
+. Portsets * 탭에서 편집할 포트 세트를 선택하고 * Edit * 를 클릭합니다.
+. [포트세트 편집] * 대화 상자에서 필요한 사항을 변경합니다.
+. 저장 후 닫기 * 를 클릭합니다.
+
+
+* 관련 정보 *
+
+xref:task_configuring_iscsi_protocol_on_svms.adoc[SVM에서 iSCSI 프로토콜 구성]

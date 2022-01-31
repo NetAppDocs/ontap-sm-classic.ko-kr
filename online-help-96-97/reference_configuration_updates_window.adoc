@@ -1,0 +1,69 @@
+---
+permalink: online-help-96-97/reference_configuration_updates_window.html 
+sidebar: sidebar 
+keywords: configuration, update, window, tab, node, command, button, svm, online, help 
+summary: '구성 업데이트 창을 사용하여 클러스터, SVM(스토리지 가상 시스템) 및 노드의 구성 세부 정보를 업데이트할 수 있습니다.' 
+---
+= Configuration Updates(구성 업데이트) 창
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+구성 업데이트 창을 사용하여 클러스터, SVM(스토리지 가상 시스템) 및 노드의 구성 세부 정보를 업데이트할 수 있습니다.
+
+
+
+== 탭
+
+* * 노드 *
++
+노드의 세부 정보를 구성할 수 있습니다.
+
+* SVM *
++
+SVM의 세부 정보를 구성할 수 있습니다.
+
+
+
+
+
+== 노드 탭
+
+
+
+== 명령 버튼
+
+* * 노드 이름 편집 *
++
+노드 이름을 수정할 수 있는 노드 이름 편집 대화 상자를 엽니다.
+
+* * 노드 관리 LIF를 생성합니다 *
++
+노드 관리 LIF 생성 대화 상자를 엽니다. 이 대화 상자에서 특정 노드를 관리할 노드 관리 LIF를 생성할 수 있습니다.
+
+* * AutoSupport 편집 *
++
+AutoSupport 설정 편집 대화 상자를 엽니다. 이 대화 상자에서 이메일 알림을 보낼 이메일 주소를 지정하고 호스트 이름의 이메일 주소를 여러 개 추가할 수 있습니다.
+
+
+
+
+
+== SVM 탭
+
+
+
+== 명령 단추
+
+* * 관리 세부 정보 구성 *
++
+SVM의 관리 세부 정보를 구성할 수 있는 관리 세부 정보 구성 대화 상자를 엽니다.
+
+
+
+* 관련 정보 *
+
+xref:task_creating_cluster.adoc[클러스터 생성]
+
+xref:task_setting_up_network_when_ip_address_range_is_disabled.adoc[IP 주소 범위가 비활성화된 경우 네트워크 설정]

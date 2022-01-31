@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_reloading_cifs_group_policy.html 
+sidebar: sidebar 
+keywords: cifs, group, policy, reload, online, help, group, policy 
+summary: 정책 상태가 변경된 경우 CIFS 그룹 정책을 다시 로드해야 합니다. System Manager의 CIFS 창을 사용하여 그룹 정책을 다시 로드할 수 있습니다. 
+---
+= CIFS 그룹 정책을 다시 로드하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+정책 상태가 변경된 경우 CIFS 그룹 정책을 다시 로드해야 합니다. System Manager의 CIFS 창을 사용하여 그룹 정책을 다시 로드할 수 있습니다.
+
+.단계
+. 스토리지 * > * SVM * 을 클릭합니다.
+. SVM을 선택한 다음 * SVM 설정 * 을 클릭합니다.
+. 도메인 * 탭을 클릭합니다.
+. Group Policy * 영역에서 다시 로드할 그룹 정책 구성을 선택한 다음 * Reload * 를 클릭합니다.
+

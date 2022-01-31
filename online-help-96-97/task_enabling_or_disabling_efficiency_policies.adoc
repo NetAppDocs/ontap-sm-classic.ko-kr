@@ -1,0 +1,22 @@
+---
+permalink: online-help-96-97/task_enabling_or_disabling_efficiency_policies.html 
+sidebar: sidebar 
+keywords: enable, disable, efficiency, policy, online, help system, manager 
+summary: System Manager를 사용하여 효율성 정책을 사용하거나 사용하지 않도록 설정할 수 있습니다. 
+---
+= 효율성 정책 활성화 또는 비활성화
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하여 효율성 정책을 사용하거나 사용하지 않도록 설정할 수 있습니다.
+
+.단계
+. 스토리지 * > * SVM * 을 클릭합니다.
+. SVM을 선택한 다음 * SVM 설정 * 을 클릭합니다.
+. Policies * 창에서 * Efficiency Policies * 를 클릭합니다.
+. 활성화 또는 비활성화할 효율성 정책을 하나 이상 선택합니다.
+. 필요에 따라 * 상태 * > * 활성화 * 또는 * 상태 * > * 비활성화 * 를 클릭합니다.
+. 효율성 정책을 사용하지 않으려면 확인 확인란을 선택한 다음 * 확인 * 을 클릭합니다.
+

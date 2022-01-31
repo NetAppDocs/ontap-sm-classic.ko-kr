@@ -1,0 +1,34 @@
+---
+permalink: online-help-96-97/concept_qtree_options.html 
+sidebar: sidebar 
+keywords: qtree, option, defined, logically, file, subdirectory, root, flexvol, volume, partition, data, manage, online, help 
+summary: qtree는 논리적으로 정의된 파일 시스템으로, FlexVol 볼륨 내의 루트 디렉토리에 있는 특수 하위 디렉토리로 존재할 수 있습니다. Qtree는 볼륨 내에서 데이터를 관리하고 파티셔닝하는 데 사용됩니다. 
+---
+= Qtree 옵션
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+qtree는 논리적으로 정의된 파일 시스템으로, FlexVol 볼륨 내의 루트 디렉토리에 있는 특수 하위 디렉토리로 존재할 수 있습니다. Qtree는 볼륨 내에서 데이터를 관리하고 파티셔닝하는 데 사용됩니다.
+
+볼륨이 포함된 FlexVol에서 qtree를 생성하는 경우 qtree가 디렉토리로 표시됩니다. 따라서 볼륨을 삭제할 때 실수로 Qtree를 삭제하지 않도록 주의해야 합니다.
+
+qtree를 생성할 때 다음 옵션을 지정할 수 있습니다.
+
+* qtree의 이름입니다
+* qtree가 상주할 볼륨입니다
+* oplocks
++
+기본적으로 qtree에 대해 oplocks가 설정됩니다. 전체 스토리지 시스템에 대해 oplocks를 해제하면 각 qtree에 대해 oplocks를 설정하더라도 oplocks가 설정되지 않습니다.
+
+* 보안 스타일
++
+보안 스타일은 UNIX, NTFS 또는 혼합(UNIX 및 NTFS)일 수 있습니다. 기본적으로 qtree의 보안 스타일은 선택한 볼륨의 보안 스타일과 동일합니다.
+
+* 엑스포트 정책
++
+새 엑스포트 정책을 생성하거나 기존 정책을 선택할 수 있습니다. 기본적으로 qtree의 엑스포트 정책은 선택한 볼륨의 엑스포트 정책과 동일합니다.
+
+* qtree 및 사용자 할당량에 대한 공간 사용 제한
+

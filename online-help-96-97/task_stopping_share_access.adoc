@@ -1,0 +1,27 @@
+---
+permalink: online-help-96-97/task_stopping_share_access.html 
+sidebar: sidebar 
+keywords: folder, qtree, volume, system, manager, online, help, stop, share, access 
+summary: 폴더, qtree 또는 볼륨에 대한 공유 네트워크 액세스를 제거하려는 경우 System Manager를 사용하여 공유를 중지할 수 있습니다. 
+---
+= 공유 액세스를 중지하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+폴더, qtree 또는 볼륨에 대한 공유 네트워크 액세스를 제거하려는 경우 System Manager를 사용하여 공유를 중지할 수 있습니다.
+
+CIFS 라이센스를 설치해야 합니다.
+
+.단계
+. 스토리지 * > * 공유 * 를 클릭합니다.
+. SVM * 필드의 드롭다운 메뉴에서 중지할 CIFS 공유가 있는 SVM을 선택합니다.
+. 공유 목록에서 공유를 중지할 공유를 선택한 다음 * 공유 중지 * 를 클릭합니다.
+. 확인 확인란을 선택한 다음 * Stop * (중지 *)을 클릭합니다.
+. 공유가 * Shares * 창에 더 이상 표시되지 않는지 확인합니다.
+
+
+* 관련 정보 *
+
+xref:reference_shares_window.adoc[공유 창]

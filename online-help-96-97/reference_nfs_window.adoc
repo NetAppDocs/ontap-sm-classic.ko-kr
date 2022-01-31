@@ -1,0 +1,51 @@
+---
+permalink: online-help-96-97/reference_nfs_window.html 
+sidebar: sidebar 
+keywords: nfs, window, online, help, display, configure, settings, command, buttons 
+summary: NFS 창을 사용하여 NFS 설정을 표시하고 구성할 수 있습니다. 
+---
+= NFS 창
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NFS 창을 사용하여 NFS 설정을 표시하고 구성할 수 있습니다.
+
+* * 서버 상태 *
++
+NFS 서비스의 상태를 표시합니다. SVM(스토리지 가상 머신)에서 NFS 프로토콜을 구성하면 서비스가 활성화됩니다.
+
++
+[NOTE]
+====
+Data ONTAP 8.1.x를 실행하는 NFS 지원 스토리지 시스템에서 ONTAP 8.3 이상으로 업그레이드한 경우, ONTAP 8.3 이상에서 NFS 서비스를 사용할 수 있습니다. 하지만 NFSv2가 더 이상 지원되지 않으므로 NFSv3 또는 NFSv4에 대한 지원을 설정해야 합니다.
+
+====
+
+
+
+
+== 명령 버튼
+
+* * 활성화 *
++
+NFS 서비스를 설정합니다.
+
+* * 비활성화 *
++
+NFS 서비스를 해제합니다.
+
+* * 편집 *
++
+NFS 설정을 편집할 수 있는 NFS 설정 편집 대화 상자를 엽니다.
+
+* * 새로 고침 *
++
+창에서 정보를 업데이트합니다.
+
+
+
+* 관련 정보 *
+
+xref:task_editing_nfs_settings.adoc[NFS 설정을 편집하는 중입니다]

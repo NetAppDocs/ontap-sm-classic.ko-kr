@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_editing_cluster_user_account.html 
+sidebar: sidebar 
+keywords: edit, cluster, user, account, system, manager, online, help 
+summary: System Manager를 사용하면 스토리지 시스템에 액세스하기 위한 사용자 로그인 방법을 수정하여 클러스터 사용자 계정을 편집할 수 있습니다. 
+---
+= 클러스터 사용자 계정 편집
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하면 스토리지 시스템에 액세스하기 위한 사용자 로그인 방법을 수정하여 클러스터 사용자 계정을 편집할 수 있습니다.
+
+.단계
+. 를 클릭합니다image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*.
+. 관리 * 창에서 * 사용자 * 를 클릭합니다.
+. 사용자 * 창에서 수정할 사용자 계정을 선택한 다음 * 편집 * 을 클릭합니다.
+. 사용자 수정 * 대화 상자에서 사용자 로그인 방법을 수정한 다음 * 수정 * 을 클릭합니다.
+

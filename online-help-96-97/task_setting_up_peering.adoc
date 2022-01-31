@@ -1,0 +1,15 @@
+---
+permalink: online-help-96-97/task_setting_up_peering.html 
+sidebar: sidebar 
+keywords: set, up, peering, intercluster, logical, interfaces, lid, node, online, help, svm 
+summary: '피어링을 설정하려면 각 노드에 대한 인터클러스터 논리 인터페이스(LIF)를 생성하고 클러스터 피어링을 생성하고 SVM 피어링을 생성해야 합니다.' 
+---
+= 피어링 설정
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+피어링을 설정하려면 각 노드에 대한 인터클러스터 논리 인터페이스(LIF)를 생성하고 클러스터 피어링을 생성하고 SVM 피어링을 생성해야 합니다.
+
+image::../media/peering_workflow.gif[피어링 워크플로우]

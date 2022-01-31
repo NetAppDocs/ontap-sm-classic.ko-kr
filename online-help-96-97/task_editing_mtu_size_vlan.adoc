@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_editing_mtu_size_vlan.html 
+sidebar: sidebar 
+keywords: modify, mtu, size, vlan, system, manager, online, help 
+summary: 브로드캐스트 도메인에 속하지 않는 VLAN 인터페이스의 MTU 크기를 수정하려면 System Manager를 사용하여 크기를 변경할 수 있습니다. 
+---
+= VLAN의 MTU 크기 수정
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+브로드캐스트 도메인에 속하지 않는 VLAN 인터페이스의 MTU 크기를 수정하려면 System Manager를 사용하여 크기를 변경할 수 있습니다.
+
+관리 포트 e0M의 MTU 크기를 수정하면 안 됩니다.
+
+.단계
+. 네트워크 * > * 이더넷 포트 * 를 클릭합니다.
+. 수정할 VLAN을 선택한 다음 * 편집 * 을 클릭합니다.
+. Edit VLAN * 대화 상자에서 필요에 따라 MTU 크기를 수정한 다음 * Save * 를 클릭합니다.
+

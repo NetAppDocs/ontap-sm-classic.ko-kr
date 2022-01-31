@@ -1,0 +1,22 @@
+---
+permalink: online-help-96-97/task_editing_efficiency_policies.html 
+sidebar: sidebar 
+keywords: edit, efficiency, policy, system, manager, name, schedule, maximum, online, help 
+summary: System Manager를 사용하여 정책 이름, 스케줄 이름 및 최대 런타임 같은 효율성 정책의 특성을 수정할 수 있습니다. 
+---
+= 효율성 정책 편집
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하여 정책 이름, 스케줄 이름 및 최대 런타임 같은 효율성 정책의 특성을 수정할 수 있습니다.
+
+.단계
+. 스토리지 * > * SVM * 을 클릭합니다.
+. SVM을 선택한 다음 * SVM 설정 * 을 클릭합니다.
+. Policies * 창에서 * Efficiency Policies * 를 클릭합니다.
+. 효율성 정책 * 창에서 편집할 정책을 선택한 다음 * 편집 * 을 클릭합니다.
+. [효율성 정책 편집] * 대화 상자에서 필요한 사항을 변경합니다.
+. 저장 * 을 클릭합니다.
+

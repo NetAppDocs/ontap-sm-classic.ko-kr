@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_shares.html 
+sidebar: sidebar 
+keywords: online, help, share, system, manager, create, edit, manage, share 
+summary: System Manager를 사용하여 공유를 생성, 편집 및 관리할 수 있습니다. 
+---
+= 공유
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하여 공유를 생성, 편집 및 관리할 수 있습니다.

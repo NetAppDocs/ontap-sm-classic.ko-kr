@@ -1,0 +1,47 @@
+---
+permalink: online-help-96-97/task_editing_schedules.html 
+sidebar: sidebar 
+keywords: edit, schedule, cron, interval, system, manager, modify, online, help 
+summary: System Manager를 사용하여 이전에 생성한 cron 일정 또는 필요 사항을 충족하지 않는 경우 일정 간격을 변경할 수 있습니다. 반복 일 및 시간, 간격 옵션 및 고급 cron 옵션과 같은 일정 세부 정보를 수정할 수 있습니다. 
+---
+= 일정 편집
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하여 이전에 생성한 cron 일정 또는 필요 사항을 충족하지 않는 경우 일정 간격을 변경할 수 있습니다. 반복 일 및 시간, 간격 옵션 및 고급 cron 옵션과 같은 일정 세부 정보를 수정할 수 있습니다.
+
+MetroCluster 구성에서 일정을 편집할 때는 정상적인 사이트 클러스터에서 동일한 일정을 편집하는 것이 좋습니다.
+
+.단계
+. Protection * > * Schedules * 를 클릭합니다.
+. 수정할 일정을 선택하고 * 편집 * 을 클릭합니다.
+. [일정 편집] * 대화 상자에서 적절한 작업을 수행하여 일정을 수정합니다.
++
+|===
+| 일정 옵션을 다음과 같이 선택하는 경우... | 이렇게 하십시오. 
+
+
+ a| 
+기본
+ a| 
+반복 요일 및 반복 일정 세부 정보를 지정합니다.
+
+
+
+ a| 
+간격
+ a| 
+간격 옵션을 일, 시간 및 분으로 지정합니다.
+
+
+
+ a| 
+고급
+ a| 
+월, 일, 주(해당되는 경우), 시간 및 분 단위로 고급 cron 옵션을 지정합니다.
+
+|===
+. 확인 * 을 클릭합니다.
+

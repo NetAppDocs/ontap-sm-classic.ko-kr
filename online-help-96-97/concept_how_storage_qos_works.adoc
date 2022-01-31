@@ -1,0 +1,28 @@
+---
+permalink: online-help-96-97/concept_how_storage_qos_works.html 
+sidebar: sidebar 
+keywords: storage, qos, control, workload, throttle, prioritize, client, operations, san, nas, system, operation, online, help 
+summary: '스토리지 QoS는 클라이언트 작업(SAN 및 NAS 데이터 요청) 및 시스템 운영을 제어하고 우선 순위를 지정하여 정책 그룹에 할당된 워크로드를 제어합니다.' 
+---
+= 스토리지 QoS의 작동 방식
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 QoS는 클라이언트 작업(SAN 및 NAS 데이터 요청) 및 시스템 운영을 제어하고 우선 순위를 지정하여 정책 그룹에 할당된 워크로드를 제어합니다.
+
+다음 그림에서는 스토리지 QoS를 사용하기 전과 후의 샘플 환경을 보여 줍니다. 왼쪽은 워크로드가 클러스터 리소스를 두고 I/O를 전송하기 위해 경쟁합니다 이러한 워크로드는 "'최상 노력''' 성능을 내므로 성능 예측 가능성이 낮습니다(예: 워크로드가 다른 워크로드에 부정적인 영향을 줄 수 있는 그렇게 좋은 성능을 얻을 수 있음). 오른쪽에는 최대 처리량 제한을 적용하는 정책 그룹에 동일한 워크로드가 할당됩니다.
+
+image::../media/qos_comparison.gif[이 그래픽은 주변 텍스트로 설명됩니다.]
+
+'-max-throughput' 매개 변수는 정책 그룹이 초과해서는 안 되는 정책 그룹의 최대 처리량 제한을 지정합니다. 이 매개 변수의 값은 IOPS 또는 MB/s 또는 쉼표로 구분된 IOPS 및 MB/s 값의 조합으로 지정되며 범위는 0 - 무한대입니다.
+
+단위는 10입니다. 숫자와 단위 사이에 공백이 없어야 합니다. '-max-throughput' 파라미터의 기본값은 infinity로, 특별한 값 INF로 지정된다.
+
+[NOTE]
+====
+'-max-throughput' 파라미터의 기본 단위는 없다. 0 및 무한대를 제외한 모든 값에 대해 단위를 지정해야 합니다.
+
+====
+값을 제거해야 하는 상황에서는 키워드 ""없음""을 사용할 수 있습니다. 최대 가용 값을 지정해야 하는 상황에서는 키워드 ""INF""를 사용할 수 있습니다. 유효한 처리량 사양은 다음과 같습니다. """100B/s"",""10KB/s",""1GB/s",""500MB/s"",""1TB/s", ""100iops"", ""100iops, 400KB/s"", ""800KB/s, 100iops".

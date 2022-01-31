@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_subnets.html 
+sidebar: sidebar 
+keywords: system, manager, manage, subnet, online, help 
+summary: System Manager를 사용하여 서브넷을 관리할 수 있습니다. 
+---
+= 서브넷
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하여 서브넷을 관리할 수 있습니다.

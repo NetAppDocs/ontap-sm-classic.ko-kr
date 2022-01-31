@@ -1,0 +1,59 @@
+---
+permalink: online-help-96-97/reference_icons_used_application_interface.html 
+sidebar: sidebar 
+keywords: icon, application, interface, dashboard, window, online, help, icon 
+summary: 인터페이스에서 아이콘을 보고 시스템 및 작업에 대한 빠른 정보를 얻을 수 있습니다. 
+---
+= 응용 프로그램 인터페이스에 사용되는 아이콘입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+인터페이스에서 아이콘을 보고 시스템 및 작업에 대한 빠른 정보를 얻을 수 있습니다.
+
+
+
+== 대시보드 창 아이콘
+
+스토리지 시스템의 대시보드를 볼 때 다음 아이콘이 표시될 수 있습니다.
+
+|===
+| 아이콘을 클릭합니다 | 이름 | 설명 
+
+
+ a| 
+image:../media/statuswarning.gif["System Manager 대시보드의 경고 이미지"]
+ a| 
+경고
+ a| 
+사소한 문제가 있지만 즉각적인 주의가 필요한 문제는 없습니다.
+
+
+
+ a| 
+image:../media/statuserror.gif["System Manager 대시보드의 오류 이미지"]
+ a| 
+오류
+ a| 
+문제로 인해 다운타임이 발생할 수 있으므로 주의가 필요합니다.
+
+
+
+ a| 
+image:../media/statuscritical.gif["System Manager 대시보드의 중요 이미지"]
+ a| 
+심각
+ a| 
+스토리지 시스템에서 데이터를 제공하지 않거나 연결할 수 없습니다. 즉각적인 조치가 필요합니다.
+
+
+
+ a| 
+image:../media/arrowright.gif["System Manager 대시보드의 탐색 이미지"]
+ a| 
+링크 화살표
+ a| 
+대시보드 창의 라인 항목 옆에 이 항목이 표시되면 클릭하여 다른 페이지로 이동하여 라인 항목에 대한 자세한 정보를 확인하거나 라인 항목을 변경할 수 있습니다.
+
+|===

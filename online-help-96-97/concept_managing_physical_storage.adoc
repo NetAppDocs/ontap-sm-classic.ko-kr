@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_managing_physical_storage.html 
+sidebar: sidebar 
+keywords: manage, physical, storage, autosupport, system, manager, aggregate, pool, disks, array, lun, node, flash, cache, events, system alerts, statistics 
+summary: System Manager를 사용하여 애그리게이트, 스토리지 풀, 디스크, 어레이 LUN, 노드 등의 물리적 스토리지를 관리할 수 있습니다. Flash Cache, 이벤트, 시스템 알림, AutoSupport 알림, 작업, 및 Flash Pool 통계입니다. 
+---
+= 물리적 스토리지 관리
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하여 애그리게이트, 스토리지 풀, 디스크, 어레이 LUN, 노드 등의 물리적 스토리지를 관리할 수 있습니다. Flash Cache, 이벤트, 시스템 알림, AutoSupport 알림, 작업, 및 Flash Pool 통계입니다.

@@ -1,0 +1,73 @@
+---
+permalink: online-help-96-97/reference_iscsi_window.html 
+sidebar: sidebar 
+keywords: iscsi, window, tab, command, button, storage, system, initiator, online, help 
+summary: iSCSI 창을 사용하여 iSCSI 서비스를 시작 또는 중지하고, 스토리지 시스템 iSCSI 노드 이름을 변경하고, 스토리지 시스템의 iSCSI 별칭을 생성하거나 변경할 수 있습니다. 스토리지 시스템에 접속된 iSCSI 이니시에이터의 이니시에이터 보안 설정을 추가하거나 변경할 수도 있습니다. 
+---
+= iSCSI 창
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+iSCSI 창을 사용하여 iSCSI 서비스를 시작 또는 중지하고, 스토리지 시스템 iSCSI 노드 이름을 변경하고, 스토리지 시스템의 iSCSI 별칭을 생성하거나 변경할 수 있습니다. 스토리지 시스템에 접속된 iSCSI 이니시에이터의 이니시에이터 보안 설정을 추가하거나 변경할 수도 있습니다.
+
+
+
+== 탭
+
+* * 서비스 *
++
+서비스 * 탭을 사용하여 iSCSI 서비스를 시작 또는 중지하고, 스토리지 시스템 iSCSI 노드 이름을 변경하고, 스토리지 시스템의 iSCSI 별칭을 만들거나 변경할 수 있습니다.
+
+* * 초기자 보안 *
++
+이니시에이터 보안 * 탭을 사용하여 스토리지 시스템에 접속된 iSCSI 이니시에이터의 이니시에이터 보안 설정을 추가하거나 변경할 수 있습니다.
+
+
+
+
+
+== 명령 버튼
+
+* * 편집 *
++
+스토리지 시스템의 iSCSI 노드 이름 및 iSCSI 별칭을 변경할 수 있는 Edit iSCSI Service Configurations(iSCSI 서비스 구성 편집) 대화 상자를 엽니다.
+
+* * 시작 *
++
+iSCSI 서비스를 시작합니다.
+
+* * 중지 *
++
+iSCSI 서비스를 중지합니다.
+
+* * 새로 고침 *
++
+창에서 정보를 업데이트합니다.
+
+
+
+
+
+== 세부 정보 영역
+
+세부 정보 영역에는 iSCSI 서비스, iSCSI 타겟 노드 이름 및 iSCSI 타겟 별칭의 상태에 대한 정보가 표시됩니다. 이 영역을 사용하여 네트워크 인터페이스에서 iSCSI 서비스를 활성화 또는 비활성화할 수 있습니다.
+
+* 관련 정보 *
+
+xref:task_creating_iscsi_aliases.adoc[iSCSI 별칭을 생성하는 중입니다]
+
+xref:task_enabling_or_disabling_iscsi_service_on_storage_system_interfaces.adoc[스토리지 시스템 인터페이스에서 iSCSI 서비스를 설정하거나 해제합니다]
+
+xref:task_adding_security_method_for_iscsi_initiators.adoc[iSCSI 이니시에이터에 대한 보안 방법 추가]
+
+xref:task_editing_default_security_settings.adoc[기본 보안 설정 편집]
+
+xref:task_editing_initiator_security.adoc[이니시에이터 보안 편집]
+
+xref:task_changing_default_initiator_authentication_method.adoc[기본 iSCSI 초기자 인증 방법 변경]
+
+xref:task_setting_default_security_for_initiators.adoc[iSCSI 이니시에이터에 대한 기본 보안을 설정합니다]
+
+xref:task_starting_or_stopping_iscsi_service.adoc[iSCSI 서비스 시작 또는 중지]

@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_viewing_qtree_information.html 
+sidebar: sidebar 
+keywords: qtree, system, manager, security, style, information, view, online, help 
+summary: System Manager에서 qtree 창을 사용하여 qtree, 이름, 보안 스타일, qtree 상태 및 oplocks 상태가 포함된 볼륨을 볼 수 있습니다. 
+---
+= qtree 정보 보기
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager에서 qtree 창을 사용하여 qtree, 이름, 보안 스타일, qtree 상태 및 oplocks 상태가 포함된 볼륨을 볼 수 있습니다.
+
+.단계
+. 스토리지 * > * qtree * 를 클릭합니다.
+. SVM * 필드의 드롭다운 메뉴에서 정보를 확인할 qtree가 있는 스토리지 가상 머신(SVM)을 선택합니다.
+. 표시된 qtree 목록에서 qtree를 선택합니다.
+. qtree * 창에서 qtree 세부 정보를 검토합니다.
+

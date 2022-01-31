@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_vault_relationships.html 
+sidebar: sidebar 
+keywords: system, manager, create, manager, vault, policy, online, help 
+summary: 볼트 정책을 사용하여 시스템 관리자를 사용하여 볼트 관계를 작성하고 관리할 수 있습니다. 
+---
+= 볼트 관계
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+볼트 정책을 사용하여 시스템 관리자를 사용하여 볼트 관계를 작성하고 관리할 수 있습니다.

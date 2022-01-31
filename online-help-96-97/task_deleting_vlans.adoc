@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/task_deleting_vlans.html 
+sidebar: sidebar 
+keywords: delete, vlan, nic, system, manager, failover, rules, group, online, help 
+summary: System Manager를 사용하여 네트워크 포트에 구성된 VLAN을 삭제할 수 있습니다. NIC를 슬롯에서 제거하기 전에 VLAN을 삭제해야 할 수 있습니다. VLAN을 삭제하면 VLAN을 사용하는 모든 페일오버 규칙 및 그룹에서 VLAN이 자동으로 제거됩니다. 
+---
+= VLAN을 삭제하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하여 네트워크 포트에 구성된 VLAN을 삭제할 수 있습니다. NIC를 슬롯에서 제거하기 전에 VLAN을 삭제해야 할 수 있습니다. VLAN을 삭제하면 VLAN을 사용하는 모든 페일오버 규칙 및 그룹에서 VLAN이 자동으로 제거됩니다.
+
+VLAN에 연결된 LIF가 없어야 합니다.
+
+.단계
+. 네트워크 * > * 이더넷 포트 * 를 클릭합니다.
+. 삭제할 VLAN을 선택한 다음 * 삭제 * 를 클릭합니다.
+. 확인 확인란을 선택한 다음 * 삭제 * 를 클릭합니다.
+
+
+* 관련 정보 *
+
+xref:reference_network_window.adoc[네트워크 창]

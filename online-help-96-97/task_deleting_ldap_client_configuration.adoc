@@ -1,0 +1,31 @@
+---
+permalink: online-help-96-97/task_deleting_ldap_client_configuration.html 
+sidebar: sidebar 
+keywords: delete, ldap, client, configuration, online, help, svm 
+summary: 'System Manager를 사용하면 클러스터 레벨 또는 SVM(스토리지 가상 머신) 레벨에서 LDAP 클라이언트 구성을 삭제할 수 있습니다.' 
+---
+= LDAP 클라이언트 구성을 삭제하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하면 클러스터 레벨 또는 SVM(스토리지 가상 머신) 레벨에서 LDAP 클라이언트 구성을 삭제할 수 있습니다.
+
+SVM 레벨에서 선택한 SVM에 대해서만 LDAP 클라이언트를 삭제할 수 있습니다.
+
+.단계
+. LDAP 클라이언트 구성을 삭제하려면 다음을 따르십시오.
++
+** 클러스터 수준: * 를 클릭합니다image:../media/advanced_options.gif[""]* > * LDAP *.
+** SVM 레벨: * SVM * > * SVM 설정 * > * LDAP 클라이언트 * 를 클릭합니다.
+
+
+. 삭제할 LDAP 클라이언트를 선택하고 * Delete * 를 클릭합니다.
+. 확인 확인란을 선택한 다음 * 삭제 * 를 클릭합니다.
+. 삭제한 LDAP 클라이언트가 더 이상 표시되지 않는지 확인합니다.
+
+
+* 관련 정보 *
+
+xref:concept_ldap.adoc[LDAP를 지원합니다]

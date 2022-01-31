@@ -1,0 +1,18 @@
+---
+permalink: online-help-96-97/task_enabling_or_disabling_flash_cache_modules.html 
+sidebar: sidebar 
+keywords: enable, disable, flash, cache, module, online, help, system, manager 
+summary: System Manager를 사용하여 Flash Cache 모듈이 설치된 스토리지 시스템에 대해 외부 캐시 기능을 설정하거나 해제할 수 있습니다. 스토리지 시스템의 워크로드 요구사항에 따라 Flash Cache 모듈을 사용하도록 설정할 수 있습니다. 
+---
+= Flash Cache 모듈을 설정 또는 해제합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하여 Flash Cache 모듈이 설치된 스토리지 시스템에 대해 외부 캐시 기능을 설정하거나 해제할 수 있습니다. 스토리지 시스템의 워크로드 요구사항에 따라 Flash Cache 모듈을 사용하도록 설정할 수 있습니다.
+
+.단계
+. 구성 * > * 하드웨어 캐시 * 를 클릭합니다
+. 모듈이나 모듈을 수정하려면 필요에 따라 슬라이더 버튼을 움직여 각 모듈을 활성화 또는 비활성화합니다.
+

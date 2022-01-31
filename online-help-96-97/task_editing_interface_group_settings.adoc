@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/task_editing_interface_group_settings.html 
+sidebar: sidebar 
+keywords: edit, interface, group, settings, system, manager, ports, ass, online, help 
+summary: System Manager를 사용하여 인터페이스 그룹에 포트를 추가하고, 인터페이스 그룹에서 포트를 제거하고, 인터페이스 그룹에 있는 포트의 사용 모드 및 로드 분산 패턴을 수정할 수 있습니다. 
+---
+= 인터페이스 그룹 설정을 편집합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하여 인터페이스 그룹에 포트를 추가하고, 인터페이스 그룹에서 포트를 제거하고, 인터페이스 그룹에 있는 포트의 사용 모드 및 로드 분산 패턴을 수정할 수 있습니다.
+
+브로드캐스트 도메인에 할당된 인터페이스 그룹의 MTU 설정은 수정할 수 없습니다.
+
+.단계
+. 네트워크 * > * 이더넷 포트 * 를 클릭합니다.
+. 인터페이스 그룹을 선택한 다음 * 편집 * 을 클릭합니다.
+. 필요에 따라 인터페이스 그룹 설정을 수정한 다음 * 저장 후 닫기 * 를 클릭합니다.
+
+
+* 관련 정보 *
+
+xref:reference_network_window.adoc[네트워크 창]

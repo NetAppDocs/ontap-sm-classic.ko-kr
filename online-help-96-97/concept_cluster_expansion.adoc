@@ -1,0 +1,15 @@
+---
+permalink: online-help-96-97/concept_cluster_expansion.html 
+sidebar: sidebar 
+keywords: cluster, expanision, system, manager, storage, size, capabilities, node, configure, network, online, help 
+summary: System Manager를 사용하면 클러스터에 호환되는 노드를 추가하고 노드 네트워크 세부 정보를 구성하여 스토리지의 크기와 기능을 높일 수 있습니다. 노드의 요약을 볼 수도 있습니다. 
+---
+= 클러스터 확장
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하면 클러스터에 호환되는 노드를 추가하고 노드 네트워크 세부 정보를 구성하여 스토리지의 크기와 기능을 높일 수 있습니다. 노드의 요약을 볼 수도 있습니다.
+
+System Manager에 로그인하면 System Manager가 케이블로 연결되었지만 클러스터에 추가되지 않은 호환 노드를 자동으로 감지하여 노드를 추가하라는 메시지를 표시합니다. 호환 노드를 추가하거나 System Manager가 노드를 감지할 때 또는 나중에 노드를 수동으로 추가할 수 있습니다.

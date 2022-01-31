@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/task_viewing_lun_information.html 
+sidebar: sidebar 
+keywords: view, lun, information, manangement, online, help 
+summary: System Manager의 LUN 관리 탭을 사용하면 이름, 상태, 크기, 유형과 같은 LUN에 대한 세부 정보를 볼 수 있습니다. 
+---
+= LUN 정보 보기
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager의 LUN 관리 탭을 사용하면 이름, 상태, 크기, 유형과 같은 LUN에 대한 세부 정보를 볼 수 있습니다.
+
+.단계
+. 스토리지 * > * LUN * 을 클릭합니다.
+. LUN 관리 * 탭의 표시된 LUN 목록에서 정보를 확인할 LUN을 선택합니다.
+. LUN * 창에서 LUN 세부 정보를 검토합니다.
+

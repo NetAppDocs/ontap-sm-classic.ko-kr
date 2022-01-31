@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/concept_qtrees.html 
+sidebar: sidebar 
+keywords: system, manager, create, edit, delete, qtree 
+summary: System Manager에서 qtree를 생성, 편집, 삭제할 수 있습니다. 
+---
+= Qtree
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager에서 qtree를 생성, 편집, 삭제할 수 있습니다.
+
+* 관련 정보 *
+
+https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP 개념"^]
+
+https://docs.netapp.com/us-en/ontap/volumes/index.html["논리적 스토리지 관리"^]
+
+https://docs.netapp.com/us-en/ontap/nfs-admin/index.html["NFS 관리"^]
+
+https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB/CIFS 관리"^]

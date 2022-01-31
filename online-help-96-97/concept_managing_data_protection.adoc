@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_managing_data_protection.html 
+sidebar: sidebar 
+keywords: system, manager, protect, data, create, manage, mirror, vault, relationship, snapshot, policy, schedule, online, help 
+summary: 시스템 관리자를 사용하여 미러 관계, 볼트 관계, 미러 및 볼트 관계를 생성 및 관리하여 데이터를 보호할 수 있습니다. 또한 스냅샷 정책과 일정을 생성하고 관리할 수도 있습니다. 
+---
+= 데이터 보호 관리
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+시스템 관리자를 사용하여 미러 관계, 볼트 관계, 미러 및 볼트 관계를 생성 및 관리하여 데이터를 보호할 수 있습니다. 또한 스냅샷 정책과 일정을 생성하고 관리할 수도 있습니다.

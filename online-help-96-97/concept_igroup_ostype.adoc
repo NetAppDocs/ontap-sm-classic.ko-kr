@@ -1,0 +1,15 @@
+---
+permalink: online-help-96-97/concept_igroup_ostype.html 
+sidebar: sidebar 
+keywords: ostype, igroup, host, operating, system, initiator, solaris, windows, hpux, aix, netware, xen, hyper v, vmware, linux, online, help 
+summary: OSType은 igroup의 모든 이니시에이터가 사용하는 호스트 운영 체제의 유형을 나타냅니다. igroup의 모든 이니시에이터가 동일한 OSType이어야 합니다. 이니시에이터의 스텐은 Solaris, Windows, HPUX, AIX, NetWare, Xen, Hyper_V, VMware 및 Linux 
+---
+= Igroup OSType입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+OSType은 igroup의 모든 이니시에이터가 사용하는 호스트 운영 체제의 유형을 나타냅니다. igroup의 모든 이니시에이터가 동일한 OSType이어야 합니다. 초기자의 겉으로는 '솔리스', '윈도우', 'HPUX', 'AIX', 'NetWare', Xen, Hyper_V, VMware, Linux
+
+igroup에 대해 OSType을 선택해야 합니다.

@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_updating_cifs_group_policy_configuration.html 
+sidebar: sidebar 
+keywords: update, cifs, group, policy, configuration, online, help 
+summary: 'CLI(Command-Line Interface)를 통해 정책 구성이 변경된 후 그룹 정책을 업데이트해야 합니다. System Manager의 CIFS 창을 사용하여 그룹 정책을 업데이트할 수 있습니다.' 
+---
+= CIFS 그룹 정책 구성을 업데이트하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+CLI(Command-Line Interface)를 통해 정책 구성이 변경된 후 그룹 정책을 업데이트해야 합니다. System Manager의 CIFS 창을 사용하여 그룹 정책을 업데이트할 수 있습니다.
+
+.단계
+. 스토리지 * > * SVM * 을 클릭합니다.
+. SVM을 선택한 다음 * SVM 설정 * 을 클릭합니다.
+. 도메인 * 탭을 클릭합니다.
+. 그룹 정책 * 영역에서 업데이트할 그룹 정책 구성을 선택한 다음 * 업데이트 * 를 클릭합니다.
+

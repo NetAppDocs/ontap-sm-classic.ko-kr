@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/task_deleting_portsets.html 
+sidebar: sidebar 
+keywords: delete, port, sets, system, manager, online, help 
+summary: System Manager를 사용하면 더 이상 필요하지 않은 포트 세트를 삭제할 수 있습니다. 
+---
+= 포트 세트를 삭제하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하면 더 이상 필요하지 않은 포트 세트를 삭제할 수 있습니다.
+
+.단계
+. 스토리지 * > * LUN * 을 클릭합니다.
+. Portsets * 탭에서 하나 이상의 포트 세트를 선택하고 * Delete * 를 클릭합니다.
+. 삭제 * 를 클릭하여 삭제를 확인합니다.
+

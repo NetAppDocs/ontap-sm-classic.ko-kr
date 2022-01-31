@@ -1,0 +1,29 @@
+---
+permalink: online-help-96-97/task_editing_quota_limits.html 
+sidebar: sidebar 
+keywords: online, help, edit, quota, limits, system, limits, disk, space 
+summary: System Manager를 사용하여 디스크 공간 임계값, 할당량 대상이 사용할 수 있는 디스크 공간의 하드 제한값 및 소프트 제한값, 할당량 대상이 소유할 수 있는 파일의 하드 제한값 및 소프트 제한값을 편집할 수 있습니다. 
+---
+= 할당량 한도 편집 중
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하여 디스크 공간 임계값, 할당량 대상이 사용할 수 있는 디스크 공간의 하드 제한값 및 소프트 제한값, 할당량 대상이 소유할 수 있는 파일의 하드 제한값 및 소프트 제한값을 편집할 수 있습니다.
+
+.단계
+. 스토리지 * > * 할당량 * 을 클릭합니다.
+. SVM * 필드의 드롭다운 메뉴에서 편집할 할당량이 있는 SVM(스토리지 가상 시스템)을 선택합니다.
+. 편집할 할당량을 선택하고 * 제한 편집 * 을 클릭합니다.
+. 제한 편집 * 대화 상자에서 필요에 따라 할당량 설정을 편집합니다.
++
+100은 할당량이 소유할 수 있는 파일 수에 대한 하드 제한값과 소프트 제한값을 지정할 수 있는 최소값입니다. 100보다 작은 값을 지정하려면 CLI(Command-Line Interface)를 사용해야 합니다.
+
+. 저장 후 닫기 * 를 클릭합니다.
+. 사용자 정의 할당량 * 탭에서 선택한 할당량의 변경 사항을 확인합니다.
+
+
+* 관련 정보 *
+
+xref:reference_quotas_window.adoc[할당량 창]

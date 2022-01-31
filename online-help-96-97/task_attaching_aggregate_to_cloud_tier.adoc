@@ -1,0 +1,33 @@
+---
+permalink: online-help-96-97/task_attaching_aggregate_to_cloud_tier.html 
+sidebar: sidebar 
+keywords: attach, cloud, tier, system, manager, online, help, flash, aggregate, system, manager 
+summary: System Manager를 사용하여 All-Flash 애그리게이트를 클라우드 계층에 연결할 수 있습니다. 자주 사용하지 않는 데이터는 클라우드 계층에 저장할 수 있습니다. 
+---
+= 클라우드 계층에 애그리게이트 연결
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하여 All-Flash 애그리게이트를 클라우드 계층에 연결할 수 있습니다. 자주 사용하지 않는 데이터는 클라우드 계층에 저장할 수 있습니다.
+
+클러스터에 클라우드 계층을 추가해야 합니다.
+
+.단계
+. 스토리지 * > * 애그리게이트 및 디스크 * > * 클라우드 계층 * 을 클릭합니다.
+. Aggregate * 열에 사용된 * 열에서 * 애그리게이트 첨부 * 를 클릭합니다.
++
+Attach aggregate(애그리게이트 연결) 창이 표시됩니다.
+
+. 클라우드 계층에 연결할 애그리게이트를 선택합니다.
+. 저장 * 을 클릭합니다.
+
+
+* 관련 정보 *
+
+xref:concept_what_cloud_tiers_tiering_policies_are.adoc[어떤 클라우드 계층 및 계층화 정책인지 설명합니다]
+
+xref:concept_what_fabricpool_is.adoc[FabricPool란 무엇인가]
+
+xref:reference_storage_tiers_window.adoc[Storage Tiers 창]

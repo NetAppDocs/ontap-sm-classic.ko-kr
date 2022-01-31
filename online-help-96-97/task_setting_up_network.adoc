@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_setting_up_network.html 
+sidebar: sidebar 
+keywords: set, up, network, cluster, node, service, processor, dns, ntp, online, help 
+summary: 네트워크를 설정하면 클러스터, 노드 및 서비스 프로세서를 관리할 수 있습니다. 네트워크 창을 사용하여 DNS 및 NTP 세부 정보를 설정할 수도 있습니다. 
+---
+= 네트워크 설정
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+네트워크를 설정하면 클러스터, 노드 및 서비스 프로세서를 관리할 수 있습니다. 네트워크 창을 사용하여 DNS 및 NTP 세부 정보를 설정할 수도 있습니다.
+
+클러스터를 설정해야 합니다.
+
+.이 작업에 대해
+* 실행 중인 노드만 클러스터 생성에 대해 나열됩니다.
++
+해당 노드에 대한 LIF를 생성할 수 있습니다.
+
+* IP 주소 범위를 사용하지 않도록 설정하고 클러스터 관리, 노드 관리 및 서비스 프로세서 관리 네트워크에 대한 개별 IP 주소를 입력할 수 있습니다.
+

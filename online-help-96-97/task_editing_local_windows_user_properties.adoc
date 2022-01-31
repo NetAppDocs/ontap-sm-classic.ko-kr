@@ -1,0 +1,28 @@
+---
+permalink: online-help-96-97/task_editing_local_windows_user_properties.html 
+sidebar: sidebar 
+keywords: edit, local, window, user, properties, system, manager, online, help 
+summary: 기존 사용자의 전체 이름 또는 설명을 변경하거나 사용자 계정을 활성화 또는 비활성화하려는 경우 System Manager를 사용하여 로컬 Windows 사용자 계정을 수정할 수 있습니다. 사용자 계정에 할당된 그룹 구성원을 수정할 수도 있습니다. 
+---
+= 로컬 Windows 사용자 속성 편집
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+기존 사용자의 전체 이름 또는 설명을 변경하거나 사용자 계정을 활성화 또는 비활성화하려면 System Manager를 사용하여 로컬 Windows 사용자 계정을 수정할 수 있습니다. 사용자 계정에 할당된 그룹 구성원을 수정할 수도 있습니다.
+
+.단계
+. 스토리지 * > * SVM * 을 클릭합니다.
+. SVM을 선택한 다음 * SVM 설정 * 을 클릭합니다.
+. 호스트 사용자 및 그룹 * 창에서 * Windows * 를 클릭합니다.
+. 사용자 * 탭에서 * 편집 * 을 클릭합니다.
+. Modify User * (사용자 수정 *) 창에서 필요한 내용을 변경합니다.
+. Modify * 를 클릭합니다.
+
+
+로컬 Windows 사용자 계정의 속성이 수정되어 * 사용자 * 탭에 표시됩니다.
+
+* 관련 정보 *
+
+xref:reference_windows_window.adoc[Windows 창]

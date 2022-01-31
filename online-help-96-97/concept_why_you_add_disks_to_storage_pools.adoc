@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_why_you_add_disks_to_storage_pools.html 
+sidebar: sidebar 
+keywords: ssd, storage, pool, cache, size, allocation, add, disk, online, help 
+summary: 기존 스토리지 풀에 SSD를 추가하고 캐시 크기를 늘릴 수 있습니다. 할당 유닛이 이미 Flash Pool 애그리게이트에 할당된 스토리지 풀에 SSD를 추가할 경우, 각 애그리게이트의 캐시 크기와 스토리지 풀의 총 캐시가 증가합니다. 
+---
+= 스토리지 풀에 디스크를 추가하는 이유
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+기존 스토리지 풀에 SSD를 추가하고 캐시 크기를 늘릴 수 있습니다. 할당 유닛이 이미 Flash Pool 애그리게이트에 할당된 스토리지 풀에 SSD를 추가할 경우, 각 애그리게이트의 캐시 크기와 스토리지 풀의 총 캐시가 증가합니다.
+
+스토리지 풀의 할당 유닛이 아직 할당되지 않은 경우 해당 스토리지 풀에 SSD를 추가해도 SSD 캐시 크기는 영향을 받지 않습니다.
+
+기존 스토리지 풀에 SSD를 추가할 경우 SSD는 스토리지 풀에서 기존 SSD를 소유한 동일한 HA 쌍 중 하나 또는 둘 이상이 SSD를 소유해야 합니다. HA Pair의 노드 중 하나에서 소유하는 SSD를 추가할 수 있습니다.

@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/task_adding_snapshot_policies.html 
+sidebar: sidebar 
+keywords: create, snapshot, policies, system, manager, online, help 
+summary: System Manager에서 스냅샷 정책을 생성하여 자동으로 생성할 수 있는 최대 스냅샷 복사본의 수와 생성 빈도를 지정할 수 있습니다. 
+---
+= 스냅샷 정책 생성
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager에서 스냅샷 정책을 생성하여 자동으로 생성할 수 있는 최대 스냅샷 복사본의 수와 생성 빈도를 지정할 수 있습니다.
+
+.단계
+. 보호 * > * 스냅샷 정책 * 을 클릭합니다.
+. Create * 를 클릭합니다.
+. 스냅샷 정책 생성 * 대화 상자에서 정책 이름을 지정합니다.
+. 추가 * 를 클릭하고 일정 이름, 유지할 스냅샷 복사본의 최대 수 및 SnapMirror 레이블 이름을 지정합니다.
++
+지정된 스케줄에 따라 보존할 수 있는 스냅샷 복사본의 최대 수는 254개를 초과할 수 없습니다.
+
+. OK * 를 클릭한 다음 * Create * 를 클릭합니다.
+

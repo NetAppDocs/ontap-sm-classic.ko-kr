@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_deleting_ipspaces.html 
+sidebar: sidebar 
+keywords: ipspace, delete, system, manager, online, help 
+summary: IPspace가 더 이상 필요하지 않은 경우 System Manager를 사용하여 IPspace를 삭제할 수 있습니다. 
+---
+= IPspace 삭제
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+IPspace가 더 이상 필요하지 않은 경우 System Manager를 사용하여 IPspace를 삭제할 수 있습니다.
+
+삭제할 IPspace는 브로드캐스트 도메인, 네트워크 인터페이스, 피어 관계 또는 SVM(스토리지 가상 머신)과 연결되지 않아야 합니다.
+
+시스템 정의 "기본" IPspace 및 ""클러스터" IPspace는 삭제할 수 없습니다.
+
+.단계
+. 네트워크 * > * IPspace * 를 클릭합니다.
+. 삭제할 IPspace를 선택한 다음 * 삭제 * 를 클릭합니다.
+. 확인 확인란을 선택한 다음 * 예 * 를 클릭합니다.
+

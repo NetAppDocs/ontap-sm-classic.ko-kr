@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/task_creating_broadcast_domains.html 
+sidebar: sidebar 
+keywords: online, help, create, broadcast, domain, system, manager 
+summary: System Manager를 사용하여 컴퓨터 네트워크의 논리적 부서를 제공하여 브로드캐스트 도메인을 생성할 수 있습니다. 브로드캐스트 도메인에서 데이터링크 계층에서 브로드캐스트를 통해 모든 관련 노드에 연결할 수 있습니다. 
+---
+= 브로드캐스트 도메인을 생성합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하여 컴퓨터 네트워크의 논리적 부서를 제공하여 브로드캐스트 도메인을 생성할 수 있습니다. 브로드캐스트 도메인에서 데이터링크 계층에서 브로드캐스트를 통해 모든 관련 노드에 연결할 수 있습니다.
+
+.단계
+. 네트워크 * 탭을 클릭합니다.
+. [브로드캐스트 도메인*] 탭에서 [작성]을 클릭합니다.
+. 브로드캐스트 도메인 생성 * 대화 상자에서 만들려는 브로드캐스트 도메인의 이름, MTU 크기, IPspace 및 포트를 지정합니다.
+. Create * 를 클릭합니다.
+
+
+* 관련 정보 *
+
+xref:reference_network_window.adoc[네트워크 창]

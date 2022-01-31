@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_ipspaces.html 
+sidebar: sidebar 
+keywords: ipspace, system, manager, manage, online, help 
+summary: System Manager를 사용하여 IPspace를 생성 및 관리할 수 있습니다. 
+---
+= IPspace
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하여 IPspace를 생성 및 관리할 수 있습니다.
+
+* 관련 정보 *
+
+https://docs.netapp.com/us-en/ontap/networking/index.html["네트워크 관리"]

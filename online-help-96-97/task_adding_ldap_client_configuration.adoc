@@ -1,0 +1,36 @@
+---
+permalink: online-help-96-97/task_adding_ldap_client_configuration.html 
+sidebar: sidebar 
+keywords: online, help, system, manager, ldap, online, help, cluster, level, storage, virtual, machine, client, configuration 
+summary: 'LDAP 서비스를 사용하려는 경우 System Manager를 사용하여 클러스터 레벨에 LDAP 클라이언트 구성을 추가하거나 SVM(스토리지 가상 머신) 레벨에서 LDAP 클라이언트 구성을 추가할 수 있습니다. LDAP 서비스를 사용하려면 먼저 LDAP 클라이언트를 설정해야 합니다.' 
+---
+= LDAP 클라이언트 구성을 추가합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+LDAP 서비스를 사용하려는 경우 System Manager를 사용하여 클러스터 레벨에 LDAP 클라이언트 구성을 추가하거나 SVM(스토리지 가상 머신) 레벨에서 LDAP 클라이언트 구성을 추가할 수 있습니다. LDAP 서비스를 사용하려면 먼저 LDAP 클라이언트를 설정해야 합니다.
+
+SVM 레벨에서 선택한 SVM에 대해서만 LDAP 클라이언트를 추가할 수 있습니다.
+
+.단계
+. 다음 방법 중 하나를 사용하여 LDAP 클라이언트 구성을 추가합니다.
++
+** 클러스터 수준: * 를 클릭합니다image:../media/advanced_options.gif[""]* > * LDAP *.
+** SVM 레벨: * SVM * > * SVM 설정 * > * LDAP 클라이언트 * 를 클릭합니다.
+
+
+. 추가 * 를 클릭합니다.
+. LDAP 클라이언트의 이름을 입력합니다.
+. Active Directory 도메인 또는 LDAP 서버를 추가합니다.
+. 을 클릭합니다 image:../media/advanced_options.gif[""] (고급 옵션), * 스키마 * 를 선택하고 * 적용 * 을 클릭합니다.
+. 기본 DN * 및 * TCP 포트 * 를 지정합니다.
+. 바인딩 * 을 클릭한 다음 인증 세부 정보를 지정합니다.
+. 저장 후 닫기 * 를 클릭합니다.
+. 추가한 LDAP 클라이언트가 표시되는지 확인합니다.
+
+
+* 관련 정보 *
+
+xref:concept_ldap.adoc[LDAP를 지원합니다]

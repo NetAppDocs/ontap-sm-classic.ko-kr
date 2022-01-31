@@ -1,0 +1,32 @@
+---
+permalink: online-help-96-97/task_reverse_resynchronizing_mirror_vault_relationships.html 
+sidebar: sidebar 
+keywords: reverse, resynchronize, mirror, vault, relationship, system, manager, online, help 
+summary: System Manager를 사용하여 이전에 손상된 미러 및 볼트 관계를 다시 설정할 수 있습니다. 역방향 재동기화 작업에서는 소스 볼륨과 타겟 볼륨의 기능이 반전됩니다. 소스를 복구 또는 교체하고 소스를 업데이트하고 시스템의 원래 구성을 다시 설정하는 동안 대상 볼륨을 사용하여 데이터를 제공할 수 있습니다. 
+---
+= 미러 및 볼트 관계를 역재동기화합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하여 이전에 손상된 미러 및 볼트 관계를 다시 설정할 수 있습니다. 역방향 재동기화 작업에서는 소스 볼륨과 타겟 볼륨의 기능이 반전됩니다. 소스를 복구 또는 교체하고 소스를 업데이트하고 시스템의 원래 구성을 다시 설정하는 동안 대상 볼륨을 사용하여 데이터를 제공할 수 있습니다.
+
+소스 볼륨이 온라인 상태여야 합니다.
+
+.이 작업에 대해
+* 역방향 재동기화를 수행하면 소스 볼륨의 컨텐츠가 대상 볼륨의 컨텐츠로 덮어쓰여집니다.
++
+[NOTE]
+====
+재동기화 작업을 수행하면 소스 볼륨에서 데이터가 손실될 수 있습니다.
+
+====
+* 역재동기화를 수행하면 관계 정책이 MirrorAndVault로 설정되고 스케줄이 None으로 설정됩니다.
+
+
+.단계
+. 보호 * > * 볼륨 관계 * 를 클릭합니다.
+. 대칭 복사하려는 미러 및 볼트 관계를 선택한 다음 * 작업 * > * 역재동기화 * 를 클릭합니다.
+. 확인 확인란을 선택한 다음 * 역방향 재동기화 * 를 클릭합니다.
+

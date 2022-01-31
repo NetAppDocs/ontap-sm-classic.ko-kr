@@ -1,0 +1,29 @@
+---
+permalink: online-help-96-97/task_enabling_or_disabling_iscsi_service_on_storage_system_interfaces.html 
+sidebar: sidebar 
+keywords: enable, disable, iscsi, service, storage, system, interfaces, online, help 
+summary: System Manager를 사용하면 인터페이스를 활성화 또는 비활성화하여 iSCSI 통신에 사용되는 네트워크 인터페이스를 제어할 수 있습니다. iSCSI 서비스가 활성화되면 iSCSI에 대해 활성화되었지만 비활성화된 인터페이스를 통해 활성화되지 않은 네트워크 인터페이스를 통해 iSCSI 연결 및 요청이 허용됩니다. 
+---
+= 스토리지 시스템 인터페이스에서 iSCSI 서비스를 설정하거나 해제합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하면 인터페이스를 활성화 또는 비활성화하여 iSCSI 통신에 사용되는 네트워크 인터페이스를 제어할 수 있습니다. iSCSI 서비스가 활성화되면 iSCSI에 대해 활성화되었지만 비활성화된 인터페이스를 통해 활성화되지 않은 네트워크 인터페이스를 통해 iSCSI 연결 및 요청이 허용됩니다.
+
+현재 인터페이스를 사용 중인 미처리 iSCSI 연결 및 세션을 종료해야 합니다. 기본적으로 iSCSI 라이센스를 활성화한 후에는 모든 이더넷 인터페이스에서 iSCSI 서비스가 활성화됩니다.
+
+.단계
+. 스토리지 * > * SVM * 을 클릭합니다.
+. SVM을 선택한 다음 * SVM 설정 * 을 클릭합니다.
+. 프로토콜 * 창에서 * iSCSI * 를 클릭합니다.
+. iSCSI 인터페이스 * 영역에서 iSCSI 서비스를 활성화하거나 비활성화할 인터페이스를 선택합니다.
+. 필요에 따라 * 활성화 * 또는 * 비활성화 * 를 클릭합니다.
+
+
+* 관련 정보 *
+
+xref:reference_iscsi_window.adoc[iSCSI 창]
+
+xref:task_configuring_iscsi_protocol_on_svms.adoc[SVM에서 iSCSI 프로토콜 구성]

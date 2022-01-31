@@ -1,0 +1,15 @@
+---
+permalink: online-help-96-97/task_setting_up_saml_authentication.html 
+sidebar: sidebar 
+keywords: set, up, saml, authentification, security, assertion, markup, idp, online, help 
+summary: 'SAML(Security Assertion Markup Language) 인증을 설정하여 원격 사용자가 System Manager에 로그인하기 전에 IDP(Secure Identity Provider)를 통해 인증되도록 할 수 있습니다.' 
+---
+= SAML 인증을 설정하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SAML(Security Assertion Markup Language) 인증을 설정하여 원격 사용자가 System Manager에 로그인하기 전에 IDP(Secure Identity Provider)를 통해 인증되도록 할 수 있습니다.
+
+image::../media/mfa_workflow.gif[MFA 워크플로]

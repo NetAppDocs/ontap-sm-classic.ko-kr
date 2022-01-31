@@ -1,0 +1,22 @@
+---
+permalink: online-help-96-97/task_provisioning_cache_by_adding_disks.html 
+sidebar: sidebar 
+keywords: ssd, system, manager, storage, pool, root, aggregate, provision, cache, online, help 
+summary: System Manager를 사용하면 SSD를 스토리지 풀 또는 전용 SSD로 추가하여 캐시를 프로비저닝할 수 있습니다. SSD를 추가하면 루트 이외의 Aggregate 또는 분할된 디스크가 없는 루트 Aggregate를 Flash Pool Aggregate로 변환하거나 기존 Flash Pool 애그리게이트의 캐시 크기를 늘릴 수 있습니다. 
+---
+= SSD를 추가하여 캐시 프로비저닝
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하면 SSD를 스토리지 풀 또는 전용 SSD로 추가하여 캐시를 프로비저닝할 수 있습니다. SSD를 추가하면 루트 이외의 Aggregate 또는 분할된 디스크가 없는 루트 Aggregate를 Flash Pool Aggregate로 변환하거나 기존 Flash Pool 애그리게이트의 캐시 크기를 늘릴 수 있습니다.
+
+.이 작업에 대해
+* 추가된 SSD 캐시는 애그리게이트 크기에 추가되지 않으며 최대 크기에서도 애그리게이트에 SSD RAID 그룹을 추가할 수 있습니다.
+* System Manager를 사용하여 캐시를 추가할 때는 파티션이 설정된 SSD를 사용할 수 없습니다.
+
+
+* 관련 정보 *
+
+xref:concept_how_storage_pool_works.adoc[스토리지 풀의 작동 방식]

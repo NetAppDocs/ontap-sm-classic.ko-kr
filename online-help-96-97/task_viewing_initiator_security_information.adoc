@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_viewing_initiator_security_information.html 
+sidebar: sidebar 
+keywords: view, initiator, security, information, system, manager, online, help 
+summary: System Manager를 사용하면 기본 인증 정보와 모든 이니시에이터별 인증 정보를 볼 수 있습니다. 
+---
+= 이니시에이터 보안 정보 보기
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하면 기본 인증 정보와 모든 이니시에이터별 인증 정보를 볼 수 있습니다.
+
+.단계
+. 스토리지 * > * SVM * 을 클릭합니다.
+. SVM을 선택한 다음 * SVM 설정 * 을 클릭합니다.
+. 프로토콜 * 창에서 * iSCSI * 를 클릭합니다.
+. iSCSI * 창의 * 초기자 보안 * 탭에서 세부 정보를 검토합니다.
+

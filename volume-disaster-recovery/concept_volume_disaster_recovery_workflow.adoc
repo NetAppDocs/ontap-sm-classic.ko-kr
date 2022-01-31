@@ -1,0 +1,15 @@
+---
+permalink: volume-disaster-recovery/concept_volume_disaster_recovery_workflow.html 
+sidebar: sidebar 
+keywords: volume, disaster recovery, workflow, activating, activate, destination, configuring, configure, access, reactivate, reactivating, original, source, volume disaster recovery workflow 
+summary: 볼륨 재해 복구 워크플로우에는 대상 볼륨 활성화, 데이터 액세스를 위한 대상 볼륨 구성, 원래 소스 볼륨 재활성화가 포함됩니다. 
+---
+= 볼륨 재해 복구 워크플로우
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+볼륨 재해 복구 워크플로우에는 대상 볼륨 활성화, 데이터 액세스를 위한 대상 볼륨 구성, 원래 소스 볼륨 재활성화가 포함됩니다.
+
+image::../media/snapmirror_failover_resync_workflow_eg.gif[이 그림은 SnapMirror 클러스터 간 페일오버 및 재동기화 워크플로우를 보여 주는 흐름도입니다. 워크플로의 단계가 이 콘텐츠의 항목과 일치합니다.]

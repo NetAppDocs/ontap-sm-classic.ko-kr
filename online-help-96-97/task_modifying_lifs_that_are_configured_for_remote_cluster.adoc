@@ -1,0 +1,35 @@
+---
+permalink: online-help-96-97/task_modifying_lifs_that_are_configured_for_remote_cluster.html 
+sidebar: sidebar 
+keywords: system, manager, modify, lif, configure, remote, cluster 
+summary: 'System Manager를 사용하여 원격 클러스터에 대해 구성된 IPspace 및 인터클러스터 논리 인터페이스(LIF)를 수정할 수 있습니다. 새 인터클러스터 IP 주소를 추가하거나 기존 IP 주소를 제거할 수 있습니다.' 
+---
+= 원격 클러스터에 대해 구성된 LIF 수정
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하여 원격 클러스터에 대해 구성된 IPspace 및 인터클러스터 논리 인터페이스(LIF)를 수정할 수 있습니다. 새 인터클러스터 IP 주소를 추가하거나 기존 IP 주소를 제거할 수 있습니다.
+
+클러스터 피어 관계를 생성하려면 인터클러스터 IP 주소가 하나 이상 있어야 합니다.
+
+.단계
+. 구성 * > * 클러스터 * > * 구성 업데이트 * 를 클릭합니다.
+. 피어링된 클러스터를 선택하고 * Edit * 를 클릭합니다
++
+드롭다운 메뉴가 표시됩니다.
+
+. 피어 클러스터 네트워크 매개 변수 * 를 클릭합니다.
++
+피어 네트워크 매개 변수 편집 대화 상자가 표시됩니다.
+
+. 필요한 경우 다음 필드를 수정합니다.
++
+** * IPspace *: 풀다운 메뉴에서 IPspace를 선택합니다.
+** * 클러스터 간 LIF *: 인터클러스터 IP 주소를 추가 또는 제거합니다. 여러 IP 주소를 쉼표로 구분하여 추가할 수 있습니다.
+
+
+. Modify * 를 클릭합니다.
+. Cluster 피어 * 창에서 변경한 내용을 확인합니다.
+

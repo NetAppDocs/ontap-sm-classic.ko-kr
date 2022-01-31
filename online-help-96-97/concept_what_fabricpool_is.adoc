@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/concept_what_fabricpool_is.html 
+sidebar: sidebar 
+keywords: fabricpool, ssd, storage, hybrid, online, help 
+summary: 'FabricPool은 All-Flash(All-SSD) 애그리게이트를 성능 계층으로 사용하고 오브젝트 저장소를 클라우드 계층으로 사용하는 하이브리드 스토리지 솔루션입니다. FabricPool의 데이터는 자주 액세스되는지 여부에 따라 계층에 저장됩니다. FabricPool를 사용하면 성능, 효율성 또는 보호 기능의 저하 없이 스토리지 비용을 절감할 수 있습니다.' 
+---
+= FabricPool란 무엇인가
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+FabricPool은 All-Flash(All-SSD) 애그리게이트를 성능 계층으로 사용하고 오브젝트 저장소를 클라우드 계층으로 사용하는 하이브리드 스토리지 솔루션입니다. FabricPool의 데이터는 자주 액세스되는지 여부에 따라 계층에 저장됩니다. FabricPool를 사용하면 성능, 효율성 또는 보호 기능의 저하 없이 스토리지 비용을 절감할 수 있습니다.
+
+* 관련 정보 *
+
+xref:task_adding_cloud_tier.adoc[클라우드 계층 추가]
+
+xref:task_attaching_aggregate_to_cloud_tier.adoc[클라우드 계층에 애그리게이트 연결]

@@ -1,0 +1,15 @@
+---
+permalink: online-help-96-97/task_using_ldap_services.html 
+sidebar: sidebar 
+keywords: ldap, service, online, help, maintain, user, information, database 
+summary: 'LDAP 서버를 사용하면 사용자 정보를 중앙에서 관리할 수 있습니다. 사용자 데이터베이스를 환경의 LDAP 서버에 저장하는 경우 SVM(스토리지 가상 머신)을 구성하여 기존 LDAP 데이터베이스에서 사용자 정보를 찾을 수 있습니다.' 
+---
+= LDAP 서비스 사용
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+LDAP 서버를 사용하면 사용자 정보를 중앙에서 관리할 수 있습니다. 사용자 데이터베이스를 환경의 LDAP 서버에 저장하는 경우 SVM(스토리지 가상 머신)을 구성하여 기존 LDAP 데이터베이스에서 사용자 정보를 찾을 수 있습니다.
+
+ONTAP는 사용자 인증, 파일 액세스 인증, NFS와 CIFS 간의 사용자 조회 및 매핑 서비스를 위해 LDAP를 지원합니다.

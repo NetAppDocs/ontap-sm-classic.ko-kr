@@ -1,0 +1,73 @@
+---
+permalink: online-help-96-97/task_provisioning_storage_creating_fabricpool_enabled_aggregate_manually_delete.html 
+sidebar: sidebar 
+keywords: provision, storage, create, fabricpool, aggregate, manually, system, manager, online, help, ssd 
+summary: System Manager를 사용하면 FabricPool 지원 애그리게이트를 수동으로 생성하거나 클라우드 계층을 SSD 애그리게이트에 연결하여 기존 SSD 애그리게이트를 FabricPool 지원 애그리게이트로 변환할 수 있습니다. 
+---
+= FabricPool 지원 애그리게이트를 수동으로 생성하여 스토리지 프로비저닝
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하면 FabricPool 지원 애그리게이트를 수동으로 생성하거나 클라우드 계층을 SSD 애그리게이트에 연결하여 기존 SSD 애그리게이트를 FabricPool 지원 애그리게이트로 변환할 수 있습니다.
+
+.시작하기 전에
+* 클라우드 계층을 생성하여 SSD 애그리게이트로 구성된 클러스터에 연결해야 합니다.
+* 사내 클라우드 계층이 생성되었어야 합니다.
+* 클라우드 계층과 애그리게이트 간에는 전용 네트워크 연결이 있어야 합니다.
+
+
+다음 오브젝트 저장소를 클라우드 계층으로 사용할 수 있습니다.
+
+* StorageGRID
+* Alibaba Cloud(System Manager 9.6부터 시작)
+* AWS(Amazon Web Services) S3(Simple Storage Service)
+* AWS(Amazon Web Services) C2S(Commercial Cloud Service)
+* Microsoft Azure Blob 저장소
+* IBM 클라우드
+* Google 클라우드
+
+
+[NOTE]
+====
+* 온프레미스 Azure 서비스인 Azure Stack은 지원되지 않습니다.
+* StorageGRID 이외의 클라우드 계층으로 오브젝트 저장소를 사용하려면 FabricPool 용량 라이센스가 있어야 합니다.
+
+
+====
+.단계
+. 다음 방법 중 하나를 사용하여 FabricPool 지원 애그리게이트를 만들 수 있습니다.
++
+** Applications & Tiers * > * Storage Tiers * > * Add Aggregate * 를 클릭합니다.
+** 스토리지 * > * 집계 및 디스크 * > * 집계 * > * 생성 * 을 클릭합니다.
+
+
+. Aggregate를 생성하려면 * Manually Create Aggregate * 옵션을 활성화합니다.
+. FabricPool 지원 애그리게이트 생성:
++
+.. Aggregate 이름, 디스크 유형 및 Aggregate에 포함할 디스크 또는 파티션의 수를 지정합니다.
++
+[NOTE]
+====
+All-Flash(All SSD) 애그리게이트만 FabricPool 지원 애그리게이트를 지원합니다.
+
+====
++
+최소 핫 스페어 규칙은 디스크 크기가 가장 큰 디스크 그룹에 적용됩니다.
+
+.. Aggregate의 RAID 구성을 수정합니다.
++
+... 변경 * 을 클릭합니다.
+... RAID 구성 변경 대화 상자에서 RAID 유형과 RAID 그룹 크기를 지정합니다.
++
+공유 디스크는 RAID-DP와 RAID-TEC의 두 가지 RAID 유형을 지원합니다.
+
+... 저장 * 을 클릭합니다.
+
+
+
+
+. FabricPool * 확인란을 선택한 다음 목록에서 클라우드 계층을 선택합니다.
+. Create * 를 클릭합니다.
+

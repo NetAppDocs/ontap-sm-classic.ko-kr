@@ -1,0 +1,38 @@
+---
+permalink: online-help-96-97/task_viewing_system_manager_log_files.html 
+sidebar: sidebar 
+keywords: view, ontap, system, manager, log, file, online, help 
+summary: System Manager를 사용할 때 문제가 발생하면 기술 지원 부서에 로그 파일을 보내 문제를 해결할 수 있습니다. System Manager 로그 파일은 ONTAP 로그 파일과 함께 mlog 디렉터리에 있습니다. 
+---
+= ONTAP 시스템 관리자 로그 파일 보기
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용할 때 문제가 발생하면 기술 지원 부서에 로그 파일을 보내 문제를 해결할 수 있습니다. System Manager 로그 파일은 ONTAP 로그 파일과 함께 'mlog' 디렉토리에 있습니다.
+
+.단계
+. 클러스터 관리 LIF를 호스팅하는 노드를 식별합니다.
+. 웹 브라우저에 '+https://cluster-mgmt-LIF/spi+` URL을 입력합니다
++
+클러스터 관리 LIF의 IP 주소는 클러스터 관리 LIF의 IP 주소입니다.
+
+. 클러스터 관리자 자격 증명을 입력한 다음 * 확인 * 을 클릭합니다.
+. Data ONTAP - 루트 볼륨 파일 액세스 * 창에서 클러스터 관리 LIF를 호스팅하는 노드에 대한 * 로그 * 링크를 클릭합니다.
+. 'mlog' 디렉토리로 이동하여 System Manager 로그 파일에 액세스합니다.
++
+발생한 문제 유형에 따라 다음 로그 파일이 필요할 수 있습니다.
+
++
+** 스밀르로그
++
+이 파일에는 System Manager에 대한 최신 로그가 들어 있습니다.
+
+** '영지 로그'입니다
+** PHP.log
+** apache_access.log
+** '메시지.로그'
+
+
+

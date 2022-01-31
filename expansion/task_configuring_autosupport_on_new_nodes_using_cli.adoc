@@ -1,0 +1,37 @@
+---
+permalink: expansion/task_configuring_autosupport_on_new_nodes_using_cli.html 
+sidebar: sidebar 
+keywords: add, node, cluster, configure, autosupport, node, configuring, configure autosupport on the new nodes 
+summary: 클러스터에 노드를 추가한 후에는 노드에서 AutoSupport를 구성해야 합니다. 
+---
+= 새 노드에서 AutoSupport를 구성합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+클러스터에 노드를 추가한 후에는 노드에서 AutoSupport를 구성해야 합니다.
+
+클러스터의 기존 노드에서 AutoSupport를 설정해야 합니다.
+
+두 노드에서 이 절차를 수행해야 합니다.
+
+.단계
+. 원래 클러스터의 노드 중 하나로 설정된 '-node' 매개 변수를 가진 'system node AutoSupport show' 명령을 사용하여 AutoSupport 구성을 봅니다.
++
+[listing]
+----
+cluster1::> system node autosupport show -node cluster1-1
+                            Node: cluster1-1
+                           State: enable
+                 SMTP Mail Hosts: smtp.example.com
+																																...
+----
+. 새로 추가된 노드 중 하나에서 'system node AutoSupport modify' 명령을 사용하여 기존 노드에 구성된 것과 동일한 방식으로 AutoSupport를 구성합니다.
++
+[listing]
+----
+cluster1::> system node autosupport modify -node cluster1-3 -state enable -mail-hosts smtp.example.com -from alerts@node3.example.com -to support@example.com -support enable -transport https -noteto pda@example.com -retry-interval 23m
+----
+. 새로 추가된 다른 노드에 대해 이전 단계를 반복합니다.
+

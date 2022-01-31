@@ -1,0 +1,41 @@
+---
+permalink: online-help-96-97/task_viewing_quota_information.html 
+sidebar: sidebar 
+keywords: view, quota, information, online, help, system, manager, qtree 
+summary: System Manager의 Quotas 창을 사용하면 할당량이 적용되는 볼륨 및 Qtree, 할당량 유형, 할당량이 적용되는 사용자 또는 그룹, 공간 및 파일 사용률과 같은 할당량 세부 정보를 볼 수 있습니다. 
+---
+= 할당량 정보 보기
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager의 Quotas 창을 사용하면 할당량이 적용되는 볼륨 및 Qtree, 할당량 유형, 할당량이 적용되는 사용자 또는 그룹, 공간 및 파일 사용률과 같은 할당량 세부 정보를 볼 수 있습니다.
+
+.단계
+. 스토리지 * > * 할당량 * 을 클릭합니다.
+. SVM * 필드의 드롭다운 메뉴에서 정보를 확인할 할당량이 있는 SVM(스토리지 가상 시스템)을 선택합니다.
+. 적절한 작업을 수행합니다.
++
+|===
+
+
+| 만약... | 그러면... 
+
+
+ a| 
+생성한 모든 할당량에 대한 세부 정보를 확인할 수 있습니다
+ a| 
+사용자 정의 할당량 * 탭을 클릭합니다.
+
+
+
+ a| 
+현재 활성 상태인 할당량에 대한 세부 정보를 보려는 경우
+ a| 
+Quota Report * 탭을 클릭합니다.
+
+|===
+. 표시된 할당량 목록에서 정보를 확인할 할당량을 선택합니다.
+. 할당량 세부 정보를 검토합니다.
+

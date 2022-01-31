@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_locking_or_unlocking_svm_user_accounts.html 
+sidebar: sidebar 
+keywords: lock, unlock, svm, user, account, system, manager, online, help, storage, virtual, machine 
+summary: 'System Manager를 사용하여 SVM(스토리지 가상 시스템) 사용자 계정을 잠그거나 잠금 해제할 수 있습니다.' 
+---
+= SVM 사용자 계정 잠금 또는 잠금 해제
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하여 SVM(스토리지 가상 시스템) 사용자 계정을 잠그거나 잠금 해제할 수 있습니다.
+
+.단계
+. 스토리지 * > * SVM * 을 클릭합니다.
+. SVM을 선택한 다음 * SVM 설정 * 을 클릭합니다.
+. SVM 사용자 세부 정보 * 창에서 * 사용자 * 를 클릭합니다.
+. 사용자 * 창에서 계정 상태를 수정할 사용자 계정을 선택한 다음 필요에 따라 * 잠금 * 또는 * 잠금 해제 * 를 클릭합니다.
+

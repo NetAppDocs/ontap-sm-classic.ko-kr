@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/task_locking_unlocking_cluster_user_accounts.html 
+sidebar: sidebar 
+keywords: lock, unlock, cluster, user, account, system, online, help 
+summary: System Manager를 사용하여 클러스터 사용자 계정을 잠그거나 잠금 해제할 수 있습니다. 
+---
+= 클러스터 사용자 계정 잠금 또는 잠금 해제
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하여 클러스터 사용자 계정을 잠그거나 잠금 해제할 수 있습니다.
+
+.단계
+. 를 클릭합니다image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*.
+. 관리 * 창에서 * 사용자 * 를 클릭합니다.
+. 상태를 수정할 사용자 계정을 선택하고 * 잠금 * 또는 * 잠금 해제 * 를 클릭합니다.
+

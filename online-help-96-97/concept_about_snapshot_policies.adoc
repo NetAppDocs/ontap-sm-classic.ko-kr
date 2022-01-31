@@ -1,0 +1,15 @@
+---
+permalink: online-help-96-97/concept_about_snapshot_policies.html 
+sidebar: sidebar 
+keywords: snapshot, policy, volume, schedule, copy, create, online, help, classic 
+summary: 볼륨에 적용할 경우 스냅샷 정책은 스냅샷 복사본이 생성되는 일정을 지정하고 각 일정에서 만들 수 있는 최대 스냅샷 복사본 수를 지정합니다. 스냅샷 정책에는 최대 5개의 일정을 포함할 수 있습니다. 
+---
+= 스냅샷 정책에 대해서 설명합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+볼륨에 적용할 경우 스냅샷 정책은 스냅샷 복사본이 생성되는 일정을 지정하고 각 일정에서 만들 수 있는 최대 스냅샷 복사본 수를 지정합니다. 스냅샷 정책에는 최대 5개의 일정을 포함할 수 있습니다.
+
+볼트 관계의 경우 SnapMirror 레이블 속성을 사용하여 소스 볼륨의 스냅샷 복사본을 선택합니다. 볼트 정책 규칙에 구성된 라벨이 있는 스냅샷 복사본만 백업 볼트 작업에 복제됩니다. 소스 볼륨에 할당된 스냅샷 정책에는 SnapMirror 레이블 특성이 포함되어야 합니다.
