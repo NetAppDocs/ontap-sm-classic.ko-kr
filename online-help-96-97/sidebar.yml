@@ -527,10 +527,10 @@ entries:
       url: "/online-help-96-97/task_obtaining_ontap_software_images.html"
     - title: 단일 노드 클러스터 업데이트
       url: "/online-help-96-97/task_updating_single_node_clusters.html"
+    - title: 무중단 업데이트에 대해 알아보십시오
+      url: "/online-help-96-97/concept_how_you_update_cluster_nondisruptively.html"
     - title: 클러스터를 무중단으로 업데이트합니다
       url: "/online-help-96-97/task_updating_cluster_nondisruptively.html"
-    - title: 클러스터를 무중단으로 업데이트합니다
-      url: "/online-help-96-97/concept_how_you_update_cluster_nondisruptively.html"
     - title: Cluster Update 창
       url: "/online-help-96-97/reference_cluster_update_window.html"
   - title: MetroCluster 전환 및 스위치백
@@ -1450,7 +1450,7 @@ entries:
       url: "/online-help-96-97/task_adding_initiators.html"
     - title: 이니시에이터 그룹에서 이니시에이터를 삭제합니다
       url: "/online-help-96-97/task_deleting_initiators_from_initiator_group.html"
-    - title: 포트 세트를 생성합니다
+    - title: 포틀세트를 생성합니다
       url: "/online-help-96-97/task_creating_portsets.html"
     - title: 포트 세트를 삭제합니다
       url: "/online-help-96-97/task_deleting_portsets.html"
@@ -2015,7 +2015,7 @@ entries:
     url: "/online-help-96-97/task_adding_initiators.html"
   - title: 이니시에이터 그룹에서 이니시에이터를 삭제합니다
     url: "/online-help-96-97/task_deleting_initiators_from_initiator_group.html"
-  - title: 포트 세트를 생성합니다
+  - title: 포틀세트를 생성합니다
     url: "/online-help-96-97/task_creating_portsets.html"
   - title: 포트 세트를 삭제합니다
     url: "/online-help-96-97/task_deleting_portsets.html"

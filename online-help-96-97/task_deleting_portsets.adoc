@@ -2,7 +2,7 @@
 permalink: online-help-96-97/task_deleting_portsets.html 
 sidebar: sidebar 
 keywords: delete, port, sets, system, manager, online, help 
-summary: System Manager를 사용하면 더 이상 필요하지 않은 포트 세트를 삭제할 수 있습니다. 
+summary: System Manager를 사용하면 더 이상 필요하지 않은 포트셋 삭제 작업을 수행할 수 있습니다. 
 ---
 = 포트 세트를 삭제하는 중입니다
 :icons: font
@@ -10,7 +10,7 @@ summary: System Manager를 사용하면 더 이상 필요하지 않은 포트 �
 
 
 [role="lead"]
-System Manager를 사용하면 더 이상 필요하지 않은 포트 세트를 삭제할 수 있습니다.
+System Manager를 사용하면 더 이상 필요하지 않은 포트셋 삭제 작업을 수행할 수 있습니다.
 
 .단계
 . 스토리지 * > * LUN * 을 클릭합니다.

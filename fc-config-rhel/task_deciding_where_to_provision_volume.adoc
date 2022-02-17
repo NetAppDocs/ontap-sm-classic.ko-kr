@@ -22,20 +22,20 @@ LUN을 포함할 볼륨을 프로비저닝하기 전에 볼륨을 기존 SVM(스
 
 * FC용으로 이미 구성된 SVM에서 볼륨을 프로비저닝하려면 FC 서비스가 실행 중인지 확인한 다음 SVM에 LUN을 생성해야 합니다.
 +
-xref:task_verifying_that_fc_service_is_running_on_existing_svm.adoc[FC 서비스가 기존 SVM에서 실행되고 있는지 확인]
+link:task_verifying_that_fc_service_is_running_on_existing_svm.html["FC 서비스가 기존 SVM에서 실행되고 있는지 확인"]
 
 +
-xref:task_creating_lun_its_containing_volume.adoc[LUN을 생성하는 중입니다]
+link:task_creating_lun_its_containing_volume.html["LUN을 생성하는 중입니다"]
 
 * FC가 활성화되었지만 구성되지 않은 기존 SVM에서 볼륨을 프로비저닝하려면 기존 SVM에서 iSCSI를 구성합니다.
 +
-xref:task_configuring_iscsi_fc_creating_lun_on_existing_svm.adoc[기존 SVM에서 FC 구성]
+link:task_configuring_iscsi_fc_creating_lun_on_existing_svm.html["기존 SVM에서 FC 구성"]
 
 +
-이 내용에 따라 다른 프로토콜을 구성하는 동안 SVM을 생성하기 위한 절차를 따르지 않은 경우가 이에 해당합니다.
+다른 프로토콜을 구성하면서 SVM을 생성하기 위해 이 절차를 따르지 않은 경우에 해당됩니다.
 
 * 새 SVM에서 볼륨을 프로비저닝하려면 SVM을 생성합니다.
 +
-xref:task_creating_svm.adoc[새 SVM 생성]
+link:task_creating_svm.html["새 SVM 생성"]
 
 

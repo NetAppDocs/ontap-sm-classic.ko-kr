@@ -12,4 +12,4 @@ summary: 재해 복구를 위한 볼륨을 준비하려면 클러스터 피어 �
 [role="lead"]
 재해 복구를 위한 볼륨을 준비하려면 클러스터 피어 관계를 확인하고, 피어링된 클러스터에 있는 볼륨 간에 SnapMirror 관계를 구축하고, 데이터 액세스를 위한 대상 SVM을 설정하고, SnapMirror 관계를 정기적으로 모니터링해야 합니다.
 
-image::../media/snapmirror_intercluster_cfg_workflow.gif[이 그림은 볼륨 재해 복구 준비 워크플로의 흐름도입니다. 워크플로의 단계가 이 콘텐츠의 항목과 일치합니다.]
+image::../media/snapmirror_intercluster_cfg_workflow.gif[이 그림은 볼륨 재해 복구 준비 워크플로의 흐름도입니다. 워크플로의 단계가 항목과 일치합니다.]

@@ -14,7 +14,7 @@ Data ONTAP 8.1부터 특정 ONTAP 디스크 유형은 Aggregate를 생성 및 �
 
 RAID.disktype.enable 옵션을 off로 설정하면 동일한 Aggregate 내에서 특정 유형의 HDD를 혼합할 수 있습니다. RAID.disktype.enable 옵션을 On으로 설정하면 유효 디스크 유형이 ONTAP 디스크 유형과 동일합니다. 애그리게이트는 한 가지 디스크 유형만 사용하여 생성할 수 있습니다. RAID.disktype.enable 옵션의 기본값은 off입니다.
 
-Data ONTAP 8.2부터 BSAS, FSA, ATA 유형의 디스크를 혼합하려면 raid.mix.hdd.disktype.capacity` 옵션을 "On"으로 설정해야 합니다. FCAL과 SAS 유형의 디스크를 혼합하려면 RAID.Mix.HDD.disktype.performance 옵션을 On으로 설정해야 합니다.
+Data ONTAP 8.2부터는 raid.mix.hdd.disktype.capacity` 옵션을 On으로 설정해야 BSAS, FSA, ATA 유형의 디스크가 혼용됩니다. FCAL과 SAS 유형의 디스크를 혼합하려면 RAID.Mix.HDD.disktype.performance 옵션을 On으로 설정해야 합니다.
 
 다음 표에서는 디스크 유형이 효과적인 디스크 유형에 매핑되는 방법을 보여 줍니다.
 

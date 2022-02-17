@@ -2,7 +2,6 @@
 <blocks>
   <block id="74f1afbef663f32fc8d025982a526401" category="summary">재해 복구를 위한 볼륨을 준비하려면 클러스터 피어 관계를 확인하고, 피어링된 클러스터에 있는 볼륨 간에 SnapMirror 관계를 구축하고, 데이터 액세스를 위한 대상 SVM을 설정하고, SnapMirror 관계를 정기적으로 모니터링해야 합니다.</block>
   <block id="97214eb14a082986b89d0496654171d1" category="doc">볼륨 재해 복구 준비 워크플로우</block>
-  <block id="5417886874c23b84f8a08bab388547ad" category="image-alt">이 그림은 볼륨 재해 복구 준비 워크플로의 흐름도입니다. 워크플로의 단계가 이 콘텐츠의 항목과 일치합니다.</block>
   <block id="3c660529447a12408baa2c4276074865" category="summary">재해 복구를 위한 볼륨을 설정하기 전에 소스 및 타겟 클러스터가 피어링되어 피어 관계를 통해 서로 통신하고 있는지 확인해야 합니다.</block>
   <block id="53ab1f406894f8ee557eb9d33edf70fe" category="doc">클러스터 피어 관계 및 SVM 피어 관계를 확인합니다</block>
   <block id="8c4271e6faf2cea4cfc8e5b7108d8ee9" category="section-title">절차를 참조하십시오</block>
@@ -28,7 +27,6 @@
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
   <block id="42e550201f4382514a38476e1153d227" category="list-text">실행 중인 System Manager 버전에 따라 다음 단계 중 하나를 수행하십시오.</block>
   <block id="4b67e9dc4636898f3adde0efd77aea20" category="list-text">ONTAP 9.4 이하: * 보호 * &gt; * 관계 * 를 클릭합니다.</block>
-  <block id="5e30f29400cec15492168c2c68955b25" category="list-text">ONTAP 9.5부터 * 보호 * &gt; * 볼륨 관계 * 를 클릭합니다.</block>
   <block id="ffe3c5dc6640d00a06faa934392cea79" category="list-text">소스 볼륨과 타겟 볼륨 간의 SnapMirror 관계를 선택한 다음 * Details * Bottom 탭에서 상태를 확인합니다.</block>
   <block id="da0fa0e66751cd0a427a707254e6e6b0" category="paragraph">세부 정보 탭에는 SnapMirror 관계의 상태가 표시되고 전송 오류 및 지연 시간이 표시됩니다.</block>
   <block id="e83fc2f8e5789f9ebd1dcecb985bdec5" category="list-text">건강은? 필드에 예 가 표시되어야 합니다.</block>
@@ -93,7 +91,6 @@
   <block id="f1d375acce142a998998792cf507a24c" category="list-text">클러스터 관리자입니다.</block>
   <block id="a195f24ab26382d137f981d3a4b88f40" category="list-text">클러스터 피어 관계 및 SVM 피어 관계를 구성했습니다.</block>
   <block id="4981318c1affb5f192b38fe8f9105db7" category="inline-xref-macro">클러스터 및 SVM 피어링 구성</block>
-  <block id="e9b35c302b58579a90853e5349bd7152" category="paragraph"><block ref="e9b35c302b58579a90853e5349bd7152" category="inline-xref-macro-rx"></block></block>
   <block id="6a24f516827d99f674302536f72d66fa" category="list-text">소스 및 대상 클러스터 모두에서 SnapMirror 라이센스를 활성화했습니다.</block>
   <block id="23ee6fca3793e587122a68c14921baea" category="list-text">사용자 지정 정책을 만들지 않고 기본 정책 및 일정을 사용하려고 합니다.</block>
   <block id="0e4222b86d7998dfe8825bb8a6cde95d" category="list-text">사용 가능한 모든 옵션(ONTAP 9.7 이하)을 탐색하는 것이 아니라 모범 사례를 활용하고자 합니다.</block>
@@ -126,7 +123,6 @@
   <block id="d33f2a600ba4fe43084a26e95e4908c0" category="paragraph">* 관련 정보 *</block>
   <block id="774a065cb3548cc61fb0ec3bc1494fbe" category="inline-link">ONTAP 9 문서 센터</block>
   <block id="338d62a5773d1719cd74534a1cf90a9c" category="paragraph"><block ref="338d62a5773d1719cd74534a1cf90a9c" category="inline-link-rx"></block></block>
-  <block id="f9809a47cbaef5245bab838e10437c11" category="doc">SnapMirror 관계 생성(ONTAP 9.3부터)</block>
   <block id="20f540c263dff9259e27dc98c5e109f3" category="list-text">스토리지 * &gt; * 볼륨 * 을 클릭합니다.</block>
   <block id="2c9838f3a2bfef58875104013a2df101" category="list-text">미러 관계를 생성할 볼륨을 선택한 다음 * 작업 * &gt; * 보호 * 를 클릭합니다.</block>
   <block id="1a5a6bf990e4e003cee240113c744070" category="list-text">Volumes:Protect Volumes * 페이지에서 다음 정보를 제공합니다.</block>
@@ -273,7 +269,6 @@
   <block id="10e9dbce6e1f718b5f2e101f85a81c19" category="list-text">호스트에서 재검색하여 호스트의 사용 가능한 경로를 새로 고칩니다.</block>
   <block id="6c61c05b1d8e0ce824dd01e7039f9406" category="summary">ONTAP 9.7 이하 버전의 ONTAP System Manager 클래식 인터페이스를 사용하면 ONTAP 9 클러스터에서 동일한 SVM(스토리지 가상 머신) 내의 한 노드에서 다른 노드로 데이터 볼륨을 중단 없이 이동할 수 있습니다.</block>
   <block id="031cb7023542cd8e93be7689fdd95edd" category="doc">볼륨 이동 개요</block>
-  <block id="a64f315149cf8da551df1e7cf3003f0d" category="section-title">이 콘텐츠 사용에 대한 요구 사항</block>
   <block id="74fc6416343947ecb03b99f6d1525ef3" category="paragraph">이 절차를 수행하기 전에 다음 조건이 충족되는지 확인하십시오.</block>
   <block id="66a8b7d7749504ecbb5d242f4755ab4d" category="list-text">클러스터에서 ONTAP 9가 실행 중입니다.</block>
   <block id="43807459ecf40534d3acb5ec0f1921df" category="list-text">클러스터 관리자 권한이 있습니다.</block>
@@ -294,7 +289,6 @@
   <block id="4362cf8cfdded7907ff58326f0e2253e" category="list-text">운영 중단 없이 컨트롤러를 업그레이드하려는 경우 물리적 데이터 이동이 필요하지 않은 ARL(Aggregate relocation)을 사용할 수 있습니다.</block>
   <block id="520b661a272c9e6f55f469cc9c24193d" category="inline-link">고가용성</block>
   <block id="7e1caee432e45df33253240aef926690" category="paragraph"><block ref="7e1caee432e45df33253240aef926690" category="inline-link-rx"></block></block>
-  <block id="c0f22c1d55c3730577ec308ebbb2717b" category="list-text">포함된 볼륨이 없는 LUN만 이동하려는 경우 LUN 이동 프로세스를 사용할 수 있습니다.</block>
   <block id="587c9aa3c6003c9a9fa1fc9c2ceb2eaa" category="inline-link">SAN 관리</block>
   <block id="4d2af7f255e28e5bd38a76f9ba5554cb" category="paragraph"><block ref="4d2af7f255e28e5bd38a76f9ba5554cb" category="inline-link-rx"></block></block>
   <block id="1d02285ce9e16fdfb19638fd54388aae" category="summary">ONTAP 관리에 대한 자세한 내용은 ONTAP 9 제품 라이브러리를 참조하십시오.</block>
@@ -416,8 +410,6 @@
   <block id="7c171c2cc43d076d7e5b6e2279caba0b" category="paragraph">ONTAP를 사용하여 특정 호스트를 구성하는 방법에 대한 자세한 내용은 를 참조하십시오<block ref="ed5f0cb8da79fb5415ca9aff60303a86" category="inline-link-rx"></block>.</block>
   <block id="c99ea46138c6cca1947ab45f8b85983c" category="inline-link">ONTAP 9 SAN 관리 개요</block>
   <block id="4ccd1411513c65dcb6a679ea9915e95f" category="paragraph">SAN 관리에 대한 자세한 내용은 을 참조하십시오<block ref="8499bea34abc994e4281bc61265ea2b9" category="inline-link-rx"></block></block>
-  <block id="fcdcf750ea4e083be4386f4d74633fba" category="cell">* 를 사용하여 이 작업을 완료합니다</block>
-  <block id="cac8f9855a84d59ce73590ed73607556" category="cell">* 이 콘텐츠를 보십시오... *</block>
   <block id="d0f2df2bdd6b328117c96dcaacb4a936" category="cell">재설계된 System Manager(9.7 이상에서 사용 가능)</block>
   <block id="64f576bfce499e9d2ae488c0d3e09336" category="inline-link">Linux 서버용 SAN 스토리지 용량 할당</block>
   <block id="2043d9c76a0ce0aead2a3d90c7edea3d" category="cell"><block ref="2043d9c76a0ce0aead2a3d90c7edea3d" category="inline-link-rx"></block></block>
@@ -478,16 +470,11 @@
   <block id="872fa3b6f73d955a8fa1cf828aad2b71" category="paragraph">새 SVM을 생성하여 스토리지 클러스터의 다른 사용자와 데이터 또는 관리를 분리할 수 있습니다. 별도의 SVM을 사용하여 서로 다른 프로토콜을 분리할 수 있는 이점은 없습니다.</block>
   <block id="090e570eb7ef12715e532e16a7a9e28d" category="list-text">이미 iSCSI로 구성된 SVM에서 볼륨을 프로비저닝하려면 iSCSI 서비스가 실행 중인지 확인한 다음 SVM에 LUN을 생성해야 합니다.</block>
   <block id="4b1a4dfd0a0ce33b3088f060bc74e5f2" category="inline-xref-macro">iSCSI 서비스가 기존 SVM에서 실행 중인지 확인</block>
-  <block id="1801b4cc70cddfa789288657b1da00b8" category="paragraph"><block ref="1801b4cc70cddfa789288657b1da00b8" category="inline-xref-macro-rx"></block></block>
   <block id="87101a8948019b68800f1e2e82772de8" category="inline-xref-macro">LUN을 생성하는 중입니다</block>
-  <block id="55a7de21b68cc03c87c146620bfb7e42" category="paragraph"><block ref="55a7de21b68cc03c87c146620bfb7e42" category="inline-xref-macro-rx"></block></block>
   <block id="884720f362870bd564db280e0aec2372" category="list-text">iSCSI가 활성화되었지만 구성되지 않은 기존 SVM에서 볼륨을 프로비저닝하려면 기존 SVM에서 iSCSI를 구성합니다.</block>
   <block id="9bc2721cd9fc9cf7ea4053c001933b27" category="inline-xref-macro">기존 SVM에서 iSCSI 구성</block>
-  <block id="ad19d5572878279d6e01ec6c31d38a0c" category="paragraph"><block ref="ad19d5572878279d6e01ec6c31d38a0c" category="inline-xref-macro-rx"></block></block>
-  <block id="2aa9f0b2db01cb6f2fd46dbb74e141dc" category="paragraph">이 내용에 따라 다른 프로토콜을 구성하는 동안 SVM을 생성하기 위한 절차를 따르지 않은 경우가 이에 해당합니다.</block>
   <block id="e642923defb78474b5b1ea0e05dff173" category="list-text">새 SVM에서 볼륨을 프로비저닝하려면 SVM을 생성합니다.</block>
   <block id="7815b72d3714283fe9d8c9c1dcb77a58" category="inline-xref-macro">새 SVM 생성</block>
-  <block id="1b2377376469943ab7a3b55002d9047e" category="paragraph"><block ref="1b2377376469943ab7a3b55002d9047e" category="inline-xref-macro-rx"></block></block>
   <block id="eebf2f78847d6dccc7df88487c29e572" category="summary">기존 SVM(스토리지 가상 머신)에서 iSCSI를 구성하고 단일 마법사로 LUN 및 해당 볼륨을 생성할 수 있습니다. iSCSI 프로토콜은 SVM에서 이미 활성화되어 있지만 구성하지 않아야 합니다. 이 정보는 여러 프로토콜을 구성하지만 아직 iSCSI를 구성하지 않은 SVM용으로 제공됩니다.</block>
   <block id="aabaa240b84fa666c6f255273cc23ead" category="doc">기존 SVM에서 iSCSI를 구성합니다</block>
   <block id="59b299caab3a1b53e4e5896d1b092f0b" category="paragraph">기존 SVM(스토리지 가상 머신)에서 iSCSI를 구성하고 단일 마법사로 LUN 및 해당 볼륨을 생성할 수 있습니다. iSCSI 프로토콜은 SVM에서 이미 활성화되어 있지만 구성하지 않아야 합니다. 이 정보는 여러 프로토콜을 구성하지만 아직 iSCSI를 구성하지 않은 SVM용으로 제공됩니다.</block>
@@ -714,15 +701,11 @@
   <block id="616419cbd69dac421c2f54151ed93ddc" category="doc">새 볼륨을 프로비저닝할 위치를 결정합니다</block>
   <block id="62d8907105683cc733d920e218cab568" category="list-text">새 SVM에서 볼륨을 프로비저닝하려면 새 CIFS 지원 SVM을 생성합니다.</block>
   <block id="4580f852eda5e7892b3676a168284100" category="inline-xref-macro">새 CIFS 지원 SVM 생성</block>
-  <block id="ee45617d6afdf64d60c49cb3f9027eeb" category="paragraph"><block ref="ee45617d6afdf64d60c49cb3f9027eeb" category="inline-xref-macro-rx"></block></block>
   <block id="2c4bc6aa36fd38aa7c8de838fc9907ce" category="paragraph">기존 SVM에서 CIFS가 활성화되지 않은 경우 이 옵션을 선택해야 합니다.</block>
   <block id="c4fab1b78e00c46ac7a15cd074096dc1" category="list-text">CIFS가 설정되었지만 구성되지 않은 기존 SVM에서 볼륨을 프로비저닝하려면 기존 SVM에서 CIFS/SMB 액세스를 구성하십시오.</block>
   <block id="eb68ab9508b023ff28096d088bdd817c" category="inline-xref-macro">기존 SVM에서 CIFS/SMB 액세스 구성</block>
-  <block id="89a7fd936ddc69a822e1c28e97b2ee59" category="paragraph"><block ref="89a7fd936ddc69a822e1c28e97b2ee59" category="inline-xref-macro-rx"></block></block>
-  <block id="f6236cd8532f643ceb7a739d94822530" category="paragraph">이 컨텐츠에 나와 있는 절차를 사용하여 SAN 액세스를 위한 SVM을 생성한 경우 이 옵션을 선택해야 합니다.</block>
   <block id="a05b26f1df359f26e873075568b0bf49" category="list-text">CIFS 액세스용으로 완전히 구성된 기존 SVM에서 볼륨을 프로비저닝하려면 CIFS 볼륨을 CIFS 지원 SVM에 추가합니다.</block>
   <block id="ff9f8af3f836eed7a816fd381c0fe04c" category="inline-xref-macro">CIFS 지원 SVM에 CIFS 볼륨 추가</block>
-  <block id="8c3bb443f0bf4d98943a2438fc80edd5" category="paragraph"><block ref="8c3bb443f0bf4d98943a2438fc80edd5" category="inline-xref-macro-rx"></block></block>
   <block id="b4c6ffef451f6113dbdf563fcd2bd60c" category="summary">데이터를 포함할 FlexVol 볼륨을 만들어야 합니다. 필요에 따라 루트 볼륨의 보안 스타일에서 상속되는 볼륨의 기본 보안 스타일을 변경할 수 있습니다. 스토리지 가상 시스템(SVM)의 루트 볼륨에 있는 네임스페이스에서 볼륨의 기본 위치를 선택적으로 변경할 수도 있습니다.</block>
   <block id="fc38d292d44dc86d983ac51599e4dea3" category="doc">볼륨을 생성하고 구성합니다</block>
   <block id="199e43d244110749481e290aa8a7518b" category="paragraph">데이터를 포함할 FlexVol 볼륨을 만들어야 합니다. 필요에 따라 루트 볼륨의 보안 스타일에서 상속되는 볼륨의 기본 보안 스타일을 변경할 수 있습니다. 스토리지 가상 시스템(SVM)의 루트 볼륨에 있는 네임스페이스에서 볼륨의 기본 위치를 선택적으로 변경할 수도 있습니다.</block>
@@ -751,7 +734,6 @@
   <block id="c453f5864e28dada875fdbb30c86578d" category="doc">기존 SVM에 CIFS 액세스 추가</block>
   <block id="250dd85707d2f70d6d8a8f0a897569f2" category="list-text">SVM을 추가하는 데 필요한 자격 증명과 함께 SVM이 연결할 AD(Active Directory) 도메인입니다</block>
   <block id="0c7889397ffcf367a547e457fbe3495a" category="list-text">SVM에서 CIFS 프로토콜을 허용해야 합니다.</block>
-  <block id="16b57f76f56070caca16c20ee414005b" category="paragraph">이 컨텐츠에 나와 있는 절차에 따라 SVM을 생성하지 않고 SAN 프로토콜을 구성한 경우입니다.</block>
   <block id="fcfbc4db9b7ca128cbbefe0c9ff969b4" category="list-text">SVM의 프로토콜을 구성할 수 있는 영역으로 이동합니다.</block>
   <block id="60455d4b324016cfc2a415922d8e90b8" category="list-text">Details * 창에서 * Protocols * 옆에 있는 * CIFS * 를 클릭합니다.</block>
   <block id="57a245ba63a12cfcd59ab881a995437e" category="list-text">CIFS 프로토콜 구성 * 대화 상자의 * 데이터 LIF 구성 * 섹션에서 SVM용 데이터 LIF를 생성합니다.</block>
@@ -847,7 +829,6 @@
   <block id="78754ab97bac2910e490ac7fd856d2e4" category="paragraph">SNMPv3을 실행하는 시스템의 경우 CLI 명령 'snmpwalk -v 3 -a MD5 or SHA-l AuthNo암호화 -u username -a passwordip_address_or_host_name system'을 사용하여 MIB(Management Information Base)의 내용을 검색합니다.</block>
   <block id="e60229b23ad1d9c629bc0ade623ccd47" category="summary">SNMP를 구성하려면 SNMP를 활성화하고, 선택적으로 SNMPv1 또는 SNMPv2c 커뮤니티를 구성하고, 선택적으로 SNMPv3 사용자를 추가하고, SNMP 트라프호스트를 추가하고, SNMP 폴링 및 트랩을 테스트해야 합니다.</block>
   <block id="5174725bae53fcf1bcc485a2dbffb6ea" category="doc">SNMP 구성 워크플로우</block>
-  <block id="f51bd0bcce630a280ca8b016dfff0d35" category="image-alt">이 그림은 SNMP 구성 워크플로의 순서도입니다. 워크플로의 단계가 이 콘텐츠의 항목과 일치합니다.</block>
   <block id="44ea8eb2df89afa7b099aa23027cba85" category="summary">SMB/CIFS와 NFS를 모두 구성하려면 선택적으로 애그리게이트를 생성하고, 새 SVM을 생성하거나, 기존 SVM을 구성하거나, 볼륨 생성, 공유 및 내보내기를 수행하고, UNIX 및 Windows 관리 호스트의 액세스를 확인해야 합니다. 그런 다음 SMB/CIFS 및 NFS 클라이언트에 대한 액세스를 열 수 있습니다.</block>
   <block id="e0cb8bdb942b5a5756750a9ad13f5278" category="doc">멀티프로토콜 구성 워크플로우</block>
   <block id="59709e0b502adf4dc8604fb58c5b4fa2" category="image-alt">에서는 ONTAP에서 NFS 및 CIFS를 설정하는 단계에 대한 개요를 보여 줍니다.</block>
@@ -899,7 +880,6 @@
   <block id="40a3f9ef7782cd1fcb3e173c7ba41bd0" category="list-text">서비스 * 탭을 클릭합니다.</block>
   <block id="abd4a835aead2188c3dfd6f4d8e67464" category="list-text">이름 서비스 스위치 * 에서 * LDAP * 를 데이터베이스 유형의 기본 이름 서비스 스위치 소스로 지정합니다.</block>
   <block id="82208b0205967734eaf2e26b24865155" category="paragraph">LDAP는 이 SVM에서 이름 서비스와 이름 매핑을 위한 기본 사용자 정보입니다.</block>
-  <block id="2fd9c396448a15e9c35084529f59235a" category="summary">이 문서에서는 새 SVM(스토리지 가상 머신) 또는 기존 SVM(스토리지 가상 머신)에서 새 볼륨에 SMB/CIFS 및 NFS 액세스를 빠르게 설정하는 방법에 대해 설명합니다.</block>
   <block id="567b23fc1de26704e583127ac6f47f43" category="doc">SMB 및 NFS 멀티 프로토콜 구성 개요</block>
   <block id="8ae85e179f094ef5db01f02fc327f432" category="paragraph">ONTAP System Manager의 기존 인터페이스(ONTAP 9.7 이하)를 사용하면 새로운 SVM(스토리지 가상 머신) 또는 기존 SVM(스토리지 가상 머신)에서 새 볼륨에 대한 SMB 및 NFS 액세스를 빠르게 설정할 수 있습니다.</block>
   <block id="973b4a4cef4d13086f8f961fd5957845" category="list-text">NFS 액세스는 NFSv4나 NFSv4.1이 아닌 NFSv3을 통해 수행됩니다.</block>
@@ -971,7 +951,6 @@
   <block id="b0ac7418280972fa069bbc2a11514d3e" category="summary">CIFS 및 NFS 클라이언트 액세스를 성공적으로 테스트한 후 고급 CIFS 및 NFS 구성을 수행하거나 SAN 액세스를 추가할 수 있습니다. 프로토콜 액세스가 완료되면 SVM의 루트 볼륨을 보호해야 합니다. 이러한 목표를 달성하는 데 도움이 되는 포괄적인 컨텐츠 및 기술 보고서가 있습니다.</block>
   <block id="23353013b42b6a98388dd2bce5be051a" category="paragraph">CIFS 및 NFS 클라이언트 액세스를 성공적으로 테스트한 후 고급 CIFS 및 NFS 구성을 수행하거나 SAN 액세스를 추가할 수 있습니다. 프로토콜 액세스가 완료되면 SVM의 루트 볼륨을 보호해야 합니다. 이러한 목표를 달성하는 데 도움이 되는 포괄적인 컨텐츠 및 기술 보고서가 있습니다.</block>
   <block id="dd72e8231c2ab0c2133630fe6bc76e20" category="section-title">CIFS/SMB 구성</block>
-  <block id="5e73edd6d602145cba80c74c92b6db5c" category="paragraph">다음 컨텐츠 및 기술 보고서를 사용하여 CIFS 액세스를 추가로 구성할 수 있습니다.</block>
   <block id="6730d4603d3f770e9758b0495c9a2a62" category="inline-link">CIFS 관리</block>
   <block id="575124ad880ed28864d887a160002ff9" category="list-text"><block ref="575124ad880ed28864d887a160002ff9" category="inline-link-rx"></block></block>
   <block id="67a933ca8c13b0371da20884d6ea7ebe" category="paragraph">CIFS/SMB 프로토콜을 사용하여 파일 액세스를 구성 및 관리하는 방법에 대한 설명은 에 나와 있습니다.</block>
@@ -1083,11 +1062,9 @@
   <block id="a2407ebb754298b6d92da54a5b6a5ade" category="list-text">ONTAP 9.2 이하: 볼륨 창 아래쪽에 있는 * 데이터 보호 * 탭을 클릭합니다.</block>
   <block id="44d084096c54a12a05f20784871ac9d2" category="summary">소스 볼륨을 사용할 수 없거나 데이터가 손상된 경우 SnapVault 백업에서 복원을 수행할 수 있습니다. SnapVault 백업에서 볼륨을 복원하려면 SnapVault 대상 볼륨을 선택하고 새 볼륨이나 기존 볼륨으로 복원하며 복원 작업을 확인해야 합니다.</block>
   <block id="3146bb680f4495ea91ff6b5cdf9f403d" category="doc">볼륨 복원 워크플로우</block>
-  <block id="1e2fcafb752b97c02abddd7988dbccb3" category="image-alt">이 그림은 SnapVault 볼륨 복원 워크플로의 흐름도입니다. 워크플로의 단계가 이 콘텐츠의 항목과 일치합니다."&gt;</block>
   <block id="ab4ea62965d63f03e69f9687ea4f57bd" category="summary">SnapVault 백업 대상 볼륨에서 복구 작업을 수행한 후에는 소스 클러스터에서 복구 작업의 상태를 확인해야 합니다.</block>
   <block id="1628f478c5c0be529ea144694d2f2aac" category="doc">복구 작업을 확인합니다</block>
   <block id="78174392975039e32e6bd8eb0e9aeab6" category="list-text">볼륨 목록에서 소스 볼륨을 선택하고 ONTAP 버전에 따라 다음 작업 중 하나를 수행합니다.</block>
-  <block id="b789e10beac24a49bc99e368ff212686" category="list-text">ONTAP 9.3부터: 소스 볼륨을 두 번 클릭하여 세부 정보를 확인한 다음, * 보호 * 를 클릭하여 SnapMirror 관계에서 타겟 볼륨과 볼륨이 포함된 SVM 이름을 확인합니다.</block>
   <block id="097c7b182b009e4356d5542de13a525f" category="list-text">ONTAP 9.2 이하: * 데이터 보호 * 아래쪽 탭을 클릭하여 SnapMirror 관계의 타겟 볼륨과 볼륨이 들어 있는 SVM 이름을 식별하십시오. 유형 필드에 일시적으로 복원(Restore)이 표시됩니다. 복원 작업이 완료되면 이 필드에 Vault가 표시됩니다.</block>
   <block id="09fc6f48dd97ed416fbbde338efcfa4b" category="paragraph">SnapVault 관계의 모든 문제를 해결해야 합니다. SnapMirror 관계에 대한 문제 해결 절차도 SnapVault 관계에 적용됩니다.</block>
   <block id="f1da5eb0d0af3b72296ff6ea293abf1d" category="summary">데이터 손실이 발생할 경우 ONTAP의 SnapVault 백업에서 볼륨을 빠르게 복원할 수 있습니다.</block>
@@ -1180,14 +1157,11 @@
   <block id="752e60d41d8aa7e6048f0c466d113860" category="summary">새 NFS 볼륨을 생성하기 전에 기존 SVM(스토리지 가상 머신)에 배치할지 여부와 SVM에 필요한 구성의 규모를 결정해야 합니다. 이 결정에 따라 워크플로가 결정됩니다.</block>
   <block id="5bd25b8a022ab141835929e1af25478b" category="list-text">새 SVM에서 볼륨을 프로비저닝하려면 새 NFS 지원 SVM을 생성합니다.</block>
   <block id="fc587011bbd51b7cf1c921aa1b0029a6" category="inline-link-macro">새로운 NFS 지원 SVM 생성</block>
-  <block id="b495851adbc32bdfb445fdbdc27bf0b2" category="paragraph"><block ref="b495851adbc32bdfb445fdbdc27bf0b2" category="inline-link-macro-rx"></block></block>
   <block id="53049059472103ca974856932e9340cf" category="paragraph">기존 SVM에서 NFS를 사용하도록 설정하지 않은 경우 이 옵션을 선택해야 합니다.</block>
   <block id="c32c018daa6bf869487f4efafd03f1ef" category="list-text">NFS가 활성화되었지만 구성되지 않은 기존 SVM에서 볼륨을 프로비저닝하려는 경우 기존 SVM에서 NFS 액세스를 구성합니다.</block>
   <block id="68bd2854aa9772f07f693390ff623acc" category="inline-xref-macro">기존 SVM에서 NFS 액세스 구성</block>
-  <block id="b253eed1596f0887a893d28bed99f693" category="paragraph"><block ref="b253eed1596f0887a893d28bed99f693" category="inline-xref-macro-rx"></block></block>
   <block id="a33489f0e78cb939f807713843e4eb02" category="list-text">NFS 액세스를 위해 완벽하게 구성된 기존 SVM에서 볼륨을 프로비저닝하고 싶은 경우 NFS 볼륨을 NFS 지원 SVM에 추가합니다.</block>
   <block id="c11787f95061c1a26a30d2d5b3ca8b38" category="inline-xref-macro">NFS 지원 SVM에 NFS 볼륨 추가</block>
-  <block id="ec187c907983dadbd6f8b61f67667167" category="paragraph"><block ref="ec187c907983dadbd6f8b61f67667167" category="inline-xref-macro-rx"></block></block>
   <block id="7521780b3f49e6d4491d3f3123c0adec" category="paragraph">System Manager에서 생성된 모든 새 볼륨은 기본적으로 루트 볼륨에 접합 이름으로 볼륨 이름을 사용하여 마운트됩니다. NFS 클라이언트는 볼륨을 마운트할 때 접합 경로 및 접합 이름을 사용합니다.</block>
   <block id="c12df8eb73b0b12c8aacaeeac9cd5360" category="list-text">보안 스타일이 UNIX여야 합니다.</block>
   <block id="ef90e255f54a448d0d56b906ee0b801c" category="summary">NFS 지원 SVM에 NFS 볼륨을 추가하려면 볼륨을 생성 및 구성하고, 엑스포트 정책을 생성하고, UNIX 관리 호스트에서 액세스를 확인해야 합니다. 그런 다음 NFS 클라이언트 액세스를 구성할 수 있습니다.</block>
@@ -1271,18 +1245,12 @@
   <block id="1e0761d3f58b954747411d648b90834f" category="list-text">마운트할 데이터 저장소를 선택한 다음 * 확인 * 을 클릭합니다.</block>
   <block id="7015c9deb21ed3d10b64b8fc2e84fc46" category="inline-link">9.6 릴리즈용 VMware vSphere Administration용 Virtual Storage Console, VASA Provider 및 Storage Replication Adapter</block>
   <block id="6f3afeef83222d8bc6286646b9b2ac50" category="paragraph"><block ref="6f3afeef83222d8bc6286646b9b2ac50" category="inline-link-rx"></block></block>
-  <block id="524e6a7ca05501abe0cdf133ac0c53f9" category="summary">이 내용은 ONTAP 볼륨을 사용하여 ESXi 호스트에 대한 NFS 액세스를 데이터 저장소에 빠르게 설정하는 방법을 설명합니다.</block>
   <block id="9fbe728d7eb2adabf531ccdcf064bc53" category="doc">VSC 개요를 사용한 ESXi용 NFS 구성</block>
-  <block id="95df5f16a952797616851acaf5fe29a6" category="paragraph">다음과 같은 방법으로 ESXi 호스트에 대한 NFS 액세스를 볼륨에 구성하려면 이 콘텐츠를 사용해야 합니다.</block>
-  <block id="3265a02f223e2e874b1bec4518109193" category="list-text">를 사용하여 데이터 저장소를 프로비저닝하고 볼륨을 생성하려고 합니다.</block>
   <block id="e8726682a54ea85f2123db66fd54ec79" category="inline-link">ONTAP 시스템 관리자 설명서</block>
-  <block id="393a51fc1ea014203ab06257b17952d6" category="paragraph"><block ref="393a51fc1ea014203ab06257b17952d6" category="inline-link-rx"></block></block>
-  <block id="9dfffe8114e130e42162831fc7267180" category="paragraph">데이터 네트워크가 평평하게 되어 있는 경우, 이 기본 오브젝트는 링크 장애 시 LIF가 올바르게 페일오버되도록 규정합니다. 기본 개체를 사용하지 않는 경우 을 참조해야 합니다<block ref="a103d8b90ee1bc965ab64e599e1125d6" category="inline-link-rx"></block> LIF 경로 페일오버를 구성하는 방법에 대한 자세한 내용은 를 참조하십시오.</block>
   <block id="43a71c5fe2434bc0afb8d6344fcbf4d8" category="list-text">VMware VAAI용 플러그인을 사용하려는 경우</block>
   <block id="feed6122f4184fcdec75b30135610d5f" category="paragraph">VAAI(VMware vStorage APIs for Array Integration)를 사용하면 복제 오프로드 및 공간 예약을 수행할 수 있습니다. VMware VAAI용 플러그인은 ESXi 호스트를 통과할 필요가 없으므로 ONTAP에서 공간 및 시간 효율성이 뛰어난 클론 생성을 활용할 수 있으므로 이를 사용하여 호스트 성능을 향상시킵니다.</block>
   <block id="c1d14d20450e486195a2453dad82c1f5" category="paragraph">데이터 저장소 용량 할당에 VMware VAAI를 사용하는 것이 Best Practice입니다.</block>
   <block id="ba57eb39fed6c8030e4496610bee0e42" category="list-text">NFS 액세스는 VMware VAAI에서 사용할 수 있도록 NFSv3 및 NFSv4를 통해 이루어집니다.</block>
-  <block id="15f6651162d058faaebf80dd276f4cd4" category="paragraph">이 내용이 상황에 적합하지 않은 경우 다음 문서를 참조하십시오.</block>
   <block id="4fa7027f5c486116a971b22d989ffdc3" category="inline-link">NetApp 기술 보고서 4597: ONTAP이 포함된 VMware vSphere</block>
   <block id="692a969ba2c3d4a614223404347adda8" category="list-text"><block ref="692a969ba2c3d4a614223404347adda8" category="inline-link-rx"></block></block>
   <block id="0ae8f1eaedc1d03237b696eca1e35060" category="summary">ESXi 호스트가 NFS 연결 또는 스토리지 손실을 올바르게 관리할 수 있도록 ESXi 호스트 Best Practice 설정이 올바른지 확인해야 합니다.</block>
@@ -1312,14 +1280,10 @@
   <block id="4b76ea8213fa0c1e72e5f63cba3c130e" category="paragraph">스토리지 시스템을 재부팅할 필요가 없습니다.</block>
   <block id="7d1eb1565cddc0f48bdf0663892f533b" category="summary">NFS 볼륨을 생성하기 전에 기존 볼륨에 배치할 지 여부와 필요한 경우 에 필요한 구성의 크기를 결정해야 합니다. 이 결정에 따라 워크플로가 결정됩니다.</block>
   <block id="aa8da2189cdd9c6ee2326f1fde69b15f" category="list-text">새로운 SVM을 원할 경우 기존 SVM에서 NFS를 사용하도록 설정 하는 단계를 따릅니다.</block>
-  <block id="5aff85b0ec3a4ddc2fc43138b0069660" category="paragraph"><block ref="5aff85b0ec3a4ddc2fc43138b0069660" category="inline-xref-macro-rx"></block></block>
   <block id="95f6f6823a96faf6c739a7e022f0467a" category="list-text">NFS가 활성화되었지만 구성되지 않은 기존 SVM에서 볼륨을 프로비저닝하려면 기존 SVM에 대한 NFS 액세스를 구성하는 단계를 따르십시오.</block>
   <block id="15f7652593bfd5a8f712eee46054c450" category="inline-xref-macro">기존 SVM에 대한 NFS 액세스 구성</block>
-  <block id="71b0fff707e5d2de09222536e231add0" category="paragraph"><block ref="71b0fff707e5d2de09222536e231add0" category="inline-xref-macro-rx"></block></block>
-  <block id="808f2f0fdaf52e4f42baca616813f73f" category="paragraph">이 컨텐츠에 나와 있는 절차를 따라 SVM을 생성한 경우에 해당합니다.</block>
   <block id="511ad2042dec7e41acbf8c599092e880" category="list-text">NFS 액세스를 위해 완전히 구성된 기존 볼륨에서 볼륨을 프로비저닝하려면 기존 SVM에서 설정을 확인하기 위해 수행하는 단계를 따르십시오.</block>
   <block id="40dfa5af6e5d241954dd8dffbd030a39" category="inline-xref-macro">기존 SVM에서 설정 확인</block>
-  <block id="482cd53130aff2ee2a18136bf4a0a22e" category="paragraph"><block ref="482cd53130aff2ee2a18136bf4a0a22e" category="inline-xref-macro-rx"></block></block>
   <block id="e5bd14ce4c306a79c0e8d3e50a90a52b" category="summary">이더넷 네트워크의 성능은 매우 다양합니다. 특정 구성 값을 선택하여 네트워크 성능을 극대화할 수 있습니다.</block>
   <block id="84ae591f19c33f1acc3845758d6ac1eb" category="doc">최상의 성능을 위해 네트워크를 구성합니다</block>
   <block id="29bbbcc578981b2a610c5ce728da3361" category="list-text">호스트 및 스토리지 포트를 동일한 네트워크에 연결합니다.</block>
@@ -1392,7 +1356,6 @@
   <block id="2ddad2e2d0d34e4a5404bf8e5d2d8c9c" category="summary">FC를 사용하여 호스트에서 스토리지를 사용할 수 있게 하면 스토리지 가상 머신에 볼륨 및 LUN을 프로비저닝한 다음 호스트에서 LUN에 연결됩니다.</block>
   <block id="84537406a801e386b5b242a76072a064" category="doc">FC 구성 워크플로우</block>
   <block id="b7d149379f3d19b9d2d0c5ec0e877edb" category="paragraph">FC를 사용하여 호스트에서 스토리지를 사용할 수 있도록 하면 SVM(스토리지 가상 머신)에 볼륨 및 LUN을 프로비저닝하고 호스트에서 LUN에 연결합니다.</block>
-  <block id="961d858654f9e332ae80d820cae951ab" category="image-alt">이 그림은 FC 워크플로우에 대한 흐름도입니다. 워크플로의 단계가 이 콘텐츠의 항목과 일치합니다.</block>
   <block id="bb5df2f200bfe0ce4ddb74f6c42e0db6" category="summary">SVM(스토리지 가상 머신)의 LUN은 Windows 호스트에 디스크로 표시됩니다. 시스템에 추가하는 LUN의 새 디스크는 호스트에서 자동으로 검색되지 않습니다. 디스크를 검색하려면 디스크를 수동으로 다시 검색해야 합니다.</block>
   <block id="26f78ab6726b56a4a48d2e69a1243cd1" category="doc">새 디스크를 검색합니다</block>
   <block id="dcae809c9cd8973e294819982c7630ea" category="list-text">Windows 컴퓨터 관리 유틸리티를 엽니다.</block>
@@ -1436,20 +1399,16 @@
   <block id="2a06f4cc02ae968d84c40a51833afb43" category="list-text">FC*용 데이터 LIF 구성 확인란을 선택합니다.</block>
   <block id="4544fb5c21cf39d4f415bd7bab6b05d8" category="list-text">FCP 스토리지에 대한 LUN 프로비저닝 * 영역에 호스트 이니시에이터의 원하는 LUN 크기, 호스트 유형 및 WWPN을 입력합니다.</block>
   <block id="1e14d1461a18e32676c8432379f8c4e2" category="image-alt">그림 에서는 SVM 설정 마법사의 4단계, FC 세부 정보 작성을 보여 줍니다.</block>
-  <block id="e54631240250ad3c4f5138fe670ba9b2" category="summary">이 내용은 스토리지 가상 머신에서 FC 서비스를 빠르게 설정하고, LUN을 프로비저닝하고, Windows 호스트 컴퓨터에서 FC HBA를 사용하여 LUN을 사용할 수 있도록 설정하는 방법을 설명합니다.</block>
   <block id="137958d39870a26e1283b177e2babfab" category="doc">Windows용 FC 구성 개요</block>
-  <block id="b38eb47eb8a7f4ec6696ee8d4e8a114e" category="paragraph">SVM(스토리지 가상 시스템)에서 FC 서비스를 설정하고, LUN을 프로비저닝하고, ONTAP System Manager 클래식 인터페이스(ONTAP 9.7 이하)가 있는 Windows 호스트 컴퓨터에서 FC HBA를 사용하여 LUN을 사용할 수 있도록 할 수 있습니다.</block>
   <block id="9cf52e339950ce13b96dc210eba32043" category="paragraph">다음의 경우 SVM에서 FC 서비스를 설정하려면 다음 절차를 따르십시오.</block>
   <block id="38e80e600c0d0ee615750e63a57b0cc5" category="list-text">기존 FC HBA 및 스위치를 사용하고 있습니다.</block>
   <block id="d72f5510625cc4d6c7088dce4938a4b0" category="paragraph">이 절차는 다음과 같은 상황을 다루지 않습니다.</block>
-  <block id="a8a43c6e4824f8a5c53b50bf6e5041dd" category="list-text">클러스터의 각 노드에서 사용 가능한 FC 타겟 포트가 2개 이상 있습니다. 온보드 FC 및 UTA2(CNA라고도 함) 포트뿐만 아니라 일부 어댑터를 구성할 수 있습니다. 이러한 포트 구성은 ONTAP CLI에서 수행되며 이 콘텐츠에서 다루지 않습니다.</block>
   <block id="c520e47a5a5f6944b35a4623f07d32ef" category="list-text">FC SAN 부팅을 구성하지 않습니다.</block>
   <block id="76c0d4b92dfc6f5a20da4d0875bc8c4f" category="list-text">Hyper-V 또는 ESX 게스트에 VFC(가상 파이버 채널)를 사용하고 있지 않습니다.</block>
   <block id="2b059c82e86ff3c455cb0426715eaa43" category="inline-link-macro">Windows 서버용 SAN 스토리지 용량 할당</block>
   <block id="0d0143f2e5a78e2ef09e5e513f10c665" category="cell"><block ref="0d0143f2e5a78e2ef09e5e513f10c665" category="inline-link-macro-rx"></block></block>
   <block id="a68e7c01398ea86885062e8abe3e14a1" category="cell"><block ref="a68e7c01398ea86885062e8abe3e14a1" category="inline-link-macro-rx"></block></block>
   <block id="45010da5958c7fc3d60c5414c380bb70" category="inline-link">NetApp 설명서: 호스트 유틸리티</block>
-  <block id="1c88671ee1b1558529268a8ad894ff88" category="paragraph">* 추가 리소스 * + *<block ref="cd3b4c8ff812596a26bae28e5b6c61ee" category="inline-link-rx"></block></block>
   <block id="f032d5b309b3efb7280cc7126adae686" category="summary">기존 SVM(스토리지 가상 머신)을 사용하도록 선택한 경우 ONTAP System Manager를 사용하여 SVM에서 FC 서비스가 실행되고 있는지 확인해야 합니다. 또한 FC 논리 인터페이스(LIF)가 이미 생성되어 있는지도 확인해야 합니다.</block>
   <block id="0c0bf84f65dbfeefef108b5ac6e35021" category="doc">FC 서비스가 기존 SVM에서 실행되고 있는지 확인합니다</block>
   <block id="ed61d87d33632ff9abf14d79bb643ab8" category="list-text">필요한 SVM을 선택합니다.</block>
@@ -1498,10 +1457,8 @@
   <block id="1cd6af8b71fde82eaa95be1732007b7b" category="paragraph">LUN을 포함할 볼륨을 프로비저닝하기 전에 볼륨을 기존 SVM(스토리지 가상 머신)에 추가할 것인지 또는 볼륨에 사용할 새 SVM을 생성할 것인지를 결정해야 합니다. 기존 SVM에서 FC를 구성해야 할 수도 있습니다.</block>
   <block id="0ff53101e6b7b8319a191a14e2a6fe8c" category="list-text">FC용으로 이미 구성된 SVM에서 볼륨을 프로비저닝하려면 FC 서비스가 실행 중인지 확인한 다음 SVM에 LUN을 생성해야 합니다.</block>
   <block id="b0ad8910c3b5157881d0a627017070d1" category="inline-xref-macro">FC 서비스가 기존 SVM에서 실행되고 있는지 확인</block>
-  <block id="81e17436e31e597f9ed6fde1304a3cbb" category="paragraph"><block ref="81e17436e31e597f9ed6fde1304a3cbb" category="inline-xref-macro-rx"></block></block>
   <block id="c4a03e6eb6a6a15581a55e6d228579ca" category="list-text">FC가 활성화되었지만 구성되지 않은 기존 SVM에서 볼륨을 프로비저닝하려면 기존 SVM에서 iSCSI를 구성합니다.</block>
   <block id="2105441a1d57843a26c6a159a01c83d5" category="inline-xref-macro">기존 SVM에서 FC 구성</block>
-  <block id="2524fe699e4b3d42a353f51f1de581ff" category="paragraph"><block ref="2524fe699e4b3d42a353f51f1de581ff" category="inline-xref-macro-rx"></block></block>
   <block id="8055412917384883220924a23f2676d0" category="summary">기존 SVM(스토리지 가상 머신)에서 FC를 구성하고 단일 마법사로 LUN 및 포함된 볼륨을 생성할 수 있습니다. FC 프로토콜은 SVM에서 이미 활성화되었지만 구성되지 않아야 합니다. 이 정보는 여러 프로토콜을 구성하지만 FC를 아직 구성하지 않은 SVM용으로 제공됩니다.</block>
   <block id="aaa97ec4916f823749bdda09ed2251c2" category="doc">기존 SVM에서 FC를 구성합니다</block>
   <block id="ae52c31935d2699475753ec96dc9d8e8" category="paragraph">기존 SVM(스토리지 가상 머신)에서 FC를 구성하고 단일 마법사로 LUN 및 포함된 볼륨을 생성할 수 있습니다. FC 프로토콜은 SVM에서 이미 활성화되었지만 구성되지 않아야 합니다. 이 정보는 여러 프로토콜을 구성하지만 FC를 아직 구성하지 않은 SVM용으로 제공됩니다.</block>
@@ -1778,7 +1735,6 @@
   <block id="542d594965c7e60d9b166ddd6a659744" category="list-text">클라우드 계층과 애그리게이트 간에는 전용 네트워크 연결이 있어야 합니다.</block>
   <block id="f571fb372da76b65558288071e96f334" category="paragraph">다음 오브젝트 저장소를 클라우드 계층으로 사용할 수 있습니다.</block>
   <block id="392d70ca39f31f10bd637936769788df" category="list-text">StorageGRID</block>
-  <block id="33f78bbdf1a758d02b55487b2ecd80c7" category="list-text">Alibaba Cloud(System Manager 9.6부터 시작)</block>
   <block id="fea2c9f5057f9d81135ceb4d08c60600" category="list-text">AWS(Amazon Web Services) S3(Simple Storage Service)</block>
   <block id="e310ac4e0ff61922cee54b2be11f176c" category="list-text">AWS(Amazon Web Services) C2S(Commercial Cloud Service)</block>
   <block id="7229e78ecf33d07a5618d54695f22e2b" category="list-text">Microsoft Azure Blob 저장소</block>
@@ -1806,7 +1762,6 @@
   <block id="3f3d625af80513d7cc3dedd29702c976" category="list-text">백그라운드 중복제거가 활성화되어 있는 경우에만 백그라운드 압축을 활성화할 수 있습니다.</block>
   <block id="bb92c62ef1bff5f835be511dbf2d97a3" category="list-text">백그라운드 압축 및 백그라운드 중복제거를 각각 사용하거나 사용하지 않고 인라인 압축 및 인라인 중복제거를 사용할 수 있습니다.</block>
   <block id="68ba071959c4536d44350158d7366098" category="list-text">All-Flash 최적화 속성을 가진 애그리게이트 및 Flash Pool 애그리게이트에 포함된 볼륨에 대해서만 인라인 중복제거를 사용할 수 있습니다.</block>
-  <block id="044358c9379d2067f90b2fe2c9fd1042" category="list-text">System Manager 9.6부터 FlexGroup DP 볼륨의 편집 스토리지 효율성이 지원됩니다.</block>
   <block id="f40178ec5f53ae2902cfa138e94c92a2" category="list-text">스토리지 효율성을 활성화할 볼륨을 선택한 다음 * Edit * 를 클릭합니다.</block>
   <block id="4f5a9513410fd8da6db1ee5105cc6017" category="list-text">볼륨 편집 * 대화 상자에서 * 스토리지 효율성 * 을 클릭합니다.</block>
   <block id="870265c5d96ccfde69dfb8125c9a2a42" category="list-text">Background Deduplication * 확인란을 선택합니다.</block>
@@ -2071,7 +2026,6 @@
   <block id="55d9afe0ac18b4357f6915a7d602ef8a" category="list-text">스토리지 권장 사항에 따라 데이터 애그리게이트를 생성하려면 * Submit and Continue * 를 클릭합니다.</block>
   <block id="04728df1211e23c995d82c2fc1492061" category="list-text">나중에 System Manager를 사용하여 데이터 애그리게이트를 만들려면 * 이 단계 건너뛰기 * 를 클릭합니다.</block>
   <block id="7e7d16df28bfac5006a50432f984556a" category="paragraph">스토리지 권장 사항에 따라 애그리게이트를 생성하도록 선택할 경우 클러스터 설정을 계속하려면 스토리지 가상 머신(SVM)을 생성해야 합니다.</block>
-  <block id="adc8c04f72ab0f431645bef620a16a25" category="summary">System Manager 9.6부터 FlexCache 볼륨에 대한 정보를 볼 수 있습니다. 할당된 공간과 FlexCache 볼륨의 성능을 그래픽으로 표시할 수 있습니다.</block>
   <block id="af94d293d65ac05aba778e00e3ba5510" category="doc">FlexCache 볼륨 정보 보기</block>
   <block id="d5a19af6bd480993ed2b7a77e9921ee4" category="list-text">표시된 볼륨 목록에서 정보를 보려는 FlexCache 볼륨을 선택합니다.</block>
   <block id="5a122451c661dd2151904b25552e7d85" category="paragraph">style * 열은 FlexCache 볼륨에 대해 "FlexCache"를 표시합니다.</block>
@@ -2298,10 +2252,8 @@
   <block id="149c3aa471a32d681065515f8c2502a8" category="list-text">SNMP* 창에서 SNMP 설정에 대한 변경 사항을 확인합니다.</block>
   <block id="639a1bdb6de85b0fdcef8600f153f51e" category="inline-xref-macro">SNMP 창</block>
   <block id="ef1ac123ff6a2fb79b2e99715168c594" category="paragraph"><block ref="ef1ac123ff6a2fb79b2e99715168c594" category="inline-xref-macro-rx"></block></block>
-  <block id="77acb4d4187211c7c95fb90eb6dd839f" category="summary">Data ONTAP 8.1부터 특정 ONTAP 디스크 유형은 Aggregate를 생성 및 추가하고 스페어를 관리할 때 동일한 용도로 사용됩니다. ONTAP는 각 디스크 유형에 대해 유효한 디스크 유형을 할당합니다. 동일한 유효 디스크 유형의 HDD를 혼합할 수 있습니다.</block>
   <block id="c18da52fcfd4120f502b7e503a44a12c" category="doc">HDD를 혼합하여 사용할 수 있는 효율적인 ONTAP 디스크 유형을 사용하는 방법</block>
   <block id="73167356eff2beee3b7d0f6602377fae" category="paragraph">RAID.disktype.enable 옵션을 off로 설정하면 동일한 Aggregate 내에서 특정 유형의 HDD를 혼합할 수 있습니다. RAID.disktype.enable 옵션을 On으로 설정하면 유효 디스크 유형이 ONTAP 디스크 유형과 동일합니다. 애그리게이트는 한 가지 디스크 유형만 사용하여 생성할 수 있습니다. RAID.disktype.enable 옵션의 기본값은 off입니다.</block>
-  <block id="947ab2fd31a4948d5418d788e6906e52" category="paragraph">Data ONTAP 8.2부터 BSAS, FSA, ATA 유형의 디스크를 혼합하려면 raid.mix.hdd.disktype.capacity` 옵션을 "On"으로 설정해야 합니다. FCAL과 SAS 유형의 디스크를 혼합하려면 RAID.Mix.HDD.disktype.performance 옵션을 On으로 설정해야 합니다.</block>
   <block id="4eef11d5f1a801b05f8cc86c9066507e" category="paragraph">다음 표에서는 디스크 유형이 효과적인 디스크 유형에 매핑되는 방법을 보여 줍니다.</block>
   <block id="d0dc7d087e136dc1feca144cac29a5f4" category="cell">ONTAP 디스크 유형입니다</block>
   <block id="ec8718556ea92c1ed5fddca0d75a889d" category="cell">유효 디스크 유형입니다</block>
@@ -2327,7 +2279,6 @@
   <block id="86a029dc650692e5963aa809e916a39e" category="paragraph">거의 용량에 도달한 Aggregate 및 볼륨, 클러스터 또는 노드의 스토리지 효율성, 상위 볼륨의 보호 세부 정보를 표시합니다.</block>
   <block id="814ba8a9194f2193e90750b1eab47997" category="paragraph">용량 탭에는 용량이 거의 표시된 상위 온라인 애그리게이트가 사용된 공간의 내림차순으로 표시됩니다.</block>
   <block id="0f7c1f365ad3a51b1429aa1542b1b0df" category="paragraph">Capacity(용량) 탭은 사용된 용량 초과 필드에 유효한 값을 입력할 때 사용된 용량이 가장 큰 볼륨 수에 대한 링크를 제공합니다. 또한 클러스터에서 사용 가능한 비활성(콜드) 데이터의 양도 표시됩니다.</block>
-  <block id="a52a7cabf51a09f36ef87f9a90e2af53" category="paragraph">효율성 탭에는 클러스터 또는 노드의 스토리지 효율성 절약 효과가 표시됩니다. 사용된 총 논리적 공간, 사용된 총 물리적 공간 및 전체 절감 효과를 볼 수 있습니다. 클러스터 또는 특정 노드를 선택하여 스토리지 효율성 절약 효과를 볼 수 있습니다. System Manager 9.5에서 스냅샷 복사본에 사용되는 공간은 사용된 총 논리적 공간, 사용된 총 물리적 공간 및 전체 축소에 대한 값에 _not_포함되어 있습니다. 그러나 System Manager 9.6부터 Snapshot 복사본에 사용되는 공간은 사용되는 총 논리적 공간, 사용된 총 물리적 공간 및 전체 절감 효과에 포함되어 있습니다.</block>
   <block id="d771f957bfccc62719457d6326bf2194" category="paragraph">클러스터 개요 패널의 새로 고침 간격은 15분입니다.</block>
   <block id="fa6eb4e3bfee0e281127cbbd2e054809" category="paragraph">보호 탭에는 정의된 보호 관계가 없는 클러스터 전체 볼륨에 대한 정보가 표시됩니다. 다음 기준을 충족하는 FlexVol 볼륨 및 FlexGroup 볼륨만 표시됩니다.</block>
   <block id="a44b22fb7994077f67f9d2c7889318ce" category="list-text">볼륨은 RW 볼륨이며 온라인 상태입니다.</block>
@@ -2677,9 +2628,6 @@
   <block id="85e33fb4f75c02000524bf77eb13d004" category="list-text">볼륨 목록에서 필요한 볼륨을 선택합니다.</block>
   <block id="9c105fb059d311c66a4e979852380cb8" category="list-text">More Actions * &gt; * Clone * &gt; * View Hierarchy * 를 클릭합니다.</block>
   <block id="e9539d55c5a6806be673d8f4215a27cb" category="paragraph">하위 FlexClone 볼륨이 하나 이상 있는 볼륨이 표시됩니다. FlexClone 볼륨은 각 상위 볼륨의 하위 볼륨으로 표시됩니다.</block>
-  <block id="40cf3ccead3d1522c56a9b43a96c3695" category="summary">System Manager를 사용하면 더 이상 필요하지 않은 포트 세트를 삭제할 수 있습니다.</block>
-  <block id="6cdf085f7dc21df0a8dc46d1b215b524" category="doc">포트 세트를 삭제하는 중입니다</block>
-  <block id="043072944b3bc1f9e19805a129e5002e" category="list-text">Portsets * 탭에서 하나 이상의 포트 세트를 선택하고 * Delete * 를 클릭합니다.</block>
   <block id="6c2694d87158e1651482546543e38a8d" category="list-text">삭제 * 를 클릭하여 삭제를 확인합니다.</block>
   <block id="969b0252736087a46b858a67c123eab1" category="summary">System Manager의 이니시에이터 그룹 탭을 사용하여 이니시에이터를 삭제할 수 있습니다. 이니시에이터 그룹에서 이니시에이터를 삭제하려면 이니시에이터 그룹에서 이니시에이터를 분리해야 합니다.</block>
   <block id="c599e3a17497c8e97289dc5a0bd24a9a" category="doc">이니시에이터 그룹에서 이니시에이터를 삭제합니다</block>
@@ -2925,7 +2873,6 @@
   <block id="01202f05e6c9485ca32089d68953f4dd" category="doc">SVM 관계 생성</block>
   <block id="9e33103284ad8b6f29351c904b401325" category="list-text">대상 클러스터와 소스 클러스터는 ONTAP 9.5 이상을 실행해야 합니다.</block>
   <block id="c6cdd4df8a02d7568569288d20156dfe" category="list-text">타겟 클러스터가 MetroCluster 구성에 없어야 합니다.</block>
-  <block id="7a3cb6284c4921a43b15cf88ab8375cc" category="list-text">System Manager 9.6부터 패브릭 풀은 지원됩니다.</block>
   <block id="77595f78f9133961a7457297f795cd07" category="list-text">보호 * &gt; * SVM 관계 * &gt; * 생성 * 을 클릭합니다.</block>
   <block id="bcb1d33ec176a891e9e3ae86e2c199d8" category="list-text">SVM 관계 유형 * 목록에서 SVM 관계 유형을 선택합니다.</block>
   <block id="41fe1b889a1b3e1fedeb7e2bb7ac3707" category="list-text">소스 스토리지 가상 머신 * 창에서 클러스터와 SVM을 선택합니다.</block>
@@ -3092,7 +3039,6 @@
   <block id="3bbf9e12b899902bde4b837e5ea32bb1" category="paragraph">예를 들어, 중요하지 않은 워크로드를 제한하여 중요한 워크로드에 필요한 처리량을 보장할 수 있습니다.</block>
   <block id="3a1e8450f0726bcccbe022dcf601fdd0" category="list-text">성장의 여유 공간을 제공하고 싶으실 것입니다.</block>
   <block id="3d2893e92a7ebac1ee4c0247ed8162de" category="paragraph">예를 들어 평균 사용률이 500 IOPS인 경우 1,000 IOPS의 제한을 지정할 수 있습니다.</block>
-  <block id="b7cc82b353e982a0286e4336ea0697d7" category="summary">System Manager 9.4부터는 스토리지 권장 사항을 기반으로 애그리게이트를 생성할 수 있습니다. 그러나 스토리지 권장 사항을 기반으로 한 Aggregate 생성이 고객 환경에서 지원되는지 여부를 확인해야 합니다. 사용하는 환경에서 스토리지 권장 사항에 따라 애그리게이트 생성을 지원하지 않는 경우, RAID 정책 및 디스크 구성을 결정한 다음 애그리게이트를 수동으로 생성해야 합니다.</block>
   <block id="776b2b147e640ab83f09f2ff5c38cdca" category="paragraph">System Manager는 클러스터에서 사용 가능한 스페어 디스크를 분석하고 모범 사례에 따라 스페어 디스크를 사용하여 애그리게이트를 생성하는 방법에 대한 권장 사항을 생성합니다. System Manager에는 이름과 사용 가능한 크기를 포함하여 권장되는 애그리게이트의 요약이 표시됩니다.</block>
   <block id="396a00a6dd95a860584d1e256e4ad924" category="paragraph">대부분의 경우 스토리지 권장사항은 현재 환경에 가장 적합합니다. 하지만 클러스터에서 ONTAP 9.3 이상이 실행 중이거나 환경에 다음 구성이 포함되어 있는 경우 애그리게이트를 수동으로 생성해야 합니다.</block>
   <block id="08ea59803fc92db6be8c460ee2465bc3" category="list-text">타사 어레이 LUN을 사용하는 Aggregate</block>
@@ -3795,7 +3741,6 @@
   <block id="c4b395e042b075a7a77c7292d68c696f" category="list-text">애그리게이트에 SSD를 추가하려면 기존 SSD와 전용 SSD의 크기가 모두 같아야 합니다.</block>
   <block id="26b492c52412ab870a07463ff06bb9ff" category="list-text">Flash Pool 애그리게이트를 생성하는 동안에는 파티셔닝된 SSD를 사용할 수 없습니다.</block>
   <block id="44b5800e46f84ce7d22d1b3fca04381d" category="list-text">캐시 소스가 스토리지 풀인 경우 애그리게이트를 미러링할 수 없습니다.</block>
-  <block id="5e43dcec3363e844443ae1fecf8cf42d" category="list-text">ONTAP 9.0부터는 디스크 크기가 10TB보다 크거나 같은 애그리게이트를 생성할 수 있습니다.</block>
   <block id="14774aa4537ec680021fd0e80812c863" category="list-text">Aggregate 디스크의 디스크 유형이 FSA 또는 mSATA 이고 디스크 크기가 10TB보다 크거나 같은 경우, RAID-TEC는 RAID 유형에 사용할 수 있는 유일한 옵션입니다.</block>
   <block id="62fad2bec2b122db548ae461f7a94a2f" category="list-text">다음 방법 중 하나를 사용하여 Aggregate를 생성합니다.</block>
   <block id="6a4970d08ea5f36340e3e47b81438a56" category="list-text">Create Aggregate * 창에서 Aggregate 이름, 디스크 유형 및 Aggregate의 HDD에 포함할 디스크 또는 파티션의 수를 지정합니다.</block>
@@ -3836,7 +3781,6 @@
   <block id="e4e4b22369eeb1eb14670ed343cc79d2" category="paragraph">클러스터에 패키지에 대한 임시 라이센스가 있고 클러스터에서 노드를 제거하는 경우 노드에 평가판 라이센스가 포함되지 않습니다.</block>
   <block id="995ee35fea37e181ef8a502caff55f1b" category="list-text">용량 라이센스(ONTAP Select 및 FabricPool만 해당)</block>
   <block id="2c1a6792b1da33bfd3ae4d58055c93c5" category="paragraph">ONTAP Select 인스턴스는 사용자가 관리하려는 데이터 양에 따라 라이센스가 부여됩니다. 예를 들어, 사용자가 10TB 용량 라이센스를 구입하여 ONTAP Select에서 최대 10TB의 데이터를 관리할 수 있습니다. ONTAP Select이 관리할 수 있는 라이센스가 있는 것보다 더 많은 스토리지 용량이 시스템에 연결된 경우 ONTAP Select가 작동하지 않습니다. 기본적으로 ONTAP Select 인스턴스에 연결할 수 있는 최대 스토리지 용량은 용량 라이센스(예: 5TB 용량 라이센스, 10TB 용량 라이센스 등)를 구입하여 설치할 때까지 2TB입니다.</block>
-  <block id="89839280933498e663c409c99a7f3ad3" category="paragraph">ONTAP 9.2부터 FabricPool 지원 애그리게이트는 용량 라이센스를 통해 타사 스토리지 계층(예: AWS)과 함께 사용해야 합니다. FabricPool 용량 라이센스는 클라우드 계층 스토리지에 저장할 수 있는 데이터의 양을 정의합니다.</block>
   <block id="4e370e1a55ec410d1ddcf0b5c19f50bb" category="section-title">소유 권한 위험</block>
   <block id="4bfa5084cc0aa6a597849b7f0cfedd6c" category="paragraph">자격 위험이 노드 잠김 라이센스의 비균일 설치 때문에 발생합니다. 노드 잠김 라이센스가 모든 노드에 설치된 경우 권한 부여 위험이 없습니다.</block>
   <block id="6bfd4eb866511d21d6e5a0ce5ad4b825" category="paragraph">소유 권한 위험 수준은 특정 조건에 따라 고위험, 중간 위험, 위험 없음 또는 알 수 없는 위험이 될 수 있습니다.</block>
@@ -3897,7 +3841,6 @@
   <block id="07bc692e097c6e1d28b64623a00059fb" category="paragraph">NVMe 프로토콜을 활성화하십시오</block>
   <block id="15c8b485ae1f0faa23da206983b2db28" category="list-text">NVMe * 상자를 선택합니다.</block>
   <block id="f78b05e36a26c2b760405a63dcc6f709" category="list-text">NVMe 프로토콜용 NVMe 포트를 선택하십시오.</block>
-  <block id="96d58bb45a09d2cb6fb10534fb85b9a4" category="paragraph">NVMe를 구성하려면 노드 중 하나에서 적어도 하나의 NVMe 가능 어댑터를 사용할 수 있어야 합니다. 또한 ONTAP 9.5부터 SVM과 연결된 HA 쌍의 각 노드에 대해 하나 이상의 NVMe LIF를 구성해야 합니다. 페어의 각 노드에 대해 최대 2개의 NVMe LIF를 생성할 수 있습니다.</block>
   <block id="01751c46a4623e5ca76c644f7df362e4" category="list-text">고급 옵션 * 아이콘을 클릭하고 기본 언어, 보안 스타일, CIFS 서버 세부 정보 및 NFS 세부 정보와 같은 고급 옵션을 구성하는 세부 정보를 제공합니다.</block>
   <block id="dec7a9cf637ab7e5ec703056266f4cf7" category="list-text">Submit and Continue * 를 클릭하여 SVM을 생성합니다.</block>
   <block id="ec4be32f47fa69e0726361f9f7d93251" category="paragraph">제출 및 계속 * 을 클릭한 경우 요약 창에서 제공한 세부 정보를 확인한 다음 * 클러스터 관리 * 를 클릭하여 System Manager를 시작하거나 * 응용 프로그램 제공 * 을 클릭하여 스토리지 응용 프로그램을 프로비저닝하거나 * 구성 내보내기 * 를 클릭하여 구성 파일을 다운로드해야 합니다.</block>
@@ -3925,12 +3868,10 @@
   <block id="922ed2a490f6f8e56aadf6d2271cb6c6" category="paragraph">컨트롤러에 연결된 호스트 NQN을 수정합니다. 여러 호스트 NQN을 쉼표로 구분하여 입력할 수 있습니다.</block>
   <block id="b1eb632ecb72ec82b8033d659a83f9c4" category="paragraph">관련 NVMe 네임스페이스 * 테이블이 호스트 NQN 필드 아래에 표시됩니다. 각 네임스페이스에 대해 이 표에는 네임스페이스 경로 및 네임스페이스 ID가 나열됩니다.</block>
   <block id="29dd08681ac58900d0f7d3be1ad3ea07" category="paragraph">NVMe 하위 시스템의 세부 정보가 업데이트되고 NVMe 하위 시스템 창이 표시됩니다.</block>
-  <block id="ca6ab36dc2bbcd274210198da9e0c34a" category="summary">System Manager 9.6부터 기존 리소스의 크기를 조정하거나 새 리소스를 추가하여 FlexCache 볼륨의 크기를 조정할 수 있습니다.</block>
   <block id="89e4b4f1428a44007a8d6f78b2c6316d" category="list-text">FlexCache 볼륨의 크기를 조정하려면 기존 애그리게이트에 충분한 여유 공간이 있어야 합니다.</block>
   <block id="9ed2d39c12c5042e1e15d3e243a07586" category="list-text">FlexCache 볼륨을 확장하려면 Aggregate에 확장을 위해 사용 중인 충분한 여유 공간이 있어야 합니다.</block>
   <block id="5bbec01d3493c1cd58a5562c1ccadcef" category="list-text">크기를 조정할 FlexCache 볼륨을 선택한 다음 * 추가 작업 * &gt; * 크기 조정 * 을 클릭합니다.</block>
   <block id="503e6a1d24532cf16b90068dcf9d0814" category="list-text">FlexCache 볼륨 크기 조정 * 창에서 FlexCache 볼륨의 크기를 조정할 크기를 지정합니다.</block>
-  <block id="e8588b6787add3a9627075f813ad061b" category="paragraph">기본적으로 기존 애그리게이트는 FlexCache 볼륨의 크기를 조정하는 데 사용됩니다. System Manager 9.6부터 볼륨에 허용되는 최대 크기가 크기 필드 옆에 표시됩니다.</block>
   <block id="ee06c3a75d2f90d528d0bdad6ee8b794" category="inline-link-macro">FlexCache 볼륨에 대한 고급 옵션 지정</block>
   <block id="bf1a8ac5c931866758030b4588ed85b1" category="paragraph">새 리소스를 추가하여 FlexCache 볼륨을 확장하려면 를 클릭합니다 <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> (고급 옵션). 을 참조하십시오 <block ref="ff23e8b352173b9385a50749f03a49b1" category="inline-link-macro-rx"></block>.</block>
   <block id="689dc6ae2f8d54723af8baa6aff39f7d" category="list-text">FlexCache 볼륨의 크기를 조정하려면 * 저장 * 을 클릭합니다.</block>
@@ -4018,7 +3959,6 @@
   <block id="010c8c583e9f5d5af3598c0df4db8122" category="list-text">NetApp Support 사이트에서 네트워크의 HTTP 서버, 네트워크의 FTP 서버 또는 로컬 시스템으로 소프트웨어 이미지를 복사하여 노드가 이미지에 액세스할 수 있도록 해야 합니다.</block>
   <block id="996692c5ebe343c82a51a2ab5a0347cc" category="inline-link-macro">ONTAP 소프트웨어 이미지를 가져오는 중입니다</block>
   <block id="2896283cd3f5ad7547bcbf3c8e1a3f8f" category="paragraph"><block ref="2896283cd3f5ad7547bcbf3c8e1a3f8f" category="inline-link-macro-rx"></block></block>
-  <block id="e96b6846909953edee49dc1510174cba" category="list-text">System Manager 9.5부터 단일 노드 클러스터를 2팩 MetroCluster 구성으로 업데이트할 수 있습니다.</block>
   <block id="0e4c90e60897ccf150a5b053c58c5ded" category="paragraph">두 사이트 모두에서 이 작업을 수행해야 합니다.</block>
   <block id="4e7008a137878e0910f79123463847a5" category="list-text">MetroCluster 구성에서 단일 노드 클러스터를 업데이트하는 것은 중단되지 않습니다.</block>
   <block id="d4e231e6ff4c69e10ecdd40c528d83ad" category="paragraph">클러스터가 재부팅되는 동안에는 System Manager 사용자 인터페이스를 사용할 수 없습니다.</block>
@@ -4094,7 +4034,6 @@
   <block id="1da8b81d788e1ca5e70e6a63e315a84b" category="list-text">SVM 관리자에게 SVM 자격 증명을 제공하여 SnapDrive 및 SnapManager와 같은 호스트 측 애플리케이션을 지원합니다.</block>
   <block id="fd739e3d5f5d870b3ec2aa610f8c5ccb" category="list-text">NVMe 이외의 프로토콜의 경우, SVM 관리를 위한 새 LIF 생성 * 을 클릭한 다음, 새 관리 LIF의 서브넷을 사용하거나 사용하지 않고 포트 세트와 IP 주소를 지정하여 SVM 관리를 위한 새 LIF를 생성합니다.</block>
   <block id="0f84243377475ccd108fb8723b797988" category="paragraph">CIFS 및 NFS 프로토콜의 경우 데이터 LIF는 기본적으로 관리 액세스를 가집니다. 필요한 경우에만 새 관리 LIF를 생성해야 합니다. iSCSI 및 FC의 경우 데이터 프로토콜과 관리 프로토콜이 동일한 LIF를 공유할 수 없기 때문에 SVM 관리 LIF가 필요합니다.</block>
-  <block id="64a4126abb3187c5cddc9b3fddcae4ce" category="list-text">NVMe 프로토콜의 경우, ONTAP 9.5부터 SVM 설정 마법사의 두 번째 페이지에서 각 노드에 대해 최소 하나의 LIF를 구성합니다. * NVMe 프로토콜 구성 *</block>
   <block id="40b69b1b198ff39d18008e5224c86c73" category="paragraph">HA Pair의 각 노드에 대해 LIF를 하나 이상 구성해야 합니다. 노드당 두 개의 LIF도 지정할 수 있습니다. 설정 아이콘을 클릭하여 하나 또는 두 개의 LIF 구성 간에 전환합니다.</block>
   <block id="3e2b01dd056074efa0e8b8d902a9ed51" category="paragraph">SVM은 지정된 구성으로 생성됩니다.</block>
   <block id="c08f968b4a1ba0a72f049cfb7549ca7d" category="paragraph">생성한 SVM은 자동으로 시작됩니다. 루트 볼륨 이름은 자동으로 'VM name_root'로 생성됩니다. 기본적으로 vsadmin 사용자 계정이 생성되고 잠금 상태입니다.</block>
@@ -4267,12 +4206,8 @@
   <block id="4bf1bc496e9899293b5294c16b401879" category="summary">System Manager를 사용하여 SNMP를 구성하여 클러스터의 SVM을 모니터링할 수 있습니다.</block>
   <block id="305af65222ed3fff91f5c8bcdfe17162" category="doc">SNMP를 선택합니다</block>
   <block id="523eac7698602fe4f659266e9f831a4d" category="summary">액세스 제어 역할을 사용하여 시스템에 대한 사용자의 액세스 수준을 제어할 수 있습니다. 미리 정의된 역할을 사용하는 것 외에도 새 액세스 제어 역할을 만들거나, 역할을 수정하거나, 삭제하거나, 역할 사용자에 대한 계정 제한을 지정할 수 있습니다.</block>
-  <block id="19013d07715aeacbfbb8d6d4ee6afdfd" category="summary">System Manager를 사용하면 포트 세트를 생성하여 LUN에 대한 액세스를 제한할 수 있습니다.</block>
-  <block id="244eefa1b07ddd11c09b5f1f666f3a95" category="doc">포트 세트를 생성합니다</block>
   <block id="b66440280dff687ce62da251f703a0ac" category="list-text">Portsets * 탭에서 * Create * 를 클릭합니다.</block>
   <block id="a364a41a0503559d1b165067a0be84da" category="list-text">Create Portset * (포트 세트 생성 *) 대화 상자에서 프로토콜 유형을 선택합니다.</block>
-  <block id="a3868a1dee32c4beb989cd7094d1faab" category="list-text">포트 세트와 연결할 네트워크 인터페이스를 선택합니다.</block>
-  <block id="da9ca1d963c7ff5d3a3661c61bb3c275" category="summary">기존 스냅샷 정책에 대한 일정을 설정하여 스냅샷 복사본을 구성할 수 있습니다. ONTAP 9.4부터는 FlexVol 볼륨의 Snapshot 복사본을 1024개 미만으로 생성할 수 있습니다.</block>
   <block id="05bb17d18c0f9c3d367fd30e255813d5" category="doc">스냅샷 구성</block>
   <block id="6bcc4f43595612e75cc42dbd0836ae93" category="summary">System Manager를 사용하여 Kerberos 영역 구성을 삭제할 수 있습니다.</block>
   <block id="59703e5c39b9df523c0a52d0e7efa3ce" category="doc">Kerberos 영역 구성을 삭제하는 중입니다</block>
@@ -4336,14 +4271,12 @@
   <block id="9e455ea9ccca57eb62e712c552b33b5f" category="summary">System Manager를 사용하면 더 이상 필요하지 않은 엑스포트 정책을 삭제할 수 있습니다.</block>
   <block id="01019ff7bcef68e8d809668d2bf27ce2" category="doc">엑스포트 정책을 삭제하는 중입니다</block>
   <block id="77713afc6e05ba58fb96d0f79b402e84" category="list-text">삭제할 엑스포트 정책을 선택한 다음 * 정책 삭제 * 를 클릭합니다.</block>
-  <block id="d4947d5685ece773c087f611360d5c15" category="summary">System Manager 9.6부터는 MetroCluster 스위치오버 및 스위치백 작업을 사용하여 한 클러스터 사이트에서 다른 클러스터 사이트의 작업을 테이크오버할 수 있습니다. 이 기능을 사용하면 재해에 대한 유지 관리 또는 복구를 보다 용이하게 수행할 수 있습니다.</block>
   <block id="bb1a898150cba9c435ba241d8cba4ec7" category="doc">MetroCluster 전환 및 스위치백</block>
   <block id="6855e92b0f33998f93275cc003b32492" category="paragraph">스위치오버 작업을 사용하면 한 클러스터(사이트 A)가 일반적으로 다른 클러스터(사이트 B)에서 수행하는 작업을 대신 수행할 수 있습니다. 스위치오버 이후 유지 관리 및 수리를 위해 사이트 B로 전환된 클러스터를 가져올 수 있습니다. 유지 관리가 완료되면 사이트 B가 시작되고 복구 작업이 완료된 다음, 복구된 클러스터(사이트 B)가 일반적으로 수행하는 작업을 다시 시작할 수 있도록 스위치백 작업을 시작할 수 있습니다.</block>
   <block id="2c464ddbc41f8fb8ac9622a8533eb7d9" category="paragraph">System Manager는 원격 클러스터 사이트의 상태에 따라 다음과 같은 두 가지 유형의 전환 작업을 지원합니다.</block>
   <block id="9d6417ef04cdc2233b25cc93459e9dd6" category="list-text">협상된(계획된) 전환: 클러스터에서 계획된 유지 관리를 수행하거나 재해 복구 절차를 테스트해야 할 때 이 작업을 시작합니다.</block>
   <block id="8f6eb626d8aa8bdf761085a7e4f30614" category="list-text">계획되지 않은 전환: 클러스터(사이트 B)에서 재해가 발생하여 다른 사이트 또는 클러스터(사이트 A)에서 복구 및 유지 관리를 수행하는 동안 재해가 영향을 받는 클러스터 작업을 대신 처리하려는 경우 이 작업을 시작합니다.</block>
   <block id="4501594dce463c4646a358b8a8feee6a" category="paragraph">System Manager에서 두 전환 작업에 동일한 단계를 수행합니다. 전환을 시작할 때 System Manager에서 작업이 가능한지 여부를 확인하고 그에 따라 워크로드를 정렬합니다.</block>
-  <block id="2cf0d1ad0e5847c99267e5c91397bd35" category="summary">System Manager 9.6부터 소스 클러스터의 모든 노드에 연결할 수 없고 전원을 끈 재해가 발생한 후 MetroCluster 스위치오버 및 스위치백 작업을 사용할 수 있습니다. 또한 재해 복구 테스트 또는 유지 관리를 위해 오프라인으로 전환되는 사이트와 같은 경우 협상된(계획된) 전환 워크플로우를 사용할 수도 있습니다.</block>
   <block id="fd2be26b67bde89bcef46b3a4fa743b3" category="doc">MetroCluster 전환 및 스위치백 워크플로우</block>
   <block id="f723ab84264f816e3d00edcd6835d6ce" category="paragraph">스위치오버 및 스위치백 워크플로의 전체 프로세스에는 다음 3단계가 포함됩니다.</block>
   <block id="1f6f9a4611983ceac53eb6324b432d67" category="list-text">* 전환 *: 전환 프로세스를 통해 소스 클러스터 사이트(사이트 B)에서 다른 클러스터 사이트(사이트 A)로 스토리지 및 클라이언트 액세스 제어를 전송할 수 있습니다. 이 운영 작업은 테스트 및 유지보수 중에 무중단 운영을 제공하는 데 도움이 됩니다. 또한 이 프로세스를 통해 사이트 장애로부터 복구할 수 있습니다. 재해 복구 테스트 또는 계획된 사이트 유지 관리의 경우 MetroCluster 전환을 수행하여 DR(재해 복구) 사이트(사이트 A)에 제어를 전송할 수 있습니다. 프로세스를 시작하기 전에 전환을 수행하기 전에 남아 있는 사이트 노드 중 하나 이상이 가동 및 실행 중이어야 합니다. 이전에 DR 사이트의 특정 노드에서 스위치오버 작업이 실패한 경우 이러한 모든 노드에서 작업을 다시 시도할 수 있습니다.</block>
@@ -4411,7 +4344,6 @@
   <block id="9bdc480955b350f1fe8089392ad36cbe" category="list-text">* 설명 *</block>
   <block id="c9b73398fbc4618f61034f91e3a7daec" category="paragraph">공유에 대한 추가 설명을 표시합니다(있는 경우).</block>
   <block id="dd8a5de672229fa8ff58411a6a3e41ff" category="list-text">* 지속적으로 사용 가능한 공유 *</block>
-  <block id="2d6ca664e165a57792b1b59ede4c3890" category="paragraph">지속적인 가용성을 위해 공유가 설정되었는지 여부를 표시합니다. System Manager 9.6부터 FlexGroup 볼륨의 지속적인 가용성이 지원됩니다.</block>
   <block id="97469443dfc3695c09f70f7590eeac08" category="paragraph">공유 목록 아래의 영역에는 각 공유에 대한 공유 속성 및 액세스 권한이 표시됩니다.</block>
   <block id="e6ce8998f0d4cbe5a38c523c958f4162" category="list-text">* 속성 *</block>
   <block id="217a0172345c647bc3f6a354cd7b6108" category="list-text">oplocks 상태입니다</block>
@@ -4421,7 +4353,6 @@
   <block id="18bfc8152a3e795a4008c07d0c432528" category="list-text">스냅샷 표시</block>
   <block id="d111a1648cc63acf08b9954ea5d1c5fb" category="paragraph">클라이언트에서 스냅샷 복사본을 볼 수 있는지 여부를 지정합니다.</block>
   <block id="b8c91392a068a4dbf0999fb089045c52" category="list-text">지속적으로 사용 가능한 공유</block>
-  <block id="41aef6f60f95609aa7b5ca4777bfe44c" category="paragraph">지속적인 가용성을 위해 공유를 설정하거나 해제할지 여부를 지정합니다. System Manager 9.6부터 FlexGroup 볼륨의 지속적인 가용성이 지원됩니다.</block>
   <block id="ced58c7b6a62adeb9dff9028fa5cf9db" category="list-text">액세스 기반 열거</block>
   <block id="3af978aaedd422de2f12de5f6b53767e" category="paragraph">공유에 대해 ABE(액세스 기반 열거)를 사용할지 여부를 지정합니다.</block>
   <block id="601881e1c15a5899164ae1415fa564f9" category="list-text">BranchCache입니다</block>
@@ -4577,10 +4508,8 @@
   <block id="c6f01c78bfe0a0a495cb5d3ed77824a9" category="doc">볼륨</block>
   <block id="dd0d7fb0d943afdd167daa971c00ef96" category="paragraph">볼륨 탭을 사용하여 클러스터의 모든 볼륨에 액세스하거나 * SVM * &gt; * 볼륨 * 을 사용하여 SVM별 볼륨에 액세스할 수 있습니다.</block>
   <block id="5283be92496e2188f016eeaf229d3adc" category="paragraph">볼륨 탭은 CIFS 및 NFS 라이센스를 설정한 경우에만 표시됩니다.</block>
-  <block id="166dc2e84350c7224eaefed87c3098df" category="summary">System Manager를 사용하여 이니시에이터 그룹을 생성할 수 있습니다. 이니시에이터 그룹을 통해 특정 LUN에 대한 호스트 액세스를 제어할 수 있습니다. 포트 세트를 사용하여 이니시에이터에서 액세스할 수 있는 LIF를 제한할 수 있습니다.</block>
   <block id="e8fa661a5a10dd89b61025c67e0a71f8" category="doc">이니시에이터 그룹을 생성합니다</block>
   <block id="c434e7f4d77ffc468dbad3de658be566" category="list-text">이니시에이터 그룹 * 탭에서 * 생성 * 을 클릭합니다.</block>
-  <block id="aa5f7e0f98bc1d87ca4aa4ac9935bacf" category="list-text">이니시에이터 그룹 생성 * 대화 상자의 * 일반 * 탭에서 그룹에 대한 이니시에이터 그룹 이름, 운영 체제, 호스트 별칭 이름, 포트 세트 및 지원되는 프로토콜을 지정합니다.</block>
   <block id="e32032d2625b9284ad549f09b76e2c69" category="summary">System Manager를 사용하여 클러스터의 암호를 재설정할 수 있습니다.</block>
   <block id="21d8ed0c68269db4607db532dc48b719" category="doc">클러스터 암호를 변경하는 중입니다</block>
   <block id="c8e1776bcb8e14a20836e0b5ce91b012" category="list-text">클러스터 세부 정보 * 창에서 * 암호 변경 * 을 클릭합니다.</block>
@@ -4805,7 +4734,6 @@
   <block id="38ef748223faace4d3330c24cb1484f8" category="paragraph">SnapLock 라이센스가 추가되어야 합니다.</block>
   <block id="77db25bdfb80aa1d0ccdedf1bf8c4811" category="list-text">MetroCluster 구성에서는 SnapLock 엔터프라이즈 애그리게이트만 생성할 수 있습니다.</block>
   <block id="7f2385194f8b9f77992e74007f1eba1c" category="list-text">어레이 LUN의 경우 SnapLock 엔터프라이즈 애그리게이트만 지원됩니다.</block>
-  <block id="28937cc267164af695a490c410b78013" category="list-text">ONTAP 9.1부터 AFF 플랫폼에 SnapLock 애그리게이트를 만들 수 있습니다.</block>
   <block id="956da8c04fd75abe915260ccd5df1aec" category="list-text">다음 방법 중 하나를 사용하여 SnapLock Aggregate를 만듭니다.</block>
   <block id="bd6b50ce1618a8a757a18f37edb1c2d5" category="list-text">SnapLock 애그리게이트 생성하기:</block>
   <block id="55ecc2d32dceb29419f7f5007eed7532" category="paragraph">Aggregate를 생성한 후에는 SnapLock Compliance Aggregate의 이름을 변경할 수 없습니다.</block>
@@ -4970,7 +4898,6 @@
   <block id="a61b1fec783b8e75bd65d03a5c25ab92" category="paragraph">스토리지 시스템 부팅 중에 또는 테이크오버 이벤트 후 제어가 스토리지 시스템으로 반환되는 경우에는 Flash Cache 모듈에 데이터가 없습니다. 따라서 디스크는 스토리지 시스템의 모든 데이터 읽기 요청을 처리합니다.</block>
   <block id="5776a377df8b6840a9d9309a368f77c2" category="paragraph">데이터 읽기 요청이 처리되면 Flash Cache 모듈이 서서히 데이터로 채워집니다. Flash Cache 모듈이 제공하는 데이터 읽기 요청이 디스크에서 제공하는 것보다 빠르기 때문에 스토리지 시스템의 성능이 향상됩니다.</block>
   <block id="70691dd89812cf75957ebdaf55623ac2" category="paragraph">Flash Cache 모듈이 제공하는 데이터 읽기 요청은 디스크에서 제공되는 데이터 읽기 요청을 대체하므로 스토리지 시스템의 성능 향상 기능은 교체된 디스크 읽기와 직접 연결됩니다. Flash Cache 모듈이 스토리지 시스템 성능에 미치는 영향을 이해하려면 Flash Cache 모듈에 데이터가 포함되어 있을 때 하드웨어 캐시 창에서 읽기 워크로드 그래프를 확인해야 합니다.</block>
-  <block id="9e50d3d8dc65a09f28ddd6ef3d765472" category="summary">SAN 호스트용 SVM(스토리지 가상 시스템)에서 FC 프로토콜과 FCoE 프로토콜을 구성할 수 있습니다. LIF는 가장 적합한 어댑터에 생성되며 데이터 경로 이중화를 위해 포트 세트에 할당됩니다. 요구사항에 따라 System Manager를 사용하여 FC 프로토콜이나 FCoE 프로토콜을 구성하거나 두 프로토콜을 모두 구성할 수 있습니다.</block>
   <block id="1cb4302fc1ecfacecb8099b2e0fa94e5" category="doc">SVM에서 FC 프로토콜 및 FCoE 프로토콜을 구성합니다</block>
   <block id="9d27060c3a62d44d72280d0d2d41c901" category="list-text">클러스터에서 FCP 라이센스가 활성화되어 있어야 합니다.</block>
   <block id="dc979ee23207688dcfeafb28a197e5a5" category="list-text">각 노드에는 각 프로토콜(FC 및 FCoE)에 대해 2개 이상의 올바르게 구성된 포트가 있어야 합니다.</block>
@@ -4983,7 +4910,6 @@
   <block id="f1deb1eebd781987dc5928a29563008e" category="list-text">자동으로 생성된 LIF 구성을 확인하거나 수정하려면 * 인터페이스 연결 검토 또는 편집 * 을 선택합니다.</block>
   <block id="6ae5e4aff7b4baf185267f383f8e510e" category="paragraph">LIF 이름과 홈 포트만 수정할 수 있습니다. 중복 항목을 지정하지 않도록 해야 합니다.</block>
   <block id="ac208f4f587c57e7973c5ae4579a00d0" category="list-text">LUN 크기, LUN의 OS 유형 및 호스트 이니시에이터 세부 정보를 제공하여 프로토콜을 구성할 때 FC 스토리지 또는 FCoE 스토리지에 대한 LUN을 프로비저닝합니다.</block>
-  <block id="3fe56a7f0e04877d850a13bb1bb02736" category="paragraph">데이터 LIF 및 포트 세트는 지정된 구성으로 생성됩니다. LIF는 포트 세트 간에 적절하게 배포됩니다. 하나 이상의 프로토콜에 대한 모든 LIF가 성공적으로 생성된 경우 FCP 서비스가 시작됩니다.</block>
   <block id="91f750dc1743f641bc63ffb38dc8456a" category="paragraph">LIF 생성에 실패하면 LIF를 생성하고 FC/FCoE 창에서 FCP 서비스를 시작할 수 있습니다.</block>
   <block id="348f08b91a77b9e3d7882f394bb564d1" category="summary">필요한 경우 System Manager를 사용하여 기존 애그리게이트의 애그리게이트 이름, RAID 유형 및 RAID 그룹 크기를 변경할 수 있습니다.</block>
   <block id="392418414c37a0bc073804f1675d27f1" category="paragraph">RAID4에서 RAID-DP로 애그리게이트의 RAID 유형을 수정하려면 애그리게이트에 핫 스페어를 제외한 충분한 호환 스페어 디스크가 있어야 합니다.</block>
@@ -5006,7 +4932,6 @@
   <block id="156fbe21c8653712f692673deeb3158c" category="doc">디스크 유형 및 디스크 RPM 표시 규칙</block>
   <block id="feb667095d24ce28ec812a7b96feea23" category="paragraph">디스크 유형 혼합 및 디스크 RPM 혼합 옵션이 활성화되지 않은 경우 실제 디스크 유형 및 실제 디스크 RPM이 표시됩니다.</block>
   <block id="28095c128a18392269ffee16180e6a01" category="paragraph">이러한 혼합 옵션을 활성화하면 실제 디스크 유형과 실제 디스크 RPM 대신 유효 디스크 유형과 유효 디스크 RPM이 표시됩니다. 예를 들어, 디스크 혼합 옵션을 사용하면 System Manager에서 BSAS 디스크를 SSA로 표시합니다. 마찬가지로, 디스크 RPM 혼합 옵션이 활성화된 경우 디스크의 RPM이 10K와 15K인 경우 System Manager는 유효 RPM을 10K로 표시합니다.</block>
-  <block id="96c93c1f45238f21110ace8deb0d70b9" category="summary">System Manager 9.6부터 MetroCluster 사이트의 계획되지 않은 전환을 시작할 수 있습니다. 이 작업은 중단 이벤트 또는 재해 이벤트 후에 유용합니다.</block>
   <block id="308f67dd574c6ba0e1c5c7f5f09efee4" category="doc">계획되지 않은 전환 수행</block>
   <block id="ee9ded32b1ff22fe81cde6a49304b729" category="paragraph">MetroCluster가 정상 작동 상태에서 실행되고 있지만 로컬 클러스터(사이트 A)의 노드가 작동 중이지만 원격 클러스터(사이트 B)의 노드가 다운되었습니다.</block>
   <block id="72c59d0fef258bf8143a8660206f4e5f" category="list-text">사이트 B가 실제로 다운되었는지 확인합니다.</block>
@@ -5062,7 +4987,6 @@
   <block id="fa5f0abcdf06ead83ea7fc11be56d19a" category="doc">AutoSupport 알림</block>
   <block id="2c8dfcc823a858dcc0c124552a13f9fd" category="summary">System Manager를 사용하여 스토리지 시스템에서 스냅샷 정책을 생성하고 관리할 수 있습니다.</block>
   <block id="623fb58af5512173351f2a5e63dd6d85" category="doc">스냅샷 정책</block>
-  <block id="d1ca2549a87d41ab760f2e24b278410a" category="summary">System Manager 9.6부터 FlexCache 볼륨을 편집할 때 FlexCache 볼륨과 연결할 고급 옵션을 지정할 수 있습니다.</block>
   <block id="fa8ddae57fb0b13c4eb7a2f3b7deaa99" category="doc">FlexCache 볼륨에 대한 고급 옵션 지정</block>
   <block id="443a7f3e7ab189cba1285850af1e34f2" category="list-text">Edit FlexCache volume * ( 볼륨 편집 *) 창에서 을 클릭합니다 <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> 고급 옵션을 지정합니다.</block>
   <block id="fcbe4d48f9aa24f885d9f09f49297419" category="list-text">일반 세부 정보 * 섹션에서 볼륨에 대한 권한을 편집할 수 있습니다.</block>
@@ -5070,7 +4994,6 @@
   <block id="1c3a4cfcb29e850fca2fc4fb1a8dbd80" category="list-text">스토리지 효율성 * 섹션에서 볼륨에 대해 압축 및 중복제거를 활성화할 수 있습니다.</block>
   <block id="d7bd78485ffd94a32f7b750ad6f647e2" category="paragraph">FlexCache 볼륨에 대해서는 기본적으로 중복제거가 활성화되어 있지 않습니다. 지정된 볼륨 크기가 중복 제거를 실행하는 데 필요한 제한을 초과하는 경우 System Manager에서는 기본 중복 제거 일정을 사용합니다.</block>
   <block id="c6cf4b94cc52ebb65e44fb968e0ec8a7" category="summary">System Manager를 사용하여 SVM용 NVMe 프로토콜을 설정할 수 있습니다. SVM에서 NVMe 프로토콜을 사용하면 네임스페이스 또는 네임스페이스를 프로비저닝하고 이를 호스트 및 하위 시스템에 할당할 수 있습니다.</block>
-  <block id="d87e410723a6563276b61cf5cbc11234" category="paragraph">ONTAP 9.5부터 NVMe 프로토콜을 사용하는 HA 쌍의 각 노드에 대해 하나 이상의 NVMe LIF를 구성해야 합니다. 노드당 최대 2개의 NVMe LIF를 정의할 수도 있습니다. System Manager를 사용하여 SVM 설정을 생성하거나 편집할 때 NVMe LIF를 구성합니다.</block>
   <block id="1a169b0c93fde678e7545eea664d622c" category="paragraph">다음 그림에서는 NVMe를 설정하기 위한 워크플로우를 보여 줍니다.</block>
   <block id="f986c0d1608453a3100a148119f1f6d3" category="image-alt">NVMe 설정 워크플로우</block>
   <block id="fc5c41a08a339689427e86a62085d18e" category="summary">기본 네트워크 구성을 사용하여 기능 SVM(스토리지 가상 시스템) 또는 SVM을 설정한 후에는 SVM 관리를 SVM 관리자에게 선택적으로 위임할 수 있습니다.</block>
@@ -5111,7 +5034,6 @@
   <block id="611582f4648bf98725a02bcca7285de9" category="list-text">FlexGroup 볼륨을 확장하려면 Aggregate에 확장을 위해 사용 중인 충분한 여유 공간이 있어야 합니다.</block>
   <block id="da167c465aa599598b528deacafa47eb" category="list-text">크기를 조정할 FlexGroup 볼륨을 선택한 다음 * 추가 작업 * &gt; * 크기 조정 * 을 클릭합니다.</block>
   <block id="fb7e107fc632fc3b47e98f65a2b1026f" category="list-text">FlexGroup 볼륨 크기 조정 * 창에서 FlexGroup 볼륨의 크기를 조정할 크기를 지정합니다.</block>
-  <block id="498edc126781eeaba55a62f711b28699" category="paragraph">기본적으로 기존 애그리게이트는 FlexGroup 볼륨의 크기를 조정하는 데 사용됩니다. System Manager 9.6부터 볼륨에 허용되는 최소 크기가 크기 필드 옆에 표시됩니다.</block>
   <block id="8fc29799fa5d7d61b9fce4781993418c" category="paragraph">새 리소스를 추가하여 FlexGroup 볼륨을 확장하려면 를 클릭합니다 <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> (고급 옵션).</block>
   <block id="dae0d20dbc1649cc1e11aab7858b03f2" category="list-text">스냅샷 복사본 예약 공간의 비율을 지정합니다.</block>
   <block id="30743dc8da0a0156886a97e9699f314a" category="list-text">크기 조정 * 을 클릭하여 FlexGroup 볼륨의 크기를 조정합니다.</block>
@@ -5478,13 +5400,11 @@
   <block id="6623492415d3c8754b245f94c5e41ec4" category="list-text">추적 파일 액세스</block>
   <block id="8e1e2a1e11c82de386683b768c4fcbe5" category="paragraph">새로운 Trace File Access 창을 사용하면 사용자가 CIFS 또는 NFS 프로토콜을 사용하여 SVM에서 파일 및 공유에 액세스하는 데 문제가 있을 때 문제를 진단할 수 있습니다.</block>
   <block id="1b4fe191f66da60f23fa46b508bdad49" category="list-text">SnapMirror 암호화</block>
-  <block id="108228f5e406fc538d62843f4d197faa" category="paragraph">System Manager 9.6부터는 로컬 클러스터 IPspace용 암호를 생성하고 피어링 관계를 생성할 때 원격 클러스터에서 동일한 암호를 사용할 수 있습니다. 보안상의 이유로 암호를 수정할 수 있습니다.</block>
   <block id="b8f12bcb28d6feab37168695285001b1" category="list-text">FlexCache 기능</block>
   <block id="243cda4c8ead493c9a45febda410d99e" category="paragraph">이제 System Manager에서 FlexCache 볼륨을 생성, 편집, 보기 및 삭제할 수 있습니다.</block>
   <block id="3f3d211e7da3a1810ada6c38dc15e0e9" category="list-text">Fabric Pool의 향상된 기능</block>
   <block id="19b8b9ec7ccbf880f9d89c442ed0cce5" category="paragraph">이제 Alibaba Cloud 및 Google Cloud를 클라우드 계층으로 사용할 수 있는 오브젝트 저장소로 사용할 수 있습니다. 또한 System Manager에서는 이제 모든 데이터를 클라우드로 계층화하도록 지정할 수 있는 ""모든" 계층화 정책을 지원합니다. 볼륨 360 페이지의 볼륨 성능 탭에서 볼륨의 클라우드 지연 시간을 확인할 수 있도록 기능이 향상되었습니다.</block>
   <block id="f252791505b1156cb435fb771715c458" category="list-text">FlexGroup의 향상된 기능</block>
-  <block id="c9905ddbf1a4e1e42cfbd6b2fadd9fc1" category="paragraph">System Manager 9.6부터 볼륨 이름 바꾸기 또는 크기 조정과 같은 기존 FlexGroup 볼륨의 속성을 편집할 수 있습니다.</block>
   <block id="1bf936204894b2ff476bb9cd27d4de52" category="list-text">SnapLock 볼륨 개선 사항</block>
   <block id="8c0fcad595adca8528794a388382f0a6" category="paragraph">스토리지 QoS 정책 그룹을 생성하거나 수정할 때 성능 기반의 All-Flash 최적화 퍼스낼리티뿐만 아니라 ONTAP Select 프리미엄 시스템의 최소 처리량 한도를 설정할 수 있습니다.</block>
   <block id="c21691793abdc6b0d07e15ea466787ac" category="section-title">ONTAP 9.5에 추가된 기능 및 향상된 기능</block>
@@ -5497,19 +5417,14 @@
   <block id="7e4716fcadce4a1adb7676534312a764" category="list-text">SVM DR</block>
   <block id="a78e34456ebb2929a77658a07c4f4dd0" category="paragraph">SVM(스토리지 가상 시스템) DR(재해 복구)은 SVM의 구성요소 볼륨에 있는 데이터를 복구하고 SVM 구성을 복구하여 SVM 레벨에서 재해 복구 기능을 제공합니다. System Manager를 사용하여 SVM 간에 미러 관계를 생성하고 관리할 수 있으며, 미러 및 소산 관계를 관리할 수 있습니다.</block>
   <block id="facc11ad7fe6d50a2b697a3a547f4b43" category="list-text">L2/L3 응용 프로그램이 표시됩니다</block>
-  <block id="4478fd4c5eec1547a7adaacd479ee6e2" category="paragraph">ONTAP 9.5부터 시스템 관리자는 응용 프로그램 페이지의 다른 호스트 이름 아래에 L2/L3 응용 프로그램을 나열합니다. 호스트 이름을 클릭하면 L2 Cockpit 인터페이스에 새 창이 열립니다. 각 애플리케이션에 대해 System Manager의 IOPS 및 지연 시간 측정도 표시됩니다.</block>
   <block id="5db3515d7cf2547fd163ee1a5f26fd8b" category="list-text">가상 IP 지원</block>
-  <block id="5c814ac85a3d97e37764f0b5274cd7d2" category="paragraph">ONTAP 9.5부터 System Manager는 가상 IP(VIP) LIF에 대한 정보를 표시하지만, System Manager에서 VIP LIF를 생성, 삭제 또는 관리할 수는 없습니다.</block>
   <block id="c0f71885c1ded7dcbfcea2ba397f099f" category="list-text">NVMe 하위 시스템 라이센스 요구 사항</block>
-  <block id="608e7600614ecb694a2abd4567b275fa" category="paragraph">ONTAP 9.5부터 NVMe에 라이센스가 부여됩니다. System Manager는 라이센스 요구 사항을 지원합니다.</block>
   <block id="a18dd6563d0375d7efe564db4e14c0a9" category="list-text">ONTAP 특유의 데이터 보호 하위 시스템 지원</block>
   <block id="f88665c6ffe140283080817a8647ea2a" category="paragraph">System Manager는 FreeBSD 커널에 상주하는 별도의 커널 개체인 NVMe over Fabric(NVMeoF) 하위 시스템의 사용을 지원합니다. NVMeoF는 PCIe 이외의 연결을 통해 NVMe 기반 통신을 가능하게 하는 NVMe에 대한 사양 정의 확장입니다. 이 인터페이스를 통해 NVMe를 기본 통신 메커니즘으로 사용하면서 외부 스토리지 엔클로저를 직접 또는 스위치를 통해 서버에 연결할 수 있습니다. SAN 구성요소, WAFL 및 RAS 구성요소와 NVMeoF 하위 시스템 인터페이스.</block>
   <block id="c0861b2b4785b6b9a352d8cd77b28401" category="list-text">NVMe 다중 경로 지원</block>
-  <block id="557b8d5900e120fb8e53eb46b0f95417" category="paragraph">ONTAP 9.5부터는 NVMe 프로토콜을 사용하여 HA 쌍의 각 노드에 대해 LIF를 하나 이상 구성해야 합니다. 노드에 대해 2개의 LIF를 정의할 수도 있습니다. ONTAP 9.5로 업그레이드할 때는 NVMe 프로토콜을 사용하여 HA 쌍의 각 노드에 대해 최소 하나의 LIF를 정의해야 합니다.</block>
   <block id="8ddaffb7a745de51c2f6dbeeb160c0e6" category="list-text">FlexGroup 대상 애그리게이트</block>
   <block id="9e660d613eb9d0356b1bb59aaa91df0e" category="paragraph">FlexGroup를 생성할 때 모범 사례에 따라 Aggregate가 기본적으로 선택됩니다. All-Flash에 최적화된 스토리지 시스템의 경우 씬 프로비저닝이 기본적으로 설정되고, 다른 스토리지 시스템의 경우 일반 프로비저닝이 기본적으로 설정됩니다. 모범 사례 기본값을 무효화하고 적격한 FabricPool 애그리게이트 목록에서 원하는 항목을 선택할 수 있습니다.</block>
   <block id="ebae7584aeeac6e80a25ce0fb1f51276" category="list-text">공용 SSL 인증서 인증</block>
-  <block id="2da5bd10ab8e2596c9cb88a4fac60e0b" category="paragraph">System Manager 9.5부터 SVM과 관련된 공용 SSL 인증서를 볼 수 있습니다. 인증서 세부 정보, 일련 번호, 시작 날짜 및 만료 날짜를 볼 수 있습니다. 인증서를 클립보드에 복사하고 인증서 세부 정보를 이메일로 보낼 수도 있습니다. 또한 vsadmin 사용자 계정을 SVM에 추가하면 HTTP를 애플리케이션으로 사용하고 인증서를 통해 인증된 로그인 방법이 자동으로 포함됩니다.</block>
   <block id="da464d1c16aae904070849e86c141ac6" category="list-text">FlexVol에서 디렉토리로 표시되는 qtree</block>
   <block id="bd47993efc577604e38ec041a5b28842" category="paragraph">FlexVol에 qtree와 볼륨이 모두 포함되어 있으면 qtree가 디렉토리로 표시됩니다.</block>
   <block id="098a9352bab68d0361bda3b31e3eaf76" category="list-text">FlexCache 볼륨</block>
@@ -5534,7 +5449,6 @@
   <block id="0f2daeb4b8c5c93467f526676794e6c7" category="list-text">볼륨 보호</block>
   <block id="95ff80cc169b8a9f3a6a4fc5725ab912" category="list-text">자세한 내용은 클러스터 대시보드의 보호 탭에서 확인할 수 있습니다</block>
   <block id="1b35e94e31339106e7de936668590bf2" category="list-text">단일 노드 클러스터의 중단 없는 업데이트 지원</block>
-  <block id="2414d439d91f24af3e3ed42874fd41f5" category="paragraph">System Manager 9.4부터 단일 노드 클러스터를 업데이트할 수 있습니다. 단일 노드 클러스터 업데이트는 중단되며 업데이트가 진행되는 동안에는 클라이언트 데이터를 사용할 수 없습니다.</block>
   <block id="389f1c68c2a6472156408a5301cfb8d7" category="list-text">스냅샷 복사본 구성을 지원합니다</block>
   <block id="443576620ef533dc820685ae44077996" category="paragraph">기존 스냅샷 정책으로 스케줄을 설정하여 스냅샷 복사본을 구성할 수 있습니다. ONTAP 9.4부터는 FlexVol 볼륨의 Snapshot 복제본 수가 1024개 미만으로 줄어들 수 있습니다.</block>
   <block id="34496582f496e0b27005131d1ba680d3" category="list-text">스토리지 효율성 기능의 향상</block>
@@ -5567,7 +5481,6 @@
   <block id="bbd8857d2e52fbad88e9693a761e44ee" category="doc">클러스터 사용자 계정의 암호 변경</block>
   <block id="cfd96c760e1399a4a5e72d60a3292218" category="list-text">암호를 수정할 사용자 계정을 선택한 다음 * 암호 변경 * 을 클릭합니다.</block>
   <block id="74870d0664c88d740f724789c5a93b74" category="list-text">암호 변경 * 대화 상자에서 새 암호를 입력하고 새 암호를 확인한 다음 * 변경 * 을 클릭합니다.</block>
-  <block id="853fdce5cd8e7a7a6c8f4fd41522f33e" category="summary">System Manager 9.6부터 기존 FlexCache 볼륨의 속성을 편집할 수 있습니다.</block>
   <block id="ca7e064d4dc8de530a6854d97b5c0076" category="doc">FlexCache 볼륨 편집</block>
   <block id="96899718bec48d4de3010b9825cde391" category="list-text">수정할 FlexCache 볼륨을 선택하고 * 편집 * 을 클릭합니다.</block>
   <block id="36dd889edd56613ece93737a3a6683aa" category="list-text">FlexCache 볼륨 * 의 * 볼륨 * 필드에 FlexCache 볼륨의 새 이름을 입력합니다.</block>
@@ -5626,13 +5539,11 @@
   <block id="1ab71bdaa608e61bb5111feed970d9fe" category="paragraph">SnapVault 라이센스는 계속 작동하며 ONTAP 8.x 및 9.x 릴리스에 모두 지원되지만 더 이상 판매되지 않습니다. SnapMirror 라이센스는 계속 제공되며 SnapVault 대신 사용할 수 있으며 미러 구성과 소산 구성 모두에 사용할 수 있습니다.</block>
   <block id="a7ca7268dedf52117b8a303dced9ae76" category="paragraph">ONTAP 비동기식 복제의 경우 ONTAP 9.3부터 단일 통합 복제 엔진을 사용하여 확장된 데이터 보호 모드(XDP) 정책을 구성합니다. 이때 미러 정책, 볼트(Vault) 정책 또는 미러 볼트(Mirror-Vault) 정책에 대해 SnapMirror 라이센스를 구성할 수 있습니다. 소스 및 타겟 클러스터 모두에 SnapMirror 라이센스가 필요합니다. SnapMirror 라이센스가 이미 설치되어 있는 경우에는 SnapVault 라이센스가 필요하지 않습니다.</block>
   <block id="9f41f0374be0dbd8d69ff27cddac26eb" category="section-title">SnapMirror Synchronous 라이센스</block>
-  <block id="4660d1057afddc9bc2deaed0832547b2" category="paragraph">ONTAP 9.5부터 SnapMirror 동기식 관계가 지원됩니다. SnapMirror Synchronous 관계를 생성하려면 다음 라이센스가 필요합니다.</block>
   <block id="14bfbe1e0eef51712e636df4b1ef579a" category="list-text">소스 클러스터와 대상 클러스터 모두에 SnapMirror Synchronous 라이센스가 필요합니다.</block>
   <block id="346a55cdd3546dca8ff64751e39ddc70" category="inline-link">마스터 라이센스 키</block>
   <block id="c76313ee6158b1ef2cdfbca4c2a022c5" category="paragraph">2019년 6월 이전에 프리미엄 또는 플래시 번들과 함께 시스템을 구입한 경우, NetApp 마스터 키를 다운로드하여 NetApp Support 사이트에서 필요한 SnapMirror Synchronous 라이센스를 받으십시오.<block ref="f41e535dcfe6c536359842a26721ed33" category="inline-link-rx"></block></block>
   <block id="d24ceeb95fb2dc28dc924b55f3598d4a" category="list-text">소스 클러스터와 대상 클러스터 모두에 SnapMirror 라이센스가 필요합니다.</block>
   <block id="a170af9fc03ba98e163c38dd41563571" category="section-title">SnapMirror Cloud 라이센스</block>
-  <block id="e8a70783988d713e4035d1f2c0df2622" category="paragraph">ONTAP 9.8부터 SnapMirror 클라우드 라이센스는 ONTAP 인스턴스에서 오브젝트 스토리지 엔드포인트로 Snapshot 복사본을 비동기식으로 복제합니다. 복제 대상은 사내 오브젝트 저장소뿐만 아니라 S3 및 S3 호환 퍼블릭 클라우드 오브젝트 스토리지 서비스를 사용하여 구성할 수 있습니다. SnapMirror 클라우드 관계는 ONTAP 시스템에서 사전 검증된 오브젝트 스토리지 타겟까지 지원됩니다. ONTAP 9.8에서 승인된 오브젝트 스토리지 타겟에는 ONTAP S3, StorageGRID, AWS S3 및 S3-IA, Microsoft Azure Blob Hot 및 GCP Standard 스토리지가 포함됩니다.</block>
   <block id="172d155e5b8f65774831332517a31674" category="paragraph">SnapMirror Cloud는 독립 실행형 라이센스로 제공되지 않으며 하이브리드 클라우드 번들을 구입한 경우에만 사용할 수 있습니다. ONTAP 9.8부터 하이브리드 클라우드 번들에는 SnapMirror Cloud와 FabricPool 모두에 대한 라이센스가 포함되어 있습니다. 마찬가지로 SnapMirror 라이센스는 독립 실행형 라이센스로 제공되지 않으며 데이터 보호 번들을 구입한 경우에만 사용할 수 있습니다.</block>
   <block id="41fc53b575864f375d6a762d74362b2f" category="paragraph">SnapMirror 클라우드 관계를 생성하려면 다음 라이센스가 필요합니다.</block>
   <block id="c6c3f9d513b53ca77cb2ad4d87665eb5" category="list-text">SnapMirror 라이센스(데이터 보호 번들 또는 프리미엄 번들을 통해 구매)와 SnapMirror 클라우드 라이센스(하이브리드 클라우드 번들을 통해 구매)가 모두 오브젝트 저장소 끝점에 직접 복제됩니다.</block>
@@ -5640,7 +5551,6 @@
   <block id="6f55932e53e5c14329e90c1ca2c68367" category="paragraph">SnapMirror Cloud는 NetApp 또는 승인된 NetApp 리셀러 파트너를 통해 구입할 수 있는 최종 사용자 라이센스입니다. SnapMirror 클라우드 라이센스는 최종 사용자에게 사용 권한을 제공하지만 비동기식 ONTAP에서 오브젝트 스토리지 복제를 사용할 수 없습니다. SnapMirror 클라우드에 대한 ONTAP API를 호출하려면 인증된 프로그램에서 고유한 API 키가 필요합니다. SnapMirror 클라우드 복제를 오케스트레이션하는 데 사용할 수 있는 인증되고 라이센스가 부여된 애플리케이션은 여러 타사 애플리케이션 공급자로부터 얻을 수 있습니다. 이러한 권한이 부여된 응용 프로그램은 ONTAP API를 호출하는 고유한 API 키를 포함합니다. SnapMirror 클라우드 복제를 조정하고 활성화하기 위해 SnapMirror Cloud 최종 사용자 라이센스와 인증된 타사 백업 애플리케이션을 함께 사용해야 합니다.</block>
   <block id="a3a094b98e81c2dae5d0c98000fb0925" category="paragraph">공인 SnapMirror Cloud 타사 애플리케이션 목록은 NetApp 웹 사이트에 게시됩니다.</block>
   <block id="6c611a838b3c76662affb5620ce55de9" category="section-title">데이터 보호 번들</block>
-  <block id="bfff71f457ed48e03673e5f029cbbaeb" category="paragraph">ONTAP 9.1부터 새로운 ONTAP 데이터 보호 기능이 FAS8200과 함께 데이터 보호 번들 이라는 솔루션의 일부로 패키지로 제공됩니다. 이 새로운 하드웨어 및 소프트웨어 번들에는 보조 워크로드에 고유한 ONTAP 기능을 제공하는 새로운 DPO(DP_Optimized) 라이센스가 포함되어 있습니다. ONTAP 9.3을 도입한 DPO 라이센스는 노드당 볼륨 수를 1,000개에서 1,500개로 늘렸습니다. 또한 ONTAP 9.3에는 FAS2620 구성을 기반으로 한 데이터 보호 번들의 새로운 구성이 도입되었습니다.</block>
   <block id="3f2e46f1c066d96e5be306c393cb2cad" category="paragraph">DPO 라이센스는 SnapMirror 복제를 위한 2차 타겟으로 지정된 ONTAP 클러스터를 위해 특별히 설계되었습니다. DPO 라이센스는 DPO 컨트롤러에서 노드당 최대 볼륨을 늘리는 것 외에도 컨트롤러 QoS 설정을 수정하여 애플리케이션 I/O를 희생하여 더 큰 복제 트래픽을 지원합니다 이러한 이유로 DPO 라이센스는 응용 프로그램 I/O를 지원하는 클러스터에 설치해서는 안 됩니다. 응용 프로그램 성능에 영향을 줄 수 있습니다. 이후 FAS8200과 FAS2620을 기반으로 한 데이터 보호 번들은 고객 환경을 기반으로 프로그래밍 방식으로 무료 라이센스를 제공했습니다. 솔루션 번들을 구매할 때 DPO 2차 클러스터에 복제된 특정 이전 클러스터에 대해 무료 SnapMirror 라이센스가 제공됩니다. 데이터 보호 솔루션 클러스터에 DPO 라이센스가 필요하지만, 다음 플랫폼 목록에 있는 기본 클러스터에는 무료 SnapMirror 라이센스가 제공됩니다. 이 목록에 포함되지 않은 운영 클러스터는 SnapMirror 라이센스를 구입해야 합니다.</block>
   <block id="146d886c6027cff55ac4ad8fd2857425" category="list-text">FAS2200 시리즈</block>
   <block id="0bd729b375eaae92e76ca8a17ecf6ed8" category="list-text">FAS3000 시리즈</block>
@@ -5817,7 +5727,6 @@
   <block id="b4f2a0dfcf3a06588721c3cf46426f55" category="list-text">새 CIFS 공유의 이름을 지정합니다.</block>
   <block id="cf63fad81a6c52194715c588fc201e02" category="list-text">SMB 3.0 이상을 지원하는 클라이언트가 무중단 작업 중에 지속적으로 파일을 열 수 있도록 하려면 * Hyper-V 및 SQL * 에 대한 지속적인 가용성 활성화 확인란을 선택합니다.</block>
   <block id="81c3a43e87c04aa4f2867930228320dd" category="paragraph">이 옵션을 사용하여 연 파일은 페일오버, 반환 및 LIF 마이그레이션과 같은 운영 중단 이벤트로부터 보호됩니다.</block>
-  <block id="174695729a46aa0db160108074800cc8" category="paragraph">System Manager 9.6부터 FlexGroup 볼륨의 지속적인 가용성이 지원됩니다.</block>
   <block id="44ec628d221f20d3a532dfdc1a49b9cc" category="list-text">SMB 3.0 암호화를 활성화하려면 이 공유에 액세스하는 동안 데이터 암호화 * 확인란을 선택합니다.</block>
   <block id="c11f0d9c886f553934dce4b687e69569" category="list-text">공유에 대한 설명 또는 설명을 입력한 다음 * 생성 * 을 클릭합니다.</block>
   <block id="546e6304bd126985d219dddabcbf5774" category="paragraph">CIFS 공유는 그룹의 ""모든 사용자에 대한 모든 권한""으로 설정된 액세스 권한으로 생성됩니다.</block>
@@ -5874,24 +5783,14 @@
   <block id="03c63c1d02a71129f7d335a163ab8ba3" category="list-text">* 운영 체제 *</block>
   <block id="2befeca643a50d06c68287c644f8f529" category="paragraph">이니시에이터 그룹의 운영 체제를 지정합니다.</block>
   <block id="d3314dbef95fde11fb19b796d20faf69" category="list-text">* 포트 세트 *</block>
-  <block id="fd78057ac3baadcbda05d677e87bd83a" category="paragraph">이니시에이터 그룹과 연결된 포트 세트를 표시합니다.</block>
   <block id="b2e79842a49babd8768929fb8ec52322" category="list-text">* 이니시에이터 수 *</block>
   <block id="9ef99f1abd4cfe3231347890b63eecaf" category="paragraph">이니시에이터 그룹에 추가된 이니시에이터 수를 표시합니다.</block>
   <block id="1235798af8587ffd76842cc03dcb3780" category="paragraph">이니시에이터 그룹 목록 아래의 영역에는 선택한 이니시에이터 그룹에 추가된 이니시에이터 및 이니시에이터 그룹에 매핑된 LUN에 대한 세부 정보가 표시됩니다.</block>
   <block id="ad2b46df67a85b46b5338c61a4b8a1aa" category="section-title">Portsets 탭</block>
-  <block id="5254f8ed9e0e1791df68806f8766e68b" category="paragraph">이 탭에서는 포트 세트의 설정을 생성, 삭제 또는 편집할 수 있습니다.</block>
-  <block id="2b1befd8a712920bfd72c2b24f28307b" category="paragraph">LUN에 대한 액세스를 제한하는 포트 세트를 생성할 수 있는 포트 세트 생성 대화 상자를 엽니다.</block>
-  <block id="d3a0922f27b5d93e2d31e3c53f2ec3b0" category="paragraph">포트 세트와 연결할 네트워크 인터페이스를 선택할 수 있는 포트 세트 편집 대화 상자를 엽니다.</block>
-  <block id="f0ca25f982a256b07e8040ffb57099e0" category="paragraph">선택한 포트 세트를 삭제합니다.</block>
   <block id="349c1ae432d86858994f4f4b30cbfe82" category="section-title">Portsets 목록</block>
   <block id="4acdc9c5698ae967fb86f186c4cc134f" category="list-text">* Portset 이름 *</block>
-  <block id="5eba1d798eb06440b05591042514c0c6" category="paragraph">포트 세트의 이름을 표시합니다.</block>
-  <block id="1050742507ff4197a001af2b01d98abb" category="paragraph">포트 세트에서 지원하는 프로토콜 유형을 지정합니다. 지원되는 프로토콜은 iSCSI, FC/FCoE 또는 혼합(iSCSI 및 FC/FCoE)입니다.</block>
   <block id="8e32abdbdc08941f8879974523f93062" category="list-text">* 인터페이스 수 *</block>
-  <block id="651dac6a319fdde8ed5b7e1362a917a8" category="paragraph">포트 세트와 연결된 네트워크 인터페이스의 수를 표시합니다.</block>
   <block id="4e2a3d8010c09eaa8ff29cb71b1cba4c" category="list-text">* 이니시에이터 그룹 수 *</block>
-  <block id="33459959ce3e0e005c202e4cf46a26b0" category="paragraph">포트 세트와 연결된 이니시에이터 그룹의 수를 표시합니다.</block>
-  <block id="2d082bade5247cb3a4ecb0a1b23c170e" category="paragraph">Portsets 목록 아래의 영역에는 선택한 포트 세트와 연결된 네트워크 인터페이스 및 이니시에이터 그룹에 대한 세부 정보가 표시됩니다.</block>
   <block id="96bdd47bf9f26bc4ff8e4b6347d9ee94" category="paragraph"><block ref="96bdd47bf9f26bc4ff8e4b6347d9ee94" category="inline-xref-macro-rx"></block></block>
   <block id="b1d9a77843056b99370cba5cb555c27b" category="inline-xref-macro">이니시에이터 그룹을 생성하는 중입니다</block>
   <block id="a2f0d48ce6857c209ab1569cf936d202" category="paragraph"><block ref="a2f0d48ce6857c209ab1569cf936d202" category="inline-xref-macro-rx"></block></block>
@@ -5929,7 +5828,6 @@
   <block id="8dc49ce8d056a8ca0b941522d74fc3b0" category="paragraph">선택한 노드에 대한 자세한 정보를 표시합니다.</block>
   <block id="e598a42f18486af45e098305b18d01f8" category="paragraph">노드 이름, 노드 상태 및 노드가 가동되는 기간과 같이 선택한 노드와 관련된 정보를 표시합니다.</block>
   <block id="cd6c9ebf84a4ab2c9729c1d1f6229858" category="paragraph">선택한 노드의 처리량, IOPS, 지연 시간을 표시합니다.</block>
-  <block id="526b762ba526f61e1f3918be366ad413" category="summary">System Manager의 이니시에이터 그룹 편집 대화 상자를 사용하여 기존 이니시에이터 그룹 및 해당 운영 체제의 이름을 변경할 수 있습니다. 이니시에이터를 이니시에이터 그룹에 추가하거나 이니시에이터 그룹에서 제거할 수 있습니다. 이니시에이터 그룹에 연결된 포트 세트를 변경할 수도 있습니다.</block>
   <block id="313a8a6a32fc700b93d306b9613fd7f4" category="list-text">이니시에이터 그룹 * 탭에서 수정할 이니시에이터 그룹을 선택한 다음 * 편집 * 을 클릭합니다.</block>
   <block id="0cc99e2b81b313ef751e68b68eeb15b1" category="list-text">필요한 사항을 변경합니다.</block>
   <block id="ecab37e90db3faaefb141343f6a75895" category="list-text">이니시에이터 그룹 * 탭에서 이니시에이터 그룹의 변경 사항을 확인합니다.</block>
@@ -5991,7 +5889,6 @@
   <block id="bee8b071f75206a01cbec05941e70af3" category="summary">FlexGroup 볼륨에는 개별 볼륨 대신 그룹으로 관리할 수 있는 많은 볼륨이 포함될 수 있습니다. System Manager를 사용하여 특정 애그리게이트를 선택하거나 시스템 권장 애그리게이트를 선택하여 FlexGroup 볼륨을 생성할 수 있습니다.</block>
   <block id="87377698a8dca305b9579a13060142f2" category="doc">FlexGroup 볼륨을 생성합니다</block>
   <block id="f2a35be883cf4139cbb198b07e91f215" category="list-text">읽기/쓰기(RW) FlexGroup 볼륨만 생성할 수 있습니다.</block>
-  <block id="bd1556d7104e4de8aeb3f05927bab8e2" category="list-text">System Manager 9.6부터 MetroCluster 구성으로 FlexGroup 볼륨을 생성할 수 있습니다.</block>
   <block id="aeac5d56915c618aa7b4412a754d8c7b" category="list-text">Create * &gt; * Create FlexGroup * 를 클릭합니다.</block>
   <block id="beaaabc91081d70a3739871b03e1b49c" category="list-text">Create FlexGroup * 창에서 FlexGroup 볼륨의 이름을 지정합니다.</block>
   <block id="8f272848a6b11fe0583e496106bec3c5" category="paragraph">기본적으로 모범 사례에 따라 애그리게이트가 선택됩니다.</block>
@@ -6008,7 +5905,6 @@
   <block id="334300bd7917d9047ac94e228a29b2d0" category="paragraph">비활성(콜드) 데이터 및 스냅샷 복사본을 액티브 파일 시스템에서 클라우드 계층으로 이동합니다.</block>
   <block id="ad4eaba5ce4dcb463e8ab61b46c759ef" category="list-text">* 백업(System Manager 9.5용) *</block>
   <block id="02757c23ed04383491df94ebd341b5f0" category="paragraph">데이터 보호(DP) 볼륨의 새로 전송된 데이터를 클라우드 계층으로 이동합니다.</block>
-  <block id="5cbe705dc8cf70f45fa4d74042a1e60d" category="list-text">* 모두(System Manager 9.6부터) *</block>
   <block id="5a66f6b57bb7443893c7ddf3f8aa6477" category="paragraph">모든 데이터를 클라우드 계층으로 이동합니다.</block>
   <block id="d015a34de96d3f92372df94da0f629a7" category="list-text">* 없음 *</block>
   <block id="becf72551bf20072e73229075812d6f4" category="paragraph">볼륨의 데이터가 클라우드 계층으로 이동하는 것을 방지합니다.</block>
@@ -6040,8 +5936,6 @@
   <block id="e98cbd903d92989765839a90586d8f7a" category="paragraph">롤링 업데이트에서 클러스터의 노드가 한 번에 하나씩 업데이트됩니다. 일괄 업데이트에서 여러 노드가 동시에 업데이트됩니다.</block>
   <block id="44b9cc060ad67e9e84068e7c314f4aab" category="list-text">LTS(Long-Term Service) 릴리스로 ONTAP 소프트웨어를 LTS+1(LTS 릴리즈)로 중단 없이 업데이트할 수 있습니다.</block>
   <block id="879c7beaf00e34f2a098414820d92553" category="paragraph">예를 들어, ONTAP 9.1 및 ONTAP 9.3이 LTS 릴리즈인 경우 중단 없이 클러스터를 ONTAP 9.1에서 ONTAP 9.3으로 업데이트할 수 있습니다.</block>
-  <block id="32d24ee82d683e8540f9c282f953430c" category="list-text">System Manager 9.6부터 NVMe 프로토콜이 System Manager 9.5에 구성되어 있고 System Manager 9.5에서 System Manager 9.6으로 업그레이드를 수행하는 경우, 라이센스 없이 NVMe 프로토콜을 사용할 수 있는 유예 기간이 90일이 없습니다. ONTAP 9.5에서 9.6으로 업그레이드할 때 유예 기간이 유효한 경우, NVMe 기능을 계속 사용할 수 있도록 유예 기간을 유효한 NVMeoF 라이센스로 교체해야 합니다.</block>
-  <block id="d96302c0b3f978bc3333ac00b1e2dfcd" category="list-text">ONTAP 9.5부터 NVMe 프로토콜을 사용하여 HA 쌍의 각 노드에 대해 하나 이상의 NVMe LIF를 구성해야 합니다. 노드당 최대 2개의 NVMe LIF를 생성할 수도 있습니다. ONTAP 9.5로 업그레이드할 때는 NVMe 프로토콜을 사용하여 HA 쌍의 각 노드에 대해 최소 하나의 NVMe LIF를 정의해야 합니다.</block>
   <block id="7a4bffac0c529b602f4c3015dad82a64" category="list-text">Update * (업데이트 *) 탭에서 새 이미지를 추가하거나 사용 가능한 이미지를 선택합니다.</block>
   <block id="ab4eb1fa5852767db4ffe73f8f8b20b0" category="paragraph">검증 작업에서는 클러스터 구성 요소를 점검하여 업데이트를 중단 없이 완료할 수 있는지 확인하고 모든 오류 또는 경고를 표시합니다. 또한 소프트웨어를 업데이트하기 전에 수행해야 하는 모든 필수 개선 조치가 표시됩니다.</block>
   <block id="c39a2721d823ed39f1837f4a9af86e74" category="list-text">System Manager에 로그인하고 * 구성 * &gt; * 클러스터 * &gt; * 업데이트 * &gt; * 업데이트 기록 * 을 클릭한 다음 세부 정보를 확인하여 클러스터가 선택한 버전으로 성공적으로 업데이트되었는지 확인합니다.</block>
@@ -6049,10 +5943,8 @@
   <block id="78f31b1e1789917a0bc022f913001e24" category="paragraph"><block ref="78f31b1e1789917a0bc022f913001e24" category="inline-xref-macro-rx"></block></block>
   <block id="ada5b1798b480ac4ca8c7dc0155604e2" category="summary">System Manager를 사용하여 네트워크 인터페이스를 생성하고 관리할 수 있습니다.</block>
   <block id="d9cc6b84b66475f5674f1dbdb05947a9" category="doc">네트워크 인터페이스</block>
-  <block id="9e1942adc19b7a509ad2eb80b4a57ade" category="summary">StrictSync 및 동기화 정책은 FC, iSCSI 및 FC-NVMe 프로토콜을 사용하는 모든 LUN 기반 애플리케이션뿐만 아니라 데이터베이스, VMware, 할당량, CIFS 등과 같은 엔터프라이즈 애플리케이션용 NFSv3 및 NFSv4 프로토콜을 지원합니다. ONTAP 9.6부터 SnapMirror Synchronous는 전자 설계 자동화(EDA), 홈 디렉토리 및 소프트웨어 빌드 워크로드와 같은 엔터프라이즈 파일 서비스에 사용할 수 있습니다.</block>
   <block id="c5e854a1d2af8f07eff758906c90e989" category="doc">StrictSync 및 동기화 정책에서 지원하는 워크로드 이해</block>
   <block id="f4c39692ac5e708410064c0716f0754d" category="paragraph">ONTAP 9.5에서 동기화 정책의 경우 NFSv3 또는 NFSv4 워크로드를 선택하는 동안 몇 가지 중요한 측면을 고려해야 합니다. 동기화 정책은 높은 읽기 또는 쓰기 입출력 워크로드를 처리할 수 있으므로 워크로드별로 데이터 읽기 또는 쓰기 작업의 양은 고려하지 않습니다. ONTAP 9.5에서는 과도한 파일 생성, 디렉토리 생성, 파일 권한 변경 또는 디렉토리 권한 변경이 있는 워크로드가 적합하지 않을 수 있습니다(이러한 작업을 메타데이터 워크로드가 높은 워크로드라고 함). 메타데이터가 많은 워크로드의 전형적인 예로는 여러 개의 테스트 파일을 만들고, 자동화를 실행하고, 파일을 삭제하는 DevOps 워크로드가 있습니다. 또 다른 예로는 컴파일 중에 여러 임시 파일을 생성하는 병렬 빌드 워크로드가 있습니다. 쓰기 메타데이터 작업이 높으면 미러 간의 동기화가 일시적으로 중단되어 클라이언트의 읽기 및 쓰기 입출력이 중단될 수 있습니다.</block>
-  <block id="cdd6492b3d04331c92523e5bd0245974" category="paragraph">ONTAP 9.6부터는 이러한 제한 사항이 제거되고 SnapMirror Synchronous는 홈 디렉토리 및 소프트웨어 빌드 워크로드와 같은 다중 사용자 환경을 포함한 엔터프라이즈 파일 서비스 워크로드에 사용될 수 있습니다.</block>
   <block id="d2d4e00de04d366aea9146e30e18baf5" category="inline-link">NetApp 기술 보고서 4733: ONTAP 9.6용 SnapMirror Synchronous</block>
   <block id="8c65052e38f8a19b4ab4b42ded83c59a" category="paragraph"><block ref="8c65052e38f8a19b4ab4b42ded83c59a" category="inline-link-rx"></block></block>
   <block id="9131d88a602d5260b75ab1942da4f89b" category="summary">System Manager의 이니시에이터 그룹 편집 대화 상자를 사용하여 이니시에이터 그룹에 있는 기존 이니시에이터의 이름을 변경할 수 있습니다.</block>
@@ -6261,7 +6153,6 @@
   <block id="e03e4a99ade76c0bb750fee863044633" category="paragraph">피어 클러스터가 마지막으로 수정된 시간을 표시합니다.</block>
   <block id="504897d4a6b59afadffd3cf9e5d3ea85" category="list-text">* 암호화 *</block>
   <block id="06149daf060bb537614972ab1e5525ee" category="paragraph">피어링 관계의 암호화 상태를 표시합니다.</block>
-  <block id="666f8d3c8c6cec4c3ead6d42123cf853" category="paragraph">System Manager 9.6부터는 두 클러스터 간의 피어링 관계를 설정할 때 피어링을 기본적으로 암호화합니다</block>
   <block id="eb005ffd0cfd954b5e70ce9526fa8da1" category="list-text">* 해당 없음 *: 암호화는 관계에 적용되지 않습니다.</block>
   <block id="c16aa9249afc503b1d9abe09cc35cd71" category="list-text">* 없음 *: 피어링 관계는 암호화되지 않습니다.</block>
   <block id="9750464be12c1a01681042cd15915063" category="list-text">* TLS_PSK *: 피어링 관계가 암호화됩니다.</block>
@@ -6276,7 +6167,6 @@
   <block id="a7d11588dead37de554b5968628824c6" category="doc">스냅샷 정책을 삭제하는 중입니다</block>
   <block id="99627a135d45506911208d4245376c67" category="paragraph">스냅샷 정책을 사용하는 각 볼륨에서 분리해야 합니다.</block>
   <block id="6b376275e2dcc3e451f8e7909ea9726f" category="list-text">스냅샷 정책을 선택하고 * 삭제 * 를 클릭합니다.</block>
-  <block id="dc0040e63161f23677a81a41475bdc2c" category="summary">System Manager 9.6부터 기존 FlexGroup 볼륨의 속성을 편집할 수 있습니다.</block>
   <block id="666f6c44221e14f591920d3df8bfc7f3" category="doc">FlexGroup 볼륨 편집</block>
   <block id="386804db58294cbf95f8d8cdc4b054e4" category="paragraph">FlexGroup 볼륨이 온라인 상태여야 합니다.</block>
   <block id="b5b2b1d45957a6c155cc1161578601a9" category="paragraph">FabricPool FlexGroup 볼륨은 다음과 같은 조건에서 확장할 수 있습니다.</block>
@@ -6285,13 +6175,11 @@
   <block id="b653e7114b898a50197c4bd6458c0c92" category="list-text">FlexGroup 볼륨에 FabricPool 볼륨과 비 FabricPool 볼륨이 혼합되어 있는 경우 FabricPool 및 비 FabricPool 애그리게이트를 사용하여 FlexGroup 볼륨을 확장할 수 있습니다.</block>
   <block id="02ff0d646ef82f2e76743b3d40aa0a52" category="list-text">수정할 FlexGroup 볼륨을 선택하고 * 편집 * 을 클릭합니다.</block>
   <block id="0c4cd619b3025dc6a47c947c8cd66127" category="list-text">FlexGroup 볼륨의 이름을 바꾸려면 * 이름 * 필드에 새 이름을 입력합니다.</block>
-  <block id="edf7cfcafa768e0993f601a8896639e6" category="paragraph">System Manager 9.6부터 FlexGroup DP 볼륨의 이름을 바꿀 수도 있습니다.</block>
   <block id="d7bff6878e1771ba1b7d511bedd4b348" category="list-text">암호화된 * 옵션을 활성화하여 볼륨에 대한 암호화를 활성화합니다.</block>
   <block id="6d82da7f723201a695eae1cf37e8fe85" category="list-text">을 클릭합니다 <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> FlexGroup 볼륨 설정을 수정합니다. 을 참조하십시오 <block ref="b061540f3903424de0fd13460a711a9e" category="inline-link-macro-rx"></block>.</block>
   <block id="4e5dab7015140f89b3c6813a37296dca" category="list-text">FlexGroup 볼륨의 크기를 조정할 크기를 지정합니다.</block>
   <block id="dc9d37a202e296240d704411fe802886" category="paragraph">기본적으로 기존 애그리게이트는 FlexGroup 볼륨의 크기를 조정하는 데 사용됩니다. 볼륨에 허용되는 최소 크기는 크기 필드 옆에 표시됩니다.</block>
   <block id="624ba68c42fd00942764f808571c9670" category="paragraph">새 리소스를 추가하여 FlexGroup 볼륨을 확장하려면 를 클릭합니다 <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> (고급 옵션). 을 참조하십시오 <block ref="b061540f3903424de0fd13460a711a9e" category="inline-link-macro-rx"></block>.</block>
-  <block id="31b4486387148d19e64e6f09e1c530bb" category="summary">System Manager 9.6부터, 더 이상 필요하지 않은 FlexCache 볼륨을 삭제할 수 있습니다.</block>
   <block id="2d911a2e75192035a8c705e9139ab46f" category="doc">FlexCache 볼륨을 삭제하는 중입니다</block>
   <block id="32eb59d1751d73c381a2d8a05a29e10e" category="list-text">FlexCache 볼륨의 연결 경로를 마운트 해제해야 합니다.</block>
   <block id="d841db94ed098a9586b6d10f7b4b6972" category="list-text">FlexCache 볼륨이 오프라인 상태여야 합니다.</block>
@@ -6381,7 +6269,6 @@
   <block id="40add6431c8623fe3b392fe887767942" category="list-text">데이터 전송 중에 전송되는 데이터를 압축하려면 * 네트워크 압축 사용 * 확인란을 선택합니다.</block>
   <block id="11633eb84d1995cfa5bc65cc29e7c23a" category="list-text">정책에 대한 추가 설명을 추가하려면 * 의견 추가 * 를 클릭합니다.</block>
   <block id="f51d83be71182a7a9735e02d70d57f6e" category="list-text">볼트 또는 미러 볼트 유형의 정책에 대해 SnapMirror 레이블과 대상 보존 수를 지정합니다.</block>
-  <block id="9aed27802e0cea0eb2b0356f40f40d0e" category="summary">System Manager 9.6부터 SVM(스토리지 가상 시스템)의 CIFS 또는 NFS 파일 액세스 오류를 진단할 수 있습니다.</block>
   <block id="31d6568812be270156162f88d707feb1" category="doc">파일 액세스를 추적하여 SVM의 액세스 오류를 진단합니다</block>
   <block id="653b1b162cb9aff6836afd7d5a152505" category="paragraph">공유 구성, 권한 또는 사용자 매핑에 문제가 있는 경우 ""액세스 거부"" 오류와 같은 파일 액세스 문제가 발생할 수 있습니다. System Manager를 사용하면 사용자가 액세스하려는 파일 또는 공유에 대한 액세스 추적 결과를 확인하여 파일 액세스 문제를 해결할 수 있습니다. System Manager는 파일 또는 공유에 유효한 읽기, 쓰기 또는 실행 권한이 있는지 여부와 액세스가 효과적이지 않은 이유를 표시합니다.</block>
   <block id="4f64f4263fef2b7c2b12b110e5ebafb9" category="list-text">파일 액세스 오류가 수신된 파일 또는 공유가 포함된 SVM을 선택합니다.</block>
@@ -6856,9 +6743,7 @@
   <block id="1ad11572af939ebc81483c42e739c049" category="list-text">DDNS 서비스에 대한 FQDN(정규화된 도메인 이름)과 라이브 시간 값을 지정합니다.</block>
   <block id="56e6874203c939cd976d0ecc8f201e1b" category="paragraph">기본적으로 라이브 시간은 24시간으로 설정되고 FQDN은 'VM 이름'으로 설정됩니다. 도메인 이름'입니다.</block>
   <block id="d527cc6649fc65b2afe6119dd7503387" category="list-text">변경 사항을 저장하려면 * 확인 * 을 클릭합니다.</block>
-  <block id="f8f6c8f0b421fd4012ea9a658752623c" category="summary">System Manager에서 제공하는 템플릿 파일을 사용하여 클러스터를 생성하고, 노드 관리 및 클러스터 관리 네트워크를 설정한 다음, 이벤트 알림을 설정하여 클러스터를 설정할 수 있습니다. (ONTAP 시스템 관리자 9.6부터는 AutoSupport가 지원되지 않습니다.) 템플릿 파일은 .xlsx 형식 또는 .csv 형식으로 다운로드할 수 있습니다.</block>
   <block id="1e18da9a7ca059527f937399fcff5ab9" category="doc">템플릿 파일을 사용하여 클러스터 설정</block>
-  <block id="1c263ddab6292e2b044e0c3624119e09" category="paragraph">System Manager에서 제공하는 템플릿 파일을 사용하여 클러스터를 생성하고, 노드 관리 및 클러스터 관리 네트워크를 설정한 다음, 이벤트 알림을 설정하여 클러스터를 설정할 수 있습니다. (ONTAP 시스템 관리자 9.6부터는 AutoSupport가 지원되지 않습니다.) 템플릿 파일은 .xlsx 형식 또는 .csv 형식으로 다운로드할 수 있습니다.</block>
   <block id="8a3987f2693d326a42a2bc437490bcd9" category="list-text">클러스터에서 ONTAP 9.1 이상을 지원하는 경우 ONTAP 9.1 이상을 실행 중인 스토리지 시스템만 추가할 수 있습니다.</block>
   <block id="8df31e503af8a13a8bc867b17351b4c0" category="list-text">파일을 업로드할 때 모든 필드가 자동으로 채워지지 않습니다.</block>
   <block id="aca1546a662c9a104170769a9c6ca527" category="paragraph">암호 및 클러스터 관리 포트와 같은 일부 필드의 값을 수동으로 입력해야 합니다.</block>
@@ -6955,7 +6840,6 @@
   <block id="71820b0461c7b2877a94d9242269186e" category="paragraph">클러스터 레벨 미러 정책 또는 볼트 정책이 표시되지 않습니다.</block>
   <block id="72711e5183871d1aa715881a9ae08364" category="list-text">보호 정책 * 창에서 삭제할 정책을 선택한 다음 * 삭제 * 를 클릭합니다.</block>
   <block id="b01165d370643ef0894287fb399ee395" category="list-text">Delete Policy * (정책 삭제 *) 대화 상자에서 * Delete * (삭제 *)를 클릭합니다.</block>
-  <block id="6f44c287c2c4cd1ecff43fe607ec37c6" category="summary">System Manager 9.6부터, CIFS 또는 NFS 프로토콜을 사용하여 SVM에서 파일 및 공유에 액세스하는 데 문제가 있을 때 Trace File Access 창을 사용하여 문제를 진단할 수 있습니다.</block>
   <block id="348e837675b9fabe5c1122cab57d8896" category="doc">추적 파일 액세스 창</block>
   <block id="698c6e57a26e9dcfc3ac31718fd1984d" category="list-text">* 계속 *</block>
   <block id="df23b574fcb8549d1fd2e9dfccdbde6d" category="paragraph">선택한 SVM에서 파일 액세스 추적을 설정 및 시작하는 프로세스를 시작합니다.</block>
@@ -7006,7 +6890,6 @@
   <block id="3a2367aec0c72a4c2ccfe845256609d4" category="paragraph"><block ref="3a2367aec0c72a4c2ccfe845256609d4" category="inline-link-macro-rx"></block></block>
   <block id="c8427e5fbae1508eaeaa2bf5374f30be" category="paragraph"><block ref="c8427e5fbae1508eaeaa2bf5374f30be" category="inline-link-macro-rx"></block></block>
   <block id="f6ce52a49a26b1f03ba502223bb26f5d" category="paragraph"><block ref="f6ce52a49a26b1f03ba502223bb26f5d" category="inline-link-macro-rx"></block></block>
-  <block id="e2eef74c82fe8d91ebdf6a2ee81a0531" category="summary">System Manager 9.6부터 MetroCluster 사이트의 협상된(계획된) 전환을 시작할 수 있습니다. 이 작업은 사이트에서 재해 복구 테스트 또는 계획된 유지 관리를 수행하려는 경우에 유용합니다.</block>
   <block id="a4985675ccbf82679b971ef71b139cae" category="doc">협상된 전환 수행</block>
   <block id="c89716513201f0674f938c4e04a3b7e3" category="list-text">System Manager에서 클러스터 관리자 자격 증명을 사용하여 로컬 MetroCluster 사이트(사이트 A)에 로그온합니다.</block>
   <block id="3f7d0d5b859f925e642f1cb9e65deba5" category="paragraph">MetroCluster 전환 및 스위치백 작업 창에는 작업 상태가 표시되고 시스템 관리자는 협상된 전환이 가능한지 여부를 확인합니다.</block>
@@ -7055,7 +6938,6 @@
   <block id="309c76eeff63d8465df0721ca6cf6a93" category="paragraph">LUN에 공간 예약이 사용되지 않는 경우(비공간 예약 LUN), 생성 시 해당 LUN에 대해 공간이 예약되지 않습니다. LUN에 대한 쓰기 작업에 필요한 스토리지는 충분한 여유 공간을 사용할 수 있는 경우 필요할 때 볼륨으로부터 할당됩니다.</block>
   <block id="bd9f3fb4d4ac06acfae10c70ce3223af" category="paragraph">공간 예약 LUN이 NONE-Guaranteed 볼륨에 생성된 경우 LUN은 공간이 예약되지 않은 LUN과 동일하게 작동합니다. 이는 보장된 볼륨 중 어느 것도 LUN에 할당할 공간이 없기 때문입니다. 볼륨 자체는 이 LUN을 쓸 때만 공간을 할당할 수 있습니다. 보장하지는 않기 때문입니다. 따라서 보장된 볼륨이 아닌 볼륨에 공간 예약 LUN을 생성하는 것은 권장되지 않습니다. 이 구성 조합을 사용하면 실제로 불가능한 쓰기 보증이 될 수 있습니다.</block>
   <block id="b015f33c456c70991a6d3a77ad1e8188" category="paragraph">공간 예약이 "기본값"으로 설정되면 ONTAP 공간 예약 설정이 LUN에 적용됩니다. 새 볼륨이 생성되는 경우 ONTAP 공간 예약 설정도 컨테이너 볼륨에 적용됩니다.</block>
-  <block id="78090d18b9119db8e02ee09361e9ab3f" category="summary">System Manager 9.6부터 FlexCache 볼륨을 오프라인 상태로 전환하거나 FlexCache 볼륨을 온라인 상태로 전환하거나 FlexCache 볼륨 액세스를 제한하려는 경우 System Manager 9.6부터 볼륨 상태를 변경할 수 있습니다.</block>
   <block id="edd157911f3f71d15fad21af777b74ce" category="list-text">상태를 수정할 FlexCache 볼륨을 선택합니다.</block>
   <block id="0ebba1c780c0912daef9ef93708f39ed" category="list-text">More Actions * &gt; * Change status to * 를 클릭한 다음 필요한 상태를 선택하여 FlexCache 볼륨 상태를 업데이트합니다.</block>
   <block id="d5ac459ab7890d1381a2088deab22918" category="paragraph">FlexCache 볼륨을 오프라인으로 전환하고 상태를 "제한됨"으로 변경하려면 먼저 볼륨을 마운트 해제해야 합니다.</block>
@@ -7120,7 +7002,6 @@
   <block id="0f1936a33cb31a39e597a795d7fe6ec8" category="paragraph">미러 및 볼트 관계는 초기화되고 SnapMirrored 상태여야 합니다.</block>
   <block id="fb5e019f9c42298f7f16f864e0e4f01e" category="list-text">데이터를 업데이트할 미러 관계를 선택한 다음 * 운영 * &gt; * 업데이트 * 를 클릭합니다.</block>
   <block id="66a90644b0ac4440d8fb12bcd3baa112" category="list-text">전송에 사용되는 네트워크 대역폭을 제한하려면 * 전송 대역폭 제한 * 을 선택하고 최대 전송 속도를 지정합니다.</block>
-  <block id="0e01986a4812cb9edf416ec1a20fe6d5" category="summary">System Manager 9.6부터 FlexCache 볼륨을 만들 수 있습니다.</block>
   <block id="648c70c7a42dbc82a126b14b63ae7a65" category="doc">FlexCache 볼륨을 생성합니다</block>
   <block id="eb53ad6b29e4928c761d2c0603ffdb80" category="paragraph">FlexCache 볼륨을 생성하려면 먼저 FlexCache 용량 라이센스가 있어야 합니다.</block>
   <block id="a57d03d1c0981c5a08acdef16460ea79" category="list-text">볼륨 * 창에서 * 생성 * &gt; * FlexCache * 을 클릭합니다.</block>
@@ -7230,7 +7111,6 @@
   <block id="00cdab290cbd93ae2285d05b34c70656" category="paragraph">System Manager의 * LUN Management * 탭을 사용하여 선택한 LUN을 오프라인 상태로 전환하고 블록 프로토콜 액세스를 위해 사용할 수 없도록 설정할 수 있습니다.</block>
   <block id="6c27f3175ff8f7af46954b46d57e54e2" category="list-text">LUN 관리 * 탭에서 오프라인 상태로 전환할 LUN을 하나 이상 선택합니다.</block>
   <block id="18c1f78e298d9d16297024976c798cb5" category="list-text">상태 * &gt; * 오프라인 * 을 클릭합니다.</block>
-  <block id="ef3a8615a6979773e71abe109ebacf85" category="summary">System Manager 9.6부터는 시스템이 성공적인 스위치오버 작업을 완료한 후 원래 MetroCluster 사이트(사이트 B)로 제어를 복원하는 스위치백 작업을 수행할 수 있습니다.</block>
   <block id="94c633d9c5aff7c9960836d9157af54f" category="paragraph">스위치백 작업을 수행하기 전에 다음 작업을 완료해야 합니다.</block>
   <block id="4db2119227717656801c89e13d0c038e" category="inline-xref-macro">협상된(계획된) 전환 수행</block>
   <block id="ef523c3f75d46b6a35051273ab36dc14" category="list-text">에서 MetroCluster 사이트를 준비해야 합니다 <block ref="5a892eec1c665f907e6c271b8a099943" category="inline-xref-macro-rx"></block> 또는 <block ref="69cf464bbe8abcf28c78ac316c939b03" category="inline-xref-macro-rx"></block>.</block>
@@ -7347,7 +7227,6 @@
   <block id="bd2fa31088e00a687a54f0b7130b3748" category="doc">네트워크 설정</block>
   <block id="1881fb1af3e2bfeb601d8409c8cd6731" category="summary">System Manager를 사용하여 Kerberos 영역 서비스를 만들고 관리할 수 있습니다.</block>
   <block id="c92a6aa392425ce10f52dff8658ad166" category="doc">Kerberos 영역 서비스</block>
-  <block id="1e16e0ffc99d320e3879b66afcfe3231" category="summary">System Manager 9.6부터 MetroCluster 스위치오버 및 스위치백 운영 윈도우를 사용하여 한 사이트 또는 클러스터(사이트 B)에서 다른 사이트 또는 클러스터(사이트 A)로 협상된(협상된) 스위치오버 또는 계획되지 않은 전환을 시작할 수 있습니다. 사이트 B에서 유지 관리 또는 수리를 수행한 후 사이트 A에서 사이트 B로 스위치백을 시작하고 이 창에서 작업 상태를 볼 수 있습니다.</block>
   <block id="926d209b43e6189068be5c1e0f6f8885" category="doc">MetroCluster 전환 및 스위치백 작업 창</block>
   <block id="e33e3ff2c65757e1d022ea97130aa836" category="section-title">명령 버튼</block>
   <block id="5c30f783149aeed9a56b4ee6168ea7d9" category="list-text">* 사이트 B에서 사이트 A * 로 전환</block>
@@ -7417,7 +7296,6 @@
   <block id="b4bc45810798f445737934696c4b9b58" category="list-text">Microsoft SQL Server(SAN 또는 SMB 사용)</block>
   <block id="e302250f5955d17f1e9a488b5bc5b7b1" category="paragraph">* 가상 인프라 *</block>
   <block id="3496cf6ca4dffdc0ba4e1a66a2b3ab56" category="list-text">가상 서버(VMware, Hyper-V 또는 XEN 사용)</block>
-  <block id="411ede689cea78f8495f13420863ad47" category="summary">볼륨 창을 사용하여 FlexVol 볼륨 및 FlexGroup 볼륨을 관리할 수 있습니다. System Manager 9.6부터 FlexCache 볼륨을 관리할 수도 있습니다.</block>
   <block id="e0fcf5317e38101ece191f4c411a7618" category="paragraph">System Manager를 사용하면 재해 복구용으로 구성된 SVM(스토리지 가상 머신)에 있는 볼륨을 보거나 관리할 수 없습니다. 대신 CLI를 사용해야 합니다.</block>
   <block id="aabed70eca5107f1a1d00f648619efc9" category="paragraph">명령 단추 및 열 목록은 선택한 볼륨 유형에 따라 다릅니다. 선택한 볼륨에 적용할 수 있는 명령 단추 및 열만 볼 수 있습니다.</block>
   <block id="ba055332df4c14eabc2e77159a722d07" category="section-title">선택 필드입니다</block>
@@ -7459,8 +7337,6 @@
   <block id="800281189322186103f9ffed90c378c8" category="list-text">* 볼륨 암호화 재키 *</block>
   <block id="cd60bd30cdb87fc30f18cbb308a03515" category="paragraph">볼륨의 데이터 암호화 키를 변경합니다.</block>
   <block id="b16614ef25b8ed6d371e00eae5aaec58" category="paragraph">볼륨의 데이터는 자동으로 생성된 새 키를 사용하여 다시 암호화됩니다. 키를 다시 입력하다</block>
-  <block id="10554dac7cc28d90e0358d2840f24266" category="paragraph">System Manager 9.6부터는 FlexGroup DP 볼륨 및 FlexCache 볼륨에 대해 볼륨 암호화 키를 다시 입력하다 NAE 애그리게이트로부터 상속된 암호화가 있는 볼륨에 대해서는 키를 다시 입력하다</block>
-  <block id="22dae7127051ff96157d41ea21a59f3a" category="paragraph">동일한 볼륨의 키를 다시 입력하다 작업을 시작할 때 볼륨 이동 작업을 시작하면 키를 다시 입력하다 System Manager 9.5 및 이전 버전에서 볼륨의 변환 또는 키를 다시 입력하다 작업이 진행 중일 때 볼륨을 이동하려고 하면 경고 없이 작업이 중단됩니다. System Manager 9.6부터 변환 또는 키를 다시 입력하다 작업을 계속할 경우 변환 또는 키를 다시 입력하다 작업이 중단된다는 경고 메시지가 표시됩니다.</block>
   <block id="5db30de286c0f3dc0e962f36ed0f8ebe" category="list-text">* VMware용 스토리지 용량 할당 *</block>
   <block id="e94fad77d369358ddb42839898c0288e" category="paragraph">NFS 데이터 저장소에 대한 볼륨을 생성하고 NFS 데이터 저장소를 액세스할 수 있는 ESX 서버를 지정할 수 있습니다.</block>
   <block id="06ec068acdeb98f49eb90245480d5bfe" category="list-text">* 누락된 보호 관계 보기 *</block>
@@ -7701,9 +7577,6 @@
   <block id="4b99c13013f59eb4aa6fc87d531d9c24" category="paragraph">해당 없음</block>
   <block id="d3d91c41fd1a14f7eaf73a7ccf3792fa" category="paragraph">다른 상태 모니터의 정보를 집계합니다.</block>
   <block id="6f89368372b347a8043fe41a1a184b9c" category="paragraph">시스템 연결(시스템 연결)</block>
-  <block id="7dab0070e22714f3d4e78e02b8ac92bf" category="summary">System Manager의 Portsets 탭을 사용하여 포트 세트와 관련된 설정을 편집할 수 있습니다.</block>
-  <block id="1d47b14abc20e19a16cf518b8276a7bf" category="doc">포트 세트 편집</block>
-  <block id="13ab40290ec10df93c6eff237065281c" category="list-text">Portsets * 탭에서 편집할 포트 세트를 선택하고 * Edit * 를 클릭합니다.</block>
   <block id="0a4c82e9eb33cb787b62e1a1a210a464" category="list-text">[포트세트 편집] * 대화 상자에서 필요한 사항을 변경합니다.</block>
   <block id="4496c51460f61026def6a8f236107acd" category="summary">System Manager를 사용하여 클러스터 관리 논리 인터페이스(LIF)를 생성하여 클러스터에 단일 관리 인터페이스를 제공할 수 있습니다. 이 LIF를 사용하여 클러스터의 모든 활동을 관리할 수 있습니다.</block>
   <block id="4c3fd99bd338a6231ad8862448630f73" category="doc">클러스터 관리 논리 인터페이스를 생성합니다</block>
@@ -7893,7 +7766,6 @@
   <block id="84bf66efb6d5467b5b695007dbd7bf64" category="list-text">이니시에이터의 별칭을 추가합니다.</block>
   <block id="610cb3e6ac468bba298f7890410fa737" category="paragraph">이니시에이터 그룹은 하나만 생성됩니다.</block>
   <block id="fefa4a35d8d21e9f1475ac187ec7b501" category="paragraph">생성된 LUN과 함께 요약 표가 표시됩니다.</block>
-  <block id="8b8233970ae93cddab3fcb0f038a19cf" category="summary">System Manager를 사용하여 심볼 링크 설정, 사용자 또는 그룹의 공유 액세스 권한 및 공유에 대한 액세스 유형과 같은 공유 설정을 수정할 수 있습니다. 또한 Hyper-V를 통한 공유의 지속적인 가용성을 설정하거나 해제하고 ABE(액세스 기반 열거)를 설정 또는 해제할 수 있습니다. System Manager 9.6부터 FlexGroup 볼륨의 지속적인 가용성이 지원됩니다.</block>
   <block id="7246a01d2a352fc6450f7f466d58dac5" category="list-text">공유 목록에서 수정할 공유를 선택한 다음 * 편집 * 을 클릭합니다.</block>
   <block id="28d42a3f5ce4234a5cb6b5eda7721b12" category="list-text">Edit Share Settings * 대화 상자에서 필요에 따라 공유 설정을 수정합니다.</block>
   <block id="b187cf812109744ed2a6197d64b4c287" category="list-text">General * 탭에서 Hyper-V를 통해 공유를 지속적으로 사용할 수 있도록 설정합니다</block>
@@ -8177,7 +8049,6 @@
   <block id="f87f2ed6d4a98514022e8578636d6edb" category="doc">NIS 서비스</block>
   <block id="b5d9cab92eb83c805fd03967954b52c8" category="summary">Kerberos를 사용하여 SVM과 NFS 클라이언트 간에 강력한 인증을 제공하여 안전한 NFS 통신을 제공할 수 있습니다. Kerberos를 사용하여 NFS를 구성하면 스토리지 시스템과의 NFS 클라이언트 통신의 무결성과 보안이 강화됩니다.</block>
   <block id="95d114f791455832c0b457242f601303" category="doc">강력한 보안을 위해 NFS와 Kerberos 사용</block>
-  <block id="b8cdd43d1b26cbe709647dba8c6a5a29" category="summary">System Manager 9.6부터는 로컬 클러스터 IPspace용 암호를 생성하고 피어링 관계를 생성할 때 원격 클러스터에서 동일한 암호를 사용할 수 있습니다.</block>
   <block id="5738e81d775bde5181b062fdc9fe8a6d" category="doc">피어링 패스프레이즈 생성</block>
   <block id="00dd38a84a52b78303bb10d5409eb2d9" category="list-text">Generate 피어링 Passphrase * 를 클릭합니다.</block>
   <block id="590c98302fe91a04312e9327e28dbf4f" category="paragraph">피어링 패스구문 생성 대화 상자가 표시됩니다.</block>
@@ -8437,7 +8308,6 @@
   <block id="67ffdbb5faa590c53f94f7b17ce1d0ef" category="list-text">* NVMe 하위 시스템 *</block>
   <block id="edcc9e329c6fe05ec05b6644c7524b8a" category="paragraph">네임스페이스에 연결된 하위 시스템의 이름입니다. 서브시스템이 연결되어 있지 않으면 이 열의 값이 없음 으로 표시됩니다. NVMe 하위 시스템에 대해 이 열을 필터링하면 매핑되지 않은 네임스페이스 목록을 볼 수 있습니다.</block>
   <block id="07ff91c4cb951ea770d52633a81fea3a" category="paragraph">네임스페이스가 생성되는 SVM 이름입니다. SVM 이름은 클릭 가능한 링크입니다. 링크를 클릭하면 기존 SVM 대시보드 페이지로 이동합니다.</block>
-  <block id="b7792eed9d1401fc25c7888fbf2aff79" category="paragraph">ONTAP 9.5부터 SVM과 연결된 HA 쌍의 각 노드에 대해 하나 이상의 NVMe LIF를 구성해야 합니다. 페어의 각 노드에 대해 최대 2개의 NVMe LIF를 생성할 수 있습니다.</block>
   <block id="c61f83537aef8e2db4f7e809ae695b7e" category="list-text">* 네임스페이스 ID *</block>
   <block id="558f1b6a38983219c227a9bf89a5b369" category="paragraph">이름 공간에 대한 액세스를 제공하기 위해 컨트롤러에서 사용하는 고유 식별자입니다. 이는 사용자 입력이 아니며 새 네임스페이스가 생성될 때 시스템에서 생성됩니다.</block>
   <block id="3885a4ec239d9951e19809c2bf268a95" category="paragraph">네임스페이스의 총 크기를 표시합니다.</block>
@@ -8648,7 +8518,6 @@
   <block id="048302dc521956e742829bbbc308e667" category="doc">소스 볼륨을 업데이트합니다</block>
   <block id="f279e20e016955df9fcb499956193b6d" category="list-text">소스 볼륨과 타겟 볼륨 간의 SnapMirror 관계를 선택한 다음 * 운영 * &gt; * 업데이트 * 를 클릭합니다.</block>
   <block id="e087fde17030168d1d6828a4db2c04ba" category="list-text">소스 볼륨과 타겟 볼륨 간의 최신 공통 스냅샷 복사본에서 증분 전송을 수행합니다.</block>
-  <block id="7de27bbaf2cf9d2ed9a9db41278230ac" category="list-text">ONTAP 9.3부터: * 정책에 따라 * 옵션을 선택합니다.</block>
   <block id="612c396cc4358d4a35672217227c116c" category="list-text">ONTAP 9.2 이하: * On demand * 옵션을 선택합니다.</block>
   <block id="6acf38e93f126c4efef95f565e1e2f37" category="list-text">전송에 사용되는 네트워크 대역폭을 제한하려면 전송 대역폭 제한 * 을 선택하고 최대 전송 속도를 지정합니다.</block>
   <block id="be9e090ef1b19ac88c8b3bb7d6f8c11a" category="list-text">전송 상태가 Idle인지, 마지막 전송 유형이 * Details * 탭에서 Update인지 확인한다.</block>
@@ -8683,7 +8552,6 @@
   <block id="2b1973fe2741d78a0639552b32d664d0" category="list-text">볼륨 * 목록의 열이 적절한 값으로 업데이트되었는지 확인합니다.</block>
   <block id="56e54c6eb83302b1f06702d7b4a44f4f" category="list-text">타겟 볼륨에 대한 스냅샷 복사본 생성을 사용하도록 설정합니다.</block>
   <block id="93aac2c0b9596102871f77685d30c559" category="list-text">ONTAP 버전에 따라 다음 방법 중 하나로 * 볼륨 스냅샷 복사본 구성 * 페이지로 이동합니다.</block>
-  <block id="81d90cec23aec17b8d4da9a17a5d6175" category="paragraph">ONTAP 9.3부터 시작: 대상 볼륨을 선택한 다음 * 작업 * &gt; * 스냅샷 관리 * &gt; * 구성 * 을 클릭합니다.</block>
   <block id="a0aac9e3d15ae2e6b75d0803be1cc8f9" category="paragraph">ONTAP 9.2 이하: 대상 볼륨을 선택한 다음 * Snapshot 복사본 * &gt; * 구성 * 을 클릭합니다.</block>
   <block id="ac0c323d5c042d7a9c547a1b9c2c571e" category="list-text">예약된 Snapshot 복사본 사용 * 확인란을 선택한 다음 * 확인 * 을 클릭합니다.</block>
   <block id="d905542c353c1c5dcc6d3968f0970fef" category="image-alt">볼륨 스냅샷 복사본 구성</block>
@@ -8704,7 +8572,6 @@
   <block id="1799f2ffcb22e7bcb0638393484cf9c6" category="list-text">소스 볼륨과 타겟 볼륨 간의 SnapMirror 관계를 선택합니다.</block>
   <block id="1a137e7b42f10b18958541786766c3a6" category="list-text">SnapMirror 관계에 대해 구성된 전송 일정과 정책을 기록해 둡니다.</block>
   <block id="4a9e909a19d9afe2828c7d66487e24bc" category="image-alt">역재동기화 화면</block>
-  <block id="55bc250010b665917f219d4defc47c1f" category="paragraph">ONTAP 9.3부터 관계의 SnapMirror 정책이 "짜르앨스냅샷"으로 설정되고 미러 스케줄이 "없음"으로 설정됩니다.</block>
   <block id="b31e3828d6794551661a7cdd984d369f" category="paragraph">ONTAP 9.2 이하를 실행 중인 경우 관계의 SnapMirror 정책이 DPDefault로 설정되고 미러 스케줄이 None으로 설정됩니다.</block>
   <block id="40d81d472ee03f62310213164f2511d1" category="list-text">소스 클러스터에서 원본 SnapMirror 관계의 보호 구성과 일치하는 SnapMirror 정책 및 일정을 지정합니다.</block>
   <block id="882577b940ce935b8f91a0e353a7b030" category="list-text">재동기화된 소스 볼륨과 타겟 볼륨 간의 SnapMirror 관계를 선택한 다음 * 편집 * 을 클릭합니다.</block>
@@ -8727,7 +8594,6 @@
   <block id="ac1fcc584b8d57bb19946cfe81fd2f99" category="image-alt">이미지는 SnapMirror 중단 및 재동기화 작업을 보여 줍니다</block>
   <block id="42775f79cb896747f09dcc19d8a3e9b8" category="image-alt">분리 대화 상자를 보여 주는 스크린샷</block>
   <block id="af55ceb177a6b022f107c3e4ae6b51e1" category="image-alt">역방향 재동기화 대화 상자를 보여 주는 스크린샷</block>
-  <block id="83ebf9cdfc428711d0914617f2cd1fd0" category="paragraph">ONTAP 9.3부터는 관계에 대한 SnapMirror 정책이 MirorAllSnapshots으로 설정되고 SnapMirror 일정이 None으로 설정됩니다.</block>
   <block id="074be2c43f1b0a6a0dd99c609f109f6b" category="paragraph">ONTAP 9.2 이하를 실행 중인 경우 관계의 SnapMirror 정책이 DPDefault로 설정되고 SnapMirror 일정이 "None"으로 설정됩니다.</block>
   <block id="e5a23453ef53a88d534f181bdff3119f" category="list-text">볼륨 페이지에서 소스 볼륨으로 이동하여 생성한 SnapMirror 관계가 나열되고 관계 상태가 '스냅샷 미러링'인지 확인합니다.</block>
   <block id="a100d9b21c247cd5158af7d4f305f4ed" category="list-text">대상 클러스터에서 새 SnapMirror 관계에 대한 원래 SnapMirror 관계의 보호 구성과 일치하는 SnapMirror 정책 및 일정을 지정합니다.</block>
@@ -8743,7 +8609,6 @@
   <block id="c13f09e860d57e9e946bb8c4833f9f54" category="paragraph">클러스터 시스템의 재해 복구 및 D2D 백업에 대한 개념적 정보를 제공합니다.</block>
   <block id="5af10cac5bb119e67eb656888383295c" category="summary">볼륨 재해 복구 워크플로우에는 대상 볼륨 활성화, 데이터 액세스를 위한 대상 볼륨 구성, 원래 소스 볼륨 재활성화가 포함됩니다.</block>
   <block id="5631a4a4a5cbe1126b6d5532597609b1" category="doc">볼륨 재해 복구 워크플로우</block>
-  <block id="5512fd2b9da95fed1fddb667c33300a9" category="image-alt">이 그림은 SnapMirror 클러스터 간 페일오버 및 재동기화 워크플로우를 보여 주는 흐름도입니다. 워크플로의 단계가 이 콘텐츠의 항목과 일치합니다.</block>
   <block id="65707d06aabd8ef798e5b07352f5dc17" category="summary">데이터 손상, 실수로 인한 삭제 또는 오프라인 상태와 같은 이벤트로 인해 소스 볼륨에서 데이터를 처리할 수 없는 경우 소스 볼륨에서 데이터를 복구할 때까지 대상 볼륨을 활성화하여 데이터 액세스를 제공해야 합니다. 앞으로 SnapMirror 데이터 전송을 중지하고 SnapMirror 관계를 끊는 작업이 활성화 됩니다.</block>
   <block id="f54fe60c5cda1542fbcb4223ed181b1a" category="summary">피어링된 클러스터에서 소스 볼륨과 타겟 볼륨 간에 SnapVault 관계를 생성하여 SnapVault 백업을 생성해야 합니다.</block>
   <block id="ab0fec605c2b6f4dc376a91c42388d39" category="doc">SnapVault 관계 생성(ONTAP 9.2 이하)</block>
@@ -8763,7 +8628,6 @@
   <block id="88a39d6a7af7f65fcb4ad6f3ff576d67" category="image-alt">데이터 보호 창 SV</block>
   <block id="0dda7a83024c1a48482d48cb5cc0197e" category="summary">SnapVault 백업 관계 구성에는 클러스터 피어 관계 확인, 소스 볼륨과 타겟 볼륨 간의 SnapVault 관계 생성, SnapVault 관계 모니터링이 포함됩니다.</block>
   <block id="2f17efffc575aac669d2b6d5b6e3ce0c" category="doc">SnapVault 백업 구성 워크플로우</block>
-  <block id="edf310b9194221522381c5d1f6f278f6" category="image-alt">이 그림은 SnapVault 백업 구성 워크플로우 흐름도입니다. 워크플로의 단계가 이 콘텐츠의 항목과 일치합니다.</block>
   <block id="7b1a6834c9e6f565e0e67a08da561eb0" category="summary">SnapVault 기술을 사용하여 데이터 보호를 위한 볼륨을 설정하기 전에 소스 클러스터와 타겟 클러스터가 피어 관계를 통해 서로 피어링되어 상호 통신하고 있는지 확인해야 합니다. 또한 소스 SVM과 타겟 SVM이 피어링되어 피어 관계를 통해 서로 통신하고 있는지 확인해야 합니다.</block>
   <block id="1d2c5f3cf91a6ac4437d06b0d35f22aa" category="doc">클러스터 피어 관계 및 SVM 피어 관계를 확인합니다</block>
   <block id="9aaabaf6b02ac9896ad51eeefe73cf8f" category="image-alt">클러스터 퍼 930 백업</block>
@@ -8781,7 +8645,6 @@
   <block id="ff17478d188b125f6ef5aab076ca6e0e" category="cell"><block ref="ff17478d188b125f6ef5aab076ca6e0e" category="inline-link-macro-rx"></block></block>
   <block id="ca0c3dd7dca9f636af3209d526098e1e" category="inline-link-macro">복제 관계를 생성합니다</block>
   <block id="40073759c151f2edb4c6d90ee54f1d3f" category="cell"><block ref="40073759c151f2edb4c6d90ee54f1d3f" category="inline-link-macro-rx"></block></block>
-  <block id="fff569de9f9e871fa113b6e45e02ff26" category="doc">SnapVault 관계 생성(ONTAP 9.3부터)</block>
   <block id="111d55d127c8b160f91a1ed2a3d66659" category="list-text">백업할 볼륨을 선택한 다음 * 작업 * &gt; * 보호 * 를 클릭합니다.</block>
   <block id="94c10dc8f24d47dad79c2c7b8f6ec5a6" category="paragraph">여러 소스 볼륨을 선택한 다음 단일 타겟 볼륨으로 SnapVault 관계를 생성할 수도 있습니다.</block>
   <block id="e9c6e59ce56c7a8e23844b7cfa08d737" category="list-text">관계 유형 * 드롭다운 목록에서 * 볼트 * 를 선택합니다.</block>
@@ -8812,7 +8675,6 @@
   <block id="84ab02685a1be3ebfb0d9fdcdebd3620" category="paragraph">예를 들어, 전송 스케줄이 매일 인 경우 지연 시간은 1일을 초과할 수 없습니다.</block>
   <block id="1eeba1edb754efde0f9cecd9c594e61f" category="image-alt">모니터 SV</block>
   <block id="3bfd8fcba76ba60506329617822d7cfb" category="summary">iSCSI를 사용하여 호스트에서 스토리지를 사용할 수 있게 하면 스토리지 가상 머신에 볼륨 및 LUN을 프로비저닝하고 호스트에서 LUN에 접속합니다.</block>
-  <block id="754aa4478c730fbfa9d4223931a05129" category="image-alt">이 그림은 iSCSI 워크플로의 순서도입니다. 워크플로의 단계가 이 콘텐츠의 항목과 일치합니다.</block>
   <block id="008d22e03a08059313c71056a4b434e9" category="summary">Windows 호스트의 iSCSI 이니시에이터 프로그램에서 iSCSI 이니시에이터 노드 이름을 기록해야 합니다.</block>
   <block id="085d5ecaca81f429f63aed95c56d9deb" category="doc">iSCSI 이니시에이터 노드 이름을 기록합니다</block>
   <block id="4c18535ef0e00ae7d98ef7681879517c" category="list-text">iSCSI 초기자 속성 * 대화 상자를 엽니다.</block>
@@ -8899,12 +8761,10 @@
   <block id="6be42cc8835dc7589f00c28f57ae68d7" category="paragraph">열 표시 아이콘(<block ref="3a4c4e1ca783205e55a2c6608fd1fa7f" category="inline-image-macro-rx" type="image"></block>)를 클릭하여 표시하지 않을 열을 숨깁니다.</block>
   <block id="04a66dded89c32f4cad175d20dee428f" category="paragraph">각 클러스터의 모든 노드에는 서로 통신할 수 있는 인터클러스터 LIF가 있습니다.</block>
   <block id="73c8bc64b7795f2b261641eacf99fdbe" category="summary">ONTAP 9.3부터 ONTAP 9.7까지 ONTAP System Manager의 '클래식' 인터페이스를 사용하여 클러스터 네트워크가 노드와 통신할 수 있도록 인터클러스터 논리 인터페이스(LIF)를 만들 수 있습니다. 피어 관계를 만들 각 클러스터의 각 노드에 피어링에 사용될 인터클러스터 LIF를 생성해야 합니다.</block>
-  <block id="7b537fac043ca609e34b5263706a786d" category="doc">인터클러스터 LIF 만들기(ONTAP 9.3부터 시작)</block>
   <block id="037471075f1cb1cf0a5c960b996e65f5" category="paragraph">ONTAP 9.3부터 ONTAP 9.7까지 ONTAP System Manager_CLASSIC_INTERFACE를 사용하여 클러스터 네트워크가 노드와 통신할 수 있도록 인터클러스터 논리 인터페이스(LIF)를 만들 수 있습니다. 피어 관계를 만들 각 클러스터의 각 노드에 피어링에 사용될 인터클러스터 LIF를 생성해야 합니다.</block>
   <block id="69d613f0b1df8f585d33eb748445b160" category="paragraph">예를 들어, IPspace A에서 클러스터 X를 사용하고 IPspace Y를 통해 클러스터 Y와 피어를 사용하려는 4노드 클러스터가 있는 경우 총 8개의 인터클러스터 LIF가 필요합니다. IPspace A에서 4개(노드당 1개) 및 Y에서 4개(노드당 1개)</block>
   <block id="f20e536310ccfe92ed37a0b8bed05eeb" category="paragraph">피어 관계를 생성하려는 두 클러스터 모두에서 이 절차를 수행해야 합니다.</block>
   <block id="492d58a0ec076b47e40741f5c582d996" category="summary">피어 관계는 클러스터와 SVM이 데이터를 안전하게 교환할 수 있도록 네트워크 연결을 정의합니다. ONTAP 9.3부터 ONTAP 9.7까지 ONTAP System Manager의 '클래식' 인터페이스를 사용하면 클러스터 및 SVM 간에 피어 관계를 구성하는 단순한 방법을 수행할 수 있습니다.</block>
-  <block id="c9cd6915d52128767cef1eedc8f81ee4" category="doc">피어 관계 구성(ONTAP 9.3부터 시작)</block>
   <block id="0cb0f237319ab2a1e594263de7c1cc8d" category="paragraph">피어 관계는 클러스터와 SVM이 데이터를 안전하게 교환할 수 있도록 네트워크 연결을 정의합니다. ONTAP 9.3부터 ONTAP 9.7까지 ONTAP System Manager_CLASSIC_INTERFACE를 사용하여 클러스터 및 SVM 간에 피어 관계를 구성하는 단순한 방법을 수행할 수 있습니다.</block>
   <block id="18e8e3b95db365084dfe8fb4209822ce" category="summary">미리 결정된 암호와 원격 클러스터의 인터클러스터 LIF의 IP 주소를 입력한 다음 관계가 성공적으로 생성되었는지 확인하여 두 클러스터 간에 클러스터 피어 관계를 만들 수 있습니다.</block>
   <block id="289fab39e91f2944a72e9bac9b574fa3" category="doc">클러스터 피어 관계 생성(ONTAP 9.2 이하)</block>
@@ -8945,9 +8805,7 @@
   <block id="14d1bd81ebc369ba6674c932a9ac36e1" category="paragraph">명령줄 인터페이스를 사용하여 클러스터 피어링 관계와 SVM 피어링 관계를 설정합니다.</block>
   <block id="ee8cc707864c87b60e0cc385e0ccdd1e" category="paragraph">명령줄 인터페이스를 사용하여 서브넷, 인터클러스터 LIF, 라우트, 방화벽 정책 및 기타 네트워킹 구성 요소를 구성합니다</block>
   <block id="75180ea62e7fa36539c66f0f6b476101" category="summary">시스템에서 생성한 암호와 원격 클러스터의 인터클러스터 LIF의 IP 주소를 제공하여 두 클러스터 간에 클러스터 피어 관계를 만들 수 있습니다.</block>
-  <block id="acf0cde59bcb3c99d1c61d915040c3b1" category="doc">클러스터 피어 관계 생성(ONTAP 9.3부터 시작)</block>
   <block id="d23afe6eb860f6cbb2030098cc865207" category="paragraph">ONTAP 9.3부터 ONTAP 9.7까지 ONTAP System Manager_classic_interface를 사용하면 원격 클러스터의 인터클러스터 LIF의 IP 주소와 시스템 생성 암호를 제공하여 두 클러스터 간에 클러스터 피어 관계를 만들 수 있습니다.</block>
-  <block id="287f683418370bc5cd4deb0117c08675" category="paragraph">ONTAP 9.6부터 클러스터 피어링 암호화는 새로 생성한 모든 클러스터 피어링 관계에서 기본적으로 활성화됩니다. ONTAP 9.6으로 업그레이드하기 전에 생성된 피어링 관계에 대해 클러스터 피어링 암호화를 수동으로 활성화해야 합니다. ONTAP 9.5 이전 버전을 실행하는 클러스터에서는 클러스터 피어링 암호화를 사용할 수 없습니다. 따라서 클러스터 피어링 암호화를 활성화하려면 피어링 관계의 두 클러스터가 ONTAP 9.6을 실행해야 합니다.</block>
   <block id="77e9d0af28e30a67428e9b6546e43f4f" category="paragraph">클러스터 피어링 암호화는 TLS(전송 보안 계층)를 사용하여 SnapMirror, FlexCache와 같은 ONTAP 기능에 대한 클러스터 간 피어링 통신을 보호합니다.</block>
   <block id="44b137d90711cdaa897728e8562aa157" category="list-text">Target Cluster Intercluster LIF IP 주소 * 필드에 원격 클러스터의 LIF IP 주소를 입력합니다.</block>
   <block id="2a22387646aaacd459b5f9c466c6eb7b" category="list-text">[[step2-passphrase]] 원격 클러스터에서 암호를 생성합니다.</block>
@@ -8968,16 +8826,12 @@
   <block id="eab8d07cf1f9bc385c7b435d61f3da67" category="cell">다음 사이의 관계에 대해...</block>
   <block id="5dfac8d83a8aff5afac2d6ac06468b2b" category="cell">암호문은...</block>
   <block id="988416070af00a205b7799cefcf26027" category="paragraph">클러스터 A 및 클러스터 B</block>
-  <block id="11f7e8e6d7e3f510fe75a9277d109e26" category="paragraph">ONTAP 9.3부터 클러스터 피어 관계를 생성하는 동안 원격 클러스터에서 암호를 생성할 수 있습니다.</block>
-  <block id="c1a0324a117c163a86f00c8940068d8c" category="inline-link-macro">클러스터 피어 관계 생성(ONTAP 9.3부터 시작)</block>
-  <block id="c062e9752b31388b1b66a98e38471ed3" category="paragraph"><block ref="c062e9752b31388b1b66a98e38471ed3" category="inline-link-macro-rx"></block></block>
   <block id="9b6a1c70533b3b4e2b0042eb9fd18368" category="list-text">인터클러스터 LIF에 사용할 서브넷, IP 주소 및 포트를 식별합니다.</block>
   <block id="a4c4dffb188be95eb563d8d9c67f8b00" category="paragraph">기본적으로 IP 주소는 서브넷에서 자동으로 선택됩니다. IP 주소를 수동으로 지정하려면 IP 주소가 서브넷에서 이미 사용 가능한지 또는 나중에 서브넷에 추가될 수 있는지 확인해야 합니다. 서브넷에 대한 정보는 네트워크 탭에서 사용할 수 있습니다.</block>
   <block id="1671fcdc552b9ee609cd32731c4f52b5" category="paragraph">다음 표와 유사한 테이블을 만들어 클러스터에 대한 정보를 기록합니다. 다음 표에서는 각 클러스터에 4개의 노드가 있다고 가정합니다. 클러스터에 노드가 4개 이상인 경우 추가 정보를 위해 행을 추가합니다.</block>
   <block id="7b4cd84a431b83dce623d2666925064a" category="cell">클러스터 A</block>
   <block id="b7973442e316e4fca4a7cced4f6b8f0d" category="cell">클러스터 B</block>
   <block id="69b9b58f02bd4331abb3d71482685c33" category="paragraph">서브넷(ONTAP 9.2 이하)</block>
-  <block id="75ab90c5824bb9489ed7959a052e564e" category="paragraph">IP 주소(ONTAP 9.3부터 시작, ONTAP 9.2 이하의 경우 선택 사항)</block>
   <block id="9d4c3f117119f05c99ad060b127a5e6b" category="paragraph">노드 1 포트</block>
   <block id="767782c9ecdaf36a5ededb23a8712b5b" category="paragraph">노드 2 포트</block>
   <block id="5cf921efbcae5d3cdf260d9c0d147ca3" category="paragraph">노드 3 포트</block>
@@ -9041,24 +8895,13 @@
   <block id="71f3a57d3c80b26e640b84b27c2b8e4e" category="summary">ONTAP System Manager의 기존 인터페이스(ONTAP 9.7 이하)를 사용하면 SVM(스토리지 가상 머신)에서 FC 서비스를 빠르게 설정하고, LUN을 프로비저닝하고, ESX 호스트 컴퓨터의 FC HBA를 사용하여 LUN을 데이터 저장소로 사용할 수 있습니다.</block>
   <block id="caeab82c4f9b5aa8223e7cf94f44d99d" category="doc">VSC 개요를 사용하여 ESXi용 FC 구성</block>
   <block id="039d2d1f92ed5762bd1672bf32bb614a" category="paragraph">다음 경우에 이 절차를 사용합니다.</block>
-  <block id="5a904ed7630aa080098419a943137232" category="list-text">지원되는 버전의 VMware vSphere용 Virtual Storage Console을 사용하여 ESX 호스트에 대한 스토리지 설정을 구성하고 데이터 저장소를 프로비저닝하고 있습니다.</block>
   <block id="1fe0867d1be2bcaa05e5f8f160018fac" category="list-text">ESXi 5.x 및 기존 FC 스위치에서 기존 FC HBA를 사용하고 있습니다.</block>
   <block id="d432d4f68190c54b5adf35251379f3fb" category="paragraph">이 절차는 FCoE에 적용되지 않습니다.</block>
   <block id="da5a0664eb077c7ad2e71983c83f956c" category="list-text">클러스터의 각 노드에서 사용 가능한 FC 타겟 포트가 2개 이상 있습니다.</block>
   <block id="58b58b7e31b6b40393ea4d6eaaa65f6a" category="paragraph">온보드 FC 및 UTA2("CNA") 포트뿐만 아니라 일부 어댑터를 구성할 수 있습니다. 이러한 포트 구성은 ONTAP CLI에서 수행되며 이 절차에서 다루지 않습니다.</block>
   <block id="dfccb684b063bbb06e8ec445a12648fa" category="list-text">호스트에서 데이터 저장소를 생성하는 중입니다.</block>
   <block id="269d64d46c556a3a7403703cf1ed2dcf" category="paragraph">이 절차에서는 RDM(Raw Device Mapping) 디스크 또는 NPIV(N-Port ID Virtualization)를 사용하여 FC를 VM에 직접 제공하는 방법에 대해 다루지 않습니다.</block>
-  <block id="7114f450701db0c8c6dce6070cf80a4c" category="inline-link-macro">VMware 데이터 저장소에 SAN 스토리지 용량 할당</block>
-  <block id="fdc544df040b80e41f4cd4baa63e1554" category="cell"><block ref="fdc544df040b80e41f4cd4baa63e1554" category="inline-link-macro-rx"></block></block>
-  <block id="8cd58c89ff3d51a256ecfe3fe8bab20f" category="section-title">추가 리소스</block>
   <block id="cbf3ee863097550e335315de3607629e" category="paragraph">이러한 가정이 현재 상황에 맞지 않는 경우 다음 리소스를 참조하십시오.</block>
-  <block id="d2494eaa8817110c3f33b9db26112081" category="inline-link">ONTAP 9 SAN 관리</block>
-  <block id="b4db604f7f46fce8467c2f28a2c5e83e" category="list-text"><block ref="b4db604f7f46fce8467c2f28a2c5e83e" category="inline-link-rx"></block></block>
-  <block id="83cb195869ecf30cf2bf909696d90958" category="inline-link">ONTAP 9 SAN 구성</block>
-  <block id="429f603a3b811bb2b6b580119340e5c8" category="list-text"><block ref="429f603a3b811bb2b6b580119340e5c8" category="inline-link-rx"></block></block>
-  <block id="7b163ff65ebf3790f5b97fe18f22f72b" category="inline-link">어플라이언스 관리</block>
-  <block id="e466eeb1f64e47b473620aac811abf13" category="list-text"><block ref="e466eeb1f64e47b473620aac811abf13" category="inline-link-rx"></block></block>
-  <block id="9924ee2c6c9746d6e6c56a2812bbf674" category="list-text">_VMware vSphere Storage_ - ESXi 5 버전용(에서 제공 <block ref="44f9482eaaa326b6591ec57007a0f626" category="inline-link-macro-rx"></block>)</block>
   <block id="2157ff4fa230c3478676d1a9841d6742" category="summary">기존 스토리지 가상 시스템을 사용하기로 결정한 경우 ONTAP 시스템 관리자를 사용하여 SVM에서 FC 서비스가 실행 중인지 확인해야 합니다. 또한 FC 논리 인터페이스가 이미 생성되어 있는지도 확인해야 합니다.</block>
   <block id="c095667b485ebff52a4a4f5838e727cb" category="summary">ESXi 호스트에서 FC 경로 손실이나 스토리지 페일오버 이벤트를 올바르게 관리할 수 있도록 호스트 다중 경로 및 모범 사례 설정이 올바른지 확인해야 합니다.</block>
   <block id="b7b71e4ffa1bcfc6ef48c886ae82c581" category="list-text">FC용으로 이미 구성된 SVM에서 볼륨을 프로비저닝하려면 FC 서비스가 실행 중인지 확인해야 합니다.</block>
@@ -9134,27 +8977,19 @@
   <block id="af6d6cc97db709d0d94febbc67a8c2ca" category="list-text">구성 * &gt; * 스토리지 어댑터 * 를 클릭합니다.</block>
   <block id="1207e8fa9ae7f9c5edd22f41392d5a08" category="list-text">iSCSI 소프트웨어 어댑터를 선택하고 * 속성 * &gt; * 구성 * 을 클릭합니다.</block>
   <block id="b881f1c8471ff28a4ed27ee511901ffd" category="list-text">Enabled * 를 선택한 다음 * OK * 를 클릭합니다.</block>
-  <block id="2543eb70e018ba889bfe7e3c3c1f1afd" category="summary">스토리지 가상 시스템에서 iSCSI 서비스를 빠르게 설정하고, LUN을 프로비저닝하고, ESXi 호스트 컴퓨터의 iSCSI 이니시에이터를 사용하여 LUN을 사용할 수 있도록 설정할 수 있습니다.</block>
   <block id="638ba88b49b184538c32c1c7808d8103" category="doc">VSC 개요를 사용한 ESXi용 iSCSI 구성</block>
-  <block id="75cf39a174605501236ca8fbc522d864" category="paragraph">SVM(스토리지 가상 시스템)에서 iSCSI 서비스를 빠르게 설정하고, LUN을 프로비저닝하고, ONTAP System Manager 클래식 인터페이스(ONTAP 9.7 이하)가 있는 ESXi 호스트 컴퓨터에서 iSCSI 이니시에이터를 사용하여 LUN을 사용할 수 있습니다.</block>
   <block id="7809c76990aeac2c15601c7025eeb111" category="list-text">ESXi 5.x에서 기본 ESXi iSCSI 소프트웨어 이니시에이터를 사용하고 있습니다</block>
   <block id="d2604e4f6b186a2646fe3c97133ef0f6" category="list-text">iSCSI에 대해 CHAP 인증을 사용하고 있지 않습니다.</block>
-  <block id="829278b24fc7ce848ba59f52f780c739" category="list-text">지원되는 버전의 VMware vSphere용 Virtual Storage Console을 사용하여 ESX 호스트에 대한 스토리지 설정을 구성하고 있습니다.</block>
   <block id="d862fa8a56f5e022d3157dd0b90b2b76" category="list-text">정의한 서브넷에서 자동으로</block>
   <block id="77940d0bcb4281501811de1ec05e0bda" category="list-text">클러스터의 각 노드에서 최소 2개의 고속 이더넷 포트(1GbE 최소, 10GbE 권장)를 사용할 수 있습니다.</block>
-  <block id="39d787d0105280f3a84692c640027af9" category="paragraph">온보드 UTA2(CNA라고도 함) 포트는 구성이 가능합니다. ONTAP CLI에서 이러한 포트를 구성합니다. 이때 이 내용은 다루지 않습니다.</block>
   <block id="4dfc85f053bbce34b061f9f9e50054bd" category="inline-link-macro">ONTAP 9 네트워크 관리</block>
-  <block id="705580ff5e4d290b253ce9987709bc06" category="paragraph">을 참조하십시오 <block ref="f23edc0bb2e15286525e82e5ff7532e0" category="inline-link-macro-rx"></block> CLI를 사용하여 이더넷 포트 흐름 제어를 구성하는 데 사용됩니다.</block>
   <block id="089a3050abf86cb7b78205b67eea1bbc" category="list-text">VM 내에서 iSCSI 이니시에이터를 실행하지 않고 ESXi 하이퍼바이저를 통해 VM에 스토리지를 제공하고 있습니다.</block>
-  <block id="982b26a119993277a196e08d99a37e4a" category="list-text"><block ref="982b26a119993277a196e08d99a37e4a" category="inline-link-rx"></block></block>
-  <block id="a642a03a1d89a2568a28161a6dcba8c0" category="list-text"><block ref="a642a03a1d89a2568a28161a6dcba8c0" category="inline-link-rx"></block></block>
   <block id="03d21783967b9e657287b1e4ddf64154" category="summary">ESXi 호스트가 iSCSI 접속 또는 스토리지 페일오버 이벤트의 손실을 올바르게 관리할 수 있도록 호스트 경로 다중화 및 Best Practice 설정이 올바른지 확인해야 합니다.</block>
   <block id="f736e1dbc4b9c269c65a6e69f1f89ecf" category="summary">iSCSI 구성 작업을 수행하려면 네트워크 주소 및 스토리지 구성 정보가 필요합니다.</block>
   <block id="53b75ac7393124e71902edd915550469" category="doc">iSCSI 구성 워크시트를 완료합니다</block>
   <block id="5572f49b158f780c6a6d34a5ee104b8f" category="paragraph">LIF의 서브넷:</block>
   <block id="b654a09a7cc13e5a854907c2cdf0fb86" category="list-text">이미 iSCSI로 구성된 SVM에서 볼륨을 프로비저닝하려면 iSCSI 서비스가 실행 중인지 확인해야 합니다.</block>
   <block id="5d48901dc7b8c26de56842f23028cd47" category="inline-xref-macro">새 SVM을 생성합니다</block>
-  <block id="83dd9b382fee459744e120cd6aa23fe6" category="list-text">새 SVM에서 볼륨을 프로비저닝하고 싶은 경우, <block ref="3ec909fb43ea3baa02cc1ede49efdb02" category="inline-xref-macro-rx"></block>.</block>
   <block id="6054fa842f7d85e49995599869218342" category="summary">기존 SVM(스토리지 가상 머신)에서 iSCSI를 구성할 수 있습니다. iSCSI 프로토콜은 SVM에서 이미 활성화되어 있지만 구성하지 않아야 합니다. 이 정보는 여러 프로토콜을 구성하지만 아직 iSCSI를 구성하지 않은 SVM용으로 제공됩니다.</block>
   <block id="86dfaf1d15ae0a17d0a066fc0201fcfb" category="list-text">LUN은 나중에 VMware vSphere용 Virtual Storage Console에 의해 프로비저닝되기 때문에 선택적인 * iSCSI 스토리지 * 영역에 대한 LUN 프로비저닝 * 을 무시합니다.</block>
   <block id="1af4dcc633e415257b1ab2b665ec8562" category="summary">이더넷 네트워크의 성능은 매우 다양합니다. 특정 구성 값을 선택하여 iSCSI에 사용되는 네트워크의 성능을 최대화할 수 있습니다.</block>
@@ -9235,7 +9070,6 @@
   <block id="de2f74dfda04bab049fa8525f361074b" category="summary">System Manager를 사용하면 기존 클러스터에 노드를 추가하여 스토리지 시스템의 크기와 기능을 높일 수 있습니다. 유효 클러스터 버전이 ONTAP 9.2인 경우 System Manager에서 이 기능이 자동으로 활성화됩니다.</block>
   <block id="bc54fc7fc435453944d28513f822892d" category="doc">System Manager를 사용하여 클러스터에 노드를 추가합니다</block>
   <block id="ed8ec3c1fa16963fbe896ac5f520e60d" category="list-text">ONTAP 9.4 이하: * 구성 * &gt; * 클러스터 확장 * 을 클릭합니다.</block>
-  <block id="540efe02a9fb722ded5ebfb390184762" category="list-text">ONTAP 9.5부터 * 구성 * &gt; * 클러스터 * &gt; * 확장 * 시스템 관리자를 클릭하여 새로 추가된 노드를 검색합니다. 경고가 표시되면 계속하기 전에 이를 수정해야 합니다. 호환되는 새 노드가 검색되면 다음 단계를 진행하십시오.</block>
   <block id="edf395b0a461287b50491dbaa383b1b6" category="summary">클러스터를 확장하려면 고급 권한을 사용하여 백업 파일을 생성하여 클러스터 구성 정보를 저장하고 선택적으로 노드 구성을 저장해야 합니다.</block>
   <block id="4e96c94f849071959f33f30f4f95bf2b" category="doc">클러스터 구성을 백업합니다</block>
   <block id="486e131c42bd68bf6f1d4c477a83b1dc" category="list-text">Set-Privilege advanced 명령을 사용하여 권한 수준을 advanced로 설정합니다.</block>
@@ -9261,13 +9095,10 @@
   <block id="ce814c9197e96f40f05ab6dac197c0d6" category="list-text">지시가 있는 경우 모든 디스크 쉘프의 전원을 켜고 ID를 확인해야 합니다.</block>
   <block id="eed45bf93b55ac64cb1aa266f8b8ba3d" category="list-text">노드에 액세스할 수 있도록 시리얼 콘솔에 케이블을 연결해야 합니다.</block>
   <block id="344b0acde7d72407e9390548e3450845" category="list-text">전체 구성 섹션을 건너뜁니다.</block>
-  <block id="64c68702fbf32afc51b56c757705d139" category="summary">이 문서에서는 HA 쌍을 추가하여 기존 클러스터를 운영 중단 없이 빠르게 확장하는 방법에 대해 설명합니다. 클러스터가 클수록 클러스터에서 사용할 수 있는 성능과 스토리지 용량이 늘어납니다.</block>
   <block id="36f6eeaab9a4b697e7ccd0c7535596d4" category="doc">클러스터 확장 개요</block>
-  <block id="1e587b77b98a0f503c419e50c365cc97" category="paragraph">다음 내용이 참인 경우에만 이 콘텐츠를 사용해야 합니다.</block>
   <block id="edc668aff0d6367336c60bbc40a0bd83" category="list-text">기존 클러스터는 다음 요구사항을 충족합니다.</block>
   <block id="e27d77c52a413f95ea3db7a020719fea" category="list-text">ONTAP 9를 실행하고 있습니다.</block>
   <block id="17f837e7c82bbe6335f64832e2fe9cf4" category="list-text">최소 2개의 노드가 포함되어 있습니다.</block>
-  <block id="a602f215b5fe089de06f70655908750d" category="paragraph">이 콘텐츠의 예에서는 2노드 클러스터를 사용하지만 2개 이상의 노드가 있는 클러스터에도 적용됩니다.</block>
   <block id="f2272b364b1f55976317a39fbec0f78f" category="paragraph">단일 노드 클러스터에 노드를 추가하려면 다른 절차를 따라야 합니다.</block>
   <block id="6f4a60fa16d9fcca9740a0706b382bcb" category="inline-link">두 번째 컨트롤러를 추가하여 HA 쌍 생성</block>
   <block id="d9ca0abb0897d76ef6295d37a92f50a2" category="paragraph"><block ref="d9ca0abb0897d76ef6295d37a92f50a2" category="inline-link-rx"></block></block>
@@ -9358,8 +9189,6 @@
   <block id="759fa1b7b557c3836bdaa5599f72de54" category="list-text">'-unitname bcomd' 매개 변수로 명령을 반복합니다.</block>
   <block id="c16003666357e7b99963a68a75397e1d" category="list-text">'-unitname CRS' 파라미터로 명령을 반복한다.</block>
   <block id="c1f4234043f24b65e6b04de33fad8001" category="summary">클러스터를 확장한 후 새 노드에서 새 볼륨을 생성하거나 기존 데이터를 새 노드로 이동하여 새 노드에 데이터를 저장할 수 있습니다.</block>
-  <block id="274c742a15615b27e7bcd06f7c6b3afa" category="paragraph">클러스터에서 SnapMirror 또는 SnapVault 관계를 사용하여 데이터를 보호하는 경우 를 참조하십시오 <block ref="e9b35c302b58579a90853e5349bd7152" category="inline-xref-macro-rx"></block> 새 노드에 대한 적절한 인터클러스터 LIF를 설정하는 방법에 대한 가이드</block>
-  <block id="e9ecc5494884f1b6938d84c2e8d1af75" category="paragraph">새로 추가된 노드로 데이터를 이동하려면 다음 콘텐츠를 사용할 수 있습니다.</block>
   <block id="286658c24ca59ebf54d30a4ca466d9e1" category="paragraph">FlexVol 볼륨, FlexClone 볼륨, 파일 및 LUN, FlexCache 볼륨 등 클러스터에서 논리적 스토리지 리소스를 관리하는 방법에 대해 설명합니다. 중복제거, 압축, Qtree 및 할당량 사용</block>
   <block id="5e142b2510ac017f0d0b460f84e482f0" category="paragraph">FlexVol 볼륨, FlexClone 볼륨, 파일 및 LUN, FlexCache 볼륨 등 클러스터의 논리 스토리지 리소스에 대한 개념적 정보를 설명합니다. 중복제거, 압축, Qtree 및 할당량 사용</block>
   <block id="ab404c9b59455c8e361cb04ef5a5e046" category="summary">새로 설치된 컨트롤러 모듈이 준비되면 cluster setup 명령을 사용하여 각 모듈을 클러스터에 추가할 수 있습니다.</block>
@@ -9406,9 +9235,6 @@
   <block id="4bea5eaf5df93d0a6ba6618510b6fe67" category="list-text">'-fields Allowed-protocols' 매개 변수와 함께 'vserver show' 명령을 사용하여 FC 또는 iSCSI 프로토콜을 사용하는 SVM을 식별하고 출력을 검토합니다.</block>
   <block id="8e9dd5146c758e43e019f2390969ab6f" category="list-text">FC 또는 iSCSI를 사용하는 각 SVM에서 '-role data' 매개 변수를 사용하는 'network interface create' 명령을 사용하여 새로 추가된 각 노드에 적어도 두 개의 데이터 LIF를 생성합니다.</block>
   <block id="cbaec24017c5afedc3b473ad4ae7ba06" category="list-text">각 SVM에 대해 '-vserver' 매개 변수와 함께 'network interface show' 명령을 사용하여 클러스터의 모든 노드에 LIF가 있는지 확인합니다.</block>
-  <block id="24190a0982c3bddaab4352bba9d0da95" category="list-text">포트 세트 업데이트:</block>
-  <block id="833664fbe28fa891e4df455c1651d8cf" category="list-text">'lun show' 명령을 사용하여 포트 세트가 있는지 여부를 확인합니다.</block>
-  <block id="d15f530428980248581ed4e1e40be88b" category="list-text">새 LIF를 기존 호스트에 표시하려면 각 LIF에 대해 'lun add' 명령을 사용하여 각 새 LIF를 포트 세트에 추가하십시오.</block>
   <block id="cf9ff43e36d7de88810a51cbfea2c2a3" category="list-text">FC 또는 FCoE를 사용하는 경우 조닝 업데이트:</block>
   <block id="61e2aca06bb29c0a6405b34c51aa461d" category="list-text">조닝이 올바르게 설정되었는지 확인하여 호스트의 기존 이니시에이터 포트가 새 노드의 새 타겟 포트에 연결되도록 합니다.</block>
   <block id="ba475f3c190b1b9ac92a4eb335c3ca90" category="list-text">스위치 조닝을 업데이트하여 새 노드를 기존 이니시에이터에 연결합니다.</block>
@@ -9461,12 +9287,10 @@
   <block id="fc7e0d0bc63c774bcc407f28d8b1789b" category="list-text">Skip * 을 선택하고 나중에 필요에 따라 관리자를 구성합니다.</block>
   <block id="d68b2e44767d3c6234796ac072a9acd1" category="list-text">요청된 정보를 입력한 다음 * 제출 및 계속 * 을 선택합니다.</block>
   <block id="60501ddb734e103b5b1ba1ed8f8b204d" category="list-text">요약 * 페이지를 검토하고 LIF 정보를 기록한 다음 * 확인 * 을 선택합니다.</block>
-  <block id="a821da32e34f1ec3f9126e04acba382e" category="summary">이 내용은 스토리지 가상 시스템에서 FC 서비스를 빠르게 설정하고, LUN을 프로비저닝하고, Red Hat Enterprise Linux 서버의 FC 호스트 버스 어댑터를 사용하여 LUN을 사용 가능하게 만드는 방법을 설명합니다.</block>
   <block id="78597c3653ff97e621f9b565645894bd" category="doc">Red Hat Enterprise Linux용 FC 구성 개요</block>
   <block id="b92480144202163d36d8ff97ea5e2385" category="paragraph">ONTAP System Manager의 클래식 인터페이스(ONTAP 9.7 이하)를 사용하여 Red Hat Enterprise Linux 서버에서 SVM(스토리지 가상 시스템)에서 FC 서비스를 빠르게 설정하고, LUN을 프로비저닝하고, FC HBA(호스트 버스 어댑터)를 사용하여 LUN을 사용할 수 있습니다.</block>
   <block id="8a9b85a6ff90e4352c93c12f5031fb81" category="list-text">호스트에서 지원되는 버전의 Red Hat Enterprise Linux 6.4 이상을 실행하고 있습니다.</block>
   <block id="d90be280d58372ceba4455532ff87944" category="admonition">FCoE(Fibre Channel over Ethernet)는 이 절차에서 다루지 않습니다.</block>
-  <block id="933bae8d078062a7fc5f31ee4bc64cbf" category="list-text">클러스터의 각 노드에서 사용 가능한 FC 타겟 포트가 2개 이상 있습니다. 온보드 FC 및 UTA2("CNA")와 일부 어댑터를 구성할 수 있습니다. 이러한 포트 구성은 ONTAP CLI(Command-Line Interface)에서 수행되며 이 콘텐츠에서는 다루지 않습니다.</block>
   <block id="2e9d349f5085a4d96f042e80235b0150" category="list-text"><block ref="2e9d349f5085a4d96f042e80235b0150" category="inline-link-rx"></block></block>
   <block id="d822c6968566763eeb55563cebc6ec6e" category="cell"><block ref="d822c6968566763eeb55563cebc6ec6e" category="inline-link-macro-rx"></block></block>
   <block id="eaa3d7731eafb05cdbde5e9a6ce531d4" category="list-text">SVM 설정 * 탭을 선택합니다.</block>
@@ -9637,12 +9461,10 @@
   <block id="ce32094cc1e3f4f6f04deda444a6d0ba" category="sidebar">LUN을 삭제합니다</block>
   <block id="06132815dcce4b283f1cfae5f86d26ff" category="sidebar">이니시에이터 그룹을 삭제합니다</block>
   <block id="264006200ac4b433693fed0334127e8b" category="sidebar">이니시에이터 그룹에서 이니시에이터를 삭제합니다</block>
-  <block id="6ea2516fb6fe30a2beb6d5710002d6df" category="sidebar">포트 세트를 삭제합니다</block>
   <block id="f1d205e6474eacc6c30bb75038911622" category="sidebar">LUN을 편집합니다</block>
   <block id="8b666f58d872bf455953c6ba0b34140a" category="sidebar">LUN을 오프라인 상태로 전환합니다</block>
   <block id="8f4224ef786f84f8f9822c574817187e" category="sidebar">이니시에이터 그룹을 편집합니다</block>
   <block id="c38ea46c63be16e77d0b54fde1408461" category="sidebar">이니시에이터를 편집합니다</block>
-  <block id="6ad808ad2149757fe439a5683c506ae6" category="sidebar">포트 세트를 편집합니다</block>
   <block id="9ddfcfa2178bbaa95f3516e283f56c6c" category="sidebar">LUN 정보를 봅니다</block>
   <block id="cd242385237807a42c01bc56e88dd621" category="sidebar">이니시에이터 그룹을 봅니다</block>
   <block id="46474bb633a6e11a4c8db2e2fd2cb25d" category="sidebar">LUN의 공간 예약을 이해합니다</block>
@@ -9744,9 +9566,183 @@
   <block id="cc50c331ee974cc0e4de144fdea1db6b" category="sidebar">일정을 편집합니다</block>
   <block id="f2fb0b80c2c7e171cd27b2b79806772a" category="sidebar">일정을 삭제합니다</block>
   <block id="dcac34ac3a0167254a9c5e757dd7143a" category="sidebar">Windows용 iSCSI 구성</block>
-  <block id="935bf5a6ad6bb2d7422e583d8c45bd71" category="sidebar">인터클러스터 LIF 만들기(ONTAP 9.3부터 시작)</block>
   <block id="f56d89b4aac8faf55ca55fe5de288f85" category="sidebar">SVM 피어 관계를 생성합니다</block>
   <block id="7764db582957448eb25528aee4db56b7" category="sidebar">VSC를 사용한 ESXi용 FC 구성</block>
   <block id="0fe674cba26a6125717793de11bb3096" category="sidebar">클러스터 확장 관리</block>
   <block id="36308d81e97ed47d001a9e37fd37634b" category="sidebar">다중 경로 장치에 논리 볼륨을 구성하고 파일 시스템을 생성합니다</block>
+  <block id="6f8b00a444288de00f6c62901e237c7b" category="image-alt">이 그림은 볼륨 재해 복구 준비 워크플로의 흐름도입니다. 워크플로의 단계가 항목과 일치합니다.</block>
+  <block id="283e01a5acedcc7dab15967b940c5eba" category="list-text">ONTAP 9.5부터 * 보호 * &gt; * 볼륨 관계 * 를 클릭합니다.</block>
+  <block id="94641eed38f4fad5e7300a757fe24007" category="paragraph">재해 복구 준비를 위해 피어링된 ONTAP 클러스터에서 소스 볼륨을 빠르게 보호할 수 있습니다. 볼륨 재해 복구를 위해 피어링된 클러스터 간의 SnapMirror 관계를 구성하고 모니터링하려는 경우 이 절차를 사용해야 하며 작업에 대한 많은 개념적 배경이 필요하지 않습니다.</block>
+  <block id="cbb596e26b08606ba2582d682bef9bd9" category="paragraph"><block ref="cbb596e26b08606ba2582d682bef9bd9" category="inline-link-macro-rx"></block></block>
+  <block id="808373648c6575e38ce0160c14bf829d" category="doc">SnapMirror 관계 생성(ONTAP 9.3부터)</block>
+  <block id="dd375618d188c58deba3a7e4b304119a" category="section-title">이러한 절차를 사용하기 위한 요구 사항</block>
+  <block id="f74c514c8bcc90ee75e53e245d7fa054" category="list-text">포함된 볼륨이 없는 LUN만 이동하려는 경우 LUN 이동 프로세스를 사용할 수 있습니다.</block>
+  <block id="2bcbd05e96f45af1e989635937487f21" category="paragraph"><block ref="2bcbd05e96f45af1e989635937487f21" category="inline-link-macro-rx"></block></block>
+  <block id="5875ee4bf594b2674ddf69d319ea89b7" category="paragraph"><block ref="5875ee4bf594b2674ddf69d319ea89b7" category="inline-link-macro-rx"></block></block>
+  <block id="1242ad863f7f0a63a7e96fecd83192df" category="paragraph"><block ref="1242ad863f7f0a63a7e96fecd83192df" category="inline-link-macro-rx"></block></block>
+  <block id="2a54c080c48eefebd0287854521c32d3" category="paragraph">다른 프로토콜을 구성하는 동안 이 절차를 따르지 않아 SVM을 생성하지 않은 경우가 이에 해당합니다.</block>
+  <block id="1ba1a8ef478d32c16b694fe2cef940b7" category="paragraph"><block ref="1ba1a8ef478d32c16b694fe2cef940b7" category="inline-link-macro-rx"></block></block>
+  <block id="e3bb7e741da5fb4473e7fce8ec48df13" category="paragraph"><block ref="e3bb7e741da5fb4473e7fce8ec48df13" category="inline-link-macro-rx"></block></block>
+  <block id="3e91f6cc1867ac7293fe256001c9ec3b" category="paragraph"><block ref="3e91f6cc1867ac7293fe256001c9ec3b" category="inline-link-macro-rx"></block></block>
+  <block id="42cbeb136e81b161fffa9d9e4ab87b06" category="paragraph">이 절차를 사용하여 SAN 액세스를 위한 SVM을 생성한 경우 이 옵션을 선택해야 합니다.</block>
+  <block id="c74c2d83d09589596ae90e68883c7492" category="paragraph"><block ref="c74c2d83d09589596ae90e68883c7492" category="inline-link-macro-rx"></block></block>
+  <block id="12a6d8abfd6ea00add112b5495cfc3ac" category="paragraph">이는 SAN 프로토콜 구성 절차에 따라 SVM을 생성하지 않은 경우에 해당합니다.</block>
+  <block id="221e45a1da90d562052e9339a40aa840" category="image-alt">이 그림은 SNMP 구성 워크플로의 순서도입니다. 워크플로의 단계가 항목과 일치합니다.</block>
+  <block id="0e42715b0f3608f82b54eceb95451d07" category="summary">새로운 SVM(스토리지 가상 머신) 또는 기존 SVM(스토리지 가상 머신)에서 새 볼륨에 SMB/CIFS 및 NFS 액세스를 빠르게 설정할 수 있습니다.</block>
+  <block id="5e65ed5040441519dbf697f9ba224c8e" category="paragraph">다음 정보 및 기술 보고서를 사용하여 CIFS 액세스를 추가로 구성할 수 있습니다.</block>
+  <block id="789b5f0afd817cef21cddcb1e0bcec40" category="paragraph">다음 정보 및 기술 보고서를 사용하여 NFS 액세스를 추가로 구성할 수 있습니다.</block>
+  <block id="2a2f5ad7f8e4a01c34616cc59fe94051" category="paragraph">다른 프로토콜을 구성하면서 SVM을 생성하기 위해 이 절차를 따르지 않은 경우에 해당됩니다.</block>
+  <block id="4deca5c9e89ed5a65084ecad9f22d328" category="paragraph">SVM 루트 볼륨의 엑스포트 정책을 엽니다.</block>
+  <block id="688b2339e3b3d8cfdcd364ef8ed87e41" category="image-alt">이 그림은 SnapVault 볼륨 복원 워크플로의 흐름도입니다. 워크플로의 단계가 항목과 일치합니다."&gt;</block>
+  <block id="8f1dc707f2b4ac41ac75d21e99506a89" category="list-text">ONTAP 9.3부터: 소스 볼륨을 두 번 클릭하여 세부 정보를 확인한 다음, * 보호 * 를 클릭하여 SnapMirror 관계에서 타겟 볼륨과 볼륨이 포함된 SVM 이름을 확인합니다.</block>
+  <block id="19a5c41f774e4c13645c38aa3ac02bda" category="paragraph"><block ref="19a5c41f774e4c13645c38aa3ac02bda" category="inline-link-macro-rx"></block></block>
+  <block id="00467c81ec3c45b5b81fa264a0272aae" category="paragraph"><block ref="00467c81ec3c45b5b81fa264a0272aae" category="inline-link-macro-rx"></block></block>
+  <block id="6126e6170d0db16ae24c70eca957ee23" category="paragraph"><block ref="6126e6170d0db16ae24c70eca957ee23" category="inline-link-macro-rx"></block></block>
+  <block id="1efe07eef4e047f77d97d7a9521fe678" category="summary">ONTAP System Manager 클래식 인터페이스(ONTAP 9.7 이하)를 사용하면 ONTAP 볼륨을 사용하여 ESXi 호스트에 대한 NFS 액세스를 데이터 저장소에 빠르게 설정할 수 있습니다.</block>
+  <block id="a13b5b49c282f481bac13a3c39c4db67" category="list-text">지원되는 버전의 VMware vSphere(VSC)용 가상 스토리지 콘솔을 사용하여 데이터 저장소를 프로비저닝하고 볼륨을 생성하고 있습니다.</block>
+  <block id="e37a9ce9ba1b9f128287af3bf8300997" category="inline-link">VMware vSphere용 ONTAP 툴</block>
+  <block id="a3b4490891904699065ed222dabffcf2" category="list-text">VSC 7.0부터는 VSC가 의 일부입니다<block ref="1320bf1a9550ca79a8b71105090c43c4" category="inline-link-rx"></block> VSC, VASA(vStorage APIs for Storage Awareness) 공급자, VMware vSphere 기능을 위한 SRA(Storage Replication Adapter)를 포함하는 가상 어플라이언스</block>
+  <block id="b6cff3188695ffca95f89e72ba7473d7" category="list-text">를 확인하십시오<block ref="4f77de1badf00a5d026cff12bc7e2d0a" category="inline-link-rx"></block> 현재 ONTAP 및 VSC 릴리스 간의 호환성을 확인합니다.</block>
+  <block id="2482cab231363d0aa3ec780e4e4b2767" category="paragraph">데이터 네트워크가 평평하게 되어 있는 경우, 이 기본 오브젝트는 링크 장애 시 LIF가 올바르게 페일오버되도록 규정합니다. 기본 개체를 사용하지 않는 경우 을 참조해야 합니다<block ref="eaaefb0a913b2d5b8bc1955d716eb715" category="inline-link-rx"></block> LIF 경로 페일오버를 구성하는 방법에 대한 자세한 내용은 를 참조하십시오.</block>
+  <block id="6dbf34197c62b68dc80b731d40e27266" category="list-text">VMware VAAI용 NFS 플러그인은 에서 사용할 수 있습니다<block ref="9a6f401ca1e7e89d8a0c29fb0cbe81b7" category="inline-link-rx"></block> 사이트.</block>
+  <block id="952fd691754e388c7b7ba473cf410aff" category="inline-link">TR-4597: ONTAP용 VMware vSphere</block>
+  <block id="24f423c151048112b31e4205c8dde6e5" category="paragraph">자세한 내용은 을 참조하십시오<block ref="3d61b9ab1dcb235ff5edeb0cc5e74cd4" category="inline-link-rx"></block> VSC 릴리즈에 대한 설명서를 제공합니다.</block>
+  <block id="d98f3586fef8fc3b9d546d3a41033300" category="paragraph"><block ref="d98f3586fef8fc3b9d546d3a41033300" category="inline-link-macro-rx"></block></block>
+  <block id="d77e74e7965c26a6cd865e741761d5b4" category="paragraph"><block ref="d77e74e7965c26a6cd865e741761d5b4" category="inline-link-macro-rx"></block></block>
+  <block id="bec75509bb3926a9139c20b08fda4dd6" category="paragraph">이 절차를 따라 SVM을 생성한 경우 해당합니다.</block>
+  <block id="9853b96894498aa1f22d27d5a5852957" category="paragraph"><block ref="9853b96894498aa1f22d27d5a5852957" category="inline-link-macro-rx"></block></block>
+  <block id="ecf46826a1e1670dfd648b640c4517d2" category="image-alt">이 그림은 FC 워크플로우에 대한 흐름도입니다. 워크플로의 단계가 항목과 일치합니다.</block>
+  <block id="6971da673725a22168c2864746c0559f" category="summary">스토리지 가상 머신에서 FC 서비스를 빠르게 설정하고, LUN을 프로비저닝하고, Windows 호스트 컴퓨터에서 FC HBA를 사용하여 LUN을 사용할 수 있도록 설정할 수 있습니다.</block>
+  <block id="62d7022ff768f49360d07d460098b293" category="paragraph">SVM(스토리지 가상 시스템)에서 FC 서비스를 빠르게 설정하고, LUN을 프로비저닝하고, ONTAP System Manager 클래식 인터페이스(ONTAP 9.7 이하)가 있는 Windows 호스트 컴퓨터에서 FC HBA를 사용하여 LUN을 사용할 수 있도록 할 수 있습니다.</block>
+  <block id="9bf563561a82917472d8625bbea78d2b" category="list-text">클러스터의 각 노드에서 사용 가능한 FC 타겟 포트가 2개 이상 있습니다. 온보드 FC 및 UTA2(CNA라고도 함) 포트뿐만 아니라 일부 어댑터를 구성할 수 있습니다. 이러한 포트 구성은 ONTAP CLI에서 수행되며 이 절차에서 다루지 않습니다.</block>
+  <block id="89d5e6802ef5a3ae4296f49d4d6bc447" category="list-title">추가 리소스</block>
+  <block id="9e8c5400a8eb221973b4a8d27a70c4e7" category="list-text"><block ref="9e8c5400a8eb221973b4a8d27a70c4e7" category="inline-link-rx"></block></block>
+  <block id="4976b49a1664da4bf49855e49275746b" category="paragraph"><block ref="4976b49a1664da4bf49855e49275746b" category="inline-link-macro-rx"></block></block>
+  <block id="54ad96d83f4da946f3a1ce05ecc08e5e" category="paragraph"><block ref="54ad96d83f4da946f3a1ce05ecc08e5e" category="inline-link-macro-rx"></block></block>
+  <block id="24f9cf41978197277a8223984ca964c4" category="paragraph">이는 다른 프로토콜을 구성하는 동안 SVM 생성 절차를 따르지 않은 경우에 해당됩니다.</block>
+  <block id="c0c422959981d66f2367c3b7fd17279e" category="list-text">Alibaba Cloud(System Manager 9.6으로 시작)</block>
+  <block id="1c1999fcc9a852005236a146059a96fa" category="list-text">System Manager 9.6부터는 FlexGroup DP 볼륨의 스토리지 효율성 편집이 지원됩니다.</block>
+  <block id="9dd326a487d106b896106eeadb347626" category="summary">System Manager 9.6부터 FlexCache 볼륨에 대한 정보를 볼 수 있습니다. 할당된 공간과 FlexCache 볼륨의 성능을 그래픽으로 표시할 수 있습니다.</block>
+  <block id="3ab6bc5ac1b12609fc9392c1e1a6b5a0" category="summary">Data ONTAP 8.1부터 특정 ONTAP 디스크 유형은 Aggregate를 생성 및 추가하고 스페어를 관리할 때 동일한 용도로 사용됩니다. ONTAP는 각 디스크 유형에 대해 유효한 디스크 유형을 할당합니다. 동일한 유효 디스크 유형의 HDD를 혼합할 수 있습니다.</block>
+  <block id="b3d47ed3b076d3c58a78eab91910df57" category="paragraph">Data ONTAP 8.2부터는 raid.mix.hdd.disktype.capacity` 옵션을 On으로 설정해야 BSAS, FSA, ATA 유형의 디스크가 혼용됩니다. FCAL과 SAS 유형의 디스크를 혼합하려면 RAID.Mix.HDD.disktype.performance 옵션을 On으로 설정해야 합니다.</block>
+  <block id="4880832e880aeb65d6f5394281000099" category="paragraph">효율성 탭에는 클러스터 또는 노드의 스토리지 효율성 절약 효과가 표시됩니다. 사용된 총 논리적 공간, 사용된 총 물리적 공간 및 전체 절감 효과를 볼 수 있습니다. 클러스터 또는 특정 노드를 선택하여 스토리지 효율성 절약 효과를 볼 수 있습니다. System Manager 9.5에서 스냅샷 복사본에 사용되는 공간은 사용된 총 논리적 공간, 사용된 총 물리적 공간 및 전체 축소에 대한 값에 _not_포함되어 있습니다. 그러나 System Manager 9.6부터 Snapshot 복사본에 사용되는 공간은 사용되는 총 논리적 공간, 사용된 총 물리적 공간 및 전체 절감 효과에 포함되어 있습니다.</block>
+  <block id="d6e768218203e5e5304006b8efd0112a" category="summary">System Manager를 사용하면 더 이상 필요하지 않은 포트셋 삭제 작업을 수행할 수 있습니다.</block>
+  <block id="037c863e9f93c12fc8ea65ce0b04bebb" category="doc">포트 세트를 삭제하는 중입니다</block>
+  <block id="3c5def4b4418a1419950919985135d29" category="list-text">Portsets * 탭에서 하나 이상의 포트 세트를 선택하고 * Delete * 를 클릭합니다.</block>
+  <block id="4c7783582f7e304286aea99c2573c927" category="list-text">System Manager 9.6부터 패브릭 풀은 지원됩니다.</block>
+  <block id="d5e5925aeb05519d0dcc6bf9f721a6f0" category="summary">System Manager 9.4부터는 스토리지 권장 사항을 기반으로 애그리게이트를 생성할 수 있습니다. 그러나 스토리지 권장 사항을 기반으로 한 Aggregate 생성이 고객 환경에서 지원되는지 여부를 확인해야 합니다. 사용하는 환경에서 스토리지 권장 사항에 따라 애그리게이트 생성을 지원하지 않는 경우, RAID 정책 및 디스크 구성을 결정한 다음 애그리게이트를 수동으로 생성해야 합니다.</block>
+  <block id="10f6b31ca4dfe3975350a50374d83d32" category="list-text">ONTAP 9.0부터는 디스크 크기가 10TB보다 크거나 같은 애그리게이트를 생성할 수 있습니다.</block>
+  <block id="8c06ad22c7aa0b50018b774e190ac3d9" category="paragraph">ONTAP 9.2부터 FabricPool 지원 애그리게이트는 타사 스토리지 계층(예: AWS)과 함께 용량 라이센스를 필요로 합니다. FabricPool 용량 라이센스는 클라우드 계층 스토리지에 저장할 수 있는 데이터의 양을 정의합니다.</block>
+  <block id="73443c81a17542138d21e74ee8b9c0f6" category="paragraph">NVMe를 구성하려면 노드 중 하나에서 적어도 하나의 NVMe 가능 어댑터를 사용할 수 있어야 합니다. 또한 ONTAP 9.5부터 SVM과 연결된 HA 쌍의 각 노드에 대해 하나 이상의 NVMe LIF를 구성해야 합니다. 페어의 각 노드에 대해 최대 2개의 NVMe LIF를 생성할 수 있습니다.</block>
+  <block id="68fd6fabd23e2ade4b52410c1f22651f" category="summary">System Manager 9.6부터 기존 리소스의 크기를 조정하거나 새 리소스를 추가하여 FlexCache 볼륨의 크기를 조정할 수 있습니다.</block>
+  <block id="2c228870bc26117c2bcc38d47fed7cbb" category="paragraph">기본적으로 기존 애그리게이트는 FlexCache 볼륨의 크기를 조정하는 데 사용됩니다. System Manager 9.6부터 볼륨에 허용되는 최대 크기가 크기 필드 옆에 표시됩니다.</block>
+  <block id="cc818fa0afc7fc97a334ef53849dbe3b" category="list-text">System Manager 9.5부터 2팩 MetroCluster 구성으로 단일 노드 클러스터를 업데이트할 수 있습니다.</block>
+  <block id="b00591630384bce2a76272b449186c53" category="list-text">NVMe 프로토콜의 경우, ONTAP 9.5부터 SVM 설정 마법사의 두 번째 페이지에서 각 노드에 대해 최소 하나의 LIF를 구성합니다. * NVMe 프로토콜 구성 *</block>
+  <block id="63ce9611974d55c52bba91d03b2470a4" category="summary">System Manager를 사용하여 포트 세트를 생성하여 LUN에 대한 액세스를 제한할 수 있습니다.</block>
+  <block id="6158f107c175e5e253737a4a6ef1c91c" category="doc">포틀세트를 생성합니다</block>
+  <block id="bb2bf2751a5bbb740612ba8bffdc099d" category="list-text">포트셋 와 연결할 네트워크 인터페이스를 선택합니다.</block>
+  <block id="a46c542a09057eb703c465dbc8b77f3a" category="summary">기존 스냅샷 정책에 대한 일정을 설정하여 스냅샷 복사본을 구성할 수 있습니다. ONTAP 9.4부터는 FlexVol 볼륨의 Snapshot 복사본을 1024개 미만으로 생성할 수 있습니다.</block>
+  <block id="9856546af72ee8cf33e0175f3d5162de" category="summary">System Manager 9.6부터는 MetroCluster 스위치오버 및 스위치백 작업을 사용하여 한 클러스터 사이트에서 다른 클러스터 사이트의 작업을 테이크오버할 수 있습니다. 이 기능을 사용하면 재해에 대한 유지 관리 또는 복구를 보다 용이하게 수행할 수 있습니다.</block>
+  <block id="89722798ea50f9e4e27e12781d425918" category="summary">System Manager 9.6부터 소스 클러스터의 모든 노드에 연결할 수 없고 전원을 끈 재해가 발생한 후 MetroCluster 스위치오버 및 스위치백 작업을 사용할 수 있습니다. 또한 재해 복구 테스트 또는 유지 관리를 위해 오프라인으로 전환되는 사이트와 같은 경우 협상된(계획된) 전환 워크플로우를 사용할 수도 있습니다.</block>
+  <block id="4b6b277ce6f6920ed718836709ae9ecf" category="paragraph">지속적인 가용성을 위해 공유가 설정되었는지 여부를 표시합니다. System Manager 9.6부터 FlexGroup 볼륨의 지속적인 가용성이 지원됩니다.</block>
+  <block id="10e2c79b1f68760fc37b16ad43083e16" category="paragraph">지속적인 가용성을 위해 공유를 설정하거나 해제할지 여부를 지정합니다. System Manager 9.6부터 FlexGroup 볼륨의 지속적인 가용성이 지원됩니다.</block>
+  <block id="1ec1c4d3de6304fa2f8701345f97b93b" category="summary">System Manager를 사용하여 이니시에이터 그룹을 생성할 수 있습니다. 이니시에이터 그룹을 통해 특정 LUN에 대한 호스트 액세스를 제어할 수 있습니다. portset을 사용하여 이니시에이터가 액세스할 수 있는 LIF를 제한할 수 있습니다.</block>
+  <block id="22da2f660e2b9269a497e5898901714c" category="list-text">이니시에이터 그룹 생성 * 대화 상자의 * 일반 * 탭에서 그룹에 대해 이니시에이터 그룹 이름, 운영 체제, 호스트 별칭 이름, 포트셋 및 지원되는 프로토콜을 지정합니다.</block>
+  <block id="27c4af937793a36386cf10cdf2170f78" category="list-text">ONTAP 9.1부터 AFF 플랫폼에 SnapLock 애그리게이트를 만들 수 있습니다.</block>
+  <block id="a6de5df70a9341b2c519603388ce9ccf" category="summary">SAN 호스트용 SVM(스토리지 가상 시스템)에서 FC 프로토콜과 FCoE 프로토콜을 구성할 수 있습니다. LIF는 가장 적합한 어댑터에 생성되며 데이터 경로 이중화를 위해 포트 세트에 할당됩니다. 요구사항에 따라 System Manager를 사용하여 FC 프로토콜이나 FCoE 프로토콜을 구성하거나 두 프로토콜을 모두 구성할 수 있습니다.</block>
+  <block id="ff4c77d043def3eb5719e2920310cb36" category="paragraph">데이터 LIF 및 포트 세트는 지정된 구성으로 생성됩니다. LIF는 포트 세트 간에 적절하게 배포됩니다. 하나 이상의 프로토콜에 대한 모든 LIF가 성공적으로 생성된 경우 FCP 서비스가 시작됩니다.</block>
+  <block id="6a9df42e1c42f0d26fc250037429da9f" category="summary">System Manager 9.6부터 MetroCluster 사이트의 계획되지 않은 전환을 시작할 수 있습니다. 이 작업은 중단 이벤트 또는 재해 이벤트 후에 유용합니다.</block>
+  <block id="114168a53a6b42c89026b910fc64289f" category="summary">System Manager 9.6부터 FlexCache 볼륨을 편집할 때 FlexCache 볼륨과 연결할 고급 옵션을 지정할 수 있습니다.</block>
+  <block id="e23275ea7297d3239b7dd72d554793b1" category="paragraph">ONTAP 9.5부터 NVMe 프로토콜을 사용하는 HA 쌍의 각 노드에 대해 하나 이상의 NVMe LIF를 구성해야 합니다. 노드당 최대 2개의 NVMe LIF를 정의할 수도 있습니다. System Manager를 사용하여 SVM 설정을 생성하거나 편집할 때 NVMe LIF를 구성합니다.</block>
+  <block id="42812d45e8b6d5528bed4f0e674b503f" category="paragraph">기본적으로 기존 애그리게이트는 FlexGroup 볼륨의 크기를 조정하는 데 사용됩니다. System Manager 9.6부터 볼륨에 허용되는 최소 크기가 크기 필드 옆에 표시됩니다.</block>
+  <block id="93c97cc1b9d7ab4e148670da3b6ba3f5" category="paragraph">System Manager 9.6부터는 로컬 클러스터 IPspace용 암호를 생성하고 피어링 관계를 생성할 때 원격 클러스터에서 동일한 암호를 사용할 수 있습니다. 보안상의 이유로 암호를 수정할 수 있습니다.</block>
+  <block id="f7a4927bc01e7644971daa1959d6c112" category="paragraph">System Manager 9.6부터 볼륨 이름 바꾸기 또는 크기 조정과 같은 기존 FlexGroup 볼륨의 속성을 편집할 수 있습니다.</block>
+  <block id="daa0f22908b89d2eda064452c1611743" category="paragraph">ONTAP 9.5부터 시스템 관리자는 응용 프로그램 페이지의 다른 호스트 이름 아래에 L2/L3 응용 프로그램을 나열합니다. 호스트 이름을 클릭하면 L2 Cockpit 인터페이스에 새 창이 열립니다. 각 애플리케이션에 대해 System Manager의 IOPS 및 지연 시간 측정도 표시됩니다.</block>
+  <block id="33019695fd9374e073b2cad5dbd1ee05" category="paragraph">ONTAP 9.5부터 System Manager는 가상 IP(VIP) LIF에 대한 정보를 표시하지만, System Manager에서 VIP LIF를 생성, 삭제 또는 관리할 수 없습니다.</block>
+  <block id="6153ffc2783ce412ca50aaae5adc8593" category="paragraph">ONTAP 9.5부터 NVMe에 라이센스가 부여됩니다. System Manager는 라이센스 요구 사항을 지원합니다.</block>
+  <block id="7e016a94dab854d9b7c83e039518a302" category="paragraph">ONTAP 9.5부터는 NVMe 프로토콜을 사용하여 HA 쌍의 각 노드에 대해 LIF를 하나 이상 구성해야 합니다. 노드에 대해 2개의 LIF를 정의할 수도 있습니다. ONTAP 9.5로 업그레이드할 때는 NVMe 프로토콜을 사용하여 HA 쌍의 각 노드에 대해 최소 하나의 LIF를 정의해야 합니다.</block>
+  <block id="6f553f8f0b1f64942e6e920765fdca49" category="paragraph">System Manager 9.5부터 SVM과 관련된 공용 SSL 인증서를 볼 수 있습니다. 인증서 세부 정보, 일련 번호, 시작 날짜 및 만료 날짜를 볼 수 있습니다. 인증서를 클립보드에 복사하고 인증서 세부 정보를 이메일로 보낼 수도 있습니다. 또한 vsadmin 사용자 계정을 SVM에 추가하면 HTTP를 애플리케이션으로 사용하고 인증서를 통해 인증된 로그인 방법이 자동으로 포함됩니다.</block>
+  <block id="c623834b06bf0eadd03186cb8c382250" category="paragraph">System Manager 9.4부터 단일 노드 클러스터를 업데이트할 수 있습니다. 단일 노드 클러스터 업데이트는 중단되며 업데이트가 진행되는 동안에는 클라이언트 데이터를 사용할 수 없습니다.</block>
+  <block id="0aee1fde7cc7a671d8d90e857e053d8b" category="summary">System Manager 9.6부터 기존 FlexCache 볼륨의 속성을 편집할 수 있습니다.</block>
+  <block id="486cf1f138672302a18fcb36029a84ac" category="paragraph">ONTAP 9.5부터는 SnapMirror Synchronous 관계가 지원됩니다. SnapMirror Synchronous 관계를 생성하려면 다음 라이센스가 필요합니다.</block>
+  <block id="9117a0ffde9ccce7c584e67b9bb135b6" category="paragraph">ONTAP 9.8부터 SnapMirror 클라우드 라이센스는 ONTAP 인스턴스에서 오브젝트 스토리지 엔드포인트로 Snapshot 복사본을 비동기식으로 복제합니다. 복제 대상은 사내 오브젝트 저장소뿐만 아니라 S3 및 S3 호환 퍼블릭 클라우드 오브젝트 스토리지 서비스를 사용하여 구성할 수 있습니다. SnapMirror 클라우드 관계는 ONTAP 시스템에서 사전 검증된 오브젝트 스토리지 타겟까지 지원됩니다. ONTAP 9.8에서 승인된 오브젝트 스토리지 타겟에는 ONTAP S3, StorageGRID, AWS S3 및 S3-IA, Microsoft Azure Blob Hot 및 GCP Standard 스토리지가 포함됩니다.</block>
+  <block id="986375ef59707444cd041a144f9b1715" category="paragraph">ONTAP 9.1부터 데이터 보호 번들이라는 솔루션의 일부로 FAS8200과 함께 새로운 ONTAP 데이터 보호 기능이 패키지로 제공됩니다. 이 새로운 하드웨어 및 소프트웨어 번들에는 보조 워크로드에 고유한 ONTAP 기능을 제공하는 새로운 DPO(DP_Optimized) 라이센스가 포함되어 있습니다. ONTAP 9.3을 도입한 DPO 라이센스는 노드당 볼륨 수를 1,000개에서 1,500개로 늘렸습니다. 또한 ONTAP 9.3에는 FAS2620 구성을 기반으로 한 데이터 보호 번들의 새로운 구성이 도입되었습니다.</block>
+  <block id="eed5ae605ac8ef5b8563e5fd16acd7ca" category="paragraph">System Manager 9.6부터 FlexGroup 볼륨의 지속적인 가용성이 지원됩니다.</block>
+  <block id="85b407d8880ba32f5b59f45fd37e607e" category="paragraph">이니시에이터 그룹과 연결된 를 표시합니다.</block>
+  <block id="8c6e0931827321d8bd781fac2791044a" category="paragraph">이 탭에서는 포트 세트의 설정을 생성, 삭제 또는 편집할 수 있습니다.</block>
+  <block id="ee30b5ed345b597fb1b433b2c3da689c" category="paragraph">LUN에 대한 액세스를 제한하는 포트 세트를 생성할 수 있는 포트 세트 생성 대화 상자를 엽니다.</block>
+  <block id="46d7b820826dbdca532df7210936733b" category="paragraph">포트 세트 편집 대화 상자를 엽니다. 이 대화 상자에서 포트셋 와 연결할 네트워크 인터페이스를 선택할 수 있습니다.</block>
+  <block id="8dc5eee093f83b5eeadffb339f7eb547" category="paragraph">선택한 포트셋 삭제</block>
+  <block id="d3d37da1eb13351aedd158865afd05c5" category="paragraph">포트셋 이름을 표시합니다.</block>
+  <block id="4495ec6e00ca0f2d3b04dbfd1433944e" category="paragraph">포트셋 가 지원하는 프로토콜 유형을 지정합니다. 지원되는 프로토콜은 iSCSI, FC/FCoE 또는 혼합(iSCSI 및 FC/FCoE)입니다.</block>
+  <block id="64693081cded05d4ce6e0c430eca4535" category="paragraph">포트셋 관련 네트워크 인터페이스 수를 표시합니다.</block>
+  <block id="23409b5c721134a7f5ea37565116bca8" category="paragraph">포트셋 관련 이니시에이터 그룹의 수를 표시합니다.</block>
+  <block id="61696bbbffe81f0015841f4828a83f8f" category="paragraph">Portsets 목록 아래의 영역에는 선택한 포트셋 관련 네트워크 인터페이스 및 이니시에이터 그룹에 대한 세부 정보가 표시됩니다.</block>
+  <block id="d9eaa6e43a91e86b923e03b379f9bbc3" category="summary">System Manager의 이니시에이터 그룹 편집 대화 상자를 사용하여 기존 이니시에이터 그룹 및 해당 운영 체제의 이름을 변경할 수 있습니다. 이니시에이터를 이니시에이터 그룹에 추가하거나 이니시에이터 그룹에서 제거할 수 있습니다. 또한 이니시에이터 그룹과 연결된 포트셋 를 변경할 수도 있습니다.</block>
+  <block id="51e14356cfa9b21b3c98da5c513be451" category="list-text">System Manager 9.6부터는 MetroCluster 구성에서 FlexGroup 볼륨을 생성할 수 있습니다.</block>
+  <block id="36a1f9fd3f3fe9ba5a263e1f909dfe79" category="list-text">* 모두(System Manager 9.6부터) *</block>
+  <block id="5c828a238014dd495d73c878241df183" category="list-text">System Manager 9.6부터 NVMe 프로토콜이 System Manager 9.5에 구성되어 있고 System Manager 9.5에서 System Manager 9.6으로 업그레이드를 수행하는 경우, 라이센스 없이 NVMe 프로토콜을 사용할 수 있는 유예 기간이 90일이 없습니다. ONTAP 9.5에서 9.6으로 업그레이드할 때 유예 기간이 유효한 경우, NVMe 기능을 계속 사용할 수 있도록 유예 기간을 유효한 NVMeoF 라이센스로 교체해야 합니다.</block>
+  <block id="815824e3f581441ea6999750ea40b293" category="list-text">ONTAP 9.5부터 NVMe 프로토콜을 사용하여 HA 쌍의 각 노드에 대해 하나 이상의 NVMe LIF를 구성해야 합니다. 노드당 최대 2개의 NVMe LIF를 생성할 수도 있습니다. ONTAP 9.5로 업그레이드할 때는 NVMe 프로토콜을 사용하여 HA 쌍의 각 노드에 대해 최소 하나의 NVMe LIF를 정의해야 합니다.</block>
+  <block id="c503852b4c7e6024fbe45f861966d958" category="summary">StrictSync 및 동기화 정책은 FC, iSCSI 및 FC-NVMe 프로토콜을 사용하는 모든 LUN 기반 애플리케이션뿐만 아니라 데이터베이스, VMware, 할당량, CIFS 등과 같은 엔터프라이즈 애플리케이션용 NFSv3 및 NFSv4 프로토콜을 지원합니다. ONTAP 9.6부터 SnapMirror Synchronous는 전자 설계 자동화(EDA), 홈 디렉토리 및 소프트웨어 빌드 워크로드와 같은 엔터프라이즈 파일 서비스에 사용할 수 있습니다.</block>
+  <block id="c383179aea1ae78459dfc908631cf68f" category="paragraph">ONTAP 9.6부터는 이러한 제한 사항이 제거되고 SnapMirror Synchronous는 홈 디렉토리 및 소프트웨어 빌드 워크로드와 같은 다중 사용자 환경을 포함한 엔터프라이즈 파일 서비스 워크로드에 사용될 수 있습니다.</block>
+  <block id="d087a242e4810c70f2ccb072912cc056" category="paragraph">System Manager 9.6부터는 두 클러스터 간의 피어링 관계를 설정할 때 피어링을 기본적으로 암호화합니다</block>
+  <block id="a1f98fb76066b45925b246ea195a7c62" category="summary">System Manager 9.6부터 기존 FlexGroup 볼륨의 속성을 편집할 수 있습니다.</block>
+  <block id="7afec9c2554738ce7a7de58297d6c030" category="paragraph">System Manager 9.6부터 FlexGroup DP 볼륨의 이름을 바꿀 수도 있습니다.</block>
+  <block id="7c5c5dd8c983200f4658fbc653960629" category="summary">System Manager 9.6부터, 더 이상 필요하지 않은 FlexCache 볼륨을 삭제할 수 있습니다.</block>
+  <block id="6396b4e9ee534ed15260ea7739d3096d" category="summary">System Manager 9.6부터는 SVM(스토리지 가상 시스템)에서 CIFS 또는 NFS 파일 액세스 오류를 진단할 수 있습니다.</block>
+  <block id="c13d6ff492b9fbd47b9f941f4fbee2d6" category="summary">System Manager에서 제공하는 템플릿 파일을 사용하여 클러스터를 생성하고, 노드 관리 및 클러스터 관리 네트워크를 설정한 다음, 이벤트 알림을 설정하여 클러스터를 설정할 수 있습니다. (ONTAP 시스템 관리자 9.6부터는 AutoSupport가 지원되지 않습니다.) 템플릿 파일은 .xlsx 형식 또는 .csv 형식으로 다운로드할 수 있습니다.</block>
+  <block id="e71eaae88dd2181cc95deea0992e62a9" category="paragraph">System Manager에서 제공하는 템플릿 파일을 사용하여 클러스터를 생성하고, 노드 관리 및 클러스터 관리 네트워크를 설정한 다음, 이벤트 알림을 설정하여 클러스터를 설정할 수 있습니다. (ONTAP 시스템 관리자 9.6부터는 AutoSupport가 지원되지 않습니다.) 템플릿 파일은 .xlsx 형식 또는 .csv 형식으로 다운로드할 수 있습니다.</block>
+  <block id="15d5c2d28df744d723c4afac837b9efb" category="summary">System Manager 9.6부터, CIFS 또는 NFS 프로토콜을 사용하여 SVM에서 파일 및 공유에 액세스하는 데 문제가 있을 때 Trace File Access 창을 사용하여 문제를 진단할 수 있습니다.</block>
+  <block id="8085ff6fe13fdc727e4a01c757c67829" category="summary">System Manager 9.6부터 MetroCluster 사이트의 협상된(계획된) 전환을 시작할 수 있습니다. 이 작업은 사이트에서 재해 복구 테스트 또는 계획된 유지 관리를 수행하려는 경우에 유용합니다.</block>
+  <block id="7246a3ef0c463c807e4dbac7824d6a92" category="summary">System Manager 9.6부터는 FlexCache 볼륨을 오프라인으로 전환하거나 FlexCache 볼륨을 온라인으로 전환하거나 FlexCache 볼륨 액세스를 제한하려는 경우 System Manager 9.6부터 볼륨 상태를 변경할 수 있습니다.</block>
+  <block id="6417d6c1deae94784bb178a81f3c929b" category="summary">System Manager 9.6부터 FlexCache 볼륨을 만들 수 있습니다.</block>
+  <block id="e7d954e77aebd859ccb147c5f9d8378c" category="summary">System Manager 9.6부터는 시스템이 성공적인 스위치오버 작업을 완료한 후 원래 MetroCluster 사이트(사이트 B)로 제어를 복원하는 스위치백 작업을 수행할 수 있습니다.</block>
+  <block id="aa92d6af1cc24449466f262216467632" category="summary">System Manager 9.6부터 MetroCluster 스위치오버 및 스위치백 운영 윈도우를 사용하여 한 사이트 또는 클러스터(사이트 B)에서 다른 사이트 또는 클러스터(사이트 A)로 협상된(협상된) 스위치오버 또는 계획되지 않은 전환을 시작할 수 있습니다. 사이트 B에서 유지 관리 또는 수리를 수행한 후 사이트 A에서 사이트 B로 스위치백을 시작하고 이 창에서 작업 상태를 볼 수 있습니다.</block>
+  <block id="e5d446856630ec232bccda2df661897e" category="summary">볼륨 창을 사용하여 FlexVol 볼륨 및 FlexGroup 볼륨을 관리할 수 있습니다. System Manager 9.6부터 FlexCache 볼륨을 관리할 수도 있습니다.</block>
+  <block id="6b0cc4ddfe235d9ecb8de601ccf35861" category="paragraph">System Manager 9.6부터는 FlexGroup DP 볼륨 및 FlexCache 볼륨에 대해 볼륨 암호화 키를 다시 입력하다 NAE 애그리게이트로부터 상속된 암호화가 있는 볼륨에 대해서는 키를 다시 입력하다</block>
+  <block id="1695535a1714b87bcc3484740ec235ba" category="paragraph">동일한 볼륨의 키를 다시 입력하다 작업을 시작할 때 볼륨 이동 작업을 시작하면 키를 다시 입력하다 System Manager 9.5 및 이전 버전에서 볼륨의 변환 또는 키를 다시 입력하다 작업이 진행 중일 때 볼륨을 이동하려고 하면 경고 없이 작업이 중단됩니다. System Manager 9.6부터 변환 또는 키를 다시 입력하다 작업을 계속할 경우 변환 또는 키를 다시 입력하다 작업이 중단된다는 경고 메시지가 표시됩니다.</block>
+  <block id="e2485f3cbd62161860676b0d2a07c9ce" category="summary">System Manager의 Portsets 탭을 사용하여 포트 세트와 관련된 설정을 편집할 수 있습니다.</block>
+  <block id="1ac31f1ad654d973d0519bf199c050af" category="doc">포트 세트 편집</block>
+  <block id="0c0018980666258d7f22a8d9a061f1d5" category="list-text">Portsets * 탭에서 편집할 포트셋 를 선택하고 * Edit * 를 클릭합니다.</block>
+  <block id="3853d8827e176169022e0fb0e1cb0181" category="summary">System Manager를 사용하여 심볼 링크 설정, 사용자 또는 그룹의 공유 액세스 권한 및 공유에 대한 액세스 유형과 같은 공유 설정을 수정할 수 있습니다. 또한 Hyper-V를 통한 공유의 지속적인 가용성을 설정하거나 해제하고 ABE(액세스 기반 열거)를 설정 또는 해제할 수 있습니다. System Manager 9.6부터 FlexGroup 볼륨의 지속적인 가용성이 지원됩니다.</block>
+  <block id="8be28ba82a6dd69c55a3f8793bd0d63c" category="summary">System Manager 9.6부터는 로컬 클러스터 IPspace용 암호를 생성하고 피어링 관계를 생성할 때 원격 클러스터에서 동일한 암호를 사용할 수 있습니다.</block>
+  <block id="4227d3e4ebcb1be60ce603efef5c55a8" category="paragraph">ONTAP 9.5부터 SVM과 연결된 HA 쌍의 각 노드에 대해 하나 이상의 NVMe LIF를 구성해야 합니다. 페어의 각 노드에 대해 최대 2개의 NVMe LIF를 생성할 수 있습니다.</block>
+  <block id="17f96a07b22aadd9d026f06836cef80e" category="list-text">ONTAP 9.3부터: * 정책에 따라 * 옵션을 선택합니다.</block>
+  <block id="aac75f93aae939890c94959328592cae" category="paragraph">ONTAP 9.3부터 시작: 대상 볼륨을 선택한 다음 * 작업 * &gt; * 스냅샷 관리 * &gt; * 구성 * 을 클릭합니다.</block>
+  <block id="3a844188ec34faf3c6e22a1122212cf0" category="paragraph">ONTAP 9.3부터 관계의 SnapMirror 정책이 "무러일스냅샷"으로 설정되고 미러 스케줄이 "없음"으로 설정됩니다.</block>
+  <block id="410177aa90f41a9b94e8d3d6dd68ec86" category="paragraph">ONTAP 9.3부터는 관계에 대한 SnapMirror 정책이 MirorAllSnapshots으로 설정되고 SnapMirror 일정이 None으로 설정됩니다.</block>
+  <block id="a1017be6326d564e17161f099c8d9c33" category="image-alt">이 그림은 SnapMirror 클러스터 간 페일오버 및 재동기화 워크플로우를 보여 주는 흐름도입니다. 워크플로의 단계가 항목과 일치합니다.</block>
+  <block id="33d698c5405b59cf282a091b0fab54f4" category="image-alt">이 그림은 SnapVault 백업 구성 워크플로우 흐름도입니다. 워크플로의 단계가 항목과 일치합니다.</block>
+  <block id="681b555578c6300aa44915faa6e62624" category="doc">SnapVault 관계 생성(ONTAP 9.3부터 시작)</block>
+  <block id="a9c3db2dac08d0461d592c5724652b88" category="image-alt">이 그림은 iSCSI 워크플로의 순서도입니다. 워크플로의 단계가 항목과 일치합니다.</block>
+  <block id="92ee9267c45d7a45ecbf20d1de76da57" category="doc">인터클러스터 LIF 만들기(ONTAP 9.3부터 시작)</block>
+  <block id="6fd4c87d769b5894903c76ecbbafe44d" category="doc">피어 관계 구성(ONTAP 9.3부터 시작)</block>
+  <block id="098227475310f96473221349e446e10d" category="doc">클러스터 피어 관계 생성(ONTAP 9.3부터 시작)</block>
+  <block id="874a016b0e4db6e53328d05604a721d0" category="paragraph">ONTAP 9.6부터 클러스터 피어링 암호화는 새로 생성한 모든 클러스터 피어링 관계에서 기본적으로 활성화됩니다. ONTAP 9.6으로 업그레이드하기 전에 생성된 피어링 관계에 대해 클러스터 피어링 암호화를 수동으로 활성화해야 합니다. ONTAP 9.5 이전 버전을 실행하는 클러스터에서는 클러스터 피어링 암호화를 사용할 수 없습니다. 따라서 클러스터 피어링 암호화를 활성화하려면 피어링 관계의 두 클러스터가 ONTAP 9.6을 실행해야 합니다.</block>
+  <block id="a60cef4d53b7d29fdafe7251c9212714" category="paragraph">ONTAP 9.3부터 클러스터 피어 관계를 생성하는 동안 원격 클러스터에서 암호를 생성할 수 있습니다.</block>
+  <block id="f3c6baefd3aa64a54472307f2dccb67a" category="inline-link-macro">클러스터 피어 관계 생성(ONTAP 9.3부터 시작)</block>
+  <block id="d97169bd10d3c3c1693bb61aa03fe93a" category="paragraph"><block ref="d97169bd10d3c3c1693bb61aa03fe93a" category="inline-link-macro-rx"></block></block>
+  <block id="a799a67339bf492f0cb9376bdd36f13b" category="paragraph">IP 주소(ONTAP 9.3부터 시작, ONTAP 9.2 이하의 경우 선택 사항)</block>
+  <block id="745b99aa60efc9d37fb056077fe47f6f" category="image-alt">이 그림은 FC 워크플로우에 대한 흐름도입니다. 워크플로의 단계가 항목과 일치합니다.</block>
+  <block id="1e261b7ffab323c200f52d1d4a755980" category="list-text">지원되는 VSC(Virtual Storage Console for VMware vSphere)를 사용하여 ESX 호스트의 스토리지 설정을 구성하고 데이터 저장소를 프로비저닝하고 있습니다.</block>
+  <block id="2b4f8dfe33f9d8af15855fb018da73ca" category="summary">ONTAP System Manager 클래식 인터페이스(ONTAP 9.7 이하)를 사용하면 SVM(스토리지 가상 머신)에서 iSCSI 서비스를 빠르게 설정하고, LUN을 프로비저닝하고, ESXi 호스트 컴퓨터에서 iSCSI 이니시에이터를 사용하여 LUN을 사용할 수 있습니다.</block>
+  <block id="b0e0e7a5cccf0bb5f480596a97d3ac79" category="list-text">지원되는 VSC(Virtual Storage Console for VMware vSphere)를 사용하여 ESX 호스트의 스토리지 설정을 구성하고 있습니다.</block>
+  <block id="4ced5ba9822d5a20bbe4b17ad6dd45ca" category="paragraph">온보드 UTA2(CNA라고도 함) 포트는 구성이 가능합니다. ONTAP CLI에서 이러한 포트를 구성합니다. 이 프로세스는 HIS 절차에서 다루지 않습니다.</block>
+  <block id="47165a970b344156985260755fe32597" category="paragraph">을 참조하십시오 <block ref="63a409c949a0a7faca8865ea4633f264" category="inline-link-macro-rx"></block> CLI를 사용하여 이더넷 포트 흐름 제어를 구성하는 데 사용됩니다.</block>
+  <block id="20f5f5aef33f58dbc29e158db29e30e2" category="list-text">새 SVM에서 볼륨을 프로비저닝하고 싶은 경우, <block ref="6f64ce6356f21a42c81469c76d4a31de" category="inline-link-macro-rx"></block>.</block>
+  <block id="01cfdd7cac91246283ee60d6afe743a1" category="list-text">ONTAP 9.5부터 * 구성 * &gt; * 클러스터 * &gt; * 확장 * 시스템 관리자를 클릭하여 새로 추가된 노드를 검색합니다. 경고가 표시되면 계속하기 전에 이를 수정해야 합니다. 호환되는 새 노드가 검색되면 다음 단계를 진행하십시오.</block>
+  <block id="cf60e092711952c2c868d7d19e86f100" category="summary">HA 쌍을 추가하면 기존 클러스터를 빠르고 중단 없이 확장할 수 있습니다. 클러스터가 클수록 클러스터에서 사용할 수 있는 성능과 스토리지 용량이 늘어납니다.</block>
+  <block id="e8fd990d5fe6a50d516b83641fb7fc4a" category="paragraph">다음 조건이 참인 경우에만 이 절차를 사용해야 합니다.</block>
+  <block id="5924a921008cf1a2f38d2d7a41990138" category="paragraph">이 절차의 예에서는 2노드 클러스터를 사용하지만 2개 이상의 노드가 있는 클러스터에도 적용됩니다.</block>
+  <block id="77c61fd6aef6817840becd82172bd57c" category="paragraph">클러스터에서 SnapMirror 또는 SnapVault 관계를 사용하여 데이터를 보호하는 경우 를 참조하십시오 <block ref="cbb596e26b08606ba2582d682bef9bd9" category="inline-link-macro-rx"></block> 새 노드에 대한 적절한 인터클러스터 LIF를 설정하는 방법에 대한 가이드</block>
+  <block id="05eac09172b61971be85d0a01b8162b9" category="paragraph">새로 추가된 노드로 데이터를 이동하려면 다음 정보를 사용합니다.</block>
+  <block id="4147675dfdaf47726b2bef9cf232aa84" category="list-text">포틀세트 업데이트:</block>
+  <block id="0ff4e590ab4228f68c6e92c2925a6247" category="list-text">'lun show' 명령을 사용하여 포트 세트가 있는지 여부를 확인합니다.</block>
+  <block id="c98b16f1475c5ed3edd5940478bbb261" category="list-text">새 LIF를 기존 호스트에 표시하려면 각 LIF에 대해 'LUN add' 명령을 사용하여 새 LIF를 포트 세트에 추가합니다.</block>
+  <block id="127ec903ab071b33b2b142ce19373815" category="summary">스토리지 가상 시스템에서 FC 서비스를 빠르게 설정하고, LUN을 프로비저닝하고, Red Hat Enterprise Linux 서버의 FC 호스트 버스 어댑터를 사용하여 LUN을 사용할 수 있도록 설정할 수 있습니다.</block>
+  <block id="02e8657c4c4ceb640870cd696627fd96" category="list-text">클러스터의 각 노드에서 사용 가능한 FC 타겟 포트가 2개 이상 있습니다. 온보드 FC 및 UTA2("CNA")와 일부 어댑터를 구성할 수 있습니다. 이러한 포트 구성은 ONTAP CLI(Command-Line Interface)에서 수행되며 이 절차에서는 적용되지 않습니다.</block>
+  <block id="8e1d7bfe28e595b4ce0deaa43921d8bf" category="sidebar">무중단 업데이트에 대해 알아보십시오</block>
+  <block id="ded36311d847f75d4f809a6870a2e0ed" category="sidebar">포트 세트를 삭제합니다</block>
+  <block id="f036f45cd0fb57db483a3278d8a1eb2a" category="sidebar">포트 세트를 편집합니다</block>
+  <block id="74e0c6e96d379922627d8416a0a0f88c" category="sidebar">인터클러스터 LIF 만들기(ONTAP 9.3부터 시작)</block>
 </blocks>

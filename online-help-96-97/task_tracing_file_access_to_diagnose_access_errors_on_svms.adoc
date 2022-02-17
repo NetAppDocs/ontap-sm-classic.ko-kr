@@ -2,7 +2,7 @@
 permalink: online-help-96-97/task_tracing_file_access_to_diagnose_access_errors_on_svms.html 
 sidebar: sidebar 
 keywords: trace, file, access, diagnost, error, svm, system, manager, online, help 
-summary: 'System Manager 9.6부터 SVM(스토리지 가상 시스템)의 CIFS 또는 NFS 파일 액세스 오류를 진단할 수 있습니다.' 
+summary: 'System Manager 9.6부터는 SVM(스토리지 가상 시스템)에서 CIFS 또는 NFS 파일 액세스 오류를 진단할 수 있습니다.' 
 ---
 = 파일 액세스를 추적하여 SVM의 액세스 오류를 진단합니다
 :icons: font
@@ -10,7 +10,7 @@ summary: 'System Manager 9.6부터 SVM(스토리지 가상 시스템)의 CIFS �
 
 
 [role="lead"]
-System Manager 9.6부터 SVM(스토리지 가상 시스템)의 CIFS 또는 NFS 파일 액세스 오류를 진단할 수 있습니다.
+System Manager 9.6부터는 SVM(스토리지 가상 시스템)에서 CIFS 또는 NFS 파일 액세스 오류를 진단할 수 있습니다.
 
 공유 구성, 권한 또는 사용자 매핑에 문제가 있는 경우 ""액세스 거부"" 오류와 같은 파일 액세스 문제가 발생할 수 있습니다. System Manager를 사용하면 사용자가 액세스하려는 파일 또는 공유에 대한 액세스 추적 결과를 확인하여 파일 액세스 문제를 해결할 수 있습니다. System Manager는 파일 또는 공유에 유효한 읽기, 쓰기 또는 실행 권한이 있는지 여부와 액세스가 효과적이지 않은 이유를 표시합니다.
 

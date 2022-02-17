@@ -40,10 +40,10 @@ cluster1::> network interface create -vserver vs1 -lif lif5 -role data
 .. 각 SVM에 대해 '-vserver' 매개 변수와 함께 'network interface show' 명령을 사용하여 클러스터의 모든 노드에 LIF가 있는지 확인합니다.
 
 
-. 포트 세트 업데이트:
+. 포틀세트 업데이트:
 +
 .. 'lun show' 명령을 사용하여 포트 세트가 있는지 여부를 확인합니다.
-.. 새 LIF를 기존 호스트에 표시하려면 각 LIF에 대해 'lun add' 명령을 사용하여 각 새 LIF를 포트 세트에 추가하십시오.
+.. 새 LIF를 기존 호스트에 표시하려면 각 LIF에 대해 'LUN add' 명령을 사용하여 새 LIF를 포트 세트에 추가합니다.
 
 
 . FC 또는 FCoE를 사용하는 경우 조닝 업데이트:

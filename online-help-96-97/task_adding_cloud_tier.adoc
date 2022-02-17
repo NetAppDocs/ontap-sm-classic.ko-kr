@@ -22,7 +22,7 @@ System Manager를 사용하여 SSD 애그리게이트 또는 VMDK(가상 머신 
 다음 오브젝트 저장소를 클라우드 계층으로 사용할 수 있습니다.
 
 * StorageGRID
-* Alibaba Cloud(System Manager 9.6부터 시작)
+* Alibaba Cloud(System Manager 9.6으로 시작)
 * AWS(Amazon Web Services) S3(Simple Storage Service)
 * AWS(Amazon Web Services) C2S(Commercial Cloud Service)
 * Microsoft Azure Blob 저장소

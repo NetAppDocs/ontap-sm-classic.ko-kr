@@ -35,7 +35,7 @@ image::../media/reverse_resync_2555.gif[다음 이미지는 활성 대상 볼륨
 image::../media/reverse_resync_4eea.gif[역재동기화 화면]
 
 +
-ONTAP 9.3부터 관계의 SnapMirror 정책이 "짜르앨스냅샷"으로 설정되고 미러 스케줄이 "없음"으로 설정됩니다.
+ONTAP 9.3부터 관계의 SnapMirror 정책이 "무러일스냅샷"으로 설정되고 미러 스케줄이 "없음"으로 설정됩니다.
 
 +
 ONTAP 9.2 이하를 실행 중인 경우 관계의 SnapMirror 정책이 DPDefault로 설정되고 미러 스케줄이 None으로 설정됩니다.

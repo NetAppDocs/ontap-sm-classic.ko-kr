@@ -12,4 +12,4 @@ summary: FC를 사용하여 호스트에서 스토리지를 사용할 수 있게
 [role="lead"]
 FC를 사용하여 호스트에서 스토리지를 사용할 수 있도록 하면 SVM(스토리지 가상 머신)에 볼륨 및 LUN을 프로비저닝하고 호스트에서 LUN에 연결합니다.
 
-image::../media/fc_windows_workflow.png[이 그림은 FC 워크플로우에 대한 흐름도입니다. 워크플로의 단계가 이 콘텐츠의 항목과 일치합니다.]
+image::../media/fc_windows_workflow.png[이 그림은 FC 워크플로우에 대한 흐름도입니다. 워크플로의 단계가 항목과 일치합니다.]

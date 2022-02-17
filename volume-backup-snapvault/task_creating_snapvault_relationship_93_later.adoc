@@ -1,10 +1,10 @@
 ---
 permalink: volume-backup-snapvault/task_creating_snapvault_relationship_93_later.html 
 sidebar: sidebar 
-keywords: create, snapvault, relationship, source, volume, cluster, destination, peer, backup, create a snapvault relationship, starting with ontap 9.3 
+keywords: create, snapvault, relationship, source, volume, cluster, destination, peer, backup, create a snapvault relationship, Beginning with ontap 9.3 
 summary: 피어링된 클러스터에서 소스 볼륨과 타겟 볼륨 간에 SnapVault 관계를 생성하여 SnapVault 백업을 생성해야 합니다. 
 ---
-= SnapVault 관계 생성(ONTAP 9.3부터)
+= SnapVault 관계 생성(ONTAP 9.3부터 시작)
 :icons: font
 :imagesdir: ../media/
 

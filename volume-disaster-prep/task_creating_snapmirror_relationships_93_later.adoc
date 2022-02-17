@@ -1,7 +1,7 @@
 ---
 permalink: volume-disaster-prep/task_creating_snapmirror_relationships_93_later.html 
 sidebar: sidebar 
-keywords: create, snapmirror, relationship, source, volume, cluster, destination, peer, data, recovery, disaster, create the snapmirror relationship, starting with ontap 9.3 
+keywords: create, snapmirror, relationship, source, volume, cluster, destination, peer, data, recovery, disaster, create the snapmirror relationship, Beginning with ontap 9.3 
 summary: 한 클러스터의 소스 볼륨과 재해 복구를 위한 데이터 복제를 위한 피어링된 클러스터의 타겟 볼륨 간에 SnapMirror 관계를 생성해야 합니다. 
 ---
 = SnapMirror 관계 생성(ONTAP 9.3부터)

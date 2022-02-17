@@ -12,4 +12,4 @@ summary: SnapVault 백업 관계 구성에는 클러스터 피어 관계 확인,
 [role="lead"]
 SnapVault 백업 관계 구성에는 클러스터 피어 관계 확인, 소스 볼륨과 타겟 볼륨 간의 SnapVault 관계 생성, SnapVault 관계 모니터링이 포함됩니다.
 
-image::../media/snapvault_workflow.gif[이 그림은 SnapVault 백업 구성 워크플로우 흐름도입니다. 워크플로의 단계가 이 콘텐츠의 항목과 일치합니다.]
+image::../media/snapvault_workflow.gif[이 그림은 SnapVault 백업 구성 워크플로우 흐름도입니다. 워크플로의 단계가 항목과 일치합니다.]
