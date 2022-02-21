@@ -1,23 +1,7 @@
 ---
 permalink: online-help-96-97/concept_how_storage_pool_works.html 
-sidebar: sidebar 
-keywords: storage, pool, collection, ssd, share, flash, aggregate, online, free 
-summary: 스토리지 풀은 SSD의 모음입니다. SSD를 결합하여 스토리지 풀을 생성할 수 있습니다. 이를 통해 여러 Flash Pool 애그리게이트 간에 SSD 및 SSD 스페어를 동시에 공유할 수 있습니다. 
+redirect: ontap-sm-classic/online-help-96-97/concept_storage_pools.html 
 ---
-= 스토리지 풀의 작동 방식
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-a_storage pool_은 SSD의 모음입니다. SSD를 결합하여 스토리지 풀을 생성할 수 있습니다. 이를 통해 여러 Flash Pool 애그리게이트 간에 SSD 및 SSD 스페어를 동시에 공유할 수 있습니다.
-
-스토리지 풀은 SSD 및 SSD 스페어를 제공하거나 기존 SSD 크기를 늘리는 데 사용할 수 있는 할당 유닛으로 구성됩니다.
-
-스토리지 풀에 SSD를 추가한 후에는 SSD를 더 이상 개별 디스크로 사용할 수 없습니다. 스토리지 풀을 사용하여 SSD에서 제공하는 스토리지를 할당하거나 할당해야 합니다.
-
-* 관련 정보 *
-
-xref:task_provisioning_storage_by_creating_flash_pool_aggregate_manually.adoc[Flash Pool Aggregate를 수동으로 생성하여 스토리지 프로비저닝]
-
-xref:task_provisioning_cache_by_adding_disks.adoc[SSD를 추가하여 캐시 프로비저닝]

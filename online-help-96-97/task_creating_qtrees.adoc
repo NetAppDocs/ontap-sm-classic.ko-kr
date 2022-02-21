@@ -1,48 +1,7 @@
 ---
 permalink: online-help-96-97/task_creating_qtrees.html 
-sidebar: sidebar 
-keywords: qtrees, create, system, manager, manage, partition, online, help 
-summary: Qtree를 사용하면 볼륨 내에서 데이터를 관리하고 분할할 수 있습니다. System Manager의 Create Qtree 대화 상자를 사용하여 스토리지 시스템의 볼륨에 새 qtree를 추가할 수 있습니다. 
+redirect: ontap-sm-classic/online-help-96-97/concept_qtrees.html 
 ---
-= qtree를 생성합니다
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-Qtree를 사용하면 볼륨 내에서 데이터를 관리하고 분할할 수 있습니다. System Manager의 Create Qtree 대화 상자를 사용하여 스토리지 시스템의 볼륨에 새 qtree를 추가할 수 있습니다.
-
-.단계
-. 스토리지 * > * qtree * 를 클릭합니다.
-. SVM * 필드의 드롭다운 메뉴에서 qtree를 생성할 스토리지 가상 시스템(SVM)을 선택합니다.
-. Create * 를 클릭합니다.
-. Create Qtree * 대화 상자의 * Details * 탭에서 qtree의 이름을 입력합니다.
-. qtree를 추가할 볼륨을 선택합니다.
-+
-볼륨 찾아보기 목록에는 온라인 상태인 볼륨만 포함됩니다.
-
-. qtree에 대한 임시 잠금(oplocks)을 해제하려면 이 Qtree*에서 파일 및 디렉토리에 대한 oplocks 사용 확인란의 선택을 취소합니다.
-+
-기본적으로 각 qtree에 대해 oplocks가 설정됩니다.
-
-. 상속된 기본 보안 스타일을 변경하려면 새 보안 스타일을 선택합니다.
-+
-qtree의 기본 보안 스타일은 qtree가 포함된 볼륨의 보안 스타일입니다.
-
-. 상속된 기본 엑스포트 정책을 변경하려면 기존 엑스포트 정책을 선택하거나 엑스포트 정책을 생성하십시오.
-+
-qtree의 기본 엑스포트 정책은 qtree가 포함된 볼륨에 할당된 엑스포트 정책입니다.
-
-. 디스크 공간 사용을 제한하려면 * Quotas * 탭을 클릭합니다.
-+
-.. qtree에 할당량을 적용하려면 * Qtree quota * 를 클릭한 다음 디스크 공간 한도를 지정합니다.
-.. qtree의 모든 사용자에 대해 할당량을 적용하려면 * 사용자 할당량 * 을 클릭한 다음 디스크 공간 제한을 지정합니다.
-
-
-. Create * 를 클릭합니다.
-. 생성한 qtree가 * qtree * 창의 qtree 목록에 포함되어 있는지 확인합니다.
-
-
-* 관련 정보 *
-
-xref:reference_qtrees_window.adoc[Qtree 창]

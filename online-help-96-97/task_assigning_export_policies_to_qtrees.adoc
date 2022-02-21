@@ -1,25 +1,7 @@
 ---
 permalink: online-help-96-97/task_assigning_export_policies_to_qtrees.html 
-sidebar: sidebar 
-keywords: assign, export, policies, qtrees, online, help, system, manager 
-summary: 전체 볼륨을 내보내는 대신, 볼륨에 있는 특정 qtree를 엑스포트하여 클라이언트에서 직접 액세스할 수 있습니다. System Manager를 사용하여 qtree에 엑스포트 정책을 지정하여 qtree를 내보낼 수 있습니다. Qtree 창에서 하나 이상의 qtree에 엑스포트 정책을 할당할 수 있습니다. 
+redirect: ontap-sm-classic/online-help-96-97/concept_qtrees.html 
 ---
-= qtree에 엑스포트 정책 할당
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-전체 볼륨을 내보내는 대신, 볼륨에 있는 특정 qtree를 엑스포트하여 클라이언트에서 직접 액세스할 수 있습니다. System Manager를 사용하여 qtree에 엑스포트 정책을 지정하여 qtree를 내보낼 수 있습니다. Qtree 창에서 하나 이상의 qtree에 엑스포트 정책을 할당할 수 있습니다.
-
-.단계
-. 스토리지 * > * qtree * 를 클릭합니다.
-. SVM 필드의 드롭다운 메뉴에서 내보낼 qtree가 있는 스토리지 가상 머신(SVM)을 선택합니다.
-. 엑스포트 정책을 할당할 하나 이상의 qtree를 선택한 다음 * 엑스포트 정책 변경 * 을 클릭합니다.
-. Export Policy * (정책 내보내기 *) 대화 상자에서 내보내기 정책을 생성하거나 기존 엑스포트 정책을 선택합니다.
-+
-link:task_creating_export_policy.md#["엑스포트 정책 생성"]
-
-. 저장 * 을 클릭합니다.
-. qtree에 할당한 엑스포트 정책과 관련 엑스포트 규칙이 해당 qtree의 * Details * 탭에 표시되는지 확인합니다.
 

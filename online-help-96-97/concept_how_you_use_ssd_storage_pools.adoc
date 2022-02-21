@@ -1,21 +1,7 @@
 ---
 permalink: online-help-96-97/concept_how_you_use_ssd_storage_pools.html 
-sidebar: sidebar 
-keywords: ssd, stprage, pool, flash, aggregate, assign, allocate, online, help 
-summary: 여러 Flash Pool 애그리게이트에서 SSD를 공유하려면 스토리지 풀에 SSD를 추가하면 됩니다. 스토리지 풀에 SSD를 추가한 후에는 SSD를 더 이상 독립 실행형 엔터티로 관리할 수 없습니다. 스토리지 풀을 사용하여 SSD에서 제공하는 스토리지를 할당하거나 할당해야 합니다. 
+redirect: ontap-sm-classic/online-help-96-97/concept_storage_pools.html 
 ---
-= SSD 스토리지 풀을 사용합니다
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-여러 Flash Pool 애그리게이트에서 SSD를 공유하려면 SSD를 _storage pool_에 추가하면 됩니다. 스토리지 풀에 SSD를 추가한 후에는 SSD를 더 이상 독립 실행형 엔터티로 관리할 수 없습니다. 스토리지 풀을 사용하여 SSD에서 제공하는 스토리지를 할당하거나 할당해야 합니다.
-
-특정 HA(고가용성) 쌍에 대한 스토리지 풀을 생성할 수 있습니다. 그런 다음, 해당 스토리지 풀의 할당 유닛을 동일한 HA 쌍이 소유한 하나 이상의 Flash Pool 애그리게이트에 추가할 수 있습니다. 디스크를 애그리게이트에 속해 있는 동일한 노드에서 디스크를 소유해야 디스크를 할당할 수 있기 때문에 스토리지 풀은 스토리지 풀을 소유한 노드 중 하나가 소유한 Flash Pool 애그리게이트에만 스토리지를 제공할 수 있습니다.
-
-시스템에서 Flash Pool 캐시의 양을 늘려야 하는 경우 스토리지 풀을 사용 중인 Flash Pool 캐시의 RAID 유형에 대한 최대 RAID 그룹 크기까지 스토리지 풀에 SSD를 더 추가할 수 있습니다. 기존 스토리지 풀에 SSD를 추가하면 Flash Pool 애그리게이트에 이미 할당된 할당 유닛을 비롯하여 스토리지 풀의 할당 유닛 크기가 증가합니다.
-
-스토리지 풀에는 하나의 예비 SSD만 사용할 수 있으므로 해당 스토리지 풀의 SSD를 사용할 수 없게 되면 ONTAP는 예비 SSD를 사용하여 장애가 발생한 SSD의 파티션을 재구성할 수 있습니다. 여유 용량으로 할당 유닛을 예약할 필요는 없습니다. ONTAP에서는 파티셔닝되지 않은 전체 SSD만 스토리지 풀의 SSD용 스페어로 사용할 수 있습니다.
-
-스토리지 풀에 SSD를 추가한 후에는 애그리게이트에서 디스크를 제거할 수 없으므로 SSD를 제거할 수 없습니다. 스토리지 풀의 SSD를 개별 드라이브로 다시 사용하려면 스토리지 풀의 할당 유닛이 할당된 모든 Flash Pool 애그리게이트를 제거한 다음 스토리지 풀을 제거해야 합니다.

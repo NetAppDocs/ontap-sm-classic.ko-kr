@@ -1,21 +1,7 @@
 ---
 permalink: online-help-96-97/task_editing_roles.html 
-sidebar: sidebar 
-keywords: system, manager, edit, role, access, control 
-summary: System Manager를 사용하여 명령 또는 명령 디렉터리에 대한 액세스 제어 역할의 액세스를 수정하고 지정된 명령 집합에만 대한 사용자 액세스를 제한할 수 있습니다. 기본 명령 디렉터리에 대한 역할의 액세스를 제거할 수도 있습니다. 
+redirect: ontap-sm-classic/online-help-96-97/concept_roles.html 
 ---
-= 역할 편집
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager를 사용하면 명령 또는 명령 디렉토리에 대한 액세스 제어 역할의 액세스를 수정하고 지정된 명령 세트에만 대한 사용자 액세스를 제한할 수 있습니다. 기본 명령 디렉터리에 대한 역할의 액세스를 제거할 수도 있습니다.
-
-.단계
-. 를 클릭합니다image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*.
-. 관리 * 창에서 * 역할 * 을 클릭합니다.
-. Roles * (역할 *) 창에서 수정할 역할을 선택한 다음 * Edit * (편집 *)를 클릭합니다.
-. 역할 편집 * 대화 상자에서 역할 속성을 수정한 다음 * 수정 * 을 클릭합니다.
-. Roles * (역할 *) 창에서 변경한 내용을 확인합니다.
 

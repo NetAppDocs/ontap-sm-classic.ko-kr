@@ -1,40 +1,7 @@
 ---
 permalink: online-help-96-97/task_creating_cifs_share.html 
-sidebar: sidebar 
-keywords: create, cifs, chare, system, manager, folder, qtree, volume, online, help 
-summary: System Manager를 사용하여 CIFS 공유를 생성하면 CIFS 사용자가 액세스할 수 있는 폴더, qtree 또는 볼륨을 지정할 수 있습니다. 
+redirect: ontap-sm-classic/online-help-96-97/concept_shares.html 
 ---
-= CIFS 공유를 생성합니다
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager를 사용하여 CIFS 공유를 생성하면 CIFS 사용자가 액세스할 수 있는 폴더, qtree 또는 볼륨을 지정할 수 있습니다.
-
-CIFS를 설정하고 시작하기 전에 CIFS 라이센스를 설치해야 합니다.
-
-.단계
-. 스토리지 * > * 공유 * 를 클릭합니다.
-. SVM * 필드의 드롭다운 메뉴에서 CIFS 공유를 생성할 SVM을 선택합니다.
-. 공유 생성 * 을 클릭합니다.
-. Create Share * 창에서 * Browse * 를 클릭하고 공유할 폴더, qtree 또는 볼륨을 선택합니다.
-. 새 CIFS 공유의 이름을 지정합니다.
-. SMB 3.0 이상을 지원하는 클라이언트가 무중단 작업 중에 지속적으로 파일을 열 수 있도록 하려면 * Hyper-V 및 SQL * 에 대한 지속적인 가용성 활성화 확인란을 선택합니다.
-+
-이 옵션을 사용하여 연 파일은 페일오버, 반환 및 LIF 마이그레이션과 같은 운영 중단 이벤트로부터 보호됩니다.
-
-+
-System Manager 9.6부터 FlexGroup 볼륨의 지속적인 가용성이 지원됩니다.
-
-. SMB 3.0 암호화를 활성화하려면 이 공유에 액세스하는 동안 데이터 암호화 * 확인란을 선택합니다.
-. 공유에 대한 설명 또는 설명을 입력한 다음 * 생성 * 을 클릭합니다.
-
-
-CIFS 공유는 그룹의 ""모든 사용자에 대한 모든 권한""으로 설정된 액세스 권한으로 생성됩니다.
-
-* 관련 정보 *
-
-xref:task_setting_up_cifs.adoc[CIFS를 설정하는 중입니다]
-
-xref:reference_shares_window.adoc[공유 창]

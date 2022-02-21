@@ -1,15 +1,7 @@
 ---
 permalink: online-help-96-97/concept_what_inactive_cold_data_is.html 
-sidebar: sidebar 
-keywords: online, help, inactive, cold, data 
-summary: '성능 계층에서 자주 액세스하지 않는 데이터를 비활성(콜드) 데이터라고 합니다. 기본적으로 31일 동안 액세스하지 않는 데이터는 비활성화됩니다.' 
+redirect: ontap-sm-classic/online-help-96-97/task_configuring_managing_cloud_tiers.html 
 ---
-= 비활성(콜드) 데이터는 무엇입니까
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-성능 계층에서 자주 액세스하지 않는 데이터를 비활성(콜드) 데이터라고 합니다. 기본적으로 31일 동안 액세스하지 않는 데이터는 비활성화됩니다.
-
-비활성 데이터는 애그리게이트 레벨, 클러스터 레벨 및 볼륨 레벨에 표시됩니다. 애그리게이트 또는 클러스터에 대한 비활성 데이터는 해당 애그리게이트 또는 클러스터에서 비활성 스캔이 완료된 경우에만 표시됩니다. 기본적으로 FabricPool 지원 애그리게이트 및 SSD 애그리게이트에 대해 비활성 데이터가 표시됩니다. FlexGroups에 대한 비활성 데이터가 표시되지 않습니다.

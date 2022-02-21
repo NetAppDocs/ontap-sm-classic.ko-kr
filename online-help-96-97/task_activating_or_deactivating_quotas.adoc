@@ -1,26 +1,7 @@
 ---
 permalink: online-help-96-97/task_activating_or_deactivating_quotas.html 
-sidebar: sidebar 
-keywords: activate, deactivate, quotas, online, help, system, manager 
-summary: System Manager를 사용하여 스토리지 시스템에서 선택한 하나 이상의 볼륨에서 할당량을 설정하거나 해제할 수 있습니다. 사용자 및 스토리지 요구 사항과 제한 사항이 변경될 때 할당량을 설정하거나 해제할 수 있습니다. 
+redirect: ontap-sm-classic/online-help-96-97/concept_quotas.html 
 ---
-= 할당량 활성화 또는 비활성화
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager를 사용하여 스토리지 시스템에서 선택한 하나 이상의 볼륨에서 할당량을 설정하거나 해제할 수 있습니다. 사용자 및 스토리지 요구 사항과 제한 사항이 변경될 때 할당량을 설정하거나 해제할 수 있습니다.
-
-.단계
-. 스토리지 * > * 할당량 * 을 클릭합니다.
-. SVM 필드의 드롭다운 메뉴에서 활성화 또는 비활성화할 할당량이 있는 SVM(스토리지 가상 머신)을 선택합니다.
-. 볼륨 * 의 * 할당량 상태 탭에서 할당량을 활성화하거나 비활성화할 볼륨을 하나 이상 선택합니다.
-. 필요에 따라 * 활성화 * 또는 * 비활성화 * 를 클릭합니다.
-. 할당량을 비활성화하는 경우 확인 확인란을 선택한 다음 * 확인 * 을 클릭합니다.
-. Status * 열에서 볼륨의 할당량 상태를 확인합니다.
-
-
-* 관련 정보 *
-
-xref:reference_quotas_window.adoc[할당량 창]

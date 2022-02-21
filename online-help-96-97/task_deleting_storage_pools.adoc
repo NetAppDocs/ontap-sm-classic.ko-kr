@@ -1,25 +1,7 @@
 ---
 permalink: online-help-96-97/task_deleting_storage_pools.html 
-sidebar: sidebar 
-keywords: delete, storage, pool, online, help, flash, aggregate 
-summary: 스토리지 풀의 캐시가 최적화되지 않았거나 aggregate 또는 Flash Pool 애그리게이트에서 더 이상 사용되지 않는 경우 스토리지 풀을 삭제할 수 있습니다. System Manager에서 스토리지 풀 삭제 대화 상자를 사용하여 스토리지 풀을 삭제할 수 있습니다. 
+redirect: ontap-sm-classic/online-help-96-97/concept_storage_pools.html 
 ---
-= 스토리지 풀을 삭제하는 중입니다
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-스토리지 풀의 캐시가 최적화되지 않았거나 aggregate 또는 Flash Pool 애그리게이트에서 더 이상 사용되지 않는 경우 스토리지 풀을 삭제할 수 있습니다. System Manager에서 스토리지 풀 삭제 대화 상자를 사용하여 스토리지 풀을 삭제할 수 있습니다.
-
-스토리지 풀은 어떠한 애그리게이트에서도 사용할 수 없습니다.
-
-.단계
-. 스토리지 * > * 애그리게이트 및 디스크 * > * 스토리지 풀 * 을 클릭합니다.
-. Storage Pools * 창에서 삭제할 스토리지 풀을 선택한 다음 * Delete * 를 클릭합니다.
-. 스토리지 풀 삭제 * 대화 상자에서 * 삭제 * 를 클릭합니다.
-
-
-* 관련 정보 *
-
-xref:reference_storage_pools_window.adoc[Storage Pools 창]

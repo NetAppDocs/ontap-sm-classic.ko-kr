@@ -1,24 +1,7 @@
 ---
 permalink: online-help-96-97/task_deleting_quotas.html 
-sidebar: sidebar 
-keywords: system, manager, quota, online, help, delete 
-summary: System Manager를 사용하면 사용자와 스토리지 요구 사항 및 제한 사항이 변경될 때 하나 이상의 할당량을 삭제할 수 있습니다. 
+redirect: ontap-sm-classic/online-help-96-97/concept_quotas.html 
 ---
-= 할당량을 삭제하는 중입니다
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager를 사용하면 사용자와 스토리지 요구 사항 및 제한 사항이 변경될 때 하나 이상의 할당량을 삭제할 수 있습니다.
-
-.단계
-. 스토리지 * > * 할당량 * 을 클릭합니다.
-. SVM * 필드의 드롭다운 메뉴에서 삭제할 할당량이 있는 SVM(스토리지 가상 머신)을 선택합니다.
-. 삭제할 할당량을 하나 이상 선택한 다음 * 삭제 * 를 클릭합니다.
-. 확인 확인란을 선택한 다음 * 삭제 * 를 클릭합니다.
-
-
-* 관련 정보 *
-
-xref:reference_quotas_window.adoc[할당량 창]

@@ -1,23 +1,7 @@
 ---
 permalink: online-help-96-97/task_deleting_cluster_peer_relationships.html 
-sidebar: sidebar 
-keywords: delete, cluster, peer, relationships, system, manager, online, help 
-summary: 관계가 더 이상 필요하지 않은 경우 System Manager를 사용하여 클러스터 피어 관계를 삭제할 수 있습니다. 피어 관계의 각 클러스터에서 클러스터 피어링 관계를 삭제해야 합니다. 
+redirect: ontap-sm-classic/online-help-96-97/concept_cluster_peers.html 
 ---
-= 클러스터 피어 관계를 삭제하는 중입니다
-:icons: font
-:imagesdir: ../media/
-
-
-[role="lead"]
-관계가 더 이상 필요하지 않은 경우 System Manager를 사용하여 클러스터 피어 관계를 삭제할 수 있습니다. 피어 관계의 각 클러스터에서 클러스터 피어링 관계를 삭제해야 합니다.
-
-.단계
-. 구성 * > * 클러스터 피어 * 를 클릭합니다.
-. 관계를 삭제할 클러스터 피어를 선택한 다음 * 삭제 * 를 클릭합니다.
-. 확인 확인란을 선택한 다음 * 삭제 * 를 클릭합니다.
-. 원격 클러스터에 로그인하여 단계를 수행합니다 <<STEP_313E6AFE5C2B4D8C9E9723FAF1F8534A,1>> 부터 까지 <<STEP_24E41EC7F4E746D09897FC2DCBEC0E18,3>> 로컬 클러스터와 원격 클러스터 간의 피어 관계를 삭제합니다.
-+
-로컬 클러스터와 원격 클러스터에서 관계가 삭제될 때까지 피어 관계의 상태가 "비정상"으로 표시됩니다.
+= 
 
 

@@ -1,21 +1,7 @@
 ---
 permalink: online-help-96-97/concept_how_you_use_service_processors.html 
-sidebar: sidebar 
-keywords: understanding, service, processor, storage, system, monitor, temperature, voltage, current, fan, speed, online, help 
-summary: 서비스 프로세서는 스토리지 시스템에서 시스템에 독립적인 리소스로, 온도, 전압, 전류 및 팬 속도와 같은 스토리지 시스템 매개 변수를 모니터링하고 관리하는 데 도움을 줍니다. 
+redirect: ontap-sm-classic/online-help-96-97/concept_service_processors.html 
 ---
-= 서비스 프로세서 이해
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-서비스 프로세서는 스토리지 시스템에서 시스템에 독립적인 리소스로, 온도, 전압, 전류 및 팬 속도와 같은 스토리지 시스템 매개 변수를 모니터링하고 관리하는 데 도움을 줍니다.
-
-서비스 프로세서가 스토리지 시스템 매개 변수에서 비정상적인 조건을 감지하면 서비스 프로세서가 이벤트를 기록하고 ONTAP에 문제를 알리고 e-메일 또는 SNMP 트랩을 통해 AutoSupport 메시지를 생성합니다.
-
-서비스 프로세서는 감시 메커니즘을 통해 ONTAP를 모니터링하며 파트너 노드로 신속하게 페일오버할 수 있도록 합니다. 또한 서비스 프로세서는 여러 시스템 이벤트를 추적하고 이벤트를 로그 파일에 저장합니다. 이 이벤트에는 부팅 진행률, 현장 교체 장치(FRU) 변경, ONTAP 생성 이벤트 및 사용자 트랜잭션 기록이 포함됩니다.
-
-서비스 프로세서는 스토리지 시스템에 원격으로 로그인 및 관리할 수 있으며 스토리지 시스템의 상태에 관계없이 시스템을 진단, 종료, 전원 껐다 켜기 또는 재부팅할 수 있습니다. 또한 서비스 프로세서는 원격 진단 기능을 제공합니다.
-
-서비스 프로세서의 통합 모니터링 및 관리 기능을 사용하면 문제 발생 시 스토리지 시스템을 평가한 다음, 즉시 효율적인 서비스 작업을 수행할 수 있습니다.

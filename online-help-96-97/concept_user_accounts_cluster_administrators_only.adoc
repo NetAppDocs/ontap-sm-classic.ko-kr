@@ -1,30 +1,7 @@
 ---
 permalink: online-help-96-97/concept_user_accounts_cluster_administrators_only.html 
-sidebar: sidebar 
-keywords: user, account, cluster, administration, online, help, modify, lock, delete, unlock, create 
-summary: 클러스터 사용자 계정을 생성, 수정, 잠금, 잠금 해제 또는 삭제하거나 사용자 암호를 재설정하거나 모든 사용자 계정에 대한 정보를 표시할 수 있습니다. 
+redirect: ontap-sm-classic/online-help-96-97/concept_cluster_user_accounts.html 
 ---
-= 사용자 계정(클러스터 관리자만 해당)
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-클러스터 사용자 계정을 생성, 수정, 잠금, 잠금 해제 또는 삭제하거나 사용자 암호를 재설정하거나 모든 사용자 계정에 대한 정보를 표시할 수 있습니다.
-
-다음과 같은 방법으로 클러스터 사용자 계정을 관리할 수 있습니다.
-
-* 사용자의 계정 이름, 액세스 방법, 인증 방법 및 필요에 따라 사용자 로그인 방법 만들기 사용자에게 할당된 액세스 제어 역할입니다
-* 계정 이름, 허용된 액세스 방법, 인증 방법, 액세스 제어 역할, 계정 상태 등의 사용자 로그인 정보를 표시합니다
-* 사용자의 로그인 방법과 연결된 액세스 제어 역할을 수정합니다
-+
-[NOTE]
-====
-사용자 계정의 모든 액세스 및 인증 방법에 대해 단일 역할을 사용하는 것이 가장 좋습니다.
-
-====
-* 액세스 방법 또는 인증 방법과 같은 사용자의 로그인 방법 삭제
-* 사용자 계정의 암호 변경
-* 사용자가 시스템에 액세스하지 못하도록 사용자 계정을 잠급니다
-* 이전에 잠긴 사용자 계정을 잠금 해제하여 사용자가 시스템에 다시 액세스할 수 있도록 합니다
 

@@ -1,43 +1,7 @@
 ---
 permalink: online-help-96-97/concept_what_cloud_tiers_tiering_policies_are.html 
-sidebar: sidebar 
-keywords: cloud, tier, policy, data, ssd, store, online, help 
-summary: '클라우드 계층은 자주 액세스하지 않는 데이터를 위한 스토리지를 제공합니다. 자주 사용하지 않는 데이터를 저장하기 위해 All-Flash(All-SSD) 애그리게이트를 클라우드 계층에 연결할 수 있습니다. 계층화 정책을 사용하여 데이터를 클라우드 계층으로 이동해야 하는지 결정할 수 있습니다.' 
+redirect: ontap-sm-classic/online-help-96-97/task_configuring_managing_cloud_tiers.html 
 ---
-= 어떤 클라우드 계층 및 계층화 정책인지 설명합니다
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-클라우드 계층은 자주 액세스하지 않는 데이터를 위한 스토리지를 제공합니다. 자주 사용하지 않는 데이터를 저장하기 위해 All-Flash(All-SSD) 애그리게이트를 클라우드 계층에 연결할 수 있습니다. 계층화 정책을 사용하여 데이터를 클라우드 계층으로 이동해야 하는지 결정할 수 있습니다.
-
-볼륨에 대해 다음 계층화 정책 중 하나를 설정할 수 있습니다.
-
-* * 스냅샷 전용 *
-+
-현재 액티브 파일 시스템에서 참조하고 있지 않은 볼륨의 스냅샷 복사본만 이동합니다. 스냅샷 전용 정책은 기본 계층화 정책입니다.
-
-* * 자동 *
-+
-비활성(콜드) 데이터 및 스냅샷 복사본을 액티브 파일 시스템에서 클라우드 계층으로 이동합니다.
-
-* * 백업(System Manager 9.5용) *
-+
-데이터 보호(DP) 볼륨의 새로 전송된 데이터를 클라우드 계층으로 이동합니다.
-
-* * 모두(System Manager 9.6부터) *
-+
-모든 데이터를 클라우드 계층으로 이동합니다.
-
-* * 없음 *
-+
-볼륨의 데이터가 클라우드 계층으로 이동하는 것을 방지합니다.
-
-
-
-* 관련 정보 *
-
-xref:task_adding_cloud_tier.adoc[클라우드 계층 추가]
-
-xref:task_attaching_aggregate_to_cloud_tier.adoc[클라우드 계층에 애그리게이트 연결]

@@ -1,45 +1,7 @@
 ---
 permalink: online-help-96-97/task_assigning_ip_addresses_to_service_processors.html 
-sidebar: sidebar 
-keywords: system, manager, assign, ip, address, online, help, service, processors 
-summary: System Manager를 사용하여 모든 서비스 프로세서에 IP 주소를 동시에 할당하고 이러한 서비스 프로세서를 사용하여 스토리지 시스템의 다양한 시스템 매개 변수를 모니터링 및 관리할 수 있습니다. 
+redirect: ontap-sm-classic/online-help-96-97/concept_service_processors.html 
 ---
-= 서비스 프로세서에 IP 주소 할당
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager를 사용하여 모든 서비스 프로세서에 IP 주소를 동시에 할당하고 이러한 서비스 프로세서를 사용하여 스토리지 시스템의 다양한 시스템 매개 변수를 모니터링 및 관리할 수 있습니다.
-
-.단계
-. 구성 * > * 클러스터 * > * 구성 업데이트 * 를 클릭합니다.
-. 서비스 프로세서* 창에서 * 글로벌 설정 * 을 클릭합니다.
-. 글로벌 설정 * 대화 상자에서 IP 주소를 할당할 소스를 선택합니다.
-+
-|===
-| 원하는 작업 | 그러면... 
-
-
- a| 
-DHCP 서버에서 자동으로 IP 주소를 할당합니다
- a| 
-DHCP * 를 선택합니다.
-
-
-
- a| 
-서브넷에서 IP 주소를 할당합니다
- a| 
-Subnet * 을 선택합니다.
-
-
-
- a| 
-수동으로 IP 주소를 입력합니다
- a| 
-수동 할당 * 을 선택합니다.
-
-|===
-. 저장 * 을 클릭합니다.
 

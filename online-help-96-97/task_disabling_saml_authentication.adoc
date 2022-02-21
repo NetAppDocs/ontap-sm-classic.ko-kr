@@ -1,29 +1,7 @@
 ---
 permalink: online-help-96-97/task_disabling_saml_authentication.html 
-sidebar: sidebar 
-keywords: disable, saml, authentication, security, assertion, markup, language, online, help, system, manager 
-summary: 'System Manager에 대한 원격 액세스를 비활성화하거나 SAML 구성을 편집하려면 SAML(Security Assertion Markup Language) 인증을 비활성화할 수 있습니다.' 
+redirect: ontap-sm-classic/online-help-96-97/task_setting_up_saml_authentication.html 
 ---
-= SAML 인증을 사용하지 않도록 설정합니다
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager에 대한 원격 액세스를 비활성화하거나 SAML 구성을 편집하려면 SAML(Security Assertion Markup Language) 인증을 비활성화할 수 있습니다.
-
-SAML 인증을 비활성화해도 SAML 구성은 삭제되지 않습니다.
-
-.단계
-. 구성 * > * 클러스터 * > * 인증 * 을 클릭합니다.
-. SAML 인증 활성화 * 확인란의 선택을 취소합니다.
-. 저장 * 을 클릭합니다.
-+
-System Manager가 다시 시작됩니다.
-
-. 클러스터 자격 증명을 사용하여 System Manager에 로그인합니다.
-
-
-* 관련 정보 *
-
-xref:task_accessing_cluster_by_using_system_manager_brower_based_gui.adoc[ONTAP System Manager의 브라우저 기반 그래픽 인터페이스를 사용하여 클러스터에 액세스]

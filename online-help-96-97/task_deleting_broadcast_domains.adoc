@@ -1,33 +1,7 @@
 ---
 permalink: online-help-96-97/task_deleting_broadcast_domains.html 
-sidebar: sidebar 
-keywords: delete, broadcast, domain, system, manager, online, help 
-summary: 브로드캐스트 도메인이 더 이상 필요하지 않은 경우 System Manager를 사용하여 브로드캐스트 도메인을 삭제할 수 있습니다. 
+redirect: ontap-sm-classic/online-help-96-97/concept_broadcast_domains.html 
 ---
-= 브로드캐스트 도메인을 삭제하는 중입니다
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-브로드캐스트 도메인이 더 이상 필요하지 않은 경우 System Manager를 사용하여 브로드캐스트 도메인을 삭제할 수 있습니다.
-
-삭제할 브로드캐스트 도메인에 서브넷이 연결되어 있지 않아야 합니다.
-
-.이 작업에 대해
-* 브로드캐스트 도메인을 삭제하면 브로드캐스트 도메인과 연결된 포트가 기본 IPspace에 할당되고 포트의 MTU 설정은 변경되지 않습니다.
-* 시스템 관리자를 사용하여 클러스터 IPspace에 있는 브로드캐스트 도메인을 삭제할 수 없습니다.
-+
-대신 CLI(Command-Line Interface)를 사용해야 합니다.
-
-
-
-.단계
-. 네트워크 * > * 브로드캐스트 도메인 * 을 클릭합니다.
-. 삭제할 브로드캐스트 도메인을 선택한 다음 * 삭제 * 를 클릭합니다.
-. 확인 확인란을 선택한 다음 * 삭제 * 를 클릭합니다.
-
-
-* 관련 정보 *
-
-xref:reference_network_window.adoc[네트워크 창]

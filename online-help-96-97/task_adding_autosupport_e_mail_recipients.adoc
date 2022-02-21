@@ -1,21 +1,7 @@
 ---
 permalink: online-help-96-97/task_adding_autosupport_e_mail_recipients.html 
-sidebar: sidebar 
-keywords: add, autosupport, email, recipient, online, help 
-summary: 시스템 관리자의 AutoSupport 설정 편집 대화 상자의 이메일 수신자 탭을 사용하여 AutoSupport 알림 수신자의 이메일 주소를 추가할 수 있습니다. 
+redirect: ontap-sm-classic/online-help-96-97/concept_autosupport.html 
 ---
-= AutoSupport e-메일 수신자를 추가합니다
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-시스템 관리자의 AutoSupport 설정 편집 대화 상자의 * 이메일 수신자 * 탭을 사용하여 AutoSupport 알림 수신자의 이메일 주소를 추가할 수 있습니다.
-
-.단계
-. 를 클릭합니다image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]* > * AutoSupport *.
-. 노드를 선택한 다음 * 편집 * 을 클릭합니다.
-. 전자 메일 받는 사람* 탭에서 전자 메일 받는 사람의 주소를 입력하고 받는 사람이 전체 메시지를 받을지 아니면 짧은 메시지를 받을지 지정한 다음 * 추가 * 를 클릭합니다.
-. 확인 * 을 클릭합니다.
-. 지정한 세부 정보가 * AutoSupport * 창에 표시되는지 확인합니다.
 

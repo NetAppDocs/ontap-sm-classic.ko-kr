@@ -1,23 +1,7 @@
 ---
 permalink: online-help-96-97/task_editing_fc_fcoe_adapter_speed.html 
-sidebar: sidebar 
-keywords: edit, fc, fcoe, nvme, adapter, speed, settings, online, help, system, manager 
-summary: System Manager에서 FC/FCoE 및 NVMe 어댑터 설정 편집 대화 상자를 사용하여 FC/FCoE 및 NVMe 어댑터 속도 설정을 수정할 수 있습니다. 
+redirect: ontap-sm-classic/online-help-96-97/concept_fc_fcoe_nvme_adapters.html 
 ---
-= FC/FCoE 및 NVMe 어댑터 속도 설정 편집
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager에서 FC/FCoE 및 NVMe 어댑터 설정 편집 대화 상자를 사용하여 FC/FCoE 및 NVMe 어댑터 속도 설정을 수정할 수 있습니다.
-
-.단계
-. Network * > * FC/FCoE 및 NVMe Adapters * 를 클릭합니다.
-. 편집할 어댑터를 선택한 다음 * 편집 * 을 클릭합니다.
-. FC/FCoE 및 NVMe 어댑터 설정 편집 * 대화 상자에서 어댑터 속도를 * 수동 * 또는 * 자동 * 으로 설정한 다음 * 저장 * 을 클릭합니다.
-
-
-* 관련 정보 *
-
-xref:reference_network_window.adoc[네트워크 창]
