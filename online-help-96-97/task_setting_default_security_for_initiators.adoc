@@ -1,25 +1,7 @@
 ---
 permalink: online-help-96-97/task_setting_default_security_for_initiators.html 
-sidebar: sidebar 
-keywords: set, up, default, security, iscsi, initiator, online, help, system, manager, settings 
-summary: System Manager를 사용하여 이니시에이터의 인증 설정을 제거하고 기본 보안 방법을 사용하여 이니시에이터를 인증할 수 있습니다. 
+redirect: ontap-sm-classic/online-help-96-97/concept_iscsi_protocol.html 
 ---
-= iSCSI 이니시에이터에 대한 기본 보안을 설정합니다
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager를 사용하여 이니시에이터의 인증 설정을 제거하고 기본 보안 방법을 사용하여 이니시에이터를 인증할 수 있습니다.
-
-.단계
-. 스토리지 * > * SVM * 을 클릭합니다.
-. SVM을 선택한 다음 * SVM 설정 * 을 클릭합니다.
-. 프로토콜 * 창에서 * iSCSI * 를 클릭합니다.
-. 초기자 보안 * 탭에서 보안 설정을 변경할 초기자를 선택합니다.
-. 초기자 보안 * 영역에서 * 기본값 설정 * 을 클릭한 다음 확인 대화 상자에서 * 기본값 설정 * 을 클릭합니다.
-
-
-* 관련 정보 *
-
-xref:reference_iscsi_window.adoc[iSCSI 창]

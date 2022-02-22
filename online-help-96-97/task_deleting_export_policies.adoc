@@ -1,21 +1,7 @@
 ---
 permalink: online-help-96-97/task_deleting_export_policies.html 
-sidebar: sidebar 
-keywords: delete, export, policies, system, manager, online, help 
-summary: System Manager를 사용하면 더 이상 필요하지 않은 엑스포트 정책을 삭제할 수 있습니다. 
+redirect: ontap-sm-classic/online-help-96-97/concept_export_policies.html 
 ---
-= 엑스포트 정책을 삭제하는 중입니다
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager를 사용하면 더 이상 필요하지 않은 엑스포트 정책을 삭제할 수 있습니다.
-
-.단계
-. 스토리지 * > * SVM * 을 클릭합니다.
-. SVM을 선택한 다음 * SVM 설정 * 을 클릭합니다.
-. Policies * 창에서 * Export Policies * 를 클릭합니다.
-. 삭제할 엑스포트 정책을 선택한 다음 * 정책 삭제 * 를 클릭합니다.
-. 확인 확인란을 선택한 다음 * 삭제 * 를 클릭합니다.
 

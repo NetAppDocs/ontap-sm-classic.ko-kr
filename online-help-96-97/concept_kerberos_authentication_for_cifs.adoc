@@ -1,13 +1,7 @@
 ---
 permalink: online-help-96-97/concept_kerberos_authentication_for_cifs.html 
-sidebar: sidebar 
-keywords: kerberos, authentication, cifs, server, security, level, client, online, help, microsoft, ntlm, ntlm v2 
-summary: Kerberos 인증을 사용하면 CIFS 서버에 연결할 때 클라이언트가 가장 높은 보안 수준을 협상합니다. 그러나 클라이언트가 Kerberos 인증을 사용할 수 없는 경우 CIFS 서버를 인증하는 데 Microsoft NTLM 또는 NTLM V2가 사용됩니다. 
+redirect: ontap-sm-classic/online-help-96-97/concept_kerberos_realm_services.html 
 ---
-= CIFS에 대한 Kerberos 인증
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-Kerberos 인증을 사용하면 CIFS 서버에 연결할 때 클라이언트가 가장 높은 보안 수준을 협상합니다. 그러나 클라이언트가 Kerberos 인증을 사용할 수 없는 경우 CIFS 서버를 인증하는 데 Microsoft NTLM 또는 NTLM V2가 사용됩니다.

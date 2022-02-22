@@ -1,22 +1,7 @@
 ---
 permalink: online-help-96-97/task_renaming_export_policies.html 
-sidebar: sidebar 
-keywords: managerto, rename, export, policies, online, help 
-summary: 시스템 관리를 사용하여 기존 엑스포트 정책의 이름을 바꿀 수 있습니다. 
+redirect: ontap-sm-classic/online-help-96-97/concept_export_policies.html 
 ---
-= 엑스포트 정책의 이름을 바꾸는 중입니다
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-시스템 관리를 사용하여 기존 엑스포트 정책의 이름을 바꿀 수 있습니다.
-
-.단계
-. 스토리지 * > * SVM * 을 클릭합니다.
-. SVM을 선택한 다음 * SVM 설정 * 을 클릭합니다.
-. Policies * 창에서 * Export Policies * 를 클릭합니다.
-. 이름을 바꿀 엑스포트 정책을 선택한 다음 * 정책 이름 바꾸기 * 를 클릭합니다.
-. 이름 바꾸기 정책 * 대화 상자에서 새 정책 이름을 지정한 다음 * 수정 * 을 클릭합니다.
-. Export Policies * (내보내기 정책 *) 창에서 변경한 내용을 확인합니다.
 

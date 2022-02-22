@@ -1,27 +1,7 @@
 ---
 permalink: online-help-96-97/task_creating_iscsi_aliases.html 
-sidebar: sidebar 
-keywords: iscsi, alias, create, target, device, online, help 
-summary: 'iSCSI 별칭은 사용자 인터페이스에서 대상 디바이스를 더 쉽게 식별할 수 있도록 iSCSI 타겟 디바이스(이 경우 스토리지 시스템)에 할당하는 사용자 친화적인 식별자입니다. System Manager를 사용하여 iSCSI 별칭을 생성할 수 있습니다.' 
+redirect: ontap-sm-classic/online-help-96-97/concept_iscsi_protocol.html 
 ---
-= iSCSI 별칭을 생성합니다
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-iSCSI 별칭은 사용자 인터페이스에서 대상 디바이스를 더 쉽게 식별할 수 있도록 iSCSI 타겟 디바이스(이 경우 스토리지 시스템)에 할당하는 사용자 친화적인 식별자입니다. System Manager를 사용하여 iSCSI 별칭을 생성할 수 있습니다.
-
-iSCSI 별칭은 인쇄 가능한 문자를 1-128자로 하는 문자열입니다. iSCSI 별칭에는 공백을 포함할 수 없습니다.
-
-.단계
-. 스토리지 * > * SVM * 을 클릭합니다.
-. SVM을 선택한 다음 * SVM 설정 * 을 클릭합니다.
-. 프로토콜 * 창에서 * iSCSI * 를 클릭합니다.
-. iSCSI * 창의 * 서비스 * 탭에서 * 편집 * 을 클릭합니다.
-. iSCSI 서비스 구성 편집 * 대화 상자의 * 대상 별칭 * 필드에 iSCSI 별칭을 입력한 다음 * 확인 * 을 클릭합니다.
-
-
-* 관련 정보 *
-
-xref:reference_iscsi_window.adoc[iSCSI 창]

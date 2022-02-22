@@ -1,24 +1,7 @@
 ---
 permalink: online-help-96-97/task_starting_or_stopping_iscsi_service.html 
-sidebar: sidebar 
-keywords: start, stop, system, manader, iscsi, service, storage, system, online, help 
-summary: System Manager를 사용하여 스토리지 시스템에서 iSCSI 서비스를 시작하거나 중지할 수 있습니다. 
+redirect: ontap-sm-classic/online-help-96-97/concept_iscsi_protocol.html 
 ---
-= iSCSI 서비스 시작 또는 중지
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager를 사용하여 스토리지 시스템에서 iSCSI 서비스를 시작하거나 중지할 수 있습니다.
-
-.단계
-. 스토리지 * > * SVM * 을 클릭합니다.
-. SVM을 선택한 다음 * SVM 설정 * 을 클릭합니다.
-. 프로토콜 * 창에서 * iSCSI * 를 클릭합니다.
-. 필요에 따라 * 시작 * 또는 * 중지 * 를 클릭합니다.
-
-
-* 관련 정보 *
-
-xref:reference_iscsi_window.adoc[iSCSI 창]

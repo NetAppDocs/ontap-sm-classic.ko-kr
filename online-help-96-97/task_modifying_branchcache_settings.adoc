@@ -1,31 +1,7 @@
 ---
 permalink: online-help-96-97/task_modifying_branchcache_settings.html 
-sidebar: sidebar 
-keywords: modify, branchcache, settings, cifs, system, manager, storage, virtual, machine, svm, online, help 
-summary: 'System Manager의 CIFS 창을 사용하여 CIFS 지원 SVM(스토리지 가상 머신)에 맞게 구성된 BranchCache 설정을 수정할 수 있습니다. 해시 저장소 경로, 해시 저장소 크기, 운영 모드 및 지원되는 BranchCache 버전을 변경할 수 있습니다.' 
+redirect: ontap-sm-classic/online-help-96-97/task_setting_up_branchcache.html 
 ---
-= BranchCache 설정을 수정합니다
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager의 CIFS 창을 사용하여 CIFS 지원 SVM(스토리지 가상 머신)에 맞게 구성된 BranchCache 설정을 수정할 수 있습니다. 해시 저장소 경로, 해시 저장소 크기, 운영 모드 및 지원되는 BranchCache 버전을 변경할 수 있습니다.
-
-.단계
-. 스토리지 * > * SVM * 을 클릭합니다.
-. SVM을 선택한 다음 * SVM 설정 * 을 클릭합니다.
-. BranchCache * 탭에서 * 편집 * 을 클릭합니다.
-. BranchCache 설정 수정 * 대화 상자에서 필요한 정보를 수정합니다.
-+
-** 해시 저장 경로입니다
-+
-해시 저장소 경로를 수정하면 이전 해시 저장소의 캐시된 해시 데이터를 유지할 수 있는 옵션이 제공됩니다.
-
-** 해시 저장 크기입니다
-** 작동 모드
-** BranchCache 버전입니다
-
-
-. Modify * 를 클릭합니다.
 

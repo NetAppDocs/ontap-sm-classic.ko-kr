@@ -1,28 +1,7 @@
 ---
 permalink: online-help-96-97/task_editing_active_ldap_clients_svm.html 
-sidebar: sidebar 
-keywords: edit, active, ldap, clients, online, help, system, manager 
-summary: 'System Manager를 사용하여 활성 LDAP 클라이언트를 SVM(스토리지 가상 시스템)에 연결할 수 있습니다. SVM은 이름 서비스 또는 이름 매핑에 LDAP를 사용할 수 있도록 지원합니다.' 
+redirect: ontap-sm-classic/online-help-96-97/concept_ldap_configuration_services.html 
 ---
-= 활성 LDAP 클라이언트 편집
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager를 사용하여 활성 LDAP 클라이언트를 SVM(스토리지 가상 시스템)에 연결할 수 있습니다. SVM은 이름 서비스 또는 이름 매핑에 LDAP를 사용할 수 있도록 지원합니다.
-
-.단계
-. 스토리지 * > * SVM * 을 클릭합니다.
-. SVM을 선택한 다음 * SVM 설정 * 을 클릭합니다.
-. 서비스 * 창에서 * LDAP 구성 * 을 클릭합니다.
-. LDAP Configuration * 창에서 * Edit * 를 클릭합니다.
-. Active LDAP 클라이언트 * 대화 상자에서 편집할 LDAP 클라이언트를 선택하고 다음 작업을 수행합니다.
-+
-** Active Directory 도메인 서버를 수정합니다.
-** 기본 Active Directory 서버를 수정합니다.
-
-
-. 확인 * 을 클릭합니다.
-. 변경한 내용이 * LDAP Configuration * (LDAP 구성 *) 창에서 업데이트되었는지 확인합니다.
 

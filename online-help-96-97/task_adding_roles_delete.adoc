@@ -1,22 +1,7 @@
 ---
 permalink: online-help-96-97/task_adding_roles_delete.html 
-sidebar: sidebar 
-keywords: add, roles, system, manager, access, control, command, online, help 
-summary: System Manager를 사용하여 액세스 제어 역할을 추가하고 해당 역할의 사용자가 액세스할 수 있는 명령 또는 명령 디렉토리를 지정할 수 있습니다. 명령 또는 명령 디렉터리에 대한 역할의 액세스 수준을 제어할 수 있으며 명령 또는 명령 디렉터리에 적용되는 쿼리를 지정할 수도 있습니다. 
+redirect: ontap-sm-classic/online-help-96-97/concept_roles_delete.html 
 ---
-= 역할을 추가합니다
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager를 사용하여 액세스 제어 역할을 추가하고 해당 역할의 사용자가 액세스할 수 있는 명령 또는 명령 디렉토리를 지정할 수 있습니다. 명령 또는 명령 디렉터리에 대한 역할의 액세스 수준을 제어할 수 있으며 명령 또는 명령 디렉터리에 적용되는 쿼리를 지정할 수도 있습니다.
-
-.단계
-. 스토리지 * > * SVM * 을 클릭합니다.
-. SVM을 선택한 다음 * SVM 설정 * 을 클릭합니다.
-. SVM 사용자 세부 정보 * 창에서 * 역할 * 을 클릭합니다.
-. 추가 * 를 클릭합니다.
-. 역할 추가 * 대화 상자에서 역할 이름을 지정한 다음 역할 특성을 추가합니다.
-. 추가 * 를 클릭합니다.
 

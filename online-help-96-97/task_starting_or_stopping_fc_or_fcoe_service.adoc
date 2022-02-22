@@ -1,29 +1,7 @@
 ---
 permalink: online-help-96-97/task_starting_or_stopping_fc_or_fcoe_service.html 
-sidebar: sidebar 
-keywords: start, stop, fc, fcor, service, online, help, adaptor 
-summary: FC 서비스를 사용하면 LUN에 사용할 FC 타겟 어댑터를 관리할 수 있습니다. System Manager를 사용하면 FC 서비스를 시작하여 어댑터를 온라인으로 전환하고 스토리지 시스템의 LUN에 액세스할 수 있습니다. FC 서비스를 중지하여 FC 어댑터를 오프라인으로 전환하고 LUN에 대한 액세스를 해제할 수 있습니다. 
+redirect: ontap-sm-classic/online-help-96-97/concept_fc_fcoe_protocol.html 
 ---
-= FC 또는 FCoE 서비스 시작 또는 중지
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-FC 서비스를 사용하면 LUN에 사용할 FC 타겟 어댑터를 관리할 수 있습니다. System Manager를 사용하면 FC 서비스를 시작하여 어댑터를 온라인으로 전환하고 스토리지 시스템의 LUN에 액세스할 수 있습니다. FC 서비스를 중지하여 FC 어댑터를 오프라인으로 전환하고 LUN에 대한 액세스를 해제할 수 있습니다.
-
-.시작하기 전에
-* FC 라이센스를 설치해야 합니다.
-* FC 어댑터가 타겟 스토리지 시스템에 있어야 합니다.
-
-
-.단계
-. 스토리지 * > * SVM * 을 클릭합니다.
-. SVM을 선택한 다음 * SVM 설정 * 을 클릭합니다.
-. 프로토콜 * 창에서 * FC/FCoE * 를 클릭합니다.
-. 필요에 따라 * 시작 * 또는 * 중지 * 를 클릭합니다.
-
-
-* 관련 정보 *
-
-xref:reference_configurationprotocolsfcp.adoc[FC/FCoE 창]
