@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head class="at-element-marker">
-  <title>Kerberos 구성 편집</title>
+  <title></title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="Kerberos 구성 편집" />
+  <meta property="og:title" content="" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_editing_kerberos_configuration.html" />
-	<meta property="og:description" content="System Manager를 사용하여 Kerberos를 사용하도록 설정하고 SVM(스토리지 가상 시스템)과 연결된 Kerberos 구성을 편집할 수 있습니다. 그러면 SVM에서 NFS용 Kerberos 보안 서비스를 사용할 수 있습니다." />
+	<meta property="og:description" content="" />
   <meta property="og:image" content="https://docs.netapp.com/ko-kr/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
@@ -18,8 +18,8 @@
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/>
   
-  <meta name="description" content="System Manager를 사용하여 Kerberos를 사용하도록 설정하고 SVM(스토리지 가상 시스템)과 연결된 Kerberos 구성을 편집할 수 있습니다. 그러면 SVM에서 NFS용 Kerberos 보안 서비스를 사용할 수 있습니다.">
-  <meta name="keywords" content=" edit, kerberos, configuration, system, manager, online, help">
+  <meta name="description" content="">
+  <meta name="keywords" content=" ">
   
   
 
@@ -148,6 +148,8 @@
               $("#tg-sb-icon").toggleClass('fa-toggle-off');
           });
       });
+  </script><script>
+    pageRedirect("https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/concept_kerberos_interface_services.html");
   </script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-81697994-3"></script>
   <script>
   if (document.location.hostname === "docs.netapp.com") {
@@ -5036,7 +5038,7 @@
           <a href="/ko-kr/ontap-sm-classic/">System&nbsp;Manager&nbsp;Classic</a>
         </li>
         <li class="n-breadcrumb__list-item">
-          Kerberos 구성 편집
+          
         </li>
       </ul>
     </div>
@@ -5059,18 +5061,26 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">Kerberos 구성 편집</h1>
+  <h1 class="n-doc__component-detail-heading"></h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-02-21 19:35:34 +0000">02/21/2022</time>
+    <time datetime="2022-02-22 00:27:05 +0000">02/22/2022</time>
     
   
 
 <span>기여자
+  <a target="_blank" href="https://github.com/netapp-aoife">
+    <img  class="avatar avatar-small"
+          alt="netapp-aoife"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/92876203?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
   <a target="_blank" href="https://github.com/netapp-ivanad">
     <img  class="avatar avatar-small"
           alt="netapp-ivanad"
@@ -5085,75 +5095,8 @@
 </p>
 
 
-<div class="paragraph lead">
-<p>System Manager를 사용하여 Kerberos를 사용하도록 설정하고 SVM(스토리지 가상 시스템)과 연결된 Kerberos 구성을 편집할 수 있습니다. 그러면 SVM에서 NFS용 Kerberos 보안 서비스를 사용할 수 있습니다.</p>
-</div>
-<div class="ulist">
-<div class="title">시작하기 전에</div>
-<ul>
-<li>
-<p>SVM 레벨에서 적어도 하나의 Kerberos 영역이 구성되어 있어야 합니다.</p>
-</li>
-<li>
-<p>SVM에 데이터 LIF가 2개 이상 있어야 합니다.</p>
 <div class="paragraph">
-<p>하나의 데이터 LIF는 UNIX 및 CIFS 관련 Kerberos 트래픽 모두에 대해 SPN(Service Principal Name)에서 사용됩니다. 다른 데이터 LIF는 Kerberos가 아닌 트래픽에 액세스하는 데 사용됩니다.</p>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<img src="/us-en/ontap-sm-classic/images/note.svg" alt="참고">
-</td>
-<td class="content">
-<div class="paragraph">
-<p>CIFS 서버는 기본 NFS Kerberos 액세스에 필요하지 않습니다. CIFS 서버는 다중 프로토콜 액세스를 위해 또는 Active Directory를 이름 매핑을 위해 LDAP 서버로 사용할 때 필요합니다.</p>
-</div>
-</td>
-</tr>
-</table>
-</div>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>Microsoft Active Directory Kerberos를 사용하는 경우 도메인에서 사용되는 SPN의 처음 15자는 고유해야 합니다. Microsoft Active Directory는 최대 15자의 SPN에 대한 제한이 있으며 중복 SPN을 허용하지 않습니다.</p>
-</div>
-<div class="olist arabic">
-<div class="title">단계</div>
-<ol class="arabic">
-<li>
-<p>스토리지 * &gt; * SVM * 을 클릭합니다.</p>
-</li>
-<li>
-<p>SVM을 선택한 다음 * SVM 설정 * 을 클릭합니다.</p>
-</li>
-<li>
-<p>서비스 * 창에서 * Kerberos 인터페이스 * 를 클릭합니다.</p>
-</li>
-<li>
-<p>Kerberos 인터페이스* 창에서 인터페이스를 선택한 다음 * 편집 * 을 클릭합니다.</p>
-</li>
-<li>
-<p>Kerberos 구성 편집 * 대화 상자에서 필요한 내용을 변경한 다음 * 확인 * 을 클릭합니다.</p>
-<div class="ulist">
-<ul>
-<li>
-<p>관련 정보 *</p>
-</li>
-</ul>
-</div>
-</li>
-</ol>
-</div>
-<div class="paragraph">
-<p><a href="https://www.netapp.com/pdf.html?item=/media/10720-tr-4067.pdf" target="_blank" rel="noopener">"NetApp 기술 보고서 4067: NetApp ONTAP의 NFS"</a></p>
-</div>
-<div class="paragraph">
-<p><a href="https://www.netapp.com/pdf.html?item=/media/19384-tr-4616.pdf" target="_blank" rel="noopener">"NetApp 기술 보고서 4616: ONTAP에서 Microsoft Active Directory와 NFS Kerberos"</a></p>
-</div>
-<div class="paragraph">
-<p><a href="https://www.netapp.com/pdf.html?item=/media/19423-tr-4835.pdf" target="_blank" rel="noopener">"NetApp 기술 보고서 4835: ONTAP에서 LDAP를 구성하는 방법"</a></p>
+<p>=</p>
 </div>
 
     </article>
@@ -5165,7 +5108,7 @@
   <div class="page-nav-toolbar">
     <div id="version-dropdown"></div>
     <div class="page-nav-contribute"  >
-      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[Kerberos 구성 편집](https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_editing_kerberos_configuration.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[](https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_editing_kerberos_configuration.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a>
       <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_editing_kerberos_configuration.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a>
       <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/ontap-sm-classic/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a>
     </div>

@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head class="at-element-marker">
-  <title>엑스포트 정책에 규칙 추가</title>
+  <title></title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="엑스포트 정책에 규칙 추가" />
+  <meta property="og:title" content="" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_adding_rules_to_export_policy.html" />
-	<meta property="og:description" content="System Manager를 사용하여 엑스포트 정책에 규칙을 추가할 수 있으며, 이를 통해 데이터에 대한 클라이언트 액세스를 정의할 수 있습니다." />
+	<meta property="og:description" content="" />
   <meta property="og:image" content="https://docs.netapp.com/ko-kr/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
@@ -18,8 +18,8 @@
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/>
   
-  <meta name="description" content="System Manager를 사용하여 엑스포트 정책에 규칙을 추가할 수 있으며, 이를 통해 데이터에 대한 클라이언트 액세스를 정의할 수 있습니다.">
-  <meta name="keywords" content=" system, manager, add, rule, export, policy, online, help, data, access">
+  <meta name="description" content="">
+  <meta name="keywords" content=" ">
   
   
 
@@ -148,6 +148,8 @@
               $("#tg-sb-icon").toggleClass('fa-toggle-off');
           });
       });
+  </script><script>
+    pageRedirect("https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/concept_export_policies.html");
   </script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-81697994-3"></script>
   <script>
   if (document.location.hostname === "docs.netapp.com") {
@@ -5036,7 +5038,7 @@
           <a href="/ko-kr/ontap-sm-classic/">System&nbsp;Manager&nbsp;Classic</a>
         </li>
         <li class="n-breadcrumb__list-item">
-          엑스포트 정책에 규칙 추가
+          
         </li>
       </ul>
     </div>
@@ -5059,18 +5061,26 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">엑스포트 정책에 규칙 추가</h1>
+  <h1 class="n-doc__component-detail-heading"></h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-02-21 19:35:34 +0000">02/21/2022</time>
+    <time datetime="2022-02-22 00:27:05 +0000">02/22/2022</time>
     
   
 
 <span>기여자
+  <a target="_blank" href="https://github.com/netapp-aoife">
+    <img  class="avatar avatar-small"
+          alt="netapp-aoife"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/92876203?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
   <a target="_blank" href="https://github.com/NetAppZacharyWambold">
     <img  class="avatar avatar-small"
           alt="NetAppZacharyWambold"
@@ -5093,105 +5103,8 @@
 </p>
 
 
-<div class="paragraph lead">
-<p>System Manager를 사용하여 엑스포트 정책에 규칙을 추가할 수 있으며, 이를 통해 데이터에 대한 클라이언트 액세스를 정의할 수 있습니다.</p>
-</div>
 <div class="paragraph">
-<p>엑스포트 규칙을 추가할 엑스포트 정책을 생성해야 합니다.</p>
-</div>
-<div class="olist arabic">
-<div class="title">단계</div>
-<ol class="arabic">
-<li>
-<p>스토리지 * &gt; * SVM * 을 클릭합니다.</p>
-</li>
-<li>
-<p>SVM을 선택한 다음 * SVM 설정 * 을 클릭합니다.</p>
-</li>
-<li>
-<p>Policies * 창에서 * Export Policies * 를 클릭합니다.</p>
-</li>
-<li>
-<p>규칙을 추가할 엑스포트 정책을 선택하고 * 규칙 내보내기 * 탭에서 * 추가 * 를 클릭합니다.</p>
-</li>
-<li>
-<p>내보내기 규칙 만들기 * 대화 상자에서 다음 단계를 수행하십시오.</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>데이터에 액세스해야 하는 클라이언트를 지정합니다.</p>
-<div class="paragraph">
-<p>여러 클라이언트를 쉼표로 구분된 값으로 지정할 수 있습니다.</p>
-</div>
-<div class="paragraph">
-<p>다음 형식 중 하나로 클라이언트를 지정할 수 있습니다.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>호스트 이름(예: host1)입니다</p>
-</li>
-<li>
-<p>IPv4 주소(예: 10.1.12.24)입니다</p>
-</li>
-<li>
-<p>네트워크 마스크가 있는 IPv4 주소(예: 10.1.16.0/255.255.255.0)</p>
-</li>
-<li>
-<p>IPv6 주소(예: FE80::0202:B3FF:FE1E:8329)입니다</p>
-</li>
-<li>
-<p>네트워크 마스크가 있는 IPv6 주소(예: 2001:DB8::/ 32)</p>
-</li>
-<li>
-<p>넷그룹으로, netgroup 이름 앞에 AT 기호(@)가 옵니다(예: @netgroup)</p>
-</li>
-<li>
-<p>앞에 마침표(.)가 오는 도메인 이름(예: .example.com</p>
-</li>
-</ul>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<img src="/us-en/ontap-sm-classic/images/note.svg" alt="참고">
-</td>
-<td class="content">
-<div class="paragraph">
-<p>10.1.12.10 ~ 10.1.12.70 등의 IP 주소 범위는 입력할 수 없습니다. 이 형식의 항목은 텍스트 문자열로 해석되며 호스트 이름으로 취급됩니다.</p>
-</div>
-</td>
-</tr>
-</table>
-</div>
-<div class="paragraph">
-<p>+
-+ IPv4 주소 0.0.0.0/0을 입력하여 모든 호스트에 액세스할 수 있습니다.</p>
-</div>
-</li>
-<li>
-<p>규칙 인덱스 번호를 수정하려면 적절한 규칙 인덱스 번호를 선택합니다.</p>
-</li>
-<li>
-<p>하나 이상의 액세스 프로토콜을 선택합니다.</p>
-<div class="paragraph">
-<p>액세스 프로토콜을 선택하지 않으면 기본값 ""모두""가 내보내기 규칙에 할당됩니다.</p>
-</div>
-</li>
-<li>
-<p>하나 이상의 보안 유형 및 액세스 규칙을 선택합니다.</p>
-</li>
-</ol>
-</div>
-</li>
-<li>
-<p>확인 * 을 클릭합니다.</p>
-</li>
-<li>
-<p>추가한 내보내기 규칙이 선택한 내보내기 정책의 * 내보내기 규칙 * 탭에 표시되는지 확인합니다.</p>
-</li>
-</ol>
+<p>=</p>
 </div>
 
     </article>
@@ -5203,7 +5116,7 @@
   <div class="page-nav-toolbar">
     <div id="version-dropdown"></div>
     <div class="page-nav-contribute"  >
-      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[엑스포트 정책에 규칙 추가](https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_adding_rules_to_export_policy.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[](https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_adding_rules_to_export_policy.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a>
       <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_adding_rules_to_export_policy.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a>
       <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/ontap-sm-classic/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a>
     </div>

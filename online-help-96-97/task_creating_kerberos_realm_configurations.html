@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head class="at-element-marker">
-  <title>Kerberos 영역 구성을 만듭니다</title>
+  <title></title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="Kerberos 영역 구성을 만듭니다" />
+  <meta property="og:title" content="" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_creating_kerberos_realm_configurations.html" />
-	<meta property="og:description" content="클라이언트 액세스에 Kerberos 인증을 사용하려면 기존 Kerberos 영역을 사용하도록 SVM(스토리지 가상 시스템)을 구성해야 합니다. System Manager를 사용하여 Kerberos 영역 구성을 생성할 수 있습니다. 이 구성을 사용하면 SVM에서 NFS에 Kerber..." />
+	<meta property="og:description" content="" />
   <meta property="og:image" content="https://docs.netapp.com/ko-kr/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
@@ -18,8 +18,8 @@
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/>
   
-  <meta name="description" content="클라이언트 액세스에 Kerberos 인증을 사용하려면 기존 Kerberos 영역을 사용하도록 SVM(스토리지 가상 시스템)을 구성해야 합니다. System Manager를 사용하여 Kerberos 영역 구성을 생성할 수 있습니다. 이 구성을 사용하면 SVM에서 NFS에 Kerber...">
-  <meta name="keywords" content=" create, kerberos, realm, configuration, storage, virtual, machine, svm, online, help">
+  <meta name="description" content="">
+  <meta name="keywords" content=" ">
   
   
 
@@ -148,6 +148,8 @@
               $("#tg-sb-icon").toggleClass('fa-toggle-off');
           });
       });
+  </script><script>
+    pageRedirect("https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/concept_kerberos_realm_services.html");
   </script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-81697994-3"></script>
   <script>
   if (document.location.hostname === "docs.netapp.com") {
@@ -5036,7 +5038,7 @@
           <a href="/ko-kr/ontap-sm-classic/">System&nbsp;Manager&nbsp;Classic</a>
         </li>
         <li class="n-breadcrumb__list-item">
-          Kerberos 영역 구성을 만듭니다
+          
         </li>
       </ul>
     </div>
@@ -5059,18 +5061,26 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">Kerberos 영역 구성을 만듭니다</h1>
+  <h1 class="n-doc__component-detail-heading"></h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-02-21 19:35:34 +0000">02/21/2022</time>
+    <time datetime="2022-02-22 00:27:05 +0000">02/22/2022</time>
     
   
 
 <span>기여자
+  <a target="_blank" href="https://github.com/netapp-aoife">
+    <img  class="avatar avatar-small"
+          alt="netapp-aoife"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/92876203?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
   <a target="_blank" href="https://github.com/NetAppZacharyWambold">
     <img  class="avatar avatar-small"
           alt="NetAppZacharyWambold"
@@ -5093,95 +5103,8 @@
 </p>
 
 
-<div class="paragraph lead">
-<p>클라이언트 액세스에 Kerberos 인증을 사용하려면 기존 Kerberos 영역을 사용하도록 SVM(스토리지 가상 시스템)을 구성해야 합니다. System Manager를 사용하여 Kerberos 영역 구성을 생성할 수 있습니다. 이 구성을 사용하면 SVM에서 NFS에 Kerberos 보안 서비스를 사용할 수 있습니다.</p>
-</div>
-<div class="ulist">
-<div class="title">시작하기 전에</div>
-<ul>
-<li>
-<p>CIFS 공유를 사용하는 경우 CIFS 라이센스를 설치해야 하며 LDAP 서버를 사용하는 경우 NFS 라이센스를 설치해야 합니다.</p>
-</li>
-<li>
-<p>DES MD5 암호화 기능이 있는 Active Directory(Windows 2003 또는 Windows 2008)를 사용할 수 있어야 합니다.</p>
-</li>
-<li>
-<p>NTP를 구성하여 표준 시간대를 설정하고 클러스터 전체에서 시간을 동기화해야 합니다.</p>
 <div class="paragraph">
-<p>이렇게 하면 인증 오류가 방지되고 로그 파일의 타임스탬프가 클러스터 전체에서 일관되도록 할 수 있습니다.</p>
-</div>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>Kerberos 영역을 만드는 동안 Kerberos 영역 만들기 마법사에서 다음 속성을 설정해야 합니다.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Kerberos 영역</p>
-</li>
-<li>
-<p>KDC IP 주소 및 포트 번호입니다</p>
-<div class="paragraph">
-<p>기본 포트 번호는 88입니다.</p>
-</div>
-</li>
-<li>
-<p>Kerberos KDC(키 배포 센터) 공급업체</p>
-</li>
-<li>
-<p>KDC 공급업체가 Microsoft가 아닌 경우 관리 서버 IP 주소입니다</p>
-</li>
-<li>
-<p>암호 서버 IP 주소입니다</p>
-</li>
-<li>
-<p>KDC 공급업체가 Microsoft인 경우 Active Directory 서버 이름 및 IP 주소</p>
-</li>
-</ul>
-</div>
-<div class="olist arabic">
-<div class="title">단계</div>
-<ol class="arabic">
-<li>
-<p>스토리지 * &gt; * SVM * 을 클릭합니다.</p>
-</li>
-<li>
-<p>SVM을 선택한 다음 * SVM 설정 * 을 클릭합니다.</p>
-</li>
-<li>
-<p>서비스 * 창에서 * Kerberos 영역 * 을 클릭합니다.</p>
-</li>
-<li>
-<p>Kerberos Realm* 창에서 * 생성 * 을 클릭합니다.</p>
-</li>
-<li>
-<p>마법사의 지시에 따라 정보를 입력하거나 선택합니다.</p>
-</li>
-<li>
-<p>세부 정보를 확인한 다음 * 마침 * 을 클릭하여 마법사를 완료합니다.</p>
-<div class="ulist">
-<ul>
-<li>
-<p>관련 정보 *</p>
-</li>
-</ul>
-</div>
-</li>
-</ol>
-</div>
-<div class="paragraph">
-<p><a href="task_setting_time_zone_for_cluster.html">클러스터의 시간대 설정</a></p>
-</div>
-<div class="paragraph">
-<p><a href="https://www.netapp.com/pdf.html?item=/media/10720-tr-4067.pdf" target="_blank" rel="noopener">"NetApp 기술 보고서 4067: NetApp ONTAP의 NFS"</a></p>
-</div>
-<div class="paragraph">
-<p><a href="https://www.netapp.com/pdf.html?item=/media/19384-tr-4616.pdf" target="_blank" rel="noopener">"NetApp 기술 보고서 4616: ONTAP에서 Microsoft Active Directory와 NFS Kerberos"</a></p>
-</div>
-<div class="paragraph">
-<p><a href="https://www.netapp.com/pdf.html?item=/media/19423-tr-4835.pdf" target="_blank" rel="noopener">"NetApp 기술 보고서 4835: ONTAP에서 LDAP를 구성하는 방법"</a></p>
+<p>=</p>
 </div>
 
     </article>
@@ -5193,7 +5116,7 @@
   <div class="page-nav-toolbar">
     <div id="version-dropdown"></div>
     <div class="page-nav-contribute"  >
-      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[Kerberos 영역 구성을 만듭니다](https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_creating_kerberos_realm_configurations.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[](https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_creating_kerberos_realm_configurations.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a>
       <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_creating_kerberos_realm_configurations.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a>
       <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/ontap-sm-classic/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a>
     </div>
