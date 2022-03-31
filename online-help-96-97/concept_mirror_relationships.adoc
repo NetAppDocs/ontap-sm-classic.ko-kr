@@ -1,13 +1,7 @@
 ---
 permalink: online-help-96-97/concept_mirror_relationships.html 
-sidebar: sidebar 
-keywords: system, manager, create, manage, mirror, relationship, policy, online, help 
-summary: System Manager를 사용하면 미러 정책을 사용하여 미러 관계를 생성하고 관리할 수 있습니다. 
+redirect: ontap/concept_dp_overview.html 
 ---
-= 관계 대칭 복사
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager를 사용하면 미러 정책을 사용하여 미러 관계를 생성하고 관리할 수 있습니다.

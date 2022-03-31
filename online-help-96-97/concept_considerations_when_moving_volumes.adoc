@@ -1,20 +1,7 @@
 ---
 permalink: online-help-96-97/concept_considerations_when_moving_volumes.html 
-sidebar: sidebar 
-keywords: move, volume, considerations, recommendations, configuration, system 
-summary: 볼륨 이동에는 이동할 볼륨 또는 시스템 구성에 따라 영향을 받는 다양한 고려 사항과 권장 사항이 있습니다. 볼륨 이동과 관련된 고려 사항을 이해해야 합니다. 
+redirect: ontap/volumes/recommendations-moving-concept.html 
 ---
-= 볼륨 이동 시 고려 사항
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-볼륨 이동에는 이동할 볼륨 또는 시스템 구성에 따라 영향을 받는 다양한 고려 사항과 권장 사항이 있습니다. 볼륨 이동과 관련된 고려 사항을 이해해야 합니다.
-
-* All Flash 최적화 개인 정보 또는 Flash Pool 애그리게이트를 사용하는 애그리게이트에서 인라인 중복제거가 활성화된 볼륨을 HDD 애그리게이트로 이동하는 경우, 볼륨에 대해 인라인 중복제거가 비활성화됩니다.
-* All-Flash 최적화 속성을 가진 애그리게이트로부터 백그라운드 중복제거 및 인라인 압축이 활성화된 볼륨을 HDD 애그리게이트로 이동하면 백그라운드 압축, 백그라운드 중복제거, 인라인 압축이 볼륨에 자동으로 활성화됩니다.
-* 백그라운드 압축이 활성화된 볼륨을 HDD 애그리게이트에 있는 상태에서 All-Flash 최적화 퍼스낼리티가 있는 애그리게이트로 이동하면 볼륨에서 백그라운드 압축이 비활성화됩니다.
-* Flash Pool 애그리게이트에서 비 Flash Pool 애그리게이트로 볼륨을 이동하는 경우 캐싱 정책 및 보존 우선순위가 사용되지 않습니다.
-* 볼륨을 비 Flash Pool 애그리게이트에서 Flash Pool 애그리게이트로 이동하는 경우 '기본' 캐싱 정책과 '기본' 보존 우선순위가 볼륨에 자동으로 할당됩니다.
 

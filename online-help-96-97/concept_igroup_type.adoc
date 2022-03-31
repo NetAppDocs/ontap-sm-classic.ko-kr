@@ -1,13 +1,7 @@
 ---
 permalink: online-help-96-97/concept_igroup_type.html 
-sidebar: sidebar 
-keywords: igroup, type, iscsi, fc, fcoe, online, help, mixed 
-summary: igroup 유형은 혼합 유형, iSCSI 또는 FC/FCoE가 될 수 있습니다. 
+redirect: ontap/san-admin/igroups-concept.html 
 ---
-= Igroup 유형입니다
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-igroup 유형은 혼합 유형, iSCSI 또는 FC/FCoE가 될 수 있습니다.

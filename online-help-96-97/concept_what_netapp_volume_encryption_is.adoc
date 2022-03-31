@@ -1,23 +1,7 @@
 ---
 permalink: online-help-96-97/concept_what_netapp_volume_encryption_is.html 
-sidebar: sidebar 
-keywords: netApp, volume, encryption, online, help 
-summary: NetApp 볼륨 암호화는 데이터를 디스크에 저장하기 전에 암호화하여 메타데이터를 포함한 사용자 데이터를 보호하는 프로세스입니다. 데이터는 적절한 인증이 제공된 후에만 암호 해독되고 사용자에게 제공됩니다. 
+redirect: ontap/encryption-at-rest/configure-netapp-volume-encryption-concept.html 
 ---
-= NetApp 볼륨 암호화는 무엇인지 설명합니다
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-NetApp 볼륨 암호화는 데이터를 디스크에 저장하기 전에 암호화하여 메타데이터를 포함한 사용자 데이터를 보호하는 프로세스입니다. 데이터는 적절한 인증이 제공된 후에만 암호 해독되고 사용자에게 제공됩니다.
-
-데이터를 암호화하려면 암호화 키가 필요합니다. 각 볼륨에 데이터의 암호화/해독 작업을 위한 암호화 키가 할당됩니다.
-
-NetApp Aggregate Encryption이 애그리게이트에서 사용하도록 설정되면 새 볼륨이 기본적으로 암호화됩니다. 볼륨 암호화는 기본 암호화를 재정의할 수 있습니다.
-
-[NOTE]
-====
-선택한 애그리게이트를 암호화하면 볼륨 암호화가 볼륨 간 스토리지 효율성에 영향을 미칩니다.
-
-====

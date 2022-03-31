@@ -1,26 +1,7 @@
 ---
 permalink: online-help-96-97/concept_managing_workload_performance_by_using_storage_qos.html 
-sidebar: sidebar 
-keywords: manage, workload, performance, storage, qos, quality, service, objective, online, help 
-summary: '스토리지 QoS(서비스 품질)를 통해 성능 목표 충족과 관련된 위험을 관리할 수 있습니다. 스토리지 QoS를 사용하여 처리량을 워크로드에 제한하거나 워크로드 성능을 모니터링할 수 있습니다. 또한, 워크로드를 능동적으로 제한하여 성능 문제를 해결할 수 있으며, 워크로드를 능동적으로 제한하여 성능 문제를 방지할 수 있습니다.' 
+redirect: ontap/performance-admin/guarantee-throughput-qos-task.html 
 ---
-= 스토리지 QoS를 사용하여 워크로드 성능 관리
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-스토리지 QoS(서비스 품질)를 통해 성능 목표 충족과 관련된 위험을 관리할 수 있습니다. 스토리지 QoS를 사용하여 처리량을 워크로드에 제한하거나 워크로드 성능을 모니터링할 수 있습니다. 또한, 워크로드를 능동적으로 제한하여 성능 문제를 해결할 수 있으며, 워크로드를 능동적으로 제한하여 성능 문제를 방지할 수 있습니다.
-
-워크로드는 다음과 같은 유형의 스토리지 오브젝트 중 하나에 대한 입출력 작업을 나타냅니다.
-
-* FlexVol 볼륨
-* LUN을 클릭합니다
-* FlexGroup 볼륨
-
-
-정책 그룹에 스토리지 객체를 할당하여 워크로드를 제어 및 모니터링할 수 있습니다. 워크로드를 제어하지 않고도 모니터링할 수 있습니다.
-
-다음 그림에서는 스토리지 QoS를 사용하기 전과 후의 샘플 환경을 보여 줍니다. 왼쪽은 워크로드가 클러스터 리소스를 두고 I/O를 전송하기 위해 경쟁합니다 이러한 워크로드는 "'최상 노력''' 성능을 내므로 성능 예측 가능성이 낮습니다(예: 워크로드가 다른 워크로드에 부정적인 영향을 줄 수 있는 그렇게 좋은 성능을 얻을 수 있음). 오른쪽에는 동일한 워크로드가 정책 그룹에 할당됩니다. 정책 그룹은 최대 처리량 제한을 적용합니다.
-
-image::../media/qos_comparison.gif[이 그래픽은 주변 텍스트로 설명됩니다.]

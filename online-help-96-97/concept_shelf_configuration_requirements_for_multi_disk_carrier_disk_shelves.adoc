@@ -1,13 +1,7 @@
 ---
 permalink: online-help-96-97/concept_shelf_configuration_requirements_for_multi_disk_carrier_disk_shelves.html 
-sidebar: sidebar 
-keywords: shelf, configuration, requirements, multi, disk, carrier, storage, shelves, online, help 
-summary: '다중 디스크 캐리어 디스크 쉘프를 동일한 스토리지 시스템과 동일한 스택 내의 단일 디스크 캐리어 디스크 쉘프(표준 디스크 쉘프)와 결합할 수 있습니다.' 
+redirect: ontap/disks-aggregates/add-disks-node-task.html 
 ---
-= 멀티 디스크 캐리어 스토리지 쉘프의 쉘프 구성 요구사항
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-다중 디스크 캐리어 디스크 쉘프를 동일한 스토리지 시스템과 동일한 스택 내의 단일 디스크 캐리어 디스크 쉘프(표준 디스크 쉘프)와 결합할 수 있습니다.

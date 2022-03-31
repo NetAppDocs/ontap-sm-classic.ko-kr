@@ -1,17 +1,7 @@
 ---
 permalink: online-help-96-97/concept_configuring_cluster_by_using_system_manager.html 
-sidebar: sidebar 
-keywords: configure, cluster, system, manager, online, help 
-summary: System Manager를 사용하여 클러스터를 구성하기 전에 특정 사전 요구사항이 충족되는지 확인해야 합니다. 
+redirect: ontap/task_configure_ontap.html 
 ---
-= System Manager를 사용하여 클러스터를 구성합니다
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-System Manager를 사용하여 클러스터를 구성하기 전에 특정 사전 요구사항이 충족되는지 확인해야 합니다.
-
-* 클러스터를 생성해야 합니다.
-* 클러스터를 구성하지 않아야 합니다.
 

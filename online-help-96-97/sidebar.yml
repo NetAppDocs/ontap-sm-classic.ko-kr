@@ -552,7 +552,7 @@ entries:
     url: "/online-help-96-97/task_starting_or_stopping_nvme_service.html"
   - title: NVMe란 무엇입니까
     url: "/online-help-96-97/concept_what_nvme_is.html"
-  - title: NVMe 서브시스템이란
+  - title: NVMe 하위 시스템 관리
     url: "/online-help-96-97/concept_what_nvme_subsystem_is.html"
   - title: NVMe 네임스페이스
     url: "/online-help-96-97/concept_nvme_namespaces.html"

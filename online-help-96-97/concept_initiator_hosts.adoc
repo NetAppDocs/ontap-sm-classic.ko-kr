@@ -1,13 +1,7 @@
 ---
 permalink: online-help-96-97/concept_initiator_hosts.html 
-sidebar: sidebar 
-keywords: initiator, host, lun, map, storage, system, igroup, group, access, member, online, help 
-summary: 이니시에이터 호스트는 매핑된 LUN에 액세스할 수 있습니다. 스토리지 시스템의 LUN을 igroup에 매핑할 때 해당 그룹의 모든 이니시에이터가 해당 LUN에 액세스할 수 있도록 합니다. 호스트가 LUN에 매핑된 igroup의 구성원이 아닌 경우 해당 호스트는 LUN에 액세스할 수 없습니다. 
+redirect: ontap/smbc/smbc_install_mapping_luns_to_the_application_hosts.html 
 ---
-= 이니시에이터 호스트
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-이니시에이터 호스트는 매핑된 LUN에 액세스할 수 있습니다. 스토리지 시스템의 LUN을 igroup에 매핑할 때 해당 그룹의 모든 이니시에이터가 해당 LUN에 액세스할 수 있도록 합니다. 호스트가 LUN에 매핑된 igroup의 구성원이 아닌 경우 해당 호스트는 LUN에 액세스할 수 없습니다.

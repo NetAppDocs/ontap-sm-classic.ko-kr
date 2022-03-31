@@ -1,13 +1,7 @@
 ---
 permalink: online-help-96-97/concept_managing_logical_storage.html 
-sidebar: sidebar 
-keywords: system, manager, storage, virtual, machine, svm, volume, qtree, protocol, policy, logical, online, help 
-summary: 'System Manager를 사용하면 SVM(스토리지 가상 머신), 볼륨, Qtree, 프로토콜, 정책 등과 같은 논리적 스토리지를 관리할 수 있습니다.' 
+redirect: ontap/volumes/index.html 
 ---
-= 논리적 스토리지 관리
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-System Manager를 사용하면 SVM(스토리지 가상 머신), 볼륨, Qtree, 프로토콜, 정책 등과 같은 논리적 스토리지를 관리할 수 있습니다.
