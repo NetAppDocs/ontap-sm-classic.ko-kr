@@ -3456,10 +3456,7 @@
   <block id="404a7f318ee6e8e246f4c3071be4d886" category="summary">System Manager를 사용하면 클러스터에 호환되는 노드를 추가하고 노드 네트워크 세부 정보를 구성하여 스토리지의 크기와 기능을 높일 수 있습니다. 노드의 요약을 볼 수도 있습니다.</block>
   <block id="c6a62b132374dc7cd9ce246b226f0034" category="doc">클러스터 확장</block>
   <block id="ec9f849d88e3343ec1fa01f24d0d7313" category="paragraph">System Manager에 로그인하면 System Manager가 케이블로 연결되었지만 클러스터에 추가되지 않은 호환 노드를 자동으로 감지하여 노드를 추가하라는 메시지를 표시합니다. 호환 노드를 추가하거나 System Manager가 노드를 감지할 때 또는 나중에 노드를 수동으로 추가할 수 있습니다.</block>
-  <block id="0c977c8bdc810ffe6e4368d55425a607" category="summary">일반적인 창 레이아웃을 이해하면 System Manager를 효과적으로 탐색하고 사용할 수 있습니다.</block>
   <block id="f292651045c183bc7c4cf9d2df59c36f" category="doc">System Manager 창 레이아웃</block>
-  <block id="3baf690fb0b5e2de1652e472abe4ad02" category="section-title">System Manager 창의 일반적인 레이아웃</block>
-  <block id="0be0391eece03484130f4d6e6fbd7cd2" category="image-alt">9 6에 대한 샘플 창 신규</block>
   <block id="6e3e3c40f2372fc650bf1ff2ca56cfce" category="summary">System Manager의 기본 보안 편집 대화 상자를 사용하여 스토리지 시스템에 접속된 iSCSI 이니시에이터에 대한 기본 보안 설정을 편집할 수 있습니다.</block>
   <block id="5991568aba1e63f0a1bd9c678aa22deb" category="list-text">초기자 보안 * 탭의 * 기본 보안 * 영역에서 * 편집 * 을 클릭합니다.</block>
   <block id="13c3537295c581d767cbacac191a5cc4" category="list-text">기본 보안 편집 * 대화 상자에서 보안 유형을 변경합니다.</block>
@@ -5090,24 +5087,8 @@
   <block id="8491b775711be80e6a608ef1ebb96121" category="list-text">변경 사항을 저장하려면 * 저장 * 을 클릭합니다.</block>
   <block id="dcddffb2d8938968d196f6db6875b251" category="summary">System Manager의 Junction Path 창을 사용하여 FlexVol 볼륨을 SVM 네임스페이스의 교차점에 마운트하거나 마운트 해제할 수 있습니다.</block>
   <block id="2b20636173a684fa0d66246f2351348f" category="doc">접합 경로</block>
-  <block id="a97d22a110939965c22ab8951485f48b" category="summary">System Manager를 사용하여 창 레이아웃을 사용자 지정할 수 있습니다. 창을 사용자 지정하여 볼 수 있는 데이터와 데이터의 표시 방법을 제어할 수 있습니다.</block>
   <block id="636a8855963f727473bac2df49f2eeb8" category="doc">창 레이아웃 사용자 정의</block>
-  <block id="9d0d1e5100cdf0ea84e0c1a69c715320" category="list-text">* 정렬 *</block>
-  <block id="54573dd2277a0755a87c3dc37a4387e9" category="inline-image-macro">위쪽 정렬 화살표용 아이콘</block>
-  <block id="94a07ccfcf0a1a20248d2b6768d12cb1" category="inline-image-macro">아래쪽 정렬 화살표 아이콘</block>
-  <block id="bd1257853afbafebdfe5accdc5ae96e0" category="paragraph">열 머리글을 클릭하여 열 항목의 정렬 순서를 변경할 수 있습니다. 열 머리글을 클릭하면 정렬 화살표(<block ref="36e54f6fb7b69323bd3f14b9184edac8" category="inline-image-macro-rx" type="image"></block> 및 <block ref="077d5c954e01c97b6dc6a898d94802c8" category="inline-image-macro-rx" type="image"></block>)가 해당 열에 나타납니다.</block>
   <block id="a1f6bd9b69c5d7f2afea049565273a91" category="list-text">* 필터링 *</block>
-  <block id="05701b7662654f0665f0992019742f34" category="paragraph">필터 아이콘(<block ref="0d0443b2cfbedaabba8459208eb255b0" category="inline-image-macro-rx" type="image"></block>)를 클릭하여 제공된 조건과 일치하는 항목만 표시합니다. 그런 다음 문자 필터(?)를 사용할 수 있습니다. 또는 문자열 필터(*)를 사용하여 검색 범위를 좁힙니다. 열 머리글 위로 마우스 포인터를 이동하면 필터 아이콘이 표시됩니다.</block>
-  <block id="5634249a687f6f9e8f10f33996f713e0" category="paragraph">하나 이상의 열에 필터를 적용할 수 있습니다.</block>
-  <block id="099c10bd400d264498a1a2276b969d9f" category="paragraph">실제 크기 필드나 사용 가능한 크기 필드에 필터를 적용할 경우 해당 필드에 단위 접미사를 입력하지 않고 입력하는 값은 바이트 단위로 간주됩니다. 예를 들어 물리적 크기 필드에 단위를 지정하지 않고 1000을 입력하면 값이 자동으로 1000바이트로 간주됩니다.</block>
-  <block id="ae673d4c2ab28945e3da9c06c5d91553" category="list-text">* 열 숨기기 또는 표시 *</block>
-  <block id="8f1127f4e11c8b028af2fec42700572a" category="paragraph">열 표시 아이콘(*<block ref="6fbaf45a0bdcb30f20f6cb2f70aa2e50" category="inline-image-macro-rx" type="image"></block> 표시/숨기기 *)를 클릭하여 표시할 열을 선택합니다. 적절한 열을 선택한 후 마우스를 사용하여 끌어서 순서를 다시 지정할 수 있습니다.</block>
-  <block id="7de84206aeb5bf9998fcffd5e132d785" category="list-text">* 레이아웃 사용자 지정 *</block>
-  <block id="93a36d30b9bcccd374827e178e266005" category="paragraph">개체 영역 목록의 맨 아래를 위나 아래로 끌어 창의 주 영역의 크기를 조정할 수 있습니다. 관련 개체 목록과 보기 패널 목록을 표시하거나 숨길 수도 있습니다. 세로 구분선을 끌어 창의 열 또는 다른 영역의 너비를 조정할 수 있습니다.</block>
-  <block id="184205d666e871fef297df55a2c4cc58" category="list-text">* 검색 중 *</block>
-  <block id="ad59505165e7de785e587f6aef45780e" category="paragraph">검색 상자를 사용하여 볼륨, LUN, Qtree, 네트워크 인터페이스, SVM(스토리지 가상 머신), 애그리게이트, 디스크 또는 이더넷 포트 또는 이러한 모든 개체를 검색할 수 있습니다. 결과를 클릭하여 개체의 정확한 위치로 이동할 수 있습니다.</block>
-  <block id="694c3d70b13369b037a06ec22b977a84" category="list-text">하나 이상의 \{\\\이(가) 포함된 개체를 검색할 때 ^\&gt;\ | 문자, 결과가 올바르게 표시되지만 페이지의 올바른 행으로 이동하지 않습니다.</block>
-  <block id="aa85cd51e1dc17a1c77d803dd48a0161" category="list-text">객체를 검색하는 데 물음표 \(?\) 문자를 사용해서는 안 됩니다.</block>
   <block id="a19995cfebd696ce543310362d9dd40d" category="doc">디스크에 필요한 최소 핫 스페어 수입니다</block>
   <block id="e3094dcca3c90e0404f8f6620d6d3e28" category="doc">NetApp 볼륨 암호화는 무엇인지 설명합니다</block>
   <block id="4a189c2be9f6660c5dbd0b10ea4ef8ed" category="summary">System Manager를 사용하면 SVM(스토리지 가상 머신) 컴퓨터 계정이 연결되는 기본 도메인 컨트롤러를 삭제할 수 있습니다. 특정 도메인 컨트롤러를 더 이상 사용하지 않으려는 경우 이 작업을 수행할 수 있습니다.</block>
@@ -9063,4 +9044,5 @@
   <block id="67f089ce62f54b39419b9b13e6c8663d" category="section-title">BranchCache 설정을 수정합니다</block>
   <block id="b66b8b21cafa185908f6cd71627ccf41" category="doc">NVMe 하위 시스템 관리</block>
   <block id="ab0d1f1c8eac759e4de3ff1f519e6f70" category="paragraph">인터페이스가 속한 서브넷을 지정합니다. MX * * 역할 *</block>
+  <block id="d262dc861cfb38f39b59d63acb258d4d" category="section-title">MetroCluster 전환 및 스위치백에 대해 설명합니다</block>
 </blocks>
