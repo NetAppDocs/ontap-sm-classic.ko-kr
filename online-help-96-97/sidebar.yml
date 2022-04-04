@@ -133,7 +133,7 @@ entries:
     - title: Configuration Updates(구성 업데이트) 창
       url: "/online-help-96-97/reference_configuration_updates_window.html"
   - title: MetroCluster 전환 및 스위치백
-    url: "/online-help-96-97/concept_metrocluster_switchover_switchback.html"
+    url: "/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html"
     entries:
     - title: MetroCluster 전환 및 스위치백 워크플로우
       url: "/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html"
@@ -204,16 +204,10 @@ entries:
   url: "/online-help-96-97/concept_ldap.html"
 - title: 사용자
   url: "/online-help-96-97/concept_cluster_user_accounts.html"
-  entries:
-  - title: 역할
-    url: "/online-help-96-97/concept_roles_conceptual.html"
 - title: 역할
   url: "/online-help-96-97/concept_roles.html"
 - title: 네트워크를 관리합니다
   url: "/online-help-96-97/concept_managing_network.html"
-  entries:
-  - title: 네트워크 창
-    url: "/online-help-96-97/reference_network_window.html"
 - title: IPspace
   url: "/online-help-96-97/concept_ipspaces.html"
 - title: 브로드캐스트 도메인
