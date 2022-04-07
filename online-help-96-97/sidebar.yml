@@ -13,7 +13,6 @@ entries:
 - title: ONTAP 시스템 관리자의 향상된 기능
   url: "/online-help-96-97/concept_system_manager_enhancements.html"
 - title: ONTAP 시스템 관리자를 사용하여 클러스터를 설정합니다
-  url: "/online-help-96-97/task_setting_up_cluster_by_using_oncommand_system_manager.html"
   entries:
   - title: 템플릿 파일을 사용하여 클러스터를 설정합니다
     url: "/online-help-96-97/task_setting_up_cluster_using_template_file.html"
@@ -41,16 +40,12 @@ entries:
   url: "/online-help-96-97/task_configuring_system_manager_options.html"
 - title: ONTAP 시스템 관리자 로그 파일을 봅니다
   url: "/online-help-96-97/task_viewing_system_manager_log_files.html"
-  entries:
-  - title: 시스템 로깅 작동 방식
-    url: "/online-help-96-97/concept_how_system_logging_works.html"
 - title: System Manager를 사용하여 클러스터를 구성합니다
   url: "/online-help-96-97/concept_configuring_cluster_by_using_system_manager.html"
   entries:
   - title: ONTAP System Manager의 브라우저 기반 그래픽 인터페이스를 사용하여 클러스터에 액세스합니다
     url: "/online-help-96-97/task_accessing_cluster_by_using_system_manager_brower_based_gui.html"
 - title: 클러스터를 설정합니다
-  url: "/online-help-96-97/task_updating_cluster_name.html"
   entries:
   - title: 클러스터 이름을 업데이트합니다
     url: "/online-help-96-97/task_updating_cluster_name.html"
@@ -75,7 +70,6 @@ entries:
 - title: 네트워크를 설정합니다
   url: "/online-help-96-97/concept_setting_up_network.html"
 - title: 물리적 스토리지 설정
-  url: "/online-help-96-97/task_assigning_disks_to_nodes.html"
   entries:
   - title: 노드에 디스크 할당
     url: "/online-help-96-97/task_assigning_disks_to_nodes.html"
@@ -133,7 +127,7 @@ entries:
     - title: Configuration Updates(구성 업데이트) 창
       url: "/online-help-96-97/reference_configuration_updates_window.html"
   - title: MetroCluster 전환 및 스위치백
-    url: "/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html"
+    url: "/online-help-96-97/concept_metrocluster_switchover_switchback.html"
     entries:
     - title: MetroCluster 전환 및 스위치백 워크플로우
       url: "/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html"
@@ -204,10 +198,16 @@ entries:
   url: "/online-help-96-97/concept_ldap.html"
 - title: 사용자
   url: "/online-help-96-97/concept_cluster_user_accounts.html"
+  entries:
+  - title: 역할
+    url: "/online-help-96-97/concept_roles_conceptual.html"
 - title: 역할
   url: "/online-help-96-97/concept_roles.html"
 - title: 네트워크를 관리합니다
   url: "/online-help-96-97/concept_managing_network.html"
+  entries:
+  - title: 네트워크 창
+    url: "/online-help-96-97/reference_network_window.html"
 - title: IPspace
   url: "/online-help-96-97/concept_ipspaces.html"
 - title: 브로드캐스트 도메인
@@ -546,7 +546,7 @@ entries:
     url: "/online-help-96-97/task_starting_or_stopping_nvme_service.html"
   - title: NVMe란 무엇입니까
     url: "/online-help-96-97/concept_what_nvme_is.html"
-  - title: NVMe 하위 시스템 관리
+  - title: NVMe 서브시스템이란
     url: "/online-help-96-97/concept_what_nvme_subsystem_is.html"
   - title: NVMe 네임스페이스
     url: "/online-help-96-97/concept_nvme_namespaces.html"

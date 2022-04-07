@@ -9045,4 +9045,5 @@
   <block id="b66b8b21cafa185908f6cd71627ccf41" category="doc">NVMe 하위 시스템 관리</block>
   <block id="ab0d1f1c8eac759e4de3ff1f519e6f70" category="paragraph">인터페이스가 속한 서브넷을 지정합니다. MX * * 역할 *</block>
   <block id="d262dc861cfb38f39b59d63acb258d4d" category="section-title">MetroCluster 전환 및 스위치백에 대해 설명합니다</block>
+  <block id="c3b9dfd292bc1b7a3ce9854f5e6cb29d" category="sidebar">NVMe 서브시스템이란</block>
 </blocks>
