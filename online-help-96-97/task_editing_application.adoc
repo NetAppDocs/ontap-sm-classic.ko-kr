@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: edit, application, online, help, provisioned, snapshot, copy 
 summary: 프로비저닝된 애플리케이션을 편집하여 스토리지 크기를 늘리거나 애플리케이션의 스냅샷 복사본을 관리할 수 있습니다. 
 ---
-= 응용 프로그램 편집
+= System Manager - ONTAP 9.7 이하를 사용하여 애플리케이션을 편집합니다
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-프로비저닝된 애플리케이션을 편집하여 스토리지 크기를 늘리거나 애플리케이션의 스냅샷 복사본을 관리할 수 있습니다.
+ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 프로비저닝된 애플리케이션을 편집하여 스토리지 크기를 늘리거나 애플리케이션의 스냅샷 복사본을 관리할 수 있습니다.
 
 클러스터 관리자는 애플리케이션을 프로비저닝한 후 이를 편집하여 스토리지 크기를 수정할 수 있습니다. 애플리케이션의 스냅샷 복사본을 생성, 복원, 삭제할 수도 있습니다. 다음 예제 절차에서는 * NAS Container * 응용 프로그램을 편집하는 방법에 대해 설명합니다.
 

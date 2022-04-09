@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: access, clister, ontap, system, manager, graphic, interface, lif, node, management, online, help 
 summary: 클러스터 액세스 및 관리에 명령줄 인터페이스 대신 그래픽 인터페이스를 사용하려면 ONTAP에 웹 서비스로 포함되어 있는 ONTAP System Manager를 기본적으로 사용하도록 설정되어 있으며 브라우저를 통해 액세스할 수 있습니다. 
 ---
-= ONTAP System Manager의 브라우저 기반 그래픽 인터페이스를 사용하여 클러스터에 액세스
+= System Manager - ONTAP 9.7 이전에서 브라우저 기반 그래픽 인터페이스를 사용하여 클러스터에 액세스합니다
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-클러스터 액세스 및 관리에 명령줄 인터페이스 대신 그래픽 인터페이스를 사용하려면 ONTAP에 웹 서비스로 포함되어 있는 ONTAP System Manager를 기본적으로 사용하도록 설정되어 있으며 브라우저를 통해 액세스할 수 있습니다.
+클러스터 액세스 및 관리에 명령줄 인터페이스 대신 그래픽 인터페이스를 사용하려면 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용할 수 있습니다. ONTAP 시스템 관리자는 ONTAP에 웹 서비스로 포함되어 있으며 기본적으로 사용하도록 설정되어 있으며 브라우저를 통해 액세스할 수 있습니다.
 
 .시작하기 전에
 * admin 역할과 http, ontapi, console 애플리케이션 유형으로 구성된 클러스터 사용자 계정이 있어야 합니다.

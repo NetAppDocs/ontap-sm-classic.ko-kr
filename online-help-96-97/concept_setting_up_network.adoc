@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: online, help, set, up, network, ipspace, broadcast, domain, subnet, system, manager, cluster, range 
 summary: 네트워크 설정은 IPspace 생성, 브로드캐스트 도메인 및 서브넷으로 구성됩니다. 
 ---
-= 네트워크를 설정합니다
+= System Manager - ONTAP 9.7 이하를 사용하여 네트워크를 설정합니다
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-네트워크 설정은 IPspace 생성, 브로드캐스트 도메인 및 서브넷으로 구성됩니다.
+ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 네트워크를 설정할 수 있습니다. 네트워크 설정은 IPspace 생성, 브로드캐스트 도메인 및 서브넷으로 구성됩니다.
 
 
 

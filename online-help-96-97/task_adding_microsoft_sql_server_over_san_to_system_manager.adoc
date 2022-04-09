@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: add, microsoft, sql, server, san, system, manager, online, help, enhanced, tab 
 summary: Enhanced 탭을 사용하여 SAN을 통한 Microsoft SQL Server의 인스턴스를 System Manager에 추가할 수 있습니다. 
 ---
-= SAN을 통해 Microsoft SQL Server를 System Manager에 추가합니다
+= SAN을 통한 Microsoft SQL Server를 System Manager-ONTAP 9.7 이하에 추가합니다
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-Enhanced 탭을 사용하여 SAN을 통한 Microsoft SQL Server의 인스턴스를 System Manager에 추가할 수 있습니다.
+고급 탭을 사용하여 SAN을 통한 Microsoft SQL Server의 인스턴스를 ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)에 추가할 수 있습니다.
 
 다음 절차에서는 SAN을 통해 System Manager에 * Microsoft SQL Server * 인스턴스를 추가하는 방법에 대해 설명합니다. 스토리지 가상 시스템(SVM)에서 구성되어야 하는 CIFS에 대한 라이센스가 클러스터에 부여된 경우에만 SMB를 엑스포트 프로토콜로 선택할 수 있습니다.
 

@@ -1594,7 +1594,6 @@
   <block id="20776d1dd2b008e001dceec1b6cbedcd" category="paragraph">ONTAP는 사용자 인증, 파일 액세스 인증, NFS와 CIFS 간의 사용자 조회 및 매핑 서비스를 위해 LDAP를 지원합니다.</block>
   <block id="dbe63deae24a1ac56f258042500b3305" category="summary">SVM(스토리지 가상 시스템)에서 iSCSI 프로토콜을 구성하여 System Manager를 통해 블록 레벨 데이터 액세스를 제공할 수 있습니다. iSCSI LIF 및 포트 세트를 생성한 다음 포트 세트에 LIF를 추가할 수 있습니다. LIF는 가장 적합한 어댑터에 생성되며 데이터 경로 이중화를 위해 포트 세트에 할당됩니다.</block>
   <block id="743678d9f4d1e8a05f4a0fd6667f7efe" category="doc">SVM에서 iSCSI 프로토콜을 구성합니다</block>
-  <block id="db5c81b0fda6ea83507949af2d378a7d" category="paragraph">SVM(스토리지 가상 시스템)에서 iSCSI 프로토콜을 구성하여 System Manager를 통해 블록 레벨 데이터 액세스를 제공할 수 있습니다. iSCSI LIF 및 포트 세트를 생성한 다음 포트 세트에 LIF를 추가할 수 있습니다. LIF는 가장 적합한 어댑터에 생성되며 데이터 경로 이중화를 위해 포트 세트에 할당됩니다.</block>
   <block id="d6c2a820e6d7f75d52b288e7f1ec5734" category="list-text">클러스터에서 iSCSI 라이센스를 활성화해야 합니다.</block>
   <block id="37896c639f865da977570ea72f08b8ec" category="paragraph">SVM에서 iSCSI 프로토콜이 활성화되어 있지 않으면 스토리지 가상 시스템 편집 창을 사용하여 SVM용 프로토콜을 활성화할 수 있습니다.</block>
   <block id="96222e8bf67f5da9b7b2f526d964507c" category="list-text">클러스터의 모든 노드가 정상 상태여야 합니다.</block>
@@ -1684,7 +1683,6 @@
   <block id="94e80a5c6aebdad56ccfe545543a6df0" category="list-text">복제된 네임스페이스에 대한 하위 시스템 매핑을 수정합니다.</block>
   <block id="4092a1ceef095b1973e52cd2d90cb110" category="paragraph">온라인 매핑 네임스페이스가 동일한 SVM 내에서 서로 다른 이름으로 복제됩니다. 호스트 매핑은 복제되지 않습니다.</block>
   <block id="330c5bad0b924f532120259d86b27ed2" category="summary">System Manager를 사용하여 IPspace, 브로드캐스트 도메인, 서브넷, 네트워크 인터페이스, 이더넷 포트 를 생성 및 관리하여 스토리지 시스템 네트워크를 관리할 수 있습니다. 및 FC/FCoE 어댑터.</block>
-  <block id="025953fa42c5815bac2c4fb72f3ed554" category="doc">네트워크 관리</block>
   <block id="7a629c4cea107743a2f177619b7cf086" category="doc">볼트 관계</block>
   <block id="a43a3561a36ced737e2f660ba584cd61" category="doc">SSD 스토리지 풀을 사용합니다</block>
   <block id="b0267fe87585ca235d84f0c74c4033d1" category="paragraph">여러 Flash Pool 애그리게이트에서 SSD를 공유하려면 SSD를 _storage pool_에 추가하면 됩니다. 스토리지 풀에 SSD를 추가한 후에는 SSD를 더 이상 독립 실행형 엔터티로 관리할 수 없습니다. 스토리지 풀을 사용하여 SSD에서 제공하는 스토리지를 할당하거나 할당해야 합니다.</block>
@@ -1985,7 +1983,6 @@
   <block id="7a90fce9ee937c279fd329ae168b366a" category="list-text">BranchCache 버전입니다</block>
   <block id="c76634372559d896d4884f617ad0b132" category="list-text">Modify * 를 클릭합니다.</block>
   <block id="3496a6d356a7320285b99106f829a38c" category="summary">Storage 창을 사용하여 애그리게이트 생성을 위해 제공되는 스토리지 권장 사항을 검토할 수 있습니다.</block>
-  <block id="175b69debc5c5b4491f061dc89f6aba4" category="doc">스토리지 권장 사항 검토</block>
   <block id="91f4f84e6629fac6e9b0e3ba21dd42d5" category="paragraph">클러스터, 네트워크 및 지원 세부 정보를 설정해야 합니다.</block>
   <block id="7685f1866c53d5f16ab5612e140230bf" category="paragraph">스토리지 권장 사항에 따라 데이터 애그리게이트를 생성할 수 있습니다. 그렇지 않을 경우, System Manager를 사용하여 이 단계를 건너뛰고 나중에 데이터 애그리게이트를 생성할 수 있습니다.</block>
   <block id="55d9afe0ac18b4357f6915a7d602ef8a" category="list-text">스토리지 권장 사항에 따라 데이터 애그리게이트를 생성하려면 * Submit and Continue * 를 클릭합니다.</block>
@@ -2099,7 +2096,6 @@
   <block id="f373fcf797d98fa92f12ab2c64720bee" category="list-text">Setup* 창에서 * SNMP * 를 클릭합니다.</block>
   <block id="539bcc4e07dd9eab907281e258776c49" category="list-text">SNMP * 창에서 * Test Trap Host * 를 클릭합니다.</block>
   <block id="0d1d13459bc7ae92a63cd34caa6fd85f" category="summary">논리적 스토리지 설정은 SVM(스토리지 가상 머신) 및 볼륨을 생성하는 것으로 구성됩니다.</block>
-  <block id="16df33ef9f8b504fc8624c96e2de218a" category="doc">논리적 스토리지 설정</block>
   <block id="d27a348a8a5fed8494cd123b1de658a7" category="summary">System Manager를 사용하여 LDAP 클라이언트 구성을 추가, 편집 및 삭제할 수 있습니다.</block>
   <block id="f6ea9f18f1983aa1704ecf4d6b338b19" category="doc">LDAP 클라이언트 서비스</block>
   <block id="5a80ad07474cac4dee95efc76e8c6388" category="summary">스토리지 권장 사항에 따라 애그리게이트를 생성할 수 있으며, 요구사항에 따라 수동으로 생성할 수도 있습니다. System Manager를 사용하여 Flash Pool 애그리게이트, SnapLock 애그리게이트 및 FabricPool 지원 애그리게이트를 만들어 하나 이상의 볼륨에 스토리지를 제공할 수 있습니다.</block>
@@ -2677,7 +2673,6 @@
   <block id="4216ad1e709a7634134e14c2170d7512" category="doc">CIFS 프로토콜</block>
   <block id="bcbcfcff99d92a05a766e59d232122cd" category="paragraph"><block ref="bcbcfcff99d92a05a766e59d232122cd" category="inline-link-rx"></block></block>
   <block id="fd8b9922472f611431b669f2111a1682" category="summary">프로비저닝된 애플리케이션을 편집하여 스토리지 크기를 늘리거나 애플리케이션의 스냅샷 복사본을 관리할 수 있습니다.</block>
-  <block id="2de598795d75058cf5747c9d44cbf181" category="doc">응용 프로그램 편집</block>
   <block id="4ac5177ba3ff9a481605535de99d471a" category="paragraph">클러스터 관리자는 애플리케이션을 프로비저닝한 후 이를 편집하여 스토리지 크기를 수정할 수 있습니다. 애플리케이션의 스냅샷 복사본을 생성, 복원, 삭제할 수도 있습니다. 다음 예제 절차에서는 * NAS Container * 응용 프로그램을 편집하는 방법에 대해 설명합니다.</block>
   <block id="fc4415ee0d1d547e060eaca8f85cf1fc" category="list-text">NAS 컨테이너 애플리케이션의 이름을 클릭합니다.</block>
   <block id="3552c809aadc1bdb69ae50a0569d2d55" category="paragraph">응용 프로그램 목록을 보는 동안 다른 사용자가 CLI 또는 REST API를 사용하여 새 응용 프로그램을 추가하는 경우 목록을 스크롤할 때 해당 새 응용 프로그램을 볼 수 없습니다.</block>
@@ -2873,7 +2868,6 @@
   <block id="f2a6a6dfe9a7cb508ec1e1f475d326dc" category="inline-xref-macro">네트워크 인터페이스를 생성하는 중입니다</block>
   <block id="fb76cff15fca8eb5a92873d1305f5c06" category="paragraph"><block ref="fb76cff15fca8eb5a92873d1305f5c06" category="inline-xref-macro-rx"></block></block>
   <block id="bf36b1f68a83ab44ec8857d00bf07123" category="summary">지원 페이지를 설정하면 클러스터 설정이 완료되고, 이벤트 알림을 설정하고, 단일 노드 클러스터의 경우 시스템 백업을 구성해야 합니다.</block>
-  <block id="2c554c16208064de942fc12a91a69425" category="doc">지원 페이지 설정</block>
   <block id="48d6f229da37c25d28f2eb8f3ad52b8f" category="paragraph">클러스터 및 네트워크를 설정해야 합니다.</block>
   <block id="dfccb1b663aff19e64bfc8443b2dab98" category="list-text">mailhost 또는 SNMP 트랩 호스트 또는 Syslog 서버를 사용하여 이벤트 알림을 설정합니다.</block>
   <block id="54deedc055027a3f162d218117ee40df" category="paragraph">이벤트 알림 시스템을 하나 이상 설정해야 합니다.</block>
@@ -2882,7 +2876,6 @@
   <block id="3c05ddb434281bdc0487749e22b8a582" category="list-text">제출 및 계속 * 을 클릭합니다.</block>
   <block id="8fa7fd3cf78e0a0c23049f639cfd0334" category="paragraph">스토리지 권장사항을 확인하고 SVM을 생성하여 클러스터 설정을 계속 진행합니다.</block>
   <block id="13c1b8619e5d72fc421632cfdcc39164" category="summary">System Manager를 사용하여 고가용성(HA) 쌍의 클러스터 또는 개별 노드를 업데이트할 수 있습니다. 업데이트를 수행하려면 ONTAP 이미지를 선택하고 클러스터 또는 HA 쌍의 개별 노드가 업데이트 준비가 되었는지 확인한 다음 업데이트를 수행해야 합니다.</block>
-  <block id="fa6e01d3b59e1a0136053de115cb2d3c" category="doc">비 MetroCluster 구성에서 클러스터 업데이트</block>
   <block id="a641131755584229b6a82aeeabc83cdb" category="image-alt">클러스터를 업데이트하는 중입니다</block>
   <block id="d04e5f519989e5f2ca95f9541ffe17a0" category="inline-link">ONTAP를 업그레이드합니다</block>
   <block id="06ad2274f297ab67ff2225385dc0f3e8" category="paragraph"><block ref="06ad2274f297ab67ff2225385dc0f3e8" category="inline-link-rx"></block></block>
@@ -3774,7 +3767,6 @@
   <block id="4201cf9b4144790a1c7a903f60d587fc" category="list-text">필요한 볼륨을 확장합니다.</block>
   <block id="4d819dd5de8d257701277c985c8db295" category="list-text">삭제할 스냅샷 복사본을 선택합니다.</block>
   <block id="bb8ff4695840b5ed0008de0d847a484e" category="summary">System Manager를 사용하여 단일 노드 클러스터를 업데이트할 수 있습니다.</block>
-  <block id="3620000c8528c2a54bf1434015baf50d" category="doc">단일 노드 클러스터 업데이트</block>
   <block id="8c7df3f93f783cb5f0e8c0794bacded8" category="list-text">클러스터는 ONTAP 9.4 이상을 실행해야 합니다.</block>
   <block id="010c8c583e9f5d5af3598c0df4db8122" category="list-text">NetApp Support 사이트에서 네트워크의 HTTP 서버, 네트워크의 FTP 서버 또는 로컬 시스템으로 소프트웨어 이미지를 복사하여 노드가 이미지에 액세스할 수 있도록 해야 합니다.</block>
   <block id="996692c5ebe343c82a51a2ab5a0347cc" category="inline-link-macro">ONTAP 소프트웨어 이미지를 가져오는 중입니다</block>
@@ -4104,7 +4096,6 @@
   <block id="8e33bcb19b3ebee0d06e874b21519678" category="paragraph">다음 순서도는 스위치오버 및 스위치백 작업을 시작할 때 발생하는 단계와 프로세스를 보여줍니다.</block>
   <block id="d2433a156dea88c5bc9b3fe8dbe2183e" category="image-alt">스위치오버 스위치백 워크플로우</block>
   <block id="5874224252f9cf3d3fea759bc537dc53" category="summary">클러스터를 설정하려면 구성 정보 수집, 클러스터 관리 및 노드 관리 인터페이스 생성, 라이센스 추가, 클러스터 시간 설정, HA 쌍 모니터링 등이 포함됩니다.</block>
-  <block id="b418e6f88f4c95341a5b126a8b9b98f9" category="doc">클러스터를 설정하는 중입니다</block>
   <block id="00f6ac827cdcb4be5c0756e897cdfe12" category="doc">RAID 그룹의 크기를 조정할 때의 고려 사항</block>
   <block id="72537f33d2af240bd41252245957df8c" category="summary">디스크는 ONTAP 소프트웨어를 사용하여 네이티브 디스크 쉘프에 액세스하는 스토리지 시스템을 위한 기본 스토리지 단위입니다. 어레이 LUN은 타사 스토리지 어레이가 ONTAP 소프트웨어를 실행하는 스토리지 시스템에 제공하는 스토리지의 기본 단위입니다.</block>
   <block id="c6d065291b330a09917495aa2f8690ad" category="doc">디스크 및 어레이 LUN 정보</block>
@@ -4444,7 +4435,6 @@
   <block id="ddee7ab37edad340f70192fb7aceb260" category="paragraph">클러스터 관리자는 모든 스케줄 관리 작업을 수행할 수 있습니다.</block>
   <block id="7621005c14d22f767bd63bed4e2745b6" category="summary">System Manager를 사용하여 SnapLock 규정 준수 애그리게이트 또는 SnapLock 엔터프라이즈 애그리게이트를 수동으로 생성할 수 있습니다. 이러한 애그리게이트에서 SnapLock 볼륨을 생성하여 "WORM(Write Once, Read Many)" 기능을 제공할 수 있습니다.</block>
   <block id="8018f4064283c55dfa6bfec30f453db2" category="doc">SnapLock 애그리게이트를 수동으로 생성하여 스토리지 용량 할당</block>
-  <block id="6faa7c62a88da19aaebbb091dbe70564" category="paragraph">System Manager를 사용하여 SnapLock 규정 준수 애그리게이트 또는 SnapLock 엔터프라이즈 애그리게이트를 수동으로 생성할 수 있습니다. 이러한 애그리게이트에는 ""WORM(Write Once, Read Many)" 기능을 제공하는 SnapLock 볼륨을 생성할 수 있습니다.</block>
   <block id="38ef748223faace4d3330c24cb1484f8" category="paragraph">SnapLock 라이센스가 추가되어야 합니다.</block>
   <block id="77db25bdfb80aa1d0ccdedf1bf8c4811" category="list-text">MetroCluster 구성에서는 SnapLock 엔터프라이즈 애그리게이트만 생성할 수 있습니다.</block>
   <block id="7f2385194f8b9f77992e74007f1eba1c" category="list-text">어레이 LUN의 경우 SnapLock 엔터프라이즈 애그리게이트만 지원됩니다.</block>
@@ -4854,7 +4844,6 @@
   <block id="b64e2f96d46281df4a5271bb1d831855" category="inline-xref-macro">클러스터 생성</block>
   <block id="3903c3a242b2e044c5dcb5ae9a3c4b51" category="paragraph"><block ref="3903c3a242b2e044c5dcb5ae9a3c4b51" category="inline-xref-macro-rx"></block></block>
   <block id="1116cd5308713dce06806b71a7e197fa" category="summary">System Manager를 사용하여 클러스터의 MetroCluster 로컬 사이트(사이트 A)의 이름을 바꿀 수 있습니다.</block>
-  <block id="b0af0806570cc2a75d62782ced9868c0" category="doc">MetroCluster 로컬 사이트 이름 바꾸기(사이트 A)</block>
   <block id="83519546c0907279c9042a2ad400f3a2" category="list-text">구성 * &gt; * 구성 업데이트 * 를 클릭합니다.</block>
   <block id="d463cc8cd485894dda55a3f4689dc89c" category="list-text">Update cluster name * 을 클릭합니다.</block>
   <block id="cafdb1219cee48c72aefb4a06983873c" category="list-text">텍스트 상자의 이름을 업데이트한 다음 * 제출 * 을 클릭합니다.</block>
@@ -5408,8 +5397,6 @@
   <block id="04c36c55e8892977b923568776e073cb" category="summary">포트는 노드 아래에 그룹화되며 노드는 선택한 프로토콜 범주에 따라 표시됩니다. 예를 들어, 데이터가 FC 프로토콜을 사용하여 처리되는 경우 FCP 어댑터를 사용하는 노드만 표시됩니다. 호스팅된 인터페이스 수를 사용하면 로드가 적은 포트를 선택할 수 있습니다.</block>
   <block id="98631bfcb7b678591f474a9781b3bae4" category="doc">포트 및 어댑터</block>
   <block id="d46b2937e2285b1f4549b1a899447e11" category="summary">System Manager를 사용하면 클라이언트 데이터에 대한 액세스를 중단하지 않고 ONTAP 8.3.1 이상을 실행하는 고가용성 \(HA\) 쌍의 클러스터 또는 개별 노드를 특정 버전의 ONTAP 소프트웨어로 업데이트할 수 있습니다.</block>
-  <block id="c6fd0119fcfdaae262a911539fdc1bb4" category="doc">클러스터를 중단 없이 업데이트</block>
-  <block id="0d047c979666b9d6c047c96b6b65b350" category="paragraph">System Manager를 사용하면 클라이언트 데이터에 대한 액세스를 중단하지 않고 ONTAP 8.3.1 이상을 실행하는 고가용성(HA) 쌍의 클러스터 또는 개별 노드를 특정 버전의 ONTAP 소프트웨어로 업데이트할 수 있습니다.</block>
   <block id="96f1d6d6f65128c740d1450ffd86ce13" category="list-text">모든 노드는 HA Pair에 있어야 합니다.</block>
   <block id="62e49ec5e6accee5e8900e9c4fcce47b" category="list-text">모든 노드가 정상 상태여야 합니다.</block>
   <block id="49c254f1ba24d674cf235dd320a4b658" category="list-text">노드가 이미지에 액세스할 수 있도록 NetApp Support 사이트에서 네트워크의 HTTP 서버 또는 FTP 서버로 소프트웨어 이미지를 복사해야 합니다.</block>
@@ -5976,7 +5963,6 @@
   <block id="c10a7f4927ffc0a67a152b6bd7a850a1" category="list-text">확인할 경고를 선택한 다음 * 확인 * 을 클릭합니다.</block>
   <block id="5c885a7f69d642e609b2c5918b9feb4b" category="list-text">이름을 입력한 다음 * 확인 * 을 클릭합니다.</block>
   <block id="84d0f7303009d80900e094798330a9ba" category="summary">System Manager를 사용하여 고가용성(HA) 쌍의 클러스터 또는 개별 노드를 업데이트할 수 있습니다. MetroCluster 구성에서 클러스터를 업데이트할 수도 있습니다.</block>
-  <block id="4040ab9508dbaa9e8d9275b7795b4928" category="doc">클러스터 업데이트 중</block>
   <block id="ab35b7817bd307ff4176e83148f643b7" category="doc">클러스터를 무중단으로 업데이트합니다</block>
   <block id="cb8bdf49106d7b30dd41f2380f55d146" category="summary">System Manager를 사용하면 기본 인증 정보와 모든 이니시에이터별 인증 정보를 볼 수 있습니다.</block>
   <block id="e5d5dcf6adf8fa0a2653761cad66aa79" category="list-text">iSCSI * 창의 * 초기자 보안 * 탭에서 세부 정보를 검토합니다.</block>
@@ -5986,7 +5972,6 @@
   <block id="4ef4930e08c8b2f260f62e076f67e705" category="paragraph">관리 트래픽을 격리할 수 없거나 전용 관리 네트워크가 비정상적으로 큰 경우 네트워크 트래픽 볼륨을 가능한 낮게 유지해야 합니다. 브로드캐스트 또는 멀티캐스트 트래픽이 과도하게 유입될 경우 SP/BMC 성능이 저하될 수 있습니다.</block>
   <block id="0d990aea80feb12aab15da4ded235949" category="paragraph">AFF A800과 같은 일부 스토리지 컨트롤러에는 BMC용 포트 2개와 e0M용 포트 1개가 있습니다. 이러한 컨트롤러의 경우 동일한 IP 서브넷에 BMC 및 e0M을 구성할 필요가 없습니다.</block>
   <block id="bb6179eeaaa19115df8e1ebff0fb181b" category="summary">더 이상 필요하지 않은 경우 프로비저닝된 애플리케이션을 삭제할 수 있습니다.</block>
-  <block id="54bb3efe7f4aa59e54ab0cb37231cc87" category="doc">응용 프로그램을 삭제하는 중입니다</block>
   <block id="cf1ec3c79763ae8384e9fd61bf210cbd" category="paragraph">클러스터 관리자는 애플리케이션을 프로비저닝한 후에 더 이상 필요하지 않을 때 삭제할 수 있습니다. 다음 예제 절차에서는 * NAS Container * 응용 프로그램을 삭제하는 방법에 대해 설명합니다.</block>
   <block id="1663a078f54fee1b43b7f8a9f0bee2ce" category="list-text">NAS 컨테이너 애플리케이션의 이름을 클릭합니다.</block>
   <block id="46e6f8271554bf1305e8c82a29e522e4" category="paragraph">대화 상자에 이 응용 프로그램을 삭제할 것인지 묻는 경고 메시지가 표시됩니다.</block>
@@ -6174,7 +6159,6 @@
   <block id="1ad11572af939ebc81483c42e739c049" category="list-text">DDNS 서비스에 대한 FQDN(정규화된 도메인 이름)과 라이브 시간 값을 지정합니다.</block>
   <block id="56e6874203c939cd976d0ecc8f201e1b" category="paragraph">기본적으로 라이브 시간은 24시간으로 설정되고 FQDN은 'VM 이름'으로 설정됩니다. 도메인 이름'입니다.</block>
   <block id="d527cc6649fc65b2afe6119dd7503387" category="list-text">변경 사항을 저장하려면 * 확인 * 을 클릭합니다.</block>
-  <block id="1e18da9a7ca059527f937399fcff5ab9" category="doc">템플릿 파일을 사용하여 클러스터 설정</block>
   <block id="8a3987f2693d326a42a2bc437490bcd9" category="list-text">클러스터에서 ONTAP 9.1 이상을 지원하는 경우 ONTAP 9.1 이상을 실행 중인 스토리지 시스템만 추가할 수 있습니다.</block>
   <block id="8df31e503af8a13a8bc867b17351b4c0" category="list-text">파일을 업로드할 때 모든 필드가 자동으로 채워지지 않습니다.</block>
   <block id="aca1546a662c9a104170769a9c6ca527" category="paragraph">암호 및 클러스터 관리 포트와 같은 일부 필드의 값을 수동으로 입력해야 합니다.</block>
@@ -7008,7 +6992,6 @@
   <block id="47c6d23fe6018f762f19575354d78a86" category="list-text">모니터링할 SVM의 이름을 선택합니다.</block>
   <block id="e2e9bd59ef81e97b3160bf63305a192c" category="list-text">대시보드 패널에서 세부 정보를 봅니다.</block>
   <block id="c42375abef241f8cc5d47f73801e47d1" category="summary">ONTAP 9.1부터 ONTAP System Manager를 사용하면 클러스터를 생성하고, 노드 관리 네트워크 및 클러스터 관리 네트워크를 설정한 다음 이벤트 알림을 설정하여 클러스터를 설정할 수 있습니다.</block>
-  <block id="431932d6dabb125c0e00cae2a2daad5b" category="doc">ONTAP System Manager를 사용하여 클러스터 설정</block>
   <block id="24c55b70cb60ea737551fce8dc6a4609" category="list-text">적어도 하나의 노드에 대해 노드 관리 IP 주소를 구성해야 합니다.</block>
   <block id="ea1d7923f9022c6548ab796e103bc62c" category="list-text">노드는 HA의 기본 모드에 있어야 합니다.</block>
   <block id="695b0c43793257e7d3aa28e9d136bc72" category="list-text">노드에서 ONTAP 9.1 이상을 실행해야 합니다.</block>
@@ -7298,7 +7281,6 @@
   <block id="ad274ed94386dbe4c75be218ecdb9be8" category="paragraph">소스 클러스터 및 타겟 클러스터, SVM과 관련된 보호 관계, 데이터 전송 속도, 관계 상태, 네트워크 압축률에 대한 세부 정보, 데이터 전송 상태, 현재 데이터 전송 유형, 마지막 데이터 전송 유형 등 선택한 관계에 대한 일반 정보를 표시합니다. 최신 스냅샷 복사본, 최신 스냅샷 복사본의 타임스탬프, ID 보호 상태 및 보호된 볼륨 수입니다.</block>
   <block id="2cc31f6b82395011aecf0c7fd7ba8b01" category="paragraph">선택한 보호 관계에 할당된 정책에 대한 세부 정보를 표시합니다.</block>
   <block id="1302257e569da026aa67b8e89db540a7" category="summary">MetroCluster 구성에서 System Manager를 사용하여 클러스터를 업데이트할 수 있습니다. 클러스터 업데이트를 제외한 두 클러스터에서 각 작업을 수행해야 합니다.</block>
-  <block id="873b57b6cec694880329d75491cdb052" category="doc">MetroCluster 구성에서 클러스터 업데이트</block>
   <block id="e21d029f0ed2c65ab82ac9c0fa962f8d" category="image-alt">클러스터 MCC 구성을 업데이트하는 중입니다</block>
   <block id="229e9500d42024ef58f9f0496d3e4c5e" category="summary">FC/FCoE 창을 사용하여 FC 서비스를 시작 또는 중지할 수 있습니다.</block>
   <block id="34e74bf63f62cf486b5e75c85cb2b76d" category="paragraph">FC 또는 FCoE 노드 이름을 변경할 수 있는 노드 이름 편집 대화 상자를 엽니다.</block>
@@ -7418,8 +7400,6 @@
   <block id="26bcbc1c3b1ba1c2924a30f07f2f2651" category="list-text">새 사용자의 사용자 이름을 입력합니다.</block>
   <block id="0ce6eb76fea207d15765d474a1aebee8" category="list-text">스토리지 시스템에 접속할 사용자의 암호를 입력한 다음 암호를 확인합니다.</block>
   <block id="4746723048665ff6ddc5ddea6ef9dfd3" category="summary">System Manager를 사용할 때 문제가 발생하면 기술 지원 부서에 로그 파일을 보내 문제를 해결할 수 있습니다. System Manager 로그 파일은 ONTAP 로그 파일과 함께 mlog 디렉터리에 있습니다.</block>
-  <block id="aa18511ab5934b057566da071e6cee10" category="doc">ONTAP 시스템 관리자 로그 파일 보기</block>
-  <block id="49a3425f87d21efd24a55c0f8d359f98" category="paragraph">System Manager를 사용할 때 문제가 발생하면 기술 지원 부서에 로그 파일을 보내 문제를 해결할 수 있습니다. System Manager 로그 파일은 ONTAP 로그 파일과 함께 'mlog' 디렉토리에 있습니다.</block>
   <block id="6e1c5444e96f0a37fca4472284a0e818" category="list-text">클러스터 관리 LIF를 호스팅하는 노드를 식별합니다.</block>
   <block id="09941825a6402233683e2b54ac613476" category="list-text">웹 브라우저에 '+https://cluster-mgmt-LIF/spi+` URL을 입력합니다</block>
   <block id="8488024a8aa12e29797c0bd3283035c7" category="paragraph">클러스터 관리 LIF의 IP 주소는 클러스터 관리 LIF의 IP 주소입니다.</block>
@@ -7674,7 +7654,6 @@
   <block id="fcbb33b0797104cdcaa57d27e71ab63e" category="list-text">삭제할 서브넷을 선택한 다음 * 삭제 * 를 클릭합니다.</block>
   <block id="53aa5bdd14c247f0adfe1bbb1e20a7c2" category="summary">SVM(스토리지 가상 머신)을 연결하지 않으려는 경우 System Manager를 사용하여 활성 LDAP 클라이언트를 삭제할 수 있습니다.</block>
   <block id="83ba36f9e12be2aeb03cb703832a6612" category="summary">네트워크를 설정하면 클러스터, 노드 및 서비스 프로세서를 관리할 수 있습니다. 네트워크 창을 사용하여 DNS 및 NTP 세부 정보를 설정할 수도 있습니다.</block>
-  <block id="e574c0b5360e4f2f352a412256ec3412" category="doc">네트워크 설정</block>
   <block id="9a3611fa8903c254f1d33052d413e8a9" category="paragraph">클러스터를 설정해야 합니다.</block>
   <block id="f49a4cedd94d498125a1e2dc22561960" category="list-text">실행 중인 노드만 클러스터 생성에 대해 나열됩니다.</block>
   <block id="04858d7c8574026a792d5925e845ae6e" category="paragraph">해당 노드에 대한 LIF를 생성할 수 있습니다.</block>
@@ -8948,7 +8927,6 @@
   <block id="7c5c5dd8c983200f4658fbc653960629" category="summary">System Manager 9.6부터, 더 이상 필요하지 않은 FlexCache 볼륨을 삭제할 수 있습니다.</block>
   <block id="6396b4e9ee534ed15260ea7739d3096d" category="summary">System Manager 9.6부터는 SVM(스토리지 가상 시스템)에서 CIFS 또는 NFS 파일 액세스 오류를 진단할 수 있습니다.</block>
   <block id="c13d6ff492b9fbd47b9f941f4fbee2d6" category="summary">System Manager에서 제공하는 템플릿 파일을 사용하여 클러스터를 생성하고, 노드 관리 및 클러스터 관리 네트워크를 설정한 다음, 이벤트 알림을 설정하여 클러스터를 설정할 수 있습니다. (ONTAP 시스템 관리자 9.6부터는 AutoSupport가 지원되지 않습니다.) 템플릿 파일은 .xlsx 형식 또는 .csv 형식으로 다운로드할 수 있습니다.</block>
-  <block id="e71eaae88dd2181cc95deea0992e62a9" category="paragraph">System Manager에서 제공하는 템플릿 파일을 사용하여 클러스터를 생성하고, 노드 관리 및 클러스터 관리 네트워크를 설정한 다음, 이벤트 알림을 설정하여 클러스터를 설정할 수 있습니다. (ONTAP 시스템 관리자 9.6부터는 AutoSupport가 지원되지 않습니다.) 템플릿 파일은 .xlsx 형식 또는 .csv 형식으로 다운로드할 수 있습니다.</block>
   <block id="15d5c2d28df744d723c4afac837b9efb" category="summary">System Manager 9.6부터, CIFS 또는 NFS 프로토콜을 사용하여 SVM에서 파일 및 공유에 액세스하는 데 문제가 있을 때 Trace File Access 창을 사용하여 문제를 진단할 수 있습니다.</block>
   <block id="8085ff6fe13fdc727e4a01c757c67829" category="summary">System Manager 9.6부터 MetroCluster 사이트의 협상된(계획된) 전환을 시작할 수 있습니다. 이 작업은 사이트에서 재해 복구 테스트 또는 계획된 유지 관리를 수행하려는 경우에 유용합니다.</block>
   <block id="7246a3ef0c463c807e4dbac7824d6a92" category="summary">System Manager 9.6부터는 FlexCache 볼륨을 오프라인으로 전환하거나 FlexCache 볼륨을 온라인으로 전환하거나 FlexCache 볼륨 액세스를 제한하려는 경우 System Manager 9.6부터 볼륨 상태를 변경할 수 있습니다.</block>
@@ -9046,4 +9024,133 @@
   <block id="ab0d1f1c8eac759e4de3ff1f519e6f70" category="paragraph">인터페이스가 속한 서브넷을 지정합니다. MX * * 역할 *</block>
   <block id="d262dc861cfb38f39b59d63acb258d4d" category="section-title">MetroCluster 전환 및 스위치백에 대해 설명합니다</block>
   <block id="c3b9dfd292bc1b7a3ce9854f5e6cb29d" category="sidebar">NVMe 서브시스템이란</block>
+  <block id="e9bdc57e2dd3879cf90ec006b52505f6" category="doc">System Manager로 라이센스 관리 - ONTAP 9.7 이하</block>
+  <block id="decbf892ef0f721afaa78af4ecf7f62a" category="paragraph">ONTAP System Manager 클래식(9.7 이하에서 사용 가능)을 사용하면 클러스터 또는 노드에 설치된 소프트웨어 라이센스를 확인, 관리 또는 삭제할 수 있습니다.</block>
+  <block id="38fd3ecf8201750e55c0c5bce14fd4da" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 SVM에서 FC 프로토콜 및 FCoE 프로토콜을 구성합니다</block>
+  <block id="6add29da08c990d29ef923f9f502fb2f" category="paragraph">System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 SAN 호스트용 SVM(스토리지 가상 머신)에서 FC 프로토콜과 FCoE 프로토콜을 구성할 수 있습니다. LIF는 가장 적합한 어댑터에 생성되며 데이터 경로 이중화를 위해 포트 세트에 할당됩니다. 요구사항에 따라 System Manager를 사용하여 FC 프로토콜이나 FCoE 프로토콜을 구성하거나 두 프로토콜을 모두 구성할 수 있습니다.</block>
+  <block id="1ca0759a68a2eaf6550dc49f288c51b4" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 FabricPool 지원 애그리게이트를 수동으로 생성하여 스토리지 프로비저닝</block>
+  <block id="93c41266584d5677e48dfa95ec4744c7" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 FabricPool 지원 애그리게이트를 수동으로 생성하거나 클라우드 계층을 SSD 애그리게이트에 연결하여 기존 SSD 애그리게이트를 FabricPool 지원 애그리게이트로 변환할 수 있습니다.</block>
+  <block id="5dd9e9509ab5aefe612f4c31cb783c33" category="doc">System Manager Classic-ONTAP 9.6 이상을 사용하여 전환 및 스위치백 작업을 준비하십시오</block>
+  <block id="a25a6296a2238250ac880d0ecf5b030b" category="paragraph">ONTAP System Manager 클래식 9.6을 사용하여 스위치오버 작업을 수행하기 전에 해당 사이트에서 필요한 단계가 수행되었는지 확인해야 합니다.</block>
+  <block id="19ba7845e5879e0c327b97f282a2ad67" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 고가용성 쌍을 생성합니다</block>
+  <block id="f153aa09dfee8a14f039fef3b377cbf3" category="paragraph">ONTAP System Manager 클래식(9.7 이하에서 사용 가능)을 사용하면 무중단 운영 및 내결함성을 위해 하드웨어 이중화를 제공하는 HA(고가용성) 쌍을 생성할 수 있습니다.</block>
+  <block id="c25f011b08f295a29bbd500b17b738ed" category="doc">System Manager를 사용한 구성 업데이트 - ONTAP 9.7 이전 버전</block>
+  <block id="1c82fcdf598db00f440965ba676c0e66" category="paragraph">ONTAP System Manager 클래식(9.7 이하에서 사용 가능)을 사용하면 SVM(스토리지 가상 머신)의 관리 세부 정보를 구성할 수 있습니다.</block>
+  <block id="8e4cfdd5f2a44a82c383c0562730105b" category="doc">System Manager 로그 파일 보기 - ONTAP 9.7 이하</block>
+  <block id="e32d35a30d776517222a8cb49dfde78b" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용할 때 문제가 발생하면 문제 해결을 위해 로그 파일을 기술 지원 팀에 전송할 수 있습니다. System Manager 로그 파일은 ONTAP 로그 파일과 함께 'mlog' 디렉토리에 있습니다.</block>
+  <block id="31d9626798b93e9040bd1a4d694bd56b" category="paragraph">시스템 로깅은 응용 프로그램 문제 해결을 위한 필수 도구입니다. 응용 프로그램에 문제가 있는 경우 문제를 찾을 수 있도록 시스템 로깅을 활성화해야 합니다. 런타임 시 응용 프로그램 바이너리를 수정하지 않고 System Manager 로깅을 활성화할 수 있습니다.</block>
+  <block id="edf8087881b81cefc948ee9b5b855cdd" category="paragraph">로그 출력은 볼륨을 높일 수 있으므로 관리하기가 어려울 수 있습니다. System Manager를 사용하면 출력할 로그 문 유형을 선택하여 로깅 출력을 구체화할 수 있습니다. 기본적으로 시스템 로깅은 Info로 설정됩니다. 다음 로그 수준 중 하나를 선택할 수 있습니다.</block>
+  <block id="acdd231374055517015b373ce4c02529" category="paragraph">이러한 수준은 계층적으로 작동합니다. 로그 수준이 꺼짐으로 설정되면 메시지가 로깅되지 않습니다.</block>
+  <block id="2aae697b75b4f0102a01b90b42f5680d" category="doc">System Manager Classic-ONTAP 9.7 이하를 사용하여 논리적 스토리지를 설정합니다</block>
+  <block id="785ce4ec419d97d18338fc498d536deb" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 논리적 스토리지를 설정할 수 있습니다. 논리적 스토리지 설정은 SVM(스토리지 가상 머신) 및 볼륨을 생성하는 것으로 구성됩니다.</block>
+  <block id="c43762da851d9951e4e55e1a3cc5ad67" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 단일 노드 클러스터 업데이트</block>
+  <block id="be2ad15fd1ef77a8a4838987f45a3c0b" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 단일 노드 클러스터를 업데이트할 수 있습니다.</block>
+  <block id="54ff26b2647f3f25676cb99009476209" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 클러스터를 중단 없이 업데이트합니다</block>
+  <block id="4feeea0248e0f62412823f11324a2100" category="paragraph">ONTAP 9.7 이하에서 사용 가능한 ONTAP System Manager 클래식(ONTAP 9.7 버전 사용 가능)을 사용하면 클라이언트 데이터에 대한 액세스를 방해하지 않고 ONTAP 8.3.1 이상을 실행하는 고가용성(HA) 쌍의 클러스터 또는 개별 노드를 특정 버전의 소프트웨어로 업데이트할 수 있습니다.</block>
+  <block id="f99033f8018d74566de6d90275ee7175" category="doc">System Manager로 클러스터 확장 - ONTAP 9.7 이하</block>
+  <block id="ab015a1f9aac7b895e136cdfb521e9b8" category="paragraph">ONTAP System Manager 클래식(9.7 이하에서 사용 가능)을 사용하면 클러스터에 호환되는 노드를 추가하고 노드 네트워크 세부 정보를 구성하여 스토리지의 크기와 기능을 확장할 수 있습니다. 노드의 요약을 볼 수도 있습니다.</block>
+  <block id="947070ca8b26d7d7b190fdd46f44d0fa" category="doc">시스템 관리자 - ONTAP 9.7 이하가 있는 스페어 디스크가 없습니다</block>
+  <block id="39369ff883ac37576eeaa48e7091dfba" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 모든 데이터를 지우고 디스크에 0을 작성하여 스페어 디스크를 포맷할 수 있습니다. 그런 다음 이러한 디스크를 새 애그리게이트에서 사용할 수 있습니다.</block>
+  <block id="41900314c94464c2e9abd692d4c2e94a" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 비 MetroCluster 구성에서 클러스터를 업데이트합니다</block>
+  <block id="7c32eebc5c66a11a9625082f47b48aae" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하여 고가용성(HA) 쌍의 클러스터 또는 개별 노드를 업데이트할 수 있습니다. 업데이트를 수행하려면 ONTAP 이미지를 선택하고 클러스터 또는 HA 쌍의 개별 노드가 업데이트 준비가 되었는지 확인한 다음 업데이트를 수행해야 합니다.</block>
+  <block id="8d74ad77222f6c5c38989bad7372cf2c" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 클러스터를 생성합니다</block>
+  <block id="f9c28b17c0f35d7a3c72a8e6a546dfee" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 데이터 센터에서 클러스터를 생성하고 설정할 수 있습니다.</block>
+  <block id="5fc170c97be608be88f22779966c7146" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 SVM에서 NVMe 프로토콜을 구성합니다</block>
+  <block id="aa89074fcbd4c0c8d0bb294d295d2ebf" category="paragraph">System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 SVM(스토리지 가상 머신)에서 NVMe 프로토콜을 구성할 수 있습니다. 그런 다음 네임스페이스를 만들고 NVMe 하위 시스템 및 호스트에 할당할 수 있습니다.</block>
+  <block id="75e42471a0f30f0b5291750d4a05d20a" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 스토리지 권장 사항을 기반으로 애그리게이트를 생성합니다</block>
+  <block id="efbc0ad8b6d2eb58efb50697f164d765" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 스토리지 권장 사항을 기반으로 aggregate를 생성할 수 있습니다. System Manager는 스토리지 시스템의 구성을 분석하고 생성할 애그리게이트 수, 사용 가능한 노드 및 사용 가능한 스페어 디스크와 같은 스토리지 권장 사항을 제공합니다.</block>
+  <block id="bc77434a988ceef6c953803fe2e06881" category="doc">System Manager-ONTAP 9.7 이하가 포함된 클러스터 업데이트 창</block>
+  <block id="0c4bc331d1c7fe8cc6d138356da42f70" category="paragraph">클러스터 업데이트 창을 사용하여 자동화된 클러스터 업데이트를 중단 없이 수행하거나 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)로 단일 노드 클러스터를 중단 없이 업데이트할 수 있습니다.</block>
+  <block id="7da339cefa78214249ac2c737cb3bd59" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 기본 템플릿을 프로비저닝합니다</block>
+  <block id="67203bc2753a5d6aef208c85696c7fad" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 SAP HANA용 기본 템플릿을 빠르게 프로비저닝할 수 있습니다.</block>
+  <block id="ebb6e6a19f64f243f239c1bdaf692ad7" category="doc">System Manager - ONTAP 9.7 이전에서 브라우저 기반 그래픽 인터페이스를 사용하여 클러스터에 액세스합니다</block>
+  <block id="2ba8881024494dad02ea0fcfabaf51a3" category="paragraph">클러스터 액세스 및 관리에 명령줄 인터페이스 대신 그래픽 인터페이스를 사용하려면 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용할 수 있습니다. ONTAP 시스템 관리자는 ONTAP에 웹 서비스로 포함되어 있으며 기본적으로 사용하도록 설정되어 있으며 브라우저를 통해 액세스할 수 있습니다.</block>
+  <block id="70874cc3a4a9888ac212eaaf23b43c77" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 SVM에서 CIFS 및 NFS 프로토콜을 구성합니다</block>
+  <block id="248f2ec6686f4fbce6771ddc5abc09d1" category="paragraph">System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 SVM(스토리지 가상 머신)에서 CIFS 및 NFS 프로토콜을 구성하여 NAS 클라이언트에 파일 레벨 데이터 액세스를 제공할 수 있습니다. CIFS 프로토콜을 설정하려면 데이터 LIF 및 CIFS 서버를 생성해야 합니다. NFS 프로토콜을 사용하도록 설정하려면 NIS 세부 정보와 데이터 LIF를 지정할 수 있습니다.</block>
+  <block id="6179ae55d1fadeff01dd8976b5bedda7" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 ONTAP 소프트웨어 이미지를 얻습니다</block>
+  <block id="78916d18eac9a0b8102e2b7f6a492589" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)으로 ONTAP 소프트웨어 이미지를 얻을 수 있습니다. ONTAP 9.4 이상의 경우 NetApp Support 사이트에서 로컬 폴더로 ONTAP 소프트웨어 이미지를 복사할 수 있습니다. ONTAP 9.3 이전 버전에서 업그레이드하려면 ONTAP 소프트웨어 이미지를 네트워크의 HTTP 서버 또는 FTP 서버로 복사해야 합니다.</block>
+  <block id="f5db4f9448aaa78931200f9e088d969e" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 SVM에서 iSCSI 프로토콜을 구성합니다</block>
+  <block id="1adc906cf717845ffb29f00022c0366f" category="paragraph">SVM(스토리지 가상 시스템)에서 iSCSI 프로토콜을 구성하여 ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 블록 레벨 데이터 액세스를 제공할 수 있습니다. iSCSI LIF 및 포트 세트를 생성한 다음 포트 세트에 LIF를 추가할 수 있습니다. LIF는 가장 적합한 어댑터에 생성되며 데이터 경로 이중화를 위해 포트 세트에 할당됩니다.</block>
+  <block id="4010f2b8e90ddf85f94ac358d78075c1" category="doc">시스템 관리자 - ONTAP 9.7 이하가 설치된 서비스 프로세서를 사용합니다</block>
+  <block id="976175cc4e5d4c3ab14e16c83ffa15e8" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)이 지원되는 서비스 프로세서를 사용하여 온도, 전압, 전류 및 팬 속도와 같은 스토리지 시스템 매개 변수를 모니터링하고 관리할 수 있습니다.</block>
+  <block id="c0bbe542e022a200771c2c752e0173f2" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 애플리케이션을 구성합니다</block>
+  <block id="a52ac8fd4d86144ca8599edcc24c0489" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에서 사전 정의된 애플리케이션 템플릿을 사용하여 기존 애플리케이션 템플릿을 기반으로 하는 새 구성을 생성할 수 있습니다. 그런 다음 ONTAP에서 애플리케이션의 인스턴스를 프로비저닝할 수 있습니다.</block>
+  <block id="9b84593697ca85e724b3024c5d49b880" category="doc">System Manager Classic-ONTAP 9.7 이하를 사용하여 MetroCluster 전환 및 스위치백에 대해 설명합니다</block>
+  <block id="2315562608e0a40cc0e479e0bf28e956" category="paragraph">ONTAP System Manager 9.6부터 소스 클러스터의 모든 노드에 연결할 수 없고 전원을 끈 재해가 발생한 후 MetroCluster 스위치오버 및 스위치백 작업을 사용할 수 있습니다. 또한 재해 복구 테스트 또는 유지 관리를 위해 오프라인으로 전환되는 사이트와 같은 경우 협상된(계획된) 전환 워크플로우를 사용할 수도 있습니다.</block>
+  <block id="d8f8316f7f24f5a2514269ed1e587626" category="doc">System Manager로 SVM 생성 - ONTAP 9.7 이전 버전</block>
+  <block id="c9dec5a7f72136d2dbb54a45740dfc5f" category="paragraph">System Manager의 기존 버전(ONTAP 9.7 이하에서 사용 가능)을 사용하면 완벽하게 구성된 SVM(스토리지 가상 머신)을 생성하여 데이터를 즉시 제공할 수 있습니다. 클러스터는 하나 이상의 SVM을 가질 수 있습니다.</block>
+  <block id="b1f5b741f97f88d2a27fe9554d96e5ae" category="doc">System Manager - ONTAP 9.7 및 이전 버전에서 템플릿 파일을 사용하여 클러스터를 설정합니다</block>
+  <block id="80c57d2dae86d5f969cedfa286a5d186" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에서 제공되는 템플릿 파일을 사용하여 클러스터를 생성하고, 노드 관리 및 클러스터 관리 네트워크를 설정한 다음, 이벤트 알림을 설정하여 클러스터를 설정할 수 있습니다. (ONTAP 시스템 관리자 9.6부터는 AutoSupport가 지원되지 않습니다.) 템플릿 파일은 .xlsx 형식 또는 .csv 형식으로 다운로드할 수 있습니다.</block>
+  <block id="981ccff974ccd38feb11b98749f62f33" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 SVM 관리자에게 관리 권한을 위임합니다</block>
+  <block id="2916098ae0e238c3e38a1a47b1301eb5" category="paragraph">기본 네트워크 구성을 사용하여 기능적 스토리지 가상 시스템(SVM) 또는 SVM을 설정한 후에는 System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 SVM 관리자에게 SVM 관리를 선택적으로 위임할 수 있습니다.</block>
+  <block id="428c89fe51366d100675e40d7d32fb93" category="doc">SAN을 통한 Microsoft SQL Server를 System Manager-ONTAP 9.7 이하에 추가합니다</block>
+  <block id="5da48fe095f84368a16a22547d62a3a4" category="paragraph">고급 탭을 사용하여 SAN을 통한 Microsoft SQL Server의 인스턴스를 ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)에 추가할 수 있습니다.</block>
+  <block id="b9a9fce134da50ebf7545e06d22fd4db" category="doc">시스템 관리자 - ONTAP 9.7 이전 버전을 사용하여 MetroCluster 로컬 사이트(사이트 A)의 이름을 바꿉니다</block>
+  <block id="8b0ad44ba508767c489eaba84b40e7dd" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 클러스터의 MetroCluster 로컬 사이트(사이트 A)의 이름을 바꿀 수 있습니다.</block>
+  <block id="a725a02a41f5b8ff1387ed326ce28ae0" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 네트워크 설정</block>
+  <block id="bddf9d6dc523b359adf8edeffa510c91" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 네트워크를 설정하여 클러스터, 노드 및 서비스 프로세서를 관리할 수 있습니다. 네트워크 창을 사용하여 DNS 및 NTP 세부 정보를 설정할 수도 있습니다.</block>
+  <block id="7b7dfa770e15135a2305b1e8fda21d7f" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 지원 페이지를 설정합니다</block>
+  <block id="c8711d5f23fdbe3f98b8104eb091ef3b" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 지원 페이지를 설정할 수 있습니다. 지원 페이지를 설정하면 클러스터 설정이 완료되고, 이벤트 알림을 설정하고, 단일 노드 클러스터의 경우 시스템 백업을 구성해야 합니다.</block>
+  <block id="bc701f734e8403c8ec9d20c515d85272" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 클러스터의 날짜 및 시간 설정을 관리합니다</block>
+  <block id="c00b07297128398358e52a5e83d52de2" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하여 클러스터의 날짜 및 시간 설정을 관리할 수 있습니다.</block>
+  <block id="f0fe373cafde86319d4749debcc801a1" category="doc">System Manager-ONTAP 9.7 이하와 함께 스토리지 권장 사항을 검토하십시오</block>
+  <block id="52ff43f011435f293e7816a453ee9dda" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)의 스토리지 창을 사용하여 애그리게이트 생성을 위해 제공되는 스토리지 권장 사항을 검토할 수 있습니다.</block>
+  <block id="d08159a440a303f7b3b7c94dc1935c5a" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 애그리게이트를 통해 스토리지를 프로비저닝합니다</block>
+  <block id="874b9a4c9e5f670484a41edbf145c405" category="paragraph">스토리지 권장 사항을 기반으로 애그리게이트를 생성할 수 있으며, 요구사항에 따라 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 수동으로 애그리게이트를 생성할 수 있습니다. System Manager를 사용하여 Flash Pool 애그리게이트, SnapLock 애그리게이트 및 FabricPool 지원 애그리게이트를 만들어 하나 이상의 볼륨에 스토리지를 제공할 수 있습니다.</block>
+  <block id="9d802381a15c252491a9d7ee663aff69" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 SNMP를 구성합니다</block>
+  <block id="f31b76fac3ac0dc10498d730d31669d4" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 클러스터에서 SVM을 모니터링하도록 SNMP를 구성할 수 있습니다.</block>
+  <block id="b10038089b0aa2450f7c5e88c187484f" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 LDAP 서버를 구성합니다</block>
+  <block id="1cbeaf1a546d95c9bc9037f69d4fcf08" category="paragraph">ONTAP System Manager 클래식(사용 가능한 9.7 이하 버전)을 사용하여 사용자 정보를 중앙에서 관리하는 LDAP 서버를 구성할 수 있습니다.</block>
+  <block id="05f8fe4988a6b907042484cd11d40fb5" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 스토리지를 프로비저닝하고 Flash Pool 애그리게이트를 수동으로 생성합니다</block>
+  <block id="85867b0d35df1b329438dc7c422261f1" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 Flash Pool 애그리게이트를 수동으로 생성하거나, SSD를 추가하여 기존 HDD 애그리게이트를 Flash Pool 애그리게이트로 전환할 수 있습니다. 새 HDD 애그리게이트를 생성할 경우, SSD 캐시를 프로비저닝하고 Flash Pool 애그리게이트를 생성할 수 있습니다.</block>
+  <block id="94179f0d8149a3ac801eea474d69ef53" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 네트워크를 설정합니다</block>
+  <block id="1ba705052a00b8283ec31d9278e3d149" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 네트워크를 설정할 수 있습니다. 네트워크 설정은 IPspace 생성, 브로드캐스트 도메인 및 서브넷으로 구성됩니다.</block>
+  <block id="0e9cd8252c144768701a64ff9ab1f7e8" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 애플리케이션을 삭제합니다</block>
+  <block id="f8c7aff1779acf3b9dc85a549c8f4d4f" category="paragraph">ONTAP System Manager 클래식(9.7 이하에서 사용 가능)을 사용하면 더 이상 필요하지 않은 프로비저닝된 애플리케이션을 삭제할 수 있습니다.</block>
+  <block id="ccda83eb5ed4056b1202262cc09443c9" category="doc">System Manager로 클러스터 업데이트 - ONTAP 9.7 이하</block>
+  <block id="ba92625a1cffe75a8f65eb6b092f6da8" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하여 고가용성(HA) 쌍의 클러스터 또는 개별 노드를 업데이트할 수 있습니다. MetroCluster 구성에서 클러스터를 업데이트할 수도 있습니다.</block>
+  <block id="c7d3918644137f881f62d314dd74b786" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 클러스터 사용자 계정을 관리합니다</block>
+  <block id="ee56e6f13b7ebc3f13f7477735835f4c" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 클러스터 사용자 계정을 추가, 편집 및 관리하고 로그인 사용자 방법을 지정하여 스토리지 시스템을 액세스할 수 있습니다.</block>
+  <block id="e990537de20ec1517a4049efeae4c1b8" category="doc">System Manager의 애플리케이션 프로비저닝 설정 - ONTAP 9.7 이하</block>
+  <block id="25d492d354ae334c48fa3dfc30fcdebc" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)에서 데이터베이스, 서버 또는 가상 데스크톱에 대한 기본 템플릿 또는 향상된 템플릿을 설정할 때 세부 정보를 제공해야 합니다. 응용 프로그램을 프로비저닝한 후에는 세부 정보를 편집하고 크기 조정(크기 증가만)을 지정할 수 있습니다. 이 섹션에서는 각 템플릿의 필드에 대해 설명합니다. 특정 애플리케이션의 설정을 프로비저닝하거나 편집하는 데 필요한 필드만 표시됩니다.</block>
+  <block id="94a185593edb330f99889ac7b7a02ae2" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 SnapLock 볼륨을 생성합니다</block>
+  <block id="b330e978f60c29cf1c89b88d9bd0de4c" category="paragraph">System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 SnapLock 규정 준수 볼륨 또는 SnapLock 엔터프라이즈 볼륨을 생성할 수 있습니다. 볼륨을 생성할 때 보존 시간을 설정하고 볼륨의 데이터에 대해 WORM 상태 설정을 자동으로 수행할지 여부를 선택할 수도 있습니다.</block>
+  <block id="e1bf307eb9a38952a201d90166512c49" category="doc">시스템 관리자-ONTAP 9.7 이하를 사용하여 IPspace 관리</block>
+  <block id="97ab21a632bcc52bfa1ce4def08b85d7" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 시스템 관리자 클래식 을 사용하여 IPspace를 생성 및 관리할 수 있습니다.</block>
+  <block id="b95a0a6b9ea9803f155567513ee220ee" category="doc">시스템 관리자 옵션 구성 - ONTAP 9.7 이하</block>
+  <block id="700de8169ee006740e47e085de31314d" category="paragraph">로깅을 설정하고 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에 대한 비활성 시간 초과 값을 지정할 수 있습니다.</block>
+  <block id="829111bc2f9e8438581c99c65c273ac5" category="doc">System Manager-ONTAP 9.7 이하 버전을 사용하여 피어링을 설정합니다</block>
+  <block id="1a73142d9e2244e70e8bbf958894302c" category="paragraph">System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 피어링을 설정할 수 있습니다. 피어링을 설정하려면 각 노드에 대한 인터클러스터 논리 인터페이스(LIF)를 생성하고 클러스터 피어링을 생성하고 SVM 피어링을 생성해야 합니다.</block>
+  <block id="2976c240f095f572c401489b5ac3e328" category="doc">System Manager를 사용하는 클러스터 피어 - ONTAP 9.7 이하</block>
+  <block id="997772740a755ed8d7530b890bec9f7e" category="paragraph">피어링된 클러스터가 서로 간에 리소스를 조정하고 공유할 수 있도록 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 2개의 클러스터를 피어링할 수 있습니다. 피어링된 클러스터는 SnapMirror 기술 및 SnapVault 기술을 사용하는 데이터 복제 및 MetroCluster 구성에서 FlexCache 볼륨 및 SyncMirror 기술을 사용한 데이터 복제에 필요합니다.</block>
+  <block id="8f34d6f3f2c9cd69da0ea95a2a82d60f" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 SnapLock 애그리게이트를 수동으로 생성합니다</block>
+  <block id="9db847a02a4eaadfd02090106d319dcc" category="paragraph">System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 SnapLock 규정 준수 애그리게이트 또는 SnapLock 엔터프라이즈 애그리게이트를 수동으로 생성할 수 있습니다. 이러한 애그리게이트에는 ""WORM(Write Once, Read Many)" 기능을 제공하는 SnapLock 볼륨을 생성할 수 있습니다.</block>
+  <block id="d4afc42fbd745701a06605ccb9c3d10a" category="doc">System Manager-ONTAP 9.7 및 그 이전 버전에 대한 스토리지 서비스 정의</block>
+  <block id="c94819f0fe4329db3648ea0072b45bc0" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)에는 해당하는 최소 성능 요소에 매핑된 사전 정의된 스토리지 서비스가 포함되어 있습니다.</block>
+  <block id="32843f5ce943416bf947ca9590aa075e" category="doc">System Manager의 애플리케이션 윈도우 - ONTAP 9.7 이하</block>
+  <block id="d7e635772f9dfd6d2e93492202978c85" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 SVM(스토리지 가상 머신)에 애플리케이션 목록을 표시할 수 있습니다. 이 목록에는 각 애플리케이션에 대한 자세한 정보가 포함되어 있습니다.</block>
+  <block id="234bd78fa96c91d122dffd33391874f6" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 브로드캐스트 도메인을 관리합니다</block>
+  <block id="50899d0b2190a949520b49e445d23355" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 브로드캐스트 도메인을 만들고 관리할 수 있습니다.</block>
+  <block id="ab4ae87bc3c1b004cb0873b4af4ea2d7" category="doc">ONTAP System Manager - ONTAP 9.7 이하를 사용하여 클러스터를 설정합니다</block>
+  <block id="cf0a65ee8a0e04ae720f439289af1cf4" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 클러스터를 생성하고, 노드 관리 네트워크 및 클러스터 관리 네트워크를 설정한 다음, 이벤트 알림을 설정하여 클러스터를 설정할 수 있습니다.</block>
+  <block id="44de48291f65b93f6b91ae71158fc5a0" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 SVM을 생성합니다</block>
+  <block id="d8df04e394d1d658fc87637c0e78fe19" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에서는 SVM(스토리지 가상 머신) 창을 사용하여 완벽하게 구성된 SVM을 생성할 수 있습니다. SVM은 이러한 SVM에 스토리지 객체가 생성된 후 데이터를 제공합니다.</block>
+  <block id="a5fa5f03b1c7f0fd168b52120c524434" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 노드를 디스크에 할당합니다</block>
+  <block id="25e40dbc1aa0db0b68b988d819462b39" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 할당되지 않은 디스크의 소유권을 특정 노드에 할당하여 애그리게이트 또는 스토리지 풀의 용량을 늘릴 수 있습니다.</block>
+  <block id="29f339b530105eca42ac732c2bd2a766" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 네트워크를 관리합니다</block>
+  <block id="fede64b0ea01acd771df4df735e64b8d" category="paragraph">IPspace, 브로드캐스트 도메인, 서브넷, 네트워크 인터페이스, 이더넷 포트 등을 생성 및 관리하여 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 스토리지 시스템의 네트워크를 및 FC/FCoE 어댑터.</block>
+  <block id="e9019df4e5838c4a22d6a9fa885721a4" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 스토리지를 프로비저닝할 Aggregate를 수동으로 생성합니다</block>
+  <block id="ccac8732ee856be09c1ef43f22599d7c" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)을 사용하면 HDD만 또는 SSD만 포함된 애그리게이트를 수동으로 생성할 수 있습니다.</block>
+  <block id="489980c7967cf6ae840737bc9670c341" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 FlexVol 볼륨을 생성합니다</block>
+  <block id="b54401ea7e235c7d426b9bdeb475a430" category="paragraph">System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에서 볼륨 생성 대화 상자를 사용하여 데이터에 대한 FlexVol 볼륨을 생성할 수 있습니다. 루트 볼륨에 데이터를 저장하는 대신 항상 데이터에 대해 별도의 볼륨을 생성해야 합니다.</block>
+  <block id="f3c0856ca60c4724a7753f39aeb21072" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 애플리케이션을 편집합니다</block>
+  <block id="9de97ea20bea358cafe2c052eb4fe156" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 프로비저닝된 애플리케이션을 편집하여 스토리지 크기를 늘리거나 애플리케이션의 스냅샷 복사본을 관리할 수 있습니다.</block>
+  <block id="a30fa0b5cb2afd6f435aa35fc7ca5745" category="doc">시스템 관리자 - ONTAP 9.7 이하를 사용하여 SAML 인증을 설정합니다</block>
+  <block id="d7099498f421b4701bba3cabee8125eb" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 SAML(Security Assertion Markup Language) 인증을 설정할 수 있습니다. 원격 사용자는 System Manager에 로그인하기 전에 IDP(Secure Identity Provider)를 통해 인증됩니다.</block>
+  <block id="463c29b806262e410f8af6e29a986e1f" category="doc">System Manager로 역할 관리 - ONTAP 9.7 이하</block>
+  <block id="7ca34b48f8debce3ee45d8476624ffa9" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 액세스 제어 사용자 역할을 생성할 수 있습니다.</block>
+  <block id="d75e944167c8ce0dfa9e0ab1a4a7da5e" category="doc">System Manager용 대시보드 창 - ONTAP 9.7 이전 버전</block>
+  <block id="5cee01395e3051dd380249b88316b378" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)의 대시보드 창에는 여러 패널이 포함되어 있어 시스템 및 성능에 대한 누적 정보를 한 눈에 확인할 수 있습니다.</block>
+  <block id="a36ead175efb45759fee5f11ce0d539b" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 MetroCluster 구성에서 클러스터를 업데이트합니다</block>
+  <block id="5b53589c41b3f02720bf43be353e0006" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 MetroCluster 구성에서 클러스터를 업데이트할 수 있습니다. 클러스터 업데이트를 제외한 두 클러스터에서 각 작업을 수행해야 합니다.</block>
 </blocks>

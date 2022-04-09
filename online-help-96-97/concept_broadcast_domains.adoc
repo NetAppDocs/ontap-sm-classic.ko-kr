@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: system, manager, create, manage, broadcast, domain, online, help, edit, settings, port, delete 
 summary: System Manager를 사용하여 브로드캐스트 도메인을 만들고 관리할 수 있습니다. 
 ---
-= 브로드캐스트 도메인
+= System Manager-ONTAP 9.7 이하를 사용하여 브로드캐스트 도메인을 관리합니다
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하여 브로드캐스트 도메인을 만들고 관리할 수 있습니다.
+ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 브로드캐스트 도메인을 만들고 관리할 수 있습니다.
 
 
 

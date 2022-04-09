@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: system, manager, view, manage, delete, software, licenses, cluster, node, types, entitlement, risk, 
 summary: System Manager를 사용하면 클러스터 또는 노드에 설치된 소프트웨어 라이센스를 확인, 관리 또는 삭제할 수 있습니다. 
 ---
-= 추가 수익 실적을
+= System Manager로 라이센스 관리 - ONTAP 9.7 이하
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하면 클러스터 또는 노드에 설치된 소프트웨어 라이센스를 확인, 관리 또는 삭제할 수 있습니다.
+ONTAP System Manager 클래식(9.7 이하에서 사용 가능)을 사용하면 클러스터 또는 노드에 설치된 소프트웨어 라이센스를 확인, 관리 또는 삭제할 수 있습니다.
 
 
 

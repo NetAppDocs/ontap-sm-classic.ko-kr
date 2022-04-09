@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: provision, system, manager, storage, create, flash, pool, aggregate, manually, online, help, hdd 
 summary: System Manager를 사용하면 Flash Pool 애그리게이트를 수동으로 생성하거나, SSD를 추가하여 기존 HDD 애그리게이트를 Flash Pool 애그리게이트로 전환할 수 있습니다. 새 HDD 애그리게이트를 생성할 경우, SSD 캐시를 프로비저닝하고 Flash Pool 애그리게이트를 생성할 수 있습니다. 
 ---
-= Flash Pool Aggregate를 수동으로 생성하여 스토리지 프로비저닝
+= System Manager-ONTAP 9.7 이하를 사용하여 스토리지를 프로비저닝하고 Flash Pool 애그리게이트를 수동으로 생성합니다
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하면 Flash Pool 애그리게이트를 수동으로 생성하거나, SSD를 추가하여 기존 HDD 애그리게이트를 Flash Pool 애그리게이트로 전환할 수 있습니다. 새 HDD 애그리게이트를 생성할 경우, SSD 캐시를 프로비저닝하고 Flash Pool 애그리게이트를 생성할 수 있습니다.
+ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 Flash Pool 애그리게이트를 수동으로 생성하거나, SSD를 추가하여 기존 HDD 애그리게이트를 Flash Pool 애그리게이트로 전환할 수 있습니다. 새 HDD 애그리게이트를 생성할 경우, SSD 캐시를 프로비저닝하고 Flash Pool 애그리게이트를 생성할 수 있습니다.
 
 .시작하기 전에
 * 플랫폼별 모범 사례와 Flash Pool 애그리게이트 SSD 계층 크기 및 구성에 대한 워크로드별 모범 사례를 알고 있어야 합니다.

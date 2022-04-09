@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: system, manager, iscsi, protocol, svm, online, help, lif, portset 
 summary: 'SVM(스토리지 가상 시스템)에서 iSCSI 프로토콜을 구성하여 System Manager를 통해 블록 레벨 데이터 액세스를 제공할 수 있습니다. iSCSI LIF 및 포트 세트를 생성한 다음 포트 세트에 LIF를 추가할 수 있습니다. LIF는 가장 적합한 어댑터에 생성되며 데이터 경로 이중화를 위해 포트 세트에 할당됩니다.' 
 ---
-= SVM에서 iSCSI 프로토콜을 구성합니다
+= System Manager-ONTAP 9.7 이하를 사용하여 SVM에서 iSCSI 프로토콜을 구성합니다
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-SVM(스토리지 가상 시스템)에서 iSCSI 프로토콜을 구성하여 System Manager를 통해 블록 레벨 데이터 액세스를 제공할 수 있습니다. iSCSI LIF 및 포트 세트를 생성한 다음 포트 세트에 LIF를 추가할 수 있습니다. LIF는 가장 적합한 어댑터에 생성되며 데이터 경로 이중화를 위해 포트 세트에 할당됩니다.
+SVM(스토리지 가상 시스템)에서 iSCSI 프로토콜을 구성하여 ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 블록 레벨 데이터 액세스를 제공할 수 있습니다. iSCSI LIF 및 포트 세트를 생성한 다음 포트 세트에 LIF를 추가할 수 있습니다. LIF는 가장 적합한 어댑터에 생성되며 데이터 경로 이중화를 위해 포트 세트에 할당됩니다.
 
 .시작하기 전에
 * 클러스터에서 iSCSI 라이센스를 활성화해야 합니다.

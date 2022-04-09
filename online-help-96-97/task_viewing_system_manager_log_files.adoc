@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: view, ontap, system, manager, log, file, online, help 
 summary: System Manager를 사용할 때 문제가 발생하면 기술 지원 부서에 로그 파일을 보내 문제를 해결할 수 있습니다. System Manager 로그 파일은 ONTAP 로그 파일과 함께 mlog 디렉터리에 있습니다. 
 ---
-= ONTAP 시스템 관리자 로그 파일 보기
+= System Manager 로그 파일 보기 - ONTAP 9.7 이하
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용할 때 문제가 발생하면 기술 지원 부서에 로그 파일을 보내 문제를 해결할 수 있습니다. System Manager 로그 파일은 ONTAP 로그 파일과 함께 'mlog' 디렉토리에 있습니다.
+ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용할 때 문제가 발생하면 문제 해결을 위해 로그 파일을 기술 지원 팀에 전송할 수 있습니다. System Manager 로그 파일은 ONTAP 로그 파일과 함께 'mlog' 디렉토리에 있습니다.
 
 .단계
 . 클러스터 관리 LIF를 호스팅하는 노드를 식별합니다.
@@ -41,13 +41,15 @@ System Manager를 사용할 때 문제가 발생하면 기술 지원 부서에 �
 
 == 시스템 로깅 작동 방식
 
- System logging is an essential tool for application troubleshooting. You should enable system logging so that if there is a problem with an application, the problem can be located. You can enable System Manager logging at runtime without modifying the application binary.
- Log output can be voluminous and therefore can become difficult to manage. System Manager enables you to refine the logging output by selecting which type of log statements are output. By default, system logging is set to INFO. You can choose one of the following log levels:
+시스템 로깅은 응용 프로그램 문제 해결을 위한 필수 도구입니다. 응용 프로그램에 문제가 있는 경우 문제를 찾을 수 있도록 시스템 로깅을 활성화해야 합니다. 런타임 시 응용 프로그램 바이너리를 수정하지 않고 System Manager 로깅을 활성화할 수 있습니다.
+
+로그 출력은 볼륨을 높일 수 있으므로 관리하기가 어려울 수 있습니다. System Manager를 사용하면 출력할 로그 문 유형을 선택하여 로깅 출력을 구체화할 수 있습니다. 기본적으로 시스템 로깅은 Info로 설정됩니다. 다음 로그 수준 중 하나를 선택할 수 있습니다.
+
 * 꺼짐
 * 오류
 * 경고
 * 정보
 * 디버그
-+
- These levels function hierarchically. A log level set to OFF indicates no logging of messages.
 
+
+이러한 수준은 계층적으로 작동합니다. 로그 수준이 꺼짐으로 설정되면 메시지가 로깅되지 않습니다.

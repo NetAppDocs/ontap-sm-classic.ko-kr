@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: system, manager, configuring, cifs, nfs, protocols, svm, online, help 
 summary: 'System Manager를 사용하면 SVM(스토리지 가상 머신)에서 CIFS 및 NFS 프로토콜을 구성하여 NAS 클라이언트에 파일 레벨 데이터 액세스를 제공할 수 있습니다. CIFS 프로토콜을 설정하려면 데이터 LIF 및 CIFS 서버를 생성해야 합니다. NFS 프로토콜을 사용하도록 설정하려면 NIS 세부 정보와 데이터 LIF를 지정할 수 있습니다.' 
 ---
-= SVM에서 CIFS 및 NFS 프로토콜을 구성합니다
+= System Manager - ONTAP 9.7 이하를 사용하여 SVM에서 CIFS 및 NFS 프로토콜을 구성합니다
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하면 SVM(스토리지 가상 머신)에서 CIFS 및 NFS 프로토콜을 구성하여 NAS 클라이언트에 파일 레벨 데이터 액세스를 제공할 수 있습니다. CIFS 프로토콜을 설정하려면 데이터 LIF 및 CIFS 서버를 생성해야 합니다. NFS 프로토콜을 사용하도록 설정하려면 NIS 세부 정보와 데이터 LIF를 지정할 수 있습니다.
+System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 SVM(스토리지 가상 머신)에서 CIFS 및 NFS 프로토콜을 구성하여 NAS 클라이언트에 파일 레벨 데이터 액세스를 제공할 수 있습니다. CIFS 프로토콜을 설정하려면 데이터 LIF 및 CIFS 서버를 생성해야 합니다. NFS 프로토콜을 사용하도록 설정하려면 NIS 세부 정보와 데이터 LIF를 지정할 수 있습니다.
 
 .시작하기 전에
 * SVM에서 구성 또는 활성화할 프로토콜은 라이센스를 받아야 합니다.

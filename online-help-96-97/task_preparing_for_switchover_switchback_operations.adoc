@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: prepare, switchover, switchback, operation, system, manager, online, help 
 summary: System Manager 9.6을 사용하여 스위치오버 작업을 수행하기 전에 해당 사이트에서 필요한 단계가 수행되었는지 확인해야 합니다. 
 ---
-= 스위치오버 및 스위치백 작업을 준비합니다
+= System Manager Classic-ONTAP 9.6 이상을 사용하여 전환 및 스위치백 작업을 준비하십시오
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager 9.6을 사용하여 스위치오버 작업을 수행하기 전에 해당 사이트에서 필요한 단계가 수행되었는지 확인해야 합니다.
+ONTAP System Manager 클래식 9.6을 사용하여 스위치오버 작업을 수행하기 전에 해당 사이트에서 필요한 단계가 수행되었는지 확인해야 합니다.
 
 .단계
 . 사이트 B의 재해를 복구하는 경우 다음 단계를 수행해야 합니다.

@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: flexvol, create, volume, online, help 
 summary: System Manager의 볼륨 생성 대화 상자를 사용하여 데이터에 대한 FlexVol 볼륨을 생성할 수 있습니다. 루트 볼륨에 데이터를 저장하는 대신 항상 데이터에 대해 별도의 볼륨을 생성해야 합니다. 
 ---
-= FlexVol 볼륨을 생성합니다
+= System Manager-ONTAP 9.7 이하를 사용하여 FlexVol 볼륨을 생성합니다
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager의 볼륨 생성 대화 상자를 사용하여 데이터에 대한 FlexVol 볼륨을 생성할 수 있습니다. 루트 볼륨에 데이터를 저장하는 대신 항상 데이터에 대해 별도의 볼륨을 생성해야 합니다.
+System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에서 볼륨 생성 대화 상자를 사용하여 데이터에 대한 FlexVol 볼륨을 생성할 수 있습니다. 루트 볼륨에 데이터를 저장하는 대신 항상 데이터에 대해 별도의 볼륨을 생성해야 합니다.
 
 .시작하기 전에
 * 클러스터에는 루트가 아닌 애그리게이트와 SVM(스토리지 가상 머신)이 포함되어야 합니다.

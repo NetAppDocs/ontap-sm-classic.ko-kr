@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: provision, storage, aggregates, snaplock, fabricpool, online, help, flash, pool 
 summary: 스토리지 권장 사항에 따라 애그리게이트를 생성할 수 있으며, 요구사항에 따라 수동으로 생성할 수도 있습니다. System Manager를 사용하여 Flash Pool 애그리게이트, SnapLock 애그리게이트 및 FabricPool 지원 애그리게이트를 만들어 하나 이상의 볼륨에 스토리지를 제공할 수 있습니다. 
 ---
-= 애그리게이트를 통한 스토리지 프로비저닝
+= System Manager-ONTAP 9.7 이하를 사용하여 애그리게이트를 통해 스토리지를 프로비저닝합니다
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-스토리지 권장 사항에 따라 애그리게이트를 생성할 수 있으며, 요구사항에 따라 수동으로 생성할 수도 있습니다. System Manager를 사용하여 Flash Pool 애그리게이트, SnapLock 애그리게이트 및 FabricPool 지원 애그리게이트를 만들어 하나 이상의 볼륨에 스토리지를 제공할 수 있습니다.
+스토리지 권장 사항을 기반으로 애그리게이트를 생성할 수 있으며, 요구사항에 따라 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 수동으로 애그리게이트를 생성할 수 있습니다. System Manager를 사용하여 Flash Pool 애그리게이트, SnapLock 애그리게이트 및 FabricPool 지원 애그리게이트를 만들어 하나 이상의 볼륨에 스토리지를 제공할 수 있습니다.
 
 Aggregate를 생성하려면 스페어 디스크가 충분해야 합니다.
 

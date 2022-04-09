@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: online, help, delegate, administration, svm, administrator 
 summary: '기본 네트워크 구성을 사용하여 기능 SVM(스토리지 가상 시스템) 또는 SVM을 설정한 후에는 SVM 관리를 SVM 관리자에게 선택적으로 위임할 수 있습니다.' 
 ---
-= 관리를 SVM 관리자에게 위임
+= System Manager - ONTAP 9.7 이하를 사용하여 SVM 관리자에게 관리 권한을 위임합니다
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-기본 네트워크 구성을 사용하여 기능 SVM(스토리지 가상 시스템) 또는 SVM을 설정한 후에는 SVM 관리를 SVM 관리자에게 선택적으로 위임할 수 있습니다.
+기본 네트워크 구성을 사용하여 기능적 스토리지 가상 시스템(SVM) 또는 SVM을 설정한 후에는 System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 SVM 관리자에게 SVM 관리를 선택적으로 위임할 수 있습니다.
 
 SVM 관리자는 System Manager를 사용하여 위임된 SVM을 관리할 수 없습니다. 관리자는 CLI(Command-Line Interface)를 통해서만 관리할 수 있습니다.
 

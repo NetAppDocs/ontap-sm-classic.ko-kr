@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: system, manager, configure, system, manager, option, online, help 
 summary: 로깅을 설정하고 System Manager의 비활성 시간 초과 값을 지정할 수 있습니다. 
 ---
-= System Manager 옵션을 구성합니다
+= 시스템 관리자 옵션 구성 - ONTAP 9.7 이하
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-로깅을 설정하고 System Manager의 비활성 시간 초과 값을 지정할 수 있습니다.
+로깅을 설정하고 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에 대한 비활성 시간 초과 값을 지정할 수 있습니다.
 
 System Manager 로그인 창에서 옵션을 구성할 수 있습니다. 그러나 비활성 시간 초과 값을 지정하려면 응용 프로그램에 로그인해야 합니다.
 

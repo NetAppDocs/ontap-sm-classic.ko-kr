@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: ldap, system, manager, configure, server, online, help, user, information 
 summary: System Manager를 사용하여 사용자 정보를 중앙에서 관리하는 LDAP 서버를 구성할 수 있습니다. 
 ---
-= LDAP를 지원합니다
+= System Manager - ONTAP 9.7 이하를 사용하여 LDAP 서버를 구성합니다
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하여 사용자 정보를 중앙에서 관리하는 LDAP 서버를 구성할 수 있습니다.
+ONTAP System Manager 클래식(사용 가능한 9.7 이하 버전)을 사용하여 사용자 정보를 중앙에서 관리하는 LDAP 서버를 구성할 수 있습니다.
 
 
 

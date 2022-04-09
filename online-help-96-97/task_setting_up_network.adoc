@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: set, up, network, cluster, node, service, processor, dns, ntp, online, help 
 summary: 네트워크를 설정하면 클러스터, 노드 및 서비스 프로세서를 관리할 수 있습니다. 네트워크 창을 사용하여 DNS 및 NTP 세부 정보를 설정할 수도 있습니다. 
 ---
-= 네트워크 설정
+= System Manager - ONTAP 9.7 이하를 사용하여 네트워크 설정
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-네트워크를 설정하면 클러스터, 노드 및 서비스 프로세서를 관리할 수 있습니다. 네트워크 창을 사용하여 DNS 및 NTP 세부 정보를 설정할 수도 있습니다.
+ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 네트워크를 설정하여 클러스터, 노드 및 서비스 프로세서를 관리할 수 있습니다. 네트워크 창을 사용하여 DNS 및 NTP 세부 정보를 설정할 수도 있습니다.
 
 클러스터를 설정해야 합니다.
 
