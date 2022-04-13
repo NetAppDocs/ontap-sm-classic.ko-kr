@@ -5,6 +5,7 @@ keywords: qos, quality, service, assign, lun, storage, system, manager, lun, onl
 summary: 'System Manager를 사용하여 LUN을 스토리지 QoS(서비스 품질) 정책 그룹에 할당하여 LUN의 처리량을 제한할 수 있습니다. 새 LUN에 스토리지 QoS를 할당하거나 정책 그룹에 이미 할당된 LUN에 대한 스토리지 QoS 세부 정보를 수정할 수 있습니다.' 
 ---
 = 스토리지 QoS에 LUN 할당
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

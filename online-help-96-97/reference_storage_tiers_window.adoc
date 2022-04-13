@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: online, help, storage, tier, window, command, button 
 summary: Storage Tiers 창을 사용하여 클러스터 전체 공간 세부 정보를 확인하고 애그리게이트 세부 정보를 추가 및 볼 수 있습니다. 
 ---
-= Storage Tiers 창
+= System Manager - ONTAP 9.7 및 그 이전 버전의 Storage Tiers 창
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-Storage Tiers 창을 사용하여 클러스터 전체 공간 세부 정보를 확인하고 애그리게이트 세부 정보를 추가 및 볼 수 있습니다.
+ONTAP System Manager 클래식(ONTAP 9.7 및 Earier에서 사용 가능)에서 Storage Tiers 창을 사용하여 클러스터 전체 공간 세부 정보를 보고 애그리게이트 세부 정보를 추가 및 볼 수 있습니다.
 
 Internal Tier 패널 또는 Performance Tier 패널에 클러스터에 All-Flash(All-SSD) 애그리게이트가 포함된 경우, 클러스터 전반의 공간 세부 정보가 표시됩니다. 예를 들어, 모든 애그리게이트의 총 크기 합계, 클러스터 내 애그리게이트가 사용하는 공간, 클러스터에서 사용 가능한 공간입니다.
 

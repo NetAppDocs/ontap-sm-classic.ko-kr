@@ -5,6 +5,7 @@ keywords: cif, protocol, system, manager, enable, configure, server, client, fil
 summary: System Manager를 사용하여 CIFS 클라이언트가 클러스터의 파일에 액세스할 수 있도록 CIFS 서버를 설정 및 구성할 수 있습니다. 
 ---
 = CIFS 프로토콜
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

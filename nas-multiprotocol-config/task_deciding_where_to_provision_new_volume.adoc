@@ -5,6 +5,7 @@ keywords: create, multiprotocol, volume, volume, storage, virtual, machine, svm,
 summary: 새 멀티프로토콜 볼륨을 생성하기 전에 볼륨을 기존 스토리지 가상 시스템에 배치할지 여부와 필요한 경우 SVM에 필요한 구성의 크기를 결정해야 합니다. 이 결정에 따라 워크플로가 결정됩니다. 
 ---
 = 새 볼륨을 프로비저닝할 위치를 결정합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

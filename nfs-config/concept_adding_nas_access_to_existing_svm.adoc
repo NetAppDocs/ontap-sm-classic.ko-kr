@@ -5,6 +5,7 @@ keywords: nfs, access, exist, svm, creating, create, data, lif, configuring, con
 summary: 기존 SVM에 NFS 액세스를 추가하려면 데이터 LIF를 생성하고, 선택적으로 NIS를 구성하고, 볼륨을 프로비저닝하고, 볼륨을 내보내고, 엑스포트 정책을 구성해야 합니다. 
 ---
 = 기존 SVM에 NFS 액세스를 추가합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

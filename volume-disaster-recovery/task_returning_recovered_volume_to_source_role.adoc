@@ -5,6 +5,7 @@ keywords: resynchronize, resynchronizing, data, destination, volume, source, act
 summary: 대상 볼륨에서 소스 볼륨으로 데이터를 재동기화한 후 SnapMirror 관계를 끊어 소스 볼륨을 활성화해야 합니다. 다시 활성화된 소스 볼륨을 보호하기 위해 대상 볼륨을 재동기화해야 합니다. 
 ---
 = 소스 볼륨을 다시 활성화합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

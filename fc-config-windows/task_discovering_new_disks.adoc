@@ -5,6 +5,7 @@ keywords: lun, storage, virtual, machine, svm, appear, disk, windows, host, auto
 summary: 'SVM(스토리지 가상 머신)의 LUN은 Windows 호스트에 디스크로 표시됩니다. 시스템에 추가하는 LUN의 새 디스크는 호스트에서 자동으로 검색되지 않습니다. 디스크를 검색하려면 디스크를 수동으로 다시 검색해야 합니다.' 
 ---
 = 새 디스크를 검색합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: join, install, node, cluster, run, ontap, upgrade, downgrade
 summary: 새로 설치된 노드를 클러스터에 결합하기 전에 해당 노드가 클러스터에서 실행 중인 동일한 버전의 ONTAP를 실행 중인지 확인해야 합니다. 노드가 다른 버전을 실행 중인 경우 클러스터와 일치하도록 노드를 업그레이드 또는 다운그레이드해야 합니다. 
 ---
 = 노드를 업그레이드 또는 다운그레이드합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

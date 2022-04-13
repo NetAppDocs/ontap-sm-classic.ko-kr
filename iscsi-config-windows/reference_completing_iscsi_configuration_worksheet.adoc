@@ -5,6 +5,7 @@ keywords: iscsi, identifier, network, address, storage, configuration, informati
 summary: iSCSI 구성 작업을 수행하려면 iSCSI 식별자, 네트워크 주소 및 스토리지 구성 정보가 필요합니다. 
 ---
 = iSCSI 구성 워크시트를 작성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

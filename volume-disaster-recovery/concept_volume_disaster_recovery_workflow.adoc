@@ -5,6 +5,7 @@ keywords: volume, disaster recovery, workflow, activating, activate, destination
 summary: 볼륨 재해 복구 워크플로우에는 대상 볼륨 활성화, 데이터 액세스를 위한 대상 볼륨 구성, 원래 소스 볼륨 재활성화가 포함됩니다. 
 ---
 = 볼륨 재해 복구 워크플로우
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

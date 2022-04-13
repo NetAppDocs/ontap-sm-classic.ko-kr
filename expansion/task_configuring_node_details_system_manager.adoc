@@ -5,6 +5,7 @@ keywords: system, manager, configure, node, management, lif, service, processor,
 summary: System Manager를 사용하여 노드 관리 LIF 및 새로 추가된 노드의 서비스 프로세서 설정을 구성할 수 있습니다. 
 ---
 = System Manager에서 노드 세부 정보를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: iscsi, configuration, file, service, host, discover, target, access, l
 summary: iSCSI 구성 파일을 편집한 후에는 호스트에서 타겟을 검색하고 LUN을 액세스할 수 있도록 iSCSI 서비스를 시작해야 합니다. iSCSI 서비스가 실행 중이면 다시 시작해야 합니다. 
 ---
 = iSCSI 서비스를 시작합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

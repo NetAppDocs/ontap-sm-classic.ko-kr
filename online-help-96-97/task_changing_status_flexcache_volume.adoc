@@ -5,6 +5,7 @@ keywords: flexcache, volume, change, status,online, help
 summary: System Manager 9.6부터는 FlexCache 볼륨을 오프라인으로 전환하거나 FlexCache 볼륨을 온라인으로 전환하거나 FlexCache 볼륨 액세스를 제한하려는 경우 System Manager 9.6부터 볼륨 상태를 변경할 수 있습니다. 
 ---
 = FlexCache 볼륨의 상태를 변경합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: install, ca, certificate, storagegrid, fabricpool, aggregate, online, help 
 summary: StorageGRID에서 StorageGRID를 FabricPool 지원 애그리게이트의 오브젝트 저장소로 인증하려면 클러스터에 ONTAP CA 인증서를 설치할 수 있습니다. 
 ---
-= StorageGRID를 사용하는 경우 CA 인증서를 설치합니다
+= StorageGRID with System Manager - ONTAP 9.7 이하를 사용하는 경우 CA 인증서를 설치합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-StorageGRID에서 StorageGRID를 FabricPool 지원 애그리게이트의 오브젝트 저장소로 인증하려면 클러스터에 ONTAP CA 인증서를 설치할 수 있습니다.
+ONTAP에서 StorageGRID를 FabricPool 지원 애그리게이트의 오브젝트 저장소로 인증하려면 ONTAP 9.7 이하에서 사용 가능한 StorageGRID CA 인증서를 클러스터에 설치할 수 있습니다.
 
 .단계
 . StorageGRID 시스템 설명서에 따라 그리드 관리 인터페이스를 사용하여 StorageGRID 시스템의 CA 인증서를 복사합니다.

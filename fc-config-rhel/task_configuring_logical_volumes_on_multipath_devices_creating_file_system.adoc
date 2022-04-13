@@ -5,6 +5,7 @@ keywords: linux, host, access, scsi, device, lun, partition, file, system, multi
 summary: 'Linux 호스트가 새 SCSI 장치(LUN)에 처음 액세스할 때 파티션 또는 파일 시스템이 없습니다. 분할된 다중 경로 장치를 사용하려면 먼저 기본 SCSI 장치를 분할해야 합니다. 다중 경로 장치에 논리 볼륨을 생성하고 선택적으로 파일 시스템을 생성할 수도 있습니다.' 
 ---
 = 다중 경로 장치에 논리 볼륨을 구성하고 파일 시스템을 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

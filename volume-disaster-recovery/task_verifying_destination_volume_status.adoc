@@ -5,6 +5,7 @@ keywords: break, snapmirror, relationship, verify, destination, volume, access, 
 summary: SnapMirror 관계를 끊은 후에는 대상 볼륨에 읽기/쓰기 권한이 있고 대상 볼륨 설정이 소스 볼륨의 설정과 일치하는지 확인해야 합니다. 
 ---
 = 대상 볼륨 상태를 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

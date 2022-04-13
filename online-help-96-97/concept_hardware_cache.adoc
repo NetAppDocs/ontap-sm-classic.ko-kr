@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: hardware, cache, system, manager, manage, online, help, flash, 
 summary: System Manager를 사용하여 하드웨어 캐시 모듈을 관리할 수 있습니다. 
 ---
-= 하드웨어 캐시
+= System Manager - ONTAP 9.7 이하를 사용하여 하드웨어 캐시를 관리합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하여 하드웨어 캐시 모듈을 관리할 수 있습니다.
+ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하여 하드웨어 캐시 모듈을 관리할 수 있습니다.
 
 [NOTE]
 ====

@@ -5,6 +5,7 @@ keywords: edit, vault, relationships, system, manager, online, help, cluster, sc
 summary: System Manager를 사용하여 클러스터에서 기존 정책 또는 일정을 선택하거나 새 정책 또는 일정을 만들어 볼트 관계를 편집할 수 있습니다. 그러나 기존 정책 또는 스케줄의 매개 변수는 편집할 수 없습니다. 
 ---
 = 볼트 관계 편집
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

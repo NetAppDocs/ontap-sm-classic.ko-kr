@@ -5,6 +5,7 @@ keywords: guidelines, flexvol, volume, lun, change, default, settings, snapshot,
 summary: LUN이 포함된 FlexVol 볼륨으로 작업하는 경우 스냅샷 복사본에 대한 기본 설정을 변경해야 합니다. LUN 레이아웃을 최적화하여 관리를 간소화할 수도 있습니다. 
 ---
 = LUN이 포함된 FlexVol 볼륨의 작업 지침
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

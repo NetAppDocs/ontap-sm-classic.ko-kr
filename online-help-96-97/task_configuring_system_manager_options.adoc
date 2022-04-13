@@ -5,6 +5,7 @@ keywords: system, manager, configure, system, manager, option, online, help
 summary: 로깅을 설정하고 System Manager의 비활성 시간 초과 값을 지정할 수 있습니다. 
 ---
 = 시스템 관리자 옵션 구성 - ONTAP 9.7 이하
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

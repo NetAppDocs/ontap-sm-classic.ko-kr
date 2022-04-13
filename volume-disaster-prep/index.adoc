@@ -5,6 +5,7 @@ keywords: content, protect, source, volume, peer, ontap, cluster, preparation, d
 summary: 재해 복구 준비를 위해 피어링된 ONTAP 클러스터에서 소스 볼륨을 빠르게 보호할 수 있습니다. 볼륨 재해 복구를 위해 피어링된 클러스터 간에 SnapMirror 관계를 구성 및 모니터링하려는 경우 이 콘텐츠를 사용해야 하며 작업에 대한 많은 개념적 배경이 필요하지 않습니다. 
 ---
 = 볼륨 재해 복구 준비 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

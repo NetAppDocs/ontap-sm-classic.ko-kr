@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: edit, volume, properties, online, help, deduplication, system, manager 
 summary: 'System Manager를 사용하여 볼륨 이름, 보안 스타일, 부분 예약 및 공간 보장과 같은 볼륨 속성을 수정할 수 있습니다. 스토리지 효율성 설정(중복제거 일정, 중복제거 정책 및 압축) 및 공간 재확보 설정을 수정할 수 있습니다.' 
 ---
-= 볼륨 속성 편집
+= System Manager - ONTAP 9.7 이하를 사용하여 볼륨 속성을 편집합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하여 볼륨 이름, 보안 스타일, 부분 예약 및 공간 보장과 같은 볼륨 속성을 수정할 수 있습니다. 스토리지 효율성 설정(중복제거 일정, 중복제거 정책 및 압축) 및 공간 재확보 설정을 수정할 수 있습니다.
+System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 볼륨 이름, 보안 스타일, 부분 예약, 공간 보장 등의 볼륨 속성을 수정할 수 있습니다. 스토리지 효율성 설정(중복제거 일정, 중복제거 정책 및 압축) 및 공간 재확보 설정을 수정할 수 있습니다.
 
 볼륨 암호화를 사용하려면 System Manager를 사용하여 볼륨 암호화 라이센스를 설치해야 하며 CLI(Command-Line Interface)를 사용하여 ""key-manager setup""을 활성화해야 합니다. ""Key-manager setup""을 활성화한 후 웹 브라우저를 새로 고쳐야 합니다.
 

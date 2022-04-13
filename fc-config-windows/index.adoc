@@ -6,6 +6,7 @@ summary: 스토리지 가상 머신에서 FC 서비스를 빠르게 설정하고
 ---
 = Windows용 FC 구성 개요
 :hardbreaks:
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

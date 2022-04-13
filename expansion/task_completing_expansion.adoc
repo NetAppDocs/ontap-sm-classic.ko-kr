@@ -5,6 +5,7 @@ keywords: node, cluster, configuring, configure, autosupport, network, expansion
 summary: 두 노드가 클러스터에 결합된 후 AutoSupport를 구성하고 SP 네트워크를 완료하여 새로 추가된 노드 구성을 완료해야 합니다. 
 ---
 = 확장을 완료합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: generating, generate, autosupport, message, start, expansion, expand, 
 summary: 클러스터를 확장하기 직전에 확장 프로세스를 시작하려고 한다는 AutoSupport 메시지를 보내야 합니다. 
 ---
 = 확장 시작에 대한 AutoSupport 메시지를 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

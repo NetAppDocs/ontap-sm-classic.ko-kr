@@ -5,6 +5,7 @@ keywords: snapvault, backup, destination, volume, perform, restore, operation, b
 summary: SnapVault 백업 대상 볼륨을 선택한 후에는 백업 데이터를 테스트하기 위해 새 볼륨에 복구 작업을 수행하거나 기존 볼륨에 복원 작업을 수행하여 손실되거나 손상된 데이터를 복원해야 합니다. 
 ---
 = SnapVault 백업에서 데이터를 복원합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

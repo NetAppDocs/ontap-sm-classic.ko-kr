@@ -5,6 +5,7 @@ keywords: metrocluster, switchover, switchback, operations, window, command, but
 summary: 'System Manager 9.6부터 MetroCluster 스위치오버 및 스위치백 운영 윈도우를 사용하여 한 사이트 또는 클러스터(사이트 B)에서 다른 사이트 또는 클러스터(사이트 A)로 협상된(협상된) 스위치오버 또는 계획되지 않은 전환을 시작할 수 있습니다. 사이트 B에서 유지 관리 또는 수리를 수행한 후 사이트 A에서 사이트 B로 스위치백을 시작하고 이 창에서 작업 상태를 볼 수 있습니다.' 
 ---
 = MetroCluster 전환 및 스위치백 작업 창
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

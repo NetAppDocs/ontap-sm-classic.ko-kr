@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: jobs, system, manager, job, task, display, information, progress, asynchronous, volume, operation, copy, move, mirror, data, queue, cluster, administrator, online, help 
 summary: System Manager를 사용하면 작업 정보 표시 및 작업 진행률 모니터링과 같은 작업 작업을 관리할 수 있습니다. 
 ---
-= 작업
+= System Manager - ONTAP 9.7 이하를 사용하여 작업을 관리합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하면 작업 정보 표시 및 작업 진행률 모니터링과 같은 작업 작업을 관리할 수 있습니다.
+ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 작업 정보 표시 및 작업 진행 상황 모니터링과 같은 작업 작업을 관리할 수 있습니다.
 
 
 

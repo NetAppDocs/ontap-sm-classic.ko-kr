@@ -5,6 +5,7 @@ keywords: perform, restore, operation, snapvault, backup, destination, volume, v
 summary: SnapVault 백업 대상 볼륨에서 복구 작업을 수행한 후에는 소스 클러스터에서 복구 작업의 상태를 확인해야 합니다. 
 ---
 = 복구 작업을 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: activating, activate, destination, volume, configure, data, access, na
 summary: 대상 볼륨을 활성화한 후 데이터 액세스를 위해 볼륨을 구성해야 합니다. 소스 볼륨이 다시 활성화될 때까지 NAS 클라이언트와 SAN 호스트가 대상 볼륨의 데이터에 액세스할 수 있습니다. 
 ---
 = 데이터 액세스를 위한 대상 볼륨을 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

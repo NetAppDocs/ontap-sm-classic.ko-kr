@@ -5,6 +5,7 @@ keywords: system, manager, unix, svm, online, help, command, button, group, tab,
 summary: 'System Manager를 사용하여 각 SVM(스토리지 가상 머신)에 대한 로컬 UNIX 사용자 및 그룹 목록을 관리할 수 있습니다.' 
 ---
 = Unix
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

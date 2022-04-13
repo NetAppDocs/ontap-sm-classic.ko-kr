@@ -4,7 +4,8 @@ sidebar: sidebar
 keywords: svm, data, access, nondisruptive, operation, scalability, security, online, help 
 summary: SVM은 스토리지 시스템과 유사하게 물리적 스토리지 또는 컨트롤러에 관계없이 클라이언트에 데이터 액세스를 제공합니다. SVM은 무중단 운영, 확장성, 보안, 유니파이드 스토리지와 같은 이점을 제공합니다. 
 ---
-= SVM을 사용하는 이유
+= System Manager와 SVM 정보 - ONTAP 9.7 이전 버전
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

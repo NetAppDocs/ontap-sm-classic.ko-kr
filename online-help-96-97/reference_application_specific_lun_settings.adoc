@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, oracle, sql, lun, application, specific, online, help 
 summary: System Manager는 Oracle, SQL 및 기타 애플리케이션 유형을 지원하는 동시에 AFF 클러스터에서 FC SAN에 최적화된 LUN을 생성합니다. LUN 크기와 같은 LUN 설정은 애플리케이션 유형에 따른 규칙에 따라 결정됩니다. SQL 및 Oracle의 경우 LUN 설정이 자동으로 생성됩니다. 
 ---
-= 애플리케이션별 LUN 설정
+= System Manager - ONTAP 9.7 이하를 사용한 애플리케이션별 LUN 설정
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager는 Oracle, SQL 및 기타 애플리케이션 유형을 지원하는 동시에 AFF 클러스터에서 FC SAN에 최적화된 LUN을 생성합니다. LUN 크기와 같은 LUN 설정은 애플리케이션 유형에 따른 규칙에 따라 결정됩니다. SQL 및 Oracle의 경우 LUN 설정이 자동으로 생성됩니다.
+ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)은 AFF 클러스터에서 FC SAN에 최적화된 LUN을 생성하는 동시에 Oracle, SQL 및 기타 애플리케이션 유형을 지원합니다. LUN 크기와 같은 LUN 설정은 애플리케이션 유형에 따른 규칙에 따라 결정됩니다. SQL 및 Oracle의 경우 LUN 설정이 자동으로 생성됩니다.
 
 클러스터에 2개 이상의 노드가 포함된 경우 System Manager는 API에서 선택한 첫 2개의 노드만 사용하여 LUN을 생성합니다. 데이터 애그리게이트는 2개 노드 각각에서 이미 생성되었습니다. 생성된 각 볼륨의 크기는 애그리게이트의 가용 용량과 같습니다. 볼륨이 씬 프로비저닝되고 LUN에서 공간 예약이 사용되지 않습니다.
 

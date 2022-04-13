@@ -5,6 +5,7 @@ keywords: resume, mirror, relationship, normal, data, transfer, online, help
 summary: 중지된 미러 관계를 재개할 수 있습니다. 관계를 재개하면 미러 대상에 대한 정상적인 데이터 전송이 재개되고 모든 미러 작업이 다시 시작됩니다. 
 ---
 = 미러 관계를 재개하는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

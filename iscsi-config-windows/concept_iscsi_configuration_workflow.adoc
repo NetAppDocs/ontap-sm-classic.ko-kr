@@ -5,6 +5,7 @@ keywords: storage, available, host, iscsi, provision, volume, lun, storage, virt
 summary: iSCSI를 사용하여 호스트에서 스토리지를 사용할 수 있게 하면 스토리지 가상 머신에 볼륨 및 LUN을 프로비저닝하고 호스트에서 LUN에 접속합니다. 
 ---
 = iSCSI 구성 및 프로비저닝 워크플로우
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

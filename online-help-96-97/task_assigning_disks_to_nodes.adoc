@@ -5,6 +5,7 @@ keywords: system, manager, assign, disk, node, online, help
 summary: System Manager를 사용하면 할당되지 않은 디스크의 소유권을 특정 노드에 할당하여 애그리게이트 또는 스토리지 풀의 용량을 늘릴 수 있습니다. 
 ---
 = System Manager-ONTAP 9.7 이하를 사용하여 노드를 디스크에 할당합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -6,6 +6,7 @@ summary: 스토리지 가상 시스템에서 FC 서비스를 빠르게 설정하
 ---
 = Red Hat Enterprise Linux용 FC 구성 개요
 :hardbreaks:
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

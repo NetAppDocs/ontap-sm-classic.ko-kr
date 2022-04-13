@@ -5,6 +5,7 @@ keywords: wizard, create, creating, storage, virtual, machine, svm, domain, name
 summary: '마법사를 사용하면 새 SVM(스토리지 가상 시스템) 생성, DNS(Domain Name System) 구성, LIF(데이터 논리 인터페이스) 생성, CIFS 서버 구성, NFS 활성화 및 NIS(옵션) 구성 프로세스를 안내합니다.' 
 ---
 = 기본 SVM을 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

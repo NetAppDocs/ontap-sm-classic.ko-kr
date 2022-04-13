@@ -5,6 +5,7 @@ keywords: online, help, cluster, update, window, tab, update, command, button, h
 summary: 클러스터 업데이트 창을 사용하여 자동화된 클러스터 업데이트를 중단 없이 수행하거나 단일 노드 클러스터를 중단 없이 업데이트할 수 있습니다. 
 ---
 = System Manager-ONTAP 9.7 이하가 포함된 클러스터 업데이트 창
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

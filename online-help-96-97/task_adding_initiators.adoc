@@ -5,6 +5,7 @@ keywords: online, help, add, initiator, system, help, group, lun, online, help
 summary: System Manager를 사용하여 이니시에이터를 이니시에이터 그룹에 추가할 수 있습니다. 이니시에이터는 LUN이 속한 이니시에이터 그룹이 해당 LUN에 매핑될 때 LUN에 대한 액세스를 제공합니다. 
 ---
 = 이니시에이터를 추가합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

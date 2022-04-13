@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: hide, snapshot, copy, directory, system, manager, online, help 
 summary: 'System Manager를 사용하면 스냅샷 복사본 디렉토리(.snapshot)를 숨겨 볼륨 디렉토리를 볼 때 스냅샷 복사본 디렉토리가 보이지 않게 할 수 있습니다. 기본적으로 .snapshot 디렉토리가 표시됩니다.' 
 ---
-= 스냅샷 복사본 디렉토리 숨기기
+= System Manager-ONTAP 9.7 이하를 사용하여 스냅샷 복사본 디렉토리를 숨깁니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-볼륨 디렉토리를 볼 때 스냅샷 복사본 디렉토리가 표시되지 않도록 System Manager를 사용하여 스냅샷 복사본 디렉토리('.snapshot')를 숨길 수 있습니다. 기본적으로 '.snapshot' 디렉토리가 표시됩니다.
+ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 버전을 사용하면 볼륨 디렉토리를 볼 때 스냅샷 복사본 디렉토리('.snapshot')가 표시되지 않도록 스냅샷 복사본 디렉토리를 숨길 수 있습니다. 기본적으로 '.snapshot' 디렉토리가 표시됩니다.
 
 .단계
 . 스토리지 * > * 볼륨 * 을 클릭합니다.

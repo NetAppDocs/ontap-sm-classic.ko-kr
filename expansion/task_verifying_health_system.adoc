@@ -5,6 +5,7 @@ keywords: expand, cluster, verify, component, healthy, config, advisor, tool, ru
 summary: 클러스터를 확장하려면 Config Advisor 툴을 실행하고 여러 ONTAP CLI 명령을 실행하여 클러스터의 모든 구성 요소가 정상 상태인지 확인해야 합니다. 
 ---
 = 시스템 상태를 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

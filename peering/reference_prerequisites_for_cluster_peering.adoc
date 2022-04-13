@@ -5,6 +5,7 @@ keywords: cluster, peer, connectivity, port, ip, address, subnet, firewall, clus
 summary: 'ONTAP 9.7 이하와 ONTAP System Manager의 "클래식" 인터페이스를 사용하여 클러스터 피어링을 설정하기 전에 연결, 포트, IP 주소, 서브넷, 방화벽, 클러스터 명명 요구사항이 충족됩니다.' 
 ---
 = 클러스터 피어링을 위한 사전 요구사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

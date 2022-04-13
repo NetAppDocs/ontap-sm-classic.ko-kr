@@ -5,6 +5,7 @@ keywords: system, manager, create, manage, online, help, storage, virtual, machi
 summary: 'System Manager를 사용하여 SVM(스토리지 가상 시스템) 사용자 계정을 만들고 관리할 수 있습니다.' 
 ---
 = 사용자
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

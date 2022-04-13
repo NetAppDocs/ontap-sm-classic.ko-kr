@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, array, lun, aggregate, assign, online, help, classic 
 summary: System Manager를 사용하여 어레이 LUN을 기존 애그리게이트에 할당하고 어레이 LUN을 관리할 수 있습니다. 
 ---
-= 스토리지 LUN입니다
+= System Manager - ONTAP 9.7 이하를 사용하여 스토리지 LUN 관리
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하여 어레이 LUN을 기존 애그리게이트에 할당하고 어레이 LUN을 관리할 수 있습니다.
+ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 방식을 사용하여 어레이 LUN을 기존 애그리게이트에 할당하고 어레이 LUN을 관리할 수 있습니다.
 
 
 

@@ -5,6 +5,7 @@ keywords: ensure, host, multipath, practice, setting, correct, esxi, host, manag
 summary: ESXi 호스트에서 FC 경로 손실이나 스토리지 페일오버 이벤트를 올바르게 관리할 수 있도록 호스트 다중 경로 및 모범 사례 설정이 올바른지 확인해야 합니다. 
 ---
 = ESXi 호스트 Best Practice 설정을 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

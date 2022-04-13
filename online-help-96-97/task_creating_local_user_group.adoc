@@ -5,6 +5,7 @@ keywords: create, local, window, group, online, help, system, manager
 summary: 'System Manager를 사용하면 SMB 연결을 통해 SVM(스토리지 가상 머신)에 포함된 데이터에 대한 액세스 권한을 부여하는 데 사용할 수 있는 로컬 Windows 그룹을 생성할 수 있습니다. 관리 작업을 수행할 때 그룹의 구성원이 보유한 사용자 권한 또는 기능을 정의하는 권한도 할당할 수 있습니다.' 
 ---
 = 로컬 Windows 그룹을 만듭니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: client, share, ntfs, file, permission, windows, explorer, modify, shar
 summary: 준비가 되면 Windows 탐색기에서 NTFS 파일 권한을 설정하고 System Manager에서 공유 ACL을 수정하여 선택한 클라이언트에 공유에 대한 액세스 권한을 부여할 수 있습니다. 그런 다음 영향을 받는 사용자 또는 그룹이 볼륨에 액세스할 수 있는지 테스트해야 합니다. 
 ---
 = CIFS 클라이언트 액세스를 구성하고 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

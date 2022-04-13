@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: storage, virtual, machine, window, svm, online, help, command, button, peer 
 summary: '스토리지 가상 시스템 창을 사용하여 SVM(스토리지 가상 머신)을 관리하고 이러한 가상 머신에 대한 정보를 표시할 수 있습니다.' 
 ---
-= Storage Virtual Machines 창이 나타납니다
+= System Manager - ONTAP 9.7 이전의 스토리지 가상 시스템 창
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-스토리지 가상 시스템 창을 사용하여 SVM(스토리지 가상 머신)을 관리하고 이러한 가상 머신에 대한 정보를 표시할 수 있습니다.
+ONTAP System Manger Classic(ONTAP 9.7 이하에서 사용 가능)에서 스토리지 가상 머신 창을 사용하여 SVM(스토리지 가상 머신)을 관리하고 해당 정보를 표시할 수 있습니다.
 
 System Manager를 사용하여 DR(재해 복구)용으로 구성된 SVM은 관리(생성, 삭제, 시작 또는 중지)할 수 없습니다. 또한 애플리케이션 인터페이스에서 재해 복구를 위해 구성된 SVM과 연관된 스토리지 객체를 볼 수 없습니다.
 

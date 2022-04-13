@@ -5,6 +5,7 @@ keywords: periodical, monitor, status, snapmirror, relationship, ensure, data, s
 summary: SnapMirror 관계 상태를 주기적으로 모니터링하여 SnapMirror 데이터 전송이 지정된 일정에 따라 발생하는지 확인합니다. 
 ---
 = SnapMirror 데이터 전송 상태를 모니터링합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

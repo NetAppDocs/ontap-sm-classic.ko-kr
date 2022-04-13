@@ -5,6 +5,7 @@ keywords: lag, time, online, help, system, logs
 summary: 지연 시간은 대상 시스템이 소스 시스템 뒤에 걸쳐지는 시간입니다. 
 ---
 = 지연 시간은 얼마인지
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

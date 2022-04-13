@@ -5,6 +5,7 @@ keywords: expand, cluster, ensure, configuration, switch, exist, port, add, repl
 summary: 클러스터를 확장하기 전에 클러스터 스위치가 확장된 구성을 지원하는지 확인해야 합니다. 스위치가 없는 클러스터인 경우 스위치를 추가해야 합니다. 
 ---
 = 스위치를 추가하거나 교체합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -1,23 +1,8 @@
 ---
 permalink: online-help-96-97/task_renaming_metrocluster_local_site_a.html 
-sidebar: sidebar 
-keywords: system, manager, metrocluster, rename, local, site, cluster, online, help 
-summary: 'System Manager를 사용하여 클러스터의 MetroCluster 로컬 사이트(사이트 A)의 이름을 바꿀 수 있습니다.' 
+redirect: ontap-sm-classic/online-help-96-97/task_preparing_for_switchover_switchback_operations.html 
 ---
-= 시스템 관리자 - ONTAP 9.7 이전 버전을 사용하여 MetroCluster 로컬 사이트(사이트 A)의 이름을 바꿉니다
-:icons: font
-:imagesdir: ../media/
+= 
+:allow-uri-read: 
 
-
-[role="lead"]
-ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 클러스터의 MetroCluster 로컬 사이트(사이트 A)의 이름을 바꿀 수 있습니다.
-
-.단계
-. 구성 * > * 구성 업데이트 * 를 클릭합니다.
-. Update cluster name * 을 클릭합니다.
-. 텍스트 상자의 이름을 업데이트한 다음 * 제출 * 을 클릭합니다.
-+
-MetroCluster 사이트 A 상태가 표시되면 업데이트된 이름을 볼 수 있습니다.
-
-. 원격 사이트(사이트 B)에서 MetroCluster 사이트 A를 볼 때 업데이트된 이름을 표시하려면 원격 사이트(사이트 B)의 CLI에서 'cluster peer modify -local -name'이라는 명령을 실행합니다
 

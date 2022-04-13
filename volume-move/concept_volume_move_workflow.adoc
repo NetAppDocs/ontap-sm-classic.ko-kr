@@ -5,6 +5,7 @@ keywords: move, moving, volume, method, operation, plan, timing, system, manager
 summary: 볼륨을 이동하기 전에 볼륨 이동 작업의 방법을 선택하고 작업 타이밍을 계획해야 합니다. System Manager를 사용하여 볼륨을 이동할 수 있습니다. 이동 후에는 NDMP 백업 구성을 업데이트해야 할 수 있습니다. 
 ---
 = 볼륨 이동 워크플로우
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

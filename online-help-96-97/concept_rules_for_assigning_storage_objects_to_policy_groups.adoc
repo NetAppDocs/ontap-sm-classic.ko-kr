@@ -5,6 +5,7 @@ keywords: rulw, assign, storage, object, policy, group, svm, nested, online, hel
 summary: 스토리지 QoS 정책 그룹에 스토리지 객체를 할당하는 방법을 결정하는 규칙을 알고 있어야 합니다. 
 ---
 = 정책 그룹에 스토리지 객체를 할당하는 규칙입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

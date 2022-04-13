@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: volume, guarantee, work, flexvol, volume, space, preallocated, aggregate, online, help 
 summary: '볼륨 보장(공간 보장이라고도 함)은 볼륨의 공간이 해당 애그리게이트에 할당될 때 공간을 미리 할당할지 여부를 결정합니다.' 
 ---
-= FlexVol 볼륨에서 볼륨을 보장하는 방법
+= System Manager-ONTAP 9.7 이하가 설치된 FlexVol 볼륨의 볼륨 보장에 대해 설명합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-볼륨 보장(_space 보장 _ 이라고도 함)은 볼륨의 공간이 해당 포함하는 aggregate에서 할당되는 방식을 결정합니다. -- 공간이 볼륨에 사전 할당되었는지 여부를 결정합니다.
+System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)으로 FlexVol 볼륨에 대한 볼륨 보장을 설정할 수 있습니다. 볼륨 보장(_space 보장 _ 이라고도 함)은 볼륨의 공간이 해당 포함하는 aggregate에서 할당되는 방식을 결정합니다. -- 공간이 볼륨에 사전 할당되었는지 여부를 결정합니다.
 
 보증은 볼륨의 속성입니다.
 

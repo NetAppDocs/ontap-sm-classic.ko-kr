@@ -5,6 +5,7 @@ keywords: resume, mirror, vault, relationship, online, help, system, manager
 summary: 중지된 미러 및 볼트 관계가 있는 경우 System Manager를 사용하여 관계를 재개할 수 있습니다. 관계를 재개하면 대상 볼륨에 대한 정상적인 데이터 전송이 재개되고 모든 보호 작업이 다시 시작됩니다. 
 ---
 = 대칭 복사 및 볼트 관계 다시 시작
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

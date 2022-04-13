@@ -5,6 +5,7 @@ keywords: system, manager, mirror, vault, relationship, source, destination, del
 summary: System Manager를 사용하여 소스 볼륨과 타겟 볼륨 간의 미러 및 소산 관계를 종료 하고 소스 볼륨에서 스냅샷 복사본을 릴리즈할 수 있습니다. 
 ---
 = 대칭 복사 및 볼트 관계 삭제
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

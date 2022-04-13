@@ -5,6 +5,7 @@ keywords: multipath, device, verify, host, write, data, verify that the host can
 summary: 다중 경로 장치를 사용하기 전에 호스트에서 다중 경로 장치에 데이터를 쓰고 다시 읽을 수 있는지 확인해야 합니다. 
 ---
 = 호스트가 다중 경로 장치에 데이터를 쓰고 읽을 수 있는지 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

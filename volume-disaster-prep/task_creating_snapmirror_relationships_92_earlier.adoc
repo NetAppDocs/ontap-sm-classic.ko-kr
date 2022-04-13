@@ -5,6 +5,7 @@ keywords: create, snapmirror, relationship, source, volume, cluster, destination
 summary: 한 클러스터의 소스 볼륨과 재해 복구를 위한 데이터 복제를 위한 피어링된 클러스터의 타겟 볼륨 간에 SnapMirror 관계를 생성해야 합니다. 
 ---
 = SnapMirror 관계 생성(ONTAP 9.2 이하)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

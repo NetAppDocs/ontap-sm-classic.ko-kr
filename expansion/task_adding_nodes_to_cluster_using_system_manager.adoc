@@ -5,6 +5,7 @@ keywords: system, manager, increase, size, capabilities, capability, storage, no
 summary: System Manager를 사용하면 기존 클러스터에 노드를 추가하여 스토리지 시스템의 크기와 기능을 높일 수 있습니다. 유효 클러스터 버전이 ONTAP 9.2인 경우 System Manager에서 이 기능이 자동으로 활성화됩니다. 
 ---
 = System Manager를 사용하여 클러스터에 노드를 추가합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

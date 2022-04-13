@@ -5,6 +5,7 @@ keywords: content, describe, smb, cifs, access, volume, exist, storage, virtual,
 summary: 'ONTAP System Manager 클래식 인터페이스(ONTAP 9.7 이하)를 사용하면 새 SVM(스토리지 가상 머신) 또는 기존 SVM(스토리지 가상 머신)에서 새 볼륨에 SMB/CIFS 액세스를 빠르게 설정할 수 있습니다.' 
 ---
 = SMB/CIFS 구성 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

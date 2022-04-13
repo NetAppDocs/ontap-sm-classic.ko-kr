@@ -5,6 +5,7 @@ keywords: review, storage, recommendation, window, online, help, create, aggrega
 summary: Storage 창을 사용하여 애그리게이트 생성을 위해 제공되는 스토리지 권장 사항을 검토할 수 있습니다. 
 ---
 = System Manager-ONTAP 9.7 이하와 함께 스토리지 권장 사항을 검토하십시오
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

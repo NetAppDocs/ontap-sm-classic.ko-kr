@@ -5,6 +5,7 @@ keywords: add, cifs, smb, access, exist, svm, involve, creating, create, data, l
 summary: 기존 SVM에 CIFS/SMB 액세스를 추가하려면 데이터 LIF 생성, CIFS 서버 구성, 볼륨 프로비저닝, 볼륨 공유, 공유 권한 구성과 같은 작업이 필요합니다. 
 ---
 = 기존 SVM에 CIFS 액세스 추가
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

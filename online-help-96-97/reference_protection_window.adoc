@@ -5,6 +5,7 @@ keywords: command, buttons, protection, window, relationship, vault, mirror, onl
 summary: '보호 창을 사용하여 미러 관계, 볼트 관계, 미러 및 볼트 관계를 생성 및 관리하고 이러한 관계에 대한 세부 정보를 표시할 수 있습니다. 보호 창에는 로드 공유(LS) 관계 및 전환 데이터 보호(TDP) 관계가 표시되지 않습니다.' 
 ---
 = 보호 윈도우
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

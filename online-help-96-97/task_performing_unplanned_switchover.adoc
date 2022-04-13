@@ -5,6 +5,7 @@ keywords: perform, unplanned, switchover, system, manager, metrocluster, site, o
 summary: System Manager 9.6부터 MetroCluster 사이트의 계획되지 않은 전환을 시작할 수 있습니다. 이 작업은 중단 이벤트 또는 재해 이벤트 후에 유용합니다. 
 ---
 = 계획되지 않은 전환 수행
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

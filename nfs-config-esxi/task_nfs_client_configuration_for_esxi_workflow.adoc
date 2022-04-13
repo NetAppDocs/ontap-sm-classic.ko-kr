@@ -5,6 +5,7 @@ keywords: nfs, client, configuration, esxi, workflow, nfs client configuration f
 summary: NFS를 사용하여 ESXi 호스트에서 스토리지를 사용할 수 있게 하면 용 에서 볼륨을 프로비저닝하고 ESXi 호스트에서 NFS 내보내기에 연결합니다. 
 ---
 = ESXi 워크플로우를 위한 NFS 클라이언트 구성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

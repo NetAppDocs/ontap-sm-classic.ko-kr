@@ -5,6 +5,7 @@ keywords: source, volume, data, corrupt, restore, snapvault, backup, destination
 summary: 소스 볼륨을 사용할 수 없거나 데이터가 손상된 경우 SnapVault 백업에서 복원을 수행할 수 있습니다. SnapVault 백업에서 볼륨을 복원하려면 SnapVault 대상 볼륨을 선택하고 새 볼륨이나 기존 볼륨으로 복원하며 복원 작업을 확인해야 합니다. 
 ---
 = 볼륨 복원 워크플로우
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

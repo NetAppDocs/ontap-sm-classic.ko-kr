@@ -5,6 +5,7 @@ keywords: cifs, smb, nfs, access, exist, svm, lif, server, enabling, enable, con
 summary: 기존 SVM에 CIFS/SMB 및 NFS 액세스를 모두 추가하려면 데이터 LIF를 생성하고, CIFS 서버를 구성하고, NFS를 사용하도록 설정하고, 선택적으로 NIS를 구성해야 합니다. 
 ---
 = 기존 SVM에 CIFS 및 NFS 액세스를 추가합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

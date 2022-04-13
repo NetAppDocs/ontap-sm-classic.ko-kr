@@ -5,6 +5,7 @@ keywords: iscsi, service, storage, virtual, machine, svm, lun, initiator, red, h
 summary: 이 절차에서는 스토리지 가상 시스템에서 iSCSI 서비스를 빠르게 설정하고, LUN을 프로비저닝하고, Red Hat Enterprise Linux 서버의 iSCSI 이니시에이터를 사용하여 LUN을 사용할 수 있도록 설정하는 방법에 대해 설명합니다. 
 ---
 = Red Hat Enterprise Linux용 iSCSI 구성 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

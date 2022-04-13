@@ -5,6 +5,7 @@ keywords: edit, application, online, help, provisioned, snapshot, copy
 summary: 프로비저닝된 애플리케이션을 편집하여 스토리지 크기를 늘리거나 애플리케이션의 스냅샷 복사본을 관리할 수 있습니다. 
 ---
 = System Manager - ONTAP 9.7 이하를 사용하여 애플리케이션을 편집합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

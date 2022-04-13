@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: command, button, disk, window, inventory, detail, online, help 
 summary: 디스크 창을 사용하여 스토리지 시스템의 모든 디스크를 볼 수 있습니다. 
 ---
-= 디스크 창
+= System Manager의 디스크 창 - ONTAP 9.7 이하
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-디스크 창을 사용하여 스토리지 시스템의 모든 디스크를 볼 수 있습니다.
+ONTAP System Manager(ONTAP 9.7 이하에서 사용 가능)의 Disks 창을 사용하여 스토리지 시스템의 모든 디스크를 볼 수 있습니다.
 
 
 

@@ -5,6 +5,7 @@ keywords: 'rule, export, policy, nfsv3, nfs, client, storage, virtual, machine, 
 summary: 'NFSv3을 통해 모든 클라이언트가 액세스할 수 있도록 기본 엑스포트 정책에 규칙을 추가해야 합니다. 이 규칙이 없으면 모든 NFS 클라이언트가 SVM(스토리지 가상 머신) 및 볼륨에 액세스할 수 없습니다.' 
 ---
 = SVM 루트 볼륨의 엑스포트 정책을 엽니다(새 NFS 지원 SVM 생성).
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: periodically, monitor, status, snapvault, relationship, ensure, data, 
 summary: SnapVault 관계의 상태를 주기적으로 모니터링하여 지정된 스케줄에 따라 데이터가 대상 볼륨에 백업되도록 해야 합니다. 
 ---
 = SnapVault 관계를 모니터링합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

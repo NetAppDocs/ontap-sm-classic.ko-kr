@@ -5,6 +5,7 @@ keywords: cluster, expanision, system, manager, storage, size, capabilities, add
 summary: System Manager를 사용하면 클러스터에 호환되는 노드를 추가하고 노드 네트워크 세부 정보를 구성하여 스토리지의 크기와 기능을 높일 수 있습니다. 노드의 요약을 볼 수도 있습니다. 
 ---
 = System Manager로 클러스터 확장 - ONTAP 9.7 이하
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

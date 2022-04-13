@@ -5,6 +5,7 @@ keywords: iscsi, service, storage, virtual, machine, svm, provision, lun, isvsi,
 summary: 'ONTAP System Manager 클래식 인터페이스(ONTAP 9.7 이하)를 사용하면 SVM(스토리지 가상 머신)에서 iSCSI 서비스를 빠르게 설정하고, LUN을 프로비저닝하고, Windows 호스트 컴퓨터의 iSCSI 이니시에이터를 사용하여 LUN을 사용할 수 있습니다.' 
 ---
 = Windows용 iSCSI 구성 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

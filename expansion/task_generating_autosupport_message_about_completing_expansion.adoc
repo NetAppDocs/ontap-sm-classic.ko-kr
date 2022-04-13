@@ -5,6 +5,7 @@ keywords: expand, cluster, autosupport, indicate, expansion, process, complete, 
 summary: 클러스터를 확장한 후 확장 프로세스가 완료되었음을 나타내는 AutoSupport 메시지를 보내야 합니다. 
 ---
 = 확장 완료에 대한 AutoSupport 메시지를 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

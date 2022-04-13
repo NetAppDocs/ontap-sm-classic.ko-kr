@@ -5,6 +5,7 @@ keywords: set, up, cluster, template, file, system, manager, online, help, autos
 summary: 'System Manager에서 제공하는 템플릿 파일을 사용하여 클러스터를 생성하고, 노드 관리 및 클러스터 관리 네트워크를 설정한 다음, 이벤트 알림을 설정하여 클러스터를 설정할 수 있습니다. (ONTAP 시스템 관리자 9.6부터는 AutoSupport가 지원되지 않습니다.) 템플릿 파일은 .xlsx 형식 또는 .csv 형식으로 다운로드할 수 있습니다.' 
 ---
 = System Manager - ONTAP 9.7 및 이전 버전에서 템플릿 파일을 사용하여 클러스터를 설정합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: choose, exist, storage, virtual, machine, svm, fc, service, ontap, sys
 summary: 기존 스토리지 가상 시스템을 사용하기로 결정한 경우 ONTAP 시스템 관리자를 사용하여 SVM에서 FC 서비스가 실행 중인지 확인해야 합니다. 또한 FC 논리 인터페이스가 이미 생성되어 있는지도 확인해야 합니다. 
 ---
 = FC 서비스가 기존 SVM에서 실행되고 있는지 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: flexclone, volume, system, manager, parent, volume, online, help 
 summary: System Manager를 사용하여 FlexClone 볼륨 및 상위 볼륨의 계층 구조를 볼 수 있습니다. 
 ---
-= FlexClone 볼륨 계층 구조 보기
+= FlexClone 볼륨 계층 - ONTAP 9.7 이하 버전을 봅니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하여 FlexClone 볼륨 및 상위 볼륨의 계층 구조를 볼 수 있습니다.
+ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 FlexClone 볼륨 및 상위 볼륨의 계층 구조를 볼 수 있습니다.
 
 .단계
 . 스토리지 * > * 볼륨 * 을 클릭합니다.

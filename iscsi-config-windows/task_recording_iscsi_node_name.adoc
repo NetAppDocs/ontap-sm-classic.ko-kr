@@ -5,6 +5,7 @@ keywords: record, iscsi, initiator, node, program, windows, host, record the isc
 summary: Windows 호스트의 iSCSI 이니시에이터 프로그램에서 iSCSI 이니시에이터 노드 이름을 기록해야 합니다. 
 ---
 = iSCSI 이니시에이터 노드 이름을 기록합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

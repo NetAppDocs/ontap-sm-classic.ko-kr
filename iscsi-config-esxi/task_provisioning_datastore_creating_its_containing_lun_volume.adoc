@@ -5,6 +5,7 @@ keywords: datastore, contain, virtual, machine, vmdk, esxi, host, provision, lun
 summary: 데이터 저장소에는 ESXi 호스트의 가상 머신 및 해당 VMDK가 포함됩니다. ESXi 호스트의 데이터 저장소가 스토리지 클러스터의 LUN에 프로비저닝됩니다. 
 ---
 = 데이터 저장소를 프로비저닝하고 포함된 LUN 및 볼륨을 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

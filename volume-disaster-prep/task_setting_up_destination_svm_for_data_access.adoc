@@ -5,6 +5,7 @@ keywords: minimize, data, access, disruption, activating, activate, destination,
 summary: LIF, CIFS 공유, NAS 환경을 위한 엑스포트 정책, 타겟 볼륨을 포함하는 SVM의 SAN 환경을 위한 LIF 및 이니시에이터 그룹과 같은 필수 구성을 설정하여 타겟 볼륨을 활성화할 때 데이터 액세스 중단을 최소화할 수 있습니다. 
 ---
 = 데이터 액세스를 위해 대상 SVM을 설정합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

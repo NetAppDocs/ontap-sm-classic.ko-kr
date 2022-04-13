@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, hot, spares, disk, storage, raid, online, help 
 summary: 핫 스페어는 스토리지 시스템에 할당되지만 RAID 그룹에서 사용되지 않는 디스크입니다. 핫 스페어는 데이터를 포함하지 않으며 RAID 그룹에서 디스크 장애가 발생할 경우 RAID 그룹에 할당됩니다. System Manager는 가장 큰 디스크를 핫 스페어로 사용합니다. 
 ---
-= System Manager를 핫 스페어와 함께 사용하는 방법
+= ONTAP 9.7 이전의 핫 스페어와 System Manager의 작동 방식
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-핫 스페어는 스토리지 시스템에 할당되지만 RAID 그룹에서 사용되지 않는 디스크입니다. 핫 스페어는 데이터를 포함하지 않으며 RAID 그룹에서 디스크 장애가 발생할 경우 RAID 그룹에 할당됩니다. System Manager는 가장 큰 디스크를 핫 스페어로 사용합니다.
+핫 스페어는 스토리지 시스템에 할당되지만 RAID 그룹에서 사용되지 않는 디스크입니다. 핫 스페어는 데이터를 포함하지 않으며 RAID 그룹에서 디스크 장애가 발생할 경우 RAID 그룹에 할당됩니다. ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에서는 가장 큰 디스크를 핫 스페어로 사용합니다.
 
 RAID 그룹에 서로 다른 디스크 유형이 있는 경우 각 디스크 유형의 가장 큰 디스크가 핫 스페어로 남게 됩니다. 예를 들어 RAID 그룹에 SATA 디스크 10개와 SAS 디스크 10개가 있는 경우 가장 큰 SATA 디스크와 가장 큰 크기의 SAS 디스크가 핫 스페어로 사용됩니다.
 

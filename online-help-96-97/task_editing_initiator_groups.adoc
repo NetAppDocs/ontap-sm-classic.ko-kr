@@ -5,6 +5,7 @@ keywords: edit, initiator, group, system, manager, online, help, port, set, dial
 summary: System Manager의 이니시에이터 그룹 편집 대화 상자를 사용하여 기존 이니시에이터 그룹 및 해당 운영 체제의 이름을 변경할 수 있습니다. 이니시에이터를 이니시에이터 그룹에 추가하거나 이니시에이터 그룹에서 제거할 수 있습니다. 또한 이니시에이터 그룹과 연결된 포트셋 를 변경할 수도 있습니다. 
 ---
 = 이니시에이터 그룹 편집
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

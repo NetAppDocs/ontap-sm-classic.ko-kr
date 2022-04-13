@@ -5,6 +5,7 @@ keywords: create, lun, wizard, igroup, map, enable, host, access, create a lun
 summary: LUN 생성 마법사를 사용하여 LUN을 생성합니다. 또한 이 마법사는 igroup을 생성하고 LUN을 igroup에 매핑하여 지정한 호스트에서 LUN에 액세스할 수 있도록 합니다. 
 ---
 = LUN을 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

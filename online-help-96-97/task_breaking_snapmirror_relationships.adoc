@@ -5,6 +5,7 @@ keywords: snapmirror, break, relationship, dp, rw, online, help
 summary: SnapMirror 소스를 사용할 수 없게 되고 클라이언트 애플리케이션이 미러 대상에서 데이터에 액세스할 수 있게 하려면 SnapMirror 관계를 끊어야 합니다. 
 ---
 = SnapMirror 관계를 더욱 공고히 합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

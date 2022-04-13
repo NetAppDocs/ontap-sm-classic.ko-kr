@@ -5,6 +5,7 @@ keywords: successful, create, cluster, peer, relationship, protect, availability
 summary: 클러스터 피어링 관계를 성공적으로 생성한 후에는 데이터의 가용성을 보호할 준비가 된 것입니다. 
 ---
 = 추가 정보를 찾을 수 있는 위치
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

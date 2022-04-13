@@ -5,6 +5,7 @@ keywords: svm, relationship, dr, disaster, recovery, online, storage, virtual, m
 summary: 'SVM(스토리지 가상 시스템) DR(재해 복구)은 SVM의 구성요소 볼륨에 있는 데이터를 복구하고 SVM 구성을 복구하여 SVM 레벨에서 재해 복구 기능을 제공합니다.' 
 ---
 = SVM 관계
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

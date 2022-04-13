@@ -5,6 +5,7 @@ keywords: high, availability, system, manager, hardware, redundancy, nondisrupti
 summary: 'System Manager를 사용하면 무중단 운영과 내결함성을 지원하는 데 필요한 하드웨어 이중화를 제공하는 고가용성(HA) 쌍을 생성할 수 있습니다.' 
 ---
 = System Manager-ONTAP 9.7 이하를 사용하여 고가용성 쌍을 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

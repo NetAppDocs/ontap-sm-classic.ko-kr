@@ -5,6 +5,7 @@ keywords: online, help, edit, flexcache, vaolume, system, manager
 summary: System Manager 9.6부터 기존 FlexCache 볼륨의 속성을 편집할 수 있습니다. 
 ---
 = FlexCache 볼륨 편집
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

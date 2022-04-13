@@ -5,6 +5,7 @@ keywords: expand, cluster, validate, configuration, config, advisor, command, he
 summary: 클러스터를 확장한 후에는 Config Advisor를 실행하고 클러스터 상태 및 클러스터 복제 링을 확인하는 일부 명령을 사용하여 구성을 검증해야 합니다. 
 ---
 = 확장된 클러스터의 구성을 검증합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

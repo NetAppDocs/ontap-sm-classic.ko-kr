@@ -5,6 +5,7 @@ keywords: configure, fc, exist, storage, virtual, machine, svm, create, lun, con
 summary: '기존 SVM(스토리지 가상 머신)에서 FC를 구성하고 단일 마법사로 LUN 및 포함된 볼륨을 생성할 수 있습니다. FC 프로토콜은 SVM에서 이미 활성화되었지만 구성되지 않아야 합니다. 이 정보는 여러 프로토콜을 구성하지만 FC를 아직 구성하지 않은 SVM용으로 제공됩니다.' 
 ---
 = 기존 SVM에서 FC를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

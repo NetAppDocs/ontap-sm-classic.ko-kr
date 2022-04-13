@@ -5,6 +5,7 @@ keywords: create, local, windows, user, account, online, help, system, manager, 
 summary: 'System Manager를 사용하면 SMB 연결을 통해 SVM(스토리지 가상 시스템)에 포함된 데이터에 대한 액세스를 승인하는 데 사용할 수 있는 로컬 Windows 사용자 계정을 만들 수 있습니다. CIFS 세션을 생성할 때 인증에 로컬 Windows 사용자 계정을 사용할 수도 있습니다.' 
 ---
 = 로컬 Windows 사용자 계정을 만듭니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

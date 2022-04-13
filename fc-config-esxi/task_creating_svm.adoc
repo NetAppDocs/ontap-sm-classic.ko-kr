@@ -5,6 +5,7 @@ keywords: storage, virutal, machine, svm, fc, target, host, access, lun, logical
 summary: 스토리지 가상 머신은 호스트가 LUN에 액세스하는 데 사용하는 FC 타겟을 제공합니다. 
 ---
 = 새 SVM을 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

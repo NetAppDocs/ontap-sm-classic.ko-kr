@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: create, mirror, relationship, source, lvm, system, manager, online, help 
 summary: 'System Manager를 사용하여 소스 스토리지 가상 시스템(SVM)에서 미러링 관계를 생성하고 미러 정책과 일정을 미러 관계에 할당할 수 있습니다. 미러 복제본을 사용하면 소스 볼륨의 데이터가 손상되거나 손실된 경우 데이터를 빠르게 사용할 수 있습니다.' 
 ---
-= 소스 SVM에서 미러 관계를 생성합니다
+= 시스템 관리자-ONTAP 9.7 이하를 사용하여 소스 SVM에서 미러링 관계를 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하여 소스 스토리지 가상 시스템(SVM)에서 미러링 관계를 생성하고 미러 정책과 일정을 미러 관계에 할당할 수 있습니다. 미러 복제본을 사용하면 소스 볼륨의 데이터가 손상되거나 손실된 경우 데이터를 빠르게 사용할 수 있습니다.
+ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 소스 SVM(스토리지 가상 머신)에서 미러 관계를 생성하고 미러 정책과 일정을 미러 관계에 할당할 수 있습니다. 미러 복제본을 사용하면 소스 볼륨의 데이터가 손상되거나 손실된 경우 데이터를 빠르게 사용할 수 있습니다.
 
 .시작하기 전에
 * 소스 클러스터와 대상 클러스터에서 SnapMirror 라이센스가 활성화되어야 합니다.

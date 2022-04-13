@@ -5,6 +5,7 @@ keywords: create, mirror, relationship, destination, svm, online, help, system, 
 summary: 'ONTAP System Manager를 사용하여 대상 SVM(스토리지 가상 머신)에서 미러링 관계를 생성하고 정책 및 일정을 미러 관계에 할당할 수 있습니다. 미러 복제본을 사용하면 소스 볼륨의 데이터가 손상되거나 손실된 경우 데이터를 빠르게 사용할 수 있습니다.' 
 ---
 = 대상 SVM에서 미러 관계를 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: information, administer, ontap, product, library, where to find additi
 summary: ONTAP 관리에 대한 자세한 내용은 ONTAP 9 제품 라이브러리를 참조하십시오. 
 ---
 = 추가 정보를 찾을 수 있는 위치
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

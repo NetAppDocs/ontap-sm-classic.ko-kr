@@ -5,6 +5,7 @@ keywords: nfs, access, esxi, host, datastores, ontap, volume, configuration, ove
 summary: 'ONTAP System Manager 클래식 인터페이스(ONTAP 9.7 이하)를 사용하면 ONTAP 볼륨을 사용하여 ESXi 호스트에 대한 NFS 액세스를 데이터 저장소에 빠르게 설정할 수 있습니다.' 
 ---
 = VSC 개요를 사용한 ESXi용 NFS 구성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

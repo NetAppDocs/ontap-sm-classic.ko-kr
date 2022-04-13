@@ -5,6 +5,7 @@ keywords: create, snapvault, relationship, source, volume, cluster, destination,
 summary: 피어링된 클러스터에서 소스 볼륨과 타겟 볼륨 간에 SnapVault 관계를 생성하여 SnapVault 백업을 생성해야 합니다. 
 ---
 = SnapVault 관계 생성(ONTAP 9.2 이하)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

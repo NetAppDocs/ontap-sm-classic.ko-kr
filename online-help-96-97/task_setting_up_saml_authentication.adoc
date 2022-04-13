@@ -5,6 +5,7 @@ keywords: set, up, saml, authentication, security, assertion, markup, idp, onlin
 summary: 'SAML(Security Assertion Markup Language) 인증을 설정하여 원격 사용자가 System Manager에 로그인하기 전에 IDP(Secure Identity Provider)를 통해 인증되도록 할 수 있습니다.' 
 ---
 = 시스템 관리자 - ONTAP 9.7 이하를 사용하여 SAML 인증을 설정합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

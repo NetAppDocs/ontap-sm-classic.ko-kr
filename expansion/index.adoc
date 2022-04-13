@@ -5,6 +5,7 @@ keywords: nondisruptive, expand, exist, cluster, ha, pair, expansion, overview
 summary: HA 쌍을 추가하면 기존 클러스터를 빠르고 중단 없이 확장할 수 있습니다. 클러스터가 클수록 클러스터에서 사용할 수 있는 성능과 스토리지 용량이 늘어납니다. 
 ---
 = 클러스터 확장 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: manage, cluster, system, manager, online, help
 summary: System Manager를 사용하여 클러스터를 관리할 수 있습니다. 
 ---
 = 클러스터 관리
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

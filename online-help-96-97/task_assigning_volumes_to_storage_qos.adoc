@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: assign, volumes, storage, qos, online, help, flexgroup, online, help, quality, serice 
 summary: 'FlexGroup 볼륨 및 FlexVol 볼륨을 스토리지 QoS(서비스 품질) 정책 그룹에 할당하여 처리량을 제한할 수 있습니다. 새 볼륨에 스토리지 QoS를 할당하거나 System Manager를 사용하여 정책 그룹에 이미 할당된 볼륨의 스토리지 QoS 세부 정보를 수정할 수 있습니다.' 
 ---
-= 스토리지 QoS에 볼륨 할당
+= System Manager-ONTAP 9.7 이하를 사용하여 스토리지 QoS에 볼륨을 할당합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-FlexGroup 볼륨 및 FlexVol 볼륨을 스토리지 QoS(서비스 품질) 정책 그룹에 할당하여 처리량을 제한할 수 있습니다. 새 볼륨에 스토리지 QoS를 할당하거나 System Manager를 사용하여 정책 그룹에 이미 할당된 볼륨의 스토리지 QoS 세부 정보를 수정할 수 있습니다.
+ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 FlexVol 볼륨 및 FlexGroup 볼륨을 스토리지 QoS(서비스 품질) 정책 그룹에 할당하여 처리량을 제한할 수 있습니다. 새 볼륨에 스토리지 QoS를 할당하거나 System Manager를 사용하여 정책 그룹에 이미 할당된 볼륨의 스토리지 QoS 세부 정보를 수정할 수 있습니다.
 
 .이 작업에 대해
 * 스토리지 QoS는 온라인 상태인 읽기/쓰기(RW) 볼륨에만 할당할 수 있습니다.

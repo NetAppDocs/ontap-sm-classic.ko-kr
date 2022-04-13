@@ -1713,7 +1713,6 @@
   <block id="b0aa9d75941e4d18d498ced8681ad877" category="paragraph"><block ref="b0aa9d75941e4d18d498ced8681ad877" category="inline-xref-macro-rx"></block></block>
   <block id="0d5ddc0626951e6b53687c9806bbf703" category="inline-xref-macro">SSD를 추가하여 캐시 프로비저닝</block>
   <block id="985c08765dc41063e668197097ffde47" category="paragraph"><block ref="985c08765dc41063e668197097ffde47" category="inline-xref-macro-rx"></block></block>
-  <block id="3913cc3a62bd1a6ecc7cab1127219820" category="summary">System Manager를 사용하면 FabricPool 지원 애그리게이트를 수동으로 생성하거나 클라우드 계층을 SSD 애그리게이트에 연결하여 기존 SSD 애그리게이트를 FabricPool 지원 애그리게이트로 변환할 수 있습니다.</block>
   <block id="656f14abca9be3df0c2f539b6ce643ec" category="doc">FabricPool 지원 애그리게이트를 수동으로 생성하여 스토리지 프로비저닝</block>
   <block id="22ab6a49788fb366e3696241368765e1" category="list-text">클라우드 계층을 생성하여 SSD 애그리게이트로 구성된 클러스터에 연결해야 합니다.</block>
   <block id="523ea82bc2d95d0ab17b71c6afa24f78" category="list-text">사내 클라우드 계층이 생성되었어야 합니다.</block>
@@ -2113,7 +2112,6 @@
   <block id="a178fec1a73600346ab5639de318ab04" category="list-text">노드를 선택한 다음 * 활성화 * 또는 * 비활성화 * 를 클릭합니다.</block>
   <block id="8a9933d1b53dd6f17d6ec97c4891fc28" category="list-text">AutoSupport 상태가 변경 사항을 올바르게 표시하는지 확인합니다.</block>
   <block id="6abaf57d8d2cb59f5b00aeb51688432d" category="summary">System Manager를 사용하여 클러스터의 SVM을 관리할 수 있습니다.</block>
-  <block id="500569e3cc0764260a592cb176921ca3" category="doc">스토리지 가상 머신</block>
   <block id="afb60cd4eee626334806b5cbeb0fbcb1" category="summary">System Manager를 사용하면 SSD를 스토리지 풀 또는 전용 SSD로 추가하여 캐시를 프로비저닝할 수 있습니다. SSD를 추가하면 루트 이외의 Aggregate 또는 분할된 디스크가 없는 루트 Aggregate를 Flash Pool Aggregate로 변환하거나 기존 Flash Pool 애그리게이트의 캐시 크기를 늘릴 수 있습니다.</block>
   <block id="9895949ba7ab9b550d44e5c6f5ef0b02" category="list-text">추가된 SSD 캐시는 애그리게이트 크기에 추가되지 않으며 최대 크기에서도 애그리게이트에 SSD RAID 그룹을 추가할 수 있습니다.</block>
   <block id="d494208667291d04a5b9661e282bbfbc" category="list-text">System Manager를 사용하여 캐시를 추가할 때는 파티션이 설정된 SSD를 사용할 수 없습니다.</block>
@@ -2216,7 +2214,6 @@
   <block id="d8866c6c3e5ef01d8280393db0af5379" category="paragraph">FCAL 및 SAS</block>
   <block id="ad015031589d6b6571281305c4630afe" category="paragraph">mSATA</block>
   <block id="5965aeb6244778b6539f2a5da4d3e3c9" category="summary">System Manager를 사용하면 SVM을 시작하여 SVM(스토리지 가상 시스템)에서 데이터 액세스를 제공할 수 있습니다.</block>
-  <block id="f9943ddf5967ac3bbe9d22b664e14432" category="doc">SVM 시작</block>
   <block id="e236d336e04f19a5f31aaeba921e7a28" category="list-text">시작할 SVM을 선택하고 * 시작 * 을 클릭합니다.</block>
   <block id="c19970592d059062d7ce4832bb7a7720" category="paragraph">SVM이 클라이언트에 데이터 제공을 시작합니다.</block>
   <block id="038069116dbaa028259c7ebde159a32d" category="summary">대시보드 창에는 시스템 및 성능에 대한 요약 정보를 제공하는 여러 패널이 포함되어 있습니다.</block>
@@ -2462,7 +2459,6 @@
   <block id="c7c994fc2e3ccb5376fd8f814c2412a0" category="summary">System Manager를 사용하여 브로드캐스트 도메인을 만들고 관리할 수 있습니다.</block>
   <block id="e4fba9d169fb5edb171e52cb71d98ff6" category="doc">브로드캐스트 도메인</block>
   <block id="f6dd46455d557f9e0e43796aa301d505" category="summary">System Manager를 사용하여 데이터 보호(DP) 볼륨의 볼륨 이름을 수정할 수 있습니다. 소스 볼륨에 스토리지 효율성이 활성화되어 있지 않은 경우 타겟 볼륨에서만 스토리지 효율성을 활성화할 수 있습니다.</block>
-  <block id="761dd49e617c96f3ef82d574fa85ed47" category="doc">데이터 보호 볼륨 편집</block>
   <block id="6f8e108386883828bf4e2883d1ec9c63" category="paragraph">미러 DP 볼륨의 스토리지 효율성은 수정할 수 없습니다.</block>
   <block id="0eeb1aa23f1d51ee66065f798b055934" category="list-text">SVM * 필드의 드롭다운 메뉴에서 편집할 DP 볼륨이 있는 스토리지 가상 머신(SVM)을 선택합니다.</block>
   <block id="76e928ab5ae3ed083003358eb3d08df2" category="list-text">수정할 볼륨을 선택한 다음 * 편집 * 을 클릭합니다.</block>
@@ -2943,7 +2939,6 @@
   <block id="5c1133334cd09acd3c04f0c1c5901533" category="list-text">*Debug*: 디버그 수준 메시지는 수행해야 하는 지침을 제공합니다.</block>
   <block id="da1e3514a2d926808d163915057fbecc" category="paragraph">내부 지원 조직이 이메일을 통해 AutoSupport 메시지를 수신하는 경우, 이메일 메시지의 제목 줄에 심각도가 표시됩니다.</block>
   <block id="caffe237e203deff7da0ba170f501be9" category="summary">System Manager를 사용하면 Volumes 창의 아래쪽 창에 있는 Snapshot Copies 탭에서 선택한 볼륨에 대해 저장된 모든 스냅샷 복사본 목록을 볼 수 있습니다. 저장된 스냅샷 복사본 목록을 사용하여 스냅샷 복사본의 이름을 변경, 복원 또는 삭제할 수 있습니다.</block>
-  <block id="afb06f6c37afcb47dce31324a1e67ce0" category="doc">저장된 스냅샷 복사본 목록 보기</block>
   <block id="2a24310e6b3a5ba6e7bf061cbda5a983" category="paragraph">한 번에 하나의 볼륨의 스냅샷 복사본만 볼 수 있습니다.</block>
   <block id="ac7f70dc67c04109b95c51b4fdfba0f2" category="list-text">저장된 스냅샷 복사본을 확인할 볼륨 옆의 더하기 기호(+)를 클릭합니다.</block>
   <block id="fac3a7ad23607350ca249ed40421f014" category="doc">최대 처리량 제한 작동 방식</block>
@@ -2969,7 +2964,6 @@
   <block id="5ab9e560d7e8bb2ea42bc272234df0d6" category="list-text">도메인 * 탭을 클릭합니다.</block>
   <block id="88a21d4dea15d55ae7dfaa1a143d57a0" category="list-text">Group Policy * 영역에서 다시 로드할 그룹 정책 구성을 선택한 다음 * Reload * 를 클릭합니다.</block>
   <block id="4a837bd68570795a80aec059aabab8d5" category="summary">System Manager를 사용하면 데이터가 비활성 상태가 될 때 볼륨 데이터가 클라우드 계층으로 이동되는지 여부를 제어하기 위해 볼륨의 기본 계층화 정책을 변경할 수 있습니다.</block>
-  <block id="486b7ceacff4684ac92133f8cff97922" category="doc">볼륨의 계층화 정책 변경</block>
   <block id="f402a6845c9046061a89b08fdd05b4a5" category="list-text">계층화 정책을 변경할 볼륨을 선택한 다음 * 추가 작업 * &gt; * 계층화 정책 변경 * 을 클릭합니다.</block>
   <block id="7f82cd9186cfbeeb4de6a40f2ed09242" category="list-text">계층화 정책 * 목록에서 필요한 계층화 정책을 선택한 다음 * 저장 * 을 클릭합니다.</block>
   <block id="d44bb572d65bd822d027005cb08d52de" category="summary">System Manager를 사용하여 엑스포트 정책에 규칙을 추가할 수 있으며, 이를 통해 데이터에 대한 클라이언트 액세스를 정의할 수 있습니다.</block>
@@ -3322,7 +3316,6 @@
   <block id="cf3e3f05071cd74398a7d71b78ee89bf" category="inline-xref-macro">IP 주소 범위가 비활성화된 경우 네트워크 설정</block>
   <block id="5d15711e0f0051e3f2159baa0ec89265" category="paragraph"><block ref="5d15711e0f0051e3f2159baa0ec89265" category="inline-xref-macro-rx"></block></block>
   <block id="920138b399cc42c578279aee26e1cee6" category="summary">용량 디스크(HDD)를 애그리게이트에 추가하는 동안 System Manager를 사용하여 디스크를 추가할 RAID 그룹을 변경할 수 있습니다.</block>
-  <block id="486db80e214969368aa95f6e3dbf401c" category="doc">용량 디스크를 추가할 때 RAID 그룹 변경</block>
   <block id="a769aeea6af374cb782f74c884264af6" category="list-text">RAID 유형이 RAID-DP인 경우, FSA 또는 mSATA 유형의 디스크 크기가 10TB보다 크거나 같으면 해당 디스크를 새 RAID 그룹이나 모든 RAID 그룹에 추가하지 않고 특정 RAID 그룹에만 추가할 수 있습니다.</block>
   <block id="feeafe69c36bd3b86c436715b8756b42" category="paragraph">디스크 크기를 기존 애그리게이트의 크기로 축소한 후 디스크가 추가됩니다.</block>
   <block id="c0dc75dda54a85e13e66da3d0e3862bf" category="list-text">RAID 그룹이 RAID-TEC인 경우, 크기가 10TB 이상인 SSA 또는 mSATA 유형의 디스크를 추가할 경우 모든 RAID 그룹, 새 RAID 그룹 및 특정 RAID 그룹에 추가할 수 있습니다.</block>
@@ -3555,7 +3548,6 @@
   <block id="e4f5108ad092cccf7d5779b2a480f241" category="list-text">삭제할 미러 관계를 선택하고 * 삭제 * 를 클릭합니다.</block>
   <block id="19d690eb00d4fb086e12392349d1651e" category="list-text">확인 확인란을 선택하여 미러 관계를 삭제하고 기본 스냅샷 복사본을 해제한 다음 * 삭제 * 를 클릭합니다.</block>
   <block id="e4de68b3736558ec3e9742770f3832d0" category="paragraph">관계가 삭제되고 소스 볼륨의 기본 스냅샷 복사본이 삭제됩니다.</block>
-  <block id="99a93d93826462f137fad465fd937816" category="summary">System Manager를 사용하면 Flash Pool 애그리게이트를 수동으로 생성하거나, SSD를 추가하여 기존 HDD 애그리게이트를 Flash Pool 애그리게이트로 전환할 수 있습니다. 새 HDD 애그리게이트를 생성할 경우, SSD 캐시를 프로비저닝하고 Flash Pool 애그리게이트를 생성할 수 있습니다.</block>
   <block id="b06cb13f1b387a05cf34a10fd25c49c6" category="list-text">플랫폼별 모범 사례와 Flash Pool 애그리게이트 SSD 계층 크기 및 구성에 대한 워크로드별 모범 사례를 알고 있어야 합니다.</block>
   <block id="6f7017b28fd2cc703df185f2b3d20b38" category="list-text">모든 HDD가 Zeroed 상태여야 합니다.</block>
   <block id="c4b395e042b075a7a77c7292d68c696f" category="list-text">애그리게이트에 SSD를 추가하려면 기존 SSD와 전용 SSD의 크기가 모두 같아야 합니다.</block>
@@ -3615,7 +3607,6 @@
   <block id="63168463b903c53fe4c321e65c8cc191" category="summary">CLI(Command-Line Interface)를 통해 정책 구성이 변경된 후 그룹 정책을 업데이트해야 합니다. System Manager의 CIFS 창을 사용하여 그룹 정책을 업데이트할 수 있습니다.</block>
   <block id="259b99741bdb9f9f0a3b3bd056365900" category="list-text">그룹 정책 * 영역에서 업데이트할 그룹 정책 구성을 선택한 다음 * 업데이트 * 를 클릭합니다.</block>
   <block id="568315afd92645514bff29a2959e8bd7" category="summary">StorageGRID에서 StorageGRID를 FabricPool 지원 애그리게이트의 오브젝트 저장소로 인증하려면 클러스터에 ONTAP CA 인증서를 설치할 수 있습니다.</block>
-  <block id="6ad8a00150e0e05d28b74a9f28b35765" category="doc">StorageGRID를 사용하는 경우 CA 인증서를 설치합니다</block>
   <block id="d2d620fd7d1fb0dbdfbd0fb2b4a54257" category="list-text">StorageGRID 시스템 설명서에 따라 그리드 관리 인터페이스를 사용하여 StorageGRID 시스템의 CA 인증서를 복사합니다.</block>
   <block id="48a5f7c99378f2d27c95069bdd9674ef" category="inline-link">StorageGRID 11.3 관리자 안내서</block>
   <block id="75201fadc49750ef9be4144eafd4f2eb" category="paragraph"><block ref="75201fadc49750ef9be4144eafd4f2eb" category="inline-link-rx"></block></block>
@@ -3802,7 +3793,6 @@
   <block id="7b2808edfc28b2ac39695e91f502abcc" category="paragraph">업데이트가 성공적으로 완료되면 노드가 재부팅되며 System Manager 로그인 페이지로 리디렉션됩니다. 노드를 재부팅하는 데 시간이 오래 걸리는 경우 브라우저를 새로 고쳐야 합니다.</block>
   <block id="7098c57b763e3901ace5762ef63e2f20" category="list-text">System Manager에 로그인하고 * 구성 * &gt; * 클러스터 * &gt; * 업데이트 * &gt; * 업데이트 기록 * 을 클릭한 다음 세부 정보를 확인하여 클러스터가 선택한 버전으로 성공적으로 업데이트되었는지 확인합니다.</block>
   <block id="e585e44dccf71e62f3ca9f6f39a8666d" category="summary">SVM 관련 문제를 해결하거나 SVM을 삭제하거나 SVM에서 데이터 액세스를 중지하려는 경우 System Manager를 사용하여 SVM(스토리지 가상 시스템)을 중지할 수 있습니다.</block>
-  <block id="04d9728a7229fc8f080a43c27602f266" category="doc">SVM을 중지하는 중입니다</block>
   <block id="4eb2840288285e214da738e885c04583" category="paragraph">SVM에 연결된 모든 클라이언트의 연결을 끊어야 합니다.</block>
   <block id="285f87674ead8fb752e089d8048f041b" category="paragraph">중지할 때 SVM에 클라이언트가 연결되어 있으면 데이터 손실이 발생할 수 있습니다.</block>
   <block id="d3d5618773817b8f5aee633041f33b6e" category="list-text">스토리지 페일오버(SFO)에서는 SVM을 중지할 수 없습니다.</block>
@@ -4056,7 +4046,6 @@
   <block id="948b616f76b01641d846f08646960e00" category="paragraph">업데이트 전에 노드의 ONTAP 버전을 지정합니다.</block>
   <block id="c9022a1ef6b84d057204c5bb17f94c02" category="list-text">* 업데이트된 버전 *</block>
   <block id="ef439127acf0c0f9d631278ceba6641a" category="paragraph">업데이트 후 노드의 ONTAP 버전을 지정합니다.</block>
-  <block id="a47c67997db7944e30aba3e2e51c1ee6" category="summary">System Manager를 사용하여 스토리지 권장 사항을 기반으로 애그리게이트를 생성할 수 있습니다. System Manager는 스토리지 시스템의 구성을 분석하고 생성할 애그리게이트 수, 사용 가능한 노드 및 사용 가능한 스페어 디스크와 같은 스토리지 권장 사항을 제공합니다.</block>
   <block id="b9b83c03586f346b6fdd8afa94f2839d" category="doc">스토리지 권장 사항을 기반으로 애그리게이트를 생성하여 스토리지 프로비저닝</block>
   <block id="f527ab93e764b9b968cad6273c5a0f1c" category="list-text">Cloud Volumes ONTAP, ONTAP Select 및 MetroCluster 구성에서는 스토리지 권장 사항을 기반으로 애그리게이트를 생성할 수 없습니다.</block>
   <block id="3efcf0a9999f2a8e8d0650f90fe62f04" category="list-text">오류(있는 경우)가 화면에 표시됩니다.</block>
@@ -4272,7 +4261,6 @@
   <block id="4d2eaa80721d775e31fd85207c585930" category="paragraph"><block ref="4d2eaa80721d775e31fd85207c585930" category="inline-xref-macro-rx"></block></block>
   <block id="c99084890fd4384fdc8d64c2b2a50e54" category="paragraph"><block ref="c99084890fd4384fdc8d64c2b2a50e54" category="inline-xref-macro-rx"></block></block>
   <block id="225462897706db04ac0f2ef21f46db48" category="summary">System Manager를 사용하여 볼륨을 생성, 편집 및 삭제할 수 있습니다.</block>
-  <block id="c6f01c78bfe0a0a495cb5d3ed77824a9" category="doc">볼륨</block>
   <block id="dd0d7fb0d943afdd167daa971c00ef96" category="paragraph">볼륨 탭을 사용하여 클러스터의 모든 볼륨에 액세스하거나 * SVM * &gt; * 볼륨 * 을 사용하여 SVM별 볼륨에 액세스할 수 있습니다.</block>
   <block id="5283be92496e2188f016eeaf229d3adc" category="paragraph">볼륨 탭은 CIFS 및 NFS 라이센스를 설정한 경우에만 표시됩니다.</block>
   <block id="e8fa661a5a10dd89b61025c67e0a71f8" category="doc">이니시에이터 그룹을 생성합니다</block>
@@ -4380,7 +4368,6 @@
   <block id="6e251acf5f71f32e682a8f10fe2dd8ea" category="list-text">사용자가 생성된 후 이 계정을 비활성화하려면 * 이 계정 비활성화 * 를 선택합니다.</block>
   <block id="ffd6ae9eadd1678359361cf5a8439241" category="paragraph">로컬 Windows 사용자 계정이 생성되고 선택한 그룹에 구성원이 할당됩니다. 사용자 계정이 * Users * 탭에 나열됩니다.</block>
   <block id="537075282f9f557a7b9d6b978e1b560b" category="summary">SVM(스토리지 가상 시스템) 관리자는 클러스터 관리자가 할당한 기능에 따라 SVM과 볼륨, 프로토콜, 서비스 등의 리소스를 관리할 수 있습니다. SVM 관리자는 SVM을 생성, 수정 또는 삭제할 수 없습니다.</block>
-  <block id="fbd4e59c8af915c2fd3fc339c7391c48" category="doc">SVM 관리</block>
   <block id="d41286a049acbf37823935a946b5dc24" category="paragraph">SVM 관리자는 System Manager에 로그인할 수 없습니다.</block>
   <block id="3e40d59c66b9c1ab3255570f543ae202" category="paragraph">SVM 관리자는 다음 관리 기능 전체 또는 일부를 사용할 수 있습니다.</block>
   <block id="af79ec0df6bf28a9a3499a754c9fa5f2" category="list-text">데이터 액세스 프로토콜 구성</block>
@@ -4418,7 +4405,6 @@
   <block id="0dd816e380a61ab15ced19aed96e781a" category="doc">NVMe 프로토콜</block>
   <block id="3e15c136040409143690f7b064c235d0" category="doc">스토리지 효율성의 이점</block>
   <block id="1fa8dd542d2fae039e92f70b51cc6e23" category="summary">Aggregate를 생성하는 동안 System Manager를 사용하여 Aggregate의 RAID 유형 및 RAID 그룹 크기 옵션의 기본값을 수정할 수 있습니다.</block>
-  <block id="2718b6e0152d5c1349dd7f416082ac66" category="doc">Aggregate를 생성할 때 RAID 구성을 변경합니다</block>
   <block id="ca3971ca02e76186c25b81c7ea125a0b" category="paragraph">Aggregate 디스크의 디스크 유형이 FSA 또는 mSATA 이고 디스크 크기가 10TB보다 크거나 같은 경우 RAID-TEC만 사용할 수 있는 RAID 유형입니다.</block>
   <block id="74b43bb7df75cb36f7895c84a13f4f1e" category="list-text">Storage Tiers * 창에서 * Add Aggregate * 를 클릭합니다.</block>
   <block id="bb5c54f6a392f839afc1d64e643a0634" category="list-text">집계 만들기 * 대화 상자에서 다음 단계를 수행합니다.</block>
@@ -4433,7 +4419,6 @@
   <block id="2d05a868f48afbd61f8d8c530d5612cc" category="list-text">cron 일정 또는 간격 일정을 삭제합니다</block>
   <block id="4e9ebcc3904aedf65987288d06b49911" category="paragraph">실행 중인 작업에서 현재 사용 중인 스케줄은 삭제할 수 없습니다.</block>
   <block id="ddee7ab37edad340f70192fb7aceb260" category="paragraph">클러스터 관리자는 모든 스케줄 관리 작업을 수행할 수 있습니다.</block>
-  <block id="7621005c14d22f767bd63bed4e2745b6" category="summary">System Manager를 사용하여 SnapLock 규정 준수 애그리게이트 또는 SnapLock 엔터프라이즈 애그리게이트를 수동으로 생성할 수 있습니다. 이러한 애그리게이트에서 SnapLock 볼륨을 생성하여 "WORM(Write Once, Read Many)" 기능을 제공할 수 있습니다.</block>
   <block id="8018f4064283c55dfa6bfec30f453db2" category="doc">SnapLock 애그리게이트를 수동으로 생성하여 스토리지 용량 할당</block>
   <block id="38ef748223faace4d3330c24cb1484f8" category="paragraph">SnapLock 라이센스가 추가되어야 합니다.</block>
   <block id="77db25bdfb80aa1d0ccdedf1bf8c4811" category="list-text">MetroCluster 구성에서는 SnapLock 엔터프라이즈 애그리게이트만 생성할 수 있습니다.</block>
@@ -4843,7 +4828,6 @@
   <block id="5cc271efca4ed547d4ef319c3964d88d" category="paragraph">소프트웨어 라이센스 패키지의 만료 날짜를 표시합니다.</block>
   <block id="b64e2f96d46281df4a5271bb1d831855" category="inline-xref-macro">클러스터 생성</block>
   <block id="3903c3a242b2e044c5dcb5ae9a3c4b51" category="paragraph"><block ref="3903c3a242b2e044c5dcb5ae9a3c4b51" category="inline-xref-macro-rx"></block></block>
-  <block id="1116cd5308713dce06806b71a7e197fa" category="summary">System Manager를 사용하여 클러스터의 MetroCluster 로컬 사이트(사이트 A)의 이름을 바꿀 수 있습니다.</block>
   <block id="83519546c0907279c9042a2ad400f3a2" category="list-text">구성 * &gt; * 구성 업데이트 * 를 클릭합니다.</block>
   <block id="d463cc8cd485894dda55a3f4689dc89c" category="list-text">Update cluster name * 을 클릭합니다.</block>
   <block id="cafdb1219cee48c72aefb4a06983873c" category="list-text">텍스트 상자의 이름을 업데이트한 다음 * 제출 * 을 클릭합니다.</block>
@@ -5136,7 +5120,6 @@
   <block id="88bcf3e4d90e29311519a225b41a3a14" category="list-text">데이터 LIF를 생성할 포트를 지정합니다.</block>
   <block id="d3cdfcb24f995bce55fae27f134f9066" category="list-text">네트워크 포트 또는 어댑터 선택 * 대화 상자에서 포트를 선택한 다음 * 확인 * 을 클릭합니다.</block>
   <block id="e64cdcc5568074885bc2f1f62cb42498" category="summary">System Manager를 사용하면 스토리지 시스템 구성에서 더 이상 필요하지 않은 SVM(스토리지 가상 머신)을 삭제할 수 있습니다.</block>
-  <block id="dc6d7ae43f87c3c6d3a96f58cfe48c95" category="doc">SVM을 삭제합니다</block>
   <block id="aa2bdf0e8ac65883b0c03f4abb816916" category="list-text">모든 볼륨에 대해 스냅샷 복사본, 데이터 보호(DP) 미러링 및 로드 공유(LS) 미러를 비활성화했습니다</block>
   <block id="5d64ab7bfa4adc7082888e551c41dfa6" category="paragraph">CLI(Command-Line Interface)를 사용하여 LS 미러를 비활성화해야 합니다.</block>
   <block id="3c0f44d9258b69f36161ab812c2389ca" category="list-text">SVM을 삭제하는 경우 SVM에 속한 모든 igroup을 수동으로 삭제했습니다</block>
@@ -5448,7 +5431,6 @@
   <block id="fed23c9058768e4efe07ca576235ec89" category="paragraph">대상 볼륨과 소스 볼륨 사이에 볼트 관계가 생성됩니다. 관계를 초기화하기로 선택한 경우 기본 스냅샷 복사본이 대상 볼륨으로 전송됩니다.</block>
   <block id="ce9b88380a7479d671cbb0be2c4ca817" category="summary">System Manager를 사용하면 스냅샷 복사본 디렉토리(.snapshot)를 숨겨 볼륨 디렉토리를 볼 때 스냅샷 복사본 디렉토리가 보이지 않게 할 수 있습니다. 기본적으로 .snapshot 디렉토리가 표시됩니다.</block>
   <block id="2351a6123d510e63bb4101f4b402b71d" category="doc">스냅샷 복사본 디렉토리 숨기기</block>
-  <block id="27f5a0e574a9808d28498d44d0da46cc" category="paragraph">볼륨 디렉토리를 볼 때 스냅샷 복사본 디렉토리가 표시되지 않도록 System Manager를 사용하여 스냅샷 복사본 디렉토리('.snapshot')를 숨길 수 있습니다. 기본적으로 '.snapshot' 디렉토리가 표시됩니다.</block>
   <block id="8cf5dc9ae66d953d3133a8c869276df8" category="list-text">스냅샷 복사본 디렉토리를 숨길 볼륨을 선택합니다.</block>
   <block id="53f2257ede212fca318ea5e1d7f85e39" category="list-text">스냅샷 디렉터리(.snapshot) 표시 * 옵션이 선택되지 않았는지 확인한 다음 * 확인 * 을 클릭합니다.</block>
   <block id="876e9103e3b730c930224fa67ff29691" category="summary">이전에 파손된 미러 관계를 다시 설정할 수 있습니다. 재동기화 작업을 수행하여 소스 볼륨을 비활성화한 재재해에서 복구할 수 있습니다.</block>
@@ -5461,7 +5443,6 @@
   <block id="9ae02375bf1ec73b74d3b0a26ba56cf6" category="list-text">확인 확인란을 선택한 다음 * 재동기화 * 를 클릭합니다.</block>
   <block id="8c8af40da222cbac0bff786868bc7034" category="summary">볼륨 보장(공간 보장이라고도 함)은 볼륨의 공간이 해당 애그리게이트에 할당될 때 공간을 미리 할당할지 여부를 결정합니다.</block>
   <block id="955fe453e5261738851ba4d70d70892c" category="doc">FlexVol 볼륨에서 볼륨을 보장하는 방법</block>
-  <block id="54b6db373e9f4ac0a0a85d80cc64601e" category="paragraph">볼륨 보장(_space 보장 _ 이라고도 함)은 볼륨의 공간이 해당 포함하는 aggregate에서 할당되는 방식을 결정합니다. -- 공간이 볼륨에 사전 할당되었는지 여부를 결정합니다.</block>
   <block id="fb2eb77fed82bf83784845af476371c1" category="paragraph">보증은 볼륨의 속성입니다.</block>
   <block id="afe5ba5f8fcedd120647fc4f696e58ce" category="paragraph">새 볼륨을 생성할 때 보증을 설정합니다. 새 보장을 적용할 충분한 여유 공간이 있는 경우 기존 볼륨의 보장도 변경할 수 있습니다.</block>
   <block id="5c8602e07e396abf44907a7d5f7220a4" category="paragraph">볼륨 보증 유형은 볼륨(기본 유형) 또는 없음(없음)일 수 있습니다.</block>
@@ -5887,7 +5868,6 @@
   <block id="960c41e42f0a124e4875058b12b67821" category="list-text">기본 이름을 변경하려면 LUN 클론의 새 이름을 지정합니다.</block>
   <block id="651c105210d46e4456cd0d49d2a61cfc" category="list-text">생성한 LUN 클론이 * LUNs * 창에 표시되는지 확인합니다.</block>
   <block id="8f50629dd45de7407dad3db066f531f8" category="summary">System Manager를 사용하여 볼륨에 있는 스냅샷 복사본의 만료 날짜를 확장할 수 있습니다.</block>
-  <block id="d350e75ae7a5c7ad6eef719c1e71a497" category="doc">스냅샷 복사본의 만료 날짜 확장</block>
   <block id="996fced7fe48e7529cc6f1df1cf049d5" category="paragraph">SnapLock 라이센스가 시스템에 설치되어 있어야 합니다.</block>
   <block id="e59b55c8820313bd52068fc83a2870ec" category="paragraph">SnapLock용 SnapVault 관계의 대상인 데이터 보호(DP) 볼륨의 스냅샷 복사본에 대한 만료 날짜만 확장할 수 있습니다.</block>
   <block id="091d86872e20a4e592b634c65b44fd89" category="list-text">볼륨을 선택합니다.</block>
@@ -5957,7 +5937,6 @@
   <block id="cf7e5af013c561e4441064bb2e7f5e49" category="inline-xref-macro">SVM에서 iSCSI 프로토콜 구성</block>
   <block id="aea360b94eba5ad45f55e615a1e58409" category="paragraph"><block ref="aea360b94eba5ad45f55e615a1e58409" category="inline-xref-macro-rx"></block></block>
   <block id="f72e3dbe9da7fc9540594b7b452b8f47" category="summary">System Manager의 Aggregate 창을 사용하면 Aggregate의 이름, 상태 및 공간 정보를 볼 수 있습니다.</block>
-  <block id="731176f618de66279ca536edba19fda6" category="doc">집계 정보 보기</block>
   <block id="58e12ddff1a5e5562a24f79cdb06e88f" category="list-text">선택한 애그리게이트의 세부 정보를 보려면 애그리게이트 이름을 클릭합니다.</block>
   <block id="a207e4410e61fbf69eec2dcd3244d0fb" category="summary">System Manager를 사용하여 서브시스템에 대한 시스템 상태 경고를 확인하고 응답할 수 있습니다. 표시된 정보를 사용하여 권장 조치를 취하고 경고에 보고된 문제를 해결할 수 있습니다.</block>
   <block id="c10a7f4927ffc0a67a152b6bd7a850a1" category="list-text">확인할 경고를 선택한 다음 * 확인 * 을 클릭합니다.</block>
@@ -6218,7 +6197,6 @@
   <block id="5baafab505d4d55220ba92160de4bc45" category="paragraph">ONTAP 시스템과 SolidFire 스토리지 시스템 간의 미러 관계를 분리할 수 있습니다.</block>
   <block id="dafc10282deacb64a877e232ac1efd06" category="list-text">분리하려는 대칭 복사 및 볼트 관계를 선택한 다음 * 작업 * &gt; * 분리 * 를 클릭합니다.</block>
   <block id="deb149c0aa84e56507515ce3259f5b05" category="paragraph">대칭 복사 및 볼트 관계가 손상되었습니다. 타겟 볼륨 유형이 데이터 보호(DP)에서 읽기 전용으로 읽기/쓰기로 변경됩니다. 시스템은 나중에 사용할 수 있도록 미러 및 볼트 관계의 기본 스냅샷 복사본을 저장합니다.</block>
-  <block id="f3076d47f0a8e6e8030cc9f70a0b04c6" category="summary">System Manager를 사용하여 HDD만 또는 SSD만 포함된 애그리게이트를 수동으로 생성할 수 있습니다.</block>
   <block id="44d0299d0fc31a880b954ccc657a0d6e" category="doc">수동으로 애그리게이트를 생성하여 스토리지 용량 할당</block>
   <block id="97dba5acf15587b71ee98a554fe289f3" category="paragraph">모든 디스크의 크기가 같아야 합니다.</block>
   <block id="00a75fb35e6e77311b62e8e94339e5e0" category="list-text">ONTAP Select에서 4노드 클러스터에 애그리게이트를 생성하는 경우, 미러링된 애그리게이트 옵션이 기본적으로 선택됩니다.</block>
@@ -6650,7 +6628,6 @@
   <block id="9736165f32c4f0d63182c78dcacad63a" category="paragraph">Active LDAP 클라이언트의 Active Directory 도메인을 표시합니다.</block>
   <block id="3876a46c169c8493a6228075af152922" category="paragraph">Active LDAP 클라이언트의 기본 Active Directory 서버를 표시합니다.</block>
   <block id="a56e31822510cde8f8a20d6f36849aa7" category="summary">System Manager를 사용하여 디스크를 관리할 수 있습니다.</block>
-  <block id="2d4aef30a49a581a6ed89ce840054235" category="doc">디스크</block>
   <block id="edda3972d1bc3950c540b7172745645c" category="paragraph"><block ref="edda3972d1bc3950c540b7172745645c" category="inline-link-rx"></block></block>
   <block id="70894d5c0a41692947485c0d0a19e60a" category="inline-link">FlexArray 가상화 설치 요구 사항 및 참조 자료</block>
   <block id="b42d776faedad51898dbe5bf906051a2" category="paragraph"><block ref="b42d776faedad51898dbe5bf906051a2" category="inline-link-rx"></block></block>
@@ -6988,7 +6965,6 @@
   <block id="cefd59017a4a065f49d52af021a7df7a" category="paragraph"><block ref="cefd59017a4a065f49d52af021a7df7a" category="inline-link-rx"></block></block>
   <block id="4f0b7bb576d3c8fa91bf3496e68c038e" category="doc">미러링된 데이터의 작동 방식</block>
   <block id="c61db8023a8003d406a9d6e84bb3d46b" category="summary">System Manager의 대시보드를 사용하면 스토리지 가상 시스템(SVM)의 상태와 성능을 모니터링할 수 있습니다.</block>
-  <block id="d771c94303decbc5643c8d035a2226a7" category="doc">SVM 모니터링</block>
   <block id="47c6d23fe6018f762f19575354d78a86" category="list-text">모니터링할 SVM의 이름을 선택합니다.</block>
   <block id="e2e9bd59ef81e97b3160bf63305a192c" category="list-text">대시보드 패널에서 세부 정보를 봅니다.</block>
   <block id="c42375abef241f8cc5d47f73801e47d1" category="summary">ONTAP 9.1부터 ONTAP System Manager를 사용하면 클러스터를 생성하고, 노드 관리 네트워크 및 클러스터 관리 네트워크를 설정한 다음 이벤트 알림을 설정하여 클러스터를 설정할 수 있습니다.</block>
@@ -8883,7 +8859,6 @@
   <block id="b3d47ed3b076d3c58a78eab91910df57" category="paragraph">Data ONTAP 8.2부터는 raid.mix.hdd.disktype.capacity` 옵션을 On으로 설정해야 BSAS, FSA, ATA 유형의 디스크가 혼용됩니다. FCAL과 SAS 유형의 디스크를 혼합하려면 RAID.Mix.HDD.disktype.performance 옵션을 On으로 설정해야 합니다.</block>
   <block id="4880832e880aeb65d6f5394281000099" category="paragraph">효율성 탭에는 클러스터 또는 노드의 스토리지 효율성 절약 효과가 표시됩니다. 사용된 총 논리적 공간, 사용된 총 물리적 공간 및 전체 절감 효과를 볼 수 있습니다. 클러스터 또는 특정 노드를 선택하여 스토리지 효율성 절약 효과를 볼 수 있습니다. System Manager 9.5에서 스냅샷 복사본에 사용되는 공간은 사용된 총 논리적 공간, 사용된 총 물리적 공간 및 전체 축소에 대한 값에 _not_포함되어 있습니다. 그러나 System Manager 9.6부터 Snapshot 복사본에 사용되는 공간은 사용되는 총 논리적 공간, 사용된 총 물리적 공간 및 전체 절감 효과에 포함되어 있습니다.</block>
   <block id="d6e768218203e5e5304006b8efd0112a" category="summary">System Manager를 사용하면 더 이상 필요하지 않은 포트셋 삭제 작업을 수행할 수 있습니다.</block>
-  <block id="037c863e9f93c12fc8ea65ce0b04bebb" category="doc">포트 세트를 삭제하는 중입니다</block>
   <block id="3c5def4b4418a1419950919985135d29" category="list-text">Portsets * 탭에서 하나 이상의 포트 세트를 선택하고 * Delete * 를 클릭합니다.</block>
   <block id="d5e5925aeb05519d0dcc6bf9f721a6f0" category="summary">System Manager 9.4부터는 스토리지 권장 사항을 기반으로 애그리게이트를 생성할 수 있습니다. 그러나 스토리지 권장 사항을 기반으로 한 Aggregate 생성이 고객 환경에서 지원되는지 여부를 확인해야 합니다. 사용하는 환경에서 스토리지 권장 사항에 따라 애그리게이트 생성을 지원하지 않는 경우, RAID 정책 및 디스크 구성을 결정한 다음 애그리게이트를 수동으로 생성해야 합니다.</block>
   <block id="10f6b31ca4dfe3975350a50374d83d32" category="list-text">ONTAP 9.0부터는 디스크 크기가 10TB보다 크거나 같은 애그리게이트를 생성할 수 있습니다.</block>
@@ -8892,7 +8867,6 @@
   <block id="2c228870bc26117c2bcc38d47fed7cbb" category="paragraph">기본적으로 기존 애그리게이트는 FlexCache 볼륨의 크기를 조정하는 데 사용됩니다. System Manager 9.6부터 볼륨에 허용되는 최대 크기가 크기 필드 옆에 표시됩니다.</block>
   <block id="cc818fa0afc7fc97a334ef53849dbe3b" category="list-text">System Manager 9.5부터 2팩 MetroCluster 구성으로 단일 노드 클러스터를 업데이트할 수 있습니다.</block>
   <block id="b00591630384bce2a76272b449186c53" category="list-text">NVMe 프로토콜의 경우, ONTAP 9.5부터 SVM 설정 마법사의 두 번째 페이지에서 각 노드에 대해 최소 하나의 LIF를 구성합니다. * NVMe 프로토콜 구성 *</block>
-  <block id="63ce9611974d55c52bba91d03b2470a4" category="summary">System Manager를 사용하여 포트 세트를 생성하여 LUN에 대한 액세스를 제한할 수 있습니다.</block>
   <block id="6158f107c175e5e253737a4a6ef1c91c" category="doc">포틀세트를 생성합니다</block>
   <block id="bb2bf2751a5bbb740612ba8bffdc099d" category="list-text">포트셋 와 연결할 네트워크 인터페이스를 선택합니다.</block>
   <block id="9856546af72ee8cf33e0175f3d5162de" category="summary">System Manager 9.6부터는 MetroCluster 스위치오버 및 스위치백 작업을 사용하여 한 클러스터 사이트에서 다른 클러스터 사이트의 작업을 테이크오버할 수 있습니다. 이 기능을 사용하면 재해에 대한 유지 관리 또는 복구를 보다 용이하게 수행할 수 있습니다.</block>
@@ -8937,7 +8911,6 @@
   <block id="6b0cc4ddfe235d9ecb8de601ccf35861" category="paragraph">System Manager 9.6부터는 FlexGroup DP 볼륨 및 FlexCache 볼륨에 대해 볼륨 암호화 키를 다시 입력하다 NAE 애그리게이트로부터 상속된 암호화가 있는 볼륨에 대해서는 키를 다시 입력하다</block>
   <block id="1695535a1714b87bcc3484740ec235ba" category="paragraph">동일한 볼륨의 키를 다시 입력하다 작업을 시작할 때 볼륨 이동 작업을 시작하면 키를 다시 입력하다 System Manager 9.5 및 이전 버전에서 볼륨의 변환 또는 키를 다시 입력하다 작업이 진행 중일 때 볼륨을 이동하려고 하면 경고 없이 작업이 중단됩니다. System Manager 9.6부터 변환 또는 키를 다시 입력하다 작업을 계속할 경우 변환 또는 키를 다시 입력하다 작업이 중단된다는 경고 메시지가 표시됩니다.</block>
   <block id="e2485f3cbd62161860676b0d2a07c9ce" category="summary">System Manager의 Portsets 탭을 사용하여 포트 세트와 관련된 설정을 편집할 수 있습니다.</block>
-  <block id="1ac31f1ad654d973d0519bf199c050af" category="doc">포트 세트 편집</block>
   <block id="0c0018980666258d7f22a8d9a061f1d5" category="list-text">Portsets * 탭에서 편집할 포트셋 를 선택하고 * Edit * 를 클릭합니다.</block>
   <block id="17f96a07b22aadd9d026f06836cef80e" category="list-text">ONTAP 9.3부터: * 정책에 따라 * 옵션을 선택합니다.</block>
   <block id="aac75f93aae939890c94959328592cae" category="paragraph">ONTAP 9.3부터 시작: 대상 볼륨을 선택한 다음 * 작업 * &gt; * 스냅샷 관리 * &gt; * 구성 * 을 클릭합니다.</block>
@@ -9010,7 +8983,6 @@
   <block id="8b8233970ae93cddab3fcb0f038a19cf" category="paragraph">System Manager를 사용하여 심볼 링크 설정, 사용자 또는 그룹의 공유 액세스 권한 및 공유에 대한 액세스 유형과 같은 공유 설정을 수정할 수 있습니다. 또한 Hyper-V를 통한 공유의 지속적인 가용성을 설정하거나 해제하고 ABE(액세스 기반 열거)를 설정 또는 해제할 수 있습니다. System Manager 9.6부터 FlexGroup 볼륨의 지속적인 가용성이 지원됩니다.</block>
   <block id="2d6ca664e165a57792b1b59ede4c3890" category="paragraph">지속적인 가용성을 위해 공유가 설정되었는지 여부를 표시합니다. System Manager 9.6부터 FlexGroup 볼륨의 지속적인 가용성이 지원됩니다.</block>
   <block id="41aef6f60f95609aa7b5ca4777bfe44c" category="paragraph">지속적인 가용성을 위해 공유를 설정하거나 해제할지 여부를 지정합니다. System Manager 9.6부터 FlexGroup 볼륨의 지속적인 가용성이 지원됩니다.</block>
-  <block id="65a3184d0628d233da52a61b95ebef0a" category="doc">클라우드 계층을 구성하고 관리합니다</block>
   <block id="33f78bbdf1a758d02b55487b2ecd80c7" category="list-text">Alibaba Cloud(System Manager 9.6부터 시작)</block>
   <block id="89bd3502717f9fe37639e6b2651dcc4e" category="section-title">클라우드 계층에 애그리게이트 연결</block>
   <block id="5cbe705dc8cf70f45fa4d74042a1e60d" category="list-text">* 모두(System Manager 9.6부터) *</block>
@@ -9028,9 +9000,7 @@
   <block id="decbf892ef0f721afaa78af4ecf7f62a" category="paragraph">ONTAP System Manager 클래식(9.7 이하에서 사용 가능)을 사용하면 클러스터 또는 노드에 설치된 소프트웨어 라이센스를 확인, 관리 또는 삭제할 수 있습니다.</block>
   <block id="38fd3ecf8201750e55c0c5bce14fd4da" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 SVM에서 FC 프로토콜 및 FCoE 프로토콜을 구성합니다</block>
   <block id="6add29da08c990d29ef923f9f502fb2f" category="paragraph">System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 SAN 호스트용 SVM(스토리지 가상 머신)에서 FC 프로토콜과 FCoE 프로토콜을 구성할 수 있습니다. LIF는 가장 적합한 어댑터에 생성되며 데이터 경로 이중화를 위해 포트 세트에 할당됩니다. 요구사항에 따라 System Manager를 사용하여 FC 프로토콜이나 FCoE 프로토콜을 구성하거나 두 프로토콜을 모두 구성할 수 있습니다.</block>
-  <block id="1ca0759a68a2eaf6550dc49f288c51b4" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 FabricPool 지원 애그리게이트를 수동으로 생성하여 스토리지 프로비저닝</block>
   <block id="93c41266584d5677e48dfa95ec4744c7" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 FabricPool 지원 애그리게이트를 수동으로 생성하거나 클라우드 계층을 SSD 애그리게이트에 연결하여 기존 SSD 애그리게이트를 FabricPool 지원 애그리게이트로 변환할 수 있습니다.</block>
-  <block id="5dd9e9509ab5aefe612f4c31cb783c33" category="doc">System Manager Classic-ONTAP 9.6 이상을 사용하여 전환 및 스위치백 작업을 준비하십시오</block>
   <block id="a25a6296a2238250ac880d0ecf5b030b" category="paragraph">ONTAP System Manager 클래식 9.6을 사용하여 스위치오버 작업을 수행하기 전에 해당 사이트에서 필요한 단계가 수행되었는지 확인해야 합니다.</block>
   <block id="19ba7845e5879e0c327b97f282a2ad67" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 고가용성 쌍을 생성합니다</block>
   <block id="f153aa09dfee8a14f039fef3b377cbf3" category="paragraph">ONTAP System Manager 클래식(9.7 이하에서 사용 가능)을 사용하면 무중단 운영 및 내결함성을 위해 하드웨어 이중화를 제공하는 HA(고가용성) 쌍을 생성할 수 있습니다.</block>
@@ -9075,7 +9045,6 @@
   <block id="976175cc4e5d4c3ab14e16c83ffa15e8" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)이 지원되는 서비스 프로세서를 사용하여 온도, 전압, 전류 및 팬 속도와 같은 스토리지 시스템 매개 변수를 모니터링하고 관리할 수 있습니다.</block>
   <block id="c0bbe542e022a200771c2c752e0173f2" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 애플리케이션을 구성합니다</block>
   <block id="a52ac8fd4d86144ca8599edcc24c0489" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에서 사전 정의된 애플리케이션 템플릿을 사용하여 기존 애플리케이션 템플릿을 기반으로 하는 새 구성을 생성할 수 있습니다. 그런 다음 ONTAP에서 애플리케이션의 인스턴스를 프로비저닝할 수 있습니다.</block>
-  <block id="9b84593697ca85e724b3024c5d49b880" category="doc">System Manager Classic-ONTAP 9.7 이하를 사용하여 MetroCluster 전환 및 스위치백에 대해 설명합니다</block>
   <block id="2315562608e0a40cc0e479e0bf28e956" category="paragraph">ONTAP System Manager 9.6부터 소스 클러스터의 모든 노드에 연결할 수 없고 전원을 끈 재해가 발생한 후 MetroCluster 스위치오버 및 스위치백 작업을 사용할 수 있습니다. 또한 재해 복구 테스트 또는 유지 관리를 위해 오프라인으로 전환되는 사이트와 같은 경우 협상된(계획된) 전환 워크플로우를 사용할 수도 있습니다.</block>
   <block id="d8f8316f7f24f5a2514269ed1e587626" category="doc">System Manager로 SVM 생성 - ONTAP 9.7 이전 버전</block>
   <block id="c9dec5a7f72136d2dbb54a45740dfc5f" category="paragraph">System Manager의 기존 버전(ONTAP 9.7 이하에서 사용 가능)을 사용하면 완벽하게 구성된 SVM(스토리지 가상 머신)을 생성하여 데이터를 즉시 제공할 수 있습니다. 클러스터는 하나 이상의 SVM을 가질 수 있습니다.</block>
@@ -9088,7 +9057,6 @@
   <block id="b9a9fce134da50ebf7545e06d22fd4db" category="doc">시스템 관리자 - ONTAP 9.7 이전 버전을 사용하여 MetroCluster 로컬 사이트(사이트 A)의 이름을 바꿉니다</block>
   <block id="8b0ad44ba508767c489eaba84b40e7dd" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 클러스터의 MetroCluster 로컬 사이트(사이트 A)의 이름을 바꿀 수 있습니다.</block>
   <block id="a725a02a41f5b8ff1387ed326ce28ae0" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 네트워크 설정</block>
-  <block id="bddf9d6dc523b359adf8edeffa510c91" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 네트워크를 설정하여 클러스터, 노드 및 서비스 프로세서를 관리할 수 있습니다. 네트워크 창을 사용하여 DNS 및 NTP 세부 정보를 설정할 수도 있습니다.</block>
   <block id="7b7dfa770e15135a2305b1e8fda21d7f" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 지원 페이지를 설정합니다</block>
   <block id="c8711d5f23fdbe3f98b8104eb091ef3b" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 지원 페이지를 설정할 수 있습니다. 지원 페이지를 설정하면 클러스터 설정이 완료되고, 이벤트 알림을 설정하고, 단일 노드 클러스터의 경우 시스템 백업을 구성해야 합니다.</block>
   <block id="bc701f734e8403c8ec9d20c515d85272" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 클러스터의 날짜 및 시간 설정을 관리합니다</block>
@@ -9096,12 +9064,10 @@
   <block id="f0fe373cafde86319d4749debcc801a1" category="doc">System Manager-ONTAP 9.7 이하와 함께 스토리지 권장 사항을 검토하십시오</block>
   <block id="52ff43f011435f293e7816a453ee9dda" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)의 스토리지 창을 사용하여 애그리게이트 생성을 위해 제공되는 스토리지 권장 사항을 검토할 수 있습니다.</block>
   <block id="d08159a440a303f7b3b7c94dc1935c5a" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 애그리게이트를 통해 스토리지를 프로비저닝합니다</block>
-  <block id="874b9a4c9e5f670484a41edbf145c405" category="paragraph">스토리지 권장 사항을 기반으로 애그리게이트를 생성할 수 있으며, 요구사항에 따라 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 수동으로 애그리게이트를 생성할 수 있습니다. System Manager를 사용하여 Flash Pool 애그리게이트, SnapLock 애그리게이트 및 FabricPool 지원 애그리게이트를 만들어 하나 이상의 볼륨에 스토리지를 제공할 수 있습니다.</block>
   <block id="9d802381a15c252491a9d7ee663aff69" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 SNMP를 구성합니다</block>
   <block id="f31b76fac3ac0dc10498d730d31669d4" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 클러스터에서 SVM을 모니터링하도록 SNMP를 구성할 수 있습니다.</block>
   <block id="b10038089b0aa2450f7c5e88c187484f" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 LDAP 서버를 구성합니다</block>
   <block id="1cbeaf1a546d95c9bc9037f69d4fcf08" category="paragraph">ONTAP System Manager 클래식(사용 가능한 9.7 이하 버전)을 사용하여 사용자 정보를 중앙에서 관리하는 LDAP 서버를 구성할 수 있습니다.</block>
-  <block id="05f8fe4988a6b907042484cd11d40fb5" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 스토리지를 프로비저닝하고 Flash Pool 애그리게이트를 수동으로 생성합니다</block>
   <block id="85867b0d35df1b329438dc7c422261f1" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 Flash Pool 애그리게이트를 수동으로 생성하거나, SSD를 추가하여 기존 HDD 애그리게이트를 Flash Pool 애그리게이트로 전환할 수 있습니다. 새 HDD 애그리게이트를 생성할 경우, SSD 캐시를 프로비저닝하고 Flash Pool 애그리게이트를 생성할 수 있습니다.</block>
   <block id="94179f0d8149a3ac801eea474d69ef53" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 네트워크를 설정합니다</block>
   <block id="1ba705052a00b8283ec31d9278e3d149" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 네트워크를 설정할 수 있습니다. 네트워크 설정은 IPspace 생성, 브로드캐스트 도메인 및 서브넷으로 구성됩니다.</block>
@@ -9139,7 +9105,6 @@
   <block id="25e40dbc1aa0db0b68b988d819462b39" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 할당되지 않은 디스크의 소유권을 특정 노드에 할당하여 애그리게이트 또는 스토리지 풀의 용량을 늘릴 수 있습니다.</block>
   <block id="29f339b530105eca42ac732c2bd2a766" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 네트워크를 관리합니다</block>
   <block id="fede64b0ea01acd771df4df735e64b8d" category="paragraph">IPspace, 브로드캐스트 도메인, 서브넷, 네트워크 인터페이스, 이더넷 포트 등을 생성 및 관리하여 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 스토리지 시스템의 네트워크를 및 FC/FCoE 어댑터.</block>
-  <block id="e9019df4e5838c4a22d6a9fa885721a4" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 스토리지를 프로비저닝할 Aggregate를 수동으로 생성합니다</block>
   <block id="ccac8732ee856be09c1ef43f22599d7c" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)을 사용하면 HDD만 또는 SSD만 포함된 애그리게이트를 수동으로 생성할 수 있습니다.</block>
   <block id="489980c7967cf6ae840737bc9670c341" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 FlexVol 볼륨을 생성합니다</block>
   <block id="b54401ea7e235c7d426b9bdeb475a430" category="paragraph">System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에서 볼륨 생성 대화 상자를 사용하여 데이터에 대한 FlexVol 볼륨을 생성할 수 있습니다. 루트 볼륨에 데이터를 저장하는 대신 항상 데이터에 대해 별도의 볼륨을 생성해야 합니다.</block>
@@ -9153,4 +9118,205 @@
   <block id="5cee01395e3051dd380249b88316b378" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)의 대시보드 창에는 여러 패널이 포함되어 있어 시스템 및 성능에 대한 누적 정보를 한 눈에 확인할 수 있습니다.</block>
   <block id="a36ead175efb45759fee5f11ce0d539b" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 MetroCluster 구성에서 클러스터를 업데이트합니다</block>
   <block id="5b53589c41b3f02720bf43be353e0006" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 MetroCluster 구성에서 클러스터를 업데이트할 수 있습니다. 클러스터 업데이트를 제외한 두 클러스터에서 각 작업을 수행해야 합니다.</block>
+  <block id="3110731840fac8ce0c3cd829403f4290" category="doc">StorageGRID with System Manager - ONTAP 9.7 이하를 사용하는 경우 CA 인증서를 설치합니다</block>
+  <block id="0757fb4809f44fa933d240553b7b6912" category="paragraph">ONTAP에서 StorageGRID를 FabricPool 지원 애그리게이트의 오브젝트 저장소로 인증하려면 ONTAP 9.7 이하에서 사용 가능한 StorageGRID CA 인증서를 클러스터에 설치할 수 있습니다.</block>
+  <block id="dd83afac5120b65ffebb24cab48e69ca" category="doc">System Manager로 SVM 시작 - ONTAP 9.7 이하</block>
+  <block id="f5390b21564b672a29d380d58be78523" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 버전을 사용하면 SVM을 시작하여 SVM(스토리지 가상 시스템)에서 데이터 액세스를 제공할 수 있습니다.</block>
+  <block id="1a14e924b725d213f7adeaa02fec40a1" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 스토리지 QoS에 볼륨을 할당합니다</block>
+  <block id="783bb0aaffc5cf358c9dd3abebdbfeb4" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 FlexVol 볼륨 및 FlexGroup 볼륨을 스토리지 QoS(서비스 품질) 정책 그룹에 할당하여 처리량을 제한할 수 있습니다. 새 볼륨에 스토리지 QoS를 할당하거나 System Manager를 사용하여 정책 그룹에 이미 할당된 볼륨의 스토리지 QoS 세부 정보를 수정할 수 있습니다.</block>
+  <block id="9b858301380b70de8704b68de8476d9d" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 볼륨을 삭제합니다</block>
+  <block id="d87145d51d1b2884ca6f3a0458a70b6d" category="paragraph">볼륨에 포함된 데이터가 더 이상 필요하지 않거나 볼륨에 포함된 데이터를 다른 위치로 복사한 경우 ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)을 사용하여 FlexVol 볼륨을 삭제할 수 있습니다. 볼륨을 삭제하면 볼륨의 모든 데이터가 제거되고 해당 데이터를 복구할 수 없습니다.</block>
+  <block id="9cbd8bc357a78901e45e24781f8eb615" category="doc">스위치오버 및 스위치백 작업을 준비합니다</block>
+  <block id="a75e8acf7cda75c2cae76c182cea9cc1" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 AutoSupport 알림을 관리합니다</block>
+  <block id="65cb7b95d3e9511248e4d454f7a1000b" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 스토리지 시스템 상태를 모니터링하는 데 도움이 되는 AutoSupport 알림을 구성할 수 있습니다.</block>
+  <block id="1f13cccfbc69a5a3b13b2cb14ee1c9e6" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 스토리지 풀을 관리합니다</block>
+  <block id="ebacb42d7af485b4c9760bd64078b3c9" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 스토리지 풀을 생성하여 여러 Flash Pool 애그리게이트에서 SSD를 공유할 수 있습니다.</block>
+  <block id="98f75cb448f7e82e01fb789642587098" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 하드웨어 캐시를 관리합니다</block>
+  <block id="7b9cdbb20d7b7f588086eab7aa5c2913" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하여 하드웨어 캐시 모듈을 관리할 수 있습니다.</block>
+  <block id="abb7c046c422db37c0202c07166a8eab" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 볼륨 크기를 조정합니다</block>
+  <block id="20169e117853b27b34193a931dadb8dc" category="paragraph">볼륨이 거의 전체 용량에 도달하면 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 볼륨 크기를 늘리거나, 일부 스냅샷 복사본을 삭제하거나, 스냅샷 예약 공간을 조정할 수 있습니다. System Manager의 볼륨 크기 조정 마법사를 사용하여 여유 공간을 더 많이 확보할 수 있습니다.</block>
+  <block id="082fcd43395a78c9af7e1c1aede841c9" category="doc">시스템 관리자-ONTAP 9.7 이하를 사용하여 애그리게이트 미러링</block>
+  <block id="7320e70f830697cfb3f68adab3cec989" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 방식을 사용하면 데이터를 보호하고 단일 애그리게이트 내에서 실시간으로 데이터를 미러링하여 복원력을 높일 수 있습니다. 미러링 애그리게이트는 디스크 및 어레이 LUN에 연결할 때 단일 장애 지점을 제거합니다.</block>
+  <block id="d7a551057ba910463c17513387122618" category="doc">System Manager로 디스크 관리 - ONTAP 9.7 이하</block>
+  <block id="4408c783f4f77dad27b39a90a5feb7d2" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하여 디스크를 관리할 수 있습니다.</block>
+  <block id="13ed9e2c3b1a0f1c9c3cecfdcb6d4dda" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 애그리게이트를 편집합니다</block>
+  <block id="3b13e7cb85c51b588c07d756c83a4a87" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전 을 사용하면 필요에 따라 기존 애그리게이트의 애그리게이트 이름, RAID 유형 및 RAID 그룹 크기를 변경할 수 있습니다.</block>
+  <block id="3771b41752bfca2054ec5755865b482f" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 스냅샷 복사본의 만료 날짜를 연장합니다</block>
+  <block id="d85ed9eda73fd8e5db559e1601f30742" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 볼륨의 스냅샷 복사본 만료 날짜를 확장할 수 있습니다.</block>
+  <block id="2f9e6facffd1709fd0c4ced278a4fba3" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 Aggregate와 노드 간에 FlexVol 볼륨을 이동합니다</block>
+  <block id="19796b89ac32544f126c40a751121b43" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하면 FlexVol 볼륨을 다른 Aggregate 또는 다른 노드로 중단 없이 이동하여 용량 활용률과 성능을 향상할 수 있습니다.</block>
+  <block id="d17167f859ab660bcd122310b3a38a75" category="doc">System Manager - ONTAP 9.7 및 그 이전 버전의 Junction Path 창</block>
+  <block id="886fa4451232ae283617085858a8c0d6" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)의 Junction Path 창을 사용하여 SVM 네임스페이스의 교차점에 FlexVol 볼륨을 마운트하거나 마운트 해제할 수 있습니다.</block>
+  <block id="db3926b0ec24b4f88e29703ea58bc16f" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 FlexGroup 볼륨의 상태를 변경합니다</block>
+  <block id="fe3379c0654ba52a8a0b29adde9d8be1" category="paragraph">FlexGroup ONTAP 9.7 이하에서 사용 가능한 ONTAP System Manager 클래식 을 사용하면 볼륨을 오프라인으로 전환하거나, FlexGroup 볼륨을 온라인으로 전환하거나, FlexGroup 볼륨에 대한 액세스를 제한하려는 경우 FlexGroup 볼륨의 상태를 변경할 수 있습니다.</block>
+  <block id="260858e8977a52f6d47878262745f66e" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 스토리지 가상 머신을 관리합니다</block>
+  <block id="2caaa90e2bce16c3aba0effa58711285" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하여 클러스터의 SVM을 관리할 수 있습니다.</block>
+  <block id="ae158ab24ee57d6a67c8f4e3f4a7e90b" category="doc">System Manager - ONTAP 9.7 및 이전 버전의 호환 스페어 디스크</block>
+  <block id="f128392fa134f31a1502c8ed3637ad2d" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에서는 호환되는 스페어 디스크가 aggregate의 다른 디스크 속성과 일치하는 디스크입니다. HDD(용량 디스크)를 추가하거나 애그리게이트의 RAID 유형을 RAID4에서 RAID-DP로 변경하여 기존 애그리게이트의 크기를 증가하려는 경우 애그리게이트에 충분한 호환 스페어 디스크가 있어야 합니다.</block>
+  <block id="18301a38fb3760d7cb97dad4b1d2599d" category="doc">HDD를 시스템 관리자-ONTAP 9.7 이하와 함께 사용하는 경우 효율적인 ONTAP 디스크 유형을 사용하십시오</block>
+  <block id="df9545bad1db11f3501d986a6f905cba" category="paragraph">Data ONTAP 8.1부터 특정 ONTAP 디스크 유형은 Aggregate를 생성 및 추가하고 스페어를 관리할 때 동일한 용도로 사용됩니다. ONTAP는 각 디스크 유형에 대해 유효한 디스크 유형을 할당합니다. ONTAP System Manager 클래식(9.7 이하에서 사용 가능)을 사용하면 동일한 유효 디스크 유형의 HDD를 혼합할 수 있습니다.</block>
+  <block id="bf9b16e0387db17699d2c4fc1baba097" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 FlexGroup 볼륨의 크기를 조정합니다</block>
+  <block id="d589fdcb9092becde1e801dfcd1b6604" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 기존 리소스의 크기를 조정하거나 새 리소스를 추가하여 FlexGroup 볼륨의 크기를 조정할 수 있습니다.</block>
+  <block id="2230ca0c05e882ffa2b9620b8251c500" category="doc">System Manager로 LUN 관리 - ONTAP 9.7 이하</block>
+  <block id="6354f0e3d86ddcd54108d4692014c357" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하여 LUN을 관리할 수 있습니다.</block>
+  <block id="acd9f72a750973c775f7c74901de1aa0" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 작업을 관리합니다</block>
+  <block id="7989a225df196b007589af79666e70d3" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 작업 정보 표시 및 작업 진행 상황 모니터링과 같은 작업 작업을 관리할 수 있습니다.</block>
+  <block id="1045e5c18e1edaf07510e674034a2c4b" category="doc">ONTAP 9.7 이전의 핫 스페어와 System Manager의 작동 방식</block>
+  <block id="ecb29c7e1f3a774425bf27baeca43dbf" category="paragraph">핫 스페어는 스토리지 시스템에 할당되지만 RAID 그룹에서 사용되지 않는 디스크입니다. 핫 스페어는 데이터를 포함하지 않으며 RAID 그룹에서 디스크 장애가 발생할 경우 RAID 그룹에 할당됩니다. ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에서는 가장 큰 디스크를 핫 스페어로 사용합니다.</block>
+  <block id="e70ed8bf17f4b1ec8524926f1784ce3c" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 서브넷을 관리합니다</block>
+  <block id="73e0901fe629a1a67c0cacc2516714fc" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 서브넷을 관리할 수 있습니다.</block>
+  <block id="aa37cb2b059a6d509b9b2bfa658ada55" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 FC SAN에 최적화된 LUN을 생성합니다</block>
+  <block id="f12733f8853d7d5497887694a9179133" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 AFF 플랫폼에서 클러스터를 초기 설정할 때 FC SAN에 최적화된 LUN을 하나 이상 생성할 수 있습니다.</block>
+  <block id="045188e8a2806c9af0fda73b23646157" category="doc">System Manager를 사용하여 SVM의 액세스 오류를 진단하는 추적 파일 액세스</block>
+  <block id="161a8d482d96b458b5f0e8083816b376" category="doc">System Manager와 SVM 정보 - ONTAP 9.7 이전 버전</block>
+  <block id="b1db62d410edb71e46e88f8c71ab00e1" category="doc">System Manager로 노드 관리 - ONTAP 9.7 이하</block>
+  <block id="a677afad0374affce57fedbf72410cb1" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 클러스터의 노드 세부 정보를 볼 수 있습니다.</block>
+  <block id="1a6846191e0b0078fd24ea7d76b2c05e" category="doc">System Manager의 Trace File Access 창</block>
+  <block id="d6e8676418a94beed8523624094e57c7" category="paragraph">ONTAP System Manager 9.6부터, CIFS 또는 NFS 프로토콜을 사용하여 SVM에서 파일 및 공유에 액세스하는 데 문제가 있을 때 파일 액세스 추적 창을 사용하여 문제를 진단할 수 있습니다.</block>
+  <block id="cc774f8540dbfb34aa191e2c20a49885" category="doc">System Manager로 이벤트 관리 - ONTAP 9.7 이하</block>
+  <block id="b2a11b91caffbacb865048a18d41d038" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 이벤트 로그 및 이벤트 알림을 볼 수 있습니다.</block>
+  <block id="e7a6e7217e446a13b382282b2b783a7d" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 볼륨의 계층화 정책을 변경하십시오</block>
+  <block id="b0840da7c2d193991dbd527ac430b4c0" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 볼륨의 기본 계층화 정책을 변경하여 데이터가 비활성 상태가 될 때 볼륨의 데이터를 클라우드 계층으로 이동할지 여부를 제어할 수 있습니다.</block>
+  <block id="93f0c42c8700a499f980d8388d2cab50" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 애그리게이트를 삭제합니다</block>
+  <block id="5254fc23a12f39bde3374b001a0c5410" category="paragraph">ONTAP 9.7 이하에서 ONTAP System Manager의 기존 버전 을 사용하면 aggregate에 데이터가 더 이상 필요하지 않을 때 애그리게이트를 삭제할 수 있습니다. 그러나 루트 애그리게이트에는 시스템 구성 정보가 포함된 루트 볼륨이 포함되어 있으므로 삭제할 수 없습니다.</block>
+  <block id="f90b8f3b8ba120f60f456a06decf74c0" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 스냅샷 복사본을 삭제합니다</block>
+  <block id="50200ce262d86119ff2b812c7a743175" category="paragraph">스냅샷 복사본을 삭제하여 디스크 공간을 절약하거나 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 디스크 공간을 절약할 수 있습니다. 스냅샷 복사본이 더 이상 필요하지 않은 경우에도 스냅샷 복사본을 삭제할 수 있습니다.</block>
+  <block id="028e84497f474466e2a2081b10b23d72" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 FlexVol 볼륨을 이동합니다</block>
+  <block id="da5bfecaebdd8c2ad3a66e2c39ce73d9" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 FlexVol 볼륨을 다른 Aggregate 또는 다른 노드로 중단 없이 이동하여 용량 활용률을 높이고 성능을 향상할 수 있습니다.</block>
+  <block id="72d74e64b0929a9c7c7bc7f3554b4c9d" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 FlexClone 볼륨을 생성합니다</block>
+  <block id="c0aa985c97a56f85399e054f26e6fb91" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 기존 FlexVol 볼륨의 쓰기 가능한 시점 복사본이 필요한 경우 FlexClone 볼륨을 생성할 수 있습니다. 테스트할 볼륨의 복사본을 만들거나 운영 데이터에 대한 액세스 권한을 부여하지 않고 추가 사용자에게 볼륨에 대한 액세스를 제공할 수 있습니다.</block>
+  <block id="296d3389cd2112082ce2545f02d9782a" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 중복 제거 작업을 실행합니다</block>
+  <block id="c1704396b0a08ab03516a9295fa05265" category="paragraph">ONTAP System Manager 클래식(9.7 이하에서 사용 가능)을 사용하면 FlexVol 볼륨을 생성한 직후 중복제거를 실행하거나 지정된 시간에 중복제거를 실행하도록 예약할 수 있습니다.</block>
+  <block id="15fcc128691817e5d018f6a6c28490a5" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 볼륨 크기 조정 옵션</block>
+  <block id="d72908bbda40336f9f8c28c9e474bf46" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)에서 볼륨 크기 조정 마법사를 사용하여 볼륨 크기를 변경하고, 스냅숏 예비 공간을 조정하고, 스냅샷 복사본을 삭제하고, 변경 결과를 동적으로 볼 수 있습니다.</block>
+  <block id="8e5d707678bf42772cd958910a63a685" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 볼륨 속성을 편집합니다</block>
+  <block id="58e12808aee592a68ef0eba7de9b2fad" category="paragraph">System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 볼륨 이름, 보안 스타일, 부분 예약, 공간 보장 등의 볼륨 속성을 수정할 수 있습니다. 스토리지 효율성 설정(중복제거 일정, 중복제거 정책 및 압축) 및 공간 재확보 설정을 수정할 수 있습니다.</block>
+  <block id="1ce0e12cfe117c5cdf15da3fff9c9971" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 애그리게이트를 생성하기 위한 스토리지 권장 사항입니다</block>
+  <block id="4cfa7a50c86e4712589b7525645c62d7" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 네트워크 인터페이스를 관리합니다</block>
+  <block id="5c12d3be28256f2a4159aafabfc61e42" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 네트워크 인터페이스를 생성하고 관리할 수 있습니다.</block>
+  <block id="bf71aa2b8c5f54397eaee604bf7831a5" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 상위 볼륨에서 FlexClone 볼륨을 분할합니다</block>
+  <block id="76055aecc2a31bf17fb90bcf64dacbd8" category="paragraph">ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 상위 볼륨의 디스크 공간을 사용하는 대신 FlexClone 볼륨을 상위 볼륨에서 분할하여 FlexClone 볼륨을 사용할 수 있습니다. 분할 후에 FlexClone 볼륨은 일반 FlexVol 볼륨이 됩니다.</block>
+  <block id="695827db13701a3500b6c8651644d09e" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 볼륨에서 스토리지 효율성 실현</block>
+  <block id="33541cf90bfd4d58d20417a84690177a" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하면 스토리지 효율성을 높이고, 중복제거 및 데이터 압축을 모두 구성하거나, 스토리지 공간을 절약하기 위해 볼륨에 대해서만 중복 제거를 구성할 수 있습니다. 볼륨을 생성할 때 스토리지 효율성을 설정하지 않은 경우 나중에 볼륨을 편집하여 이 작업을 수행할 수 있습니다.</block>
+  <block id="5b371b102ea46126c749a29c392ca705" category="doc">System Manager-ONTAP 9.7 이하가 설치된 FlexVol 볼륨의 볼륨 보장에 대해 설명합니다</block>
+  <block id="29b15d73a4d19af69979765c099c885d" category="paragraph">System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)으로 FlexVol 볼륨에 대한 볼륨 보장을 설정할 수 있습니다. 볼륨 보장(_space 보장 _ 이라고도 함)은 볼륨의 공간이 해당 포함하는 aggregate에서 할당되는 방식을 결정합니다. -- 공간이 볼륨에 사전 할당되었는지 여부를 결정합니다.</block>
+  <block id="460ef1a79f16380a75f477525964a4be" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 용량 디스크를 추가할 때 RAID 그룹을 변경하십시오</block>
+  <block id="e31888bc00e75b0a569b90a67074a027" category="paragraph">용량 디스크(HDD)를 애그리게이트에 추가할 때 ONTAP System Manager 클래식(ONTAP 9.7 이하에서는 사용 가능)을 사용하여 디스크를 추가할 RAID 그룹을 변경할 수 있습니다.</block>
+  <block id="460c3e77c3b95862cf077b04e0ed05f9" category="doc">System Manager의 SVM 대시보드 창 - ONTAP 9.7 이하</block>
+  <block id="fbb2fea1add63830545d846f7b655c11" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)의 대시보드 창에서는 SVM(스토리지 가상 시스템) 및 성능에 대한 누적 정보를 한눈에 확인할 수 있습니다. 대시보드 창을 사용하여 구성된 프로토콜, 용량 근접한 볼륨 및 성능과 같은 SVM과 관련된 중요 정보를 볼 수 있습니다.</block>
+  <block id="c922fd39e8f56b38cdfc9e6adc78364a" category="doc">System Manager로 SVM 중지 - ONTAP 9.7 이하</block>
+  <block id="f26e641bb98d9f44dfd9c7506e1b457b" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 SVM 관련 문제를 해결하거나 SVM을 삭제하거나 SVM에서 데이터 액세스를 중지하려는 경우 SVM(스토리지 가상 시스템)을 중지할 수 있습니다.</block>
+  <block id="7c6d1dca7d79a2df349d430a5b8ce40a" category="doc">System Manager - ONTAP 9.7 및 그 이전 버전의 Storage Tiers 창</block>
+  <block id="53defb9df9eef38cdf0fb069a4e6c0df" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 및 Earier에서 사용 가능)에서 Storage Tiers 창을 사용하여 클러스터 전체 공간 세부 정보를 보고 애그리게이트 세부 정보를 추가 및 볼 수 있습니다.</block>
+  <block id="0dd92fd6a18034a59856f359a0593b88" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 시스템 경고를 관리합니다</block>
+  <block id="7b1aed01f19d6b501620e7b6e1f439a0" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 클러스터의 여러 부분을 모니터링할 수 있습니다.</block>
+  <block id="e4eae7223fd7b9e79b07c5e61638f505" category="summary">ONTAP System Manager Classic을 사용하여 포트 세트를 생성, 삭제 및 편집할 수 있습니다.</block>
+  <block id="93a63ce7da85170f60f10d702a5e8c85" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 포트 세트를 관리합니다</block>
+  <block id="0d553351168d2ec2a019b1b7d719386c" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 포트 세트를 생성, 삭제 및 편집할 수 있습니다.</block>
+  <block id="0e5b9208e3815bdfce5fbc2df62bbbb0" category="paragraph">ONTAP 시스템 관리자의 기존 방식을 사용하여 LUN에 대한 액세스를 제한하는 포트 세트를 생성할 수 있습니다.</block>
+  <block id="57c0533d398adb4e7f062a380c074a16" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 LUN을 생성합니다</block>
+  <block id="44d085e7c22d7a56b01ae83977fb0c9b" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.8 이하에서 사용 가능)을 사용하면 사용 가능한 여유 공간이 있을 때 기존 애그리게이트, 볼륨 또는 qtree용 LUN을 생성할 수 있습니다. 기존 볼륨에 LUN을 생성하거나 LUN에 대한 새 FlexVol 볼륨을 생성할 수 있습니다. 또한 스토리지 QoS(서비스 품질)를 활성화하여 워크로드 성능을 관리할 수도 있습니다.</block>
+  <block id="d71ba3f941027cc222ab286f261aedf9" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 이니시에이터 그룹을 관리합니다</block>
+  <block id="910b66eacc00a33b3e1faebd757ca4d0" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하여 이니시에이터 그룹을 관리할 수 있습니다. 이니시에이터 그룹을 통해 특정 LUN에 대한 호스트 액세스를 제어할 수 있습니다. portset을 사용하여 이니시에이터가 액세스할 수 있는 LIF를 제한할 수 있습니다.</block>
+  <block id="836f907e1a3a35e35703941bae06b845" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 스냅샷 복사본의 자동 생성을 예약합니다</block>
+  <block id="b9398918d0de6151ca1aff623f0c17c7" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 볼륨의 자동 스냅샷 복사본을 자동으로 생성하는 일정을 설정할 수 있습니다. 사본을 만드는 시간과 빈도를 지정할 수 있습니다. 또한, 저장되는 스냅샷 복사본의 수를 지정할 수도 있습니다.</block>
+  <block id="d9e6d8e6a2ca786c481dd6690be859ce" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 SVM 관리</block>
+  <block id="cb87a5fa5dbaf563dbe88745b9c0a81a" category="paragraph">ONTAP System Manger Classic(ONTAP 9.7 이하에서 사용 가능)에서는 SVM(스토리지 가상 시스템) 관리자가 클러스터 관리자가 할당한 기능에 따라 SVM과 볼륨, 프로토콜, 서비스 등의 리소스를 관리할 수 있습니다. SVM 관리자는 SVM을 생성, 수정 또는 삭제할 수 없습니다.</block>
+  <block id="8765671729c223f5f4694a4ef71cb193" category="doc">System Manager - ONTAP 9.7 이전의 스토리지 가상 시스템 창</block>
+  <block id="25e3b196bc56cb5950cd2980999e170c" category="paragraph">ONTAP System Manger Classic(ONTAP 9.7 이하에서 사용 가능)에서 스토리지 가상 머신 창을 사용하여 SVM(스토리지 가상 머신)을 관리하고 해당 정보를 표시할 수 있습니다.</block>
+  <block id="73c207a42b40373fefb0af90abd1979a" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 스냅샷 복사본에서 볼륨을 복원합니다</block>
+  <block id="d4cbecd9711501cce40a217a06f17419" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 볼륨을 이전에 생성한 스냅샷 복사본에 기록된 상태로 복원하여 손실된 정보를 검색할 수 있습니다. 스냅샷 복사본에서 볼륨을 복원하면 복원 작업에서 기존 볼륨 구성을 덮어씁니다. 스냅샷 복사본이 생성된 후 볼륨의 데이터에 대한 모든 변경 사항은 손실됩니다.</block>
+  <block id="c62b17c39d98166166c739b7d4d531eb" category="doc">System Manager - ONTAP 9.7 및 그 이전 버전에서 디스크 유형 및 디스크 RPM을 표시하는 규칙을 나타냅니다</block>
+  <block id="410f33bf36cbdc8a618b8734f70c5e9b" category="paragraph">Aggregate를 생성하여 Aggregate에 용량 디스크를 추가할 경우, ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에 디스크 유형과 디스크 RPM을 표시할 때 적용되는 규칙을 이해해야 합니다.</block>
+  <block id="0f30c5e6c317bd8eb9fc9e68e6f0c982" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 SVM을 삭제합니다</block>
+  <block id="e6a7146a29f981f3a340dced716dbd0b" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하면 스토리지 시스템 구성에서 더 이상 필요하지 않은 SVM(스토리지 가상 머신)을 삭제할 수 있습니다.</block>
+  <block id="758283d20b238eeae3e2986d007f26df" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 용량 디스크를 추가합니다</block>
+  <block id="451c8f10f38f828c2a5ffd50c30f5fd0" category="paragraph">용량 디스크를 추가하여 기존 비루트 애그리게이트 또는 디스크를 포함하는 루트 애그리게이트의 크기를 늘릴 수 있습니다. System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 선택한 ONTAP 디스크 유형의 HDD 또는 SSD를 추가하고 RAID 그룹 옵션을 수정할 수 있습니다.</block>
+  <block id="792b6fc652efe5c12bdde6f0e2a81957" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 네트워크를 설정하여 클러스터, 노드 및 서비스 프로세서를 관리할 수 있습니다. 네트워크 창을 사용하여 DNS 및 NTP 세부 정보를 설정할 수도 있습니다.</block>
+  <block id="791fb6897de9ba0f6af6f3e585743f78" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 FlexClone 파일을 생성합니다</block>
+  <block id="0d546e0a897b8e0f0ea2077f8b428cc8" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 부모 파일의 쓰기 가능한 복사본인 FlexClone 파일을 생성할 수 있습니다. 이러한 복사본을 사용하여 애플리케이션을 테스트할 수 있습니다.</block>
+  <block id="f506739702d824c3af46ea35fd4ac572" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 애그리게이트를 생성할 때 RAID 구성을 변경하십시오</block>
+  <block id="cb074bad8fd5d0e553d0bfd70c9cab9d" category="paragraph">Aggregate를 생성하는 동안 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 애그리게이트의 RAID 유형 및 RAID 그룹 크기 옵션의 기본값을 수정할 수 있습니다.</block>
+  <block id="3eb9d14d679a513a2ad3548435228392" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 디스크 정보를 확인합니다</block>
+  <block id="cc67f4075ab5923fe75e7ef7ad848467" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)의 디스크 창을 사용하면 디스크의 이름, 크기 및 컨테이너 세부 정보와 용량 디스크 및 캐시 디스크에 대한 그래픽 정보를 볼 수 있습니다.</block>
+  <block id="cb04500583790052d53c9e7a9de1fbe3" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 LUN을 삭제합니다</block>
+  <block id="7a95b46291ab7b9daf01e27e659653d6" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하면 LUN을 삭제하고 LUN에서 사용되는 공간을 포함된 Aggregate 또는 볼륨으로 반환할 수 있습니다.</block>
+  <block id="5ed5b84d36c171fac20f225616064bee" category="doc">ONTAP가 System Manager-ONTAP 9.7 이하에서 디스크 유형을 보고하는 방법</block>
+  <block id="3c7ee44668a1f1b1e5a142859b005dbd" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)은 모든 디스크와 유형을 연결합니다. ONTAP에서는 일부 디스크 유형을 업계 표준과 다르게 보고합니다. 혼란을 방지하기 위해 ONTAP 디스크 유형이 산업 표준에 매핑되는 방법을 이해해야 합니다.</block>
+  <block id="a40a48cd8df9555b5ff7a430e651ccec" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 중복 제거 일정을 변경합니다</block>
+  <block id="780048f038aaba104e03e259610e2a9a" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 중복 제거를 수동으로, 자동으로 또는 지정한 일정에 따라 실행하도록 선택하여 중복제거 일정을 변경할 수 있습니다.</block>
+  <block id="ae31194d11d9f6f40dc1383a9c9b1149" category="doc">시스템 관리자-ONTAP 9.7 이하를 사용하여 소스 SVM에서 미러링 관계를 생성합니다</block>
+  <block id="094497dfe6a525ccce05a6611e29e110" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 소스 SVM(스토리지 가상 머신)에서 미러 관계를 생성하고 미러 정책과 일정을 미러 관계에 할당할 수 있습니다. 미러 복제본을 사용하면 소스 볼륨의 데이터가 손상되거나 손실된 경우 데이터를 빠르게 사용할 수 있습니다.</block>
+  <block id="f87363de91a44888ba803f5cb7e20111" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 스토리지 권장 사항에 따라 또는 요구사항에 따라 수동으로 애그리게이트를 만들 수 있습니다. System Manager를 사용하여 Flash Pool 애그리게이트, SnapLock 애그리게이트 및 FabricPool 지원 애그리게이트를 만들어 하나 이상의 볼륨에 스토리지를 제공할 수 있습니다.</block>
+  <block id="93b06c5d026d7f6a708ab6de3cfb5a15" category="section-title">System Manager-ONTAP 9.7 이하를 사용하여 수동으로 애그리게이트를 생성합니다</block>
+  <block id="5bd7f238c43d37e955c094a904e83733" category="section-title">System Manager-ONTAP 9.7 이하를 사용하여 Flash Pool 애그리게이트를 수동으로 생성합니다</block>
+  <block id="b27b332d5e45bf641d4fd65ed64ad8d3" category="section-title">System Manager-ONTAP 9.7 이하를 사용하여 FabricPool 지원 애그리게이트를 수동으로 생성합니다</block>
+  <block id="521d64edb3b9891946bd12a9d48b9ea5" category="doc">System Manager의 볼륨 창 - ONTAP 9.7 이하</block>
+  <block id="7b924d1c798de9911d3b4b00feb3c254" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)의 Volumes 창을 사용하여 FlexVol 볼륨 및 FlexGroup 볼륨을 관리할 수 있습니다. System Manager 9.6부터 FlexCache 볼륨을 관리할 수도 있습니다.</block>
+  <block id="5b74ba9a7ffd896fcb8e28ff4e17b348" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 클라우드 계층을 구성 및 관리합니다</block>
+  <block id="7d613ace3ff4e6c511496c52961bf228" category="paragraph">ONTAP System Manger Classic(ONTAP 9.7 이하에서 사용 가능)을 사용하여 클라우드 계층을 구성 및 관리할 수 있습니다. 데이터를 계층에 저장하면 스토리지 시스템의 효율성이 향상됩니다. FabricPool 지원 애그리게이트를 사용하여 스토리지 계층을 관리할 수 있습니다. 클라우드 계층은 데이터 액세스 빈도 여부에 따라 데이터를 계층에 저장합니다.</block>
+  <block id="d8ac47900f5609e8fb7c0cf3d0cafa6c" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 SSD를 추가하여 캐시 프로비저닝</block>
+  <block id="9360df4545304fb67b44a38c013b4f7d" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 SSD를 스토리지 풀 또는 전용 SSD로 추가하여 캐시를 프로비저닝할 수 있습니다. SSD를 추가하면 루트 이외의 Aggregate 또는 분할된 디스크가 없는 루트 Aggregate를 Flash Pool Aggregate로 변환하거나 기존 Flash Pool 애그리게이트의 캐시 크기를 늘릴 수 있습니다.</block>
+  <block id="aab5e3cd425b154cb96d27c6f7249138" category="doc">System Manager로 애그리게이트 관리 - ONTAP 9.7 이하</block>
+  <block id="9a37af394d1d31dd77ff0d7043b0269b" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 사용자의 다양한 보안, 백업, 성능 및 데이터 공유 요구사항을 지원하는 애그리게이트를 만들 수 있습니다.</block>
+  <block id="9eaabf477a7dc35139f9ed298b9aebf7" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 스냅샷 복사본 디렉토리를 숨깁니다</block>
+  <block id="481139aa8583dcea897dcba753f87952" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 버전을 사용하면 볼륨 디렉토리를 볼 때 스냅샷 복사본 디렉토리('.snapshot')가 표시되지 않도록 스냅샷 복사본 디렉토리를 숨길 수 있습니다. 기본적으로 '.snapshot' 디렉토리가 표시됩니다.</block>
+  <block id="c0014c2b6229814e063f56dde287f680" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 다중 디스크 캐리어를 언제 제거해도 되는지 확인합니다</block>
+  <block id="db7ebba5086857b5a8654dbcdf3c3f1d" category="paragraph">다중 디스크 캐리어를 안전하게 제거하기 전에 제거하면 하나 이상의 RAID 그룹이 성능 저하 또는 스토리지 중단으로 이어질 수 있습니다. ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 다중 디스크 캐리어를 언제 제거해도 안전한지 확인할 수 있습니다.</block>
+  <block id="79ad24ed86d559168db1de0b426a2c01" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 SVM 모니터링</block>
+  <block id="7f569a3c39232bb00a96ba6af81c2b64" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)의 대시보드를 사용하면 SVM(스토리지 가상 시스템)의 상태와 성능을 모니터링할 수 있습니다.</block>
+  <block id="f5b7bd55239093cd9cc1e21e645b1dd4" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 FlexGroup 볼륨을 삭제합니다</block>
+  <block id="b2248261263fafbd0f4108203fda4392" category="paragraph">FlexGroup 볼륨이 더 이상 필요하지 않은 경우 ONTAP 9.7 이하에서 사용 가능한 ONTAP System Manager 클래식 버전을 사용하여 FlexGroup 볼륨을 삭제할 수 있습니다.</block>
+  <block id="b370847994c3d23b844ca1e55d46d7a0" category="doc">System Manager에서 볼륨 관리 - ONTAP 9.7 이하 버전</block>
+  <block id="a27a4fe05bc74404abef4983a840d677" category="paragraph">ONTAP System Manager 클래식(9.7 이하 버전에서 사용 가능)을 사용하여 볼륨을 생성, 편집 및 삭제할 수 있습니다.</block>
+  <block id="1a9c869a6bfc17032518e267afda3fe5" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 VMware용 NFS 데이터 저장소를 생성합니다</block>
+  <block id="414d44592771786254f784e9d856900c" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에서 VMware용 NFS 데이터 저장소 생성 마법사를 사용하여 VMware용 NFS 데이터 저장소를 생성할 수 있습니다. NFS 데이터 저장소에 대한 볼륨을 생성하고 NFS 데이터 저장소를 액세스할 수 있는 ESX 서버를 지정할 수 있습니다.</block>
+  <block id="5ef671179cc9a38819a2cefa50caf463" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 볼륨 상태를 변경합니다</block>
+  <block id="617d0f1352346b807c2aeb129b502d38" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 방식을 사용하여 볼륨을 오프라인으로 전환하거나, 볼륨을 다시 온라인 상태로 전환하거나, 볼륨에 대한 액세스를 제한하려는 경우 FlexVol 볼륨의 상태를 변경할 수 있습니다.</block>
+  <block id="9dbcf0e843a9a11dcb9cc2dfbbe27734" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 스냅샷 복사본 예약 공간을 설정합니다</block>
+  <block id="f50b407a6a008ed2a2681714c08c97bb" category="paragraph">ONTAP 9.7 이하에서 ONTAP System Manager의 기존 버전(사용 가능)을 사용하여 볼륨의 스냅샷 복사본에 대한 공간(백분율로 측정됨)을 예약할 수 있습니다. 스냅샷 복사본 예약 공간을 설정하면 스냅샷 복사본에 활성 파일 시스템 공간을 사용하지 않도록 충분한 디스크 공간을 할당할 수 있습니다.</block>
+  <block id="6eb2b573b575a1c5351324690e7d62ae" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 디스크를 노드에 재할당합니다</block>
+  <block id="190f9ec4f52503d35888c252ab746728" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 스페어 디스크의 소유권을 한 노드에서 다른 노드로 재할당하여 애그리게이트 또는 스토리지 풀의 용량을 높일 수 있습니다.</block>
+  <block id="9298dd1b53067fbddee607d176c77775" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 이더넷 포트를 관리합니다</block>
+  <block id="2da457cc70f41e8d72a0321dda42ec28" category="paragraph">ONTAP System Classic(ONTAP 9.7 이전 버전에서 사용 가능)을 사용하여 이더넷 포트를 생성하고 관리할 수 있습니다.</block>
+  <block id="1f5a64b9025574c884f81e9e1098c75f" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 FC/FCoE 및 NVMe 어댑터를 관리하십시오</block>
+  <block id="a9a3133ec55e6f2440f5dad3b6c8f994" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하여 FC/FCoE 및 NVMe 어댑터를 관리할 수 있습니다.</block>
+  <block id="eea76ef6e75facd7fe5458d28c6aa51b" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 스토리지 LUN 관리</block>
+  <block id="15251827b733b2121efb7e442aa6166e" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 방식을 사용하여 어레이 LUN을 기존 애그리게이트에 할당하고 어레이 LUN을 관리할 수 있습니다.</block>
+  <block id="7cfd7e3c448ffc86090e645a5d92ce95" category="doc">System Manager-ONTAP 9.7 이하와 함께 FlexVol 볼륨의 공간 예약을 사용합니다</block>
+  <block id="ec05e9ce96b047af3f9ddcda38e0e416" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에서는 공간 예약을 사용하여 FlexVol 볼륨을 프로비저닝할 수 있습니다. 씬 프로비저닝은 해당 스토리지 중 일부를 현재 사용하고 있지 않는 한, 특정 애그리게이트에서 실제로 사용할 수 있는 것보다 더 많은 스토리지를 제공하는 것으로 보입니다.</block>
+  <block id="5a9c388627c2a7fd685dccf436f83c83" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 FlexGroup 볼륨 정보를 확인하십시오</block>
+  <block id="f977f31d16f4b8a41207c6826103623d" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 FlexGroup 볼륨에 대한 정보를 볼 수 있습니다. 할당된 공간, 보호 상태 및 FlexGroup 볼륨의 성능에 대한 그래픽 표시를 볼 수 있습니다.</block>
+  <block id="af278e4cbaba5d7640f03c7d8ccd3a53" category="doc">System Manager의 디스크 창 - ONTAP 9.7 이하</block>
+  <block id="de93e474f59d689bd502d50a3463819e" category="paragraph">ONTAP System Manager(ONTAP 9.7 이하에서 사용 가능)의 Disks 창을 사용하여 스토리지 시스템의 모든 디스크를 볼 수 있습니다.</block>
+  <block id="258afb30ae69ea72441de6bfa02ded92" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 공유를 관리합니다</block>
+  <block id="47e145cac11e2ed21e19d35136895102" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 공유를 생성, 편집 및 관리할 수 있습니다.</block>
+  <block id="fa1e16b1d3064c5c2a9c506c6f66ea7e" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 데이터 보호 볼륨을 편집합니다</block>
+  <block id="e74561cb08f6414ff25ebff5204738b7" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 데이터 보호(DP) 볼륨의 볼륨 이름을 수정할 수 있습니다. 소스 볼륨에 스토리지 효율성이 활성화되어 있지 않은 경우 타겟 볼륨에서만 스토리지 효율성을 활성화할 수 있습니다.</block>
+  <block id="eb4ab168a8612623af24820fd4d8ba27" category="doc">System Manger - ONTAP 9.7 이하를 사용하여 Flash Pool 통계 보기</block>
+  <block id="b4b7fb40eb76e5a84d19a4d9485efbd2" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 선택한 Flash Pool 애그리게이트에 대한 실시간 SSD 계층 읽기 및 쓰기 워크로드를 볼 수 있습니다.</block>
+  <block id="446a5bde28bd136730438a9fe67a7ebb" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 애그리게이트 정보를 확인합니다</block>
+  <block id="4fc62bd4381c61d9b0eb0fc112db2afd" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)의 애그리게이트 창을 사용하여 애그리게이트에 대한 이름, 상태 및 공간 정보를 볼 수 있습니다.</block>
+  <block id="0c9f27e77bdffacf8be52b8f641b1bdf" category="doc">시스템 관리자-ONTAP 9.7 이하를 사용하여 소스 SVM에서 볼트 관계를 생성합니다</block>
+  <block id="59a8e82d0ecf8665b9a61a8ba2cce46c" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 소스 SVM(스토리지 가상 머신)에서 볼트 관계를 생성하고 볼트 관계에 볼트 정책을 할당하여 백업 볼트를 생성할 수 있습니다. 시스템에서 데이터가 손실되거나 손상된 경우 백업 데이터를 백업 볼트 대상에서 복원할 수 있습니다.</block>
+  <block id="d301c6c98637b2c2de49130b18671be6" category="list-text">일부 플랫폼의 경우 대상 클러스터에 SnapVault 라이센스 또는 SnapMirror 라이센스가 있고 DPO(데이터 보호 최적화) 라이센스가 활성화된 경우 소스 클러스터에 SnapVault 라이센스 또는 SnapMirror 라이센스가 반드시 활성화되지는 않습니다.</block>
+  <block id="57ffc515c49079616f5691ed4f8fa780" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 정의된 일정 이외의 스냅샷 복사본을 생성합니다</block>
+  <block id="1d45d9d0c9a71495df6b9725beb0809b" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 정의된 일정 이외의 볼륨에 대한 스냅샷 복사본을 생성하여 특정 시점의 파일 시스템 상태를 캡처할 수 있습니다.</block>
+  <block id="b5e11383d258d5112b66b2a434e871e5" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 FlexGroup 볼륨을 생성합니다</block>
+  <block id="ef9ca88818c14d3a07cdf3c9c6202300" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 특정 애그리게이트를 선택하거나 시스템 권장 애그리게이트를 선택하여 FlexGroup 볼륨을 생성할 수 있습니다. FlexGroup 볼륨에는 개별 볼륨 대신 그룹으로 관리할 수 있는 많은 볼륨이 포함될 수 있습니다.</block>
+  <block id="7395f98b92ba1f806cd25f3b2816516d" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 SVM 설정을 편집합니다</block>
+  <block id="d81698ba423ea22b301cb1579d9e6433" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 방식을 사용하여 네임 서비스 스위치, 이름 매핑 스위치, 애그리게이트 목록과 같은 SVM(스토리지 가상 머신)의 속성을 편집할 수 있습니다.</block>
+  <block id="564791b987f0846ef3c17ad7e3a475c2" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 저장된 스냅샷 복사본 목록을 확인하십시오</block>
+  <block id="3a529a084aa6539c3cf0ff1e6a82eebb" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 볼륨 창의 아래쪽 창에 있는 스냅샷 복사본 탭에서 선택한 볼륨에 대해 저장된 모든 스냅샷 복사본 목록을 볼 수 있습니다. 저장된 스냅샷 복사본 목록을 사용하여 스냅샷 복사본의 이름을 변경, 복원 또는 삭제할 수 있습니다.</block>
+  <block id="eb91db7a154c4738b91d02ca57922942" category="doc">ONTAP 이름 서비스 스위치 구성이 System Manager - ONTAP 9.7 및 그 이전 버전에서 작동하는 방식</block>
+  <block id="8d63c85c86a43bf30719d6251feabb88" category="doc">FlexClone 볼륨 계층 - ONTAP 9.7 이하 버전을 봅니다</block>
+  <block id="3a59cafcf4d62062327f96774d795d5a" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 FlexClone 볼륨 및 상위 볼륨의 계층 구조를 볼 수 있습니다.</block>
+  <block id="9e7629b024a19ce191f9724ba2c07b02" category="doc">시스템 관리자-ONTAP 9.7 이하를 사용하여 소스 SVM에서 미러링 및 소산 관계를 생성합니다</block>
+  <block id="4294daeb8f01399c15370d2868cbc7b1" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 소스 SVM(스토리지 가상 시스템)에서 미러 및 소산 관계를 생성할 수 있습니다. 이 관계를 생성하면 소스 볼륨에서 대상 볼륨으로 데이터를 정기적으로 전송하여 데이터를 보다 안전하게 보호할 수 있습니다. 이 관계를 통해 소스 볼륨의 백업을 생성하여 데이터를 장기간 보존할 수도 있습니다.</block>
+  <block id="b329fa01fe87d8d90f34efa118dbbf38" category="doc">System Manager - ONTAP 9.7 이하를 사용한 애플리케이션별 LUN 설정</block>
+  <block id="6026e37739019281574463fdebf2054d" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)은 AFF 클러스터에서 FC SAN에 최적화된 LUN을 생성하는 동시에 Oracle, SQL 및 기타 애플리케이션 유형을 지원합니다. LUN 크기와 같은 LUN 설정은 애플리케이션 유형에 따른 규칙에 따라 결정됩니다. SQL 및 Oracle의 경우 LUN 설정이 자동으로 생성됩니다.</block>
+  <block id="402229f8ce0167d0a78bbd044f5164cf" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 FlexGroup 볼륨의 고급 옵션을 지정합니다</block>
+  <block id="97da1d3682fa19cce007f55dd00e9257" category="paragraph">FlexGroup 볼륨을 생성할 때 ONTAP System Manager 클래식(ONTAP 9.7 이전 버전에서 사용 가능)을 사용하여 FlexGroup 볼륨과 연결할 옵션을 지정할 수 있습니다.</block>
+  <block id="afa4b033845a11aaf03224d5f3b87aaa" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 스냅샷 복사본의 이름을 바꿉니다</block>
+  <block id="5d535a61cd876447a88890d18f058a60" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 방식을 사용하여 스냅샷 복사본의 이름을 변경하여 스냅샷 복사본을 구성하고 관리할 수 있습니다.</block>
 </blocks>

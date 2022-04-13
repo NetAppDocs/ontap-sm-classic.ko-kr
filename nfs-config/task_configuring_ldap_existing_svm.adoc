@@ -5,6 +5,7 @@ keywords: storage, virtual, machine, svm, information, active, directory-based, 
 summary: 'SVM(스토리지 가상 시스템)에서 Active Directory 기반 LDAP(Lightweight Directory Access Protocol)의 사용자 정보를 가져오려면 LDAP 클라이언트를 생성하고 SVM용으로 설정한 다음 다른 사용자 정보 소스보다 LDAP 우선 순위를 지정해야 합니다.' 
 ---
 = LDAP 구성(기존 SVM에 대한 NFS 액세스 구성)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

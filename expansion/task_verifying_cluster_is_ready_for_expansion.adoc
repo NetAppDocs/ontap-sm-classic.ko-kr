@@ -5,6 +5,7 @@ keywords: expand, cluster, verify, plan, configuration, require, network, inform
 summary: 클러스터를 확장하기 전에 계획된 구성을 확인하고, 필요한 네트워크 정보를 수집하고, 필요한 경우 스위치를 추가 또는 교체해야 합니다. 
 ---
 = 클러스터를 확장할 준비가 되었는지 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

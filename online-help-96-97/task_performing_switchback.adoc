@@ -5,6 +5,7 @@ keywords: metrocluster, perform, switchback, system, manager, online, help
 summary: 'System Manager 9.6부터는 시스템이 성공적인 스위치오버 작업을 완료한 후 원래 MetroCluster 사이트(사이트 B)로 제어를 복원하는 스위치백 작업을 수행할 수 있습니다.' 
 ---
 = 스위치백을 수행합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

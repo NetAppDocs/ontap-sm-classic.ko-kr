@@ -5,6 +5,7 @@ keywords: zero, spare, disks, system, manager, erase, data, online, help
 summary: System Manager를 사용하여 모든 데이터를 지우고 디스크에 0을 작성하여 스페어 디스크를 포맷할 수 있습니다. 그런 다음 이러한 디스크를 새 애그리게이트에서 사용할 수 있습니다. 
 ---
 = 시스템 관리자 - ONTAP 9.7 이하가 있는 스페어 디스크가 없습니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

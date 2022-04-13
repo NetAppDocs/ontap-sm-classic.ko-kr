@@ -5,6 +5,7 @@ keywords: install, controller, module, cluster, setup, command, join nodes to th
 summary: 새로 설치된 컨트롤러 모듈이 준비되면 cluster setup 명령을 사용하여 각 모듈을 클러스터에 추가할 수 있습니다. 
 ---
 = CLI를 사용하여 클러스터에 노드를 연결합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

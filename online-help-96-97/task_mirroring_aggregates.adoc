@@ -4,14 +4,15 @@ sidebar: sidebar
 keywords: mirror, aggregate, system, manager, data, lun, array, online, help 
 summary: System Manager를 사용하면 데이터를 보호하고 단일 애그리게이트 내에서 실시간으로 데이터를 미러링하여 복원력을 높일 수 있습니다. 미러링 애그리게이트는 디스크 및 어레이 LUN에 연결할 때 단일 장애 지점을 제거합니다. 
 ---
-= Aggregate 미러링
+= 시스템 관리자-ONTAP 9.7 이하를 사용하여 애그리게이트 미러링
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하면 데이터를 보호하고 단일 애그리게이트 내에서 실시간으로 데이터를 미러링하여 복원력을 높일 수 있습니다. 미러링 애그리게이트는 디스크 및 어레이 LUN에 연결할 때 단일 장애 지점을 제거합니다.
+ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 방식을 사용하면 데이터를 보호하고 단일 애그리게이트 내에서 실시간으로 데이터를 미러링하여 복원력을 높일 수 있습니다. 미러링 애그리게이트는 디스크 및 어레이 LUN에 연결할 때 단일 장애 지점을 제거합니다.
 
 다른 풀에는 Aggregate를 미러링하기에 충분한 가용 디스크가 있어야 합니다.
 

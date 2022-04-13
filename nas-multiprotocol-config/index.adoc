@@ -5,6 +5,7 @@ keywords: smb, cifs, nfs, access, volume, exist, storage, virtual, machine, svm
 summary: '새로운 SVM(스토리지 가상 머신) 또는 기존 SVM(스토리지 가상 머신)에서 새 볼륨에 SMB/CIFS 및 NFS 액세스를 빠르게 설정할 수 있습니다.' 
 ---
 = SMB 및 NFS 멀티 프로토콜 구성 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

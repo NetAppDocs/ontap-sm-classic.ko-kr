@@ -5,6 +5,7 @@ keywords: set, up, volume, data, protection, snapvault, technology, verify, sour
 summary: SnapVault 기술을 사용하여 데이터 보호를 위한 볼륨을 설정하기 전에 소스 클러스터와 타겟 클러스터가 피어 관계를 통해 서로 피어링되어 상호 통신하고 있는지 확인해야 합니다. 또한 소스 SVM과 타겟 SVM이 피어링되어 피어 관계를 통해 서로 통신하고 있는지 확인해야 합니다. 
 ---
 = 클러스터 피어 관계 및 SVM 피어 관계를 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

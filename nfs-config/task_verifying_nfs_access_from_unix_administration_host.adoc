@@ -5,6 +5,7 @@ keywords: configure, nfs, access, storage, virtual, machine, svm, verify, config
 summary: 'SVM(Storage Virtual Machine)에 대한 NFS 액세스를 구성한 후에는 NFS 관리 호스트에 로그인하고 SVM에서 데이터를 읽고 쓰는 방법으로 구성을 확인해야 합니다.' 
 ---
 = UNIX 관리 호스트에서 NFS 액세스를 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

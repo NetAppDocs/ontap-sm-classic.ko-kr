@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: stop, svm, online, help, system, manager, storage, virtual, machine 
 summary: 'SVM 관련 문제를 해결하거나 SVM을 삭제하거나 SVM에서 데이터 액세스를 중지하려는 경우 System Manager를 사용하여 SVM(스토리지 가상 시스템)을 중지할 수 있습니다.' 
 ---
-= SVM을 중지하는 중입니다
+= System Manager로 SVM 중지 - ONTAP 9.7 이하
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-SVM 관련 문제를 해결하거나 SVM을 삭제하거나 SVM에서 데이터 액세스를 중지하려는 경우 System Manager를 사용하여 SVM(스토리지 가상 시스템)을 중지할 수 있습니다.
+ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 SVM 관련 문제를 해결하거나 SVM을 삭제하거나 SVM에서 데이터 액세스를 중지하려는 경우 SVM(스토리지 가상 시스템)을 중지할 수 있습니다.
 
 SVM에 연결된 모든 클라이언트의 연결을 끊어야 합니다.
 

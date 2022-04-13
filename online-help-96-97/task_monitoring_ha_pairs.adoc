@@ -5,6 +5,7 @@ keywords: system, manager, ha, availability, monitor, ha, pair
 summary: 'System Manager를 사용하여 클러스터에 있는 모든 HA(고가용성) 쌍의 노드 상태와 인터커넥트 상태를 모니터링할 수 있습니다. Takeover 또는 Giveback이 활성화되었는지 또는 발생했는지 확인할 수도 있으며, Takeover 또는 Giveback이 현재 가능하지 않은 이유를 볼 수 있습니다.' 
 ---
 = HA 쌍 모니터링
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

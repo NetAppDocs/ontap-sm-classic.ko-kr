@@ -5,6 +5,7 @@ keywords: edit, qos, policy, group, group, dialog, system, manager, online, help
 summary: 'System Manager의 정책 그룹 편집 대화 상자를 사용하여 기존 스토리지 QoS(서비스 품질) 정책 그룹의 이름과 최대 처리량을 수정할 수 있습니다.' 
 ---
 = QoS 정책 그룹 편집
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

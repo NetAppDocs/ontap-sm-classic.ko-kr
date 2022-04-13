@@ -5,6 +5,7 @@ keywords: expand, cluster, configure, service, processor, sp, network, node, man
 summary: 클러스터를 확장한 후 새 노드에서 서비스 프로세서 네트워크를 구성해야 합니다. 
 ---
 = 서비스 프로세서 네트워크를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

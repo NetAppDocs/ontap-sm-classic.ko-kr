@@ -5,6 +5,7 @@ keywords: system, manager, quota, online, help, view, activate, deactivate, info
 summary: System Manager를 사용하여 할당량을 생성, 편집, 삭제할 수 있습니다. 
 ---
 = 할당량
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

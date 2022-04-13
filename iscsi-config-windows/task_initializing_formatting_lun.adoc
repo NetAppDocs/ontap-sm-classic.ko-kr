@@ -5,6 +5,7 @@ keywords: lun, access, windows, host, partition, file, system, initialize, forma
 summary: Windows 호스트에서 새 LUN을 처음 액세스할 때 파티션이나 파일 시스템이 없습니다. LUN을 초기화하고 선택적으로 파일 시스템으로 LUN을 포맷해야 합니다. 
 ---
 = LUN을 초기화하고 형식을 지정합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

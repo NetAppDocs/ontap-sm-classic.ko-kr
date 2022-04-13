@@ -5,6 +5,7 @@ keywords: reliable, operation, verify, configuration, support, nfs, verify that 
 summary: 안정적인 작동을 위해서는 전체 구성이 지원되는지 확인해야 합니다. 에는 NFS 및 가상 스토리지 콘솔에 대해 지원되는 구성이 나와 있습니다. 
 ---
 = 구성이 지원되는지 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

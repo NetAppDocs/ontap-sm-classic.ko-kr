@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: schedule, automatic, creation, snapshot, copy, online, help 
 summary: System Manager를 사용하면 볼륨의 자동 스냅샷 복사본을 자동으로 생성하는 일정을 설정할 수 있습니다. 사본을 만드는 시간과 빈도를 지정할 수 있습니다. 또한, 저장되는 스냅샷 복사본의 수를 지정할 수도 있습니다. 
 ---
-= Snapshot 복사본의 자동 생성을 예약하고 있습니다
+= System Manager-ONTAP 9.7 이하를 사용하여 스냅샷 복사본의 자동 생성을 예약합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하면 볼륨의 자동 스냅샷 복사본을 자동으로 생성하는 일정을 설정할 수 있습니다. 사본을 만드는 시간과 빈도를 지정할 수 있습니다. 또한, 저장되는 스냅샷 복사본의 수를 지정할 수도 있습니다.
+ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 볼륨의 자동 스냅샷 복사본을 자동으로 생성하는 일정을 설정할 수 있습니다. 사본을 만드는 시간과 빈도를 지정할 수 있습니다. 또한, 저장되는 스냅샷 복사본의 수를 지정할 수도 있습니다.
 
 .단계
 . 스토리지 * > * 볼륨 * 을 클릭합니다.

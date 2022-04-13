@@ -5,6 +5,7 @@ keywords: linux, unified, host, utilities, sanlun, utility, netapp, lun, report,
 summary: Linux Unified Host Utilities 소프트웨어에는 스토리지 클러스터 노드에 대한 정보를 표시하는 데 사용할 수 있는 NetApp LUN 보고 툴인 sanlun 유틸리티가 포함되어 있습니다. 
 ---
 = Linux Unified Host Utilities를 설치하고 I/O 성능을 최적화합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

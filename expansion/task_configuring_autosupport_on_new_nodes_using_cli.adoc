@@ -5,6 +5,7 @@ keywords: add, node, cluster, configure, autosupport, node, configuring, configu
 summary: 클러스터에 노드를 추가한 후에는 노드에서 AutoSupport를 구성해야 합니다. 
 ---
 = 새 노드에서 AutoSupport를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

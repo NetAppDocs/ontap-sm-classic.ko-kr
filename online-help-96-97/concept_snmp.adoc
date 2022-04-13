@@ -5,6 +5,7 @@ keywords: system, manager, configure, snmp, svm, cluster, online, help, test, tr
 summary: System Manager를 사용하여 SNMP를 구성하여 클러스터의 SVM을 모니터링할 수 있습니다. 
 ---
 = System Manager - ONTAP 9.7 이하를 사용하여 SNMP를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

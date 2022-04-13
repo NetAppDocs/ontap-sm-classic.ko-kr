@@ -5,6 +5,7 @@ keywords: flexcache, volume, online, help, advanced, options, specify
 summary: System Manager 9.6부터 FlexCache 볼륨을 편집할 때 FlexCache 볼륨과 연결할 고급 옵션을 지정할 수 있습니다. 
 ---
 = FlexCache 볼륨에 대한 고급 옵션 지정
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

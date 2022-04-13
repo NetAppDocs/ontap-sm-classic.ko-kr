@@ -5,6 +5,7 @@ keywords: nfs, client, access, volume, create, export, policy, create an export 
 summary: NFS 클라이언트가 볼륨에 액세스하려면 먼저 볼륨에 대한 엑스포트 정책을 생성하고 관리 호스트의 액세스를 허용하는 규칙을 추가한 다음 새 엑스포트 정책을 볼륨에 적용해야 합니다. 
 ---
 = 볼륨에 대한 엑스포트 정책을 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

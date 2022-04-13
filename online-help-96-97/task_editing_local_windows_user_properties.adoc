@@ -5,6 +5,7 @@ keywords: edit, local, window, user, properties, system, manager, online, help
 summary: 기존 사용자의 전체 이름 또는 설명을 변경하거나 사용자 계정을 활성화 또는 비활성화하려는 경우 System Manager를 사용하여 로컬 Windows 사용자 계정을 수정할 수 있습니다. 사용자 계정에 할당된 그룹 구성원을 수정할 수도 있습니다. 
 ---
 = 로컬 Windows 사용자 속성 편집
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

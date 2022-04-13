@@ -5,6 +5,7 @@ keywords: provision, volume, lun, add, storage, virtual, machine, svm, volume, e
 summary: LUN을 포함할 볼륨을 프로비저닝하기 전에 기존 스토리지 가상 시스템에 볼륨을 추가할지 또는 볼륨에 대한 새 SVM을 생성할지 결정해야 합니다. 기존 SVM에서 iSCSI를 구성해야 할 수도 있습니다. 
 ---
 = 볼륨 용량을 할당할 위치를 결정합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

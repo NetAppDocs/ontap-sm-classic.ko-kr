@@ -5,6 +5,7 @@ keywords: configure, configuring, snmp, enabling, enable, optional, snmpv1, snmp
 summary: SNMP를 구성하려면 SNMP를 활성화하고, 선택적으로 SNMPv1 또는 SNMPv2c 커뮤니티를 구성하고, 선택적으로 SNMPv3 사용자를 추가하고, SNMP 트라프호스트를 추가하고, SNMP 폴링 및 트랩을 테스트해야 합니다. 
 ---
 = SNMP 구성 워크플로우
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

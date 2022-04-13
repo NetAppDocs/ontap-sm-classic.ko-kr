@@ -5,6 +5,7 @@ keywords: fc, host, bus, adapter, hba, windows, run, support, driver, firmware, 
 summary: 'Windows 호스트의 FC HBA(호스트 버스 어댑터)가 지원되는 드라이버, 펌웨어 및 BIOS 버전을 실행하고 있지 않으면 업데이트해야 합니다.' 
 ---
 = HBA 드라이버, 펌웨어 및 BIOS를 업데이트합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

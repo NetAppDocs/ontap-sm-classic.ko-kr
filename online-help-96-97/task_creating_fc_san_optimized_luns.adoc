@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: create, fc, san, optimized, lun, system, manager, online, help 
 summary: AFF 플랫폼에서 클러스터를 초기 설정할 때 System Manager를 사용하여 하나 이상의 FC SAN에 최적화된 LUN을 생성할 수 있습니다. 
 ---
-= FC SAN에 최적화된 LUN을 생성합니다
+= System Manager-ONTAP 9.7 이하를 사용하여 FC SAN에 최적화된 LUN을 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-AFF 플랫폼에서 클러스터를 초기 설정할 때 System Manager를 사용하여 하나 이상의 FC SAN에 최적화된 LUN을 생성할 수 있습니다.
+ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 AFF 플랫폼에서 클러스터를 초기 설정할 때 FC SAN에 최적화된 LUN을 하나 이상 생성할 수 있습니다.
 
 .시작하기 전에
 * 이름이 AFF_SAN_DEFAULT_SVM인 SVM(스토리지 가상 시스템)을 하나만 생성하고 이 SVM에 LUN이 없는지 확인해야 합니다.

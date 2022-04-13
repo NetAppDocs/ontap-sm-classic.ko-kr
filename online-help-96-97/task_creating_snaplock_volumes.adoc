@@ -5,6 +5,7 @@ keywords: create, snaplock, volume, online, help, system, manager
 summary: System Manager를 사용하여 SnapLock 규정 준수 볼륨 또는 SnapLock 엔터프라이즈 볼륨을 생성할 수 있습니다. 볼륨을 생성할 때 보존 시간을 설정하고 볼륨의 데이터에 대해 WORM 상태 설정을 자동으로 수행할지 여부를 선택할 수도 있습니다. 
 ---
 = System Manager-ONTAP 9.7 이하를 사용하여 SnapLock 볼륨을 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

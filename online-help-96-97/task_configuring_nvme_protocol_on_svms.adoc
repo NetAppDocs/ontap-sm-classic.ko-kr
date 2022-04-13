@@ -5,6 +5,7 @@ keywords: configure, nvme, protocol, svm, system, manager, namespaces, online, h
 summary: 'System Manager를 사용하여 SVM(스토리지 가상 머신)에서 NVMe 프로토콜을 구성할 수 있습니다. 그런 다음 네임스페이스를 만들고 NVMe 하위 시스템 및 호스트에 할당할 수 있습니다.' 
 ---
 = System Manager-ONTAP 9.7 이하를 사용하여 SVM에서 NVMe 프로토콜을 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

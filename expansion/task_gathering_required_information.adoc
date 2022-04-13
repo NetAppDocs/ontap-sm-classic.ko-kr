@@ -5,6 +5,7 @@ keywords: expand, cluster, network, information, require, configure, node-manage
 summary: 클러스터를 확장하려면 나중에 노드 관리 LIF 및 두 노드의 서비스 프로세서 IP 주소를 구성하는 데 필요한 네트워킹 정보를 확보해야 합니다. 
 ---
 = 필요한 네트워크 정보를 수집합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

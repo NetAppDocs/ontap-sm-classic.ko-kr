@@ -5,6 +5,7 @@ keywords: edit, dns, configurations, online, help, system, manager
 summary: System Manager를 사용하여 호스트 정보를 추가하여 DNS 구성을 중앙에서 관리할 수 있습니다. 도메인 이름 또는 IP 주소를 변경하려는 경우 DNS 세부 정보를 수정할 수 있습니다. 
 ---
 = DNS 구성 편집
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: edit, lun, properties, online, help, system, manager
 summary: System Manager의 LUN 속성 대화 상자를 사용하여 LUN의 이름, 설명, 크기, 공간 예약 설정 또는 매핑된 이니시에이터 호스트를 변경할 수 있습니다. 
 ---
 = LUN 편집
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

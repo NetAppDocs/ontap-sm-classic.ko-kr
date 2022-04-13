@@ -5,6 +5,7 @@ keywords: worldwide, port, name, wwpn, require, zone, fc, switch, create, igroup
 summary: 'FC 스위치를 조닝하고 호스트에서 LUN에 액세스할 수 있는 igroup을 생성하려면 WWPN(Worldwide Port Name)이 필요합니다.' 
 ---
 = 각 호스트 FC 포트의 WWPN을 기록합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

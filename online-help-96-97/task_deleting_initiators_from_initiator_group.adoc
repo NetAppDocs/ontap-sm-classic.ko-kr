@@ -1,29 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_initiators_from_initiator_group.html 
-sidebar: sidebar 
-keywords: delete, initiator, group, system, manager, online, help 
-summary: System Manager의 이니시에이터 그룹 탭을 사용하여 이니시에이터를 삭제할 수 있습니다. 이니시에이터 그룹에서 이니시에이터를 삭제하려면 이니시에이터 그룹에서 이니시에이터를 분리해야 합니다. 
+redirect: ontap-sm-classic/online-help-96-97/task_creating_initiator_groups.html 
 ---
-= 이니시에이터 그룹에서 이니시에이터를 삭제합니다
-:icons: font
-:imagesdir: ../media/
+= 
+:allow-uri-read: 
 
 
-[role="lead"]
-System Manager의 이니시에이터 그룹 탭을 사용하여 이니시에이터를 삭제할 수 있습니다. 이니시에이터 그룹에서 이니시에이터를 삭제하려면 이니시에이터 그룹에서 이니시에이터를 분리해야 합니다.
-
-삭제하려는 이니시에이터가 포함된 이니시에이터 그룹에 매핑된 모든 LUN은 수동으로 매핑 해제해야 합니다.
-
-.단계
-. 스토리지 * > * LUN * 을 클릭합니다.
-. 이니시에이터 그룹 * 탭에서 이니시에이터를 삭제할 이니시에이터 그룹을 선택한 다음 * 편집 * 을 클릭합니다.
-. 이니시에이터 그룹 편집 * 대화 상자에서 * 이니시에이터 * 탭을 클릭합니다.
-. 텍스트 상자에서 이니시에이터를 선택하여 삭제하고 * Save * 를 클릭합니다.
-+
-이니시에이터가 이니시에이터 그룹에서 분리되어 있습니다.
-
-
-
-* 관련 정보 *
-
-xref:reference_luns_window.adoc[LUN 창]

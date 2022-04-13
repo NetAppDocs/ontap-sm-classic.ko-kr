@@ -5,6 +5,7 @@ keywords: provision, datastore, esxi, host, datacenter, cluster, add, enable, st
 summary: 데이터 센터의 ESXi 호스트에 첫 번째 데이터 저장소를 프로비저닝하려면 먼저 클러스터를 추가해야 합니다. 클러스터를 추가하면 클러스터에 있는 모든 스토리지 용량을 할당할 수 있습니다. 
 ---
 = 스토리지 클러스터를 VSC에 추가합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

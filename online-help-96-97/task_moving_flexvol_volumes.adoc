@@ -4,14 +4,15 @@ sidebar: sidebar
 keywords: move, flexvol, volume, aggregate, system, manager, online, help 
 summary: System Manager를 사용하면 용량 활용률과 성능 향상을 위해 FlexVol 볼륨을 다른 애그리게이트 또는 노드로 중단 없이 이동할 수 있습니다. 
 ---
-= FlexVol 볼륨 이동
+= System Manager-ONTAP 9.7 이하를 사용하여 FlexVol 볼륨을 이동합니다
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하면 용량 활용률과 성능 향상을 위해 FlexVol 볼륨을 다른 애그리게이트 또는 노드로 중단 없이 이동할 수 있습니다.
+ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 FlexVol 볼륨을 다른 Aggregate 또는 다른 노드로 중단 없이 이동하여 용량 활용률을 높이고 성능을 향상할 수 있습니다.
 
 데이터 보호 볼륨을 이동하는 경우 볼륨을 이동하기 전에 데이터 보호 미러링 관계를 초기화해야 합니다.
 

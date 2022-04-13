@@ -5,6 +5,7 @@ keywords: cifs, system, manager, online, help, storage, add , delete, home, dire
 summary: System Manager를 사용하여 스토리지 시스템에서 사용자의 CIFS 홈 디렉토리 위치를 확인하는 데 사용할 수 있는 경로를 하나 이상 지정할 수 있습니다. 
 ---
 = 홈 디렉토리 경로를 추가합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

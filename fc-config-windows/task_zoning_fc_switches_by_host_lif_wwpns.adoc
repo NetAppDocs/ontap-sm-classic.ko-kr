@@ -5,6 +5,7 @@ keywords: zone, zoning, fc, switch, enable, host, connect, storage, limit, path,
 summary: 'FC 스위치 조닝을 사용하면 호스트가 스토리지에 접속할 수 있으며 경로 수가 제한됩니다. 스위치의 관리 인터페이스를 사용하여 스위치를 조닝(Zoning)합니다.' 
 ---
 = FC 스위치를 호스트 및 LIF WWPN으로 조닝(Zoning)합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: online, help, create, flexcache, volume, system, manager
 summary: System Manager 9.6부터 FlexCache 볼륨을 만들 수 있습니다. 
 ---
 = FlexCache 볼륨을 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

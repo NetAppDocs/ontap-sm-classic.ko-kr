@@ -5,6 +5,7 @@ keywords: set, up, cluster, ontap, system, manager, online, help, management, ne
 summary: ONTAP 9.1부터 ONTAP System Manager를 사용하면 클러스터를 생성하고, 노드 관리 네트워크 및 클러스터 관리 네트워크를 설정한 다음 이벤트 알림을 설정하여 클러스터를 설정할 수 있습니다. 
 ---
 = ONTAP System Manager - ONTAP 9.7 이하를 사용하여 클러스터를 설정합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: delete, vault, relationship, system, manager, online, help, snapshot, 
 summary: System Manager를 사용하여 소스 볼륨과 타겟 볼륨 간의 볼트 관계를 엔드하고 소스에서 스냅샷 복사본을 릴리즈할 수 있습니다. 
 ---
 = 볼트 관계를 삭제하는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

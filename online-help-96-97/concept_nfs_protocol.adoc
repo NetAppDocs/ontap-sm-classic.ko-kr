@@ -5,6 +5,7 @@ keywords: nfs, protocol, system, manager, authenticate, client, asses, data, svm
 summary: System Manager를 사용하여 NFS 클라이언트를 인증하여 SVM의 데이터에 액세스할 수 있습니다. 
 ---
 = NFS 프로토콜
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

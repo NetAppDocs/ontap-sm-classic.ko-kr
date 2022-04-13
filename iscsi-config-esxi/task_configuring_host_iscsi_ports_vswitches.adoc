@@ -5,6 +5,7 @@ keywords: esxi, host, network, port, iscsi, connection, storage, cluster, config
 summary: ESXi 호스트에는 스토리지 클러스터에 대한 iSCSI 접속을 위한 네트워크 포트가 필요합니다. 
 ---
 = 호스트 iSCSI 포트 및 vSwitch를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

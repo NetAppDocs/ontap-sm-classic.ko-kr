@@ -5,6 +5,7 @@ keywords: source, volume, unavailable, verify, offline, identify, destination, v
 summary: 소스 볼륨을 사용할 수 없는 경우 소스 볼륨이 오프라인 상태인지 확인한 다음 데이터 액세스를 제공하기 위해 활성화해야 하는 대상 볼륨을 식별해야 합니다. 
 ---
 = 소스 볼륨의 상태를 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

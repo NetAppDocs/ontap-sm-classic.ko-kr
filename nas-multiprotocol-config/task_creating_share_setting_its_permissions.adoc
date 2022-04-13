@@ -5,6 +5,7 @@ keywords: windows, user, access, volume, create, cifs, restrict, access, modify,
 summary: 'Windows 사용자가 볼륨에 액세스하려면 먼저 볼륨에 CIFS 공유를 생성하고 공유에 대한 ACL(액세스 제어 목록)을 수정하여 공유에 대한 액세스를 제한해야 합니다.' 
 ---
 = 공유를 생성하고 해당 권한을 설정합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

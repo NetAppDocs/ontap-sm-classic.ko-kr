@@ -5,6 +5,7 @@ keywords: record, iscsi, initiator, node, linux, host, configure, storage, syste
 summary: 스토리지 시스템을 구성할 때 iSCSI 이니시에이터 노드 이름을 Linux 호스트에 기록하도록 해야 합니다. 
 ---
 = iSCSI 노드 이름을 기록합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

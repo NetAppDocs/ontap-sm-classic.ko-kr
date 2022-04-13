@@ -5,6 +5,7 @@ keywords: sap, hana, provisioning, basic, template, online, help, system, manage
 summary: System Manager를 사용하면 SAP HANA용 기본 템플릿을 빠르게 프로비저닝할 수 있습니다. 
 ---
 = System Manager-ONTAP 9.7 이하를 사용하여 기본 템플릿을 프로비저닝합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

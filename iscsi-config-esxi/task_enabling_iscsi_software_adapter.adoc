@@ -5,6 +5,7 @@ keywords: iscsi, software, adapter, create, connection, esx, host, operating, sy
 summary: iSCSI 소프트웨어 어댑터는 ESX 호스트에 iSCSI 접속을 생성합니다. 운영 체제에 내장되어 있지만 사용하려면 먼저 활성화해야 합니다. 
 ---
 = iSCSI 소프트웨어 어댑터를 활성화합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

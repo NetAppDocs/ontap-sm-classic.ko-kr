@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, manage, fc, fcoe, nvme, adapter, online, help, edit, adapter, speed, settings 
 summary: System Manager를 사용하여 FC/FCoE 및 NVMe 어댑터를 관리할 수 있습니다. 
 ---
-= FC/FCoE 및 NVMe 어댑터
+= System Manager-ONTAP 9.7 이하를 사용하여 FC/FCoE 및 NVMe 어댑터를 관리하십시오
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하여 FC/FCoE 및 NVMe 어댑터를 관리할 수 있습니다.
+ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하여 FC/FCoE 및 NVMe 어댑터를 관리할 수 있습니다.
 
 
 

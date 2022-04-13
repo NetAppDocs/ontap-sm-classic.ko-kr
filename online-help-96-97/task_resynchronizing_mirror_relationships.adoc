@@ -5,6 +5,7 @@ keywords: resync, mirror, relationship, operation, online, help
 summary: 이전에 파손된 미러 관계를 다시 설정할 수 있습니다. 재동기화 작업을 수행하여 소스 볼륨을 비활성화한 재재해에서 복구할 수 있습니다. 
 ---
 = 미러 관계를 재동기화합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

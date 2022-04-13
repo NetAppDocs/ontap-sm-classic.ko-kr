@@ -5,6 +5,7 @@ keywords: configure, configuring, smb, cifs, creating, create, aggregate, workfl
 summary: SMB/CIFS를 구성하려면 필요에 따라 애그리게이트를 생성한 다음, 특정 목적에 맞는 워크플로우를 선택해야 합니다. 즉, 새 CIFS 지원 SVM을 생성하고, 기존 SVM에 대한 CIFS 액세스를 구성하거나, CIFS 액세스를 위해 이미 완전히 구성된 기존 SVM에 CIFS 볼륨을 추가하면 됩니다. 
 ---
 = SMB/CIFS 구성 워크플로우
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

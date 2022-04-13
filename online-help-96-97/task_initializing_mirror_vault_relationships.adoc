@@ -5,6 +5,7 @@ keywords: initialize, mirror, vault, relationship, online, help, system, manager
 summary: 관계를 생성하는 동안 관계를 초기화하지 않은 경우 System Manager를 사용하여 미러 및 볼트 관계를 초기화할 수 있습니다. 관계를 초기화할 때 데이터의 전체 베이스라인 전송이 소스 볼륨에서 대상으로 수행됩니다. 
 ---
 = 대칭 복사 및 볼트 관계를 초기화하는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: provision, datastore, esxi, verify, nfs, access, creating, create, vir
 summary: 데이터 저장소를 프로비저닝한 후에는 데이터 저장소에 가상 머신을 생성하고 전원을 켜서 ESXi 호스트에 NFS 액세스가 있는지 확인할 수 있습니다. 
 ---
 = ESXi 호스트에서 NFS 액세스를 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

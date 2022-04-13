@@ -5,6 +5,7 @@ keywords: edit, autosupport, settings, system, manager, online, help, email, add
 summary: 시스템 관리자를 사용하여 AutoSupport 설정을 수정하여 이메일 알림을 보낼 이메일 주소를 지정하고 여러 이메일 호스트 이름을 추가할 수 있습니다. 
 ---
 = AutoSupport 설정 편집
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

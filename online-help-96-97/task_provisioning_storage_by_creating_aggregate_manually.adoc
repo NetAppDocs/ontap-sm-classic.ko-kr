@@ -1,56 +1,8 @@
 ---
 permalink: online-help-96-97/task_provisioning_storage_by_creating_aggregate_manually.html 
-sidebar: sidebar 
-keywords: provision, storage, create, aggregate, manually, online, help, hdd, ssd, system, manager 
-summary: System Manager를 사용하여 HDD만 또는 SSD만 포함된 애그리게이트를 수동으로 생성할 수 있습니다. 
+redirect: ontap-sm-classic/online-help-96-97/task_provisioning_storage_through_aggregates.html 
 ---
-= System Manager-ONTAP 9.7 이하를 사용하여 스토리지를 프로비저닝할 Aggregate를 수동으로 생성합니다
-:icons: font
-:imagesdir: ../media/
+= 
+:allow-uri-read: 
 
 
-[role="lead"]
-ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)을 사용하면 HDD만 또는 SSD만 포함된 애그리게이트를 수동으로 생성할 수 있습니다.
-
-모든 디스크의 크기가 같아야 합니다.
-
-.이 작업에 대해
-* ONTAP Select에서 4노드 클러스터에 애그리게이트를 생성하는 경우, 미러링된 애그리게이트 옵션이 기본적으로 선택됩니다.
-* ONTAP 9.0부터는 디스크 크기가 10TB보다 크거나 같은 애그리게이트를 생성할 수 있습니다.
-* Aggregate 디스크의 디스크 유형이 FSA 또는 mSATA 이고 디스크 크기가 10TB보다 크거나 같은 경우 RAID-TEC만 사용할 수 있는 RAID 유형입니다.
-
-
-.단계
-. 다음 방법 중 하나를 사용하여 Aggregate를 생성합니다.
-+
-** Applications & Tiers * > * Storage Tiers * > * Add Aggregate * 를 클릭합니다.
-** 스토리지 * > * 집계 및 디스크 * > * 집계 * > * 생성 * 을 클릭합니다.
-
-
-. Aggregate를 생성하려면 * Manually Create Aggregate * 옵션을 활성화합니다.
-. Aggregate를 생성하려면:
-+
-.. Aggregate 이름, 디스크 유형 및 Aggregate에 포함할 디스크 또는 파티션의 수를 지정합니다.
-+
-최소 핫 스페어 규칙은 디스크 크기가 가장 큰 디스크 그룹에 적용됩니다.
-
-.. Aggregate의 RAID 구성을 수정합니다.
-+
-... 변경 * 을 클릭합니다.
-... RAID 구성 변경 대화 상자에서 RAID 유형과 RAID 그룹 크기를 지정합니다.
-+
-공유 디스크는 RAID DP 및 RAID-TEC의 두 가지 RAID 유형을 지원합니다.
-
-... 저장 * 을 클릭합니다.
-
-
-.. Aggregate를 미러링하려면 * Mirror this aggregate * 확인란을 선택합니다.
-+
-MetroCluster 구성의 경우 미러링되지 않은 애그리게이트 생성이 제한됩니다. 따라서 MetroCluster 구성에서는 미러링 옵션이 기본적으로 활성화됩니다.
-
-
-
-. Create * 를 클릭합니다.
-
-
-애그리게이트는 지정된 구성으로 생성되며 애그리게이트 창의 애그리게이트 목록에 추가됩니다.

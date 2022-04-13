@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: view, aggregate, information, online, help, system, manager 
 summary: System Manager의 Aggregate 창을 사용하면 Aggregate의 이름, 상태 및 공간 정보를 볼 수 있습니다. 
 ---
-= 집계 정보 보기
+= System Manager - ONTAP 9.7 이하를 사용하여 애그리게이트 정보를 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager의 Aggregate 창을 사용하면 Aggregate의 이름, 상태 및 공간 정보를 볼 수 있습니다.
+ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)의 애그리게이트 창을 사용하여 애그리게이트에 대한 이름, 상태 및 공간 정보를 볼 수 있습니다.
 
 .단계
 . 다음 방법 중 하나를 선택합니다.

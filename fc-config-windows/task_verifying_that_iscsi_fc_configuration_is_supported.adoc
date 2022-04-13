@@ -5,6 +5,7 @@ keywords: reliable, operation, verify, entire, fc, configuration, support, verif
 summary: 안정적인 운영을 위해서는 전체 FC 구성이 지원되는지 확인해야 합니다. 
 ---
 = FC 구성이 지원되는지 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

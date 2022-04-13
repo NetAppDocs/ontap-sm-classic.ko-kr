@@ -5,6 +5,7 @@ keywords: cluster, install, controller, configure, node-management, run, ontap, 
 summary: 클러스터가 준비되면 컨트롤러를 설치하고 노드 관리 LIF를 구성해야 합니다. 
 ---
 = 새 노드를 설치합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: storage, service, definition, online, help, performance, factor
 summary: ONTAP에는 해당 최소 성능 요소에 매핑된 사전 정의된 스토리지 서비스가 포함되어 있습니다. 
 ---
 = System Manager-ONTAP 9.7 및 그 이전 버전에 대한 스토리지 서비스 정의
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

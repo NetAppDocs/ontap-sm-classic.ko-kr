@@ -5,6 +5,7 @@ keywords: system, manager, create, nvme, namespace, svm, logical, blocks, online
 summary: 'System Manager를 사용하여 하나 이상의 NVMe 네임스페이스를 생성하고 SVM(스토리지 가상 머신)의 호스트 또는 호스트 세트에 각각 연결할 수 있습니다. NVMe 네임스페이스는 논리 블록으로 포맷할 수 있는 메모리 양입니다. 각 네임스페이스를 NVMe 하위 시스템에 매핑할 수 있습니다.' 
 ---
 = NVMe 네임스페이스를 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

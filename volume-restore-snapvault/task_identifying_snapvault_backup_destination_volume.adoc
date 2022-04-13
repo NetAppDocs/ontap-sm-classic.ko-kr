@@ -5,6 +5,7 @@ keywords: identify, snapvault, backup, destination, volume, restore, data, sourc
 summary: 소스 볼륨의 데이터가 손상되었거나 손실될 때 데이터를 복원할 SnapVault 백업 대상 볼륨을 식별해야 합니다. 
 ---
 = SnapVault 백업 대상 볼륨을 식별합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

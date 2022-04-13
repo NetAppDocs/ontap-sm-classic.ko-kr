@@ -5,6 +5,7 @@ keywords: install, controller, exist, cluster, installation, setup, instruction,
 summary: 기존 클러스터에 추가될 컨트롤러를 설치할 때는 해당 설치 및 설정 지침의 처음 3단계를 따라야 합니다. 
 ---
 = 컨트롤러를 설치합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
