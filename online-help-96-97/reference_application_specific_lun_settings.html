@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head class="at-element-marker">
-  <title>애플리케이션별 LUN 설정</title>
+  <title>System Manager - ONTAP 9.7 이하를 사용한 애플리케이션별 LUN 설정</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="애플리케이션별 LUN 설정" />
+  <meta property="og:title" content="System Manager - ONTAP 9.7 이하를 사용한 애플리케이션별 LUN 설정" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/reference_application_specific_lun_settings.html" />
 	<meta property="og:description" content="System Manager는 Oracle, SQL 및 기타 애플리케이션 유형을 지원하는 동시에 AFF 클러스터에서 FC SAN에 최적화된 LUN을 생성합니다. LUN 크기와 같은 LUN 설정은 애플리케이션 유형에 따른 규칙에 따라 결정됩니다. SQL 및 Oracle의 경우 LUN ..." />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[애플리케이션별 LUN 설정](https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/reference_application_specific_lun_settings.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/reference_application_specific_lun_settings.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/ontap-sm-classic/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[System Manager - ONTAP 9.7 이하를 사용한 애플리케이션별 LUN 설정](https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/reference_application_specific_lun_settings.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/reference_application_specific_lun_settings.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/ontap-sm-classic/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">이 페이지의 내용</div>
@@ -5342,14 +5342,14 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">애플리케이션별 LUN 설정</h1>
+  <h1 class="n-doc__component-detail-heading">System Manager - ONTAP 9.7 이하를 사용한 애플리케이션별 LUN 설정</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-01-31 19:14:06 +0000">01/31/2022</time>
+    <time datetime="2022-04-13 23:23:18 +0000">04/13/2022</time>
     
   
 
@@ -5359,7 +5359,7 @@
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph lead">
-<p>System Manager는 Oracle, SQL 및 기타 애플리케이션 유형을 지원하는 동시에 AFF 클러스터에서 FC SAN에 최적화된 LUN을 생성합니다. LUN 크기와 같은 LUN 설정은 애플리케이션 유형에 따른 규칙에 따라 결정됩니다. SQL 및 Oracle의 경우 LUN 설정이 자동으로 생성됩니다.</p>
+<p>ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)은 AFF 클러스터에서 FC SAN에 최적화된 LUN을 생성하는 동시에 Oracle, SQL 및 기타 애플리케이션 유형을 지원합니다. LUN 크기와 같은 LUN 설정은 애플리케이션 유형에 따른 규칙에 따라 결정됩니다. SQL 및 Oracle의 경우 LUN 설정이 자동으로 생성됩니다.</p>
 </div>
 <div class="paragraph">
 <p>클러스터에 2개 이상의 노드가 포함된 경우 System Manager는 API에서 선택한 첫 2개의 노드만 사용하여 LUN을 생성합니다. 데이터 애그리게이트는 2개 노드 각각에서 이미 생성되었습니다. 생성된 각 볼륨의 크기는 애그리게이트의 가용 용량과 같습니다. 볼륨이 씬 프로비저닝되고 LUN에서 공간 예약이 사용되지 않습니다.</p>

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head class="at-element-marker">
-  <title>소스 SVM에서 볼트 관계를 생성합니다</title>
+  <title>시스템 관리자-ONTAP 9.7 이하를 사용하여 소스 SVM에서 볼트 관계를 생성합니다</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="소스 SVM에서 볼트 관계를 생성합니다" />
+  <meta property="og:title" content="시스템 관리자-ONTAP 9.7 이하를 사용하여 소스 SVM에서 볼트 관계를 생성합니다" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_creating_vault_relationship_from_source_svm.html" />
 	<meta property="og:description" content="System Manager를 사용하여 소스 SVM(스토리지 가상 머신)에서 볼트 관계를 생성하고 볼트 관계에 볼트 정책을 할당하여 백업 볼트를 생성할 수 있습니다. 시스템에서 데이터가 손실되거나 손상된 경우 백업 데이터를 백업 볼트 대상에서 복원할 수 있습니다." />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[소스 SVM에서 볼트 관계를 생성합니다](https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_creating_vault_relationship_from_source_svm.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_creating_vault_relationship_from_source_svm.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/ontap-sm-classic/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[시스템 관리자-ONTAP 9.7 이하를 사용하여 소스 SVM에서 볼트 관계를 생성합니다](https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_creating_vault_relationship_from_source_svm.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_creating_vault_relationship_from_source_svm.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/ontap-sm-classic/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">이 페이지의 내용</div>
@@ -5342,14 +5342,14 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">소스 SVM에서 볼트 관계를 생성합니다</h1>
+  <h1 class="n-doc__component-detail-heading">시스템 관리자-ONTAP 9.7 이하를 사용하여 소스 SVM에서 볼트 관계를 생성합니다</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-01-31 19:14:06 +0000">01/31/2022</time>
+    <time datetime="2022-04-13 23:23:18 +0000">04/13/2022</time>
     
   
 
@@ -5357,7 +5357,7 @@
 </p>
 
 <div class="paragraph lead">
-<p>System Manager를 사용하여 소스 SVM(스토리지 가상 머신)에서 볼트 관계를 생성하고 볼트 관계에 볼트 정책을 할당하여 백업 볼트를 생성할 수 있습니다. 시스템에서 데이터가 손실되거나 손상된 경우 백업 데이터를 백업 볼트 대상에서 복원할 수 있습니다.</p>
+<p>ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 소스 SVM(스토리지 가상 머신)에서 볼트 관계를 생성하고 볼트 관계에 볼트 정책을 할당하여 백업 볼트를 생성할 수 있습니다. 시스템에서 데이터가 손실되거나 손상된 경우 백업 데이터를 백업 볼트 대상에서 복원할 수 있습니다.</p>
 </div>
 <div class="ulist">
 <div class="title">시작하기 전에</div>
@@ -5371,17 +5371,15 @@
 <img src="/us-en/ontap-sm-classic/images/note.svg" alt="참고">
 </td>
 <td class="content">
-<div class="paragraph">
-<p>를 누릅니다</p>
-</div>
-<div class="literalblock">
-<div class="content">
-<pre>-   For some platforms, it is not mandatory for the source cluster to have the SnapVault license or the SnapMirror license enabled if the destination cluster has the SnapVault license or the SnapMirror license, and the Data Protection Optimization \(DPO\) license enabled.
--   After the DPO license is enabled on the destination cluster, you must refresh the browser of the source cluster to enable the `Protect` option.</pre>
-</div>
-</div>
-<div class="paragraph">
-<p>를 누릅니다</p>
+<div class="ulist">
+<ul>
+<li>
+<p>일부 플랫폼의 경우 대상 클러스터에 SnapVault 라이센스 또는 SnapMirror 라이센스가 있고 DPO(데이터 보호 최적화) 라이센스가 활성화된 경우 소스 클러스터에 SnapVault 라이센스 또는 SnapMirror 라이센스가 반드시 활성화되지는 않습니다.</p>
+</li>
+<li>
+<p>대상 클러스터에서 DPO 라이센스가 활성화된 후에는 소스 클러스터의 브라우저를 새로 고쳐야 '보호' 옵션을 사용할 수 있습니다.</p>
+</li>
+</ul>
 </div>
 </td>
 </tr>

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head class="at-element-marker">
-  <title>System Manager를 핫 스페어와 함께 사용하는 방법</title>
+  <title>ONTAP 9.7 이전의 핫 스페어와 System Manager의 작동 방식</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="System Manager를 핫 스페어와 함께 사용하는 방법" />
+  <meta property="og:title" content="ONTAP 9.7 이전의 핫 스페어와 System Manager의 작동 방식" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/concept_how_system_manager_calculates_hot_spares.html" />
 	<meta property="og:description" content="핫 스페어는 스토리지 시스템에 할당되지만 RAID 그룹에서 사용되지 않는 디스크입니다. 핫 스페어는 데이터를 포함하지 않으며 RAID 그룹에서 디스크 장애가 발생할 경우 RAID 그룹에 할당됩니다. System Manager는 가장 큰 디스크를 핫 스페어로 사용합니다." />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[System Manager를 핫 스페어와 함께 사용하는 방법](https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/concept_how_system_manager_calculates_hot_spares.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_how_system_manager_calculates_hot_spares.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/ontap-sm-classic/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[ONTAP 9.7 이전의 핫 스페어와 System Manager의 작동 방식](https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/concept_how_system_manager_calculates_hot_spares.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_how_system_manager_calculates_hot_spares.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/ontap-sm-classic/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">이 페이지의 내용</div>
@@ -5342,14 +5342,14 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">System Manager를 핫 스페어와 함께 사용하는 방법</h1>
+  <h1 class="n-doc__component-detail-heading">ONTAP 9.7 이전의 핫 스페어와 System Manager의 작동 방식</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-01-31 19:14:06 +0000">01/31/2022</time>
+    <time datetime="2022-04-13 23:23:18 +0000">04/13/2022</time>
     
   
 
@@ -5357,7 +5357,7 @@
 </p>
 
 <div class="paragraph lead">
-<p>핫 스페어는 스토리지 시스템에 할당되지만 RAID 그룹에서 사용되지 않는 디스크입니다. 핫 스페어는 데이터를 포함하지 않으며 RAID 그룹에서 디스크 장애가 발생할 경우 RAID 그룹에 할당됩니다. System Manager는 가장 큰 디스크를 핫 스페어로 사용합니다.</p>
+<p>핫 스페어는 스토리지 시스템에 할당되지만 RAID 그룹에서 사용되지 않는 디스크입니다. 핫 스페어는 데이터를 포함하지 않으며 RAID 그룹에서 디스크 장애가 발생할 경우 RAID 그룹에 할당됩니다. ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에서는 가장 큰 디스크를 핫 스페어로 사용합니다.</p>
 </div>
 <div class="paragraph">
 <p>RAID 그룹에 서로 다른 디스크 유형이 있는 경우 각 디스크 유형의 가장 큰 디스크가 핫 스페어로 남게 됩니다. 예를 들어 RAID 그룹에 SATA 디스크 10개와 SAS 디스크 10개가 있는 경우 가장 큰 SATA 디스크와 가장 큰 크기의 SAS 디스크가 핫 스페어로 사용됩니다.</p>

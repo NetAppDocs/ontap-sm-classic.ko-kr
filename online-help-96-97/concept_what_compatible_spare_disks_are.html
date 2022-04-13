@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head class="at-element-marker">
-  <title>호환되는 스페어 디스크입니다</title>
+  <title>System Manager - ONTAP 9.7 및 이전 버전의 호환 스페어 디스크</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="호환되는 스페어 디스크입니다" />
+  <meta property="og:title" content="System Manager - ONTAP 9.7 및 이전 버전의 호환 스페어 디스크" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/concept_what_compatible_spare_disks_are.html" />
 	<meta property="og:description" content="System Manager에서 호환되는 스페어 디스크는 Aggregate의 다른 디스크 속성과 일치하는 디스크입니다. HDD(용량 디스크)를 추가하거나 애그리게이트의 RAID 유형을 RAID4에서 RAID-DP로 변경하여 기존 애그리게이트의 크기를 증가하려는 경우 애그리게이트에 충..." />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[호환되는 스페어 디스크입니다](https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/concept_what_compatible_spare_disks_are.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_what_compatible_spare_disks_are.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/ontap-sm-classic/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[System Manager - ONTAP 9.7 및 이전 버전의 호환 스페어 디스크](https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/concept_what_compatible_spare_disks_are.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_what_compatible_spare_disks_are.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/ontap-sm-classic/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">이 페이지의 내용</div>
@@ -5342,14 +5342,14 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">호환되는 스페어 디스크입니다</h1>
+  <h1 class="n-doc__component-detail-heading">System Manager - ONTAP 9.7 및 이전 버전의 호환 스페어 디스크</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-01-31 19:14:06 +0000">01/31/2022</time>
+    <time datetime="2022-04-13 23:23:18 +0000">04/13/2022</time>
     
   
 
@@ -5357,7 +5357,7 @@
 </p>
 
 <div class="paragraph lead">
-<p>System Manager에서 호환되는 스페어 디스크는 Aggregate의 다른 디스크 속성과 일치하는 디스크입니다. HDD(용량 디스크)를 추가하거나 애그리게이트의 RAID 유형을 RAID4에서 RAID-DP로 변경하여 기존 애그리게이트의 크기를 증가하려는 경우 애그리게이트에 충분한 호환 스페어 디스크가 있어야 합니다.</p>
+<p>ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에서는 호환되는 스페어 디스크가 aggregate의 다른 디스크 속성과 일치하는 디스크입니다. HDD(용량 디스크)를 추가하거나 애그리게이트의 RAID 유형을 RAID4에서 RAID-DP로 변경하여 기존 애그리게이트의 크기를 증가하려는 경우 애그리게이트에 충분한 호환 스페어 디스크가 있어야 합니다.</p>
 </div>
 <div class="paragraph">
 <p>일치해야 하는 디스크 속성은 디스크 유형, 디스크 크기(동일한 디스크 크기를 사용할 수 없는 경우 더 큰 크기의 디스크), 디스크 RPM, 체크섬, 노드 소유자, 풀, 및 공유 디스크 속성을 참조하십시오. 더 큰 크기의 디스크를 사용하는 경우 디스크 축소가 발생하고 모든 디스크의 크기가 가장 낮은 디스크 크기로 축소된다는 점에 유의해야 합니다. 기존 공유 디스크는 더 큰 크기의 비공유 디스크와 일치하며, 비공유 디스크는 공유 디스크로 변환되어 스페어로 추가됩니다.</p>

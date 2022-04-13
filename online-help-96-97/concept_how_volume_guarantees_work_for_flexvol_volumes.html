@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head class="at-element-marker">
-  <title>FlexVol 볼륨에서 볼륨을 보장하는 방법</title>
+  <title>System Manager-ONTAP 9.7 이하가 설치된 FlexVol 볼륨의 볼륨 보장에 대해 설명합니다</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="FlexVol 볼륨에서 볼륨을 보장하는 방법" />
+  <meta property="og:title" content="System Manager-ONTAP 9.7 이하가 설치된 FlexVol 볼륨의 볼륨 보장에 대해 설명합니다" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/concept_how_volume_guarantees_work_for_flexvol_volumes.html" />
 	<meta property="og:description" content="볼륨 보장(공간 보장이라고도 함)은 볼륨의 공간이 해당 애그리게이트에 할당될 때 공간을 미리 할당할지 여부를 결정합니다." />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[FlexVol 볼륨에서 볼륨을 보장하는 방법](https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/concept_how_volume_guarantees_work_for_flexvol_volumes.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_how_volume_guarantees_work_for_flexvol_volumes.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/ontap-sm-classic/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[System Manager-ONTAP 9.7 이하가 설치된 FlexVol 볼륨의 볼륨 보장에 대해 설명합니다](https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/concept_how_volume_guarantees_work_for_flexvol_volumes.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_how_volume_guarantees_work_for_flexvol_volumes.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/ontap-sm-classic/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">이 페이지의 내용</div>
@@ -5342,14 +5342,14 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">FlexVol 볼륨에서 볼륨을 보장하는 방법</h1>
+  <h1 class="n-doc__component-detail-heading">System Manager-ONTAP 9.7 이하가 설치된 FlexVol 볼륨의 볼륨 보장에 대해 설명합니다</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-01-31 19:14:06 +0000">01/31/2022</time>
+    <time datetime="2022-04-13 23:23:18 +0000">04/13/2022</time>
     
   
 
@@ -5357,7 +5357,7 @@
 </p>
 
 <div class="paragraph lead">
-<p>볼륨 보장(_space 보장 _ 이라고도 함)은 볼륨의 공간이 해당 포함하는 aggregate에서 할당되는 방식을 결정합니다.&#8201;&#8212;&#8201;공간이 볼륨에 사전 할당되었는지 여부를 결정합니다.</p>
+<p>System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)으로 FlexVol 볼륨에 대한 볼륨 보장을 설정할 수 있습니다. 볼륨 보장(_space 보장 _ 이라고도 함)은 볼륨의 공간이 해당 포함하는 aggregate에서 할당되는 방식을 결정합니다.&#8201;&#8212;&#8201;공간이 볼륨에 사전 할당되었는지 여부를 결정합니다.</p>
 </div>
 <div class="paragraph">
 <p>보증은 볼륨의 속성입니다.</p>
