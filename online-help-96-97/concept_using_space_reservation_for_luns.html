@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head class="at-element-marker">
-  <title>LUN의 공간 예약 이해</title>
+  <title>System Manager - ONTAP 9.7 및 이전 버전의 LUN에 대한 공간 예약 이해</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="LUN의 공간 예약 이해" />
+  <meta property="og:title" content="System Manager - ONTAP 9.7 및 이전 버전의 LUN에 대한 공간 예약 이해" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/concept_using_space_reservation_for_luns.html" />
 	<meta property="og:description" content="공간 예약 설정(볼륨 보장과 결합)이 LUN에 대해 공간을 별도로 설정하는 방식에 미치는 영향을 이해하면 공간 예약 비활성화의 영향과 특정 LUN 및 볼륨 설정 조합이 유용하지 않은 이유를 이해하는 데 도움이 됩니다." />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[LUN의 공간 예약 이해](https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/concept_using_space_reservation_for_luns.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_using_space_reservation_for_luns.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/ontap-sm-classic/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[System Manager - ONTAP 9.7 및 이전 버전의 LUN에 대한 공간 예약 이해](https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/concept_using_space_reservation_for_luns.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_using_space_reservation_for_luns.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/ontap-sm-classic/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">이 페이지의 내용</div>
@@ -5342,14 +5342,14 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">LUN의 공간 예약 이해</h1>
+  <h1 class="n-doc__component-detail-heading">System Manager - ONTAP 9.7 및 이전 버전의 LUN에 대한 공간 예약 이해</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-04-13 23:23:18 +0000">04/13/2022</time>
+    <time datetime="2022-04-14 22:35:59 +0000">04/14/2022</time>
     
   
 
@@ -5357,7 +5357,7 @@
 </p>
 
 <div class="paragraph lead">
-<p>공간 예약 설정(볼륨 보장과 결합)이 LUN에 대해 공간을 별도로 설정하는 방식에 미치는 영향을 이해하면 공간 예약 비활성화의 영향과 특정 LUN 및 볼륨 설정 조합이 유용하지 않은 이유를 이해하는 데 도움이 됩니다.</p>
+<p>ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)에서 공간 예약 설정(볼륨 보장과 결합)이 LUN에 공간을 별도로 설정하는 방식에 미치는 영향을 이해하면 공간 예약을 사용하지 않도록 설정하는 데 따른 영향을 이해하는 데 도움이 됩니다. 또한 특정 조합의 LUN 및 볼륨 설정이 유용하지 않은 이유를 이해하는 데 도움이 됩니다.</p>
 </div>
 <div class="paragraph">
 <p>LUN에 공간 예약 기능(공간 예약 LUN)이 설정되어 있고 포함된 볼륨에 볼륨 보장이 있는 경우 생성 시 볼륨의 여유 공간이 LUN용으로 예약됩니다. 이 예약 공간의 크기는 LUN의 크기에 따라 결정됩니다. 볼륨의 다른 스토리지 개체(다른 LUN, 파일, 스냅샷 복사본 등)에서는 이 공간을 사용할 수 없습니다.</p>
