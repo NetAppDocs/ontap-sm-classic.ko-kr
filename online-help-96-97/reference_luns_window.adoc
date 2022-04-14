@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: online, help, lun, management, window, command, button, initiator, portset, group, online, help 
 summary: LUN 창을 사용하여 LUN을 생성 및 관리하고 LUN에 대한 정보를 표시할 수 있습니다. 이니시에이터 그룹 및 이니시에이터 ID를 추가, 편집 또는 삭제할 수도 있습니다. 
 ---
-= LUN 창
+= System Manager의 LUN 창 - ONTAP 9.7 이하
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-LUN 창을 사용하여 LUN을 생성 및 관리하고 LUN에 대한 정보를 표시할 수 있습니다. 이니시에이터 그룹 및 이니시에이터 ID를 추가, 편집 또는 삭제할 수도 있습니다.
+ONTAP 9.7 이하에서 사용 가능한 ONTAP System Manager 클래식 의 LUN 창을 사용하여 LUN을 생성 및 관리하고 LUN에 대한 정보를 표시할 수 있습니다. 이니시에이터 그룹 및 이니시에이터 ID를 추가, 편집 또는 삭제할 수도 있습니다.
 
 
 

@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: iscsi, protocol, system, manager, configure, block, data, host, tcp, ip, online, help, initiate, disable, enable, dialog, box, security, authentication, default 
 summary: System Manager를 사용하여 TCP/IP를 통해 SCSI 프로토콜을 사용하여 블록 데이터를 호스트로 전송할 수 있는 iSCSI 프로토콜을 구성할 수 있습니다. 
 ---
-= iSCSI 프로토콜
+= System Manager-ONTAP 9.7 이하를 사용하여 iSCSI 프로토콜을 구성합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하여 TCP/IP를 통해 SCSI 프로토콜을 사용하여 블록 데이터를 호스트로 전송할 수 있는 iSCSI 프로토콜을 구성할 수 있습니다.
+ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 TCP/IP를 통해 SCSI 프로토콜을 사용하여 블록 데이터를 호스트로 전송할 수 있도록 iSCSI 프로토콜을 구성할 수 있습니다.
 
 
 

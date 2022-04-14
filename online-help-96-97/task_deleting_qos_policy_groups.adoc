@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: online, help, delete, qos, policy, groups, system, manager 
 summary: 'System Manager를 사용하면 더 이상 필요하지 않은 스토리지 서비스 품질(QoS) 정책 그룹을 삭제할 수 있습니다.' 
 ---
-= QoS 정책 그룹을 삭제하는 중입니다
+= System Manager - ONTAP 9.7 이하를 사용하여 QoS 정책 그룹을 삭제합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하면 더 이상 필요하지 않은 스토리지 서비스 품질(QoS) 정책 그룹을 삭제할 수 있습니다.
+ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 더 이상 필요하지 않은 스토리지 QoS(서비스 품질) 정책 그룹을 삭제할 수 있습니다.
 
 정책 그룹에 할당된 모든 스토리지 객체를 할당 해제해야 합니다.
 

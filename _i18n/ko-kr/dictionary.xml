@@ -1800,7 +1800,6 @@
   <block id="1332810edccc806d1caa79180be1bb03" category="summary">System Manager를 사용하여 엑스포트 정책을 생성, 편집, 관리할 수 있습니다.</block>
   <block id="bd4308f8ba5f92aa81fb16563206441d" category="doc">엑스포트 정책</block>
   <block id="6b4bdf23b4032fcfb80a5f7c7a2cd50f" category="summary">NVMe 하위 시스템에는 하나 이상의 컨트롤러, 하나 이상의 네임스페이스, 하나 이상의 비휘발성 메모리(NVM) 하위 시스템 포트(FC-NVMe 또는 RDMA 전송 포트), NVM 스토리지 미디어, 컨트롤러와 NVM 스토리지 미디어 간의 인터페이스가 포함됩니다. 컨트롤러 매핑 및 관리를 위해 NVM 하위 시스템은 ONTAP의 가상 서버에 매핑됩니다.</block>
-  <block id="1a69be246157ce60484af00e0a80f3b5" category="paragraph">NVMe 하위 시스템은 System Manager를 사용하여 생성할 수 있습니다. SVM 내의 여러 호스트 및 네임스페이스와 NVMe 하위 시스템을 연결할 수 있습니다. 또한 각 가상 서버는 둘 이상의 NVMe 하위 시스템을 지원할 수 있습니다. 그러나 여러 SVM에서 사용하도록 NVMe 서브시스템을 구성할 수는 없습니다.</block>
   <block id="77e94689c71185890296261f8f70316c" category="summary">System Manager를 사용하여 스토리지 시스템에서 DDNS를 활성화 또는 비활성화할 수 있습니다.</block>
   <block id="97828bdfb44537f14ec09c787a06a220" category="list-text">DNS는 기본적으로 사용하도록 설정되어 있습니다.</block>
   <block id="4473b8467c030280e92d35c71f7ecabe" category="list-text">DDNS는 기본적으로 비활성화되어 있습니다.</block>
@@ -2806,7 +2805,6 @@
   <block id="05f7eaa2c3f4d229c4485c4628f22a2e" category="paragraph">SVM 관계: 요약 창이 표시됩니다.</block>
   <block id="53f1e0aba7693bcbdfdad5ec51dacfe5" category="list-text">완료 * 를 클릭하여 프로세스를 완료합니다.</block>
   <block id="24332faf18b65e5a477a432f04f682d2" category="summary">System Manager의 LUN 관리 탭을 사용하면 이름, 상태, 크기, 유형과 같은 LUN에 대한 세부 정보를 볼 수 있습니다.</block>
-  <block id="02743adbc8323740cf7c5fcc6b2bf0e9" category="doc">LUN 정보 보기</block>
   <block id="280690e8861d2893809514f9fb956595" category="list-text">LUN 관리 * 탭의 표시된 LUN 목록에서 정보를 확인할 LUN을 선택합니다.</block>
   <block id="cf0040d83b2ae87512d142e3c26dddb9" category="list-text">LUN * 창에서 LUN 세부 정보를 검토합니다.</block>
   <block id="df2650f6c17707636fbf6fa39e0aa543" category="summary">System Manager를 사용하여 네트워크 포트에 구성된 VLAN을 삭제할 수 있습니다. NIC를 슬롯에서 제거하기 전에 VLAN을 삭제해야 할 수 있습니다. VLAN을 삭제하면 VLAN을 사용하는 모든 페일오버 규칙 및 그룹에서 VLAN이 자동으로 제거됩니다.</block>
@@ -3056,7 +3054,6 @@
   <block id="0823d90be5bdbd1f2f0a0b30361bdde1" category="list-text">서비스 프로세서* 창에서 수정할 서비스 프로세서를 선택한 다음 * 편집 * 을 클릭합니다.</block>
   <block id="a89d04c7e7307e93e34cc877af5a1c96" category="list-text">[서비스 프로세서 편집] * 대화 상자에서 필요한 사항을 변경한 다음 [저장 후 닫기]를 클릭합니다.</block>
   <block id="167f6dae62c5e6a04290b4be80be116e" category="summary">System Manager를 사용하면 더 이상 필요하지 않은 스토리지 서비스 품질(QoS) 정책 그룹을 삭제할 수 있습니다.</block>
-  <block id="a909468cb7d757fc7661a8410b5f0b1b" category="doc">QoS 정책 그룹을 삭제하는 중입니다</block>
   <block id="7d0973962863fbba831179ad8a119586" category="paragraph">정책 그룹에 할당된 모든 스토리지 객체를 할당 해제해야 합니다.</block>
   <block id="cd8b8d46f76eda836496f2292b3eec3b" category="list-text">Policies * 창에서 * QoS Policy Groups * 를 클릭합니다.</block>
   <block id="530e5f35c1250f24027e3a75918a7380" category="list-text">QoS 정책 그룹 * 창에서 삭제할 정책 그룹을 선택한 다음 * 삭제 * 를 클릭합니다.</block>
@@ -3975,7 +3972,6 @@
   <block id="ba716ac7a721f7d079bd0c45339eb441" category="list-text">Export Rules * (규칙 내보내기 *) 탭에서 삭제할 내보내기 규칙을 선택한 다음 * Delete * (삭제 *)를 클릭합니다.</block>
   <block id="d2d9f7d8bfca0464734c45662b481536" category="list-text">확인 상자에서 * 삭제 * 를 클릭합니다.</block>
   <block id="d2acc54a765b5dd25cb56d3bd68983d5" category="summary">System Manager를 사용하여 Kerberos 인터페이스 서비스를 관리할 수 있습니다.</block>
-  <block id="adad030056fcbdb4f2dec4a9ccdda5e0" category="doc">Kerberos 인터페이스 서비스</block>
   <block id="c5ba22c1a70ca0620a2cfffd56daee81" category="summary">System Manager를 사용하면 기존 클러스터에 노드를 추가하여 스토리지 시스템의 크기와 기능을 높일 수 있습니다.</block>
   <block id="c7b0a7e89e5a47f2ab1b0e6c7f75057b" category="doc">클러스터에 노드 추가</block>
   <block id="cd04e063dc026088464f963b9603c7c6" category="list-text">호환되는 새 노드를 클러스터에 케이블로 연결해야 합니다.</block>
@@ -5005,7 +5001,6 @@
   <block id="3d18a6c060bf36b73107820286a1079f" category="list-text">Setup * 창에서 * LDAP * 를 클릭합니다.</block>
   <block id="7a4ed038b12707d1a7d7a6dbfc8d2548" category="paragraph">LDAP 클라이언트 목록이 LDAP 창에 표시됩니다.</block>
   <block id="cfa566be6299e9e3d5fade67a78c3e74" category="summary">System Manager를 사용하면 네임스페이스가 매핑되는 하위 시스템을 변경하여 네임스페이스를 편집할 수 있습니다.</block>
-  <block id="36f236cfc6cf3ff5de81d1b4bb5ec49b" category="doc">NVMe 네임스페이스 편집</block>
   <block id="9ec7401b6f04c416e336acd652043b73" category="paragraph">이 창에서는 NVMe 하위 시스템 설정만 수정할 수 있으며 다른 네임스페이스 세부 정보는 편집할 수 없습니다.</block>
   <block id="f7e3bbd4fe5c0d8ca1b63838f152aa81" category="list-text">NVMe 네임스페이스 창 * 에서 편집할 네임스페이스를 선택합니다.</block>
   <block id="f675a7bc5b1163c3b4fcd04df9e2b068" category="list-text">하위 시스템 옵션 선택:</block>
@@ -5477,7 +5472,6 @@
   <block id="d96b0b305062f40bbd7a6323c5528bdf" category="doc">대시보드를 사용하여 클러스터 모니터링</block>
   <block id="93d1fd85104572730b5e407ac1f599b1" category="list-text">상태 및 성능 대시보드 패널을 보려면 * 대시보드 * 탭을 클릭하십시오.</block>
   <block id="da1f9aa178114b8d7b3ae1a118b9633f" category="summary">System Manager의 LUN 관리 탭을 사용하여 선택한 LUN을 온라인 상태로 전환하고 호스트에서 사용할 수 있도록 설정할 수 있습니다.</block>
-  <block id="f0f8cd1a811733b198541b3b8c399cfe" category="paragraph">System Manager의 * LUN Management * 탭을 사용하면 선택한 LUN을 온라인 상태로 가져와 호스트에서 사용할 수 있습니다.</block>
   <block id="5ac718bd67533fe75657fd6fb6f196c2" category="paragraph">LUN에 액세스하는 모든 호스트 애플리케이션을 중지 또는 동기화해야 합니다.</block>
   <block id="3e546954bbbe83065eb0be3316ec913d" category="list-text">LUN 관리 * 탭에서 온라인 상태로 전환할 LUN을 하나 이상 선택합니다.</block>
   <block id="7c7d517f76db23a8dad768ae23527e0e" category="list-text">상태 * &gt; * 온라인 * 을 클릭합니다.</block>
@@ -5655,7 +5649,6 @@
   <block id="15f259712db9059f5253344c66956ff7" category="list-text">필요에 따라 * 상태 * &gt; * 활성화 * 또는 * 상태 * &gt; * 비활성화 * 를 클릭합니다.</block>
   <block id="3419e8becf774dd78dfb2f713b10da8a" category="list-text">효율성 정책을 사용하지 않으려면 확인 확인란을 선택한 다음 * 확인 * 을 클릭합니다.</block>
   <block id="3241edb94f07e6bbf7cba493631ff2c6" category="summary">System Manager의 정책 그룹 편집 대화 상자를 사용하여 기존 스토리지 QoS(서비스 품질) 정책 그룹의 이름과 최대 처리량을 수정할 수 있습니다.</block>
-  <block id="58d5c88fca53e41efef32664ecf5ac03" category="doc">QoS 정책 그룹 편집</block>
   <block id="20ce37acd2082db423c612d41df0cb50" category="list-text">편집할 QoS 정책 그룹을 선택한 다음 * 편집 * 을 클릭합니다.</block>
   <block id="5c5c7ddc00ec7405fc1756a5d41d88e6" category="list-text">최대 처리량 제한을 지정하지 않으면 값이 무제한으로 설정되고 지정한 단위는 최대 처리량에 영향을 주지 않습니다.</block>
   <block id="d5a2355a7d209d5208bf6be1cc1af6df" category="list-text">Edit Policy Group * 대화 상자에서 QoS 정책 그룹 세부 정보를 편집한 다음 * Save * 를 클릭합니다.</block>
@@ -5665,7 +5658,6 @@
   <block id="f1f7238ba7ed154f9b34469a9756274a" category="list-text">cutover * 대화 상자에서 * 고급 옵션 * 을 클릭합니다.</block>
   <block id="4330ad75398ca5fc4b8a556deadc2744" category="list-text">컷오버 작업과 컷오버 윈도우 기간을 지정합니다.</block>
   <block id="096ce1885f7b5101d8786c5d4156e6e8" category="summary">System Manager를 사용하여 스토리지 시스템에 접속된 도메인 컨트롤러 및 서버에 대한 정보를 볼 수 있습니다.</block>
-  <block id="fcfd7b9944187521aea2303b6e59cfc7" category="doc">CIFS 도메인 정보 보기</block>
   <block id="82f4068ee64d46dc0fc070cc1edecced" category="list-text">연결된 도메인 컨트롤러 및 서버에 대한 정보를 검토합니다.</block>
   <block id="1ed2f51b532e9e047888a08b1aff9172" category="summary">System Manager를 사용하면 더 이상 필요하지 않은 클라우드 계층을 삭제할 수 있습니다.</block>
   <block id="8767d30ca798ad5f431ecc5e1a99994d" category="doc">클라우드 계층 삭제</block>
@@ -6183,7 +6175,6 @@
   <block id="e15f2b285df0ae95c5340635a8277509" category="paragraph">서비스 프로세서의 MAC 주소를 지정합니다.</block>
   <block id="1290983ba5fc87ec0fc668a784e88af4" category="paragraph">서비스 프로세서 목록 아래의 영역에는 IP 주소, 네트워크 마스크(IPv4) 또는 접두사 길이(IPv6), 게이트웨이, IP 소스 등의 네트워크 세부 정보를 비롯하여 서비스 프로세서에 대한 자세한 정보가 표시됩니다. 펌웨어 버전 및 펌웨어 자동 업데이트 사용 여부와 같은 일반 세부 사항 및 MAC 주소입니다.</block>
   <block id="707fa24f91d2418c829d1b43a17e7032" category="summary">System Manager의 이니시에이터 그룹 탭을 사용하면 이러한 이니시에이터 그룹에 매핑된 이니시에이터 그룹 및 이니시에이터, 이니시에이터 그룹에 매핑된 LUN 및 LUN ID를 모두 볼 수 있습니다.</block>
-  <block id="88bf599180603bbc8a5e0a0b3e91106f" category="doc">이니시에이터 그룹 보기</block>
   <block id="604b93a6316501ffc28f70477ddc708f" category="list-text">이니시에이터 그룹 * 을 클릭하고 상단 창에 나열된 이니시에이터 그룹을 검토합니다.</block>
   <block id="415aa2b1fc11348719f267b093a8dd51" category="list-text">이니시에이터 그룹을 선택하여 해당 그룹에 속한 이니시에이터를 봅니다. 이 이니시에이터는 아래쪽 창의 * Initiators * 탭에 나열됩니다.</block>
   <block id="e3d7ee69492f9895a48cb902eab75dcf" category="list-text">이니시에이터 그룹을 선택하여 매핑된 LUN을 표시합니다. 이 LUN은 아래쪽 창의 * Mapped LUNs * 에 나와 있습니다.</block>
@@ -6323,7 +6314,6 @@
   <block id="6b2addfb2e72791b9d972797ff66e1b9" category="list-text">* SnapMirror 레이블 *</block>
   <block id="afdb710a1aa489c617627a645757d7b7" category="paragraph">백업 스케줄에 따라 생성된 스냅샷 복사본의 SnapMirror 레이블 속성 이름을 지정합니다.</block>
   <block id="4ea14be7e4196bdf68b29f9363afc5e7" category="summary">공간 예약 설정(볼륨 보장과 결합)이 LUN에 대해 공간을 별도로 설정하는 방식에 미치는 영향을 이해하면 공간 예약 비활성화의 영향과 특정 LUN 및 볼륨 설정 조합이 유용하지 않은 이유를 이해하는 데 도움이 됩니다.</block>
-  <block id="ffc424527f14a84517b805809d2039ae" category="doc">LUN의 공간 예약 이해</block>
   <block id="c4373a862ce82a315a77700bf12c777b" category="paragraph">LUN에 공간 예약 기능(공간 예약 LUN)이 설정되어 있고 포함된 볼륨에 볼륨 보장이 있는 경우 생성 시 볼륨의 여유 공간이 LUN용으로 예약됩니다. 이 예약 공간의 크기는 LUN의 크기에 따라 결정됩니다. 볼륨의 다른 스토리지 개체(다른 LUN, 파일, 스냅샷 복사본 등)에서는 이 공간을 사용할 수 없습니다.</block>
   <block id="309c76eeff63d8465df0721ca6cf6a93" category="paragraph">LUN에 공간 예약이 사용되지 않는 경우(비공간 예약 LUN), 생성 시 해당 LUN에 대해 공간이 예약되지 않습니다. LUN에 대한 쓰기 작업에 필요한 스토리지는 충분한 여유 공간을 사용할 수 있는 경우 필요할 때 볼륨으로부터 할당됩니다.</block>
   <block id="bd9f3fb4d4ac06acfae10c70ce3223af" category="paragraph">공간 예약 LUN이 NONE-Guaranteed 볼륨에 생성된 경우 LUN은 공간이 예약되지 않은 LUN과 동일하게 작동합니다. 이는 보장된 볼륨 중 어느 것도 LUN에 할당할 공간이 없기 때문입니다. 볼륨 자체는 이 LUN을 쓸 때만 공간을 할당할 수 있습니다. 보장하지는 않기 때문입니다. 따라서 보장된 볼륨이 아닌 볼륨에 공간 예약 LUN을 생성하는 것은 권장되지 않습니다. 이 구성 조합을 사용하면 실제로 불가능한 쓰기 보증이 될 수 있습니다.</block>
@@ -6479,7 +6469,6 @@
   <block id="0765cf61b3618e32d2830b1385083816" category="list-text">마운트 해제할 볼륨을 선택한 다음 * 마운트 해제 * 를 클릭합니다.</block>
   <block id="a48b3acfe61223f2de90ea6d8bc20187" category="list-text">확인 확인란을 선택한 다음 * 마운트 해제 * 를 클릭합니다.</block>
   <block id="9309ceb4743adf18b7713ea7f364dfcc" category="summary">System Manager의 LUN 관리 탭을 사용하여 선택한 LUN을 오프라인 상태로 전환하고 블록 프로토콜 액세스를 위해 사용할 수 없도록 설정할 수 있습니다.</block>
-  <block id="00cdab290cbd93ae2285d05b34c70656" category="paragraph">System Manager의 * LUN Management * 탭을 사용하여 선택한 LUN을 오프라인 상태로 전환하고 블록 프로토콜 액세스를 위해 사용할 수 없도록 설정할 수 있습니다.</block>
   <block id="6c27f3175ff8f7af46954b46d57e54e2" category="list-text">LUN 관리 * 탭에서 오프라인 상태로 전환할 LUN을 하나 이상 선택합니다.</block>
   <block id="18c1f78e298d9d16297024976c798cb5" category="list-text">상태 * &gt; * 오프라인 * 을 클릭합니다.</block>
   <block id="94c633d9c5aff7c9960836d9157af54f" category="paragraph">스위치백 작업을 수행하기 전에 다음 작업을 완료해야 합니다.</block>
@@ -7466,7 +7455,6 @@
   <block id="320162c6b834fe049ad1a5fddc0d73fb" category="list-text">NVMe 프로토콜을 선택한 경우 포트 세부 정보 영역에 NVMe 가능 어댑터만 표시됩니다.</block>
   <block id="e08185a2d6b5b77183f6e7821c1d0e26" category="list-text">DDNS를 활성화하려면 * 동적 DNS (DDNS) * 확인란을 선택합니다.</block>
   <block id="efd6deaa57c127649ff996a6581d77b1" category="summary">NVMe 서비스를 사용하면 네임스페이스에서 사용할 NVMe 어댑터를 관리할 수 있습니다. System Manager를 사용하여 NVMe 서비스를 시작하여 어댑터를 온라인으로 연결할 수 있습니다. NVMe 서비스를 중지하여 NVMe 어댑터를 오프라인으로 설정하고 네임스페이스에 대한 액세스를 비활성화할 수 있습니다.</block>
-  <block id="658224e4a48b5dc4eb9f2ade128e6605" category="doc">NVMe 서비스 시작 및 중지</block>
   <block id="385da830895079eabe56c8475a2f4ee7" category="paragraph">NVMe 서비스를 시작하기 전에 NVMe 지원 어댑터가 있어야 합니다.</block>
   <block id="2b1e7498489f41e4ab0f84375197af2b" category="list-text">프로토콜 * 메뉴에서 * NVMe * 를 클릭합니다.</block>
   <block id="ecb15d4512908b57ead42c4707c53349" category="list-text">필요에 따라 * 시작 * 또는 * 중지 * 서비스를 클릭합니다.</block>
@@ -7640,7 +7628,6 @@
   <block id="8b7c6134dca87fac833d9851afc5101c" category="list-text">암호 재설정 * 대화 상자에서 사용자의 새 암호를 설정합니다.</block>
   <block id="ed7b6afac794324ba8c0ad78a5c918e9" category="list-text">새 암호를 확인한 다음 * Reset * (재설정 *)을 클릭합니다.</block>
   <block id="995c18b1676c2587760a3058749ac4f2" category="summary">System Manager를 사용하여 CIFS 지원 SVM(스토리지 가상 머신)에서 BranchCache를 구성하여 요청한 클라이언트의 로컬 컴퓨터에 있는 콘텐츠를 캐싱할 수 있습니다.</block>
-  <block id="b25b7d42296cfab434be363cb4148e12" category="doc">BranchCache 설정</block>
   <block id="9cbfd8ceff59e9886ddd216983516f58" category="list-text">CIFS 라이센스가 있어야 하며 CIFS 서버를 구성해야 합니다.</block>
   <block id="5c7668e4ef8685c6ef00f5d8471e476e" category="list-text">BranchCache 버전 1의 경우 SMB 2.1 이상이 활성화되어 있어야 합니다.</block>
   <block id="0ca1cbffe5aba8ce14cf0c4ee8fc4bc9" category="list-text">BranchCache 버전 2의 경우 SMB 3.0을 사용하도록 설정해야 하며 원격 Windows 클라이언트가 BranchCache 2를 지원해야 합니다.</block>
@@ -8992,7 +8979,6 @@
   <block id="b58f4629c05c62ab785a00da650796ac" category="section-title">FC 또는 FCoE 서비스를 시작하거나 중지합니다</block>
   <block id="f0bb3a1069bc693d784499624c92773a" category="section-title">SVM 사용자 계정 잠금 또는 잠금 해제</block>
   <block id="67f089ce62f54b39419b9b13e6c8663d" category="section-title">BranchCache 설정을 수정합니다</block>
-  <block id="b66b8b21cafa185908f6cd71627ccf41" category="doc">NVMe 하위 시스템 관리</block>
   <block id="ab0d1f1c8eac759e4de3ff1f519e6f70" category="paragraph">인터페이스가 속한 서브넷을 지정합니다. MX * * 역할 *</block>
   <block id="d262dc861cfb38f39b59d63acb258d4d" category="section-title">MetroCluster 전환 및 스위치백에 대해 설명합니다</block>
   <block id="c3b9dfd292bc1b7a3ce9854f5e6cb29d" category="sidebar">NVMe 서브시스템이란</block>
@@ -9319,4 +9305,92 @@
   <block id="97da1d3682fa19cce007f55dd00e9257" category="paragraph">FlexGroup 볼륨을 생성할 때 ONTAP System Manager 클래식(ONTAP 9.7 이전 버전에서 사용 가능)을 사용하여 FlexGroup 볼륨과 연결할 옵션을 지정할 수 있습니다.</block>
   <block id="afa4b033845a11aaf03224d5f3b87aaa" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 스냅샷 복사본의 이름을 바꿉니다</block>
   <block id="5d535a61cd876447a88890d18f058a60" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 방식을 사용하여 스냅샷 복사본의 이름을 변경하여 스냅샷 복사본을 구성하고 관리할 수 있습니다.</block>
+  <block id="07eb514f70a999f334173ccafac0631e" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 LUN을 편집합니다</block>
+  <block id="f33424485e106582e6bef2ce528c0af6" category="paragraph">ONTAP 9.7 이하에서 사용 가능한 ONTAP System Manager 클래식 의 LUN 속성 대화 상자를 사용하여 LUN의 이름, 설명, 크기, 공간 예약 설정 또는 매핑된 이니시에이터 호스트를 변경할 수 있습니다.</block>
+  <block id="219ed1cd72eacf606cf22dbeb3388572" category="doc">System Manager의 LUN 창 - ONTAP 9.7 이하</block>
+  <block id="5d2d8563802e062243a864a55e77fbea" category="paragraph">ONTAP 9.7 이하에서 사용 가능한 ONTAP System Manager 클래식 의 LUN 창을 사용하여 LUN을 생성 및 관리하고 LUN에 대한 정보를 표시할 수 있습니다. 이니시에이터 그룹 및 이니시에이터 ID를 추가, 편집 또는 삭제할 수도 있습니다.</block>
+  <block id="81fcfd7aad3f004e49c1184865a3dcfc" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 CIFS 그룹 정책 구성을 관리합니다</block>
+  <block id="e2fc3fd15bd8c9cd2b3d3dfd689b7c4b" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에서 CIFS 창을 사용하여 그룹 정책을 업데이트 및 관리할 수 있습니다.</block>
+  <block id="fff9c72eb36099d10ef75b45b3c38a14" category="paragraph">CLI(Command-Line Interface)를 통해 정책 구성이 변경된 후 그룹 정책을 업데이트해야 합니다.</block>
+  <block id="f239a20c84202d4b9ea65487c4d0660a" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 이니시에이터 그룹을 편집합니다</block>
+  <block id="ecd381c0c9a48e73098f8004e8c10e3e" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)의 이니시에이터 그룹 * 편집 대화 상자를 사용하여 기존 이니시에이터 그룹 및 운영 체제의 이름을 변경할 수 있습니다. 이니시에이터를 이니시에이터 그룹에 추가하거나 이니시에이터 그룹에서 제거할 수 있습니다. 또한 이니시에이터 그룹과 연결된 포트셋 를 변경할 수도 있습니다.</block>
+  <block id="d7585e12a7f0f4136389a429e2368762" category="doc">System Manager로 LUN을 포함하는 FlexVol 볼륨에 대한 작업 지침 - ONTAP 9.7 이하</block>
+  <block id="2824153741cd9295699331cee1553264" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에서는 LUN이 포함된 FlexVol 볼륨으로 작업하는 경우 스냅샷 복사본에 대한 기본 설정을 변경해야 합니다. LUN 레이아웃을 최적화하여 관리를 간소화할 수도 있습니다.</block>
+  <block id="46ca4b6cc5dac93b4008f7f8137a3f2f" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 QoS 정책 그룹을 삭제합니다</block>
+  <block id="89d43162b83abf7f18e1c6fe6e0118ff" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 더 이상 필요하지 않은 스토리지 QoS(서비스 품질) 정책 그룹을 삭제할 수 있습니다.</block>
+  <block id="8d9f570ceab703410bf1da67b4eac8de" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 엑스포트 정책을 관리합니다</block>
+  <block id="f01f89371c1f36dc3a254c24e66496c7" category="paragraph">ONTAP System Manager 클래식(9.7 이하에서 사용 가능)을 사용하면 엑스포트 정책을 생성, 편집, 관리할 수 있습니다.</block>
+  <block id="7d454c0153d457c8b1a040bcf2526a4e" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 LDAP 구성을 관리합니다</block>
+  <block id="1e3b64ae2d873ab61309237ca2a73b01" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 LDAP 구성을 관리할 수 있습니다.</block>
+  <block id="15c3dcb90397a49e222b75d1658a98b8" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 FC/FCoE 프로토콜을 구성합니다</block>
+  <block id="a9303098cc635c5ab21f14cb0861efed" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 프로토콜을 사용하여 FC/FCoE 프로토콜을 구성할 수 있습니다.</block>
+  <block id="027f75835e293694bc0099251487a336" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 NVMe 하위 시스템을 관리하십시오</block>
+  <block id="f8fe10652ce15fcce918cebd766c4c55" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 NVMe 하위 시스템을 생성하고 관리할 수 있습니다. SVM 내의 여러 호스트 및 네임스페이스와 NVMe 하위 시스템을 연결할 수 있습니다. 또한 각 가상 서버는 둘 이상의 NVMe 하위 시스템을 지원할 수 있습니다. 그러나 여러 SVM에서 사용하도록 NVMe 서브시스템을 구성할 수는 없습니다.</block>
+  <block id="ff53e573b883cf1f37fc074b5e06712e" category="doc">System Manager - ONTAP 9.7 및 이전 버전에서 LUN 멀티 프로토콜 유형을 사용하기 위한 지침</block>
+  <block id="d67263540483b767022f2e4ccfea699a" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에서는 LUN 멀티프로토콜 유형 또는 운영 체제 유형으로 LUN에 액세스하는 호스트의 운영 체제를 지정합니다. 또한 LUN의 데이터 레이아웃과 LUN의 최소 및 최대 크기를 결정합니다.</block>
+  <block id="07914950c1162a06c6bc39a929bcc4a7" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 LUN을 오프라인 상태로 전환합니다</block>
+  <block id="42dece1ca458cc614524ba3f73390295" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)의 LUN 관리 * 탭을 사용하여 선택한 LUN을 오프라인 상태로 전환하고 블록 프로토콜 액세스를 위해 사용할 수 없도록 설정할 수 있습니다.</block>
+  <block id="f274a662d6fdb06d444f4af8e95b1b69" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 NVMe 네임스페이스를 클론 복제합니다</block>
+  <block id="41e8b2114aa35da73b416b7a7cf95eb0" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 네임스페이스를 클론하도록 선택하여 동일한 구성에서 다른 네임스페이스를 빠르게 생성할 수 있습니다. 새로 클론 생성된 네임스페이스를 다른 호스트 NQN에 매핑할 수 있습니다.</block>
+  <block id="976f00634832cb31e248aad233285917" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 qtree 관리</block>
+  <block id="77e357ee968621d5cdf41b43c70e8a85" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 qtree를 생성, 편집 및 삭제할 수 있습니다.</block>
+  <block id="a2f5476d6b0bf4ed4856133b5480e3f3" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 LUN 클론 복제</block>
+  <block id="76b573892d8d7ce544b9669b73285856" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 운영 데이터에 대한 액세스 권한을 제공하지 않고도 테스트를 위해 LUN의 임시 복사본을 생성하거나 추가 사용자에게 데이터 복사본을 제공할 수 있습니다. LUN 클론을 사용하면 읽기 및 쓰기 가능한 여러 LUN 복사본을 생성할 수 있습니다.</block>
+  <block id="a0741be6845827b2c37f25cafc9c2f47" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 효율성 정책을 관리합니다</block>
+  <block id="a5c2d8dc1e387afefbdd25cb50c35386" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 방식을 사용하여 효율성 정책을 생성, 편집 및 삭제할 수 있습니다.</block>
+  <block id="8a0b9efae953ad78e31452692e212986" category="doc">System Manager - ONTAP 9.7 및 이전 버전의 LUN에 대한 공간 예약 이해</block>
+  <block id="48179f823f2ef45ef8b5814a040d2469" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)에서 공간 예약 설정(볼륨 보장과 결합)이 LUN에 공간을 별도로 설정하는 방식에 미치는 영향을 이해하면 공간 예약을 사용하지 않도록 설정하는 데 따른 영향을 이해하는 데 도움이 됩니다. 또한 특정 조합의 LUN 및 볼륨 설정이 유용하지 않은 이유를 이해하는 데 도움이 됩니다.</block>
+  <block id="8dc521e6088213a6ca4845b2e447ad1f" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 NVMe를 설정합니다</block>
+  <block id="ba359a34f06422eae8bbfc598dc574cc" category="paragraph">System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 SVM용 NVMe 프로토콜을 설정할 수 있습니다. SVM에서 NVMe 프로토콜을 사용하면 네임스페이스 또는 네임스페이스를 프로비저닝하고 이를 호스트 및 하위 시스템에 할당할 수 있습니다.</block>
+  <block id="0d37f304afcc30684a1a820323a47605" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 NVMe 네임스페이스를 생성합니다</block>
+  <block id="ef67c485b2c6cab864d12bc0c3225891" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 하나 이상의 NVMe 네임스페이스를 만들고 각 네임스페이스를 SVM(스토리지 가상 시스템)의 호스트 또는 호스트 세트에 연결할 수 있습니다. NVMe 네임스페이스는 논리 블록으로 포맷할 수 있는 메모리 양입니다. 각 네임스페이스를 NVMe 하위 시스템에 매핑할 수 있습니다.</block>
+  <block id="1a0ba5c2f4e7de22f403caf60a841d89" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 LUN 정보를 확인합니다</block>
+  <block id="da7cd062e33c4b51fae6fea4a85b5f93" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)의 LUN 관리 * 탭을 사용하여 이름, 상태, 크기, 유형과 같은 LUN에 대한 세부 정보를 볼 수 있습니다.</block>
+  <block id="5402da9bf169f313391fe2df34c5e9c8" category="doc">System Manager의 CIFS 창 - ONTAP 9.7 이하</block>
+  <block id="eeed665e66794c54433d3a763c6f9a29" category="paragraph">System Manager(ONTAP 9.7 이하)의 CIFS 창을 사용하여 CIFS 서버를 구성하고, 도메인 컨트롤러를 관리하고, 상징적인 UNIX 매핑을 관리하고, BranchCache를 구성할 수 있습니다.</block>
+  <block id="a59ee843aef4cd1f9426bb0713912d44" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 LUN을 온라인 상태로 전환합니다</block>
+  <block id="5512b8e907041ebb0ac559fb1298cf8e" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)의 LUN 관리 * 탭을 사용하면 선택한 LUN을 온라인 상태로 가져와 호스트에서 사용할 수 있습니다.</block>
+  <block id="62ff1838c0b0867c91d22b647ce628f1" category="doc">시스템 관리자 - ONTAP 9.7 이하를 사용하여 할당량을 관리합니다</block>
+  <block id="92b5cfb7c1fce1eb7a3e8af80d9f9e4c" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 할당량을 생성, 편집, 삭제할 수 있습니다.</block>
+  <block id="f8206d5822aae59ab25ac11cfd0db3b1" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 LUN을 이동합니다</block>
+  <block id="f6eab1b0f1e3aecbf6c1fc2d5b6d1f3d" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 LUN을 포함하는 볼륨에서 SVM(스토리지 가상 시스템) 내의 다른 볼륨 또는 qtree로 이동할 수 있습니다. LUN을 고성능 디스크가 포함된 애그리게이트에서 호스팅되는 볼륨으로 이동할 수 있으므로 LUN에 액세스할 때 성능이 향상됩니다.</block>
+  <block id="932602fa5fa764793ab1fa81fc0be6d7" category="doc">System Manger-ONTAP 9.7 이하를 사용하여 NVMe 네임스페이스를 편집합니다</block>
+  <block id="727ece68052790d13859f0d00c5bc97d" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 네임스페이스가 매핑되는 서브시스템을 변경하여 네임스페이스를 편집할 수 있습니다.</block>
+  <block id="3ab7fd8a82e1834d805386fd9d48097b" category="doc">System Manager로 이니시에이터 그룹 확인 - ONTAP 9.7 이하</block>
+  <block id="2e7e039707010ae5e778413a23bbe402" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)의 이니시에이터 그룹 * 탭을 사용하면 이러한 이니시에이터 그룹에 매핑된 모든 이니시에이터 그룹 및 이니시에이터와 이니시에이터 그룹에 매핑된 LUN 및 LUN ID를 볼 수 있습니다.</block>
+  <block id="a662f5c9c50a29062ff6977d842954f0" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 iSCSI 프로토콜을 구성합니다</block>
+  <block id="040b3781e4cbff14476ffeeb03c22683" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 TCP/IP를 통해 SCSI 프로토콜을 사용하여 블록 데이터를 호스트로 전송할 수 있도록 iSCSI 프로토콜을 구성할 수 있습니다.</block>
+  <block id="6bdc6e23cb590c92f04dbf87942b2526" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 LDAP 클라이언트 서비스를 구성합니다</block>
+  <block id="1cc58ec3ba2b0eaeaf517b9ada71d80a" category="paragraph">ONTAP 9.7 이하에서 사용 가능한 ONTAP System Manager 클래식 을 사용하여 LDAP 클라이언트 구성을 추가, 편집 및 삭제할 수 있습니다.</block>
+  <block id="0503dc7bdab97ba0513cd725666d3394" category="doc">시스템 관리자 - ONTAP 9.7 이하를 사용하여 Kerberos 영역 서비스를 관리합니다</block>
+  <block id="79cde82c3d2d00c127421f9b6f935f07" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 Kerberos 영역 서비스를 만들고 관리할 수 있습니다.</block>
+  <block id="db70d19fe15e3b3befd05bc1952b3160" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 NFS 프로토콜을 구성합니다</block>
+  <block id="e113f7159fe0e4b9281c320259b8d028" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 NFS 클라이언트를 인증하여 SVM에서 데이터에 액세스할 수 있습니다.</block>
+  <block id="5e3648b4259a50ed4fa560f0aafbc510" category="doc">홈 디렉토리 경로 관리 - ONTAP 9.7 이하</block>
+  <block id="39d120445d993265c3d8aee9b6a527ed" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 스토리지 시스템에서 사용자의 CIFS 홈 디렉토리 위치를 확인하는 데 사용할 수 있는 경로를 하나 이상 지정할 수 있습니다.</block>
+  <block id="0c70ae169ea69b4c41227b52efd76177" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 BranchCache를 구성합니다</block>
+  <block id="79a73a3b3acb98e645503758adb9b5e6" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 CIFS 지원 SVM(스토리지 가상 머신)에서 BranchCache를 구성하여 요청한 클라이언트의 로컬 컴퓨터에 있는 콘텐츠를 캐싱할 수 있습니다.</block>
+  <block id="ec549686b158a67cc1b683ae3c5b90b3" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 CIFS 도메인 정보를 확인합니다</block>
+  <block id="d762ff3b26da985a7dc98a56b4075eff" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 스토리지 시스템에 접속된 도메인 컨트롤러 및 서버에 대한 정보를 볼 수 있습니다.</block>
+  <block id="d40a5432aaa249b7d363145fed83e83b" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 스토리지 QoS에 LUN을 할당합니다</block>
+  <block id="b5d7b5ee9032a887cb370fc8658d3b9c" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 LUN을 스토리지 QoS(서비스 품질) 정책 그룹에 할당하여 LUN의 처리량을 제한할 수 있습니다. 새 LUN에 스토리지 QoS를 할당하거나 정책 그룹에 이미 할당된 LUN에 대한 스토리지 QoS 세부 정보를 수정할 수 있습니다.</block>
+  <block id="e5377734635222b4a05b64c98f884203" category="doc">시스템 관리자 - ONTAP 9.7 이전 버전을 사용하여 DNS/DDNS 서비스를 관리합니다</block>
+  <block id="e5f80dc702947309680d1afbeea7cd5a" category="paragraph">ONTAP 시스템 관리자 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 DNS/DDNS 서비스를 관리할 수 있습니다.</block>
+  <block id="40ac4c7cdd68bb2416925b40af178901" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 NVMe 서비스를 시작 및 중지하십시오</block>
+  <block id="917b92acb38ad7b6209e26de91ce38a9" category="paragraph">ONTAP System Manager 클래식(9.7 이하에서 사용 가능)을 사용하면 NVMe 서비스를 시작하여 어댑터를 온라인으로 연결할 수 있습니다. NVMe 서비스를 사용하면 네임스페이스에서 사용할 NVMe 어댑터를 관리할 수 있습니다. NVMe 서비스를 중지하여 NVMe 어댑터를 오프라인으로 설정하고 네임스페이스에 대한 액세스를 비활성화할 수 있습니다.</block>
+  <block id="ef9299f4d9ab701bc7d83decc9611053" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 QoS 정책 그룹을 편집합니다</block>
+  <block id="980ea682ed148899940453682116cf28" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)의 정책 그룹 편집 대화 상자를 사용하여 기존 스토리지 QoS(서비스 품질) 정책 그룹의 이름과 최대 처리량을 수정할 수 있습니다.</block>
+  <block id="c6569c9c8109bf4cd2f35a096e9a806e" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 QoS 정책 그룹을 생성합니다</block>
+  <block id="6685e05ba41f861ad9bf8b5d50878022" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 스토리지 QoS(서비스 품질) 정책 그룹을 생성하여 워크로드 처리량을 제한하고 워크로드 성능을 모니터링할 수 있습니다.</block>
+  <block id="78207357f350ce56fd3fa8e2a7391ce2" category="doc">시스템 관리자-ONTAP 9.7 이하를 사용하여 Kerberos 인터페이스 서비스를 관리합니다</block>
+  <block id="381ccce315fd379442a9e0a646822167" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 Kerberos 인터페이스 서비스를 관리할 수 있습니다.</block>
+  <block id="b9bf7d43b339de24350647273adf0828" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 기본 도메인 컨트롤러를 관리합니다</block>
+  <block id="1c8df30269c0b7d68fd0908d4455290a" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 선호하는 도메인 컨트롤러를 관리할 수 있습니다</block>
+  <block id="76a6394ebba69d649eac839a06da71d9" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 CIFS 프로토콜을 구성합니다</block>
+  <block id="8ddabe3ae143d491ee852f8d59f2a3dd" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 CIFS 클라이언트가 클러스터의 파일에 액세스할 수 있도록 CIFS 서버를 설정 및 구성할 수 있습니다.</block>
+  <block id="fe491cb74b5104c47c986ff02db47b0a" category="doc">시스템 관리자 - ONTAP 9.7 이하를 사용하여 NIS 서비스를 관리합니다</block>
+  <block id="20c50a1a28ed1eec133adb942e99ab41" category="doc">System Manager로 이니시에이터 편집 - ONTAP 9.7 이하</block>
+  <block id="8dd66dd9096dffc9efad593645a3588e" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)의 이니시에이터 그룹 * 편집 대화 상자를 사용하여 이니시에이터 그룹에 있는 기존 이니시에이터의 이름을 변경할 수 있습니다.</block>
+  <block id="015e58141b759f3d5ce1ad7addbf1b60" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 CIFS 도메인 컨트롤러를 재설정합니다</block>
+  <block id="18d7c96bac375b507e178e9ddd34b685" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 지정된 도메인의 도메인 컨트롤러에 대한 CIFS 연결을 재설정할 수 있습니다. 도메인 컨트롤러 정보를 재설정하지 않으면 연결 오류가 발생할 수 있습니다.</block>
 </blocks>

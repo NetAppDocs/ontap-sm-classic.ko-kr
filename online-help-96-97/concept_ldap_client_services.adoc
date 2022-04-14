@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: ldap, client, service, system, manager, add, edit, delete, client, configuration, online, help, cluster, level, storage, virtual, machine, 
 summary: System Manager를 사용하여 LDAP 클라이언트 구성을 추가, 편집 및 삭제할 수 있습니다. 
 ---
-= LDAP 클라이언트 서비스
+= System Manager - ONTAP 9.7 이하를 사용하여 LDAP 클라이언트 서비스를 구성합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하여 LDAP 클라이언트 구성을 추가, 편집 및 삭제할 수 있습니다.
+ONTAP 9.7 이하에서 사용 가능한 ONTAP System Manager 클래식 을 사용하여 LDAP 클라이언트 구성을 추가, 편집 및 삭제할 수 있습니다.
 
 
 

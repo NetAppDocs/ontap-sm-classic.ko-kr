@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: cifs, window, configuration, tab, domain, symlink, branchcache, online, help 
 summary: CIFS 창을 사용하여 CIFS 서버를 구성하고, 도메인 컨트롤러를 관리하고, 심볼 UNIX 매핑을 관리하고, BranchCache를 구성할 수 있습니다. 
 ---
-= CIFS 창입니다
+= System Manager의 CIFS 창 - ONTAP 9.7 이하
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-CIFS 창을 사용하여 CIFS 서버를 구성하고, 도메인 컨트롤러를 관리하고, 심볼 UNIX 매핑을 관리하고, BranchCache를 구성할 수 있습니다.
+System Manager(ONTAP 9.7 이하)의 CIFS 창을 사용하여 CIFS 서버를 구성하고, 도메인 컨트롤러를 관리하고, 상징적인 UNIX 매핑을 관리하고, BranchCache를 구성할 수 있습니다.
 
 
 

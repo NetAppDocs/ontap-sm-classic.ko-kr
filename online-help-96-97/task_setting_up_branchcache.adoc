@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: cifs, svm, system, manager, online, help, branchcache, set, up, modify, settings, delete 
 summary: 'System Manager를 사용하여 CIFS 지원 SVM(스토리지 가상 머신)에서 BranchCache를 구성하여 요청한 클라이언트의 로컬 컴퓨터에 있는 콘텐츠를 캐싱할 수 있습니다.' 
 ---
-= BranchCache 설정
+= System Manager - ONTAP 9.7 이하를 사용하여 BranchCache를 구성합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하여 CIFS 지원 SVM(스토리지 가상 머신)에서 BranchCache를 구성하여 요청한 클라이언트의 로컬 컴퓨터에 있는 콘텐츠를 캐싱할 수 있습니다.
+ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 CIFS 지원 SVM(스토리지 가상 머신)에서 BranchCache를 구성하여 요청한 클라이언트의 로컬 컴퓨터에 있는 콘텐츠를 캐싱할 수 있습니다.
 
 .시작하기 전에
 * CIFS 라이센스가 있어야 하며 CIFS 서버를 구성해야 합니다.

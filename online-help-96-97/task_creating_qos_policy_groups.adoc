@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: online, help, create, qos, policy, groups, system, manager, quality, service 
 summary: 'System Manager를 사용하여 스토리지 QoS(서비스 품질) 정책 그룹을 생성하여 워크로드의 처리량을 제한하고 워크로드 성능을 모니터링할 수 있습니다.' 
 ---
-= QoS 정책 그룹을 생성합니다
+= System Manager-ONTAP 9.7 이하를 사용하여 QoS 정책 그룹을 생성합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하여 스토리지 QoS(서비스 품질) 정책 그룹을 생성하여 워크로드의 처리량을 제한하고 워크로드 성능을 모니터링할 수 있습니다.
+ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 스토리지 QoS(서비스 품질) 정책 그룹을 생성하여 워크로드 처리량을 제한하고 워크로드 성능을 모니터링할 수 있습니다.
 
 .단계
 . 스토리지 * > * SVM * 을 클릭합니다.

@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: guidelines, flexvol, volume, lun, change, default, settings, snapshot, copy, simplify, administration 
 summary: LUN이 포함된 FlexVol 볼륨으로 작업하는 경우 스냅샷 복사본에 대한 기본 설정을 변경해야 합니다. LUN 레이아웃을 최적화하여 관리를 간소화할 수도 있습니다. 
 ---
-= LUN이 포함된 FlexVol 볼륨의 작업 지침
+= System Manager로 LUN을 포함하는 FlexVol 볼륨에 대한 작업 지침 - ONTAP 9.7 이하
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-LUN이 포함된 FlexVol 볼륨으로 작업하는 경우 스냅샷 복사본에 대한 기본 설정을 변경해야 합니다. LUN 레이아웃을 최적화하여 관리를 간소화할 수도 있습니다.
+ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에서는 LUN이 포함된 FlexVol 볼륨으로 작업하는 경우 스냅샷 복사본에 대한 기본 설정을 변경해야 합니다. LUN 레이아웃을 최적화하여 관리를 간소화할 수도 있습니다.
 
 스냅샷 복사본은 SnapMirror, SyncMirror, 덤프 및 복원, ndmpcopy와 같은 여러 선택적 기능에 필요합니다.
 
