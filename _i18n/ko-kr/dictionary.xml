@@ -9061,7 +9061,6 @@
   <block id="f8c7aff1779acf3b9dc85a549c8f4d4f" category="paragraph">ONTAP System Manager 클래식(9.7 이하에서 사용 가능)을 사용하면 더 이상 필요하지 않은 프로비저닝된 애플리케이션을 삭제할 수 있습니다.</block>
   <block id="ccda83eb5ed4056b1202262cc09443c9" category="doc">System Manager로 클러스터 업데이트 - ONTAP 9.7 이하</block>
   <block id="ba92625a1cffe75a8f65eb6b092f6da8" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하여 고가용성(HA) 쌍의 클러스터 또는 개별 노드를 업데이트할 수 있습니다. MetroCluster 구성에서 클러스터를 업데이트할 수도 있습니다.</block>
-  <block id="c7d3918644137f881f62d314dd74b786" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 클러스터 사용자 계정을 관리합니다</block>
   <block id="ee56e6f13b7ebc3f13f7477735835f4c" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 클러스터 사용자 계정을 추가, 편집 및 관리하고 로그인 사용자 방법을 지정하여 스토리지 시스템을 액세스할 수 있습니다.</block>
   <block id="e990537de20ec1517a4049efeae4c1b8" category="doc">System Manager의 애플리케이션 프로비저닝 설정 - ONTAP 9.7 이하</block>
   <block id="25d492d354ae334c48fa3dfc30fcdebc" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)에서 데이터베이스, 서버 또는 가상 데스크톱에 대한 기본 템플릿 또는 향상된 템플릿을 설정할 때 세부 정보를 제공해야 합니다. 응용 프로그램을 프로비저닝한 후에는 세부 정보를 편집하고 크기 조정(크기 증가만)을 지정할 수 있습니다. 이 섹션에서는 각 템플릿의 필드에 대해 설명합니다. 특정 애플리케이션의 설정을 프로비저닝하거나 편집하는 데 필요한 필드만 표시됩니다.</block>
@@ -9117,7 +9116,6 @@
   <block id="65cb7b95d3e9511248e4d454f7a1000b" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 스토리지 시스템 상태를 모니터링하는 데 도움이 되는 AutoSupport 알림을 구성할 수 있습니다.</block>
   <block id="1f13cccfbc69a5a3b13b2cb14ee1c9e6" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 스토리지 풀을 관리합니다</block>
   <block id="ebacb42d7af485b4c9760bd64078b3c9" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 스토리지 풀을 생성하여 여러 Flash Pool 애그리게이트에서 SSD를 공유할 수 있습니다.</block>
-  <block id="98f75cb448f7e82e01fb789642587098" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 하드웨어 캐시를 관리합니다</block>
   <block id="7b9cdbb20d7b7f588086eab7aa5c2913" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하여 하드웨어 캐시 모듈을 관리할 수 있습니다.</block>
   <block id="abb7c046c422db37c0202c07166a8eab" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 볼륨 크기를 조정합니다</block>
   <block id="20169e117853b27b34193a931dadb8dc" category="paragraph">볼륨이 거의 전체 용량에 도달하면 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 볼륨 크기를 늘리거나, 일부 스냅샷 복사본을 삭제하거나, 스냅샷 예약 공간을 조정할 수 있습니다. System Manager의 볼륨 크기 조정 마법사를 사용하여 여유 공간을 더 많이 확보할 수 있습니다.</block>
@@ -9393,4 +9391,7 @@
   <block id="8dd66dd9096dffc9efad593645a3588e" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)의 이니시에이터 그룹 * 편집 대화 상자를 사용하여 이니시에이터 그룹에 있는 기존 이니시에이터의 이름을 변경할 수 있습니다.</block>
   <block id="015e58141b759f3d5ce1ad7addbf1b60" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 CIFS 도메인 컨트롤러를 재설정합니다</block>
   <block id="18d7c96bac375b507e178e9ddd34b685" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 지정된 도메인의 도메인 컨트롤러에 대한 CIFS 연결을 재설정할 수 있습니다. 도메인 컨트롤러 정보를 재설정하지 않으면 연결 오류가 발생할 수 있습니다.</block>
+  <block id="fc127a3a51a884e1e04b66f7100eb154" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 하드웨어 캐시를 관리합니다</block>
+  <block id="fb51c3b2e9d4cd4cc77e73bd0865c088" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 사용자 계정을 관리합니다</block>
+  <block id="42a891d2a7e8934b2961de24740a46a6" category="paragraph">ONTAP 시스템 관리자 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 NIS(네트워크 정보 서비스) 도메인을 추가, 편집 및 관리할 수 있습니다.</block>
 </blocks>

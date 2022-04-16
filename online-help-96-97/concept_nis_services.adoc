@@ -11,7 +11,7 @@ summary: 'System Manager를 사용하여 NIS(Network Information Service) 도메
 
 
 [role="lead"]
-System Manager를 사용하여 NIS(Network Information Service) 도메인을 추가, 편집 및 관리할 수 있습니다.
+ONTAP 시스템 관리자 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 NIS(네트워크 정보 서비스) 도메인을 추가, 편집 및 관리할 수 있습니다.
 
 
 
