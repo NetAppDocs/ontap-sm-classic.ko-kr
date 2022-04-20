@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: resume, mirror, vault, relationship, online, help, system, manager 
 summary: 중지된 미러 및 볼트 관계가 있는 경우 System Manager를 사용하여 관계를 재개할 수 있습니다. 관계를 재개하면 대상 볼륨에 대한 정상적인 데이터 전송이 재개되고 모든 보호 작업이 다시 시작됩니다. 
 ---
-= 대칭 복사 및 볼트 관계 다시 시작
+= 시스템 관리자-ONTAP 9.7 이전 버전과의 미러 및 볼트 관계 다시 시작
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-중지된 미러 및 볼트 관계가 있는 경우 System Manager를 사용하여 관계를 재개할 수 있습니다. 관계를 재개하면 대상 볼륨에 대한 정상적인 데이터 전송이 재개되고 모든 보호 작업이 다시 시작됩니다.
+정지된 미러 및 볼트 관계가 있는 경우 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 관계를 재개할 수 있습니다. 관계를 재개하면 대상 볼륨에 대한 정상적인 데이터 전송이 재개되고 모든 보호 작업이 다시 시작됩니다.
 
 CLI(Command-Line Interface)에서 손상된 미러 및 볼트 관계를 중지했다면 System Manager에서 관계를 재개할 수 없습니다. CLI를 사용하여 관계를 재개해야 합니다.
 

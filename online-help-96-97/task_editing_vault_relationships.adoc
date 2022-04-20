@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: edit, vault, relationships, system, manager, online, help, cluster, schedule 
 summary: System Manager를 사용하여 클러스터에서 기존 정책 또는 일정을 선택하거나 새 정책 또는 일정을 만들어 볼트 관계를 편집할 수 있습니다. 그러나 기존 정책 또는 스케줄의 매개 변수는 편집할 수 없습니다. 
 ---
-= 볼트 관계 편집
+= 시스템 관리자 - ONTAP 9.7 이전 버전과의 볼트 관계를 편집합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하여 클러스터에서 기존 정책 또는 일정을 선택하거나 새 정책 또는 일정을 만들어 볼트 관계를 편집할 수 있습니다. 그러나 기존 정책 또는 스케줄의 매개 변수는 편집할 수 없습니다.
+ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하면 클러스터에서 기존 정책 또는 일정을 선택하거나 새 정책 또는 일정을 만들어 볼트 관계를 편집할 수 있습니다. 그러나 기존 정책 또는 스케줄의 매개 변수는 편집할 수 없습니다.
 
 소스 및 대상 클러스터는 정상 피어 관계에 있어야 합니다.
 

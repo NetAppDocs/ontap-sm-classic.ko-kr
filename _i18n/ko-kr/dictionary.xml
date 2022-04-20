@@ -930,10 +930,8 @@
   <block id="982fca9c7818ccb19d65f539ee14cf72" category="paragraph">기존 SVM에서 CIFS 및 NFS가 아직 활성화되지 않은 경우 이 옵션을 선택해야 합니다.</block>
   <block id="a15677c03b18981256e9de73817c9522" category="list-text">CIFS와 NFS를 모두 사용하도록 설정했지만 구성하지 않은 기존 SVM에서 볼륨을 프로비저닝하려는 경우 기존 SVM에 CIFS 및 NFS 액세스를 추가합니다.</block>
   <block id="6b7c7970bdcb41db6688672f56b80678" category="inline-link-macro">기존 SVM에서 CIFS 및 NFS 액세스 추가</block>
-  <block id="871bdd2745272ce820d059036f01ecc9" category="paragraph"><block ref="871bdd2745272ce820d059036f01ecc9" category="inline-link-macro-rx"></block></block>
   <block id="98b3b77c540ef88bfdae983c9ec431a5" category="list-text">CIFS 및 NFS 멀티 프로토콜 액세스용으로 완전히 구성된 기존 SVM에서 볼륨을 프로비저닝하고 싶은 경우, 볼륨을 직접 생성 및 구성할 수 있습니다.</block>
   <block id="4738c89fba99cbd003e7a9ba8bca4895" category="inline-link-macro">볼륨 생성 및 구성</block>
-  <block id="42d5b9eba7a6508e91e316b417dfd94e" category="paragraph"><block ref="42d5b9eba7a6508e91e316b417dfd94e" category="inline-link-macro-rx"></block></block>
   <block id="2902194a0a9da61bee3bb7417316de04" category="paragraph">System Manager에서 생성된 모든 새 볼륨은 기본적으로 루트 볼륨에 접합 이름으로 볼륨 이름을 사용하여 마운트됩니다. CIFS 공유를 구성할 때 접합 경로 및 접합 이름을 사용하고, NFS 클라이언트는 볼륨을 마운트할 때 접합 경로 및 접합 이름을 사용합니다.</block>
   <block id="bb73fc1129e596f572ff663a325daa05" category="list-text">원하는 보안 스타일을 선택하고 * 저장 후 닫기 * 를 클릭합니다.</block>
   <block id="2d7557b1ea103e114066994004806fd4" category="summary">NFSv3을 통해 모든 클라이언트가 액세스할 수 있도록 기본 엑스포트 정책에 규칙을 추가해야 합니다. 이 규칙이 없으면 모든 NFS 클라이언트가 SVM(스토리지 가상 머신) 및 볼륨에 액세스할 수 없습니다.</block>
@@ -2469,7 +2467,6 @@
   <block id="769601a678bff5cee56bc8e85756d1c2" category="list-text">볼륨의 캐시된 데이터에 대한 보존 우선 순위를 선택합니다.</block>
   <block id="8efbf0147b80c7203d909e8f9bcdbbf4" category="paragraph">이러한 옵션은 Flash Pool 애그리게이트의 데이터 보호 FlexVol 볼륨에만 사용할 수 있습니다.</block>
   <block id="ecb19c57a1e9d7470da7d5ef2ad7af05" category="summary">System Manager를 사용하여 호스트 정보를 추가하여 DNS 구성을 중앙에서 관리할 수 있습니다. 도메인 이름 또는 IP 주소를 변경하려는 경우 DNS 세부 정보를 수정할 수 있습니다.</block>
-  <block id="6512b12b32b809d4608dd877b15b931f" category="doc">DNS 구성 편집</block>
   <block id="c787ed7e368be4a986e4561d9e6b78ce" category="list-text">구성 * &gt; * 클러스터 * &gt; * 구성 업데이트 * 를 클릭합니다.</block>
   <block id="56ede0d35b454d21ee6de6db7e02eef1" category="list-text">클러스터 세부 정보 * 창에서 * DNS 구성 편집 * 을 클릭합니다.</block>
   <block id="7731c0e23c3a06d337ee5d4f9e42e00f" category="list-text">DNS 도메인 * 영역에서 DNS 도메인 이름을 추가하거나 수정합니다.</block>
@@ -2500,7 +2497,6 @@
   <block id="68c16964c51f57dc952df1961ce1ee35" category="paragraph"><block ref="68c16964c51f57dc952df1961ce1ee35" category="inline-link-rx"></block></block>
   <block id="831d5630e653da6abaa112ccec4c1297" category="summary">SVM(스토리지 가상 시스템) DR(재해 복구)은 SVM의 구성요소 볼륨에 있는 데이터를 복구하고 SVM 구성을 복구하여 SVM 레벨에서 재해 복구 기능을 제공합니다.</block>
   <block id="8e3c3ed2b2343d5ec6f650bb4929ecaa" category="doc">SVM 관계</block>
-  <block id="81b1005335563dfa4d868949da148162" category="paragraph">System Manager를 사용하여 SVM 간에 미러 관계를 생성하고 관리할 수 있으며, 미러 및 소산 관계를 관리할 수 있습니다.</block>
   <block id="66b7f73b872e2456a150986eb15a06e9" category="summary">ONTAP에는 해당 최소 성능 요소에 매핑된 사전 정의된 스토리지 서비스가 포함되어 있습니다.</block>
   <block id="be3ad8ffec2920f1fa8c9a6df9b3cf75" category="doc">스토리지 서비스 정의</block>
   <block id="9c5e52f8534482eaa5e6c6a1b4ec5c5e" category="paragraph">클러스터 또는 SVM에서 사용 가능한 실제 스토리지 서비스 세트는 SVM에서 애그리게이트를 구성하는 스토리지 유형에 따라 결정됩니다.</block>
@@ -2811,7 +2807,6 @@
   <block id="0fa823066e73ad70255e8521e4cf2bfc" category="paragraph">VLAN에 연결된 LIF가 없어야 합니다.</block>
   <block id="6c2e25b8b8361b5552fa12a9eeafe535" category="list-text">삭제할 VLAN을 선택한 다음 * 삭제 * 를 클릭합니다.</block>
   <block id="94f3878cec50cf8a0b62544782eb89e8" category="summary">소스 데이터가 손상되어 더 이상 사용할 수 없는 경우 System Manager를 사용하여 스냅샷 복사본을 소스 볼륨 또는 다른 볼륨으로 복원할 수 있습니다. 원래 데이터를 타겟 볼륨의 스냅샷 복사본으로 대체할 수 있습니다.</block>
-  <block id="766163c41cbf7db64655222598e82908" category="doc">미러 및 볼트 관계에서 볼륨 복원</block>
   <block id="2968058455bc581de51103de28bc77e3" category="list-text">소스 클러스터와 타겟 클러스터 또는 소스 볼륨과 타겟 볼륨이 포함된 노드에서 SnapMirror 라이센스 및 SnapVault 라이센스를 활성화해야 합니다.</block>
   <block id="214f1a9a6c2a9f20704d0eff07db7e6e" category="list-text">복원 작업에 선택한 소스 애그리게이트 또는 기타 애그리게이트는 64비트 애그리게이트여야 합니다.</block>
   <block id="fca1c3dc65515cc415cf2281d754d36f" category="list-text">ONTAP 9.2 이하를 실행하는 클러스터에서 SAML 인증이 활성화된 원격 클러스터로 연결하는 경우 원격 클러스터에서 암호 기반 인증도 활성화해야 합니다.</block>
@@ -2881,7 +2876,6 @@
   <block id="d98f8c7168a343edf020828e272da931" category="summary">System Manager를 사용하여 SVM(스토리지 가상 시스템) 사용자 계정을 잠그거나 잠금 해제할 수 있습니다.</block>
   <block id="e630682fb1cc1c750105d9e99738b611" category="list-text">사용자 * 창에서 계정 상태를 수정할 사용자 계정을 선택한 다음 필요에 따라 * 잠금 * 또는 * 잠금 해제 * 를 클릭합니다.</block>
   <block id="cc50a237602ba64e6ef106a4a2aa2f10" category="summary">필요한 경우 System Manager를 사용하여 클러스터의 이름을 수정할 수 있습니다.</block>
-  <block id="38ff23bba4944bd809f80b302e2ed29e" category="doc">클러스터 이름을 업데이트하는 중입니다</block>
   <block id="16010775e9ee35b25c4ede9cc10954ec" category="list-text">클러스터 세부 정보 * 창에서 * 클러스터 이름 업데이트 * 를 클릭합니다.</block>
   <block id="a6fcfbcbef725f9196844bcecfa79262" category="list-text">클러스터 이름 업데이트 * 대화 상자에서 클러스터의 새 이름을 지정한 다음 * 제출 * 을 클릭합니다.</block>
   <block id="c12888da863f118d3076981df3c09605" category="summary">System Manager를 사용하여 IPspace를 생성 및 관리할 수 있습니다.</block>
@@ -3004,7 +2998,6 @@
   <block id="8e057f857bb8d5d630e1e01b8f00ee2e" category="list-text">Operations * &gt; * Reverse Resync * 를 클릭합니다.</block>
   <block id="70d8823a38e57bab845203653cdf497f" category="list-text">확인 확인란을 선택한 다음 * 역방향 재동기화 * 를 클릭합니다.</block>
   <block id="d410173001a34ef0bf33d098e9df782e" category="summary">버전에 상관없이 미러 관계의 경우 소스 데이터가 손상되어 더 이상 사용할 수 없는 경우 System Manager를 사용하여 소스 볼륨 또는 다른 볼륨에 스냅샷 복사본을 복원할 수 있습니다. 원래 데이터를 타겟 볼륨의 스냅샷 복사본으로 대체할 수 있습니다.</block>
-  <block id="c531ca95860694d5ed26adc4a1a9a6eb" category="doc">미러 관계에서 볼륨 복구</block>
   <block id="16d958e78d1cca90f901c3fe80893940" category="list-text">소스 클러스터와 타겟 클러스터 또는 소스 볼륨과 타겟 볼륨이 포함된 노드에서 SnapMirror 라이센스가 활성화되어야 합니다.</block>
   <block id="662b5c7cd59abb0fc0ef5a08a466d0c4" category="list-text">ONTAP 9.2 이하 버전을 실행하는 클러스터에서 SAML(Security Assertion Markup Language) 인증이 활성화된 원격 클러스터로 연결하는 경우 원격 클러스터에서 암호 기반 인증도 활성화해야 합니다.</block>
   <block id="4309f4e5604478417206b1336d6ac8f1" category="list-text">MetroCluster 구성에서는 소스 스토리지 가상 시스템(SVM)과 타겟 SVM 간의 미러 관계에 있는 볼륨을 복구할 수 없습니다.</block>
@@ -3933,7 +3926,6 @@
   <block id="b1fd79ca6565efc319937cf7e5cb20a3" category="list-text">관리 유연성 감소</block>
   <block id="be3fd558baaeb9077fd6f75c19875e37" category="paragraph">스토리지 풀에 스토리지를 추가하면 해당 스토리지 풀에서 하나 이상의 할당 유닛이 포함된 All Flash Pool 캐시의 크기가 늘어나며, 추가 용량이 어떻게 배포되는지 확인할 수 없습니다.</block>
   <block id="c8aefd69cf3fd3ee4f045175ae7aff94" category="summary">선택한 정책 또는 스케줄을 수정하여 System Manager를 사용하여 미러 및 볼트 관계를 편집할 수 있습니다. 그러나 기존 정책 또는 스케줄의 매개 변수는 편집할 수 없습니다.</block>
-  <block id="892f7f19144422ba8b2ab9a8a70baa33" category="doc">대칭 복사 및 볼트 관계 편집</block>
   <block id="1e6d016df1b9eaf71db6291df19fd610" category="list-text">수정하려는 대칭 복사 및 볼트 관계를 선택한 다음 * 편집 * 을 클릭합니다.</block>
   <block id="d254a68c48559342ea0c1a4fcc0a6be6" category="paragraph">찾아보기 * 를 클릭한 다음 기존 일정을 선택합니다.</block>
   <block id="ddfd8df1949052b41ddee64cb7f4d149" category="paragraph">이 옵션을 선택하여 cron 스타일 일정을 지정할 수 있습니다.</block>
@@ -4139,7 +4131,6 @@
   <block id="cae7974fde4c42dc22986eda0127cd15" category="list-text">확인 확인란을 선택한 다음 * Stop * (중지 *)을 클릭합니다.</block>
   <block id="6a780d4d415bbd377aa9fdc38651f67f" category="list-text">공유가 * Shares * 창에 더 이상 표시되지 않는지 확인합니다.</block>
   <block id="f62b3e5859b206499e7a44a289ca9733" category="summary">관계를 생성하는 동안 관계를 초기화하지 않은 경우 System Manager를 사용하여 미러 및 볼트 관계를 초기화할 수 있습니다. 관계를 초기화할 때 데이터의 전체 베이스라인 전송이 소스 볼륨에서 대상으로 수행됩니다.</block>
-  <block id="6a157a29e95317dcc5c7ba48a6d5e6bf" category="doc">대칭 복사 및 볼트 관계를 초기화하는 중입니다</block>
   <block id="194940f508e4816ec6049ab532d382b3" category="list-text">초기화하려는 미러 및 볼트 관계를 선택한 다음 * 작업 * &gt; * 초기화 * 를 클릭합니다.</block>
   <block id="e416e315e41641912fdc726174c2b70c" category="list-text">확인 확인란을 선택한 다음 * Initialize * 를 클릭합니다.</block>
   <block id="57174ed0aaf39bc07bfaedc78339bef3" category="list-text">Protection * 창에서 관계 상태를 확인합니다.</block>
@@ -4262,7 +4253,6 @@
   <block id="e8fa661a5a10dd89b61025c67e0a71f8" category="doc">이니시에이터 그룹을 생성합니다</block>
   <block id="c434e7f4d77ffc468dbad3de658be566" category="list-text">이니시에이터 그룹 * 탭에서 * 생성 * 을 클릭합니다.</block>
   <block id="e32032d2625b9284ad549f09b76e2c69" category="summary">System Manager를 사용하여 클러스터의 암호를 재설정할 수 있습니다.</block>
-  <block id="21d8ed0c68269db4607db532dc48b719" category="doc">클러스터 암호를 변경하는 중입니다</block>
   <block id="c8e1776bcb8e14a20836e0b5ce91b012" category="list-text">클러스터 세부 정보 * 창에서 * 암호 변경 * 을 클릭합니다.</block>
   <block id="86a3ce2e49a66addd99e3ee6c6a90b1f" category="list-text">암호 변경 * 대화 상자에서 새 암호를 지정하고 새 암호를 확인한 다음 * 변경 * 을 클릭합니다.</block>
   <block id="d2e3ae3d29a5c88acb5dbf6904784b7e" category="summary">System Manager를 사용하여 애그리게이트를 만들어 다양한 보안 요구사항, 백업 요구사항, 성능 요구사항, 사용자의 데이터 공유 요구사항을 지원할 수 있습니다.</block>
@@ -4653,7 +4643,6 @@
   <block id="bf54ab48107f6fc69d8d8d6f1c3140e6" category="list-text">ChangeLog Threshold * 를 선택하고 볼륨 데이터 변경에 대한 임계값(백분율)을 지정합니다.</block>
   <block id="b8cd7d0028a5acf35f27924683f7aaa7" category="list-text">QoS 정책을 백그라운드로 설정 * 확인란을 선택하여 클라이언트 작업에 대한 성능 영향을 줄입니다.</block>
   <block id="7fcd701d4af64e601a44499f2f83f92c" category="summary">System Manager를 사용하여 소스 볼륨과 타겟 볼륨 간의 미러 및 소산 관계를 종료 하고 소스 볼륨에서 스냅샷 복사본을 릴리즈할 수 있습니다.</block>
-  <block id="ab244eb12fcb754ef620220e669a2a95" category="doc">대칭 복사 및 볼트 관계 삭제</block>
   <block id="d5bd834a78b5440108ac98fb1ce7877e" category="list-text">관계를 삭제하기 전에 미러와 볼트 관계를 끊는 것이 가장 좋습니다.</block>
   <block id="550c5da5e953dd75d25c213771288b7b" category="list-text">관계를 다시 생성하려면 CLI(Command-Line Interface)를 사용하여 소스 볼륨에서 재동기화 작업을 실행해야 합니다.</block>
   <block id="b256050a5b646fd77eecf8d35d755564" category="list-text">삭제할 대칭 복사 및 볼트 관계를 선택하고 * 삭제 * 를 클릭합니다.</block>
@@ -4763,7 +4752,6 @@
   <block id="4558df8cedfb6fff1a8ae88e7f3554e4" category="section-title">할당된 개체 탭</block>
   <block id="f23d075397a5db232bfa6d287085c43b" category="paragraph">Assigned Objects 탭에서는 선택한 엑스포트 정책에 할당된 볼륨 및 qtree를 볼 수 있습니다. 볼륨이 암호화되었는지 여부를 확인할 수도 있습니다.</block>
   <block id="9472ca14a963b3463ffacfba144d853c" category="summary">SnapMirror 소스를 사용할 수 없게 되고 클라이언트 애플리케이션이 미러 대상에서 데이터에 액세스할 수 있게 하려면 SnapMirror 관계를 끊어야 합니다.</block>
-  <block id="2c13690cfe030889afa3cd68b6befe59" category="paragraph">SnapMirror 소스를 사용할 수 없게 되고 클라이언트 애플리케이션이 미러 대상에서 데이터에 액세스할 수 있게 하려면 SnapMirror 관계를 끊어야 합니다. SnapMirror 관계가 손상되면 타겟 볼륨 유형이 "데이터 보호"(DP)에서 "읽기/쓰기"(RW)로 변경됩니다.</block>
   <block id="fddb60ada1cd638223649f65cdd12a8c" category="list-text">SnapMirror 대상이 중지 상태 또는 유휴 상태여야 합니다.</block>
   <block id="6667b21a600772c7ea0e910cc1960334" category="list-text">대상 볼륨은 대상 SVM(스토리지 가상 시스템) 네임스페이스에 마운트되어야 합니다.</block>
   <block id="6d9c53721983e127a1600326b186618a" category="list-text">소스를 복구 또는 교체하고 소스를 업데이트하고 시스템의 원래 구성을 다시 설정하는 동안 대상 볼륨을 사용하여 데이터를 제공할 수 있습니다.</block>
@@ -5030,7 +5018,6 @@
   <block id="beb121731221cade02463599d8adca1e" category="list-text">* 보안 이름 *</block>
   <block id="107bea07d2bf29e67c0aa91b72728753" category="paragraph">SNMP 서버의 보안 스타일을 표시합니다.</block>
   <block id="7a719753b5cc693e70eaafdf4df13427" category="summary">중지된 미러 및 볼트 관계가 있는 경우 System Manager를 사용하여 관계를 재개할 수 있습니다. 관계를 재개하면 대상 볼륨에 대한 정상적인 데이터 전송이 재개되고 모든 보호 작업이 다시 시작됩니다.</block>
-  <block id="7888353c7236831cd355df22d4f32ddc" category="doc">대칭 복사 및 볼트 관계 다시 시작</block>
   <block id="1ca316d456bfc783136ef2cbef4e0b6c" category="paragraph">CLI(Command-Line Interface)에서 손상된 미러 및 볼트 관계를 중지했다면 System Manager에서 관계를 재개할 수 없습니다. CLI를 사용하여 관계를 재개해야 합니다.</block>
   <block id="cdbe1ccd7399a1701afc2c94069ee6d8" category="list-text">재개할 미러 및 볼트 관계를 선택한 다음 * 작업 * &gt; * 재개 * 를 클릭합니다.</block>
   <block id="06895a249469b7de4c423243bf6e23fc" category="list-text">확인 확인란을 선택한 다음 * Resume * 을 클릭합니다.</block>
@@ -5531,7 +5518,6 @@
   <block id="5669ad68be3167c39ac72f6e6c9156b9" category="paragraph">인벤토리 탭 아래의 영역에는 집계 또는 볼륨(해당하는 경우), 공급업체 ID, 제로화 상태(백분율), 디스크 일련 번호, 디스크 고장 시 오류 세부 정보 등 선택한 디스크에 대한 자세한 정보가 표시됩니다. 공유 디스크의 경우 Inventory details 영역에 루트 및 비루트 애그리게이트를 포함한 모든 애그리게이트의 이름이 표시됩니다.</block>
   <block id="9be33596938d5c4bd6c50efc04b28599" category="paragraph"><block ref="9be33596938d5c4bd6c50efc04b28599" category="inline-xref-macro-rx"></block></block>
   <block id="1aa8e9743f0339f1d0756bf4ae45e629" category="summary">IP 주소 범위를 설정하여 네트워크를 설정할 수 있습니다. IP 주소 범위를 사용하면 동일한 넷마스크 범위 또는 다른 넷마스크 범위에 있는 IP 주소를 입력할 수 있습니다.</block>
-  <block id="7aa46ceb46b55e1584c5199b992f5235" category="doc">IP 주소 범위가 활성화된 경우 네트워크 설정</block>
   <block id="785e7abdebfba0c077f70ba137de92d3" category="list-text">IP 주소 범위 * 필드에 IP 주소 범위를 입력한 다음 * 적용 * 을 클릭합니다.</block>
   <block id="054b4f3ea543c990f6b125f41af6ebf7" category="cell">옵션을 선택합니다</block>
   <block id="fda3d70d690cf239a0df47903d8ca82c" category="paragraph">동일한 넷마스크에 IP 주소 범위가 있습니다</block>
@@ -5552,7 +5538,6 @@
   <block id="319427a71b651ab815baf2b3d0a7d2d9" category="inline-link">CLI를 사용하여 clustered Data ONTAP 8.2 이상에서 NTP를 구성 및 문제 해결하는 방법</block>
   <block id="e3b78c1c74d0d82422c4e2c4ff74ae10" category="paragraph"><block ref="e3b78c1c74d0d82422c4e2c4ff74ae10" category="inline-link-rx"></block></block>
   <block id="0218bfc8c15044ba0898def79386160d" category="summary">System Manager를 사용하여 이전에 파손된 미러 및 볼트 관계를 다시 설정할 수 있습니다. 재동기화 작업을 수행하여 소스 볼륨을 비활성화한 재재해에서 복구할 수 있습니다.</block>
-  <block id="3fc1b317f5c52a61b2ce404f0930f389" category="doc">미러 및 볼트 관계를 재동기화합니다</block>
   <block id="858a9fdccf693c25652e60fe165a03c2" category="paragraph">소스 및 타겟 클러스터와 소스 및 타겟 SVM(스토리지 가상 머신)이 피어 관계에 있어야 합니다.</block>
   <block id="67b4ed20481864137b35102fa97434d4" category="paragraph">재동기화 작업을 수행하기 전에 다음 사항에 유의해야 합니다.</block>
   <block id="c000c692ee9195361c8adde986ec77f8" category="list-text">재동기화 작업을 수행하면 대상 볼륨의 컨텐츠가 소스의 컨텐츠로 덮어쓰여집니다.</block>
@@ -5883,7 +5868,6 @@
   <block id="b63b907f53d81d2df933f194c997dca6" category="list-text">작업 관리자의 초기화 상태에 대한 정보를 표시합니다.</block>
   <block id="224d2019f36419ff9f94b0e265889946" category="paragraph">이벤트 로그를 확인하여 완료된 작업의 결과를 확인할 수 있습니다.</block>
   <block id="a919b2052fc9a66fd57aa5c1173eef87" category="summary">필요한 경우 System Manager를 사용하여 노드 이름을 수정할 수 있습니다.</block>
-  <block id="69fa390d09c57cdac463283ea781e39b" category="doc">노드 이름 편집</block>
   <block id="55d39636d1d05d13802eb2fb2db89a4c" category="list-text">노드 * 탭에서 이름을 바꿀 노드를 선택한 다음 * 노드 이름 편집 * 을 클릭합니다.</block>
   <block id="2dfe3592e31a21358544f237cb1ef204" category="list-text">노드 이름 편집 * 대화 상자에서 노드의 새 이름을 입력한 다음 * 제출 * 을 클릭합니다.</block>
   <block id="e6ade167bc69389f90ba21383b403cee" category="summary">ONTAP 9.4 이상의 경우 NetApp Support 사이트에서 로컬 폴더로 ONTAP 소프트웨어 이미지를 복사할 수 있습니다. ONTAP 9.3 이전 버전에서 업그레이드하려면 ONTAP 소프트웨어 이미지를 네트워크의 HTTP 서버 또는 FTP 서버로 복사해야 합니다.</block>
@@ -6183,7 +6167,6 @@
   <block id="537d48aafb210ebc9b17870f9dbbd18c" category="list-text">Quotas* 창의 * Quota Status On Volumes * 탭에서 할당량의 크기를 조정할 볼륨을 하나 이상 선택합니다.</block>
   <block id="67853be8737deb58bc419817bcc60e32" category="list-text">크기 조정 * 을 클릭합니다.</block>
   <block id="0760716a254661585d034a675f162e3c" category="summary">소스 볼륨을 사용할 수 없게 되고 클라이언트 응용 프로그램이 대상 볼륨의 데이터에 액세스하도록 하려는 경우 System Manager를 사용하여 미러 및 볼트 관계를 중단할 수 있습니다. 소스 볼륨을 복구 또는 교체하고 소스 볼륨을 업데이트하고 시스템의 원래 구성을 다시 설정하는 동안 대상 볼륨을 사용하여 데이터를 제공할 수 있습니다.</block>
-  <block id="46028a2c1b4bef1391f5a1c1ff1fb4ec" category="doc">대칭 복사 및 볼트 관계 분리</block>
   <block id="688950239c93be2f7637b1baa95b42d6" category="list-text">미러 및 볼트 관계가 중지 상태 또는 유휴 상태여야 합니다.</block>
   <block id="5baafab505d4d55220ba92160de4bc45" category="paragraph">ONTAP 시스템과 SolidFire 스토리지 시스템 간의 미러 관계를 분리할 수 있습니다.</block>
   <block id="dafc10282deacb64a877e232ac1efd06" category="list-text">분리하려는 대칭 복사 및 볼트 관계를 선택한 다음 * 작업 * &gt; * 분리 * 를 클릭합니다.</block>
@@ -6213,7 +6196,6 @@
   <block id="d214a939449dd420c63eb5e03c605a79" category="list-text">SNMP 설정 편집 * 대화 상자에서 * 트랩 호스트 * 탭을 선택한 다음 * 트랩 사용 * 확인란을 선택하거나 선택 취소하여 SNMP 트랩을 활성화하거나 비활성화합니다.</block>
   <block id="7389ea20d819b1c391f9a10eabd5aad7" category="list-text">SNMP 트랩을 사용하도록 설정한 경우 트랩을 보낼 호스트의 호스트 이름 또는 IP 주소를 추가합니다.</block>
   <block id="8c6693cc07f98ea3023a538d6ad1d8c5" category="summary">시스템 관리자를 사용하여 AutoSupport 설정을 수정하여 이메일 알림을 보낼 이메일 주소를 지정하고 여러 이메일 호스트 이름을 추가할 수 있습니다.</block>
-  <block id="4cbbb191083a19d601fab9ea45cb9bae" category="doc">AutoSupport 설정 편집</block>
   <block id="7299f317822d19bde80be6f950f9bef3" category="list-text">AutoSupport 설정을 수정할 노드를 선택한 다음 * 편집 * 을 클릭합니다.</block>
   <block id="1cdaba677267c6c6791e6f28c8d3bc2a" category="list-text">e-메일 수신자 * 탭에서 e-메일 알림을 보낼 e-메일 주소를 입력하고 각 e-메일 받는 사람에 대한 e-메일 수신자와 메시지 내용을 지정한 다음 메일 호스트를 추가합니다.</block>
   <block id="928dcd47ab1dba532e19a4b381cfdbd5" category="paragraph">각 호스트에 대해 최대 5개의 이메일 주소를 추가할 수 있습니다.</block>
@@ -6367,7 +6349,6 @@
   <block id="f67d8d1b2d7a09b0885828b7dedcb2f3" category="section-title">역할 특성 영역</block>
   <block id="f7088a20371085576bb40bc2fadb0a08" category="paragraph">세부 정보 영역에는 선택한 역할이 액세스할 수 있는 명령 또는 명령 디렉터리, 액세스 수준 및 명령 또는 명령 디렉터리에 적용되는 쿼리와 같은 역할 특성이 표시됩니다.</block>
   <block id="54acf068c9d0de4a69ed8d974205c201" category="doc">System Manager를 사용하여 클러스터를 구성합니다</block>
-  <block id="97c1385e84acdf8323725c547cbd4d20" category="doc">대칭 복사 및 볼트 관계 업데이트 중</block>
   <block id="0f1936a33cb31a39e597a795d7fe6ec8" category="paragraph">미러 및 볼트 관계는 초기화되고 SnapMirrored 상태여야 합니다.</block>
   <block id="fb5e019f9c42298f7f16f864e0e4f01e" category="list-text">데이터를 업데이트할 미러 관계를 선택한 다음 * 운영 * &gt; * 업데이트 * 를 클릭합니다.</block>
   <block id="66a90644b0ac4440d8fb12bcd3baa112" category="list-text">전송에 사용되는 네트워크 대역폭을 제한하려면 * 전송 대역폭 제한 * 을 선택하고 최대 전송 속도를 지정합니다.</block>
@@ -9394,4 +9375,83 @@
   <block id="fc127a3a51a884e1e04b66f7100eb154" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 하드웨어 캐시를 관리합니다</block>
   <block id="fb51c3b2e9d4cd4cc77e73bd0865c088" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 사용자 계정을 관리합니다</block>
   <block id="42a891d2a7e8934b2961de24740a46a6" category="paragraph">ONTAP 시스템 관리자 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 NIS(네트워크 정보 서비스) 도메인을 추가, 편집 및 관리할 수 있습니다.</block>
+  <block id="b4c3e51a3e6d798ba155eeaa53407e21" category="doc">시스템 관리자-ONTAP 9.7 이전 버전과의 미러 및 볼트 관계 초기화</block>
+  <block id="0130053042b2477edae683b3c8cffd02" category="paragraph">ONTAP 9.7 및 이전 버전에서 사용할 수 있는 ONTAP 시스템 관리자 클래식 기능을 사용하여 미러 및 볼트 관계를 아직 작성하지 않은 경우 이 관계를 초기화할 수 있습니다. 관계를 초기화할 때 데이터의 전체 베이스라인 전송이 소스 볼륨에서 대상으로 수행됩니다.</block>
+  <block id="d7aa241cdf6608a93d68cc08a17358c5" category="doc">시스템 관리자-ONTAP 9.7 이전 버전과의 미러 관계에서 볼륨 복구</block>
+  <block id="15f33799830d7062ead6409ca8ffcd26" category="paragraph">버전에 상관없이 미러 관계의 경우 ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 소스 데이터가 손상되거나 더 이상 사용할 수 없는 경우 소스 볼륨 또는 다른 볼륨에 스냅샷 복사본을 복원할 수 있습니다. 원래 데이터를 타겟 볼륨의 스냅샷 복사본으로 대체할 수 있습니다.</block>
+  <block id="afa61f1b1307e790cdbfbb6214754282" category="doc">시스템 관리자-ONTAP 9.7 이하를 사용하여 대상 SVM에서 볼트 관계를 생성합니다</block>
+  <block id="43683d217f4463f8f72a79932ddb4a19" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)을 사용하여 대상 SVM(스토리지 가상 머신)에서 볼트 관계를 생성하고 볼트 정책을 할당하여 백업 볼트를 생성할 수 있습니다. 시스템에서 데이터가 손실되거나 손상된 경우 백업 데이터를 백업 볼트 대상에서 복원할 수 있습니다.</block>
+  <block id="7a8704124255fce54a5d048005dbb2c7" category="doc">시스템 관리자-ONTAP 9.7 이전 버전과의 미러 및 볼트 관계 다시 시작</block>
+  <block id="4395babd19d50d84f219edbe94c24fa2" category="paragraph">정지된 미러 및 볼트 관계가 있는 경우 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 관계를 재개할 수 있습니다. 관계를 재개하면 대상 볼륨에 대한 정상적인 데이터 전송이 재개되고 모든 보호 작업이 다시 시작됩니다.</block>
+  <block id="fe17196f3e0914a4cec43667071b4869" category="doc">시스템 관리자-ONTAP 9.7 이전 버전과의 미러 및 볼트 관계 분리</block>
+  <block id="a63d94092a796634808ee226f75b5367" category="paragraph">소스 볼륨을 사용할 수 없게 되고 클라이언트 응용 프로그램이 대상 볼륨의 데이터에 액세스하도록 하려는 경우 ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)을 사용하여 미러 및 볼트 관계를 중단할 수 있습니다. 소스 볼륨을 복구 또는 교체하고 소스 볼륨을 업데이트하고 시스템의 원래 구성을 다시 설정하는 동안 대상 볼륨을 사용하여 데이터를 제공할 수 있습니다.</block>
+  <block id="aba0d4534cb127db2509180202369c03" category="doc">System Manager-ONTAP 9.7 이하가 설치된 클러스터의 시간대를 설정합니다</block>
+  <block id="d8c48a42a81a8438050a9c7c83cafecc" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)에서 날짜 및 시간 편집 대화 상자를 사용하여 클러스터의 시간대를 수동으로 설정하거나 수정할 수 있습니다. 시간 서버를 클러스터에 추가할 수도 있습니다.</block>
+  <block id="e069e09d59568675b506a5631c4b22b7" category="doc">System Manager와 SVM 관계 - ONTAP 9.7 이전 버전</block>
+  <block id="26db8af5ab588089d2d0b8f377dadc4d" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 SVM 간에 미러 관계와 미러 및 소산 관계를 생성하고 관리할 수 있습니다. SVM(스토리지 가상 시스템) DR(재해 복구)은 SVM의 구성요소 볼륨에 있는 데이터를 복구하고 SVM 구성을 복구하여 SVM 레벨에서 재해 복구 기능을 제공합니다.</block>
+  <block id="c48810549c92e77a74367bf1cec6df93" category="doc">시스템 관리자-ONTAP 9.7 이하와 HA 쌍 모니터링</block>
+  <block id="69d871a356c50778c71ad0cc45db4702" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하면 클러스터에 있는 모든 HA(고가용성) 쌍의 노드 상태와 상호 연결 상태를 모니터링할 수 있습니다. Takeover 또는 Giveback이 활성화되었는지 또는 발생했는지 확인할 수도 있으며, Takeover 또는 Giveback이 현재 가능하지 않은 이유를 볼 수 있습니다.</block>
+  <block id="262333fc510a217309de41b775906e37" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 역할을 만들고 관리합니다</block>
+  <block id="9a8f0d506aed3b767779b83964cf1b1a" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 역할을 만들고 관리할 수 있습니다.</block>
+  <block id="92bd79c670ac94d203248da956241472" category="doc">시스템 관리자 - ONTAP 9.7 이전 버전과의 볼트 관계를 중지합니다</block>
+  <block id="602631b50dbbeb1ccbb9df20a76a9ec9" category="paragraph">볼트 관계를 중지하여 ONTAP 시스템 관리자 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 대상 FlexVol 볼륨으로의 데이터 전송을 비활성화할 수 있습니다.</block>
+  <block id="8702a816375d4468a1fdafddd89c5aac" category="doc">시스템 관리자-ONTAP 9.7 이전 버전과의 미러 및 볼트 관계를 삭제합니다</block>
+  <block id="70e3cca159c9dc14434a83eef0cbe103" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 소스 볼륨과 타겟 볼륨 간의 미러 및 소산 관계를 맺고 소스 볼륨에서 스냅샷 복사본을 릴리즈할 수 있습니다.</block>
+  <block id="18f944a43803893b3abefe4cddb83100" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 스냅샷 복사본 전송을 중단합니다</block>
+  <block id="4b7a0caa5d810697cb98d1268491c200" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 현재 진행 중인 데이터 전송을 중단 또는 중지할 수 있습니다.</block>
+  <block id="3f24c14d1945245ea70ef197ca7eb065" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 클러스터를 설정합니다</block>
+  <block id="9b4bd0e05bd59040708e0e8eef3ef34c" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manger 클래식 을 사용하여 클러스터를 설정할 수 있습니다.</block>
+  <block id="db95e3b8fcea0a5c57d5d6584105ea6a" category="doc">System Manager 및 ONTAP 9.7 이하를 사용한 보호 윈도우</block>
+  <block id="ee9bd4dddb5496bd38976d668f5dbc30" category="paragraph">보호 창을 ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)과 함께 사용하여 미러 관계, 볼트 관계, 미러 및 볼트 관계를 생성 및 관리하고 이러한 관계에 대한 세부 정보를 표시할 수 있습니다. 보호 창에는 로드 공유(LS) 관계 및 전환 데이터 보호(TDP) 관계가 표시되지 않습니다.</block>
+  <block id="7c9bd76bd294b7e14d1899d0c2068e90" category="doc">시스템 관리자 - ONTAP 9.7 이전 버전과의 볼트 관계를 삭제합니다</block>
+  <block id="652e2e8c89320862132487366920ad01" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)을 사용하면 소스 볼륨과 타겟 볼륨 간의 볼트 관계를 맺고 소스에서 스냅샷 복사본을 릴리즈할 수 있습니다.</block>
+  <block id="1aafe4488fd8fc784e00f6d40348c9a5" category="doc">시스템 관리자-ONTAP 9.7 이전 버전과의 미러 및 볼트 관계를 역재동기화합니다</block>
+  <block id="a2c1f6a60da92875a0951c6009bb7dd6" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 이전에 손상된 미러 및 볼트 관계를 다시 설정할 수 있습니다. 역방향 재동기화 작업에서는 소스 볼륨과 타겟 볼륨의 기능이 반전됩니다. 소스를 복구 또는 교체하고 소스를 업데이트하고 시스템의 원래 구성을 다시 설정하는 동안 대상 볼륨을 사용하여 데이터를 제공할 수 있습니다.</block>
+  <block id="d39135bbda4e5047a54cca0689614d8f" category="doc">시스템 관리자 - ONTAP 9.7 이전 버전과의 볼트 관계를 다시 시작합니다</block>
+  <block id="3c428bd6f5566acb4c28884599bf5cff" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 정지된 볼트 관계를 재개할 수 있습니다. 관계를 재개하면 대상 FlexVol 볼륨에 대한 정상적인 데이터 전송이 재개되고 모든 볼트 작업이 다시 시작됩니다.</block>
+  <block id="8388d4a13ab57698a5224ad8bdbe742b" category="doc">시스템 관리자 - ONTAP 9.7 이전 버전과의 볼트 관계에서 볼륨 복원</block>
+  <block id="115d8c0acb5172464ab31dee9470acc0" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 소스 데이터가 손상되어 더 이상 사용할 수 없는 경우 소스 볼륨 또는 다른 볼륨으로 스냅샷 복사본을 복원할 수 있습니다. 원래 데이터를 타겟 볼륨의 스냅샷 복사본으로 대체할 수 있습니다.</block>
+  <block id="9c46fcf4193cc27f57e062a5cfbca4e7" category="doc">System Manager로 라이센스 추가 - ONTAP 9.7 이하</block>
+  <block id="b4a324d3ca1064db7f2646901a62eb2c" category="paragraph">출하 시 소프트웨어가 설치되지 않았거나 추가 소프트웨어 라이센스를 추가하려는 경우 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 소프트웨어 라이센스를 추가할 수 있습니다.</block>
+  <block id="fe8b3faa5a96053a132d3f57a58e12f1" category="paragraph">스토리지 시스템 소프트웨어가 출하 시 설치된 경우 System Manager는 자동으로 라이센스 목록에 소프트웨어를 추가합니다.</block>
+  <block id="598204bea84a425b3062a08d37f16547" category="doc">시스템 관리자 - ONTAP 9.7 이전 버전을 사용하여 미러 전송을 중단합니다</block>
+  <block id="d3e29f1540288a85f0960a5f58cb1f30" category="paragraph">데이터 전송이 완료되기 전에 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 볼륨 복제 작업을 중단할 수 있습니다. 예약된 업데이트, 수동 업데이트 또는 초기 데이터 전송을 중단할 수 있습니다.</block>
+  <block id="244f91d9d12bd9740caec32708a6b318" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 로컬 Windows 사용자 계정을 삭제합니다</block>
+  <block id="ce5ff83bcd1ab1b41de67636913d780c" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용할 수 있습니다. 사용자 계정이 SVM의 CIFS 서버에 대한 로컬 CIFS 인증을 위해 또는 SVM에 포함된 데이터에 대한 액세스 권한을 결정하는 데 더 이상 필요하지 않은 경우 SVM(스토리지 가상 시스템)에서 로컬 Windows 사용자 계정을 삭제하려면</block>
+  <block id="845e4f773bf2fd938fd9f7abbe76d11d" category="doc">미러 관계를 System Manager-ONTAP 9.7 이전과 재동기화합니다</block>
+  <block id="5c5eba880c02239001f4b222d1724c18" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 버전을 사용하면 이전에 파손된 미러 관계를 다시 설정할 수 있습니다. 재동기화 작업을 수행하여 소스 볼륨을 비활성화한 재재해에서 복구할 수 있습니다.</block>
+  <block id="4cfe8e7f20b3f6aa84c77b061d1df0fe" category="doc">System Manager - ONTAP 9.7 이하가 설치된 Windows 창</block>
+  <block id="56384d0058f4049f1a25b56477095e11" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 버전을 사용하여 Windows 창을 사용할 수 있습니다. Windows 창을 통해 클러스터의 각 SVM(스토리지 가상 머신)에 대한 로컬 Windows 사용자 및 그룹 목록을 유지할 수 있습니다. 로컬 Windows 사용자 및 그룹을 인증 및 이름 매핑에 사용할 수 있습니다.</block>
+  <block id="f2ee0f2878a7ea4f311d171d771d6b26" category="doc">시스템 관리자-ONTAP 9.7 이전 버전과의 볼트 관계를 업데이트합니다</block>
+  <block id="5b82e2713cfb8916eb2d29f19181f641" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 예약되지 않은 증분 업데이트를 수동으로 시작할 수 있습니다. 향후 정전, 예정된 유지보수 또는 데이터 마이그레이션으로 인한 데이터 손실을 방지하려면 수동 업데이트가 필요할 수 있습니다.</block>
+  <block id="548556d1faeba7eb8637f682210271a4" category="doc">System Manager-ONTAP 9.7 이하를 사용하는 로컬 UNIX 사용자 및 그룹</block>
+  <block id="ba30e9183e00613e181d1a9648c4d68c" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 SVM(스토리지 가상 머신)별로 로컬 UNIX 사용자 및 그룹 목록을 유지할 수 있습니다.</block>
+  <block id="da9328160e0d110b694b5ee04fd15dcc" category="doc">시스템 관리자 - ONTAP 9.7 이전 버전과의 볼트 관계를 초기화합니다</block>
+  <block id="fec24ee3dcf73c82d9b795514beb980c" category="paragraph">관계를 생성하는 동안 볼트 관계를 아직 초기화하지 않은 경우 ONTAP 시스템 관리자 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 볼트 관계를 초기화할 수 있습니다. 소스 FlexVol 볼륨에서 타겟 FlexVol 볼륨으로 기본 데이터 전송이 시작됩니다.</block>
+  <block id="2728c5c503ed3526a9c5c82ee2d862ad" category="doc">시스템 관리자 - ONTAP 9.7 이전 버전과의 볼트 관계를 편집합니다</block>
+  <block id="a05bae97cbda30a89351578dd63c58c2" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하면 클러스터에서 기존 정책 또는 일정을 선택하거나 새 정책 또는 일정을 만들어 볼트 관계를 편집할 수 있습니다. 그러나 기존 정책 또는 스케줄의 매개 변수는 편집할 수 없습니다.</block>
+  <block id="e00972bdf55dbd8d6817ccc7b7bd882e" category="doc">시스템 관리자-ONTAP 9.7 이전 버전과의 미러 및 볼트 관계를 중지합니다</block>
+  <block id="5d18e12d84ec51a00ddf7d35536cd47c" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 스냅샷 복사본을 생성하기 전에 타겟 볼륨을 정지하여 대상을 안정화할 수 있습니다. 일시 중지 작업을 수행하면 활성 데이터 전송이 완료되며 미러 및 볼트 관계에 대한 향후 전송이 비활성화됩니다.</block>
+  <block id="c7611e5724a43af42cd618696ddbde06" category="doc">시스템 관리자-ONTAP 9.7 이하 버전을 사용하여 미러 및 볼트 관계를 업데이트합니다</block>
+  <block id="348c7f611493f56a2e14dfb2a4d55799" category="doc">시스템 관리자-ONTAP 9.7 이전 버전을 사용하여 미러 및 볼트 관계의 볼륨을 복구합니다</block>
+  <block id="83ed915429df41c7b9156b8c6991f060" category="doc">시스템 관리자-ONTAP 9.7 이하를 사용하여 대상 SVM에서 미러링 및 소산 관계를 생성합니다</block>
+  <block id="5a1aeae3ca24aad60bedbba9c3361a53" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 타겟 SVM(스토리지 가상 머신)에서 미러링 및 소산 관계를 생성할 수 있습니다. 이 관계를 생성하면 소스 볼륨에서 대상 볼륨으로 데이터를 정기적으로 전송하여 데이터를 보다 안전하게 보호할 수 있습니다. 또한 소스 볼륨의 백업을 생성하여 데이터를 장기간 보존할 수도 있습니다.</block>
+  <block id="72a40f368bff858b4091b43eb7172fc7" category="doc">ONTAP 9.7 이전에서 System Manager로 SnapMirror 관계를 구축하십시오</block>
+  <block id="8cbc7e1408126f1ff5a2916af875f4bd" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하면 SnapMirror 관계를 끊을 수 있습니다. SnapMirror 소스를 사용할 수 없게 되고 클라이언트 애플리케이션이 미러 대상에서 데이터에 액세스할 수 있게 하려면 SnapMirror 관계를 끊어야 합니다. SnapMirror 관계가 손상되면 타겟 볼륨 유형이 "데이터 보호"(DP)에서 "읽기/쓰기"(RW)로 변경됩니다.</block>
+  <block id="58aa7c8a67f411fb22d80b3830bcd784" category="doc">시스템 관리자-ONTAP 9.7 이전 버전과의 미러 및 볼트 관계를 편집합니다</block>
+  <block id="2a5c883848e9cc772501982a7b32b9f0" category="paragraph">ONTAP 시스템 관리자 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 선택한 정책 또는 스케줄을 수정하여 미러 및 볼트 관계를 편집할 수 있습니다. 그러나 기존 정책 또는 스케줄의 매개 변수는 편집할 수 없습니다.</block>
+  <block id="1e4f433097152201c34a89a43b006635" category="doc">System Manager-ONTAP 9.7 이하와 중지된 미러 관계를 재개합니다</block>
+  <block id="1996f4fb463ea1c709660660d37eb896" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하여 중지된 미러 관계를 다시 시작할 수 있습니다. 관계를 재개하면 미러 대상에 대한 정상적인 데이터 전송이 재개되고 모든 미러 작업이 다시 시작됩니다.</block>
+  <block id="94b62c27be996324d0173ca83ba2629b" category="doc">System Manager와 이름 매핑 - ONTAP 9.7 이전 버전</block>
+  <block id="cee4c228dbc1bd4065b40bb31f18464c" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 이름 매핑 항목을 지정하여 다른 플랫폼의 사용자를 매핑할 수 있습니다.</block>
+  <block id="706d088ecb014b185975448770e848fa" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 SVM(스토리지 가상 시스템) 사용자 계정을 만들고 관리합니다</block>
+  <block id="9dd1a3bc9b77bce7cd8a13454090a064" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 SVM(스토리지 가상 시스템) 사용자 계정을 만들고 관리할 수 있습니다.</block>
+  <block id="45a11fec0e7239fbcf37cef2902890d3" category="doc">미러 관계를 System Manager-ONTAP 9.7 이전과 역으로 재동기화합니다</block>
+  <block id="e04d733170c775fa5ecebcaa3ee8a458" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 버전을 사용하면 이전에 손상된 미러 관계를 다시 설정할 수 있습니다. 역방향 재동기화 작업에서는 소스 볼륨과 타겟 볼륨의 기능을 반대로 전환합니다.</block>
+  <block id="d40cfc39f79f1537f0808a3b5576751a" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 대상 SVM에서 미러링 관계를 생성합니다</block>
+  <block id="b77843c3f8ae61a4d70a598fdb4c0c1e" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 타겟 SVM(스토리지 가상 머신)에서 미러 관계를 생성하고 정책과 일정을 미러 관계에 할당할 수 있습니다. 미러 복제본을 사용하면 소스 볼륨의 데이터가 손상되거나 손실된 경우 데이터를 빠르게 사용할 수 있습니다.</block>
+  <block id="eb1d31c51189f9c044e0d58aeef738ca" category="doc">시스템 관리자-ONTAP 9.7 이전 버전과의 미러 및 볼트 관계를 재동기화합니다</block>
+  <block id="f9ea1b5aa775cb6f0ce37c0625586896" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)을 사용하여 이전에 깨진 미러 및 볼트 관계를 다시 설정할 수 있습니다. 재동기화 작업을 수행하여 소스 볼륨을 비활성화한 재재해에서 복구할 수 있습니다.</block>
+  <block id="7b636060a1edee9c18093390f42f6441" category="paragraph"><block ref="7b636060a1edee9c18093390f42f6441" category="inline-link-macro-rx"></block></block>
+  <block id="c6fe2141832d99780af18d450524ad03" category="paragraph"><block ref="c6fe2141832d99780af18d450524ad03" category="inline-link-macro-rx"></block></block>
 </blocks>

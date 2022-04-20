@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: delete, vault, relationship, system, manager, online, help, snapshot, copy 
 summary: System Manager를 사용하여 소스 볼륨과 타겟 볼륨 간의 볼트 관계를 엔드하고 소스에서 스냅샷 복사본을 릴리즈할 수 있습니다. 
 ---
-= 볼트 관계를 삭제하는 중입니다
+= 시스템 관리자 - ONTAP 9.7 이전 버전과의 볼트 관계를 삭제합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하여 소스 볼륨과 타겟 볼륨 간의 볼트 관계를 엔드하고 소스에서 스냅샷 복사본을 릴리즈할 수 있습니다.
+ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)을 사용하면 소스 볼륨과 타겟 볼륨 간의 볼트 관계를 맺고 소스에서 스냅샷 복사본을 릴리즈할 수 있습니다.
 
 관계를 해제하면 소스 볼륨의 볼트 관계에 사용되는 기본 스냅샷 복사본이 영구적으로 제거됩니다. 볼트 관계를 다시 작성하려면 CLI(명령줄 인터페이스)를 사용하여 소스 볼륨에서 재동기화 작업을 실행해야 합니다.
 

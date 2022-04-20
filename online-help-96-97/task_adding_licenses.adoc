@@ -4,14 +4,16 @@ sidebar: sidebar
 keywords: system, manager, add, license, storage, software, online, help 
 summary: 스토리지 시스템 소프트웨어가 출하 시 설치된 경우 System Manager는 자동으로 라이센스 목록에 소프트웨어를 추가합니다. 소프트웨어가 출하 시 설치되지 않았거나 추가 소프트웨어 라이센스를 추가하려는 경우 System Manager를 사용하여 소프트웨어 라이센스를 추가할 수 있습니다. 
 ---
-= 라이센스를 추가합니다
+= System Manager로 라이센스 추가 - ONTAP 9.7 이하
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-스토리지 시스템 소프트웨어가 출하 시 설치된 경우 System Manager는 자동으로 라이센스 목록에 소프트웨어를 추가합니다. 소프트웨어가 출하 시 설치되지 않았거나 추가 소프트웨어 라이센스를 추가하려는 경우 System Manager를 사용하여 소프트웨어 라이센스를 추가할 수 있습니다.
+출하 시 소프트웨어가 설치되지 않았거나 추가 소프트웨어 라이센스를 추가하려는 경우 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 소프트웨어 라이센스를 추가할 수 있습니다.
+
+스토리지 시스템 소프트웨어가 출하 시 설치된 경우 System Manager는 자동으로 라이센스 목록에 소프트웨어를 추가합니다.
 
 특정 ONTAP 서비스에 대한 소프트웨어 라이센스 코드를 사용할 수 있어야 합니다.
 

@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: resume, vault, relationship, online, help, system, manager, data, transfer 
 summary: System Manager를 사용하여 정지된 볼트 관계를 재개할 수 있습니다. 관계를 재개하면 대상 FlexVol 볼륨에 대한 정상적인 데이터 전송이 재개되고 모든 볼트 작업이 다시 시작됩니다. 
 ---
-= 볼트 관계를 다시 시작합니다
+= 시스템 관리자 - ONTAP 9.7 이전 버전과의 볼트 관계를 다시 시작합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하여 정지된 볼트 관계를 재개할 수 있습니다. 관계를 재개하면 대상 FlexVol 볼륨에 대한 정상적인 데이터 전송이 재개되고 모든 볼트 작업이 다시 시작됩니다.
+ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 정지된 볼트 관계를 재개할 수 있습니다. 관계를 재개하면 대상 FlexVol 볼륨에 대한 정상적인 데이터 전송이 재개되고 모든 볼트 작업이 다시 시작됩니다.
 
 .단계
 . 보호 * > * 볼륨 관계 * 를 클릭합니다.

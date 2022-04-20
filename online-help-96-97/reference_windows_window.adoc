@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: storage, virtual, machine, svm, cluster, online, help, user, tab, command, buttons, group 
 summary: 'Windows 창을 사용하여 클러스터의 각 SVM(스토리지 가상 머신)에 대한 로컬 Windows 사용자 및 그룹 목록을 유지할 수 있습니다. 로컬 Windows 사용자 및 그룹을 인증 및 이름 매핑에 사용할 수 있습니다.' 
 ---
-= Windows 창
+= System Manager - ONTAP 9.7 이하가 설치된 Windows 창
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-Windows 창을 사용하여 클러스터의 각 SVM(스토리지 가상 머신)에 대한 로컬 Windows 사용자 및 그룹 목록을 유지할 수 있습니다. 로컬 Windows 사용자 및 그룹을 인증 및 이름 매핑에 사용할 수 있습니다.
+ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 버전을 사용하여 Windows 창을 사용할 수 있습니다. Windows 창을 통해 클러스터의 각 SVM(스토리지 가상 머신)에 대한 로컬 Windows 사용자 및 그룹 목록을 유지할 수 있습니다. 로컬 Windows 사용자 및 그룹을 인증 및 이름 매핑에 사용할 수 있습니다.
 
 
 

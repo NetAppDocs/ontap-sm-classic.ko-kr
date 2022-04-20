@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: system, manager, update, mirror, vault, relationship, online, help 
 summary: System Manager를 사용하여 예약되지 않은 증분 업데이트를 수동으로 시작할 수 있습니다. 향후 정전, 예정된 유지보수 또는 데이터 마이그레이션으로 인한 데이터 손실을 방지하려면 수동 업데이트가 필요할 수 있습니다. 
 ---
-= 대칭 복사 및 볼트 관계 업데이트 중
+= 시스템 관리자-ONTAP 9.7 이하 버전을 사용하여 미러 및 볼트 관계를 업데이트합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하여 예약되지 않은 증분 업데이트를 수동으로 시작할 수 있습니다. 향후 정전, 예정된 유지보수 또는 데이터 마이그레이션으로 인한 데이터 손실을 방지하려면 수동 업데이트가 필요할 수 있습니다.
+ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 예약되지 않은 증분 업데이트를 수동으로 시작할 수 있습니다. 향후 정전, 예정된 유지보수 또는 데이터 마이그레이션으로 인한 데이터 손실을 방지하려면 수동 업데이트가 필요할 수 있습니다.
 
 미러 및 볼트 관계는 초기화되고 SnapMirrored 상태여야 합니다.
 

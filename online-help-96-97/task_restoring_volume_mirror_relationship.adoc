@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: restore, volume, mirror, relationship, snapmirror, online, help, system, manager 
 summary: 버전에 상관없이 미러 관계의 경우 소스 데이터가 손상되어 더 이상 사용할 수 없는 경우 System Manager를 사용하여 소스 볼륨 또는 다른 볼륨에 스냅샷 복사본을 복원할 수 있습니다. 원래 데이터를 타겟 볼륨의 스냅샷 복사본으로 대체할 수 있습니다. 
 ---
-= 미러 관계에서 볼륨 복구
+= 시스템 관리자-ONTAP 9.7 이전 버전과의 미러 관계에서 볼륨 복구
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-버전에 상관없이 미러 관계의 경우 소스 데이터가 손상되어 더 이상 사용할 수 없는 경우 System Manager를 사용하여 소스 볼륨 또는 다른 볼륨에 스냅샷 복사본을 복원할 수 있습니다. 원래 데이터를 타겟 볼륨의 스냅샷 복사본으로 대체할 수 있습니다.
+버전에 상관없이 미러 관계의 경우 ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 소스 데이터가 손상되거나 더 이상 사용할 수 없는 경우 소스 볼륨 또는 다른 볼륨에 스냅샷 복사본을 복원할 수 있습니다. 원래 데이터를 타겟 볼륨의 스냅샷 복사본으로 대체할 수 있습니다.
 
 .시작하기 전에
 * 소스 클러스터와 타겟 클러스터 또는 소스 볼륨과 타겟 볼륨이 포함된 노드에서 SnapMirror 라이센스가 활성화되어야 합니다.

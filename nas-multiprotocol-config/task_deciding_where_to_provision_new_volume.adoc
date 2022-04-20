@@ -26,10 +26,10 @@ link:task_creating_new_svm.md#["기본 SVM 생성"]
 
 * CIFS와 NFS를 모두 사용하도록 설정했지만 구성하지 않은 기존 SVM에서 볼륨을 프로비저닝하려는 경우 기존 SVM에 CIFS 및 NFS 액세스를 추가합니다.
 +
-link:concept_adding_nas_access_to_existing_svm.md#["기존 SVM에서 CIFS 및 NFS 액세스 추가"]
+link:concept_adding_nas_access_to_existing_svm.html["기존 SVM에서 CIFS 및 NFS 액세스 추가"]
 
 * CIFS 및 NFS 멀티 프로토콜 액세스용으로 완전히 구성된 기존 SVM에서 볼륨을 프로비저닝하고 싶은 경우, 볼륨을 직접 생성 및 구성할 수 있습니다.
 +
-link:task_creating_configuring_volume.md#["볼륨 생성 및 구성"]
+link:task_creating_configuring_volume.html["볼륨 생성 및 구성"]
 
 
