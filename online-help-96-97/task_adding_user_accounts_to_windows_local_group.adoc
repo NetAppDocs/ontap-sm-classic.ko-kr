@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: add, user, accounts, windows, local, group, active, directory, online, help 
 summary: 'System Manager를 사용하여 로컬 사용자, Active Directory 사용자 또는 Active Directory 그룹(사용자가 해당 그룹과 연결된 권한을 보유하도록 하려는 경우)을 Windows 로컬 그룹에 추가할 수 있습니다.' 
 ---
-= Windows 로컬 그룹에 사용자 계정을 추가합니다
+= System Manager - ONTAP 9.7 이하를 사용하여 Windows 로컬 그룹에 사용자 계정을 추가합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하여 로컬 사용자, Active Directory 사용자 또는 Active Directory 그룹(사용자가 해당 그룹과 연결된 권한을 보유하도록 하려는 경우)을 Windows 로컬 그룹에 추가할 수 있습니다.
+ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 로컬 사용자, Active Directory 사용자 또는 Active Directory 그룹을 Windows 로컬 그룹에 추가할 수 있습니다(해당 그룹과 연결된 권한을 사용자에게 부여하려는 경우).
 
 .시작하기 전에
 * 그룹에 사용자를 추가하려면 그룹이 있어야 합니다.

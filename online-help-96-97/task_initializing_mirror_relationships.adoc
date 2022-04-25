@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: initialize, mirror, relationship, baseline, transfer, online, help 
 summary: 미러 관계를 시작할 때는 해당 관계를 초기화해야 합니다. 관계 초기화는 소스 볼륨에서 대상으로 데이터의 전체 베이스라인 전송으로 구성됩니다. 미러 관계를 생성하는 동안 관계를 초기화하지 않은 경우 System Manager를 사용하여 미러 관계를 초기화할 수 있습니다. 
 ---
-= 미러 관계를 초기화하는 중입니다
+= System Manager-ONTAP 9.7 이하와 미러 관계를 초기화합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-미러 관계를 시작할 때는 해당 관계를 초기화해야 합니다. 관계 초기화는 소스 볼륨에서 대상으로 데이터의 전체 베이스라인 전송으로 구성됩니다. 미러 관계를 생성하는 동안 관계를 초기화하지 않은 경우 System Manager를 사용하여 미러 관계를 초기화할 수 있습니다.
+미러 관계를 시작할 때는 해당 관계를 초기화해야 합니다. 관계 초기화는 소스 볼륨에서 대상으로 데이터의 전체 베이스라인 전송으로 구성됩니다. ONTAP 9.7 이하에서 사용 가능한 ONTAP System Manager 클래식 기능을 사용하면 미러 관계를 생성하는 동안 관계를 아직 초기화하지 않은 경우 미러 관계를 초기화할 수 있습니다.
 
 .단계
 . 보호 * > * 볼륨 관계 * 를 클릭합니다.

@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: online, help, edit, local, windows, group, properties, active, directory 
 summary: System Manager를 사용하여 로컬 사용자, Active Directory 사용자 또는 Active Directory 그룹을 추가 및 제거하여 로컬 그룹 구성원 자격을 관리할 수 있습니다. 그룹에 할당된 권한과 그룹을 쉽게 식별할 수 있도록 그룹 설명을 수정할 수 있습니다. 
 ---
-= 로컬 Windows 그룹 속성 편집
+= System Manager - ONTAP 9.7 이하를 사용하여 로컬 Windows 그룹 속성을 편집합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager를 사용하여 로컬 사용자, Active Directory 사용자 또는 Active Directory 그룹을 추가 및 제거하여 로컬 그룹 구성원 자격을 관리할 수 있습니다. 그룹에 할당된 권한과 그룹을 쉽게 식별할 수 있도록 그룹 설명을 수정할 수 있습니다.
+ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 로컬 사용자, Active Directory 사용자 또는 Active Directory 그룹을 추가 및 제거하여 로컬 그룹 구성원 자격을 관리할 수 있습니다. 그룹에 할당된 권한과 그룹을 쉽게 식별할 수 있도록 그룹 설명을 수정할 수 있습니다.
 
 로컬 Windows 그룹에 구성원을 추가하거나 로컬 Windows 그룹에서 구성원을 제거할 때 다음 사항을 염두에 두어야 합니다.
 

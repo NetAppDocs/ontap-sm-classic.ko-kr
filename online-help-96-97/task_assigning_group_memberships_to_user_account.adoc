@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: online, help, assign, group, membership, user, account, online, help, system, manager 
 summary: 특정 그룹에 연결된 권한을 사용자에게 부여하려면 System Manager를 사용하여 사용자 계정에 그룹 구성원 자격을 할당할 수 있습니다. 
 ---
-= 사용자 계정에 그룹 구성원 자격 할당
+= System Manager - ONTAP 9.7 이하를 사용하여 사용자 계정에 그룹 구성원 자격을 할당합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-특정 그룹에 연결된 권한을 사용자에게 부여하려면 System Manager를 사용하여 사용자 계정에 그룹 구성원 자격을 할당할 수 있습니다.
+사용자가 특정 그룹과 연결된 권한을 가지려면 ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)을 사용하여 사용자 계정에 그룹 멤버쉽을 할당할 수 있습니다.
 
 .시작하기 전에
 * 그룹에 사용자를 추가하려면 그룹이 있어야 합니다.

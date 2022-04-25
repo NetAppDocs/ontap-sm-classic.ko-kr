@@ -3868,7 +3868,6 @@
   <block id="92216aa265077d6f614b1132ca4ace73" category="paragraph">세부 정보 영역에는 선택한 일정이 실행되는 시간에 대한 정보가 표시됩니다.</block>
   <block id="8ce995370c9e714eb5c14a96b94ad814" category="summary">System Manager를 사용하여 로컬 사용자, Active Directory 사용자 또는 Active Directory 그룹(사용자가 해당 그룹과 연결된 권한을 보유하도록 하려는 경우)을 Windows 로컬 그룹에 추가할 수 있습니다.</block>
   <block id="d6b3e82d5d3d8841735df1e166044e95" category="doc">Windows 로컬 그룹에 사용자 계정을 추가합니다</block>
-  <block id="0564dbc035c43056e3635c928371a602" category="paragraph">System Manager를 사용하여 로컬 사용자, Active Directory 사용자 또는 Active Directory 그룹(사용자가 해당 그룹과 연결된 권한을 보유하도록 하려는 경우)을 Windows 로컬 그룹에 추가할 수 있습니다.</block>
   <block id="8de6ce1d147fcf43eaa9471632990795" category="list-text">그룹에 사용자를 추가하려면 그룹이 있어야 합니다.</block>
   <block id="aebd7c99d92cdaa04e7cf8e2704fe37b" category="list-text">사용자를 그룹에 추가하려면 사용자가 있어야 합니다.</block>
   <block id="c453c2ae57359c623decc0fd8b03ae1f" category="paragraph">로컬 Windows 그룹에 구성원을 추가할 때는 다음 사항을 염두에 두어야 합니다.</block>
@@ -5444,7 +5443,6 @@
   <block id="524a91ab8883b38a2a1617323e2d15c4" category="list-text">iSCSI * 창의 * 서비스 * 탭에서 * 편집 * 을 클릭합니다.</block>
   <block id="cb3b486ada0c2d1f1fdeec5074e2efdb" category="list-text">iSCSI 서비스 구성 편집 * 대화 상자의 * 대상 별칭 * 필드에 iSCSI 별칭을 입력한 다음 * 확인 * 을 클릭합니다.</block>
   <block id="cdca416bdc3d69f2edc7f12283194616" category="summary">System Manager를 사용하여 로컬 사용자, Active Directory 사용자 또는 Active Directory 그룹을 추가 및 제거하여 로컬 그룹 구성원 자격을 관리할 수 있습니다. 그룹에 할당된 권한과 그룹을 쉽게 식별할 수 있도록 그룹 설명을 수정할 수 있습니다.</block>
-  <block id="50f5d074df8e2b372c9d565c9a3e877d" category="paragraph">System Manager를 사용하여 로컬 사용자, Active Directory 사용자 또는 Active Directory 그룹을 추가 및 제거하여 로컬 그룹 구성원 자격을 관리할 수 있습니다. 그룹에 할당된 권한과 그룹을 쉽게 식별할 수 있도록 그룹 설명을 수정할 수 있습니다.</block>
   <block id="9f527bf76f30148a40343c0526b8e1e5" category="paragraph">로컬 Windows 그룹에 구성원을 추가하거나 로컬 Windows 그룹에서 구성원을 제거할 때 다음 사항을 염두에 두어야 합니다.</block>
   <block id="b5c8d2634d49789495b71d677a5e7e2d" category="list-text">special_everyone_group에 사용자를 추가하거나 이 그룹에서 사용자를 제거할 수 없습니다.</block>
   <block id="71da504c4c1b677d770fba449511d7fc" category="list-text">그룹 * 탭에서 * 편집 * 을 클릭합니다.</block>
@@ -6304,7 +6302,6 @@
   <block id="0ebba1c780c0912daef9ef93708f39ed" category="list-text">More Actions * &gt; * Change status to * 를 클릭한 다음 필요한 상태를 선택하여 FlexCache 볼륨 상태를 업데이트합니다.</block>
   <block id="d5ac459ab7890d1381a2088deab22918" category="paragraph">FlexCache 볼륨을 오프라인으로 전환하고 상태를 "제한됨"으로 변경하려면 먼저 볼륨을 마운트 해제해야 합니다.</block>
   <block id="136dd5d0414a62d4b3656dd07d0e3ed5" category="summary">기존 사용자의 전체 이름 또는 설명을 변경하거나 사용자 계정을 활성화 또는 비활성화하려는 경우 System Manager를 사용하여 로컬 Windows 사용자 계정을 수정할 수 있습니다. 사용자 계정에 할당된 그룹 구성원을 수정할 수도 있습니다.</block>
-  <block id="868c5f63dfaa98d3d0269baf4d958a21" category="paragraph">기존 사용자의 전체 이름 또는 설명을 변경하거나 사용자 계정을 활성화 또는 비활성화하려면 System Manager를 사용하여 로컬 Windows 사용자 계정을 수정할 수 있습니다. 사용자 계정에 할당된 그룹 구성원을 수정할 수도 있습니다.</block>
   <block id="29085bd39c9a2ab55bafef6a551bde17" category="list-text">사용자 * 탭에서 * 편집 * 을 클릭합니다.</block>
   <block id="a292e6b20e984807fe7fc7fbab57a006" category="list-text">Modify User * (사용자 수정 *) 창에서 필요한 내용을 변경합니다.</block>
   <block id="91650f5965ba3fed5dc9af6ebcf68e26" category="paragraph">로컬 Windows 사용자 계정의 속성이 수정되어 * 사용자 * 탭에 표시됩니다.</block>
@@ -7586,7 +7583,6 @@
   <block id="62f1eca35a9688061f8f804469c85342" category="paragraph">스토리지 풀의 할당 유닛이 아직 할당되지 않은 경우 해당 스토리지 풀에 SSD를 추가해도 SSD 캐시 크기는 영향을 받지 않습니다.</block>
   <block id="593a96f8d3378c543eb184569368e16c" category="paragraph">기존 스토리지 풀에 SSD를 추가할 경우 SSD는 스토리지 풀에서 기존 SSD를 소유한 동일한 HA 쌍 중 하나 또는 둘 이상이 SSD를 소유해야 합니다. HA Pair의 노드 중 하나에서 소유하는 SSD를 추가할 수 있습니다.</block>
   <block id="f370a4a148925079b15117f7cd76fe2d" category="summary">데이터 전송을 중지하려면 볼륨 복제 작업을 중단할 수 있습니다. 예약된 업데이트, 수동 업데이트 또는 초기 데이터 전송을 중단할 수 있습니다.</block>
-  <block id="02ae21f4b0ddb0676206c2c495690f3d" category="doc">대칭 복사 및 볼트 관계를 중단합니다</block>
   <block id="e7413b72328d779c799ba2723d5ad558" category="list-text">데이터 전송을 중지할 미러 및 볼트 관계를 선택한 다음 * 운영 * &gt; * 중단 * 을 클릭합니다.</block>
   <block id="2ded840bb0d149049d94d6cc27cd4eb9" category="summary">System Manager를 사용하여 홈 디렉토리 공유를 생성하고 홈 디렉토리 검색 경로를 관리할 수 있습니다.</block>
   <block id="c6d1ab85546f960ef1908682152ddb98" category="doc">홈 디렉토리 공유를 생성합니다</block>
@@ -9454,4 +9450,34 @@
   <block id="f9ea1b5aa775cb6f0ce37c0625586896" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)을 사용하여 이전에 깨진 미러 및 볼트 관계를 다시 설정할 수 있습니다. 재동기화 작업을 수행하여 소스 볼륨을 비활성화한 재재해에서 복구할 수 있습니다.</block>
   <block id="7b636060a1edee9c18093390f42f6441" category="paragraph"><block ref="7b636060a1edee9c18093390f42f6441" category="inline-link-macro-rx"></block></block>
   <block id="c6fe2141832d99780af18d450524ad03" category="paragraph"><block ref="c6fe2141832d99780af18d450524ad03" category="inline-link-macro-rx"></block></block>
+  <block id="7fc9d2dac7a3691a556388235669f20b" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 로컬 Windows 사용자 계정을 생성합니다</block>
+  <block id="9b2dd0ee538f3cddaa6439a695abe2c2" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 SMB 연결을 통해 SVM(스토리지 가상 시스템)에 포함된 데이터에 대한 액세스 권한을 부여하는 데 사용할 수 있는 로컬 Windows 사용자 계정을 만들 수 있습니다. CIFS 세션을 생성할 때 인증에 로컬 Windows 사용자 계정을 사용할 수도 있습니다.</block>
+  <block id="78ea6627cbe9ebae6d874bc681df76f6" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 Windows 로컬 그룹에 사용자 계정을 추가합니다</block>
+  <block id="3a7f7d9913063f7ef0a2e90629eb8ad8" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 로컬 사용자, Active Directory 사용자 또는 Active Directory 그룹을 Windows 로컬 그룹에 추가할 수 있습니다(해당 그룹과 연결된 권한을 사용자에게 부여하려는 경우).</block>
+  <block id="f11fdf178e9f4a585ed4c804386ba193" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 로컬 Windows 그룹을 삭제합니다</block>
+  <block id="f6b214ba0427d69a51c88da91749df47" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용할 수 있습니다. 그룹이 SVM에 포함된 데이터에 대한 액세스 권한을 확인하거나 그룹 멤버에 SVM 사용자 권한(권한)을 할당하는 데 더 이상 필요하지 않은 경우 SVM(스토리지 가상 시스템)에서 로컬 Windows 그룹을 삭제하려면</block>
+  <block id="07fd8f3ebecaf5b0ee6df0eeaacf4cd1" category="doc">System Manager-ONTAP 9.7 이전 버전과의 미러 관계를 삭제합니다</block>
+  <block id="2add29dba3f579e7873ffccebda39883" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 기존 버전을 사용하면 미러 관계를 삭제하고 소스 볼륨과 타겟 볼륨 간의 미러 관계를 영구적으로 종료할 수 있습니다. 미러 관계가 삭제되면 소스 볼륨의 기본 스냅샷 복사본이 삭제됩니다.</block>
+  <block id="650ead9da4264c25a8ec4bac6caf3103" category="doc">System Manager-ONTAP 9.7 이하와 미러 관계를 초기화합니다</block>
+  <block id="2d257bc7ad7971ece9f3c5a9f7a360ab" category="paragraph">미러 관계를 시작할 때는 해당 관계를 초기화해야 합니다. 관계 초기화는 소스 볼륨에서 대상으로 데이터의 전체 베이스라인 전송으로 구성됩니다. ONTAP 9.7 이하에서 사용 가능한 ONTAP System Manager 클래식 기능을 사용하면 미러 관계를 생성하는 동안 관계를 아직 초기화하지 않은 경우 미러 관계를 초기화할 수 있습니다.</block>
+  <block id="54c694780bc0d73c45bd41e05288e37b" category="doc">System Manager - ONTAP 9.7 이전 버전을 사용하여 로컬 Windows 그룹의 이름을 바꿉니다</block>
+  <block id="eb95faffa28da69a4bf5e7047d2c7f4c" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 로컬 Windows 그룹의 이름을 변경하여 그룹을 더 쉽게 식별할 수 있습니다.</block>
+  <block id="665c825107a5830a82d2b69e5aeff554" category="doc">시스템 관리자-ONTAP 9.7 이전 버전과의 미러 및 볼트 관계를 중단합니다</block>
+  <block id="b182b9233296a73be3f27b870226b2af" category="paragraph">데이터 전송을 중지하려면 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 볼륨 복제 작업을 중단할 수 있습니다. 예약된 업데이트, 수동 업데이트 또는 초기 데이터 전송을 중단할 수 있습니다.</block>
+  <block id="af744edfa9643645796a3d01c80db4bc" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 사용자 계정에 그룹 구성원 자격을 할당합니다</block>
+  <block id="dc70272f593f6af1c12f7efe72a0e330" category="paragraph">사용자가 특정 그룹과 연결된 권한을 가지려면 ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)을 사용하여 사용자 계정에 그룹 멤버쉽을 할당할 수 있습니다.</block>
+  <block id="0d3bbe8b78353d5562dabcf969cc1dae" category="doc">System Manager-ONTAP 9.7 이하와 미러 관계를 업데이트합니다</block>
+  <block id="1eddf35781858e6d7b51ae77406277d1" category="paragraph">ONTAP 9.7 이전 버전에서 제공되는 ONTAP System Manager 클래식 기능을 사용하여 예정되지 않은 대상 미러 업데이트를 시작할 수 있습니다. 예정된 정전, 예약된 유지 관리 또는 데이터 마이그레이션으로 인한 데이터 손실을 방지하려면 수동 업데이트를 수행해야 할 수 있습니다.</block>
+  <block id="48eed03d602d577542605f9afa7f0012" category="doc">System Manager-ONTAP 9.7 이하와 미러 관계를 편집합니다</block>
+  <block id="e666de52884b241977ae2e4598f2e051" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 클러스터에서 기존 정책 또는 스케줄을 선택하거나 정책 또는 스케줄을 생성하여 미러 관계를 편집할 수 있습니다.</block>
+  <block id="a51dbb033d276fe1b15f5efb9a2e6916" category="doc">시스템 관리자-ONTAP 9.7 이전 버전과의 미러 관계를 중지합니다</block>
+  <block id="6b20144c3e0fa3b348c35e826c79a3f5" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 스냅샷 복사본을 생성하기 전에 미러 대상을 정지하여 안정화할 수 있습니다. 일시 중지 작업을 수행하면 활성 미러 전송이 완료되며 미러링 관계에 대한 향후 전송이 비활성화됩니다.</block>
+  <block id="85d0833b56faab64ea27240a6f082070" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 Windows 로컬 사용자의 암호를 재설정합니다</block>
+  <block id="55e67ad0368005cd9a055b4b179ef69e" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 Windows 로컬 사용자의 암호를 재설정할 수 있습니다. 예를 들어, 현재 암호가 손상되었거나 사용자가 암호를 잊어버린 경우 암호를 재설정할 수 있습니다.</block>
+  <block id="66a86df29a3df9220ad1f1c90164d7d6" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 로컬 Windows 사용자 속성을 편집합니다</block>
+  <block id="504f000909a925ba4f74f21133bc0319" category="paragraph">기존 사용자의 전체 이름 또는 설명을 변경하거나 사용자 계정을 사용 또는 사용하지 않도록 설정하려는 경우 ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)을 사용하여 로컬 Windows 사용자 계정을 수정할 수 있습니다. 사용자 계정에 할당된 그룹 구성원을 수정할 수도 있습니다.</block>
+  <block id="d839a28bf3542d56602749c26fa7c3f0" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 로컬 Windows 그룹 속성을 편집합니다</block>
+  <block id="9f7846eb6b93be23ec56786e828ee53e" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 로컬 사용자, Active Directory 사용자 또는 Active Directory 그룹을 추가 및 제거하여 로컬 그룹 구성원 자격을 관리할 수 있습니다. 그룹에 할당된 권한과 그룹을 쉽게 식별할 수 있도록 그룹 설명을 수정할 수 있습니다.</block>
+  <block id="1721ba418668b0e222dfb8cb45448455" category="doc">System Manager - ONTAP 9.7 이전 버전을 사용하여 로컬 Windows 사용자의 이름을 바꿉니다</block>
+  <block id="d39d06fa99b2894ced6d109c0b410699" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 로컬 Windows 사용자 계정의 이름을 변경하여 로컬 사용자를 보다 쉽게 식별할 수 있습니다.</block>
 </blocks>
