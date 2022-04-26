@@ -1,28 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_mirror_relationships.html 
-sidebar: sidebar 
-keywords: delete, mirror, relationships, online, help, snapshot, copy 
-summary: 미러 관계를 삭제하고 소스 볼륨과 타겟 볼륨 간의 미러 관계를 영구적으로 종료할 수 있습니다. 미러 관계가 삭제되면 소스 볼륨의 기본 스냅샷 복사본이 삭제됩니다. 
+redirect: ontap-sm-classic/online-help-96-97/task_editing_mirror_relationships.html 
 ---
-= System Manager-ONTAP 9.7 이전 버전과의 미러 관계를 삭제합니다
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
-[role="lead"]
-ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 기존 버전을 사용하면 미러 관계를 삭제하고 소스 볼륨과 타겟 볼륨 간의 미러 관계를 영구적으로 종료할 수 있습니다. 미러 관계가 삭제되면 소스 볼륨의 기본 스냅샷 복사본이 삭제됩니다.
-
-관계를 삭제하기 전에 미러 관계를 끊는 것이 좋습니다.
-
-.단계
-. 보호 * > * 볼륨 관계 * 를 클릭합니다.
-. 삭제할 미러 관계를 선택하고 * 삭제 * 를 클릭합니다.
-. 확인 확인란을 선택하여 미러 관계를 삭제하고 기본 스냅샷 복사본을 해제한 다음 * 삭제 * 를 클릭합니다.
-
-
-관계가 삭제되고 소스 볼륨의 기본 스냅샷 복사본이 삭제됩니다.
-
-* 관련 정보 *
-
-xref:reference_protection_window.adoc[보호 윈도우]

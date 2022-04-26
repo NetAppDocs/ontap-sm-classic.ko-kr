@@ -1,24 +1,8 @@
 ---
 permalink: online-help-96-97/task_quiescing_vault_relationships.html 
-sidebar: sidebar 
-keywords: system, manager, online, help, quiescing, vault, relationship, data, transfer, flexvol 
-summary: 볼트 관계를 중지하여 시스템 관리자를 사용하여 대상 FlexVol 볼륨에 대한 데이터 전송을 비활성화할 수 있습니다. 
+redirect: ontap-sm-classic/online-help-96-97/task_editing_vault_relationships.html 
 ---
-= 시스템 관리자 - ONTAP 9.7 이전 버전과의 볼트 관계를 중지합니다
+= 
 :allow-uri-read: 
 
 
-[role="lead"]
-볼트 관계를 중지하여 ONTAP 시스템 관리자 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 대상 FlexVol 볼륨으로의 데이터 전송을 비활성화할 수 있습니다.
-
-.단계
-. 보호 * > * 볼륨 관계 * 를 클릭합니다.
-. 예약된 데이터 전송을 중지할 관계를 선택하고 * 작업 * > * 정지 * 를 클릭합니다.
-. 정지 * 창에서 * 정지 * 를 클릭합니다.
-
-
-진행 중인 전송이 없으면 전송 상태가 중지 로 표시됩니다. 전송이 진행 중인 경우 전송은 영향을 받지 않으며 전송이 완료될 때까지 전송 상태가 정지 상태로 표시됩니다.
-
-* 관련 정보 *
-
-xref:reference_protection_window.adoc[보호 윈도우]

@@ -1,27 +1,8 @@
 ---
 permalink: online-help-96-97/task_quiescing_mirror_relationships.html 
-sidebar: sidebar 
-keywords: quiesce, mirror, relationship, system, manager, online, help 
-summary: System Manager를 사용하여 스냅샷 복사본을 생성하기 전에 미러 대상을 중지하여 안정화할 수 있습니다. 일시 중지 작업을 수행하면 활성 미러 전송이 완료되며 미러링 관계에 대한 향후 전송이 비활성화됩니다. 
+redirect: ontap-sm-classic/online-help-96-97/task_editing_mirror_relationships.html 
 ---
-= 시스템 관리자-ONTAP 9.7 이전 버전과의 미러 관계를 중지합니다
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
-[role="lead"]
-ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 스냅샷 복사본을 생성하기 전에 미러 대상을 정지하여 안정화할 수 있습니다. 일시 중지 작업을 수행하면 활성 미러 전송이 완료되며 미러링 관계에 대한 향후 전송이 비활성화됩니다.
-
-SnapMirrored 상태인 미러 관계만 중지할 수 있습니다.
-
-.단계
-. 보호 * > * 볼륨 관계 * 를 클릭합니다.
-. 일시 중지할 미러 관계를 선택합니다.
-. 작업 * > * 정지 * 를 클릭합니다.
-. 확인 확인란을 선택하고 * 정지 * 를 클릭합니다.
-
-
-* 관련 정보 *
-
-xref:reference_protection_window.adoc[보호 윈도우]
