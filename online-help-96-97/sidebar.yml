@@ -40,27 +40,10 @@ entries:
   url: "/online-help-96-97/task_configuring_system_manager_options.html"
 - title: ONTAP 시스템 관리자 로그 파일을 봅니다
   url: "/online-help-96-97/task_viewing_system_manager_log_files.html"
-- title: System Manager를 사용하여 클러스터를 구성합니다
-  url: "/online-help-96-97/concept_configuring_cluster_by_using_system_manager.html"
-  entries:
-  - title: ONTAP System Manager의 브라우저 기반 그래픽 인터페이스를 사용하여 클러스터에 액세스합니다
-    url: "/online-help-96-97/task_accessing_cluster_by_using_system_manager_brower_based_gui.html"
 - title: 클러스터를 설정합니다
   entries:
-  - title: 클러스터 이름을 업데이트합니다
+  - title: 클러스터를 설정합니다
     url: "/online-help-96-97/task_updating_cluster_name.html"
-  - title: 클러스터 암호를 변경합니다
-    url: "/online-help-96-97/task_changing_password.html"
-  - title: DNS 구성을 편집합니다
-    url: "/online-help-96-97/task_editing_dns_configurations.html"
-  - title: 클러스터 관리 논리 인터페이스를 생성합니다
-    url: "/online-help-96-97/task_creating_cluster_management_logical_interface.html"
-  - title: 노드 이름을 편집합니다
-    url: "/online-help-96-97/task_editing_node_name.html"
-  - title: 노드 관리 논리 인터페이스를 생성합니다
-    url: "/online-help-96-97/task_creating_node_management_logical_interface.html"
-  - title: AutoSupport 설정을 편집합니다
-    url: "/online-help-96-97/task_editing_autosupport_settings.html"
   - title: 라이센스를 추가합니다
     url: "/online-help-96-97/task_adding_licenses.html"
   - title: 클러스터의 시간대 설정
@@ -77,17 +60,6 @@ entries:
     url: "/online-help-96-97/task_zeroing_disks.html"
   - title: 애그리게이트를 통한 스토리지 프로비저닝
     url: "/online-help-96-97/task_provisioning_storage_through_aggregates.html"
-    entries:
-    - title: 스토리지 권장 사항을 기반으로 애그리게이트를 생성하여 스토리지 프로비저닝
-      url: "/online-help-96-97/task_provisioning_storage_by_creating_aggregate_based_on_storage_recommendations.html"
-    - title: 수동으로 애그리게이트를 생성하여 스토리지 용량 할당
-      url: "/online-help-96-97/task_provisioning_storage_by_creating_aggregate_manually.html"
-    - title: Flash Pool Aggregate를 수동으로 생성하여 스토리지 프로비저닝
-      url: "/online-help-96-97/task_provisioning_storage_by_creating_flash_pool_aggregate_manually.html"
-    - title: SnapLock 애그리게이트를 수동으로 생성하여 스토리지 용량 할당
-      url: "/online-help-96-97/task_provisioning_storage_by_creating_snaplock_aggregate_manually.html"
-    - title: FabricPool 지원 애그리게이트를 수동으로 생성하여 스토리지 프로비저닝
-      url: "/online-help-96-97/task_provisioning_storage_creating_fabricpool_enabled_aggregate_manually_delete.html"
 - title: SVM을 생성합니다
   url: "/online-help-96-97/task_creating_svms.html"
   entries:
@@ -110,24 +82,10 @@ entries:
 - title: 피어링을 설정합니다
   url: "/online-help-96-97/task_setting_up_peering.html"
 - title: 클러스터 관리
-  url: "/online-help-96-97/concept_understanding_quorum_epsilon.html"
   entries:
-  - title: 쿼럼 및 epsilon 이해
-    url: "/online-help-96-97/concept_understanding_quorum_epsilon.html"
   - title: 대시보드 창
     url: "/online-help-96-97/reference_dashboard_window.html"
-    entries:
-    - title: 대시보드를 사용하여 클러스터를 모니터링합니다
-      url: "/online-help-96-97/task_monitoring_status_using_dashboard.html"
-  - title: 구성 업데이트
-    url: "/online-help-96-97/concept_configuration_update.html"
-    entries:
-    - title: SVM의 관리 세부 정보를 구성합니다
-      url: "/online-help-96-97/task_configuring_administration_details_svm.html"
-    - title: Configuration Updates(구성 업데이트) 창
-      url: "/online-help-96-97/reference_configuration_updates_window.html"
   - title: MetroCluster 전환 및 스위치백
-    url: "/online-help-96-97/concept_metrocluster_switchover_switchback.html"
     entries:
     - title: MetroCluster 전환 및 스위치백 워크플로우
       url: "/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html"
@@ -221,7 +179,6 @@ entries:
 - title: FC/FCoE 및 NVMe 어댑터
   url: "/online-help-96-97/concept_fc_fcoe_nvme_adapters.html"
 - title: 제공합니다
-  url: "/online-help-96-97/task_editing_aggregates.html"
   entries:
   - title: 애그리게이트 편집
     url: "/online-help-96-97/task_editing_aggregates.html"
@@ -593,8 +550,7 @@ entries:
   url: "/online-help-96-97/concept_roles_delete.html"
 - title: Unix
   url: "/online-help-96-97/concept_unix.html"
-- title: 로컬 Windows 그룹을 만듭니다
-  url: "/online-help-96-97/task_creating_local_user_group.html"
+- title: Windows
   entries:
   - title: 로컬 Windows 그룹을 만듭니다
     url: "/online-help-96-97/task_creating_local_user_group.html"
@@ -632,16 +588,8 @@ entries:
       url: "/online-help-96-97/task_creating_mirror_relationship_from_destination_svm.html"
     - title: 미러 관계를 삭제합니다
       url: "/online-help-96-97/task_deleting_mirror_relationships.html"
-    - title: 미러 관계 편집
+    - title: 미러 관계를 관리합니다
       url: "/online-help-96-97/task_editing_mirror_relationships.html"
-    - title: 미러 관계 초기화
-      url: "/online-help-96-97/task_initializing_mirror_relationships.html"
-    - title: 미러 관계를 업데이트합니다
-      url: "/online-help-96-97/task_updating_mirror_relationships.html"
-    - title: 미러 관계를 중지하는 중입니다
-      url: "/online-help-96-97/task_quiescing_mirror_relationships.html"
-    - title: 미러 관계를 재개합니다
-      url: "/online-help-96-97/task_resuming_mirror_relationships.html"
     - title: SnapMirror 관계 끊기
       url: "/online-help-96-97/task_breaking_snapmirror_relationships.html"
     - title: 미러 관계를 재동기화합니다

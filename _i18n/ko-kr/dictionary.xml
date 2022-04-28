@@ -4031,7 +4031,6 @@
   <block id="948b616f76b01641d846f08646960e00" category="paragraph">업데이트 전에 노드의 ONTAP 버전을 지정합니다.</block>
   <block id="c9022a1ef6b84d057204c5bb17f94c02" category="list-text">* 업데이트된 버전 *</block>
   <block id="ef439127acf0c0f9d631278ceba6641a" category="paragraph">업데이트 후 노드의 ONTAP 버전을 지정합니다.</block>
-  <block id="b9b83c03586f346b6fdd8afa94f2839d" category="doc">스토리지 권장 사항을 기반으로 애그리게이트를 생성하여 스토리지 프로비저닝</block>
   <block id="f527ab93e764b9b968cad6273c5a0f1c" category="list-text">Cloud Volumes ONTAP, ONTAP Select 및 MetroCluster 구성에서는 스토리지 권장 사항을 기반으로 애그리게이트를 생성할 수 없습니다.</block>
   <block id="3efcf0a9999f2a8e8d0650f90fe62f04" category="list-text">오류(있는 경우)가 화면에 표시됩니다.</block>
   <block id="e58728e95da676e6c26dd655adcf9ddc" category="paragraph">이러한 오류를 해결한 다음 스토리지 권장 사항을 기반으로 애그리게이트를 만들거나, 애그리게이트를 수동으로 생성할 수 있습니다.</block>
@@ -4402,7 +4401,6 @@
   <block id="2d05a868f48afbd61f8d8c530d5612cc" category="list-text">cron 일정 또는 간격 일정을 삭제합니다</block>
   <block id="4e9ebcc3904aedf65987288d06b49911" category="paragraph">실행 중인 작업에서 현재 사용 중인 스케줄은 삭제할 수 없습니다.</block>
   <block id="ddee7ab37edad340f70192fb7aceb260" category="paragraph">클러스터 관리자는 모든 스케줄 관리 작업을 수행할 수 있습니다.</block>
-  <block id="8018f4064283c55dfa6bfec30f453db2" category="doc">SnapLock 애그리게이트를 수동으로 생성하여 스토리지 용량 할당</block>
   <block id="38ef748223faace4d3330c24cb1484f8" category="paragraph">SnapLock 라이센스가 추가되어야 합니다.</block>
   <block id="77db25bdfb80aa1d0ccdedf1bf8c4811" category="list-text">MetroCluster 구성에서는 SnapLock 엔터프라이즈 애그리게이트만 생성할 수 있습니다.</block>
   <block id="7f2385194f8b9f77992e74007f1eba1c" category="list-text">어레이 LUN의 경우 SnapLock 엔터프라이즈 애그리게이트만 지원됩니다.</block>
@@ -5086,7 +5084,6 @@
   <block id="1a0e60b396368d749de38948ee95ca3b" category="list-text">필요에 따라 보호 정책, 보호 일정 및 소스 SVM 구성을 복사하는 옵션을 수정합니다.</block>
   <block id="bc88a52b6ac8d62d458729da8abf891a" category="inline-xref-macro">클라우드 계층에 애그리게이트 연결</block>
   <block id="b09154d8677c383c4d6e7064289a70d3" category="paragraph"><block ref="b09154d8677c383c4d6e7064289a70d3" category="inline-xref-macro-rx"></block></block>
-  <block id="c8442f81c4d3560c22f5b2789ad3322b" category="doc">SVM의 관리 세부 정보를 구성합니다</block>
   <block id="b7741109a9b1c061304a8da08dccc9de" category="paragraph">System Manager를 사용하면 SVM(스토리지 가상 시스템)의 관리 세부 정보를 빠르게 구성할 수 있습니다. 선택적으로 SVM 관리자에게 SVM 관리 권한을 위임할 수 있습니다.</block>
   <block id="aa672d71a085ada5e9a54f90f48abb5e" category="paragraph">SVM 관리자는 System Manager를 사용하여 위임된 SVM을 관리할 수 없습니다. CLI(Command-Line Interface)를 사용해서만 SVM을 관리할 수 있습니다.</block>
   <block id="849b25c65aab49d7e490a11d44d8fe93" category="list-text">SVM * 탭에서 노드를 선택한 다음 * 관리 세부 정보 구성 * 을 클릭합니다.</block>
@@ -6165,7 +6162,6 @@
   <block id="5baafab505d4d55220ba92160de4bc45" category="paragraph">ONTAP 시스템과 SolidFire 스토리지 시스템 간의 미러 관계를 분리할 수 있습니다.</block>
   <block id="dafc10282deacb64a877e232ac1efd06" category="list-text">분리하려는 대칭 복사 및 볼트 관계를 선택한 다음 * 작업 * &gt; * 분리 * 를 클릭합니다.</block>
   <block id="deb149c0aa84e56507515ce3259f5b05" category="paragraph">대칭 복사 및 볼트 관계가 손상되었습니다. 타겟 볼륨 유형이 데이터 보호(DP)에서 읽기 전용으로 읽기/쓰기로 변경됩니다. 시스템은 나중에 사용할 수 있도록 미러 및 볼트 관계의 기본 스냅샷 복사본을 저장합니다.</block>
-  <block id="44d0299d0fc31a880b954ccc657a0d6e" category="doc">수동으로 애그리게이트를 생성하여 스토리지 용량 할당</block>
   <block id="97dba5acf15587b71ee98a554fe289f3" category="paragraph">모든 디스크의 크기가 같아야 합니다.</block>
   <block id="00a75fb35e6e77311b62e8e94339e5e0" category="list-text">ONTAP Select에서 4노드 클러스터에 애그리게이트를 생성하는 경우, 미러링된 애그리게이트 옵션이 기본적으로 선택됩니다.</block>
   <block id="00e5021250b8b5eb737448724650f488" category="list-text">Aggregate를 생성하려면:</block>
@@ -6341,7 +6337,6 @@
   <block id="ffd57eb9ed3d46c61bc111b1c4d91f5a" category="paragraph">역할 목록에는 사용자에게 할당할 수 있는 역할 목록이 제공됩니다.</block>
   <block id="f67d8d1b2d7a09b0885828b7dedcb2f3" category="section-title">역할 특성 영역</block>
   <block id="f7088a20371085576bb40bc2fadb0a08" category="paragraph">세부 정보 영역에는 선택한 역할이 액세스할 수 있는 명령 또는 명령 디렉터리, 액세스 수준 및 명령 또는 명령 디렉터리에 적용되는 쿼리와 같은 역할 특성이 표시됩니다.</block>
-  <block id="54acf068c9d0de4a69ed8d974205c201" category="doc">System Manager를 사용하여 클러스터를 구성합니다</block>
   <block id="0f1936a33cb31a39e597a795d7fe6ec8" category="paragraph">미러 및 볼트 관계는 초기화되고 SnapMirrored 상태여야 합니다.</block>
   <block id="fb5e019f9c42298f7f16f864e0e4f01e" category="list-text">데이터를 업데이트할 미러 관계를 선택한 다음 * 운영 * &gt; * 업데이트 * 를 클릭합니다.</block>
   <block id="66a90644b0ac4440d8fb12bcd3baa112" category="list-text">전송에 사용되는 네트워크 대역폭을 제한하려면 * 전송 대역폭 제한 * 을 선택하고 최대 전송 속도를 지정합니다.</block>
@@ -8570,8 +8565,6 @@
   <block id="3402829d82cf648c6f41ae5baff2b540" category="sidebar">SAML 인증을 비활성화합니다</block>
   <block id="4145d0d7fbcb0d29c794d65d3084cf6b" category="sidebar">피어링을 설정합니다</block>
   <block id="0d9029e785d6af991e53b31b279e9aa4" category="sidebar">클러스터 관리</block>
-  <block id="74722ab72582e7af7d62ece733b2150b" category="sidebar">쿼럼 및 epsilon 이해</block>
-  <block id="f06636b2346b63459f02015a51ae4972" category="sidebar">대시보드를 사용하여 클러스터를 모니터링합니다</block>
   <block id="af107aead5a30e669642736622e80e70" category="sidebar">응용 프로그램을 편집합니다</block>
   <block id="2a7744231308a439ef79ca3874bd7542" category="sidebar">응용 프로그램을 삭제합니다</block>
   <block id="38abf1a212acc0b67529e5ca8f89e640" category="sidebar">서비스 프로세서 설정을 편집합니다</block>
@@ -8726,10 +8719,6 @@
   <block id="747db15d84dfaabaf70d11952f46c2a0" category="sidebar">로컬 Windows 사용자 계정을 삭제합니다</block>
   <block id="f14e71e7e0d11fd8ae3de32514c9cf0f" category="sidebar">데이터 보호 관리</block>
   <block id="bda77c175f764372331084b2a8e075aa" category="sidebar">미러 관계를 삭제합니다</block>
-  <block id="523b28a3bedda7bafa50e18fa254efab" category="sidebar">미러 관계 편집</block>
-  <block id="4872f9b976228a8ab5b57af5b65359a7" category="sidebar">미러 관계 초기화</block>
-  <block id="d780ef1cd072d3fa5780c148229ff679" category="sidebar">미러 관계를 업데이트합니다</block>
-  <block id="5f8f5127cb94863d71f54c4c841dde93" category="sidebar">미러 관계를 재개합니다</block>
   <block id="d060c996508910ed3ad69c79e87e23af" category="sidebar">SnapMirror 관계 끊기</block>
   <block id="537ad555b4601753fd06527686eff90c" category="sidebar">미러 관계를 재동기화합니다</block>
   <block id="4bc208bafdebbad7e8d3a1fd96045f3e" category="sidebar">미러 전송을 중단합니다</block>
@@ -9453,4 +9442,5 @@
   <block id="f3f3b96d8274242da43a2f42e804cad6" category="section-title">관계를 다시 동기화합니다</block>
   <block id="94abed87672787fb153772c9fb63614e" category="section-title">관계 끊기</block>
   <block id="14a98e8a343b35168e84061fb6deab29" category="paragraph">중지된 미러 및 볼트 관계가 있는 경우 System Manager를 사용하여 관계를 다시 시작할 수 있습니다. 관계를 재개하면 대상 볼륨에 대한 정상적인 데이터 전송이 재개되고 모든 보호 작업이 다시 시작됩니다.</block>
+  <block id="5a1525d50d3d3d93a88bf7e478ee0f10" category="sidebar">미러 관계를 관리합니다</block>
 </blocks>
