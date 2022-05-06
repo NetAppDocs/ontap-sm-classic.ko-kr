@@ -9443,4 +9443,10 @@
   <block id="94abed87672787fb153772c9fb63614e" category="section-title">관계 끊기</block>
   <block id="14a98e8a343b35168e84061fb6deab29" category="paragraph">중지된 미러 및 볼트 관계가 있는 경우 System Manager를 사용하여 관계를 다시 시작할 수 있습니다. 관계를 재개하면 대상 볼륨에 대한 정상적인 데이터 전송이 재개되고 모든 보호 작업이 다시 시작됩니다.</block>
   <block id="5a1525d50d3d3d93a88bf7e478ee0f10" category="sidebar">미러 관계를 관리합니다</block>
+  <block id="b7ec724705dfb51c3e3d8c7338ee51cc" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 보호 정책을 관리합니다</block>
+  <block id="121e126ccb3ed9f1bd655bd54fdcda6f" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 보호 정책을 생성, 편집 및 삭제할 수 있습니다.</block>
+  <block id="811e46b365614dad2afccbb5744217f7" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 스냅샷 정책을 관리합니다</block>
+  <block id="92526cba00250769d0d0d584b6d93ce4" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 방식을 사용하여 스토리지 시스템에서 스냅샷 정책을 생성하고 관리할 수 있습니다.</block>
+  <block id="f3400c7c7f134d2f8f2f30b279b5c285" category="doc">System Manager로 스케줄 관리 - ONTAP 9.7 이하</block>
+  <block id="c934845b8edbac9b1640d3a858f83f4a" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 스토리지 시스템에서 스케줄을 생성하고 관리할 수 있습니다.</block>
 </blocks>
