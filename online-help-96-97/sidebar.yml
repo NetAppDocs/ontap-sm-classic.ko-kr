@@ -144,8 +144,6 @@ entries:
     url: "/online-help-96-97/task_updating_single_node_clusters.html"
   - title: 클러스터를 무중단으로 업데이트합니다
     url: "/online-help-96-97/task_updating_cluster_nondisruptively.html"
-  - title: 클러스터를 무중단으로 업데이트합니다
-    url: "/online-help-96-97/concept_how_you_update_cluster_nondisruptively.html"
   - title: Cluster Update 창
     url: "/online-help-96-97/reference_cluster_update_window.html"
 - title: 클러스터의 날짜 및 시간 설정입니다
@@ -200,8 +198,6 @@ entries:
     url: "/online-help-96-97/task_viewing_aggregate_information.html"
   - title: StorageGRID를 사용하는 경우 CA 인증서 설치
     url: "/online-help-96-97/task_installing_ca_certificate_if_you_use_storagegrid_webscale.html"
-  - title: FlexVol 볼륨 이동 방법
-    url: "/online-help-96-97/concept_how_moving_volume_works.html"
   - title: HDD를 혼합하여 사용할 수 있는 효율적인 ONTAP 디스크 유형을 사용하는 방법
     url: "/online-help-96-97/reference_effective_data_ontap_disk_types.html"
   - title: 호환되는 스페어 디스크입니다
@@ -210,10 +206,6 @@ entries:
     url: "/online-help-96-97/concept_how_system_manager_calculates_hot_spares.html"
   - title: 디스크 유형 및 디스크 RPM 표시 규칙
     url: "/online-help-96-97/concept_rules_for_mixing_disk_types_disk_rpms.html"
-  - title: 미러링된 데이터의 작동 방식
-    url: "/online-help-96-97/concept_how_mirrored_aggregates_work.html"
-  - title: FabricPool란 무엇인가
-    url: "/online-help-96-97/concept_what_fabricpool_is.html"
   - title: Aggregate 생성을 위한 스토리지 권장 사항입니다
     url: "/online-help-96-97/concept_storage_recommendations_for_creating_aggregates.html"
   - title: Storage Tiers 창
@@ -226,21 +218,14 @@ entries:
   url: "/online-help-96-97/concept_storage_pools.html"
 - title: 디스크를 노드에 다시 할당합니다
   url: "/online-help-96-97/task_reassigning_disks_to_nodes.html"
+- title: 디스크
   entries:
   - title: 디스크 정보를 봅니다
     url: "/online-help-96-97/task_viewing_disk_information.html"
   - title: ONTAP에서 디스크 유형을 보고하는 방법
     url: "/online-help-96-97/concept_how_ontap_reports_drive_types.html"
-  - title: 디스크에 필요한 최소 핫 스페어 수입니다
-    url: "/online-help-96-97/concept_minimum_number_hot_spares_you_should_have.html"
-  - title: 다중 디스크 캐리어 디스크에 대한 예비 요구 사항
-    url: "/online-help-96-97/concept_spare_requirements_for_multi_disk_carrier_disk_shelves.html"
-  - title: 멀티 디스크 캐리어 스토리지 쉘프의 쉘프 구성 요구사항
-    url: "/online-help-96-97/concept_shelf_configuration_requirements_for_multi_disk_carrier_disk_shelves.html"
   - title: 다중 디스크 캐리어를 제거해도 안전한지 확인합니다
     url: "/online-help-96-97/concept_how_to_determine_when_safe_to_remove_multi_disk_carrier.html"
-  - title: RAID 그룹의 크기를 조정할 때의 고려 사항
-    url: "/online-help-96-97/concept_considerations_for_sizing_raid_groups.html"
   - title: 디스크 창
     url: "/online-help-96-97/reference_disks_window.html"
 - title: 스토리지 LUN입니다
@@ -259,8 +244,6 @@ entries:
   url: "/online-help-96-97/concept_jobs.html"
 - title: Flash Pool 통계
   url: "/online-help-96-97/concept_flash_pool_statistics.html"
-- title: 논리적 스토리지 관리
-  url: "/online-help-96-97/concept_managing_logical_storage.html"
 - title: SVM 대시보드 창
   url: "/online-help-96-97/reference_svm_dashboard_window.html"
   entries:
@@ -278,8 +261,6 @@ entries:
     url: "/online-help-96-97/reference_managing_svms.html"
   - title: 파일 액세스를 추적하여 SVM의 액세스 오류를 진단합니다
     url: "/online-help-96-97/task_tracing_file_access_to_diagnose_access_errors_on_svms.html"
-  - title: SVM의 유형
-    url: "/online-help-96-97/concept_types_svms.html"
   - title: SVM을 사용하는 이유
     url: "/online-help-96-97/concept_why_you_use_svms.html"
   - title: ONTAP 네임 서비스 스위치 구성의 작동 방식
@@ -333,9 +314,6 @@ entries:
     url: "/online-help-96-97/task_running_deduplication_operations.html"
   - title: Aggregate 또는 노드 간에 FlexVol 볼륨 이동
     url: "/online-help-96-97/task_moving_flexvol_volumes_between_aggregates_or_nodes.html"
-    entries:
-    - title: 볼륨 이동을 위한 컷오버를 수동으로 트리거합니다
-      url: "/online-help-96-97/task_manually_triggering_cutover_phase.html"
   - title: 스토리지 QoS에 볼륨 할당
     url: "/online-help-96-97/task_assigning_volumes_to_storage_qos.html"
   - title: 소스 SVM에서 미러 관계를 생성합니다
@@ -376,28 +354,12 @@ entries:
     url: "/online-help-96-97/task_changing_status_flexcache_volume.html"
   - title: FlexCache 볼륨을 삭제합니다
     url: "/online-help-96-97/task_deleting_flexcache_volumes.html"
-  - title: NetApp 볼륨 암호화는 무엇인지 설명합니다
-    url: "/online-help-96-97/concept_what_netapp_volume_encryption_is.html"
-  - title: 스냅샷 구성
-    url: "/online-help-96-97/concept_snapshot_configuration.html"
   - title: FlexVol 볼륨에서 볼륨을 보장하는 방법
     url: "/online-help-96-97/concept_how_volume_guarantees_work_for_flexvol_volumes.html"
-  - title: FlexClone 볼륨 및 공간 보장
-    url: "/online-help-96-97/concept_flexclone_volumes_space_guarantees.html"
-  - title: '씬 프로비저닝: FlexVol 볼륨을 사용하여 효율성 향상'
-    url: "/online-help-96-97/concept_thin_provisioning_for_greater_efficiencies_using_flexvol_volumes.html"
   - title: FlexVol 볼륨에 공간 예약 사용
     url: "/online-help-96-97/concept_using_space_reservation_with_flexvol_volumes.html"
-  - title: 스토리지 효율성의 이점
-    url: "/online-help-96-97/concept_benefits_storage_efficiency.html"
-  - title: 데이터 압축 및 중복제거
-    url: "/online-help-96-97/concept_data_compression_deduplication.html"
-  - title: 데이터 중복 제거 사용 지침
-    url: "/online-help-96-97/reference_guidelines_for_using_deduplication.html"
   - title: 볼륨 크기 조정 옵션
     url: "/online-help-96-97/concept_options_for_resizing_volumes.html"
-  - title: 볼륨 이동 시 고려 사항
-    url: "/online-help-96-97/concept_considerations_when_moving_volumes.html"
   - title: 볼륨 창
     url: "/online-help-96-97/reference_volumes_window.html"
 - title: 접합 경로

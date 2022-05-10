@@ -1942,7 +1942,6 @@
   <block id="54858ad892c97f264ca1c890f5029ccf" category="list-text">클라우드 계층을 저장하려면 * 저장 * 을 클릭합니다.</block>
   <block id="c5c541bfd008ab19608ae3520ad088ea" category="list-text">Save and Attach Aggregate * 를 클릭하여 클라우드 계층을 저장하고 애그리게이트를 클라우드 계층에 연결합니다.</block>
   <block id="ea4618b7ed508a14c12bc3a263a32b44" category="inline-xref-macro">어떤 클라우드 계층 및 계층화 정책인지 설명합니다</block>
-  <block id="0d89860300e279906201fcfb05d7edd6" category="inline-xref-macro">FabricPool란 무엇인가</block>
   <block id="726b4e59527682b2bc07ee0fa12ecc2c" category="inline-xref-macro">StorageGRID를 사용하는 경우 CA 인증서 설치</block>
   <block id="614672e04c5f9810ff01479abf49808b" category="paragraph"><block ref="614672e04c5f9810ff01479abf49808b" category="inline-xref-macro-rx"></block></block>
   <block id="99cfed6e91f14b57a0591c36be1646fe" category="inline-xref-macro">Storage Tiers 창</block>
@@ -2554,7 +2553,6 @@
   <block id="c0a1d79467fdd8f3ec33f90066ab406a" category="list-text">LUN은 오프라인 상태여야 합니다.</block>
   <block id="b028ef8bf383823463023ed49b260328" category="list-text">LUN이 모든 이니시에이터 호스트에서 매핑 해제되어야 합니다.</block>
   <block id="63c2df86bcc87328b9b2969baefc5eb0" category="list-text">LUN 관리 * 탭에서 삭제할 LUN을 하나 이상 선택한 다음 * 삭제 * 를 클릭합니다.</block>
-  <block id="9d8ba5641aec18b49335b203bdd17a54" category="doc">멀티 디스크 캐리어 스토리지 쉘프의 쉘프 구성 요구사항</block>
   <block id="8e5808e4807e9c2015ea87d2f825d6a5" category="summary">System Manager를 사용하여 FlexClone 볼륨 및 상위 볼륨의 계층 구조를 볼 수 있습니다.</block>
   <block id="ecc065ee42a8092ce2b09b1fa5114371" category="doc">FlexClone 볼륨 계층 구조 보기</block>
   <block id="85e33fb4f75c02000524bf77eb13d004" category="list-text">볼륨 목록에서 필요한 볼륨을 선택합니다.</block>
@@ -2641,7 +2639,6 @@
   <block id="18b560242d11820a90a52fd376616aae" category="list-text">Advanced는 cron 스타일의 스케줄을 생성합니다.</block>
   <block id="85b46078a35291049ac1edfa07e75f35" category="paragraph">일정을 지정하지 않으려는 경우</block>
   <block id="a26531ddd22c342a5bd9860ea919b50d" category="paragraph">없음 * 을 선택합니다.</block>
-  <block id="7fb3ddff12cd6d01522fd9cea73a018c" category="doc">데이터 중복 제거 사용 지침</block>
   <block id="7bd49e7c9145d45e01f059d1cdb082e6" category="summary">SVM(스토리지 가상 시스템)에 포함된 데이터에 대한 액세스 권한을 확인하거나 그룹 멤버에 SVM 사용자 권한(권한)을 할당하는 데 그룹이 더 이상 필요하지 않은 경우 System Manager를 사용하여 스토리지 가상 시스템(SVM)에서 로컬 Windows 그룹을 삭제할 수 있습니다.</block>
   <block id="d3bd00e016659cf41f88b175f8e09b18" category="doc">로컬 Windows 그룹을 삭제하는 중입니다</block>
   <block id="1fd5520ffe7125a908bac57e7afb2eee" category="list-text">로컬 그룹을 제거하면 그룹의 구성원 기록이 제거됩니다.</block>
@@ -3158,7 +3155,6 @@
   <block id="2277b8069cb3696765e3c7b46d911d03" category="paragraph">이 옵션을 선택하면 요일, 시간 및 전송 간격만 지정할 수 있습니다.</block>
   <block id="16d9107626214a87c65191bdaf38fd80" category="list-text">* 고급 *</block>
   <block id="3a501d3a65994d497f5cb40fb393ac8c" category="paragraph">이 옵션을 선택하여 cron 스타일 일정을 지정할 수 있습니다.</block>
-  <block id="cff0da0bcc8cc16657e0dfad5d65178f" category="doc">씬 프로비저닝: FlexVol 볼륨을 사용하여 효율성 향상</block>
   <block id="be0c503ef2e4a31f74a30382169e28a7" category="summary">네트워크 창을 사용하여 서브넷, 네트워크 인터페이스, 이더넷 포트, 브로드캐스트 도메인 등의 네트워크 구성 요소 목록을 볼 수 있습니다. FC/FCoE 및 NVMe 어댑터, IPspace, 스토리지 시스템에서 이러한 구성요소를 생성, 편집 또는 삭제할 수 있습니다.</block>
   <block id="a5ede60043f381fbec4810d49c62a7e7" category="list-text">* 서브넷 *</block>
   <block id="da81ba3eaf4986a15914986c4214e913" category="paragraph">서브넷 목록을 보고 스토리지 시스템에서 서브넷을 생성, 편집 또는 삭제할 수 있습니다.</block>
@@ -3314,7 +3310,6 @@
   <block id="4df44b9db3ff6ad8b618c8bb6877022f" category="list-text">RAID 구성 변경 * 대화 상자에서 용량 디스크를 추가할 RAID 그룹을 지정합니다.</block>
   <block id="8089841c15756034fb7c83f3cc6945ee" category="paragraph">기본값인 모든 RAID 그룹을 특정 RAID 그룹 또는 새 RAID 그룹으로 변경할 수 있습니다.</block>
   <block id="8941ac7594748e8ec13686f25ab283fd" category="doc">데이터 보호 관계의 유형입니다</block>
-  <block id="066487aa2823f7e91f863763f577c676" category="doc">FlexClone 볼륨 및 공간 보장</block>
   <block id="3340d42c69ec6f9068da0130e9ae58f5" category="summary">System Manager를 사용하여 SnapLock 규정 준수 볼륨 또는 SnapLock 엔터프라이즈 볼륨을 생성할 수 있습니다. 볼륨을 생성할 때 보존 시간을 설정하고 볼륨의 데이터에 대해 WORM 상태 설정을 자동으로 수행할지 여부를 선택할 수도 있습니다.</block>
   <block id="d6924eb3fc002e6887b807992c19c42d" category="doc">SnapLock 볼륨을 생성합니다</block>
   <block id="e86a7dc140194ce7912a9e0a4e52ae31" category="list-text">SnapLock 라이센스가 설치되어 있어야 합니다.</block>
@@ -3991,7 +3986,6 @@
   <block id="305af65222ed3fff91f5c8bcdfe17162" category="doc">SNMP를 선택합니다</block>
   <block id="b66440280dff687ce62da251f703a0ac" category="list-text">Portsets * 탭에서 * Create * 를 클릭합니다.</block>
   <block id="a364a41a0503559d1b165067a0be84da" category="list-text">Create Portset * (포트 세트 생성 *) 대화 상자에서 프로토콜 유형을 선택합니다.</block>
-  <block id="05bb17d18c0f9c3d367fd30e255813d5" category="doc">스냅샷 구성</block>
   <block id="6bcc4f43595612e75cc42dbd0836ae93" category="summary">System Manager를 사용하여 Kerberos 영역 구성을 삭제할 수 있습니다.</block>
   <block id="b1ef8e367639f255e3a2af0c5c184314" category="list-text">Kerberos Realm* 창에서 삭제할 Kerberos 영역 구성을 하나 이상 선택한 다음 * 삭제 * 를 클릭합니다.</block>
   <block id="4c8a07a32916fa36257b1653a77e088e" category="summary">클러스터 업데이트 창을 사용하여 자동화된 클러스터 업데이트를 중단 없이 수행하거나 단일 노드 클러스터를 중단 없이 업데이트할 수 있습니다.</block>
@@ -4069,7 +4063,6 @@
   <block id="8e33bcb19b3ebee0d06e874b21519678" category="paragraph">다음 순서도는 스위치오버 및 스위치백 작업을 시작할 때 발생하는 단계와 프로세스를 보여줍니다.</block>
   <block id="d2433a156dea88c5bc9b3fe8dbe2183e" category="image-alt">스위치오버 스위치백 워크플로우</block>
   <block id="5874224252f9cf3d3fea759bc537dc53" category="summary">클러스터를 설정하려면 구성 정보 수집, 클러스터 관리 및 노드 관리 인터페이스 생성, 라이센스 추가, 클러스터 시간 설정, HA 쌍 모니터링 등이 포함됩니다.</block>
-  <block id="00f6ac827cdcb4be5c0756e897cdfe12" category="doc">RAID 그룹의 크기를 조정할 때의 고려 사항</block>
   <block id="72537f33d2af240bd41252245957df8c" category="summary">디스크는 ONTAP 소프트웨어를 사용하여 네이티브 디스크 쉘프에 액세스하는 스토리지 시스템을 위한 기본 스토리지 단위입니다. 어레이 LUN은 타사 스토리지 어레이가 ONTAP 소프트웨어를 실행하는 스토리지 시스템에 제공하는 스토리지의 기본 단위입니다.</block>
   <block id="c6d065291b330a09917495aa2f8690ad" category="doc">디스크 및 어레이 LUN 정보</block>
   <block id="a8f302e6ed78532825e7d09cf54ab7af" category="paragraph">ONTAP 소프트웨어를 사용하면 디스크 및 어레이 LUN에 소유권을 할당하고 이를 Aggregate에 추가할 수 있습니다. ONTAP 소프트웨어는 또한 디스크를 제거, 교체 및 삭제하는 등 다양한 방법으로 디스크를 관리할 수 있습니다. 어레이 LUN은 타사 스토리지 어레이에서 제공하기 때문에 어레이 LUN에 대한 다른 모든 관리 작업에는 타사 스토리지 시스템을 사용합니다.</block>
@@ -4268,7 +4261,6 @@
   <block id="3a486ea89194f35e3cbd9de21476fa8a" category="paragraph">스토리지 풀에서 할당된 캐시 RAID 그룹의 RAID 유형은 변경할 수 없습니다. 첫 번째 할당 유닛을 추가하기 전에 캐시에 대한 RAID 유형을 설정하며 나중에 RAID 유형을 변경할 수 없습니다.</block>
   <block id="d1198b05c90fad3e36fd86f67d14656e" category="paragraph">스토리지 풀을 생성하거나 기존 스토리지 풀에 SSD를 추가할 때 동일한 크기의 SSD를 사용해야 합니다. 장애가 발생하고 올바른 크기의 스페어 SSD가 존재하지 않는 경우, ONTAP는 더 큰 SSD를 사용하여 장애가 발생한 SSD를 대체할 수 있습니다. 하지만 이보다 큰 SSD의 크기는 스토리지 풀의 다른 SSD 크기와 일치하도록 적당한 크기이므로 SSD 용량이 손실될 수 있습니다.</block>
   <block id="13f47cc1e03671cb583a0081393a4858" category="paragraph">스토리지 풀에는 하나의 예비 SSD만 사용할 수 있습니다. 스토리지 풀에서 HA 쌍의 두 노드가 소유한 Flash Pool 애그리게이트에 할당 유닛을 제공하는 경우, 두 노드 중 하나의 스페어 SSD를 소유할 수 있습니다. 하지만 스토리지 풀에서 HA 쌍의 노드 중 하나가 소유하는 Flash Pool 애그리게이트에만 할당 유닛을 제공하는 경우, SSD 스페어는 동일한 노드에서 소유해야 합니다.</block>
-  <block id="23d4778368a7df952a66613f9b640385" category="doc">데이터 압축 및 중복제거</block>
   <block id="daa5cd858d9fdadfae4bf5339afe28a1" category="summary">System Manager를 사용하여 활성 LDAP 클라이언트를 SVM(스토리지 가상 시스템)에 연결할 수 있습니다. SVM은 이름 서비스 또는 이름 매핑에 LDAP를 사용할 수 있도록 지원합니다.</block>
   <block id="82dbaaea3b202cc52a4688204b09ae0e" category="list-text">서비스 * 창에서 * LDAP 구성 * 을 클릭합니다.</block>
   <block id="263d5dcea7b6aa6f64bf93470236e9e3" category="list-text">LDAP Configuration * 창에서 * Edit * 를 클릭합니다.</block>
@@ -4287,7 +4279,6 @@
   <block id="c6a80c56ba6ac4f5be0ec81f2ad57ceb" category="list-text">* 중지 *</block>
   <block id="90cffb62b5577e1859422cbd2bc6b87d" category="paragraph">iSCSI 서비스를 중지합니다.</block>
   <block id="81e85bbbce0c7ace0f9d4ab566c54a7f" category="paragraph">세부 정보 영역에는 iSCSI 서비스, iSCSI 타겟 노드 이름 및 iSCSI 타겟 별칭의 상태에 대한 정보가 표시됩니다. 이 영역을 사용하여 네트워크 인터페이스에서 iSCSI 서비스를 활성화 또는 비활성화할 수 있습니다.</block>
-  <block id="4fa1e8b803051a6a4d8cedf447883623" category="doc">다중 디스크 캐리어 디스크에 대한 예비 요구 사항</block>
   <block id="8f0ab3dac12d58baef3fc20101dad8e1" category="summary">System Manager를 사용하여 이니시에이터를 이니시에이터 그룹에 추가할 수 있습니다. 이니시에이터는 LUN이 속한 이니시에이터 그룹이 해당 LUN에 매핑될 때 LUN에 대한 액세스를 제공합니다.</block>
   <block id="d58a50a1eec43471fc36b1f9cae060a1" category="doc">이니시에이터를 추가합니다</block>
   <block id="9e00a8064ed8806cad8c6223df5373e8" category="list-text">LUN 관리 * 탭에서 이니시에이터를 추가할 이니시에이터 그룹을 선택하고 * 편집 * 을 클릭합니다.</block>
@@ -4385,7 +4376,6 @@
   <block id="7ee5a67458a1817917343d5b50de46ac" category="doc">구성 업데이트</block>
   <block id="1f69a8016cdc11fb948bf5ce26bc0de1" category="summary">System Manager를 사용하여 NVMe 프로토콜을 구성할 수 있습니다. NVMe는 플래시 기반 네트워크 스토리지에 대한 고속 액세스를 제공하는 전송 프로토콜입니다. NVMe 프로토콜을 사용하는 시스템에는 컨트롤러와 스토리지 미디어 사이의 특정 NVMe 컨트롤러, 네임스페이스, 비휘발성 스토리지 미디어, 호스트, 포트 및 인터페이스로 구성된 서브시스템이 있습니다.</block>
   <block id="0dd816e380a61ab15ced19aed96e781a" category="doc">NVMe 프로토콜</block>
-  <block id="3e15c136040409143690f7b064c235d0" category="doc">스토리지 효율성의 이점</block>
   <block id="1fa8dd542d2fae039e92f70b51cc6e23" category="summary">Aggregate를 생성하는 동안 System Manager를 사용하여 Aggregate의 RAID 유형 및 RAID 그룹 크기 옵션의 기본값을 수정할 수 있습니다.</block>
   <block id="ca3971ca02e76186c25b81c7ea125a0b" category="paragraph">Aggregate 디스크의 디스크 유형이 FSA 또는 mSATA 이고 디스크 크기가 10TB보다 크거나 같은 경우 RAID-TEC만 사용할 수 있는 RAID 유형입니다.</block>
   <block id="74b43bb7df75cb36f7895c84a13f4f1e" category="list-text">Storage Tiers * 창에서 * Add Aggregate * 를 클릭합니다.</block>
@@ -5038,8 +5028,6 @@
   <block id="2b20636173a684fa0d66246f2351348f" category="doc">접합 경로</block>
   <block id="636a8855963f727473bac2df49f2eeb8" category="doc">창 레이아웃 사용자 정의</block>
   <block id="a1f6bd9b69c5d7f2afea049565273a91" category="list-text">* 필터링 *</block>
-  <block id="a19995cfebd696ce543310362d9dd40d" category="doc">디스크에 필요한 최소 핫 스페어 수입니다</block>
-  <block id="e3094dcca3c90e0404f8f6620d6d3e28" category="doc">NetApp 볼륨 암호화는 무엇인지 설명합니다</block>
   <block id="4a189c2be9f6660c5dbd0b10ea4ef8ed" category="summary">System Manager를 사용하면 SVM(스토리지 가상 머신) 컴퓨터 계정이 연결되는 기본 도메인 컨트롤러를 삭제할 수 있습니다. 특정 도메인 컨트롤러를 더 이상 사용하지 않으려는 경우 이 작업을 수행할 수 있습니다.</block>
   <block id="5d52ebcb4f7bc99855811d7cc06affef" category="list-text">도메인 * 탭의 * 기본 도메인 컨트롤러 * 영역에서 삭제할 도메인을 선택한 다음 * 삭제 * 를 클릭합니다.</block>
   <block id="8088546e70fcc6450b33d094ed6980d2" category="summary">System Manager를 사용하여 클러스터 사용자 계정을 추가, 편집 및 관리하고 로그인 사용자 방법을 지정하여 스토리지 시스템을 액세스할 수 있습니다.</block>
@@ -6921,7 +6909,6 @@
   <block id="1b841386179ea0d3df05529c89b21427" category="summary">System Manager를 사용하여 어레이 LUN을 기존 애그리게이트에 할당하고 어레이 LUN을 관리할 수 있습니다.</block>
   <block id="936263aa8a5425fe84a14888345f081f" category="doc">스토리지 LUN입니다</block>
   <block id="cefd59017a4a065f49d52af021a7df7a" category="paragraph"><block ref="cefd59017a4a065f49d52af021a7df7a" category="inline-link-rx"></block></block>
-  <block id="4f0b7bb576d3c8fa91bf3496e68c038e" category="doc">미러링된 데이터의 작동 방식</block>
   <block id="c61db8023a8003d406a9d6e84bb3d46b" category="summary">System Manager의 대시보드를 사용하면 스토리지 가상 시스템(SVM)의 상태와 성능을 모니터링할 수 있습니다.</block>
   <block id="47c6d23fe6018f762f19575354d78a86" category="list-text">모니터링할 SVM의 이름을 선택합니다.</block>
   <block id="e2e9bd59ef81e97b3160bf63305a192c" category="list-text">대시보드 패널에서 세부 정보를 봅니다.</block>
@@ -7104,7 +7091,6 @@
   <block id="fac2dab4d0bb98be243e02eaa90816a5" category="list-text">FlexGroup 볼륨이 오프라인 상태여야 합니다.</block>
   <block id="302cf5d4990e17cf9562806b321745d1" category="paragraph">System Manager에서는 FlexGroup 볼륨의 구성요소 관리 레벨을 지원하지 않습니다.</block>
   <block id="8edabc6f86803ca25d2fc48853011bb2" category="list-text">삭제할 FlexGroup 볼륨을 선택한 다음 * 삭제 * 를 클릭합니다.</block>
-  <block id="3edfa5472e64e42fdb7090974f60c8ae" category="doc">볼륨 이동 시 고려 사항</block>
   <block id="cfb186e8e8f985739a805db1f3042725" category="summary">System Manager를 사용하여 QoS 정책 그룹을 생성, 편집 및 삭제할 수 있습니다.</block>
   <block id="d652696dcf63b8343a323a9db5a7743c" category="doc">QoS 정책 그룹</block>
   <block id="40e3f9d38a302b0b218ea0634cb4b079" category="summary">System Manager를 사용하여 NFSv3, NFSv4 및 NFSv4.1에서 설정 또는 해제, NFSv4 클라이언트에 대한 읽기 및 쓰기 위임 설정 또는 해제, NFSv4 ACL 설정 등의 NFS 설정을 편집할 수 있습니다. 기본 Windows 사용자도 편집할 수 있습니다.</block>
@@ -7186,7 +7172,6 @@
   <block id="bc467749d16044354bf2019d92c0de09" category="paragraph">System Manager의 핫 스페어 규칙에는 다음과 같은 예외가 있습니다.</block>
   <block id="062b1a4d4ae5bbcc9ac502c0d494ea5b" category="list-text">다중 디스크 캐리어의 mSATA 또는 디스크의 경우 핫 스페어 수는 노드 레벨에서 설정된 값의 두 배이며 숫자는 언제든지 2보다 작을 수 없습니다.</block>
   <block id="a809293deaff7093c5dc2fd68ace3a97" category="list-text">디스크가 어레이 LUN 또는 가상 스토리지 어플라이언스의 일부인 경우 핫 스페어가 사용되지 않습니다.</block>
-  <block id="1a305bb61d773e7c7f5ad044dfc05c1d" category="doc">SVM의 유형</block>
   <block id="ff0f224e8e84ff31060820637ead03d3" category="summary">System Manager를 사용하여 하드웨어 캐시 모듈을 관리할 수 있습니다.</block>
   <block id="ca386ad0a31fa852921757e6e1543edb" category="doc">하드웨어 캐시</block>
   <block id="05f63ef4e26bf3926bee5bd599914c69" category="paragraph">Flash Cache는 System Manager의 하드웨어 캐시라고 합니다.</block>
@@ -7626,7 +7611,6 @@
   <block id="7cca22e56f8c45989e0cc1324a653478" category="list-text">Roles * (역할 *) 창에서 수정할 역할을 선택한 다음 * Edit * (편집 *)를 클릭합니다.</block>
   <block id="83dbffe81fcc3b4a5596c923cfc13c5a" category="list-text">역할 편집 * 대화 상자에서 역할 속성을 수정한 다음 * 수정 * 을 클릭합니다.</block>
   <block id="55d0bdbd08f1e586ecb20c841e0d3a13" category="list-text">Roles * (역할 *) 창에서 변경한 내용을 확인합니다.</block>
-  <block id="02bd9cbb73da8375b9894fd0a98de9cb" category="doc">FlexVol 볼륨 이동 방법</block>
   <block id="7b43fc84a8b717582430cc69f49d403f" category="summary">클러스터 액세스 및 관리에 CLI(Command-Line Interface) 대신 그래픽 인터페이스를 사용하려면 ONTAP에 웹 서비스로 포함되어 있는 ONTAP System Manager를 기본적으로 사용하도록 설정되어 있으며 브라우저를 통해 액세스할 수 있습니다.</block>
   <block id="8a05d5821043831c6bff43e3e0f008b1" category="doc">시스템 로깅 작동 방식</block>
   <block id="88559a0cfd8250c9d65970cc145c92d4" category="list-text">꺼짐</block>
@@ -8613,7 +8597,6 @@
   <block id="f53ffe37b23382fbc1ab9e0ff74a9ca1" category="sidebar">AutoSupport 알림을 설정합니다</block>
   <block id="7cfccaa9582383c3fb3502dee8cd8fa0" category="sidebar">AutoSupport 설정을 활성화 또는 비활성화합니다</block>
   <block id="44922bc3fbbb78111c1b1d7f3f6a16d5" category="sidebar">AutoSupport 요약을 봅니다</block>
-  <block id="eabdd0376d975afa804b79ba2f04aead" category="sidebar">논리적 스토리지 관리</block>
   <block id="d4910704fdefab082be5ace33f8749da" category="sidebar">SVM 모니터링</block>
   <block id="d4cd4fa71f216e2fec991f332c27c26a" category="sidebar">SVM 설정을 편집합니다</block>
   <block id="a87f9cc9cf4b95d794ac03763b06045c" category="sidebar">SVM을 삭제합니다</block>
@@ -9417,7 +9400,6 @@
   <block id="9f7846eb6b93be23ec56786e828ee53e" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 로컬 사용자, Active Directory 사용자 또는 Active Directory 그룹을 추가 및 제거하여 로컬 그룹 구성원 자격을 관리할 수 있습니다. 그룹에 할당된 권한과 그룹을 쉽게 식별할 수 있도록 그룹 설명을 수정할 수 있습니다.</block>
   <block id="1721ba418668b0e222dfb8cb45448455" category="doc">System Manager - ONTAP 9.7 이전 버전을 사용하여 로컬 Windows 사용자의 이름을 바꿉니다</block>
   <block id="d39d06fa99b2894ced6d109c0b410699" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 로컬 Windows 사용자 계정의 이름을 변경하여 로컬 사용자를 보다 쉽게 식별할 수 있습니다.</block>
-  <block id="9d19621188a7ddeb48a045dd2d39bbdf" category="paragraph">permalink: online-help-96-97/task_creating_vault_relationship_from_destination_svm.html redirect: ONTAP-SM-classic/redirect: ONTAP-SM-classic/online-help-96-97/task_editing_vault_relationships.html</block>
   <block id="a5e43690037a175b3839475cc48dd350" category="doc">System Manager-ONTAP 9.7 이하 버전을 사용하여 볼트 관계를 관리합니다</block>
   <block id="48bf13819878ffc3abe7cc117e2144c4" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 대상 SVM에서 볼트 관계를 생성할 뿐만 아니라 볼트 관계를 업데이트, 재개, 중지, 초기화 및 삭제할 수 있습니다.</block>
   <block id="e0ee58226c5bcccbc24858177927a575" category="section-title">관계 편집</block>
@@ -9449,4 +9431,5 @@
   <block id="92526cba00250769d0d0d584b6d93ce4" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 방식을 사용하여 스토리지 시스템에서 스냅샷 정책을 생성하고 관리할 수 있습니다.</block>
   <block id="f3400c7c7f134d2f8f2f30b279b5c285" category="doc">System Manager로 스케줄 관리 - ONTAP 9.7 이하</block>
   <block id="c934845b8edbac9b1640d3a858f83f4a" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 스토리지 시스템에서 스케줄을 생성하고 관리할 수 있습니다.</block>
+  <block id="2d4aef30a49a581a6ed89ce840054235" category="sidebar">디스크</block>
 </blocks>
