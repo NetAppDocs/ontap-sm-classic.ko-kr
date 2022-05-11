@@ -2134,9 +2134,7 @@
   <block id="85c4a7d9f79bed6abd58edd872df7e27" category="list-text">응용 프로그램 추가 * 를 클릭합니다</block>
   <block id="009639a4de5485b2d7e677dbbb51c3fe" category="paragraph">SAN을 통한 Microsoft SQL Server 인스턴스가 System Manager에 추가됩니다.</block>
   <block id="6fdf6c4c8352f1673b38d5c329f94b7e" category="summary">System Manager를 사용하여 보호 정책을 생성, 편집 및 삭제할 수 있습니다.</block>
-  <block id="5d1184f76781faaf229c6b885314bcd3" category="doc">보호 정책</block>
   <block id="4289c80d91f288631499a13ed510c90f" category="summary">System Manager를 사용하여 대상 SVM(스토리지 가상 머신)에서 미러링 및 소산 관계를 생성할 수 있습니다. 이 관계를 생성하면 소스 볼륨에서 대상 볼륨으로 데이터를 정기적으로 전송하여 데이터를 보다 안전하게 보호할 수 있습니다. 또한 소스 볼륨의 백업을 생성하여 데이터를 장기간 보존할 수도 있습니다.</block>
-  <block id="201fdbf27b19fb3675c38d8c0d795990" category="doc">대상 SVM에서 미러 및 소산 관계를 생성합니다</block>
   <block id="80502c8b6847cf1300129d4adc408722" category="list-text">타겟 클러스터에서 ONTAP 8.3.2 이상이 실행되고 있어야 합니다.</block>
   <block id="01129197ba76c5fa57e49de3fcb8a998" category="list-text">소스 클러스터와 대상 클러스터에서 SnapMirror 라이센스가 활성화되어야 합니다.</block>
   <block id="e5dcf8e974aee4d148314722cbaa272b" category="paragraph">일부 플랫폼의 경우 대상 클러스터에 SnapMirror 라이센스 및 DPO(데이터 보호 최적화) 라이센스가 활성화되어 있는 경우 소스 클러스터에 SnapMirror 라이센스가 활성화되어 있지 않아도 됩니다.</block>
@@ -2495,7 +2493,6 @@
   <block id="6ba7b5d818acb6cab3137d4c011e2db2" category="inline-link">관리자 인증 및 RBAC</block>
   <block id="68c16964c51f57dc952df1961ce1ee35" category="paragraph"><block ref="68c16964c51f57dc952df1961ce1ee35" category="inline-link-rx"></block></block>
   <block id="831d5630e653da6abaa112ccec4c1297" category="summary">SVM(스토리지 가상 시스템) DR(재해 복구)은 SVM의 구성요소 볼륨에 있는 데이터를 복구하고 SVM 구성을 복구하여 SVM 레벨에서 재해 복구 기능을 제공합니다.</block>
-  <block id="8e3c3ed2b2343d5ec6f650bb4929ecaa" category="doc">SVM 관계</block>
   <block id="66b7f73b872e2456a150986eb15a06e9" category="summary">ONTAP에는 해당 최소 성능 요소에 매핑된 사전 정의된 스토리지 서비스가 포함되어 있습니다.</block>
   <block id="be3ad8ffec2920f1fa8c9a6df9b3cf75" category="doc">스토리지 서비스 정의</block>
   <block id="9c5e52f8534482eaa5e6c6a1b4ec5c5e" category="paragraph">클러스터 또는 SVM에서 사용 가능한 실제 스토리지 서비스 세트는 SVM에서 애그리게이트를 구성하는 스토리지 유형에 따라 결정됩니다.</block>
@@ -2930,7 +2927,6 @@
   <block id="caffe237e203deff7da0ba170f501be9" category="summary">System Manager를 사용하면 Volumes 창의 아래쪽 창에 있는 Snapshot Copies 탭에서 선택한 볼륨에 대해 저장된 모든 스냅샷 복사본 목록을 볼 수 있습니다. 저장된 스냅샷 복사본 목록을 사용하여 스냅샷 복사본의 이름을 변경, 복원 또는 삭제할 수 있습니다.</block>
   <block id="2a24310e6b3a5ba6e7bf061cbda5a983" category="paragraph">한 번에 하나의 볼륨의 스냅샷 복사본만 볼 수 있습니다.</block>
   <block id="ac7f70dc67c04109b95c51b4fdfba0f2" category="list-text">저장된 스냅샷 복사본을 확인할 볼륨 옆의 더하기 기호(+)를 클릭합니다.</block>
-  <block id="fac3a7ad23607350ca249ed40421f014" category="doc">최대 처리량 제한 작동 방식</block>
   <block id="776b2b147e640ab83f09f2ff5c38cdca" category="paragraph">System Manager는 클러스터에서 사용 가능한 스페어 디스크를 분석하고 모범 사례에 따라 스페어 디스크를 사용하여 애그리게이트를 생성하는 방법에 대한 권장 사항을 생성합니다. System Manager에는 이름과 사용 가능한 크기를 포함하여 권장되는 애그리게이트의 요약이 표시됩니다.</block>
   <block id="396a00a6dd95a860584d1e256e4ad924" category="paragraph">대부분의 경우 스토리지 권장사항은 현재 환경에 가장 적합합니다. 하지만 클러스터에서 ONTAP 9.3 이상이 실행 중이거나 환경에 다음 구성이 포함되어 있는 경우 애그리게이트를 수동으로 생성해야 합니다.</block>
   <block id="08ea59803fc92db6be8c460ee2465bc3" category="list-text">타사 어레이 LUN을 사용하는 Aggregate</block>
@@ -3138,7 +3134,6 @@
   <block id="e1914e82825d879b6fea6e4a00051709" category="paragraph">사용 중인 스냅샷 복사본은 삭제할 수 없습니다.</block>
   <block id="8df130431da17e803176454d83232975" category="list-text">* Autogrow *</block>
   <block id="86969aa9f1f828a7709e9a803f3dbc4f" category="paragraph">필요한 경우 볼륨을 자동으로 확장할 수 있는 제한을 지정할 수 있습니다.</block>
-  <block id="fc0cf184ac9872d5db9ff77d32bb19ae" category="doc">NVMe란 무엇입니까</block>
   <block id="364c307372fcc0153d71bc076ccc634a" category="summary">System Manager를 사용하여 클러스터에서 기존 정책 또는 일정을 선택하거나 새 정책 또는 일정을 만들어 볼트 관계를 편집할 수 있습니다. 그러나 기존 정책 또는 스케줄의 매개 변수는 편집할 수 없습니다.</block>
   <block id="e82df844135071f9f9b9d5f3009f28bf" category="doc">볼트 관계 편집</block>
   <block id="f78c14bbdd8cf61d76cd0f69c4c12017" category="paragraph">소스 및 대상 클러스터는 정상 피어 관계에 있어야 합니다.</block>
@@ -3309,7 +3304,6 @@
   <block id="e602c24f640bcf6e443084ac8542348b" category="list-text">Add Capacity * (용량 추가 *) 대화 상자에서 다음 단계를 수행합니다.</block>
   <block id="4df44b9db3ff6ad8b618c8bb6877022f" category="list-text">RAID 구성 변경 * 대화 상자에서 용량 디스크를 추가할 RAID 그룹을 지정합니다.</block>
   <block id="8089841c15756034fb7c83f3cc6945ee" category="paragraph">기본값인 모든 RAID 그룹을 특정 RAID 그룹 또는 새 RAID 그룹으로 변경할 수 있습니다.</block>
-  <block id="8941ac7594748e8ec13686f25ab283fd" category="doc">데이터 보호 관계의 유형입니다</block>
   <block id="3340d42c69ec6f9068da0130e9ae58f5" category="summary">System Manager를 사용하여 SnapLock 규정 준수 볼륨 또는 SnapLock 엔터프라이즈 볼륨을 생성할 수 있습니다. 볼륨을 생성할 때 보존 시간을 설정하고 볼륨의 데이터에 대해 WORM 상태 설정을 자동으로 수행할지 여부를 선택할 수도 있습니다.</block>
   <block id="d6924eb3fc002e6887b807992c19c42d" category="doc">SnapLock 볼륨을 생성합니다</block>
   <block id="e86a7dc140194ce7912a9e0a4e52ae31" category="list-text">SnapLock 라이센스가 설치되어 있어야 합니다.</block>
@@ -4070,7 +4064,6 @@
   <block id="64ede1136b38d05639150dc84ce2ca68" category="summary">지연 시간은 대상 시스템이 소스 시스템 뒤에 걸쳐지는 시간입니다.</block>
   <block id="bb7c4cc3390268168d4d4a8537f329d6" category="doc">지연 시간은 얼마인지</block>
   <block id="78453587fd66d72075a252c52b6e2713" category="paragraph">지연 시간은 현재 시간과 타겟 시스템에 마지막으로 성공적으로 전송된 스냅샷 복사본의 타임 스탬프의 차이입니다. 지연 시간은 소스 및 대상 시스템의 시계가 동기화되지 않는 한 항상 마지막으로 성공한 전송 기간보다 훨씬 오래 지속됩니다. 시간대 차이는 지연 시간으로 자동 계산됩니다.</block>
-  <block id="939cfaf55fa855cb56b546b4a6faa5c2" category="doc">SnapMirror 관계의 작동 방식</block>
   <block id="a7c99ceadac4e4924151c84d763c467f" category="summary">공유 창을 사용하여 공유를 관리하고 공유에 대한 정보를 볼 수 있습니다.</block>
   <block id="4918741feccad41b42cd99aa33e42f28" category="doc">공유 창</block>
   <block id="fda574f52a0c012e098901afa3932b69" category="list-text">* 공유 생성 *</block>
@@ -4164,7 +4157,6 @@
   <block id="d46660e9a212421dead8effdffda7b1a" category="list-text">네트워크 * &gt; * 브로드캐스트 도메인 * 을 클릭합니다.</block>
   <block id="95b407213efba60488e097619794f601" category="list-text">삭제할 브로드캐스트 도메인을 선택한 다음 * 삭제 * 를 클릭합니다.</block>
   <block id="69ec7f280c33ee5c1e0288ccde6f4382" category="summary">System Manager를 사용하여 대상 볼륨을 정지하여 스냅샷 복사본을 생성하기 전에 대상을 안정화할 수 있습니다. 일시 중지 작업을 수행하면 활성 데이터 전송이 완료되며 미러 및 볼트 관계에 대한 향후 전송이 비활성화됩니다.</block>
-  <block id="ce8e2d0c539d6e2f6dd1395f82472558" category="doc">미러 및 볼트 관계를 중지하는 중입니다</block>
   <block id="c3708408f9dc6c088c7305bb9f73b132" category="paragraph">미러와 볼트 관계는 스냅미러 상태여야 합니다.</block>
   <block id="674715c13a8ed577fb9173a56349da63" category="list-text">정지할 미러 및 볼트 관계를 선택한 다음 * 작업 * &gt; * 정지 * 를 클릭합니다.</block>
   <block id="9f767b5e6751e4bdfc4352e2ba13558f" category="list-text">확인 확인란을 선택한 다음 * 정지 * 를 클릭합니다.</block>
@@ -4284,7 +4276,6 @@
   <block id="9e00a8064ed8806cad8c6223df5373e8" category="list-text">LUN 관리 * 탭에서 이니시에이터를 추가할 이니시에이터 그룹을 선택하고 * 편집 * 을 클릭합니다.</block>
   <block id="c4a5c6b3953dc8575bf9f68332414759" category="list-text">이니시에이터 그룹 편집 * 대화 상자에서 * 이니시에이터 * 를 클릭합니다.</block>
   <block id="7352e6afc02bb73fbd36278fd5bfc736" category="list-text">이니시에이터 이름을 지정하고 * OK * 를 클릭합니다.</block>
-  <block id="243b719fa0f35fb6676b7d6052729373" category="doc">QoS 정책 그룹 창</block>
   <block id="eb5882d8fa50fac5588371104e96f123" category="summary">System Manager를 사용하여 기존 IPspace의 이름을 바꿀 수 있습니다.</block>
   <block id="22ee49debe7ba354693efe03abe67a3e" category="list-text">모든 IPspace 이름은 클러스터 내에서 고유해야 하며 로컬 또는 localhost와 같이 시스템에서 예약한 이름으로 구성될 수 없습니다.</block>
   <block id="fa02e3e5ff13769fcc40d1be76bfa7a1" category="list-text">시스템 정의 "기본" IPspace 및 ""클러스터" IPspace는 수정할 수 없습니다.</block>
@@ -4382,7 +4373,6 @@
   <block id="bb5c54f6a392f839afc1d64e643a0634" category="list-text">집계 만들기 * 대화 상자에서 다음 단계를 수행합니다.</block>
   <block id="72472d4e95107f459b5f7705c00a34d3" category="list-text">RAID 구성 변경 * 대화 상자에서 RAID 유형 및 RAID 그룹 크기를 지정합니다.</block>
   <block id="5ac671d29262870d0e2643a0608fb056" category="paragraph">권장되는 RAID 그룹 크기는 HDD의 경우 디스크 12개에서 디스크 20개, SSD의 경우 디스크 20개에서 디스크 28개로 구성할 수 있습니다.</block>
-  <block id="ccdb7bf9d93e5652b57cabcc8c41e061" category="doc">스케줄</block>
   <block id="8275bc465c55d12cddbb9a7784491b14" category="paragraph">지정된 스케줄에 따라 실행되도록 여러 작업(예: 볼륨 스냅샷 복사본 및 미러 복제)을 구성할 수 있습니다. 지정된 스케줄에서 실행되는 스케줄은 UNIX "cron" 스케줄과 유사하기 때문에 _cron_schedules 라고 합니다. 일정 간격으로 실행되는 스케줄을 _INTERVAL_schedules 라고 합니다.</block>
   <block id="b343a97688c7029f7105ec46cd6d3ce8" category="paragraph">다음과 같은 방법으로 일정을 관리할 수 있습니다.</block>
   <block id="4efe225ffafe863f9a2d383882474221" category="list-text">cron 일정 또는 간격 일정을 생성합니다</block>
@@ -4641,7 +4631,6 @@
   <block id="17b6d0d254f588212107e44b9311cacd" category="summary">System Manager를 사용하면 스토리지 시스템 상태를 모니터링하는 데 도움이 되는 AutoSupport 알림을 구성할 수 있습니다.</block>
   <block id="fa5f0abcdf06ead83ea7fc11be56d19a" category="doc">AutoSupport 알림</block>
   <block id="2c8dfcc823a858dcc0c124552a13f9fd" category="summary">System Manager를 사용하여 스토리지 시스템에서 스냅샷 정책을 생성하고 관리할 수 있습니다.</block>
-  <block id="623fb58af5512173351f2a5e63dd6d85" category="doc">스냅샷 정책</block>
   <block id="fa8ddae57fb0b13c4eb7a2f3b7deaa99" category="doc">FlexCache 볼륨에 대한 고급 옵션 지정</block>
   <block id="443a7f3e7ab189cba1285850af1e34f2" category="list-text">Edit FlexCache volume * ( 볼륨 편집 *) 창에서 을 클릭합니다 <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> 고급 옵션을 지정합니다.</block>
   <block id="fcbe4d48f9aa24f885d9f09f49297419" category="list-text">일반 세부 정보 * 섹션에서 볼륨에 대한 권한을 편집할 수 있습니다.</block>
@@ -4802,7 +4791,6 @@
   <block id="cafdb1219cee48c72aefb4a06983873c" category="list-text">텍스트 상자의 이름을 업데이트한 다음 * 제출 * 을 클릭합니다.</block>
   <block id="e801d2be7b11bcc8807e4f9a7c173b7f" category="paragraph">MetroCluster 사이트 A 상태가 표시되면 업데이트된 이름을 볼 수 있습니다.</block>
   <block id="e9551f243e2860df3b1dfddc05a6cf7f" category="list-text">원격 사이트(사이트 B)에서 MetroCluster 사이트 A를 볼 때 업데이트된 이름을 표시하려면 원격 사이트(사이트 B)의 CLI에서 'cluster peer modify -local -name'이라는 명령을 실행합니다</block>
-  <block id="cdd4c15a922d3317c673af22b257983d" category="doc">NVMe 네임스페이스</block>
   <block id="f12fb5538a93a99c64c1f1f4ba028e43" category="summary">관계를 생성하는 동안 볼트 관계를 아직 초기화하지 않은 경우 System Manager를 사용하여 볼트 관계를 초기화할 수 있습니다. 소스 FlexVol 볼륨에서 타겟 FlexVol 볼륨으로 기본 데이터 전송이 시작됩니다.</block>
   <block id="6c5b1a2e72dacbd3819da420ccd991a7" category="list-text">초기화하려는 관계를 선택하고 * 작업 * &gt; * 초기화 * 를 클릭합니다.</block>
   <block id="4457c06132aec05dc9159aad6bbbacb6" category="list-text">Initialize * (초기화 *) 창에서 * Initialize * (* 초기화 *)를 클릭합니다.</block>
@@ -4979,7 +4967,6 @@
   <block id="f675a7bc5b1163c3b4fcd04df9e2b068" category="list-text">하위 시스템 옵션 선택:</block>
   <block id="579a46a917d784198fe18b644fe1a692" category="list-text">없음: 이 옵션을 선택하면 이 네임스페이스에 대한 기존 하위 시스템 매핑만 해제됩니다. 선택한 네임스페이스에 대한 하위 시스템 매핑이 없는 경우 이 옵션이 미리 선택됩니다.</block>
   <block id="d9413e18256f3f53d2fa3941e5b273c5" category="list-text">기존 하위 시스템 사용: 이 옵션은 서브시스템과 네임스페이스 간 매핑이 있는 경우 미리 선택됩니다. 다른 하위 시스템을 선택하면 이전에 매핑된 하위 시스템의 매핑을 해제함으로써 새 하위 시스템이 매핑됩니다.</block>
-  <block id="ca301c828c76b7b6b1a9b621ba37f603" category="doc">Igroup 유형입니다</block>
   <block id="b4083c217a8fe8d606320f8a151c3927" category="paragraph">SNMP 창을 사용하면 시스템에 대한 현재 SNMP 설정을 볼 수 있습니다. 시스템의 SNMP 설정을 변경하고, SNMP 프로토콜을 활성화하고, 트랩 호스트를 추가할 수도 있습니다.</block>
   <block id="c83ff6502a14a457dc379a0343341390" category="list-text">* 활성화/비활성화 *</block>
   <block id="c7a2bb9a6fa0253c23c8fc36127a630e" category="paragraph">SNMP를 설정하거나 해제합니다.</block>
@@ -5036,7 +5023,6 @@
   <block id="8356fdbfc72117952b31b2813b820d27" category="list-text">Network * &gt; * FC/FCoE 및 NVMe Adapters * 를 클릭합니다.</block>
   <block id="3b54f6e2bb96740e05505dbc4481646c" category="list-text">편집할 어댑터를 선택한 다음 * 편집 * 을 클릭합니다.</block>
   <block id="f9713795f66d460910221d93b9e92b3e" category="list-text">FC/FCoE 및 NVMe 어댑터 설정 편집 * 대화 상자에서 어댑터 속도를 * 수동 * 또는 * 자동 * 으로 설정한 다음 * 저장 * 을 클릭합니다.</block>
-  <block id="8b8009cf30f8359309c965b346664a48" category="doc">SnapMirror 라이센스</block>
   <block id="c6e3a81d68f0aea1203e63e66fd80e0c" category="summary">System Manager를 사용하여 스토리지 QoS(서비스 품질) 정책 그룹을 생성하여 워크로드의 처리량을 제한하고 워크로드 성능을 모니터링할 수 있습니다.</block>
   <block id="6ab0763e4acffbb7d3a33e52d57616bf" category="doc">QoS 정책 그룹을 생성합니다</block>
   <block id="52456ccd5982a7269a8adef6eabfda68" category="list-text">QoS Policy Groups * 창에서 * Create * 를 클릭합니다.</block>
@@ -5058,7 +5044,6 @@
   <block id="b06c2aefaaa4e24767b74a29f9c1b477" category="section-title">SVM 탭</block>
   <block id="ac5a85f771834e9a6de033b0522a0026" category="list-text">* 관리 세부 정보 구성 *</block>
   <block id="b869ec2c56cac6c0bb987607fd0f8f9b" category="paragraph">SVM의 관리 세부 정보를 구성할 수 있는 관리 세부 정보 구성 대화 상자를 엽니다.</block>
-  <block id="88ea85c6f41faf7838eeb9229aafdd58" category="doc">iGroup 이름입니다</block>
   <block id="3c717e6d734680ec040ada400072b4c7" category="summary">System Manager의 이니시에이터 그룹 탭을 사용하여 이니시에이터 그룹을 삭제할 수 있습니다.</block>
   <block id="61a87a665f09af00c05b11658bd3304d" category="doc">이니시에이터 그룹을 삭제합니다</block>
   <block id="5e716b5eddd97359d5c74915f382d197" category="paragraph">이니시에이터 그룹에 매핑된 모든 LUN은 수동으로 매핑 해제해야 합니다.</block>
@@ -6401,7 +6386,6 @@
   <block id="7d49cfbbc9b8d14bfa933c125169f036" category="list-text">서비스 프로세서 관리 * 필드에 서비스 프로세서 IP 관리 주소를 입력합니다.</block>
   <block id="8d78d8efcddfd0491364caa75353f041" category="paragraph"><block ref="8d78d8efcddfd0491364caa75353f041" category="inline-xref-macro-rx"></block></block>
   <block id="8b2a5d76ddf4baa9a4c577e4b75cc9b2" category="paragraph"><block ref="8b2a5d76ddf4baa9a4c577e4b75cc9b2" category="inline-xref-macro-rx"></block></block>
-  <block id="6b90077bf0289755b1869a54e6dbe915" category="doc">스토리지 QoS의 작동 방식</block>
   <block id="1731d9cce6e79e754b4d2cb56f476b5b" category="summary">대시보드는 SVM(스토리지 가상 시스템) 및 성능에 대한 요약 정보를 제공합니다. 대시보드 창을 사용하여 구성된 프로토콜, 용량 근접한 볼륨 및 성능과 같은 SVM과 관련된 중요 정보를 볼 수 있습니다.</block>
   <block id="aa120bb48f9756b7b01f0b56017abaa0" category="doc">SVM 대시보드 창</block>
   <block id="9fe7cceefc2a090d936baf203fa49376" category="section-title">SVM 세부 정보</block>
@@ -6585,7 +6569,6 @@
   <block id="deee2bff018504de1b951eb3a31648f0" category="list-text">사용자 정의 할당량 * 탭에서 선택한 할당량의 변경 사항을 확인합니다.</block>
   <block id="f210a25eaf89fa55ced5c9c77e0b242b" category="summary">System Manager를 사용하여 공유를 생성, 편집 및 관리할 수 있습니다.</block>
   <block id="d272c069ec4cbb05fe03c3ff588a12e2" category="doc">공유</block>
-  <block id="b42bc8b4d95db5c8d28cad47c91c38e8" category="doc">Igroup OSType입니다</block>
   <block id="cd6151f94431cdba04cd29e654a10e6b" category="summary">BranchCache용으로 구성된 SVM(스토리지 가상 머신)에 캐싱 서비스를 더 이상 제공하지 않으려는 경우 System Manager를 사용하여 BranchCache 구성을 삭제할 수 있습니다.</block>
   <block id="88d6781cf806384abcd8fe896ee6923f" category="list-text">BranchCache * 탭에서 * 삭제 * 를 클릭합니다.</block>
   <block id="6ba17062ed5989dd6bbdd82b1eb34f92" category="paragraph">해시 저장소에서 기존 해시를 제거할 수도 있습니다.</block>
@@ -6898,7 +6881,6 @@
   <block id="ef3e2551fede2086c67b6a8bf70db3c4" category="list-text">ONTAP 9.2 이상을 실행해야 합니다.</block>
   <block id="d93c7ae1d0a683437e8cdf90782faccd" category="list-text">모든 플래시(All SSD) 애그리게이트가 있어야 합니다</block>
   <block id="1d4f7d5b7c436f0c489b78bb854907f9" category="image-alt">FabricPool 워크플로</block>
-  <block id="f4c0fc1a228f243144f99ec4c1441785" category="doc">이니시에이터 호스트</block>
   <block id="899866a691c80f26e2daef7ca4226aa1" category="summary">시스템 관리자의 AutoSupport 설정 편집 대화 상자를 사용하여 이메일 알림을 보낼 이메일 주소를 지정하고 여러 이메일 호스트 이름을 추가하여 AutoSupport 알림을 설정할 수 있습니다.</block>
   <block id="687a771b0731f71db5005ea461393c80" category="list-text">e-메일 수신자 * 탭에서 e-메일 알림을 보낼 e-메일 주소를 입력하고 각 e-메일 받는 사람에 대한 e-메일 수신자와 메시지 내용을 지정한 다음 메일 호스트를 추가합니다.</block>
   <block id="b3993d767356f296d9ae01951029b2e8" category="paragraph">호스트 이름의 이메일 주소는 최대 5개까지 추가할 수 있습니다.</block>
@@ -6985,7 +6967,6 @@
   <block id="085e73e0e0eb98ee410c72022d3e47eb" category="paragraph">네트워크 인터페이스의 상태를 비활성화해야 합니다.</block>
   <block id="92db97c63fcdae053f7d3bec501b423c" category="list-text">삭제할 인터페이스를 선택한 다음 * 삭제 * 를 클릭합니다.</block>
   <block id="ed16afb7c159c6fe58c80a1dc3cede52" category="summary">System Manager를 사용하여 이전에 손상된 미러 및 볼트 관계를 다시 설정할 수 있습니다. 역방향 재동기화 작업에서는 소스 볼륨과 타겟 볼륨의 기능이 반전됩니다. 소스를 복구 또는 교체하고 소스를 업데이트하고 시스템의 원래 구성을 다시 설정하는 동안 대상 볼륨을 사용하여 데이터를 제공할 수 있습니다.</block>
-  <block id="4ea52d7763a6ba3d988f1fb36ab1f9ab" category="doc">미러 및 볼트 관계를 역재동기화합니다</block>
   <block id="0bb531b9f077cfe61f1999612d091d9f" category="list-text">역방향 재동기화를 수행하면 소스 볼륨의 컨텐츠가 대상 볼륨의 컨텐츠로 덮어쓰여집니다.</block>
   <block id="718bba66a8f2379fec2ccfa1390fdb20" category="paragraph">재동기화 작업을 수행하면 소스 볼륨에서 데이터가 손실될 수 있습니다.</block>
   <block id="f2ed808ce0eba9594be7325263101a99" category="list-text">역재동기화를 수행하면 관계 정책이 MirrorAndVault로 설정되고 스케줄이 None으로 설정됩니다.</block>
@@ -8642,7 +8623,6 @@
   <block id="9ddfcfa2178bbaa95f3516e283f56c6c" category="sidebar">LUN 정보를 봅니다</block>
   <block id="cd242385237807a42c01bc56e88dd621" category="sidebar">이니시에이터 그룹을 봅니다</block>
   <block id="46474bb633a6e11a4c8db2e2fd2cb25d" category="sidebar">LUN의 공간 예약을 이해합니다</block>
-  <block id="307993e58e8cb708767af2aac9604017" category="sidebar">LUN 클론 이해</block>
   <block id="574733b1608db4268068dfc213b121cc" category="sidebar">qtree를 삭제합니다</block>
   <block id="f34844e661c707693f5f171cb90c9a2f" category="sidebar">Qtree를 편집합니다</block>
   <block id="55a10c126840e128772d6b29a99d596e" category="sidebar">qtree 정보를 봅니다</block>
@@ -8680,7 +8660,6 @@
   <block id="c3be79ad655700366cbdf66fb41f3ab5" category="sidebar">효율성 정책을 사용하거나 사용하지 않도록 설정합니다</block>
   <block id="e89898d375d94a34915c63abf5b83cbd" category="sidebar">QoS 정책 그룹을 삭제합니다</block>
   <block id="20c4625db1b141a11d4ed4f1addcefc3" category="sidebar">QoS 정책 그룹을 편집합니다</block>
-  <block id="f104ae7705a6cd41d529246347e38804" category="sidebar">스토리지 QoS를 사용하여 워크로드 성능 관리</block>
   <block id="67e314f08bf0f0412397e119dfc49a65" category="sidebar">NIS 도메인을 편집합니다</block>
   <block id="cd81734e2ab9efc6cfe818f7b53a07cc" category="sidebar">LDAP 클라이언트 구성을 삭제합니다</block>
   <block id="ab13cfe988ac7e718d879dec5013131b" category="sidebar">LDAP 클라이언트 구성을 편집합니다</block>
@@ -8700,29 +8679,13 @@
   <block id="db5cb060d3f1c56dc4a35fce5a867ee4" category="sidebar">로컬 Windows 사용자의 이름을 바꿉니다</block>
   <block id="f8d149e2f560d043fee27559bcf3940e" category="sidebar">Windows 로컬 사용자의 암호를 재설정합니다</block>
   <block id="747db15d84dfaabaf70d11952f46c2a0" category="sidebar">로컬 Windows 사용자 계정을 삭제합니다</block>
-  <block id="f14e71e7e0d11fd8ae3de32514c9cf0f" category="sidebar">데이터 보호 관리</block>
-  <block id="bda77c175f764372331084b2a8e075aa" category="sidebar">미러 관계를 삭제합니다</block>
   <block id="d060c996508910ed3ad69c79e87e23af" category="sidebar">SnapMirror 관계 끊기</block>
-  <block id="537ad555b4601753fd06527686eff90c" category="sidebar">미러 관계를 재동기화합니다</block>
   <block id="4bc208bafdebbad7e8d3a1fd96045f3e" category="sidebar">미러 전송을 중단합니다</block>
   <block id="d0bfe18666fab64eacdc44d2864d6412" category="sidebar">미러 관계의 볼륨을 복구합니다</block>
-  <block id="4ab4a5d86aa17e491eee18620ed0bac3" category="sidebar">볼트 관계 삭제</block>
-  <block id="227af0287a294f61f634774d34b24c0e" category="sidebar">볼트 관계 편집</block>
-  <block id="ae956403fbd181f5db66838103186bf8" category="sidebar">볼트 관계를 초기화합니다</block>
-  <block id="fab1a40175465547f12d8bf6b4741703" category="sidebar">볼트 관계를 업데이트합니다</block>
-  <block id="c229e268680305c05dc6f71d75f4c1b4" category="sidebar">볼트 관계를 다시 시작합니다</block>
   <block id="2ac16ad7b9492e5af6e6d0fe8d7aadf1" category="sidebar">스냅샷 복사본 전송을 중단합니다</block>
   <block id="0b6959b088b18af039659613215849d3" category="sidebar">볼트 관계의 볼륨을 복원합니다</block>
-  <block id="db82443e569f07635868fc5ff76f3d55" category="sidebar">대칭 복사 및 볼트 관계를 삭제합니다</block>
-  <block id="b3f5a15cc10f040782c9c7b46e375d5f" category="sidebar">대칭 복사 및 볼트 관계 편집</block>
-  <block id="3a9162b4b931a2f97ab546e6e4a59364" category="sidebar">대칭 복사 및 볼트 관계 초기화</block>
-  <block id="3e08a966469680aab6cbae8c48d31397" category="sidebar">대칭 복사 및 볼트 관계를 업데이트합니다</block>
-  <block id="6411ef7bf5686b381d2cd378f7478735" category="sidebar">대칭 복사 및 볼트 관계 다시 시작</block>
-  <block id="1e3f45dd462bf83ee02932bdb0e40894" category="sidebar">대칭 복사 및 볼트 관계 분리</block>
-  <block id="f292c64a23f8885e326eb631ed0d1f95" category="sidebar">미러 및 볼트 관계를 재동기화합니다</block>
   <block id="5639586a8b149082c28f6f7cbd69376e" category="sidebar">대칭 복사 및 볼트 관계를 중단합니다</block>
   <block id="930544b632b68242721aed3e36cb565b" category="sidebar">미러 및 볼트 관계의 볼륨을 복구합니다</block>
-  <block id="bc17baa824729465e76388d0891faa91" category="sidebar">StrictSync 및 Sync 정책에서 지원하는 워크로드를 이해합니다</block>
   <block id="4fe746c4b3e8ab088fb436641f9b98c6" category="sidebar">SVM 관계 편집</block>
   <block id="fc67dc264a61ca8ae9872acecc3f7bf8" category="sidebar">SVM 관계 관리</block>
   <block id="c948edc0c818adf4847d91a8137716a6" category="sidebar">스냅샷 정책을 편집합니다</block>
@@ -9432,4 +9395,9 @@
   <block id="f3400c7c7f134d2f8f2f30b279b5c285" category="doc">System Manager로 스케줄 관리 - ONTAP 9.7 이하</block>
   <block id="c934845b8edbac9b1640d3a858f83f4a" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 스토리지 시스템에서 스케줄을 생성하고 관리할 수 있습니다.</block>
   <block id="2d4aef30a49a581a6ed89ce840054235" category="sidebar">디스크</block>
+  <block id="5893aac69b45363ec1744eacd931f906" category="sidebar">이니시에이터 그룹을 관리합니다</block>
+  <block id="2136f0fa9d505507ee528b858ede9c00" category="sidebar">미러 및 볼트 관계 관리</block>
+  <block id="4eb9fc48340d0d596cecceb0f28dd73e" category="sidebar">SVM 관계</block>
+  <block id="a4730321aa25d81da462f897cef15c5a" category="sidebar">보호 정책 관리</block>
+  <block id="58733b37e2507dd15a2f998c25576e58" category="sidebar">스냅샷 정책 관리</block>
 </blocks>
