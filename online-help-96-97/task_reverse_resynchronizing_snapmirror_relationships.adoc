@@ -1,42 +1,8 @@
 ---
 permalink: online-help-96-97/task_reverse_resynchronizing_snapmirror_relationships.html 
-sidebar: sidebar 
-keywords: reverse, resync, mirror, relationship, system, manager, online, help 
-summary: System Manager를 사용하여 이전에 손상된 미러 관계를 다시 설정할 수 있습니다. 역방향 재동기화 작업에서는 소스 볼륨과 타겟 볼륨의 기능을 반대로 전환합니다. 
+redirect: ontap-sm-classic/online-help-96-97/task_editing_mirror_relationships.html 
 ---
-= 미러 관계를 System Manager-ONTAP 9.7 이전과 역으로 재동기화합니다
+= 
 :allow-uri-read: 
 
 
-[role="lead"]
-ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 버전을 사용하면 이전에 손상된 미러 관계를 다시 설정할 수 있습니다. 역방향 재동기화 작업에서는 소스 볼륨과 타겟 볼륨의 기능을 반대로 전환합니다.
-
-소스 볼륨이 온라인 상태여야 합니다.
-
-.이 작업에 대해
-* 소스 볼륨을 복구 또는 교체하고 소스 볼륨을 업데이트하고 시스템의 원래 구성을 다시 설정하는 동안 대상 볼륨을 사용하여 데이터를 제공할 수 있습니다.
-* 역방향 재동기화를 수행하면 타겟 볼륨의 컨텐츠가 미러 소스의 컨텐츠를 덮어씁니다.
-+
-[NOTE]
-====
-** SnapLock 규정 준수 볼륨의 경우, 현재 볼륨에 대해 설정된 만료 시간까지, 공통 스냅샷 복사본을 참조하여 액티브 파일 시스템의 모든 데이터 변경이 잠긴 스냅샷 복사본에 유지됩니다.
-+
-볼륨 만료 시간이 경과되었거나 설정되지 않은 경우 스냅샷 복사본과 공통 스냅샷 복사본이 30일 동안 잠깁니다. 공통 스냅샷 복사본과 최신 잠금 스냅샷 복사본 간의 중간 스냅샷 복사본이 모두 삭제됩니다.
-
-** SnapLock 규정 준수 볼륨 이외의 모든 볼륨에 대해 재동기화 작업을 수행하면 기본 스냅샷 복사본이 생성된 후 소스 볼륨에 기록되는 최신 데이터가 손실될 수 있습니다.
-
-
-====
-* 역재동기화를 수행하면 관계의 미러 정책이 DPDefault로 설정되고 미러 스케줄이 None으로 설정됩니다.
-
-
-.단계
-. 보호 * > * 볼륨 관계 * 를 클릭합니다.
-. 반전할 미러 관계를 선택합니다.
-. Operations * > * Reverse Resync * 를 클릭합니다.
-. 확인 확인란을 선택한 다음 * 역방향 재동기화 * 를 클릭합니다.
-
-
-* 관련 정보 *
-
-xref:reference_protection_window.adoc[보호 윈도우]

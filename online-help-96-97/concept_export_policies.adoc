@@ -11,7 +11,7 @@ summary: System Manager를 사용하여 엑스포트 정책을 생성, 편집, �
 
 
 [role="lead"]
-ONTAP System Manager 클래식(9.7 이하에서 사용 가능)을 사용하면 엑스포트 정책을 생성, 편집, 관리할 수 있습니다.
+ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 엑스포트 정책을 생성, 편집, 관리할 수 있습니다.
 
 
 

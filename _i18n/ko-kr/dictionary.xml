@@ -2040,7 +2040,6 @@
   <block id="09a1eabee23a8407d4a40ff922c4a77c" category="list-text">쉘프 디지털 디스플레이에는 쉘프 ID 번호만 표시됩니다.</block>
   <block id="28107995c813a8eff8084aea39f2d12e" category="paragraph">오류가 발생한 디스크의 캐리어 메이트를 다시 사용할 수 없습니다. 오류가 발생한 디스크가 들어 있는 다중 디스크 캐리어를 제거할 때는 새 캐리어로 교체해야 합니다.</block>
   <block id="8c474b5b48584b8a50a578e53997c1c1" category="summary">사용자 계정이 SVM의 CIFS 서버에 대한 로컬 CIFS 인증을 위해 또는 SVM에 포함된 데이터에 대한 액세스 권한을 결정하는 데 더 이상 필요하지 않은 경우 System Manager를 사용하여 SVM(스토리지 가상 시스템)에서 로컬 Windows 사용자 계정을 삭제할 수 있습니다.</block>
-  <block id="1a2cba277657c8539943792db01884d1" category="doc">로컬 Windows 사용자 계정을 삭제하는 중입니다</block>
   <block id="2f2f8006cdba926f80eb01941d442518" category="list-text">Administrator와 같은 표준 사용자는 삭제할 수 없습니다.</block>
   <block id="7e00b270660fa8d3306d85ac52e6afbe" category="list-text">ONTAP는 로컬 그룹 데이터베이스, 로컬 사용자 멤버 자격 및 사용자 권한 데이터베이스에서 삭제된 로컬 사용자에 대한 참조를 제거합니다.</block>
   <block id="8132fd942e4c52f598d6a5f4308612ae" category="list-text">호스트 사용자 및 그룹 * 창에서 * Windows * 를 클릭합니다.</block>
@@ -2375,7 +2374,6 @@
   <block id="fe8ba4bbbc24ea592130598b8cc51301" category="list-text">추가 작업 * &gt; * 클론 * &gt; * 분할 * 을 클릭합니다.</block>
   <block id="c4bf0854bfb87485ed8651fdde3f7803" category="list-text">클론 분할 작업에 대한 FlexClone 볼륨 세부 정보를 확인하고 확인 대화 상자에서 * 분할 시작 * 을 클릭합니다.</block>
   <block id="42689ee599bc64326991ed2e55c7ba76" category="summary">ONTAP는 UNIX 시스템의 /etc/nsswitch.conf 파일에 해당하는 테이블에 이름 서비스 구성 정보를 저장합니다. 환경에 맞게 적절하게 구성할 수 있도록 표의 기능과 ONTAP에서 표의 사용 방법을 이해해야 합니다.</block>
-  <block id="ba391662b97a68cd90e097636183ae6a" category="paragraph">ONTAP는 UNIX 시스템의 '/etc/nsswitch.conf' 파일에 해당하는 테이블에 이름 서비스 구성 정보를 저장합니다. 환경에 맞게 적절하게 구성할 수 있도록 표의 기능과 ONTAP에서 표의 사용 방법을 이해해야 합니다.</block>
   <block id="9f653e5e126214d4e873f166f86c7741" category="paragraph">ONTAP 이름 서비스 스위치 테이블은 ONTAP가 특정 유형의 이름 서비스 정보에 대한 정보를 검색하기 위해 어떤 이름 서비스 소스를 참조합니다. ONTAP는 SVM별로 개별 네임 서비스 스위치 테이블을 유지 관리합니다.</block>
   <block id="4b1baf48f4e54654bd11cef62acb5066" category="section-title">데이터베이스 유형</block>
   <block id="9369fc76099afac2c2202ec93cdbf317" category="paragraph">이 테이블에는 다음과 같은 각 데이터베이스 유형에 대해 별도의 이름 서비스 목록이 저장됩니다.</block>
@@ -2474,7 +2472,6 @@
   <block id="3347f086676ffecffa7c1d19b9b65055" category="list-text">하나 이상의 사용자 로그인 방법을 추가한 다음 * 추가 * 를 클릭합니다.</block>
   <block id="3cff9547d4c8c414b035c383b71f52d9" category="paragraph">새 vsadmin 계정에 대한 로그인 방법은 HTTP를 애플리케이션으로 사용하고 인증서를 통해 인증되는 자동으로 포함됩니다.</block>
   <block id="930b0860c7527125a76f25809e0703f5" category="summary">SVM은 스토리지 시스템과 유사하게 물리적 스토리지 또는 컨트롤러에 관계없이 클라이언트에 데이터 액세스를 제공합니다. SVM은 무중단 운영, 확장성, 보안, 유니파이드 스토리지와 같은 이점을 제공합니다.</block>
-  <block id="77e82b2e710b5cc9c6dfa16efeddeaea" category="doc">SVM을 사용하는 이유</block>
   <block id="d17c0f2e2f7e28fc8d4e127ccf97a5f8" category="paragraph">SVM은 다음과 같은 이점을 제공합니다.</block>
   <block id="08061c765228f998eb55b78218211344" category="list-text">멀티 테넌시</block>
   <block id="faeaca9a4b8921db5f5b6c4d9f4b4945" category="paragraph">SVM은 시큐어 멀티 테넌시(multi-tenancy)의 기본 단위로서, 스토리지 인프라를 분할하여 여러 개의 독립적인 스토리지 시스템으로 나타나도록 합니다. 이러한 파티션은 데이터와 관리를 격리합니다.</block>
@@ -2637,7 +2634,6 @@
   <block id="85b46078a35291049ac1edfa07e75f35" category="paragraph">일정을 지정하지 않으려는 경우</block>
   <block id="a26531ddd22c342a5bd9860ea919b50d" category="paragraph">없음 * 을 선택합니다.</block>
   <block id="7bd49e7c9145d45e01f059d1cdb082e6" category="summary">SVM(스토리지 가상 시스템)에 포함된 데이터에 대한 액세스 권한을 확인하거나 그룹 멤버에 SVM 사용자 권한(권한)을 할당하는 데 그룹이 더 이상 필요하지 않은 경우 System Manager를 사용하여 스토리지 가상 시스템(SVM)에서 로컬 Windows 그룹을 삭제할 수 있습니다.</block>
-  <block id="d3bd00e016659cf41f88b175f8e09b18" category="doc">로컬 Windows 그룹을 삭제하는 중입니다</block>
   <block id="1fd5520ffe7125a908bac57e7afb2eee" category="list-text">로컬 그룹을 제거하면 그룹의 구성원 기록이 제거됩니다.</block>
   <block id="120dc3e662c01773a504ebd37d9476cb" category="list-text">파일 시스템이 변경되지 않았습니다.</block>
   <block id="a80fc19ec5c6a6bf268c9f7fcc351c58" category="paragraph">이 그룹을 참조하는 파일 및 디렉토리의 Windows 보안 설명자는 조정되지 않습니다.</block>
@@ -3022,7 +3018,6 @@
   <block id="6bbaafbdef150c899eef328db1d6fadc" category="summary">스토리지 시스템 섀시를 교체하고 동일한 Fibre Channel SAN에서 재사용하는 경우 교체된 스토리지 시스템의 노드 이름이 특정 경우에 중복될 수 있습니다. System Manager를 사용하여 스토리지 시스템의 노드 이름을 변경할 수 있습니다.</block>
   <block id="969550f744e4b195d9375c6e2077429d" category="list-text">새 이름을 입력한 다음 * 확인 * 을 클릭합니다.</block>
   <block id="4b67916bca2b0da8b959b79534baa6e0" category="summary">System Manager를 사용하면 로컬 Windows 그룹의 이름을 변경하여 그룹을 보다 쉽게 식별할 수 있습니다.</block>
-  <block id="6d297e6ee8e712fad346d42edbf6cd0f" category="doc">로컬 Windows 그룹의 이름을 바꿉니다</block>
   <block id="ce6677cd15b9999d57d524d7888eb255" category="list-text">새 그룹 이름은 이전 그룹 이름과 동일한 도메인에 만들어야 합니다.</block>
   <block id="bf952808344b57c968de6d7ffd92985a" category="list-text">그룹 이름은 다음 요구 사항을 충족해야 합니다.</block>
   <block id="0a9ae93e16216fe99ae8f4567db5aab9" category="list-text">256자를 초과할 수 없습니다</block>
@@ -3039,7 +3034,6 @@
   <block id="f8ee1107b437e6a65d74234f60d7274a" category="list-text">구성 * &gt; * 클러스터 * &gt; * 서비스 프로세서 * 를 클릭합니다.</block>
   <block id="0823d90be5bdbd1f2f0a0b30361bdde1" category="list-text">서비스 프로세서* 창에서 수정할 서비스 프로세서를 선택한 다음 * 편집 * 을 클릭합니다.</block>
   <block id="a89d04c7e7307e93e34cc877af5a1c96" category="list-text">[서비스 프로세서 편집] * 대화 상자에서 필요한 사항을 변경한 다음 [저장 후 닫기]를 클릭합니다.</block>
-  <block id="167f6dae62c5e6a04290b4be80be116e" category="summary">System Manager를 사용하면 더 이상 필요하지 않은 스토리지 서비스 품질(QoS) 정책 그룹을 삭제할 수 있습니다.</block>
   <block id="7d0973962863fbba831179ad8a119586" category="paragraph">정책 그룹에 할당된 모든 스토리지 객체를 할당 해제해야 합니다.</block>
   <block id="cd8b8d46f76eda836496f2292b3eec3b" category="list-text">Policies * 창에서 * QoS Policy Groups * 를 클릭합니다.</block>
   <block id="530e5f35c1250f24027e3a75918a7380" category="list-text">QoS 정책 그룹 * 창에서 삭제할 정책 그룹을 선택한 다음 * 삭제 * 를 클릭합니다.</block>
@@ -3631,7 +3625,6 @@
   <block id="dec7a9cf637ab7e5ec703056266f4cf7" category="list-text">Submit and Continue * 를 클릭하여 SVM을 생성합니다.</block>
   <block id="ec4be32f47fa69e0726361f9f7d93251" category="paragraph">제출 및 계속 * 을 클릭한 경우 요약 창에서 제공한 세부 정보를 확인한 다음 * 클러스터 관리 * 를 클릭하여 System Manager를 시작하거나 * 응용 프로그램 제공 * 을 클릭하여 스토리지 응용 프로그램을 프로비저닝하거나 * 구성 내보내기 * 를 클릭하여 구성 파일을 다운로드해야 합니다.</block>
   <block id="67afc4e0e90df274c0b2c4cf2b605d06" category="summary">System Manager를 사용하여 스토리지 시스템에서 사용자의 CIFS 홈 디렉토리 위치를 확인하는 데 사용할 수 있는 경로를 하나 이상 지정할 수 있습니다.</block>
-  <block id="7e07ef4fefaf5e9f135056d576316043" category="doc">홈 디렉토리 경로를 추가합니다</block>
   <block id="c60fbd277b3cf8a2b3392b0da74d7c91" category="list-text">홈 디렉토리 관리 * 대화 상자에서 스토리지 시스템이 사용자의 CIFS 홈 디렉토리를 검색하는 데 사용할 경로를 지정합니다.</block>
   <block id="ba43a0b415d67a230fa5cc9655cb4818" category="list-text">추가 * 를 클릭한 다음 * 저장 후 닫기 * 를 클릭합니다.</block>
   <block id="1a27d7477db5f161a28992d68960e4ba" category="paragraph">System Managerto를 사용하면 더 이상 필요하지 않은 효율성 정책을 삭제할 수 있습니다.</block>
@@ -3853,7 +3846,6 @@
   <block id="77f46dff1f4fe5f4d604df448907ab6d" category="paragraph">스케줄의 이름을 지정합니다.</block>
   <block id="d33e46d4771324ab75bbabd073360033" category="paragraph">스케줄 - 시간 기반 또는 간격 기반 유형을 지정합니다.</block>
   <block id="92216aa265077d6f614b1132ca4ace73" category="paragraph">세부 정보 영역에는 선택한 일정이 실행되는 시간에 대한 정보가 표시됩니다.</block>
-  <block id="8ce995370c9e714eb5c14a96b94ad814" category="summary">System Manager를 사용하여 로컬 사용자, Active Directory 사용자 또는 Active Directory 그룹(사용자가 해당 그룹과 연결된 권한을 보유하도록 하려는 경우)을 Windows 로컬 그룹에 추가할 수 있습니다.</block>
   <block id="d6b3e82d5d3d8841735df1e166044e95" category="doc">Windows 로컬 그룹에 사용자 계정을 추가합니다</block>
   <block id="8de6ce1d147fcf43eaa9471632990795" category="list-text">그룹에 사용자를 추가하려면 그룹이 있어야 합니다.</block>
   <block id="aebd7c99d92cdaa04e7cf8e2704fe37b" category="list-text">사용자를 그룹에 추가하려면 사용자가 있어야 합니다.</block>
@@ -4536,7 +4528,6 @@
   <block id="45910c75dc3a84f929e6b5fcaeb795d6" category="inline-xref-macro">Configuration Updates(구성 업데이트) 창</block>
   <block id="ce33365c051307792c094b7d7239efc4" category="paragraph"><block ref="ce33365c051307792c094b7d7239efc4" category="inline-xref-macro-rx"></block></block>
   <block id="0f449d0549237ea9e9d1f88b27934467" category="summary">특정 그룹에 연결된 권한을 사용자에게 부여하려면 System Manager를 사용하여 사용자 계정에 그룹 구성원 자격을 할당할 수 있습니다.</block>
-  <block id="b87dc40a9cd444db0c33c9cf74977997" category="doc">사용자 계정에 그룹 구성원 자격 할당</block>
   <block id="50ae5ed2fe58858bb349bbbd9b2c29fe" category="list-text">사용자 * 탭에서 그룹 구성원 자격을 할당할 사용자 계정을 선택한 다음 * 그룹에 추가 * 를 클릭합니다.</block>
   <block id="1045d936338689d8f58d4361edfd01ab" category="list-text">Add Groups * (그룹 추가 *) 창에서 사용자 계정을 추가할 그룹을 선택합니다.</block>
   <block id="a87ec36a031b34f90e72e5e035d3aca3" category="paragraph">사용자 계정에는 선택한 모든 그룹에 대한 구성원 자격이 할당되며 사용자는 이러한 그룹과 연결된 권한을 갖습니다.</block>
@@ -5233,7 +5224,6 @@
   <block id="313a8a6a32fc700b93d306b9613fd7f4" category="list-text">이니시에이터 그룹 * 탭에서 수정할 이니시에이터 그룹을 선택한 다음 * 편집 * 을 클릭합니다.</block>
   <block id="0cc99e2b81b313ef751e68b68eeb15b1" category="list-text">필요한 사항을 변경합니다.</block>
   <block id="ecab37e90db3faaefb141343f6a75895" category="list-text">이니시에이터 그룹 * 탭에서 이니시에이터 그룹의 변경 사항을 확인합니다.</block>
-  <block id="180eabc93d08acecb1687f9851773dd4" category="summary">Windows 창을 사용하여 클러스터의 각 SVM(스토리지 가상 머신)에 대한 로컬 Windows 사용자 및 그룹 목록을 유지할 수 있습니다. 로컬 Windows 사용자 및 그룹을 인증 및 이름 매핑에 사용할 수 있습니다.</block>
   <block id="07f25664c3f8ce2fabe8378a2d146041" category="section-title">사용자 탭</block>
   <block id="b2ad1c81340fc72b3ad3bc04fceb78b1" category="paragraph">사용자 탭을 사용하여 SVM에 대한 로컬 Windows 사용자를 볼 수 있습니다.</block>
   <block id="2db5951e43169dab6dd75c3c1d310025" category="paragraph">SMB 연결을 통해 SVM에 포함된 데이터에 대한 액세스를 승인하는 데 사용할 수 있는 로컬 Windows 사용자 계정을 생성할 수 있는 사용자 생성 대화 상자를 엽니다.</block>
@@ -5270,24 +5260,6 @@
   <block id="a6f61712592d083a36b68c99a9b5c1be" category="paragraph">선택한 그룹과 연결된 권한 목록을 표시합니다.</block>
   <block id="1e80c1b5ea4b7ab424e23b0decfa2203" category="list-text">사용자 *</block>
   <block id="fc0de9f2009ac4ca0b6d02078444e884" category="paragraph">선택한 그룹과 연결된 로컬 사용자 목록을 표시합니다.</block>
-  <block id="353defc72b13f3a77c49cafd47a18f85" category="inline-xref-macro">로컬 Windows 그룹 생성</block>
-  <block id="062a96abb34aeabcd661fe53ff6d0f67" category="paragraph"><block ref="062a96abb34aeabcd661fe53ff6d0f67" category="inline-xref-macro-rx"></block></block>
-  <block id="47bd057b7e78287419e44beb57703163" category="inline-xref-macro">로컬 Windows 그룹 속성 편집</block>
-  <block id="b80648ef025c5ea02acc457020ec1e8d" category="paragraph"><block ref="b80648ef025c5ea02acc457020ec1e8d" category="inline-xref-macro-rx"></block></block>
-  <block id="d133389e50f76f674468f0d082cd1910" category="inline-xref-macro">Windows 로컬 그룹에 사용자 계정 추가</block>
-  <block id="7ed88928e7016b091b8c4596b8e95add" category="paragraph"><block ref="7ed88928e7016b091b8c4596b8e95add" category="inline-xref-macro-rx"></block></block>
-  <block id="85ddf1407638d5a906efda51df5d189d" category="paragraph"><block ref="85ddf1407638d5a906efda51df5d189d" category="inline-xref-macro-rx"></block></block>
-  <block id="3a20813ea7be9a13e5794ca34063eb09" category="paragraph"><block ref="3a20813ea7be9a13e5794ca34063eb09" category="inline-xref-macro-rx"></block></block>
-  <block id="56d1938baf1fa0304fdcd806bf92e633" category="inline-xref-macro">로컬 Windows 사용자 계정 생성</block>
-  <block id="a2db5067f9a477847c309b62a8490902" category="paragraph"><block ref="a2db5067f9a477847c309b62a8490902" category="inline-xref-macro-rx"></block></block>
-  <block id="06016aaf0c61780292224353dfb4fd7d" category="inline-xref-macro">로컬 Windows 사용자 속성 편집</block>
-  <block id="eb32a7dd062223b1911ec0ef4fedbc08" category="paragraph"><block ref="eb32a7dd062223b1911ec0ef4fedbc08" category="inline-xref-macro-rx"></block></block>
-  <block id="26e94c84696a247976f4b39fa3059512" category="paragraph"><block ref="26e94c84696a247976f4b39fa3059512" category="inline-xref-macro-rx"></block></block>
-  <block id="997dbd5307d22b7702dc5f4c707fdf7a" category="inline-xref-macro">로컬 Windows 사용자 이름 바꾸기</block>
-  <block id="61601b0988240bea36d346aacc5d63cf" category="paragraph"><block ref="61601b0988240bea36d346aacc5d63cf" category="inline-xref-macro-rx"></block></block>
-  <block id="8b917c2f83bfcaf6934f91be79327f41" category="inline-xref-macro">Windows 로컬 사용자의 암호 재설정</block>
-  <block id="b90d7983b2f2b479f5b65acdf16870ba" category="paragraph"><block ref="b90d7983b2f2b479f5b65acdf16870ba" category="inline-xref-macro-rx"></block></block>
-  <block id="fdec4bbe4c2e43d23f5f3b23a89d4c24" category="paragraph"><block ref="fdec4bbe4c2e43d23f5f3b23a89d4c24" category="inline-xref-macro-rx"></block></block>
   <block id="bee8b071f75206a01cbec05941e70af3" category="summary">FlexGroup 볼륨에는 개별 볼륨 대신 그룹으로 관리할 수 있는 많은 볼륨이 포함될 수 있습니다. System Manager를 사용하여 특정 애그리게이트를 선택하거나 시스템 권장 애그리게이트를 선택하여 FlexGroup 볼륨을 생성할 수 있습니다.</block>
   <block id="87377698a8dca305b9579a13060142f2" category="doc">FlexGroup 볼륨을 생성합니다</block>
   <block id="f2a35be883cf4139cbb198b07e91f215" category="list-text">읽기/쓰기(RW) FlexGroup 볼륨만 생성할 수 있습니다.</block>
@@ -5353,7 +5325,6 @@
   <block id="d65a53b8237a09c4828f7a2c26b60eb7" category="paragraph">Attach aggregate(애그리게이트 연결) 창이 표시됩니다.</block>
   <block id="69de6126d738c7f0e7de92eac788fa2a" category="list-text">클라우드 계층에 연결할 애그리게이트를 선택합니다.</block>
   <block id="13acd017c093c0fa1be1bc16063c90ff" category="summary">System Manager를 사용하여 대상 SVM(스토리지 가상 머신)에서 볼트 관계를 생성하고 볼트 정책을 할당하여 백업 볼트를 생성할 수 있습니다. 시스템에서 데이터가 손실되거나 손상된 경우 백업 데이터를 백업 볼트 대상에서 복원할 수 있습니다.</block>
-  <block id="abf829b25449f6273d3b487ca5bdc3b3" category="doc">대상 SVM에서 볼트 관계를 생성합니다</block>
   <block id="51d72e45a596cfa27c02a2a159bafdbf" category="list-text">소스 클러스터는 ONTAP 8.2.2 이상을 실행해야 합니다.</block>
   <block id="f81d94da893507b75a42e53d0a0f6269" category="list-text">소스 클러스터와 대상 클러스터 모두에서 SnapVault 라이센스 또는 SnapMirror 라이센스를 활성화해야 합니다.</block>
   <block id="068e601c4c1e7ed2160e788bc0b238fa" category="paragraph">일부 플랫폼의 경우 대상 클러스터에 SnapVault 라이센스 또는 SnapMirror 라이센스가 있고 DPO 라이센스가 활성화된 경우 소스 클러스터에 SnapVault 라이센스가 없거나 SnapMirror 라이센스가 활성화되어 있지 않아도 됩니다.</block>
@@ -5597,7 +5568,6 @@
   <block id="a8462def21b2e5d1ba1ce03e83dd973a" category="list-text">활성화 또는 비활성화할 효율성 정책을 하나 이상 선택합니다.</block>
   <block id="15f259712db9059f5253344c66956ff7" category="list-text">필요에 따라 * 상태 * &gt; * 활성화 * 또는 * 상태 * &gt; * 비활성화 * 를 클릭합니다.</block>
   <block id="3419e8becf774dd78dfb2f713b10da8a" category="list-text">효율성 정책을 사용하지 않으려면 확인 확인란을 선택한 다음 * 확인 * 을 클릭합니다.</block>
-  <block id="3241edb94f07e6bbf7cba493631ff2c6" category="summary">System Manager의 정책 그룹 편집 대화 상자를 사용하여 기존 스토리지 QoS(서비스 품질) 정책 그룹의 이름과 최대 처리량을 수정할 수 있습니다.</block>
   <block id="20ce37acd2082db423c612d41df0cb50" category="list-text">편집할 QoS 정책 그룹을 선택한 다음 * 편집 * 을 클릭합니다.</block>
   <block id="5c5c7ddc00ec7405fc1756a5d41d88e6" category="list-text">최대 처리량 제한을 지정하지 않으면 값이 무제한으로 설정되고 지정한 단위는 최대 처리량에 영향을 주지 않습니다.</block>
   <block id="d5a2355a7d209d5208bf6be1cc1af6df" category="list-text">Edit Policy Group * 대화 상자에서 QoS 정책 그룹 세부 정보를 편집한 다음 * Save * 를 클릭합니다.</block>
@@ -5850,8 +5820,6 @@
   <block id="1c867bc949570263498e870403b0e61a" category="doc">클러스터 환경 설정</block>
   <block id="58369fe03b8cca246bfd9acff3681041" category="image-alt">안내식 클러스터 설정</block>
   <block id="38f0eb0f612b86d404cbdaf0799a8395" category="summary">System Manager를 사용하여 스토리지 시스템에서 iSCSI 서비스를 시작하거나 중지할 수 있습니다.</block>
-  <block id="90918480fa4e99c8612248c6fc0bef9b" category="summary">ONTAP System Manager를 사용하여 대상 SVM(스토리지 가상 머신)에서 미러링 관계를 생성하고 정책 및 일정을 미러 관계에 할당할 수 있습니다. 미러 복제본을 사용하면 소스 볼륨의 데이터가 손상되거나 손실된 경우 데이터를 빠르게 사용할 수 있습니다.</block>
-  <block id="b172911abb23c845e5cc62ee1144120d" category="doc">대상 SVM에서 미러 관계를 생성합니다</block>
   <block id="7f119aa2a22940092a81eb756ae85f20" category="list-text">볼륨을 미러링하는 동안 SnapLock 볼륨을 소스로 선택하면 SnapMirror 라이센스와 SnapLock 라이센스가 대상 클러스터에 설치되어 있어야 합니다.</block>
   <block id="b174d43416ffa918ee34093f515f398a" category="list-text">FlexVol 볼륨은 온라인이어야 하며 읽기/쓰기 유형이어야 합니다.</block>
   <block id="438a96c00525fe9ccda0532d2610cb48" category="list-text">SnapLock 집계 유형은 같은 유형이어야 합니다.</block>
@@ -6266,7 +6234,6 @@
   <block id="edd157911f3f71d15fad21af777b74ce" category="list-text">상태를 수정할 FlexCache 볼륨을 선택합니다.</block>
   <block id="0ebba1c780c0912daef9ef93708f39ed" category="list-text">More Actions * &gt; * Change status to * 를 클릭한 다음 필요한 상태를 선택하여 FlexCache 볼륨 상태를 업데이트합니다.</block>
   <block id="d5ac459ab7890d1381a2088deab22918" category="paragraph">FlexCache 볼륨을 오프라인으로 전환하고 상태를 "제한됨"으로 변경하려면 먼저 볼륨을 마운트 해제해야 합니다.</block>
-  <block id="136dd5d0414a62d4b3656dd07d0e3ed5" category="summary">기존 사용자의 전체 이름 또는 설명을 변경하거나 사용자 계정을 활성화 또는 비활성화하려는 경우 System Manager를 사용하여 로컬 Windows 사용자 계정을 수정할 수 있습니다. 사용자 계정에 할당된 그룹 구성원을 수정할 수도 있습니다.</block>
   <block id="29085bd39c9a2ab55bafef6a551bde17" category="list-text">사용자 * 탭에서 * 편집 * 을 클릭합니다.</block>
   <block id="a292e6b20e984807fe7fc7fbab57a006" category="list-text">Modify User * (사용자 수정 *) 창에서 필요한 내용을 변경합니다.</block>
   <block id="91650f5965ba3fed5dc9af6ebcf68e26" category="paragraph">로컬 Windows 사용자 계정의 속성이 수정되어 * 사용자 * 탭에 표시됩니다.</block>
@@ -7072,8 +7039,6 @@
   <block id="fac2dab4d0bb98be243e02eaa90816a5" category="list-text">FlexGroup 볼륨이 오프라인 상태여야 합니다.</block>
   <block id="302cf5d4990e17cf9562806b321745d1" category="paragraph">System Manager에서는 FlexGroup 볼륨의 구성요소 관리 레벨을 지원하지 않습니다.</block>
   <block id="8edabc6f86803ca25d2fc48853011bb2" category="list-text">삭제할 FlexGroup 볼륨을 선택한 다음 * 삭제 * 를 클릭합니다.</block>
-  <block id="cfb186e8e8f985739a805db1f3042725" category="summary">System Manager를 사용하여 QoS 정책 그룹을 생성, 편집 및 삭제할 수 있습니다.</block>
-  <block id="d652696dcf63b8343a323a9db5a7743c" category="doc">QoS 정책 그룹</block>
   <block id="40e3f9d38a302b0b218ea0634cb4b079" category="summary">System Manager를 사용하여 NFSv3, NFSv4 및 NFSv4.1에서 설정 또는 해제, NFSv4 클라이언트에 대한 읽기 및 쓰기 위임 설정 또는 해제, NFSv4 ACL 설정 등의 NFS 설정을 편집할 수 있습니다. 기본 Windows 사용자도 편집할 수 있습니다.</block>
   <block id="4e96af8b428b98552b109c1d32a42842" category="list-text">NFS * 창에서 * Edit * 를 클릭합니다.</block>
   <block id="5652939fb504000d7345b9925e453202" category="list-text">NFS 설정 편집 * 대화 상자에서 필요한 사항을 변경합니다.</block>
@@ -8675,7 +8640,6 @@
   <block id="53a0710f5e25fe7ea5d759fe8308ba35" category="sidebar">로컬 Windows 그룹 속성을 편집합니다</block>
   <block id="730ce1a760d9d8d3ab561b2e0382f3d1" category="sidebar">로컬 Windows 그룹의 이름을 바꿉니다</block>
   <block id="558aa2f18b78022662b4fc5b1372aaa2" category="sidebar">로컬 Windows 그룹을 삭제합니다</block>
-  <block id="a61ef4381ae27c3f4823d95f1b2c7c23" category="sidebar">로컬 Windows 사용자 속성을 편집합니다</block>
   <block id="db5cb060d3f1c56dc4a35fce5a867ee4" category="sidebar">로컬 Windows 사용자의 이름을 바꿉니다</block>
   <block id="f8d149e2f560d043fee27559bcf3940e" category="sidebar">Windows 로컬 사용자의 암호를 재설정합니다</block>
   <block id="747db15d84dfaabaf70d11952f46c2a0" category="sidebar">로컬 Windows 사용자 계정을 삭제합니다</block>
@@ -8890,13 +8854,11 @@
   <block id="d262dc861cfb38f39b59d63acb258d4d" category="section-title">MetroCluster 전환 및 스위치백에 대해 설명합니다</block>
   <block id="c3b9dfd292bc1b7a3ce9854f5e6cb29d" category="sidebar">NVMe 서브시스템이란</block>
   <block id="e9bdc57e2dd3879cf90ec006b52505f6" category="doc">System Manager로 라이센스 관리 - ONTAP 9.7 이하</block>
-  <block id="decbf892ef0f721afaa78af4ecf7f62a" category="paragraph">ONTAP System Manager 클래식(9.7 이하에서 사용 가능)을 사용하면 클러스터 또는 노드에 설치된 소프트웨어 라이센스를 확인, 관리 또는 삭제할 수 있습니다.</block>
   <block id="38fd3ecf8201750e55c0c5bce14fd4da" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 SVM에서 FC 프로토콜 및 FCoE 프로토콜을 구성합니다</block>
   <block id="6add29da08c990d29ef923f9f502fb2f" category="paragraph">System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 SAN 호스트용 SVM(스토리지 가상 머신)에서 FC 프로토콜과 FCoE 프로토콜을 구성할 수 있습니다. LIF는 가장 적합한 어댑터에 생성되며 데이터 경로 이중화를 위해 포트 세트에 할당됩니다. 요구사항에 따라 System Manager를 사용하여 FC 프로토콜이나 FCoE 프로토콜을 구성하거나 두 프로토콜을 모두 구성할 수 있습니다.</block>
   <block id="93c41266584d5677e48dfa95ec4744c7" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 FabricPool 지원 애그리게이트를 수동으로 생성하거나 클라우드 계층을 SSD 애그리게이트에 연결하여 기존 SSD 애그리게이트를 FabricPool 지원 애그리게이트로 변환할 수 있습니다.</block>
   <block id="a25a6296a2238250ac880d0ecf5b030b" category="paragraph">ONTAP System Manager 클래식 9.6을 사용하여 스위치오버 작업을 수행하기 전에 해당 사이트에서 필요한 단계가 수행되었는지 확인해야 합니다.</block>
   <block id="19ba7845e5879e0c327b97f282a2ad67" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 고가용성 쌍을 생성합니다</block>
-  <block id="f153aa09dfee8a14f039fef3b377cbf3" category="paragraph">ONTAP System Manager 클래식(9.7 이하에서 사용 가능)을 사용하면 무중단 운영 및 내결함성을 위해 하드웨어 이중화를 제공하는 HA(고가용성) 쌍을 생성할 수 있습니다.</block>
   <block id="c25f011b08f295a29bbd500b17b738ed" category="doc">System Manager를 사용한 구성 업데이트 - ONTAP 9.7 이전 버전</block>
   <block id="1c82fcdf598db00f440965ba676c0e66" category="paragraph">ONTAP System Manager 클래식(9.7 이하에서 사용 가능)을 사용하면 SVM(스토리지 가상 머신)의 관리 세부 정보를 구성할 수 있습니다.</block>
   <block id="8e4cfdd5f2a44a82c383c0562730105b" category="doc">System Manager 로그 파일 보기 - ONTAP 9.7 이하</block>
@@ -8911,7 +8873,6 @@
   <block id="54ff26b2647f3f25676cb99009476209" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 클러스터를 중단 없이 업데이트합니다</block>
   <block id="4feeea0248e0f62412823f11324a2100" category="paragraph">ONTAP 9.7 이하에서 사용 가능한 ONTAP System Manager 클래식(ONTAP 9.7 버전 사용 가능)을 사용하면 클라이언트 데이터에 대한 액세스를 방해하지 않고 ONTAP 8.3.1 이상을 실행하는 고가용성(HA) 쌍의 클러스터 또는 개별 노드를 특정 버전의 소프트웨어로 업데이트할 수 있습니다.</block>
   <block id="f99033f8018d74566de6d90275ee7175" category="doc">System Manager로 클러스터 확장 - ONTAP 9.7 이하</block>
-  <block id="ab015a1f9aac7b895e136cdfb521e9b8" category="paragraph">ONTAP System Manager 클래식(9.7 이하에서 사용 가능)을 사용하면 클러스터에 호환되는 노드를 추가하고 노드 네트워크 세부 정보를 구성하여 스토리지의 크기와 기능을 확장할 수 있습니다. 노드의 요약을 볼 수도 있습니다.</block>
   <block id="947070ca8b26d7d7b190fdd46f44d0fa" category="doc">시스템 관리자 - ONTAP 9.7 이하가 있는 스페어 디스크가 없습니다</block>
   <block id="39369ff883ac37576eeaa48e7091dfba" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 모든 데이터를 지우고 디스크에 0을 작성하여 스페어 디스크를 포맷할 수 있습니다. 그런 다음 이러한 디스크를 새 애그리게이트에서 사용할 수 있습니다.</block>
   <block id="41900314c94464c2e9abd692d4c2e94a" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 비 MetroCluster 구성에서 클러스터를 업데이트합니다</block>
@@ -8919,7 +8880,6 @@
   <block id="8d74ad77222f6c5c38989bad7372cf2c" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 클러스터를 생성합니다</block>
   <block id="f9c28b17c0f35d7a3c72a8e6a546dfee" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 데이터 센터에서 클러스터를 생성하고 설정할 수 있습니다.</block>
   <block id="5fc170c97be608be88f22779966c7146" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 SVM에서 NVMe 프로토콜을 구성합니다</block>
-  <block id="aa89074fcbd4c0c8d0bb294d295d2ebf" category="paragraph">System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 SVM(스토리지 가상 머신)에서 NVMe 프로토콜을 구성할 수 있습니다. 그런 다음 네임스페이스를 만들고 NVMe 하위 시스템 및 호스트에 할당할 수 있습니다.</block>
   <block id="75e42471a0f30f0b5291750d4a05d20a" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 스토리지 권장 사항을 기반으로 애그리게이트를 생성합니다</block>
   <block id="efbc0ad8b6d2eb58efb50697f164d765" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 스토리지 권장 사항을 기반으로 aggregate를 생성할 수 있습니다. System Manager는 스토리지 시스템의 구성을 분석하고 생성할 애그리게이트 수, 사용 가능한 노드 및 사용 가능한 스페어 디스크와 같은 스토리지 권장 사항을 제공합니다.</block>
   <block id="bc77434a988ceef6c953803fe2e06881" category="doc">System Manager-ONTAP 9.7 이하가 포함된 클러스터 업데이트 창</block>
@@ -8933,10 +8893,8 @@
   <block id="6179ae55d1fadeff01dd8976b5bedda7" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 ONTAP 소프트웨어 이미지를 얻습니다</block>
   <block id="78916d18eac9a0b8102e2b7f6a492589" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)으로 ONTAP 소프트웨어 이미지를 얻을 수 있습니다. ONTAP 9.4 이상의 경우 NetApp Support 사이트에서 로컬 폴더로 ONTAP 소프트웨어 이미지를 복사할 수 있습니다. ONTAP 9.3 이전 버전에서 업그레이드하려면 ONTAP 소프트웨어 이미지를 네트워크의 HTTP 서버 또는 FTP 서버로 복사해야 합니다.</block>
   <block id="f5db4f9448aaa78931200f9e088d969e" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 SVM에서 iSCSI 프로토콜을 구성합니다</block>
-  <block id="1adc906cf717845ffb29f00022c0366f" category="paragraph">SVM(스토리지 가상 시스템)에서 iSCSI 프로토콜을 구성하여 ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 블록 레벨 데이터 액세스를 제공할 수 있습니다. iSCSI LIF 및 포트 세트를 생성한 다음 포트 세트에 LIF를 추가할 수 있습니다. LIF는 가장 적합한 어댑터에 생성되며 데이터 경로 이중화를 위해 포트 세트에 할당됩니다.</block>
   <block id="4010f2b8e90ddf85f94ac358d78075c1" category="doc">시스템 관리자 - ONTAP 9.7 이하가 설치된 서비스 프로세서를 사용합니다</block>
   <block id="976175cc4e5d4c3ab14e16c83ffa15e8" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)이 지원되는 서비스 프로세서를 사용하여 온도, 전압, 전류 및 팬 속도와 같은 스토리지 시스템 매개 변수를 모니터링하고 관리할 수 있습니다.</block>
-  <block id="c0bbe542e022a200771c2c752e0173f2" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 애플리케이션을 구성합니다</block>
   <block id="a52ac8fd4d86144ca8599edcc24c0489" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에서 사전 정의된 애플리케이션 템플릿을 사용하여 기존 애플리케이션 템플릿을 기반으로 하는 새 구성을 생성할 수 있습니다. 그런 다음 ONTAP에서 애플리케이션의 인스턴스를 프로비저닝할 수 있습니다.</block>
   <block id="2315562608e0a40cc0e479e0bf28e956" category="paragraph">ONTAP System Manager 9.6부터 소스 클러스터의 모든 노드에 연결할 수 없고 전원을 끈 재해가 발생한 후 MetroCluster 스위치오버 및 스위치백 작업을 사용할 수 있습니다. 또한 재해 복구 테스트 또는 유지 관리를 위해 오프라인으로 전환되는 사이트와 같은 경우 협상된(계획된) 전환 워크플로우를 사용할 수도 있습니다.</block>
   <block id="d8f8316f7f24f5a2514269ed1e587626" category="doc">System Manager로 SVM 생성 - ONTAP 9.7 이전 버전</block>
@@ -8944,7 +8902,6 @@
   <block id="b1f5b741f97f88d2a27fe9554d96e5ae" category="doc">System Manager - ONTAP 9.7 및 이전 버전에서 템플릿 파일을 사용하여 클러스터를 설정합니다</block>
   <block id="80c57d2dae86d5f969cedfa286a5d186" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에서 제공되는 템플릿 파일을 사용하여 클러스터를 생성하고, 노드 관리 및 클러스터 관리 네트워크를 설정한 다음, 이벤트 알림을 설정하여 클러스터를 설정할 수 있습니다. (ONTAP 시스템 관리자 9.6부터는 AutoSupport가 지원되지 않습니다.) 템플릿 파일은 .xlsx 형식 또는 .csv 형식으로 다운로드할 수 있습니다.</block>
   <block id="981ccff974ccd38feb11b98749f62f33" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 SVM 관리자에게 관리 권한을 위임합니다</block>
-  <block id="2916098ae0e238c3e38a1a47b1301eb5" category="paragraph">기본 네트워크 구성을 사용하여 기능적 스토리지 가상 시스템(SVM) 또는 SVM을 설정한 후에는 System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 SVM 관리자에게 SVM 관리를 선택적으로 위임할 수 있습니다.</block>
   <block id="428c89fe51366d100675e40d7d32fb93" category="doc">SAN을 통한 Microsoft SQL Server를 System Manager-ONTAP 9.7 이하에 추가합니다</block>
   <block id="5da48fe095f84368a16a22547d62a3a4" category="paragraph">고급 탭을 사용하여 SAN을 통한 Microsoft SQL Server의 인스턴스를 ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)에 추가할 수 있습니다.</block>
   <block id="b9a9fce134da50ebf7545e06d22fd4db" category="doc">시스템 관리자 - ONTAP 9.7 이전 버전을 사용하여 MetroCluster 로컬 사이트(사이트 A)의 이름을 바꿉니다</block>
@@ -8991,7 +8948,6 @@
   <block id="50899d0b2190a949520b49e445d23355" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 브로드캐스트 도메인을 만들고 관리할 수 있습니다.</block>
   <block id="ab4ae87bc3c1b004cb0873b4af4ea2d7" category="doc">ONTAP System Manager - ONTAP 9.7 이하를 사용하여 클러스터를 설정합니다</block>
   <block id="cf0a65ee8a0e04ae720f439289af1cf4" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 클러스터를 생성하고, 노드 관리 네트워크 및 클러스터 관리 네트워크를 설정한 다음, 이벤트 알림을 설정하여 클러스터를 설정할 수 있습니다.</block>
-  <block id="44de48291f65b93f6b91ae71158fc5a0" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 SVM을 생성합니다</block>
   <block id="d8df04e394d1d658fc87637c0e78fe19" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에서는 SVM(스토리지 가상 머신) 창을 사용하여 완벽하게 구성된 SVM을 생성할 수 있습니다. SVM은 이러한 SVM에 스토리지 객체가 생성된 후 데이터를 제공합니다.</block>
   <block id="a5fa5f03b1c7f0fd168b52120c524434" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 노드를 디스크에 할당합니다</block>
   <block id="25e40dbc1aa0db0b68b988d819462b39" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 할당되지 않은 디스크의 소유권을 특정 노드에 할당하여 애그리게이트 또는 스토리지 풀의 용량을 늘릴 수 있습니다.</block>
@@ -9003,7 +8959,6 @@
   <block id="f3c0856ca60c4724a7753f39aeb21072" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 애플리케이션을 편집합니다</block>
   <block id="9de97ea20bea358cafe2c052eb4fe156" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 프로비저닝된 애플리케이션을 편집하여 스토리지 크기를 늘리거나 애플리케이션의 스냅샷 복사본을 관리할 수 있습니다.</block>
   <block id="a30fa0b5cb2afd6f435aa35fc7ca5745" category="doc">시스템 관리자 - ONTAP 9.7 이하를 사용하여 SAML 인증을 설정합니다</block>
-  <block id="d7099498f421b4701bba3cabee8125eb" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 SAML(Security Assertion Markup Language) 인증을 설정할 수 있습니다. 원격 사용자는 System Manager에 로그인하기 전에 IDP(Secure Identity Provider)를 통해 인증됩니다.</block>
   <block id="463c29b806262e410f8af6e29a986e1f" category="doc">System Manager로 역할 관리 - ONTAP 9.7 이하</block>
   <block id="7ca34b48f8debce3ee45d8476624ffa9" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 액세스 제어 사용자 역할을 생성할 수 있습니다.</block>
   <block id="d75e944167c8ce0dfa9e0ab1a4a7da5e" category="doc">System Manager용 대시보드 창 - ONTAP 9.7 이전 버전</block>
@@ -9025,7 +8980,6 @@
   <block id="ebacb42d7af485b4c9760bd64078b3c9" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 스토리지 풀을 생성하여 여러 Flash Pool 애그리게이트에서 SSD를 공유할 수 있습니다.</block>
   <block id="7b9cdbb20d7b7f588086eab7aa5c2913" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하여 하드웨어 캐시 모듈을 관리할 수 있습니다.</block>
   <block id="abb7c046c422db37c0202c07166a8eab" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 볼륨 크기를 조정합니다</block>
-  <block id="20169e117853b27b34193a931dadb8dc" category="paragraph">볼륨이 거의 전체 용량에 도달하면 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 볼륨 크기를 늘리거나, 일부 스냅샷 복사본을 삭제하거나, 스냅샷 예약 공간을 조정할 수 있습니다. System Manager의 볼륨 크기 조정 마법사를 사용하여 여유 공간을 더 많이 확보할 수 있습니다.</block>
   <block id="082fcd43395a78c9af7e1c1aede841c9" category="doc">시스템 관리자-ONTAP 9.7 이하를 사용하여 애그리게이트 미러링</block>
   <block id="7320e70f830697cfb3f68adab3cec989" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 방식을 사용하면 데이터를 보호하고 단일 애그리게이트 내에서 실시간으로 데이터를 미러링하여 복원력을 높일 수 있습니다. 미러링 애그리게이트는 디스크 및 어레이 LUN에 연결할 때 단일 장애 지점을 제거합니다.</block>
   <block id="d7a551057ba910463c17513387122618" category="doc">System Manager로 디스크 관리 - ONTAP 9.7 이하</block>
@@ -9169,7 +9123,6 @@
   <block id="6eb2b573b575a1c5351324690e7d62ae" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 디스크를 노드에 재할당합니다</block>
   <block id="190f9ec4f52503d35888c252ab746728" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 스페어 디스크의 소유권을 한 노드에서 다른 노드로 재할당하여 애그리게이트 또는 스토리지 풀의 용량을 높일 수 있습니다.</block>
   <block id="9298dd1b53067fbddee607d176c77775" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 이더넷 포트를 관리합니다</block>
-  <block id="2da457cc70f41e8d72a0321dda42ec28" category="paragraph">ONTAP System Classic(ONTAP 9.7 이전 버전에서 사용 가능)을 사용하여 이더넷 포트를 생성하고 관리할 수 있습니다.</block>
   <block id="1f5a64b9025574c884f81e9e1098c75f" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 FC/FCoE 및 NVMe 어댑터를 관리하십시오</block>
   <block id="a9a3133ec55e6f2440f5dad3b6c8f994" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하여 FC/FCoE 및 NVMe 어댑터를 관리할 수 있습니다.</block>
   <block id="eea76ef6e75facd7fe5458d28c6aa51b" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 스토리지 LUN 관리</block>
@@ -9199,7 +9152,6 @@
   <block id="d81698ba423ea22b301cb1579d9e6433" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 방식을 사용하여 네임 서비스 스위치, 이름 매핑 스위치, 애그리게이트 목록과 같은 SVM(스토리지 가상 머신)의 속성을 편집할 수 있습니다.</block>
   <block id="564791b987f0846ef3c17ad7e3a475c2" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 저장된 스냅샷 복사본 목록을 확인하십시오</block>
   <block id="3a529a084aa6539c3cf0ff1e6a82eebb" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 볼륨 창의 아래쪽 창에 있는 스냅샷 복사본 탭에서 선택한 볼륨에 대해 저장된 모든 스냅샷 복사본 목록을 볼 수 있습니다. 저장된 스냅샷 복사본 목록을 사용하여 스냅샷 복사본의 이름을 변경, 복원 또는 삭제할 수 있습니다.</block>
-  <block id="eb91db7a154c4738b91d02ca57922942" category="doc">ONTAP 이름 서비스 스위치 구성이 System Manager - ONTAP 9.7 및 그 이전 버전에서 작동하는 방식</block>
   <block id="8d63c85c86a43bf30719d6251feabb88" category="doc">FlexClone 볼륨 계층 - ONTAP 9.7 이하 버전을 봅니다</block>
   <block id="3a59cafcf4d62062327f96774d795d5a" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 FlexClone 볼륨 및 상위 볼륨의 계층 구조를 볼 수 있습니다.</block>
   <block id="9e7629b024a19ce191f9724ba2c07b02" category="doc">시스템 관리자-ONTAP 9.7 이하를 사용하여 소스 SVM에서 미러링 및 소산 관계를 생성합니다</block>
@@ -9221,10 +9173,8 @@
   <block id="ecd381c0c9a48e73098f8004e8c10e3e" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)의 이니시에이터 그룹 * 편집 대화 상자를 사용하여 기존 이니시에이터 그룹 및 운영 체제의 이름을 변경할 수 있습니다. 이니시에이터를 이니시에이터 그룹에 추가하거나 이니시에이터 그룹에서 제거할 수 있습니다. 또한 이니시에이터 그룹과 연결된 포트셋 를 변경할 수도 있습니다.</block>
   <block id="d7585e12a7f0f4136389a429e2368762" category="doc">System Manager로 LUN을 포함하는 FlexVol 볼륨에 대한 작업 지침 - ONTAP 9.7 이하</block>
   <block id="2824153741cd9295699331cee1553264" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에서는 LUN이 포함된 FlexVol 볼륨으로 작업하는 경우 스냅샷 복사본에 대한 기본 설정을 변경해야 합니다. LUN 레이아웃을 최적화하여 관리를 간소화할 수도 있습니다.</block>
-  <block id="46ca4b6cc5dac93b4008f7f8137a3f2f" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 QoS 정책 그룹을 삭제합니다</block>
   <block id="89d43162b83abf7f18e1c6fe6e0118ff" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 더 이상 필요하지 않은 스토리지 QoS(서비스 품질) 정책 그룹을 삭제할 수 있습니다.</block>
   <block id="8d9f570ceab703410bf1da67b4eac8de" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 엑스포트 정책을 관리합니다</block>
-  <block id="f01f89371c1f36dc3a254c24e66496c7" category="paragraph">ONTAP System Manager 클래식(9.7 이하에서 사용 가능)을 사용하면 엑스포트 정책을 생성, 편집, 관리할 수 있습니다.</block>
   <block id="7d454c0153d457c8b1a040bcf2526a4e" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 LDAP 구성을 관리합니다</block>
   <block id="1e3b64ae2d873ab61309237ca2a73b01" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 LDAP 구성을 관리할 수 있습니다.</block>
   <block id="15c3dcb90397a49e222b75d1658a98b8" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 FC/FCoE 프로토콜을 구성합니다</block>
@@ -9283,9 +9233,7 @@
   <block id="e5f80dc702947309680d1afbeea7cd5a" category="paragraph">ONTAP 시스템 관리자 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 DNS/DDNS 서비스를 관리할 수 있습니다.</block>
   <block id="40ac4c7cdd68bb2416925b40af178901" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 NVMe 서비스를 시작 및 중지하십시오</block>
   <block id="917b92acb38ad7b6209e26de91ce38a9" category="paragraph">ONTAP System Manager 클래식(9.7 이하에서 사용 가능)을 사용하면 NVMe 서비스를 시작하여 어댑터를 온라인으로 연결할 수 있습니다. NVMe 서비스를 사용하면 네임스페이스에서 사용할 NVMe 어댑터를 관리할 수 있습니다. NVMe 서비스를 중지하여 NVMe 어댑터를 오프라인으로 설정하고 네임스페이스에 대한 액세스를 비활성화할 수 있습니다.</block>
-  <block id="ef9299f4d9ab701bc7d83decc9611053" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 QoS 정책 그룹을 편집합니다</block>
   <block id="980ea682ed148899940453682116cf28" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)의 정책 그룹 편집 대화 상자를 사용하여 기존 스토리지 QoS(서비스 품질) 정책 그룹의 이름과 최대 처리량을 수정할 수 있습니다.</block>
-  <block id="c6569c9c8109bf4cd2f35a096e9a806e" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 QoS 정책 그룹을 생성합니다</block>
   <block id="6685e05ba41f861ad9bf8b5d50878022" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 스토리지 QoS(서비스 품질) 정책 그룹을 생성하여 워크로드 처리량을 제한하고 워크로드 성능을 모니터링할 수 있습니다.</block>
   <block id="78207357f350ce56fd3fa8e2a7391ce2" category="doc">시스템 관리자-ONTAP 9.7 이하를 사용하여 Kerberos 인터페이스 서비스를 관리합니다</block>
   <block id="381ccce315fd379442a9e0a646822167" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 Kerberos 인터페이스 서비스를 관리할 수 있습니다.</block>
@@ -9324,10 +9272,6 @@
   <block id="fe8b3faa5a96053a132d3f57a58e12f1" category="paragraph">스토리지 시스템 소프트웨어가 출하 시 설치된 경우 System Manager는 자동으로 라이센스 목록에 소프트웨어를 추가합니다.</block>
   <block id="598204bea84a425b3062a08d37f16547" category="doc">시스템 관리자 - ONTAP 9.7 이전 버전을 사용하여 미러 전송을 중단합니다</block>
   <block id="d3e29f1540288a85f0960a5f58cb1f30" category="paragraph">데이터 전송이 완료되기 전에 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 볼륨 복제 작업을 중단할 수 있습니다. 예약된 업데이트, 수동 업데이트 또는 초기 데이터 전송을 중단할 수 있습니다.</block>
-  <block id="244f91d9d12bd9740caec32708a6b318" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 로컬 Windows 사용자 계정을 삭제합니다</block>
-  <block id="ce5ff83bcd1ab1b41de67636913d780c" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용할 수 있습니다. 사용자 계정이 SVM의 CIFS 서버에 대한 로컬 CIFS 인증을 위해 또는 SVM에 포함된 데이터에 대한 액세스 권한을 결정하는 데 더 이상 필요하지 않은 경우 SVM(스토리지 가상 시스템)에서 로컬 Windows 사용자 계정을 삭제하려면</block>
-  <block id="4cfe8e7f20b3f6aa84c77b061d1df0fe" category="doc">System Manager - ONTAP 9.7 이하가 설치된 Windows 창</block>
-  <block id="56384d0058f4049f1a25b56477095e11" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 버전을 사용하여 Windows 창을 사용할 수 있습니다. Windows 창을 통해 클러스터의 각 SVM(스토리지 가상 머신)에 대한 로컬 Windows 사용자 및 그룹 목록을 유지할 수 있습니다. 로컬 Windows 사용자 및 그룹을 인증 및 이름 매핑에 사용할 수 있습니다.</block>
   <block id="548556d1faeba7eb8637f682210271a4" category="doc">System Manager-ONTAP 9.7 이하를 사용하는 로컬 UNIX 사용자 및 그룹</block>
   <block id="ba30e9183e00613e181d1a9648c4d68c" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 SVM(스토리지 가상 머신)별로 로컬 UNIX 사용자 및 그룹 목록을 유지할 수 있습니다.</block>
   <block id="348c7f611493f56a2e14dfb2a4d55799" category="doc">시스템 관리자-ONTAP 9.7 이전 버전을 사용하여 미러 및 볼트 관계의 볼륨을 복구합니다</block>
@@ -9337,32 +9281,11 @@
   <block id="cee4c228dbc1bd4065b40bb31f18464c" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 이름 매핑 항목을 지정하여 다른 플랫폼의 사용자를 매핑할 수 있습니다.</block>
   <block id="706d088ecb014b185975448770e848fa" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 SVM(스토리지 가상 시스템) 사용자 계정을 만들고 관리합니다</block>
   <block id="9dd1a3bc9b77bce7cd8a13454090a064" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 SVM(스토리지 가상 시스템) 사용자 계정을 만들고 관리할 수 있습니다.</block>
-  <block id="45a11fec0e7239fbcf37cef2902890d3" category="doc">미러 관계를 System Manager-ONTAP 9.7 이전과 역으로 재동기화합니다</block>
-  <block id="e04d733170c775fa5ecebcaa3ee8a458" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 버전을 사용하면 이전에 손상된 미러 관계를 다시 설정할 수 있습니다. 역방향 재동기화 작업에서는 소스 볼륨과 타겟 볼륨의 기능을 반대로 전환합니다.</block>
-  <block id="d40cfc39f79f1537f0808a3b5576751a" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 대상 SVM에서 미러링 관계를 생성합니다</block>
-  <block id="b77843c3f8ae61a4d70a598fdb4c0c1e" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 타겟 SVM(스토리지 가상 머신)에서 미러 관계를 생성하고 정책과 일정을 미러 관계에 할당할 수 있습니다. 미러 복제본을 사용하면 소스 볼륨의 데이터가 손상되거나 손실된 경우 데이터를 빠르게 사용할 수 있습니다.</block>
   <block id="7b636060a1edee9c18093390f42f6441" category="paragraph"><block ref="7b636060a1edee9c18093390f42f6441" category="inline-link-macro-rx"></block></block>
   <block id="c6fe2141832d99780af18d450524ad03" category="paragraph"><block ref="c6fe2141832d99780af18d450524ad03" category="inline-link-macro-rx"></block></block>
-  <block id="7fc9d2dac7a3691a556388235669f20b" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 로컬 Windows 사용자 계정을 생성합니다</block>
-  <block id="9b2dd0ee538f3cddaa6439a695abe2c2" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 SMB 연결을 통해 SVM(스토리지 가상 시스템)에 포함된 데이터에 대한 액세스 권한을 부여하는 데 사용할 수 있는 로컬 Windows 사용자 계정을 만들 수 있습니다. CIFS 세션을 생성할 때 인증에 로컬 Windows 사용자 계정을 사용할 수도 있습니다.</block>
-  <block id="78ea6627cbe9ebae6d874bc681df76f6" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 Windows 로컬 그룹에 사용자 계정을 추가합니다</block>
-  <block id="3a7f7d9913063f7ef0a2e90629eb8ad8" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 로컬 사용자, Active Directory 사용자 또는 Active Directory 그룹을 Windows 로컬 그룹에 추가할 수 있습니다(해당 그룹과 연결된 권한을 사용자에게 부여하려는 경우).</block>
-  <block id="f11fdf178e9f4a585ed4c804386ba193" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 로컬 Windows 그룹을 삭제합니다</block>
-  <block id="f6b214ba0427d69a51c88da91749df47" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용할 수 있습니다. 그룹이 SVM에 포함된 데이터에 대한 액세스 권한을 확인하거나 그룹 멤버에 SVM 사용자 권한(권한)을 할당하는 데 더 이상 필요하지 않은 경우 SVM(스토리지 가상 시스템)에서 로컬 Windows 그룹을 삭제하려면</block>
-  <block id="54c694780bc0d73c45bd41e05288e37b" category="doc">System Manager - ONTAP 9.7 이전 버전을 사용하여 로컬 Windows 그룹의 이름을 바꿉니다</block>
-  <block id="eb95faffa28da69a4bf5e7047d2c7f4c" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 로컬 Windows 그룹의 이름을 변경하여 그룹을 더 쉽게 식별할 수 있습니다.</block>
   <block id="665c825107a5830a82d2b69e5aeff554" category="doc">시스템 관리자-ONTAP 9.7 이전 버전과의 미러 및 볼트 관계를 중단합니다</block>
   <block id="b182b9233296a73be3f27b870226b2af" category="paragraph">데이터 전송을 중지하려면 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 볼륨 복제 작업을 중단할 수 있습니다. 예약된 업데이트, 수동 업데이트 또는 초기 데이터 전송을 중단할 수 있습니다.</block>
-  <block id="af744edfa9643645796a3d01c80db4bc" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 사용자 계정에 그룹 구성원 자격을 할당합니다</block>
-  <block id="dc70272f593f6af1c12f7efe72a0e330" category="paragraph">사용자가 특정 그룹과 연결된 권한을 가지려면 ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)을 사용하여 사용자 계정에 그룹 멤버쉽을 할당할 수 있습니다.</block>
-  <block id="85d0833b56faab64ea27240a6f082070" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 Windows 로컬 사용자의 암호를 재설정합니다</block>
-  <block id="55e67ad0368005cd9a055b4b179ef69e" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 Windows 로컬 사용자의 암호를 재설정할 수 있습니다. 예를 들어, 현재 암호가 손상되었거나 사용자가 암호를 잊어버린 경우 암호를 재설정할 수 있습니다.</block>
-  <block id="66a86df29a3df9220ad1f1c90164d7d6" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 로컬 Windows 사용자 속성을 편집합니다</block>
-  <block id="504f000909a925ba4f74f21133bc0319" category="paragraph">기존 사용자의 전체 이름 또는 설명을 변경하거나 사용자 계정을 사용 또는 사용하지 않도록 설정하려는 경우 ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)을 사용하여 로컬 Windows 사용자 계정을 수정할 수 있습니다. 사용자 계정에 할당된 그룹 구성원을 수정할 수도 있습니다.</block>
-  <block id="d839a28bf3542d56602749c26fa7c3f0" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 로컬 Windows 그룹 속성을 편집합니다</block>
   <block id="9f7846eb6b93be23ec56786e828ee53e" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 로컬 사용자, Active Directory 사용자 또는 Active Directory 그룹을 추가 및 제거하여 로컬 그룹 구성원 자격을 관리할 수 있습니다. 그룹에 할당된 권한과 그룹을 쉽게 식별할 수 있도록 그룹 설명을 수정할 수 있습니다.</block>
-  <block id="1721ba418668b0e222dfb8cb45448455" category="doc">System Manager - ONTAP 9.7 이전 버전을 사용하여 로컬 Windows 사용자의 이름을 바꿉니다</block>
-  <block id="d39d06fa99b2894ced6d109c0b410699" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 로컬 Windows 사용자 계정의 이름을 변경하여 로컬 사용자를 보다 쉽게 식별할 수 있습니다.</block>
   <block id="a5e43690037a175b3839475cc48dd350" category="doc">System Manager-ONTAP 9.7 이하 버전을 사용하여 볼트 관계를 관리합니다</block>
   <block id="48bf13819878ffc3abe7cc117e2144c4" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 대상 SVM에서 볼트 관계를 생성할 뿐만 아니라 볼트 관계를 업데이트, 재개, 중지, 초기화 및 삭제할 수 있습니다.</block>
   <block id="e0ee58226c5bcccbc24858177927a575" category="section-title">관계 편집</block>
@@ -9373,7 +9296,6 @@
   <block id="779ce943bfcf388aea4fa5a5a1d45974" category="section-title">관계를 재개합니다</block>
   <block id="f667840b03e4954209dac92efcf77cc2" category="section-title">관계를 중지합니다</block>
   <block id="6101faf64442e938a7c3e24db1680122" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 미러 관계를 관리합니다</block>
-  <block id="b6ca78baa0afadbb225947cd6831fefc" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하여 미러 관계를 관리할 수 있습니다. 중지된 미러 관계를 재개하는 것 외에도 미러 관계를 업데이트, 중지, 초기화, 재설정, 삭제 및 편집할 수 있습니다.</block>
   <block id="aa6105e2616d9aaebd65575bdf43d7d1" category="paragraph">System Manager를 사용하여 미러 관계를 삭제하고 소스 볼륨과 타겟 볼륨 간의 미러 관계를 영구적으로 종료할 수 있습니다. 미러 관계가 삭제되면 소스 볼륨의 기본 스냅샷 복사본이 삭제됩니다.</block>
   <block id="c635a3eba9f55669cb810f90f9277156" category="section-title">관계를 재동기화합니다</block>
   <block id="d0ac2d242af3fab7034e0c66a45bf889" category="paragraph">System Manager를 사용하여 이전에 파손된 미러 관계를 다시 설정할 수 있습니다. 재동기화 작업을 수행하여 소스 볼륨을 비활성화한 재재해에서 복구할 수 있습니다.</block>
@@ -9400,4 +9322,37 @@
   <block id="4eb9fc48340d0d596cecceb0f28dd73e" category="sidebar">SVM 관계</block>
   <block id="a4730321aa25d81da462f897cef15c5a" category="sidebar">보호 정책 관리</block>
   <block id="58733b37e2507dd15a2f998c25576e58" category="sidebar">스냅샷 정책 관리</block>
+  <block id="076b3009a5eb0edfa535a82b14793721" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 HA 쌍을 사용하면 무중단 운영 및 내결함성을 위해 필요한 하드웨어 이중화를 제공하는 고가용성(HA) 쌍을 생성할 수 있습니다.</block>
+  <block id="3e93649f77d7cfa982900e4f1b48d43c" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 클러스터에 호환되는 노드를 추가하고 노드 네트워크 세부 정보를 구성하여 스토리지의 크기와 기능을 확장할 수 있습니다. 노드의 요약을 볼 수도 있습니다.</block>
+  <block id="2793842ff7183e071c1a8bb6d693ac96" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 QoS 정책 그룹을 관리합니다</block>
+  <block id="3c53da1bd0376e2967661b018ac0b35f" category="doc">System Manager로 애플리케이션 구성 - ONTAP 9.7 이하</block>
+  <block id="73c40768abe75066d59468c43d6697ac" category="paragraph">볼륨이 거의 전체 용량에 도달하면 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 볼륨 크기를 늘리거나, 일부 스냅샷 복사본을 삭제하거나, 스냅샷 예약 공간을 조정할 수 있습니다. System Manager의 볼륨 크기 조정 마법사를 사용하여 여유 공간을 더 많이 확보할 수 있습니다.</block>
+  <block id="f689d15a9acb85ee5a20447fbdc07cf4" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 엑스포트 정책을 생성, 편집, 관리할 수 있습니다.</block>
+  <block id="c61b8028f650abffd119f84f09d17f74" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 SVM을 생성합니다</block>
+  <block id="14d79d2eef1d80cd2470e785b15178f8" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 클러스터나 노드에 설치된 소프트웨어 라이센스를 확인, 관리 또는 삭제할 수 있습니다.</block>
+  <block id="071e9f0551cf1151fad07c37ea207e3b" category="paragraph">System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 스토리지 가상 머신(SVM)에서 NVMe 프로토콜을 구성할 수 있습니다. 그런 다음 네임스페이스를 만들고 NVMe 하위 시스템 및 호스트에 할당할 수 있습니다.</block>
+  <block id="74a9c6f7d15b41facbe48a228851099c" category="paragraph">System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 블록 레벨 데이터 액세스를 제공하기 위해 SVM(스토리지 가상 머신)에서 iSCSI 프로토콜을 구성할 수 있습니다. iSCSI LIF 및 포트 세트를 생성한 다음 포트 세트에 LIF를 추가할 수 있습니다. LIF는 가장 적합한 어댑터에 생성되며 데이터 경로 이중화를 위해 포트 세트에 할당됩니다.</block>
+  <block id="2b80954c6a85fe8e039a494c6c625853" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하여 미러 관계를 관리할 수 있습니다. 업데이트, 생성, 중지, 초기화, 재설정, 중지된 미러 관계를 재개하는 것 외에도 미러 관계를 삭제 및 편집합니다.</block>
+  <block id="f46cf6c1e84fb12f13b7c06207146a43" category="section-title">대상 SVM에서 미러링 관계 생성</block>
+  <block id="42ba35aabcb38bd0b0a5d5bc89d84095" category="paragraph">System Manager를 사용하여 대상 SVM(스토리지 가상 머신)에서 미러링 관계를 생성하고 정책 및 스케줄을 미러 관계에 할당할 수 있습니다. 미러 복제본을 사용하면 소스 볼륨의 데이터가 손상되거나 손실된 경우 데이터를 빠르게 사용할 수 있습니다.</block>
+  <block id="25d48c749559d1d4de21242c0c742b97" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서는 사용 가능)을 사용하여 이더넷 포트를 생성 및 관리할 수 있습니다.</block>
+  <block id="c0d6806b68a3d39f90734f6ab8a3f56a" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 SAML(Security Assertion Markup Language) 인증을 설정할 수 있습니다. 원격 사용자는 System Manager에 로그인하기 전에 IDP(Secure Identity Provider)를 통해 인증됩니다.</block>
+  <block id="f25e8077183eab2cecad23a8ec6c295a" category="paragraph">기본 네트워크 구성을 사용하여 기능적 스토리지 가상 시스템(SVM) 또는 SVM을 설정한 후에는 System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 SVM 관리자에게 선택적으로 SVM 관리 권한을 위임할 수 있습니다.</block>
+  <block id="e92b960df6e994d41ee05b6df147afe7" category="doc">시스템 관리자 - ONTAP 9.7 및 이전 버전의 ONTAP 네임 서비스 스위치 구성에 대해 알아보십시오</block>
+  <block id="1d29c318268409714ed0dd949adf99ad" category="paragraph">ONTAP System Manager Classic(ONTAP 9.7 이하에서 사용 가능)은 UNIX 시스템의 '/etc/nsswitch.conf' 파일과 동일한 테이블에 이름 서비스 구성 정보를 저장합니다. 환경에 맞게 적절하게 구성할 수 있도록 표의 기능과 ONTAP에서 표의 사용 방법을 이해해야 합니다.</block>
+  <block id="ac92ac41cea62dfecd5b5dd772bfc78d" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 로컬 Windows 그룹을 관리합니다</block>
+  <block id="117de31f8c0ba42bc57096e5ad9df35b" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 로컬 Windows 그룹을 관리할 수 있습니다. 그룹 속성, 구성원 자격, 계정을 수정하고 특정 권한을 그룹에 할당할 수 있습니다.</block>
+  <block id="c26abfeeb59d33979108c70a5f4c57eb" category="paragraph">System Manager를 사용하여 로컬 사용자, Active Directory 사용자 또는 Active Directory 그룹(사용자가 해당 그룹과 연결된 권한을 보유하도록 하려는 경우)을 Windows 로컬 그룹에 추가할 수 있습니다.</block>
+  <block id="208b83729d67a14e4d8cd56f6db1a70c" category="section-title">로컬 Windows 사용자 속성을 편집합니다</block>
+  <block id="868c5f63dfaa98d3d0269baf4d958a21" category="paragraph">기존 사용자의 전체 이름 또는 설명을 변경하거나 사용자 계정을 활성화 또는 비활성화하려면 System Manager를 사용하여 로컬 Windows 사용자 계정을 수정할 수 있습니다. 사용자 계정에 할당된 그룹 구성원을 수정할 수도 있습니다.</block>
+  <block id="8c848ffd60aae82bfdeaecc9cdc6e72c" category="section-title">사용자 계정에 그룹 구성원 자격을 할당합니다</block>
+  <block id="f53fc6841153532fcb131ddc59517703" category="section-title">Windows 창</block>
+  <block id="52b7bdea477857b0549009ded6ed1610" category="paragraph">System Manager를 사용하여 Windows 창을 사용할 수 있습니다. Windows 창을 통해 클러스터의 각 SVM(스토리지 가상 머신)에 대한 로컬 Windows 사용자 및 그룹 목록을 유지할 수 있습니다. 로컬 Windows 사용자 및 그룹을 인증 및 이름 매핑에 사용할 수 있습니다.</block>
+  <block id="9b588f149e145ccee960f124c5e3d417" category="sidebar">SVM에 대해</block>
+  <block id="868555f74d53e8e661a5f31e4d7441e9" category="sidebar">ONTAP 이름 서비스 스위치 구성에 대해 설명합니다</block>
+  <block id="30596850a631eadcd506fbd754bed204" category="sidebar">홈 디렉토리 경로를 관리합니다</block>
+  <block id="03a7b9a6c19575b0318568c1fb99f27c" category="sidebar">CIFS 그룹 정책 구성을 관리합니다</block>
+  <block id="d351bbac1b18d316821e865a50a75d18" category="sidebar">QoS 정책 그룹 관리</block>
+  <block id="2b61817f1a7e0ede39b016bc3fafe939" category="sidebar">로컬 Windows 그룹</block>
+  <block id="79fedbd71df5ba90cfd3c3a7103e7ebb" category="sidebar">볼트 관계 관리</block>
 </blocks>
