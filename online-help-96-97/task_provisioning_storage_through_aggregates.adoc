@@ -29,7 +29,7 @@ System Manager를 사용하면 다음 작업을 수행할 수 없습니다.
 
 
 
-== System Manager-ONTAP 9.7 이하를 사용하여 스토리지 권장 사항을 기반으로 애그리게이트를 생성합니다
+== 스토리지 권장 사항을 기반으로 애그리게이트를 생성합니다
 
 ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 스토리지 권장 사항을 기반으로 aggregate를 생성할 수 있습니다. System Manager는 스토리지 시스템의 구성을 분석하고 생성할 애그리게이트 수, 사용 가능한 노드 및 사용 가능한 스페어 디스크와 같은 스토리지 권장 사항을 제공합니다.
 
@@ -58,7 +58,7 @@ ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사�
 
 
 
-== System Manager-ONTAP 9.7 이하를 사용하여 수동으로 애그리게이트를 생성합니다
+== 수동으로 애그리게이트 생성
 
 ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)을 사용하면 HDD만 또는 SSD만 포함된 애그리게이트를 수동으로 생성할 수 있습니다.
 
@@ -107,7 +107,7 @@ MetroCluster 구성의 경우 미러링되지 않은 애그리게이트 생성�
 
 
 
-== System Manager-ONTAP 9.7 이하를 사용하여 Flash Pool 애그리게이트를 수동으로 생성합니다
+== Flash Pool Aggregate를 수동으로 생성합니다
 
 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 Flash Pool 애그리게이트를 수동으로 생성하거나, SSD를 추가하여 기존 HDD 애그리게이트를 Flash Pool 애그리게이트로 전환할 수 있습니다. 새 HDD 애그리게이트를 생성할 경우, SSD 캐시를 프로비저닝하고 Flash Pool 애그리게이트를 생성할 수 있습니다.
 
@@ -176,7 +176,7 @@ Flash Pool 애그리게이트는 지정된 구성으로 생성되며 애그리�
 
 
 
-== System Manager-ONTAP 9.7 이하를 사용하여 SnapLock 애그리게이트를 수동으로 생성합니다
+== SnapLock Aggregate를 수동으로 생성합니다
 
 System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 SnapLock 규정 준수 애그리게이트 또는 SnapLock 엔터프라이즈 애그리게이트를 수동으로 생성할 수 있습니다. 이러한 애그리게이트에는 ""WORM(Write Once, Read Many)" 기능을 제공하는 SnapLock 볼륨을 생성할 수 있습니다.
 
@@ -242,7 +242,7 @@ MetroCluster 구성의 경우 미러링되지 않은 애그리게이트 생성�
 
 
 
-== System Manager-ONTAP 9.7 이하를 사용하여 FabricPool 지원 애그리게이트를 수동으로 생성합니다
+== FabricPool 지원 애그리게이트를 수동으로 생성합니다
 
 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 FabricPool 지원 애그리게이트를 수동으로 생성하거나 클라우드 계층을 SSD 애그리게이트에 연결하여 기존 SSD 애그리게이트를 FabricPool 지원 애그리게이트로 변환할 수 있습니다.
 
@@ -307,7 +307,5 @@ All-Flash(All SSD) 애그리게이트만 FabricPool 지원 애그리게이트를
 
 
 * 관련 정보 *
-
-xref:concept_how_storage_pool_works.adoc[스토리지 풀의 작동 방식]
 
 http://www.netapp.com/us/media/tr-4070.pdf["NetApp 기술 보고서 4070: Flash Pool 설계 및 구축"^]
