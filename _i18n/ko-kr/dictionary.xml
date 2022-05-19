@@ -3045,8 +3045,6 @@
   <block id="71c6ba2cacf3d86238341c5cd8329eb9" category="list-text">IPspace를 기반으로 암호문이 생성됩니다.</block>
   <block id="6153f0c39c420ecffc3884c1fa5de7aa" category="list-text">클러스터 피어링을 위해 시스템 생성 암호를 사용하는 경우 이니시에이터 클러스터에 암호를 입력하면 피어링이 자동으로 승인됩니다.</block>
   <block id="df3da110b554238d043e218f596c6a7e" category="list-text">클러스터 피어링에 사용자 지정 암호를 사용하는 경우 원격 클러스터로 이동하여 피어링 프로세스를 완료해야 합니다.</block>
-  <block id="82e0fa489db30f304e5c422ca5c4ed7a" category="summary">인터페이스에서 아이콘을 보고 시스템 및 작업에 대한 빠른 정보를 얻을 수 있습니다.</block>
-  <block id="c87aa7ccb86776af182c8ff69abdb4af" category="doc">응용 프로그램 인터페이스에 사용되는 아이콘입니다</block>
   <block id="baa9c79245f7884810c575121d7d6a37" category="section-title">대시보드 창 아이콘</block>
   <block id="eb95543f6e7e801ae8e527cfe8873f85" category="paragraph">스토리지 시스템의 대시보드를 볼 때 다음 아이콘이 표시될 수 있습니다.</block>
   <block id="817434295a673aed431435658b65d9a7" category="cell">아이콘을 클릭합니다</block>
@@ -3415,7 +3413,6 @@
   <block id="404a7f318ee6e8e246f4c3071be4d886" category="summary">System Manager를 사용하면 클러스터에 호환되는 노드를 추가하고 노드 네트워크 세부 정보를 구성하여 스토리지의 크기와 기능을 높일 수 있습니다. 노드의 요약을 볼 수도 있습니다.</block>
   <block id="c6a62b132374dc7cd9ce246b226f0034" category="doc">클러스터 확장</block>
   <block id="ec9f849d88e3343ec1fa01f24d0d7313" category="paragraph">System Manager에 로그인하면 System Manager가 케이블로 연결되었지만 클러스터에 추가되지 않은 호환 노드를 자동으로 감지하여 노드를 추가하라는 메시지를 표시합니다. 호환 노드를 추가하거나 System Manager가 노드를 감지할 때 또는 나중에 노드를 수동으로 추가할 수 있습니다.</block>
-  <block id="f292651045c183bc7c4cf9d2df59c36f" category="doc">System Manager 창 레이아웃</block>
   <block id="6e3e3c40f2372fc650bf1ff2ca56cfce" category="summary">System Manager의 기본 보안 편집 대화 상자를 사용하여 스토리지 시스템에 접속된 iSCSI 이니시에이터에 대한 기본 보안 설정을 편집할 수 있습니다.</block>
   <block id="5991568aba1e63f0a1bd9c678aa22deb" category="list-text">초기자 보안 * 탭의 * 기본 보안 * 영역에서 * 편집 * 을 클릭합니다.</block>
   <block id="13c3537295c581d767cbacac191a5cc4" category="list-text">기본 보안 편집 * 대화 상자에서 보안 유형을 변경합니다.</block>
@@ -4053,9 +4050,7 @@
   <block id="c6d065291b330a09917495aa2f8690ad" category="doc">디스크 및 어레이 LUN 정보</block>
   <block id="a8f302e6ed78532825e7d09cf54ab7af" category="paragraph">ONTAP 소프트웨어를 사용하면 디스크 및 어레이 LUN에 소유권을 할당하고 이를 Aggregate에 추가할 수 있습니다. ONTAP 소프트웨어는 또한 디스크를 제거, 교체 및 삭제하는 등 다양한 방법으로 디스크를 관리할 수 있습니다. 어레이 LUN은 타사 스토리지 어레이에서 제공하기 때문에 어레이 LUN에 대한 다른 모든 관리 작업에는 타사 스토리지 시스템을 사용합니다.</block>
   <block id="bbeb93f7c8f7ce4e49cf44c2634b4174" category="paragraph">디스크 또는 어레이 LUN을 사용하여 애그리게이트를 생성할 수 있습니다. Aggregate를 생성한 후에는 ONTAP 소프트웨어를 사용하여 디스크 또는 어레이 LUN에서 생성된 것과 동일한 방식으로 Aggregate를 관리할 수 있습니다.</block>
-  <block id="64ede1136b38d05639150dc84ce2ca68" category="summary">지연 시간은 대상 시스템이 소스 시스템 뒤에 걸쳐지는 시간입니다.</block>
   <block id="bb7c4cc3390268168d4d4a8537f329d6" category="doc">지연 시간은 얼마인지</block>
-  <block id="78453587fd66d72075a252c52b6e2713" category="paragraph">지연 시간은 현재 시간과 타겟 시스템에 마지막으로 성공적으로 전송된 스냅샷 복사본의 타임 스탬프의 차이입니다. 지연 시간은 소스 및 대상 시스템의 시계가 동기화되지 않는 한 항상 마지막으로 성공한 전송 기간보다 훨씬 오래 지속됩니다. 시간대 차이는 지연 시간으로 자동 계산됩니다.</block>
   <block id="a7c99ceadac4e4924151c84d763c467f" category="summary">공유 창을 사용하여 공유를 관리하고 공유에 대한 정보를 볼 수 있습니다.</block>
   <block id="4918741feccad41b42cd99aa33e42f28" category="doc">공유 창</block>
   <block id="fda574f52a0c012e098901afa3932b69" category="list-text">* 공유 생성 *</block>
@@ -4982,7 +4977,6 @@
   <block id="cdbe1ccd7399a1701afc2c94069ee6d8" category="list-text">재개할 미러 및 볼트 관계를 선택한 다음 * 작업 * &gt; * 재개 * 를 클릭합니다.</block>
   <block id="06895a249469b7de4c423243bf6e23fc" category="list-text">확인 확인란을 선택한 다음 * Resume * 을 클릭합니다.</block>
   <block id="3200e503599a54aca3ec6245acc43a6a" category="paragraph">정상적인 데이터 전송이 다시 시작됩니다. 관계에 대해 예약된 전송이 있는 경우 다음 일정에서 전송이 시작됩니다.</block>
-  <block id="54398abab76b88472b675eabf1995da2" category="doc">ONTAP 시스템 관리자의 향상된 기능</block>
   <block id="a38014d2d9d01534b9a83c38594944e5" category="summary">System Manager를 사용하여 스토리지 시스템에서 선택한 하나 이상의 볼륨에서 할당량을 설정하거나 해제할 수 있습니다. 사용자 및 스토리지 요구 사항과 제한 사항이 변경될 때 할당량을 설정하거나 해제할 수 있습니다.</block>
   <block id="35e8f0d1628712bec289a00eff0dbf3d" category="list-text">SVM 필드의 드롭다운 메뉴에서 활성화 또는 비활성화할 할당량이 있는 SVM(스토리지 가상 머신)을 선택합니다.</block>
   <block id="466be92ec334332748be5b2435e821a2" category="list-text">볼륨 * 의 * 할당량 상태 탭에서 할당량을 활성화하거나 비활성화할 볼륨을 하나 이상 선택합니다.</block>
@@ -5002,7 +4996,6 @@
   <block id="8491b775711be80e6a608ef1ebb96121" category="list-text">변경 사항을 저장하려면 * 저장 * 을 클릭합니다.</block>
   <block id="dcddffb2d8938968d196f6db6875b251" category="summary">System Manager의 Junction Path 창을 사용하여 FlexVol 볼륨을 SVM 네임스페이스의 교차점에 마운트하거나 마운트 해제할 수 있습니다.</block>
   <block id="2b20636173a684fa0d66246f2351348f" category="doc">접합 경로</block>
-  <block id="636a8855963f727473bac2df49f2eeb8" category="doc">창 레이아웃 사용자 정의</block>
   <block id="a1f6bd9b69c5d7f2afea049565273a91" category="list-text">* 필터링 *</block>
   <block id="4a189c2be9f6660c5dbd0b10ea4ef8ed" category="summary">System Manager를 사용하면 SVM(스토리지 가상 머신) 컴퓨터 계정이 연결되는 기본 도메인 컨트롤러를 삭제할 수 있습니다. 특정 도메인 컨트롤러를 더 이상 사용하지 않으려는 경우 이 작업을 수행할 수 있습니다.</block>
   <block id="5d52ebcb4f7bc99855811d7cc06affef" category="list-text">도메인 * 탭의 * 기본 도메인 컨트롤러 * 영역에서 삭제할 도메인을 선택한 다음 * 삭제 * 를 클릭합니다.</block>
@@ -9276,7 +9269,6 @@
   <block id="c6fe2141832d99780af18d450524ad03" category="paragraph"><block ref="c6fe2141832d99780af18d450524ad03" category="inline-link-macro-rx"></block></block>
   <block id="665c825107a5830a82d2b69e5aeff554" category="doc">시스템 관리자-ONTAP 9.7 이전 버전과의 미러 및 볼트 관계를 중단합니다</block>
   <block id="b182b9233296a73be3f27b870226b2af" category="paragraph">데이터 전송을 중지하려면 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 볼륨 복제 작업을 중단할 수 있습니다. 예약된 업데이트, 수동 업데이트 또는 초기 데이터 전송을 중단할 수 있습니다.</block>
-  <block id="9f7846eb6b93be23ec56786e828ee53e" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 로컬 사용자, Active Directory 사용자 또는 Active Directory 그룹을 추가 및 제거하여 로컬 그룹 구성원 자격을 관리할 수 있습니다. 그룹에 할당된 권한과 그룹을 쉽게 식별할 수 있도록 그룹 설명을 수정할 수 있습니다.</block>
   <block id="a5e43690037a175b3839475cc48dd350" category="doc">System Manager-ONTAP 9.7 이하 버전을 사용하여 볼트 관계를 관리합니다</block>
   <block id="48bf13819878ffc3abe7cc117e2144c4" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 대상 SVM에서 볼트 관계를 생성할 뿐만 아니라 볼트 관계를 업데이트, 재개, 중지, 초기화 및 삭제할 수 있습니다.</block>
   <block id="e0ee58226c5bcccbc24858177927a575" category="section-title">관계 편집</block>
@@ -9339,13 +9331,6 @@
   <block id="8c848ffd60aae82bfdeaecc9cdc6e72c" category="section-title">사용자 계정에 그룹 구성원 자격을 할당합니다</block>
   <block id="f53fc6841153532fcb131ddc59517703" category="section-title">Windows 창</block>
   <block id="52b7bdea477857b0549009ded6ed1610" category="paragraph">System Manager를 사용하여 Windows 창을 사용할 수 있습니다. Windows 창을 통해 클러스터의 각 SVM(스토리지 가상 머신)에 대한 로컬 Windows 사용자 및 그룹 목록을 유지할 수 있습니다. 로컬 Windows 사용자 및 그룹을 인증 및 이름 매핑에 사용할 수 있습니다.</block>
-  <block id="9b588f149e145ccee960f124c5e3d417" category="sidebar">SVM에 대해</block>
-  <block id="868555f74d53e8e661a5f31e4d7441e9" category="sidebar">ONTAP 이름 서비스 스위치 구성에 대해 설명합니다</block>
-  <block id="30596850a631eadcd506fbd754bed204" category="sidebar">홈 디렉토리 경로를 관리합니다</block>
-  <block id="03a7b9a6c19575b0318568c1fb99f27c" category="sidebar">CIFS 그룹 정책 구성을 관리합니다</block>
-  <block id="d351bbac1b18d316821e865a50a75d18" category="sidebar">QoS 정책 그룹 관리</block>
-  <block id="2b61817f1a7e0ede39b016bc3fafe939" category="sidebar">로컬 Windows 그룹</block>
-  <block id="79fedbd71df5ba90cfd3c3a7103e7ebb" category="sidebar">볼트 관계 관리</block>
   <block id="848dcad0446ea1d6a218cfce14bd4f83" category="section-title">스토리지 권장 사항을 기반으로 애그리게이트를 생성합니다</block>
   <block id="1a0931643fb40c6c47be73fc4d6e036b" category="section-title">수동으로 애그리게이트 생성</block>
   <block id="7aa7ed2830461848d8d830ea0a310cd8" category="section-title">Flash Pool Aggregate를 수동으로 생성합니다</block>
@@ -9353,4 +9338,12 @@
   <block id="2ccebd804a2ce77ca906d0e7b9c74307" category="section-title">FabricPool 지원 애그리게이트를 수동으로 생성합니다</block>
   <block id="d0e7a5e3372fc34ff0c77624a2bb33ac" category="doc">System Manager로 볼륨 관리 - ONTAP 9.7 이하</block>
   <block id="5cf0222128789f408e97a1222d101d9b" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 SVM 사용자 계정을 생성하고 관리합니다</block>
+  <block id="77e82b2e710b5cc9c6dfa16efeddeaea" category="sidebar">SVM을 사용하는 이유</block>
+  <block id="c6f01c78bfe0a0a495cb5d3ed77824a9" category="sidebar">볼륨</block>
+  <block id="7e07ef4fefaf5e9f135056d576316043" category="sidebar">홈 디렉토리 경로를 추가합니다</block>
+  <block id="34c8cc3c55629eebeca9a7f5b7b3536d" category="sidebar">SVM 사용자</block>
+  <block id="a61ef4381ae27c3f4823d95f1b2c7c23" category="sidebar">로컬 Windows 사용자 속성을 편집합니다</block>
+  <block id="b87dc40a9cd444db0c33c9cf74977997" category="sidebar">사용자 계정에 그룹 구성원 자격 할당</block>
+  <block id="b172911abb23c845e5cc62ee1144120d" category="sidebar">대상 SVM에서 미러 관계를 생성합니다</block>
+  <block id="abf829b25449f6273d3b487ca5bdc3b3" category="sidebar">대상 SVM에서 볼트 관계를 생성합니다</block>
 </blocks>
