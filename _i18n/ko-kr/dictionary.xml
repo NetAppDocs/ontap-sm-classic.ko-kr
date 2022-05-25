@@ -1651,11 +1651,8 @@
   <block id="97ce71fc2e74b9afefe150da44124653" category="list-text">필요한 사항을 변경합니다.</block>
   <block id="776949faacf45a2a05e4c1d49bddf235" category="inline-xref-macro">LUN 창</block>
   <block id="d7549a1da79cdbdf943651ed7e6190aa" category="paragraph"><block ref="d7549a1da79cdbdf943651ed7e6190aa" category="inline-xref-macro-rx"></block></block>
-  <block id="c1edbc4c9e061c62e85d9779adb916f3" category="summary">System Manager를 사용하여 액세스 제어 역할을 추가하고 해당 역할의 사용자가 액세스할 수 있는 명령 또는 명령 디렉토리를 지정할 수 있습니다. 명령 또는 명령 디렉터리에 대한 역할의 액세스 수준을 제어할 수 있으며 명령 또는 명령 디렉터리에 적용되는 쿼리를 지정할 수도 있습니다.</block>
   <block id="680bc53c2140210b4a76bfa69cdc2535" category="doc">역할을 추가합니다</block>
-  <block id="7267345a94face97a0b4b2e735d51b1d" category="list-text">SVM 사용자 세부 정보 * 창에서 * 역할 * 을 클릭합니다.</block>
   <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">추가 * 를 클릭합니다.</block>
-  <block id="7fb2d686fde24abfccde92f263682945" category="list-text">역할 추가 * 대화 상자에서 역할 이름을 지정한 다음 역할 특성을 추가합니다.</block>
   <block id="0922e0489e9e04af8befa1efcdb7d56c" category="summary">System Manager를 사용하면 스토리지 시스템에 액세스하기 위한 사용자 로그인 방법을 수정하여 클러스터 사용자 계정을 편집할 수 있습니다.</block>
   <block id="e42a772d22551e9450c7f3cb3fb091e7" category="list-text">를 클릭합니다<block ref="3fd4b2c218dcec4c2eb9e85f1d283321" category="inline-image-macro-rx" type="image"></block>*.</block>
   <block id="9ea3b4df7f0d58acd4fb0515b06113ee" category="list-text">관리 * 창에서 * 사용자 * 를 클릭합니다.</block>
@@ -2485,7 +2482,6 @@
   <block id="5046598b544c7fcd018e2eb3273e5bab" category="paragraph">SVM은 여러 데이터 액세스 프로토콜을 통해 데이터를 동시에 제공할 수 있습니다. SVM은 CIFS 및 NFS와 같은 NAS 프로토콜을 통해 파일 레벨 데이터 액세스를 지원하고, iSCSI, FC/FCoE, NVMe와 같은 SAN 프로토콜을 통해 블록 레벨 데이터 액세스를 제공합니다. SVM은 SAN 및 NAS 클라이언트에 데이터를 동시에 독립적으로 제공할 수 있습니다.</block>
   <block id="88fa7d722f39b4b9af3f6249d77e3349" category="list-text">관리 위임</block>
   <block id="fcc27c9a3d8629eba9cd7af0245dd884" category="paragraph">SVM 관리자는 클러스터 관리자에 의해 할당된 권한을 가집니다.</block>
-  <block id="4ce4dda529d7d70f9c36d022aa9449c8" category="summary">System Manager를 사용하여 역할을 만들고 관리할 수 있습니다.</block>
   <block id="a5cd3ed116608dac017f14c046ea56bf" category="doc">역할</block>
   <block id="6ba7b5d818acb6cab3137d4c011e2db2" category="inline-link">관리자 인증 및 RBAC</block>
   <block id="68c16964c51f57dc952df1961ce1ee35" category="paragraph"><block ref="68c16964c51f57dc952df1961ce1ee35" category="inline-link-rx"></block></block>
@@ -3859,9 +3855,6 @@
   <block id="55432336f675b4e2266a1a2a8482876b" category="summary">LDAP 클라이언트 창을 사용하여 SVM(Storage Virtual Machine) 수준에서 사용자 인증, 파일 액세스 인증, 사용자 검색 및 NFS와 CIFS 간 매핑 서비스를 위한 LDAP 클라이언트를 생성할 수 있습니다.</block>
   <block id="a933a64756017e8d671789d11398aa7a" category="doc">LDAP 클라이언트 창</block>
   <block id="7554bfe9c433c8d865c6b811f640f691" category="paragraph">각 LDAP 클라이언트 구성의 SVM 이름을 표시합니다.</block>
-  <block id="af2ea4d8f843befba34328807ddef7e2" category="paragraph">System Manager를 사용하면 명령 또는 명령 디렉터리에 대한 액세스 제어 roleroleto 를 수정하고 지정된 명령 집합에만 대한 사용자 액세스를 제한할 수 있습니다.</block>
-  <block id="184d7287e45870df2985a70608171872" category="list-text">수정할 역할을 선택한 다음 * 편집 * 을 클릭합니다.</block>
-  <block id="db9e97c1b3b403653857d8198470a678" category="list-text">역할 속성을 수정한 다음 * 수정 * 을 클릭합니다.</block>
   <block id="82b7d0da71d36ed61a6fcf56d84ec7f2" category="summary">System Manager를 사용하면 스토리지 가상 시스템(SVM) 내에서 LUN을 포함하는 볼륨에서 다른 볼륨 또는 qtree로 이동할 수 있습니다. LUN을 고성능 디스크가 포함된 애그리게이트에서 호스팅되는 볼륨으로 이동할 수 있으므로 LUN에 액세스할 때 성능이 향상됩니다.</block>
   <block id="04886d6bb6807c3977f1662714bab20d" category="doc">LUN 이동 중</block>
   <block id="d5cfb77f10223d2fdb058b97aecdf4f3" category="list-text">동일한 볼륨 내에서 LUN을 qtree로 이동할 수 없습니다.</block>
@@ -4946,7 +4939,6 @@
   <block id="3d18a6c060bf36b73107820286a1079f" category="list-text">Setup * 창에서 * LDAP * 를 클릭합니다.</block>
   <block id="7a4ed038b12707d1a7d7a6dbfc8d2548" category="paragraph">LDAP 클라이언트 목록이 LDAP 창에 표시됩니다.</block>
   <block id="cfa566be6299e9e3d5fade67a78c3e74" category="summary">System Manager를 사용하면 네임스페이스가 매핑되는 하위 시스템을 변경하여 네임스페이스를 편집할 수 있습니다.</block>
-  <block id="9ec7401b6f04c416e336acd652043b73" category="paragraph">이 창에서는 NVMe 하위 시스템 설정만 수정할 수 있으며 다른 네임스페이스 세부 정보는 편집할 수 없습니다.</block>
   <block id="f7e3bbd4fe5c0d8ca1b63838f152aa81" category="list-text">NVMe 네임스페이스 창 * 에서 편집할 네임스페이스를 선택합니다.</block>
   <block id="f675a7bc5b1163c3b4fcd04df9e2b068" category="list-text">하위 시스템 옵션 선택:</block>
   <block id="579a46a917d784198fe18b644fe1a692" category="list-text">없음: 이 옵션을 선택하면 이 네임스페이스에 대한 기존 하위 시스템 매핑만 해제됩니다. 선택한 네임스페이스에 대한 하위 시스템 매핑이 없는 경우 이 옵션이 미리 선택됩니다.</block>
@@ -9194,8 +9186,6 @@
   <block id="92b5cfb7c1fce1eb7a3e8af80d9f9e4c" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 할당량을 생성, 편집, 삭제할 수 있습니다.</block>
   <block id="f8206d5822aae59ab25ac11cfd0db3b1" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 LUN을 이동합니다</block>
   <block id="f6eab1b0f1e3aecbf6c1fc2d5b6d1f3d" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 LUN을 포함하는 볼륨에서 SVM(스토리지 가상 시스템) 내의 다른 볼륨 또는 qtree로 이동할 수 있습니다. LUN을 고성능 디스크가 포함된 애그리게이트에서 호스팅되는 볼륨으로 이동할 수 있으므로 LUN에 액세스할 때 성능이 향상됩니다.</block>
-  <block id="932602fa5fa764793ab1fa81fc0be6d7" category="doc">System Manger-ONTAP 9.7 이하를 사용하여 NVMe 네임스페이스를 편집합니다</block>
-  <block id="727ece68052790d13859f0d00c5bc97d" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 네임스페이스가 매핑되는 서브시스템을 변경하여 네임스페이스를 편집할 수 있습니다.</block>
   <block id="3ab7fd8a82e1834d805386fd9d48097b" category="doc">System Manager로 이니시에이터 그룹 확인 - ONTAP 9.7 이하</block>
   <block id="2e7e039707010ae5e778413a23bbe402" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)의 이니시에이터 그룹 * 탭을 사용하면 이러한 이니시에이터 그룹에 매핑된 모든 이니시에이터 그룹 및 이니시에이터와 이니시에이터 그룹에 매핑된 LUN 및 LUN ID를 볼 수 있습니다.</block>
   <block id="a662f5c9c50a29062ff6977d842954f0" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 iSCSI 프로토콜을 구성합니다</block>
@@ -9242,8 +9232,6 @@
   <block id="26db8af5ab588089d2d0b8f377dadc4d" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 SVM 간에 미러 관계와 미러 및 소산 관계를 생성하고 관리할 수 있습니다. SVM(스토리지 가상 시스템) DR(재해 복구)은 SVM의 구성요소 볼륨에 있는 데이터를 복구하고 SVM 구성을 복구하여 SVM 레벨에서 재해 복구 기능을 제공합니다.</block>
   <block id="c48810549c92e77a74367bf1cec6df93" category="doc">시스템 관리자-ONTAP 9.7 이하와 HA 쌍 모니터링</block>
   <block id="69d871a356c50778c71ad0cc45db4702" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하면 클러스터에 있는 모든 HA(고가용성) 쌍의 노드 상태와 상호 연결 상태를 모니터링할 수 있습니다. Takeover 또는 Giveback이 활성화되었는지 또는 발생했는지 확인할 수도 있으며, Takeover 또는 Giveback이 현재 가능하지 않은 이유를 볼 수 있습니다.</block>
-  <block id="262333fc510a217309de41b775906e37" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 역할을 만들고 관리합니다</block>
-  <block id="9a8f0d506aed3b767779b83964cf1b1a" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 역할을 만들고 관리할 수 있습니다.</block>
   <block id="18f944a43803893b3abefe4cddb83100" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 스냅샷 복사본 전송을 중단합니다</block>
   <block id="4b7a0caa5d810697cb98d1268491c200" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 현재 진행 중인 데이터 전송을 중단 또는 중지할 수 있습니다.</block>
   <block id="3f24c14d1945245ea70ef197ca7eb065" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 클러스터를 설정합니다</block>
@@ -9346,4 +9334,7 @@
   <block id="b87dc40a9cd444db0c33c9cf74977997" category="sidebar">사용자 계정에 그룹 구성원 자격 할당</block>
   <block id="b172911abb23c845e5cc62ee1144120d" category="sidebar">대상 SVM에서 미러 관계를 생성합니다</block>
   <block id="abf829b25449f6273d3b487ca5bdc3b3" category="sidebar">대상 SVM에서 볼트 관계를 생성합니다</block>
+  <block id="5320519656008cb5df3f08380e301995" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 NVMe 네임스페이스를 편집합니다</block>
+  <block id="e98d8ae8fa01fcc5c723de5567d4b5a5" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager Classic을 사용하면 네임스페이스가 매핑된 서브시스템을 변경하여 네임스페이스를 편집할 수 있습니다.</block>
+  <block id="e605d3c73e4fdd4e52aaf2c1465605c6" category="paragraph">이 창에서는 NVMe 하위 시스템 설정만 수정할 수 있으며 다른 네임스페이스 세부 정보는 편집할 수 없습니다.</block>
 </blocks>
