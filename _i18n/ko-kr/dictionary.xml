@@ -2043,8 +2043,6 @@
   <block id="4ee04baa35ee69f54cafefed4ab50f4d" category="list-text">사용자 * 탭에서 삭제할 사용자 계정을 선택한 다음 * 삭제 * 를 클릭합니다.</block>
   <block id="874db297b2254479eeb702a2d7fa8dab" category="list-text">삭제 * 를 클릭합니다.</block>
   <block id="a7533bad5cc7b81b1a181d374db25a8a" category="paragraph">로컬 사용자 계정이 그룹 구성원 항목과 함께 삭제됩니다.</block>
-  <block id="f9aa0ac6f93a50d6e5146c27fccd2309" category="inline-xref-macro">Windows 창</block>
-  <block id="d787d97d1ef711916810f55e106054e4" category="paragraph"><block ref="d787d97d1ef711916810f55e106054e4" category="inline-xref-macro-rx"></block></block>
   <block id="8bdd93d872adf4dc597e93c89cee145b" category="summary">인증된 클러스터 피어 관계를 생성하여 클러스터를 연결하면 피어 관계의 클러스터가 서로 안전하게 통신할 수 있습니다.</block>
   <block id="50029246db747c82419f724776522525" category="doc">클러스터 피어 관계 생성</block>
   <block id="47b265befb0498505ecc857caa4b5c8b" category="list-text">이 작업을 수행하기 위한 요구 사항을 검토하고 완료해야 합니다.</block>
@@ -4043,7 +4041,6 @@
   <block id="c6d065291b330a09917495aa2f8690ad" category="doc">디스크 및 어레이 LUN 정보</block>
   <block id="a8f302e6ed78532825e7d09cf54ab7af" category="paragraph">ONTAP 소프트웨어를 사용하면 디스크 및 어레이 LUN에 소유권을 할당하고 이를 Aggregate에 추가할 수 있습니다. ONTAP 소프트웨어는 또한 디스크를 제거, 교체 및 삭제하는 등 다양한 방법으로 디스크를 관리할 수 있습니다. 어레이 LUN은 타사 스토리지 어레이에서 제공하기 때문에 어레이 LUN에 대한 다른 모든 관리 작업에는 타사 스토리지 시스템을 사용합니다.</block>
   <block id="bbeb93f7c8f7ce4e49cf44c2634b4174" category="paragraph">디스크 또는 어레이 LUN을 사용하여 애그리게이트를 생성할 수 있습니다. Aggregate를 생성한 후에는 ONTAP 소프트웨어를 사용하여 디스크 또는 어레이 LUN에서 생성된 것과 동일한 방식으로 Aggregate를 관리할 수 있습니다.</block>
-  <block id="bb7c4cc3390268168d4d4a8537f329d6" category="doc">지연 시간은 얼마인지</block>
   <block id="a7c99ceadac4e4924151c84d763c467f" category="summary">공유 창을 사용하여 공유를 관리하고 공유에 대한 정보를 볼 수 있습니다.</block>
   <block id="4918741feccad41b42cd99aa33e42f28" category="doc">공유 창</block>
   <block id="fda574f52a0c012e098901afa3932b69" category="list-text">* 공유 생성 *</block>
@@ -6836,8 +6833,6 @@
   <block id="b3993d767356f296d9ae01951029b2e8" category="paragraph">호스트 이름의 이메일 주소는 최대 5개까지 추가할 수 있습니다.</block>
   <block id="256162f8692cabf4b90ce635f28d203d" category="list-text">기타 * 탭의 드롭다운 목록에서 이메일 메시지를 전송하기 위한 전송 프로토콜을 선택하고 HTTP 또는 HTTPS 프록시 서버 세부 정보를 지정합니다.</block>
   <block id="f8095d0bd0b763a9801c727b7b9c9e2c" category="list-text">AutoSupport 알림에 대해 설정한 구성이 * AutoSupport * 창에서 올바르게 설정되었는지 확인합니다.</block>
-  <block id="c2f327f343aa6ce05d97498ad4d2bd5e" category="summary">System Manager를 사용하여 클러스터를 관리할 수 있습니다.</block>
-  <block id="d129f6c98e37c0be76c2f406b61b16fe" category="doc">클러스터 관리</block>
   <block id="1b841386179ea0d3df05529c89b21427" category="summary">System Manager를 사용하여 어레이 LUN을 기존 애그리게이트에 할당하고 어레이 LUN을 관리할 수 있습니다.</block>
   <block id="936263aa8a5425fe84a14888345f081f" category="doc">스토리지 LUN입니다</block>
   <block id="cefd59017a4a065f49d52af021a7df7a" category="paragraph"><block ref="cefd59017a4a065f49d52af021a7df7a" category="inline-link-rx"></block></block>
@@ -8456,7 +8451,6 @@
   <block id="b0b5fb2ee1318a474b94dc229a9c3ae7" category="sidebar">System Manager 이해</block>
   <block id="dbbfa6ca249fe970fb024077e64d65b5" category="sidebar">ONTAP 시스템 관리자를 사용하여 클러스터를 설정합니다</block>
   <block id="e574842f1499540cf5f9506775ce4982" category="sidebar">템플릿 파일을 사용하여 클러스터를 설정합니다</block>
-  <block id="2b4979e022671c78ec2a39d040234a7a" category="sidebar">클러스터를 수동으로 설정합니다</block>
   <block id="65444ec183406e4d1b6958214e129abf" category="sidebar">네트워크를 설정합니다</block>
   <block id="a17c801b122e95fd89a500563625a7f0" category="sidebar">IP 주소 범위가 활성화된 경우 네트워크를 설정합니다</block>
   <block id="abbdec258846bc33b334f5477785ccc1" category="sidebar">IP 주소 범위가 비활성화된 경우 네트워크를 설정합니다</block>
@@ -8489,7 +8483,6 @@
   <block id="7bd30dcee2f65e0ff64d330837998ae5" category="sidebar">비 MetroCluster 구성에서 클러스터를 업데이트합니다</block>
   <block id="3171d5418d7fcc34265864d182c0c865" category="sidebar">MetroCluster 구성에서 클러스터를 업데이트합니다</block>
   <block id="4eda2e07f35ceddad762a1c0d986beaf" category="sidebar">단일 노드 클러스터 업데이트</block>
-  <block id="c375efa579ec9b8792423ddb072b1b77" category="sidebar">MetroCluster 로컬 사이트 이름 바꾸기(사이트 A)</block>
   <block id="acd1afa562cc798d4a4fa90af4c1deed" category="sidebar">SNMP를 설정하거나 해제합니다</block>
   <block id="10acd75830d8b7f37a5e0d8831a8a372" category="sidebar">SNMP 정보를 편집합니다</block>
   <block id="54c3fd8643ef7d29b8446c1f0d1340b0" category="sidebar">SNMP 트랩을 설정하거나 해제합니다</block>
@@ -8843,7 +8836,6 @@
   <block id="a25a6296a2238250ac880d0ecf5b030b" category="paragraph">ONTAP System Manager 클래식 9.6을 사용하여 스위치오버 작업을 수행하기 전에 해당 사이트에서 필요한 단계가 수행되었는지 확인해야 합니다.</block>
   <block id="19ba7845e5879e0c327b97f282a2ad67" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 고가용성 쌍을 생성합니다</block>
   <block id="c25f011b08f295a29bbd500b17b738ed" category="doc">System Manager를 사용한 구성 업데이트 - ONTAP 9.7 이전 버전</block>
-  <block id="1c82fcdf598db00f440965ba676c0e66" category="paragraph">ONTAP System Manager 클래식(9.7 이하에서 사용 가능)을 사용하면 SVM(스토리지 가상 머신)의 관리 세부 정보를 구성할 수 있습니다.</block>
   <block id="8e4cfdd5f2a44a82c383c0562730105b" category="doc">System Manager 로그 파일 보기 - ONTAP 9.7 이하</block>
   <block id="e32d35a30d776517222a8cb49dfde78b" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용할 때 문제가 발생하면 문제 해결을 위해 로그 파일을 기술 지원 팀에 전송할 수 있습니다. System Manager 로그 파일은 ONTAP 로그 파일과 함께 'mlog' 디렉토리에 있습니다.</block>
   <block id="31d9626798b93e9040bd1a4d694bd56b" category="paragraph">시스템 로깅은 응용 프로그램 문제 해결을 위한 필수 도구입니다. 응용 프로그램에 문제가 있는 경우 문제를 찾을 수 있도록 시스템 로깅을 활성화해야 합니다. 런타임 시 응용 프로그램 바이너리를 수정하지 않고 System Manager 로깅을 활성화할 수 있습니다.</block>
@@ -8904,7 +8896,6 @@
   <block id="94179f0d8149a3ac801eea474d69ef53" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 네트워크를 설정합니다</block>
   <block id="1ba705052a00b8283ec31d9278e3d149" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 네트워크를 설정할 수 있습니다. 네트워크 설정은 IPspace 생성, 브로드캐스트 도메인 및 서브넷으로 구성됩니다.</block>
   <block id="0e9cd8252c144768701a64ff9ab1f7e8" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 애플리케이션을 삭제합니다</block>
-  <block id="f8c7aff1779acf3b9dc85a549c8f4d4f" category="paragraph">ONTAP System Manager 클래식(9.7 이하에서 사용 가능)을 사용하면 더 이상 필요하지 않은 프로비저닝된 애플리케이션을 삭제할 수 있습니다.</block>
   <block id="ccda83eb5ed4056b1202262cc09443c9" category="doc">System Manager로 클러스터 업데이트 - ONTAP 9.7 이하</block>
   <block id="ba92625a1cffe75a8f65eb6b092f6da8" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하여 고가용성(HA) 쌍의 클러스터 또는 개별 노드를 업데이트할 수 있습니다. MetroCluster 구성에서 클러스터를 업데이트할 수도 있습니다.</block>
   <block id="ee56e6f13b7ebc3f13f7477735835f4c" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 클러스터 사용자 계정을 추가, 편집 및 관리하고 로그인 사용자 방법을 지정하여 스토리지 시스템을 액세스할 수 있습니다.</block>
@@ -9012,11 +9003,9 @@
   <block id="72d74e64b0929a9c7c7bc7f3554b4c9d" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 FlexClone 볼륨을 생성합니다</block>
   <block id="c0aa985c97a56f85399e054f26e6fb91" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 기존 FlexVol 볼륨의 쓰기 가능한 시점 복사본이 필요한 경우 FlexClone 볼륨을 생성할 수 있습니다. 테스트할 볼륨의 복사본을 만들거나 운영 데이터에 대한 액세스 권한을 부여하지 않고 추가 사용자에게 볼륨에 대한 액세스를 제공할 수 있습니다.</block>
   <block id="296d3389cd2112082ce2545f02d9782a" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 중복 제거 작업을 실행합니다</block>
-  <block id="c1704396b0a08ab03516a9295fa05265" category="paragraph">ONTAP System Manager 클래식(9.7 이하에서 사용 가능)을 사용하면 FlexVol 볼륨을 생성한 직후 중복제거를 실행하거나 지정된 시간에 중복제거를 실행하도록 예약할 수 있습니다.</block>
   <block id="15fcc128691817e5d018f6a6c28490a5" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 볼륨 크기 조정 옵션</block>
   <block id="d72908bbda40336f9f8c28c9e474bf46" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)에서 볼륨 크기 조정 마법사를 사용하여 볼륨 크기를 변경하고, 스냅숏 예비 공간을 조정하고, 스냅샷 복사본을 삭제하고, 변경 결과를 동적으로 볼 수 있습니다.</block>
   <block id="8e5d707678bf42772cd958910a63a685" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 볼륨 속성을 편집합니다</block>
-  <block id="58e12808aee592a68ef0eba7de9b2fad" category="paragraph">System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 볼륨 이름, 보안 스타일, 부분 예약, 공간 보장 등의 볼륨 속성을 수정할 수 있습니다. 스토리지 효율성 설정(중복제거 일정, 중복제거 정책 및 압축) 및 공간 재확보 설정을 수정할 수 있습니다.</block>
   <block id="1ce0e12cfe117c5cdf15da3fff9c9971" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 애그리게이트를 생성하기 위한 스토리지 권장 사항입니다</block>
   <block id="4cfa7a50c86e4712589b7525645c62d7" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 네트워크 인터페이스를 관리합니다</block>
   <block id="5c12d3be28256f2a4159aafabfc61e42" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 네트워크 인터페이스를 생성하고 관리할 수 있습니다.</block>
@@ -9041,7 +9030,6 @@
   <block id="0d553351168d2ec2a019b1b7d719386c" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 포트 세트를 생성, 삭제 및 편집할 수 있습니다.</block>
   <block id="0e5b9208e3815bdfce5fbc2df62bbbb0" category="paragraph">ONTAP 시스템 관리자의 기존 방식을 사용하여 LUN에 대한 액세스를 제한하는 포트 세트를 생성할 수 있습니다.</block>
   <block id="57c0533d398adb4e7f062a380c074a16" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 LUN을 생성합니다</block>
-  <block id="44d085e7c22d7a56b01ae83977fb0c9b" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.8 이하에서 사용 가능)을 사용하면 사용 가능한 여유 공간이 있을 때 기존 애그리게이트, 볼륨 또는 qtree용 LUN을 생성할 수 있습니다. 기존 볼륨에 LUN을 생성하거나 LUN에 대한 새 FlexVol 볼륨을 생성할 수 있습니다. 또한 스토리지 QoS(서비스 품질)를 활성화하여 워크로드 성능을 관리할 수도 있습니다.</block>
   <block id="d71ba3f941027cc222ab286f261aedf9" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 이니시에이터 그룹을 관리합니다</block>
   <block id="910b66eacc00a33b3e1faebd757ca4d0" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하여 이니시에이터 그룹을 관리할 수 있습니다. 이니시에이터 그룹을 통해 특정 LUN에 대한 호스트 액세스를 제어할 수 있습니다. portset을 사용하여 이니시에이터가 액세스할 수 있는 LIF를 제한할 수 있습니다.</block>
   <block id="836f907e1a3a35e35703941bae06b845" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 스냅샷 복사본의 자동 생성을 예약합니다</block>
@@ -9109,7 +9097,6 @@
   <block id="5a9c388627c2a7fd685dccf436f83c83" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 FlexGroup 볼륨 정보를 확인하십시오</block>
   <block id="f977f31d16f4b8a41207c6826103623d" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 FlexGroup 볼륨에 대한 정보를 볼 수 있습니다. 할당된 공간, 보호 상태 및 FlexGroup 볼륨의 성능에 대한 그래픽 표시를 볼 수 있습니다.</block>
   <block id="af278e4cbaba5d7640f03c7d8ccd3a53" category="doc">System Manager의 디스크 창 - ONTAP 9.7 이하</block>
-  <block id="de93e474f59d689bd502d50a3463819e" category="paragraph">ONTAP System Manager(ONTAP 9.7 이하에서 사용 가능)의 Disks 창을 사용하여 스토리지 시스템의 모든 디스크를 볼 수 있습니다.</block>
   <block id="258afb30ae69ea72441de6bfa02ded92" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 공유를 관리합니다</block>
   <block id="47e145cac11e2ed21e19d35136895102" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 공유를 생성, 편집 및 관리할 수 있습니다.</block>
   <block id="fa1e16b1d3064c5c2a9c506c6f66ea7e" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 데이터 보호 볼륨을 편집합니다</block>
@@ -9128,7 +9115,6 @@
   <block id="7395f98b92ba1f806cd25f3b2816516d" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 SVM 설정을 편집합니다</block>
   <block id="d81698ba423ea22b301cb1579d9e6433" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 방식을 사용하여 네임 서비스 스위치, 이름 매핑 스위치, 애그리게이트 목록과 같은 SVM(스토리지 가상 머신)의 속성을 편집할 수 있습니다.</block>
   <block id="564791b987f0846ef3c17ad7e3a475c2" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 저장된 스냅샷 복사본 목록을 확인하십시오</block>
-  <block id="3a529a084aa6539c3cf0ff1e6a82eebb" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 볼륨 창의 아래쪽 창에 있는 스냅샷 복사본 탭에서 선택한 볼륨에 대해 저장된 모든 스냅샷 복사본 목록을 볼 수 있습니다. 저장된 스냅샷 복사본 목록을 사용하여 스냅샷 복사본의 이름을 변경, 복원 또는 삭제할 수 있습니다.</block>
   <block id="8d63c85c86a43bf30719d6251feabb88" category="doc">FlexClone 볼륨 계층 - ONTAP 9.7 이하 버전을 봅니다</block>
   <block id="3a59cafcf4d62062327f96774d795d5a" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 FlexClone 볼륨 및 상위 볼륨의 계층 구조를 볼 수 있습니다.</block>
   <block id="9e7629b024a19ce191f9724ba2c07b02" category="doc">시스템 관리자-ONTAP 9.7 이하를 사용하여 소스 SVM에서 미러링 및 소산 관계를 생성합니다</block>
@@ -9173,13 +9159,11 @@
   <block id="8a0b9efae953ad78e31452692e212986" category="doc">System Manager - ONTAP 9.7 및 이전 버전의 LUN에 대한 공간 예약 이해</block>
   <block id="48179f823f2ef45ef8b5814a040d2469" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)에서 공간 예약 설정(볼륨 보장과 결합)이 LUN에 공간을 별도로 설정하는 방식에 미치는 영향을 이해하면 공간 예약을 사용하지 않도록 설정하는 데 따른 영향을 이해하는 데 도움이 됩니다. 또한 특정 조합의 LUN 및 볼륨 설정이 유용하지 않은 이유를 이해하는 데 도움이 됩니다.</block>
   <block id="8dc521e6088213a6ca4845b2e447ad1f" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 NVMe를 설정합니다</block>
-  <block id="ba359a34f06422eae8bbfc598dc574cc" category="paragraph">System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 SVM용 NVMe 프로토콜을 설정할 수 있습니다. SVM에서 NVMe 프로토콜을 사용하면 네임스페이스 또는 네임스페이스를 프로비저닝하고 이를 호스트 및 하위 시스템에 할당할 수 있습니다.</block>
   <block id="0d37f304afcc30684a1a820323a47605" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 NVMe 네임스페이스를 생성합니다</block>
   <block id="ef67c485b2c6cab864d12bc0c3225891" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 하나 이상의 NVMe 네임스페이스를 만들고 각 네임스페이스를 SVM(스토리지 가상 시스템)의 호스트 또는 호스트 세트에 연결할 수 있습니다. NVMe 네임스페이스는 논리 블록으로 포맷할 수 있는 메모리 양입니다. 각 네임스페이스를 NVMe 하위 시스템에 매핑할 수 있습니다.</block>
   <block id="1a0ba5c2f4e7de22f403caf60a841d89" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 LUN 정보를 확인합니다</block>
   <block id="da7cd062e33c4b51fae6fea4a85b5f93" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)의 LUN 관리 * 탭을 사용하여 이름, 상태, 크기, 유형과 같은 LUN에 대한 세부 정보를 볼 수 있습니다.</block>
   <block id="5402da9bf169f313391fe2df34c5e9c8" category="doc">System Manager의 CIFS 창 - ONTAP 9.7 이하</block>
-  <block id="eeed665e66794c54433d3a763c6f9a29" category="paragraph">System Manager(ONTAP 9.7 이하)의 CIFS 창을 사용하여 CIFS 서버를 구성하고, 도메인 컨트롤러를 관리하고, 상징적인 UNIX 매핑을 관리하고, BranchCache를 구성할 수 있습니다.</block>
   <block id="a59ee843aef4cd1f9426bb0713912d44" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 LUN을 온라인 상태로 전환합니다</block>
   <block id="5512b8e907041ebb0ac559fb1298cf8e" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)의 LUN 관리 * 탭을 사용하면 선택한 LUN을 온라인 상태로 가져와 호스트에서 사용할 수 있습니다.</block>
   <block id="62ff1838c0b0867c91d22b647ce628f1" category="doc">시스템 관리자 - ONTAP 9.7 이하를 사용하여 할당량을 관리합니다</block>
@@ -9207,13 +9191,11 @@
   <block id="e5377734635222b4a05b64c98f884203" category="doc">시스템 관리자 - ONTAP 9.7 이전 버전을 사용하여 DNS/DDNS 서비스를 관리합니다</block>
   <block id="e5f80dc702947309680d1afbeea7cd5a" category="paragraph">ONTAP 시스템 관리자 클래식(ONTAP 9.7 및 이전 버전에서 사용 가능)을 사용하여 DNS/DDNS 서비스를 관리할 수 있습니다.</block>
   <block id="40ac4c7cdd68bb2416925b40af178901" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 NVMe 서비스를 시작 및 중지하십시오</block>
-  <block id="917b92acb38ad7b6209e26de91ce38a9" category="paragraph">ONTAP System Manager 클래식(9.7 이하에서 사용 가능)을 사용하면 NVMe 서비스를 시작하여 어댑터를 온라인으로 연결할 수 있습니다. NVMe 서비스를 사용하면 네임스페이스에서 사용할 NVMe 어댑터를 관리할 수 있습니다. NVMe 서비스를 중지하여 NVMe 어댑터를 오프라인으로 설정하고 네임스페이스에 대한 액세스를 비활성화할 수 있습니다.</block>
   <block id="980ea682ed148899940453682116cf28" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)의 정책 그룹 편집 대화 상자를 사용하여 기존 스토리지 QoS(서비스 품질) 정책 그룹의 이름과 최대 처리량을 수정할 수 있습니다.</block>
   <block id="6685e05ba41f861ad9bf8b5d50878022" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 스토리지 QoS(서비스 품질) 정책 그룹을 생성하여 워크로드 처리량을 제한하고 워크로드 성능을 모니터링할 수 있습니다.</block>
   <block id="78207357f350ce56fd3fa8e2a7391ce2" category="doc">시스템 관리자-ONTAP 9.7 이하를 사용하여 Kerberos 인터페이스 서비스를 관리합니다</block>
   <block id="381ccce315fd379442a9e0a646822167" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 Kerberos 인터페이스 서비스를 관리할 수 있습니다.</block>
   <block id="b9bf7d43b339de24350647273adf0828" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 기본 도메인 컨트롤러를 관리합니다</block>
-  <block id="1c8df30269c0b7d68fd0908d4455290a" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 선호하는 도메인 컨트롤러를 관리할 수 있습니다</block>
   <block id="76a6394ebba69d649eac839a06da71d9" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 CIFS 프로토콜을 구성합니다</block>
   <block id="8ddabe3ae143d491ee852f8d59f2a3dd" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 CIFS 클라이언트가 클러스터의 파일에 액세스할 수 있도록 CIFS 서버를 설정 및 구성할 수 있습니다.</block>
   <block id="fe491cb74b5104c47c986ff02db47b0a" category="doc">시스템 관리자 - ONTAP 9.7 이하를 사용하여 NIS 서비스를 관리합니다</block>
@@ -9326,15 +9308,26 @@
   <block id="2ccebd804a2ce77ca906d0e7b9c74307" category="section-title">FabricPool 지원 애그리게이트를 수동으로 생성합니다</block>
   <block id="d0e7a5e3372fc34ff0c77624a2bb33ac" category="doc">System Manager로 볼륨 관리 - ONTAP 9.7 이하</block>
   <block id="5cf0222128789f408e97a1222d101d9b" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 SVM 사용자 계정을 생성하고 관리합니다</block>
-  <block id="77e82b2e710b5cc9c6dfa16efeddeaea" category="sidebar">SVM을 사용하는 이유</block>
   <block id="c6f01c78bfe0a0a495cb5d3ed77824a9" category="sidebar">볼륨</block>
   <block id="7e07ef4fefaf5e9f135056d576316043" category="sidebar">홈 디렉토리 경로를 추가합니다</block>
   <block id="34c8cc3c55629eebeca9a7f5b7b3536d" category="sidebar">SVM 사용자</block>
-  <block id="a61ef4381ae27c3f4823d95f1b2c7c23" category="sidebar">로컬 Windows 사용자 속성을 편집합니다</block>
-  <block id="b87dc40a9cd444db0c33c9cf74977997" category="sidebar">사용자 계정에 그룹 구성원 자격 할당</block>
-  <block id="b172911abb23c845e5cc62ee1144120d" category="sidebar">대상 SVM에서 미러 관계를 생성합니다</block>
-  <block id="abf829b25449f6273d3b487ca5bdc3b3" category="sidebar">대상 SVM에서 볼트 관계를 생성합니다</block>
   <block id="5320519656008cb5df3f08380e301995" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 NVMe 네임스페이스를 편집합니다</block>
   <block id="e98d8ae8fa01fcc5c723de5567d4b5a5" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager Classic을 사용하면 네임스페이스가 매핑된 서브시스템을 변경하여 네임스페이스를 편집할 수 있습니다.</block>
   <block id="e605d3c73e4fdd4e52aaf2c1465605c6" category="paragraph">이 창에서는 NVMe 하위 시스템 설정만 수정할 수 있으며 다른 네임스페이스 세부 정보는 편집할 수 없습니다.</block>
+  <block id="7247e2bbb4656b94570de4b9a18b427a" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 NVMe 서비스를 시작하여 어댑터를 온라인으로 연결할 수 있습니다. NVMe 서비스를 사용하면 네임스페이스에서 사용할 NVMe 어댑터를 관리할 수 있습니다. NVMe 서비스를 중지하여 NVMe 어댑터를 오프라인으로 설정하고 네임스페이스에 대한 액세스를 비활성화할 수 있습니다.</block>
+  <block id="99689298a81a7450ae5dee7b7a64ac95" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하여 SVM(스토리지 가상 머신)의 관리 세부 정보를 구성할 수 있습니다.</block>
+  <block id="e8ce8561f5fcc4b7088e795d85093038" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 볼륨 창의 아래쪽 창에 있는 스냅샷 복사본 탭에서 선택한 볼륨에 대해 저장된 모든 스냅샷 복사본 목록을 볼 수 있습니다. 저장된 스냅샷 복사본 목록을 사용하여 스냅샷 복사본의 이름을 변경, 복원 또는 삭제할 수 있습니다.</block>
+  <block id="96ef680007b9b6a4ed27f07ba3a181df" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 SVM용 NVMe 프로토콜을 설정할 수 있습니다. SVM에서 NVMe 프로토콜을 사용하면 네임스페이스 또는 네임스페이스를 프로비저닝하고 이를 호스트 및 하위 시스템에 할당할 수 있습니다.</block>
+  <block id="2b4709aa5503253a3c372e015319fdd7" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 더 이상 필요하지 않은 프로비저닝된 애플리케이션을 삭제할 수 있습니다.</block>
+  <block id="446723290cd69f19f32cc095bf0cddfb" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 볼륨 이름, 보안 스타일, 부분 예약, 공간 보장 등의 볼륨 속성을 수정할 수 있습니다. 스토리지 효율성 설정(중복제거 일정, 중복제거 정책 및 압축) 및 공간 재확보 설정을 수정할 수 있습니다.</block>
+  <block id="cf053656f16636b59956ec9143c23979" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전 을 사용하면 사용 가능한 여유 공간이 있을 때 기존 애그리게이트, 볼륨 또는 qtree용 LUN을 생성할 수 있습니다. 기존 볼륨에 LUN을 생성하거나 LUN에 대한 새 FlexVol 볼륨을 생성할 수 있습니다. 또한 스토리지 QoS(서비스 품질)를 활성화하여 워크로드 성능을 관리할 수도 있습니다.</block>
+  <block id="592ef708c6b97d3ff7c592abc67831b2" category="paragraph">SVM을 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)과 함께 사용하면 다른 스토리지 시스템과 마찬가지로 물리적 스토리지 또는 컨트롤러와 상관없이 클라이언트에 데이터 액세스를 제공할 수 있습니다. SVM은 무중단 운영, 확장성, 보안, 유니파이드 스토리지와 같은 이점을 제공합니다.</block>
+  <block id="b11d6464810e93ed648ab9f9e6e67038" category="paragraph">ONTAP System Manager(ONTAP 9.7 및 이전 버전에서 사용 가능)에서 CIFS 창을 사용하여 CIFS 서버를 구성하고, 도메인 컨트롤러를 관리하고, 기호 UNIX 매핑을 관리하고, BranchCache를 구성할 수 있습니다.</block>
+  <block id="11df44b0946a9107b09b3a6385a5de25" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 선호하는 도메인 컨트롤러를 관리할 수 있습니다.</block>
+  <block id="220d749ca6c37262c9b6285052f43745" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서는 사용할 수 있음)의 디스크 창을 사용하여 스토리지 시스템의 모든 디스크를 볼 수 있습니다.</block>
+  <block id="6d5805b78ace2f7977fbcf68733ab7ab" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 FlexVol 볼륨을 생성한 직후 중복제거를 실행하거나 지정된 시간에 중복제거를 실행하도록 예약할 수 있습니다.</block>
+  <block id="9b588f149e145ccee960f124c5e3d417" category="sidebar">SVM에 대해</block>
+  <block id="868555f74d53e8e661a5f31e4d7441e9" category="sidebar">ONTAP 이름 서비스 스위치 구성에 대해 설명합니다</block>
+  <block id="d351bbac1b18d316821e865a50a75d18" category="sidebar">QoS 정책 그룹 관리</block>
+  <block id="79fedbd71df5ba90cfd3c3a7103e7ebb" category="sidebar">볼트 관계 관리</block>
 </blocks>

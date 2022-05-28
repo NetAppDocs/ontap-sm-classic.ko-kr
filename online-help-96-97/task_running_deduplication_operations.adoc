@@ -11,7 +11,7 @@ summary: System Manager를 사용하면 FlexVol 볼륨을 생성한 직후 중�
 
 
 [role="lead"]
-ONTAP System Manager 클래식(9.7 이하에서 사용 가능)을 사용하면 FlexVol 볼륨을 생성한 직후 중복제거를 실행하거나 지정된 시간에 중복제거를 실행하도록 예약할 수 있습니다.
+ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 FlexVol 볼륨을 생성한 직후 중복제거를 실행하거나 지정된 시간에 중복제거를 실행하도록 예약할 수 있습니다.
 
 .시작하기 전에
 * 볼륨에서 중복 제거를 활성화해야 합니다.

@@ -8,18 +8,11 @@ entries:
   entries:
   - title: 템플릿 파일을 사용하여 클러스터를 설정합니다
     url: "/online-help-96-97/task_setting_up_cluster_using_template_file.html"
-  - title: 클러스터를 수동으로 설정합니다
-    url: "/online-help-96-97/concept_setting_up_cluster_manually.html"
     entries:
     - title: 클러스터를 생성합니다
       url: "/online-help-96-97/task_creating_cluster.html"
     - title: 네트워크를 설정합니다
       url: "/online-help-96-97/task_setting_up_network.html"
-      entries:
-      - title: IP 주소 범위가 활성화된 경우 네트워크를 설정합니다
-        url: "/online-help-96-97/task_setting_up_network_when_ip_address_range_is_enabled.html"
-      - title: IP 주소 범위가 비활성화된 경우 네트워크를 설정합니다
-        url: "/online-help-96-97/task_setting_up_network_when_ip_address_range_is_disabled.html"
     - title: 지원 페이지를 설정합니다
       url: "/online-help-96-97/task_setting_up_support_page.html"
     - title: 스토리지 권장 사항을 검토합니다
@@ -83,9 +76,6 @@ entries:
       url: "/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html"
     - title: 스위치오버 및 스위치백 작업을 준비합니다
       url: "/online-help-96-97/task_preparing_for_switchover_switchback_operations.html"
-      entries:
-      - title: MetroCluster 로컬 사이트 이름 바꾸기(사이트 A)
-        url: "/online-help-96-97/task_renaming_metrocluster_local_site_a.html"
     - title: 협상된 전환 수행
       url: "/online-help-96-97/task_performing_negotiated_planned_switchover.html"
     - title: 계획되지 않은 전환 수행
@@ -146,16 +136,10 @@ entries:
   url: "/online-help-96-97/concept_ldap.html"
 - title: 사용자
   url: "/online-help-96-97/concept_cluster_user_accounts.html"
-  entries:
-  - title: 역할
-    url: "/online-help-96-97/concept_roles_conceptual.html"
 - title: 역할
   url: "/online-help-96-97/concept_roles.html"
 - title: 네트워크를 관리합니다
   url: "/online-help-96-97/concept_managing_network.html"
-  entries:
-  - title: 네트워크 창
-    url: "/online-help-96-97/reference_network_window.html"
 - title: IPspace
   url: "/online-help-96-97/concept_ipspaces.html"
 - title: 브로드캐스트 도메인
@@ -253,9 +237,9 @@ entries:
     url: "/online-help-96-97/reference_managing_svms.html"
   - title: 파일 액세스를 추적하여 SVM의 액세스 오류를 진단합니다
     url: "/online-help-96-97/task_tracing_file_access_to_diagnose_access_errors_on_svms.html"
-  - title: SVM을 사용하는 이유
+  - title: SVM에 대해
     url: "/online-help-96-97/concept_why_you_use_svms.html"
-  - title: ONTAP 네임 서비스 스위치 구성의 작동 방식
+  - title: ONTAP 이름 서비스 스위치 구성에 대해 설명합니다
     url: "/online-help-96-97/concept_how_data_ontap_name_service_switch_configuration_works.html"
   - title: Storage Virtual Machines 창이 나타납니다
     url: "/online-help-96-97/reference_svm_window.html"
@@ -446,13 +430,9 @@ entries:
   url: "/online-help-96-97/concept_export_policies.html"
 - title: 효율성 정책
   url: "/online-help-96-97/concept_efficiency_policies.html"
-- title: QoS 정책 그룹을 생성합니다
+- title: QoS 정책 그룹 관리
   url: "/online-help-96-97/task_creating_qos_policy_groups.html"
   entries:
-  - title: QoS 정책 그룹을 삭제합니다
-    url: "/online-help-96-97/task_deleting_qos_policy_groups.html"
-  - title: QoS 정책 그룹을 편집합니다
-    url: "/online-help-96-97/task_editing_qos_policy_groups.html"
   - title: 정책 그룹에 스토리지 객체를 할당하는 규칙입니다
     url: "/online-help-96-97/concept_rules_for_assigning_storage_objects_to_policy_groups.html"
 - title: NIS 서비스
@@ -467,8 +447,6 @@ entries:
   url: "/online-help-96-97/concept_dns_ddns_services.html"
 - title: SVM 사용자
   url: "/online-help-96-97/concept_svm_user_accounts.html"
-- title: 역할
-  url: "/online-help-96-97/concept_roles_delete.html"
 - title: Unix
   url: "/online-help-96-97/concept_unix.html"
 - title: Windows
@@ -477,32 +455,10 @@ entries:
     url: "/online-help-96-97/task_creating_local_user_group.html"
   - title: 로컬 Windows 그룹 속성을 편집합니다
     url: "/online-help-96-97/task_editing_local_windows_group_properties.html"
-  - title: Windows 로컬 그룹에 사용자 계정을 추가합니다
-    url: "/online-help-96-97/task_adding_user_accounts_to_windows_local_group.html"
-  - title: 로컬 Windows 그룹의 이름을 바꿉니다
-    url: "/online-help-96-97/task_renaming_local_windows_group.html"
-  - title: 로컬 Windows 그룹을 삭제합니다
-    url: "/online-help-96-97/task_deleting_local_windows_group.html"
-  - title: 로컬 Windows 사용자 계정을 만듭니다
-    url: "/online-help-96-97/task_creating_local_windows_user_accounts.html"
-  - title: 로컬 Windows 사용자 속성을 편집합니다
-    url: "/online-help-96-97/task_editing_local_windows_user_properties.html"
-  - title: 사용자 계정에 그룹 구성원 자격 할당
-    url: "/online-help-96-97/task_assigning_group_memberships_to_user_account.html"
-  - title: 로컬 Windows 사용자의 이름을 바꿉니다
-    url: "/online-help-96-97/task_renaming_local_windows_user.html"
-  - title: Windows 로컬 사용자의 암호를 재설정합니다
-    url: "/online-help-96-97/task_changing_password_for_windows_local_users.html"
-  - title: 로컬 Windows 사용자 계정을 삭제합니다
-    url: "/online-help-96-97/task_deleting_local_windows_user_account.html"
-  - title: Windows 창
-    url: "/online-help-96-97/reference_windows_window.html"
 - title: 이름 매핑
   url: "/online-help-96-97/concept_name_mapping.html"
 - title: 관계 대칭 복사
   entries:
-  - title: 대상 SVM에서 미러 관계를 생성합니다
-    url: "/online-help-96-97/task_creating_mirror_relationship_from_destination_svm.html"
   - title: 미러 관계를 관리합니다
     url: "/online-help-96-97/task_editing_mirror_relationships.html"
   - title: SnapMirror 관계 끊기
@@ -515,16 +471,12 @@ entries:
     url: "/online-help-96-97/task_restoring_volume_mirror_relationship.html"
 - title: 볼트 관계
   entries:
-  - title: 대상 SVM에서 볼트 관계를 생성합니다
-    url: "/online-help-96-97/task_creating_vault_relationship_from_destination_svm.html"
-  - title: 미러 관계를 관리합니다
+  - title: 볼트 관계 관리
     url: "/online-help-96-97/task_editing_vault_relationships.html"
   - title: 스냅샷 복사본 전송을 중단합니다
     url: "/online-help-96-97/task_aborting_vault_relationships.html"
   - title: 볼트 관계의 볼륨을 복원합니다
     url: "/online-help-96-97/task_restoring_volume_vault_relationship.html"
-  - title: SnapVault 백업이란
-    url: "/online-help-96-97/concept_what_snapvault_backup_is.html"
 - title: 대칭 복사 및 볼트 관계
   entries:
   - title: 미러 및 볼트 관계 관리
@@ -533,8 +485,6 @@ entries:
     url: "/online-help-96-97/task_aborting_mirror_vault_relationships.html"
   - title: 미러 및 볼트 관계의 볼륨을 복구합니다
     url: "/online-help-96-97/task_restoring_volume_mirror_vault_relationship.html"
-- title: 지연 시간은 얼마인지
-  url: "/online-help-96-97/reference_what_lag_time_is.html"
 - title: 보호 윈도우
   url: "/online-help-96-97/reference_protection_window.html"
 - title: SVM 관계
