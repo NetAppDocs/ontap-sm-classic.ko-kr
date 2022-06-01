@@ -2360,7 +2360,6 @@
   <block id="1edd480a5a8ae7c2a1f84e0b03ac5acb" category="list-text">SnapLock 애그리게이트에서는 볼륨을 이동할 수 없습니다.</block>
   <block id="4e1b7aa55081e8395320f8f30dc0d55a" category="list-text">재해 복구용으로 구성된 SVM에서 FabricPool 지원 애그리게이트로 볼륨을 이동할 수 없습니다.</block>
   <block id="0e976d9daeb11b56701260148a70b257" category="list-text">볼륨이 포함된 Aggregate를 선택한 다음, 추가 작업 [볼륨 이동] 메뉴를 클릭합니다.</block>
-  <block id="f7fdf5bf6b2aae12be21af7b531c30b1" category="summary">FlexClone 볼륨이 상위 볼륨의 디스크 공간을 사용하는 대신 자체 디스크 공간을 사용하려면 System Manager를 사용하여 볼륨을 상위 볼륨에서 분할할 수 있습니다. 분할 후에 FlexClone 볼륨은 일반 FlexVol 볼륨이 됩니다.</block>
   <block id="7070c1e4bed9c0ad5d9c8c59193e6b69" category="doc">상위 볼륨에서 FlexClone 볼륨 분할</block>
   <block id="5a3cb198d6fd237a2d53ed4480fbc456" category="paragraph">FlexClone 볼륨은 온라인이어야 합니다.</block>
   <block id="9b8eaedd112f4c7e73c69d56819b9f3b" category="paragraph">_NOT_AFF 시스템인 시스템의 경우 클론 분할 작업은 클론의 기존 스냅샷 복사본을 모두 삭제합니다. SnapMirror 업데이트에 필요한 스냅샷 복사본도 삭제됩니다. 따라서 후속 SnapMirror 업데이트가 실패할 수 있습니다.</block>
@@ -9010,7 +9009,6 @@
   <block id="4cfa7a50c86e4712589b7525645c62d7" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 네트워크 인터페이스를 관리합니다</block>
   <block id="5c12d3be28256f2a4159aafabfc61e42" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 네트워크 인터페이스를 생성하고 관리할 수 있습니다.</block>
   <block id="bf71aa2b8c5f54397eaee604bf7831a5" category="doc">System Manager-ONTAP 9.7 이하를 사용하여 상위 볼륨에서 FlexClone 볼륨을 분할합니다</block>
-  <block id="76055aecc2a31bf17fb90bcf64dacbd8" category="paragraph">ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 상위 볼륨의 디스크 공간을 사용하는 대신 FlexClone 볼륨을 상위 볼륨에서 분할하여 FlexClone 볼륨을 사용할 수 있습니다. 분할 후에 FlexClone 볼륨은 일반 FlexVol 볼륨이 됩니다.</block>
   <block id="695827db13701a3500b6c8651644d09e" category="doc">System Manager - ONTAP 9.7 이하를 사용하여 볼륨에서 스토리지 효율성 실현</block>
   <block id="33541cf90bfd4d58d20417a84690177a" category="paragraph">ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을 사용하면 스토리지 효율성을 높이고, 중복제거 및 데이터 압축을 모두 구성하거나, 스토리지 공간을 절약하기 위해 볼륨에 대해서만 중복 제거를 구성할 수 있습니다. 볼륨을 생성할 때 스토리지 효율성을 설정하지 않은 경우 나중에 볼륨을 편집하여 이 작업을 수행할 수 있습니다.</block>
   <block id="5b371b102ea46126c749a29c392ca705" category="doc">System Manager-ONTAP 9.7 이하가 설치된 FlexVol 볼륨의 볼륨 보장에 대해 설명합니다</block>
@@ -9330,4 +9328,7 @@
   <block id="868555f74d53e8e661a5f31e4d7441e9" category="sidebar">ONTAP 이름 서비스 스위치 구성에 대해 설명합니다</block>
   <block id="d351bbac1b18d316821e865a50a75d18" category="sidebar">QoS 정책 그룹 관리</block>
   <block id="79fedbd71df5ba90cfd3c3a7103e7ebb" category="sidebar">볼트 관계 관리</block>
+  <block id="e50dd294cf397303b2a00adc531519ff" category="summary">System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 FlexClone 볼륨을 상위 볼륨에서 분할할 수 있습니다. 분할 후에 FlexClone 볼륨은 일반 FlexVol 볼륨이 됩니다. 또한 상위 볼륨의 디스크 공간을 계속 사용하며 스토리지 효율성이 유지됩니다.</block>
+  <block id="3c8b9315b4e5007a245058e0cff68754" category="sidebar">로컬 Windows 그룹</block>
+  <block id="77099e972ae7a7fe259036767d3fe853" category="sidebar">로컬 Windows 그룹을 관리합니다</block>
 </blocks>

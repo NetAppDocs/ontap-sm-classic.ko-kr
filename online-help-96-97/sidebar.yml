@@ -449,11 +449,9 @@ entries:
   url: "/online-help-96-97/concept_svm_user_accounts.html"
 - title: Unix
   url: "/online-help-96-97/concept_unix.html"
-- title: Windows
+- title: 로컬 Windows 그룹
   entries:
-  - title: 로컬 Windows 그룹을 만듭니다
-    url: "/online-help-96-97/task_creating_local_user_group.html"
-  - title: 로컬 Windows 그룹 속성을 편집합니다
+  - title: 로컬 Windows 그룹을 관리합니다
     url: "/online-help-96-97/task_editing_local_windows_group_properties.html"
 - title: 이름 매핑
   url: "/online-help-96-97/concept_name_mapping.html"
