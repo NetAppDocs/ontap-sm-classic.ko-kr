@@ -9,14 +9,14 @@
   <meta property="og:title" content="System Manager-ONTAP 9.7 이하를 사용하여 상위 볼륨에서 FlexClone 볼륨을 분할합니다" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_splitting_flexclone_volume_from_its_parent_volume.html" />
-	<meta property="og:description" content="FlexClone 볼륨이 상위 볼륨의 디스크 공간을 사용하는 대신 자체 디스크 공간을 사용하려면 System Manager를 사용하여 볼륨을 상위 볼륨에서 분할할 수 있습니다. 분할 후에 FlexClone 볼륨은 일반 FlexVol 볼륨이 됩니다." />
+	<meta property="og:description" content="System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 FlexClone 볼륨을 상위 볼륨에서 분할할 수 있습니다. 분할 후에 FlexClone 볼륨은 일반 FlexVol 볼륨이 됩니다. 또한 상위 볼륨의 디스크 공간을 계속 사용하며 스토리지 효율성이 ..." />
   <meta property="og:image" content="https://docs.netapp.com/ko-kr/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
-  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="FlexClone 볼륨이 상위 볼륨의 디스크 공간을 사용하는 대신 자체 디스크 공간을 사용하려면 System Manager를 사용하여 볼륨을 상위 볼륨에서 분할할 수 있습니다. 분할 후에 FlexClone 볼륨은 일반 FlexVol 볼륨이 됩니다.">
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 FlexClone 볼륨을 상위 볼륨에서 분할할 수 있습니다. 분할 후에 FlexClone 볼륨은 일반 FlexVol 볼륨이 됩니다. 또한 상위 볼륨의 디스크 공간을 계속 사용하며 스토리지 효율성이 ...">
   <meta name="keywords" content=" split, flexclone, volume, parent, online, help, disk, space"><!-- Icons -->
   <link rel="icon" href="/ko-kr/ontap-sm-classic/images/favicon.ico" type="image/x-icon">
 
@@ -3278,15 +3278,13 @@
           
           <a target="_blank" 
             
-              href="/ko-kr/ontap-sm-classic/pdfs/sidebar/Windows.pdf" 
+              href="/ko-kr/ontap-sm-classic/pdfs/sidebar/로컬_Windows_그룹.pdf" 
             
           >
             <img src="/ko-kr/ontap-sm-classic/images/pdf.png" width="16" height="16"/>
-            Windows
+            로컬 Windows 그룹
           </a>
           
-
-
 
 
 
@@ -4581,12 +4579,10 @@
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-sm-classic/online-help-96-97/concept_unix.html">
         Unix
       </a></li><li class="subfolders "><a href="#">
-        <div class="na-navbar-padding"> Windows</div>
+        <div class="na-navbar-padding"> 로컬 Windows 그룹</div>
       </a>
-      <ul><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-sm-classic/online-help-96-97/task_creating_local_user_group.html">
-        로컬 Windows 그룹을 만듭니다
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-sm-classic/online-help-96-97/task_editing_local_windows_group_properties.html">
-        로컬 Windows 그룹 속성을 편집합니다
+      <ul><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-sm-classic/online-help-96-97/task_editing_local_windows_group_properties.html">
+        로컬 Windows 그룹을 관리합니다
       </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-sm-classic/online-help-96-97/concept_name_mapping.html">
         이름 매핑
       </a></li><li class="subfolders "><a href="#">
@@ -4695,7 +4691,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-13 23:23:18 +0000">04/13/2022</time>
+    <time datetime="2022-06-01 02:25:35 +0000">06/01/2022</time>
     
   
 
@@ -4703,7 +4699,7 @@
 </p>
 
 <div class="paragraph lead">
-<p>ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하면 상위 볼륨의 디스크 공간을 사용하는 대신 FlexClone 볼륨을 상위 볼륨에서 분할하여 FlexClone 볼륨을 사용할 수 있습니다. 분할 후에 FlexClone 볼륨은 일반 FlexVol 볼륨이 됩니다.</p>
+<p>System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 FlexClone 볼륨을 상위 볼륨에서 분할할 수 있습니다. 분할 후에 FlexClone 볼륨은 일반 FlexVol 볼륨이 됩니다. 또한 상위 볼륨의 디스크 공간을 계속 사용하며 스토리지 효율성이 유지됩니다.</p>
 </div>
 <div class="paragraph">
 <p>FlexClone 볼륨은 온라인이어야 합니다.</p>
