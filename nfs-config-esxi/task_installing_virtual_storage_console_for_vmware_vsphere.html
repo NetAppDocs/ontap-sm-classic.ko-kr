@@ -277,35 +277,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">한국어</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">한국어</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ko-kr/ontap-sm-classic/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/ontap-sm-classic/nfs-config-esxi/task_installing_virtual_storage_console_for_vmware_vsphere.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/nfs-config-esxi/task_installing_virtual_storage_console_for_vmware_vsphere.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/nfs-config-esxi/task_installing_virtual_storage_console_for_vmware_vsphere.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/nfs-config-esxi/task_installing_virtual_storage_console_for_vmware_vsphere.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/nfs-config-esxi/task_installing_virtual_storage_console_for_vmware_vsphere.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/nfs-config-esxi/task_installing_virtual_storage_console_for_vmware_vsphere.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/ontap-sm-classic/nfs-config-esxi/task_installing_virtual_storage_console_for_vmware_vsphere.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/nfs-config-esxi/task_installing_virtual_storage_console_for_vmware_vsphere.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/nfs-config-esxi/task_installing_virtual_storage_console_for_vmware_vsphere.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/nfs-config-esxi/task_installing_virtual_storage_console_for_vmware_vsphere.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -3463,7 +3455,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-sm-classic/index.html">
         System Manager Classic 문서
       </a></li><li class="subfolders "><a href="#">
@@ -4691,7 +4683,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-13 23:23:18 +0000">04/13/2022</time>
+    <time datetime="2022-06-04 16:28:04 +0000">06/04/2022</time>
     
   
 
@@ -4699,7 +4691,7 @@
 </p>
 
 <div class="paragraph lead">
-<p>용 은 ESXi 호스트에서 스토리지를 사용하는 데 필요한 많은 구성 및 프로비저닝 작업을 자동화합니다. 는 vCenter Server에 대한 플러그인입니다.</p>
+<p>Virtual Storage Console for는 ESXi 호스트에서 스토리지를 사용하는 데 필요한 많은 구성 및 프로비저닝 작업을 자동화합니다. 는 vCenter Server에 대한 플러그인입니다.</p>
 </div>
 <div class="paragraph">
 <p>ESXi 호스트를 관리하는 데 사용되는 vCenter Server에 관리자 자격 증명이 있어야 합니다.</p>
@@ -4708,7 +4700,7 @@
 <div class="title">이 작업에 대해</div>
 <ul>
 <li>
-<p>가상 스토리지 콘솔, VASA(vStorage APIs for Storage Awareness) 공급자, VMware vSphere 기능을 위한 SRA(Storage Replication Adapter)를 포함하는 가상 어플라이언스로 설치됩니다.</p>
+<p>Virtual Storage Console은 Virtual Storage Console, VASA(vStorage APIs for Storage Awareness) Provider, SRA(Storage Replication Adapter) for VMware vSphere 기능을 포함하는 가상 어플라이언스로 설치됩니다.</p>
 </li>
 </ul>
 </div>
@@ -4716,13 +4708,13 @@
 <div class="title">단계</div>
 <ol class="arabic">
 <li>
-<p>도구에 표시된 대로 구성에 지원되는 버전을 다운로드합니다.</p>
+<p>상호 운용성 매트릭스 툴에 표시된 대로 구성에서 지원되는 버전을 다운로드하십시오.</p>
 <div class="paragraph">
 <p><a href="https://mysupport.netapp.com/site/global/dashboard">"NetApp 지원"</a></p>
 </div>
 </li>
 <li>
-<p>Deployment and Setup _ 의 단계에 따라 가상 어플라이언스를 구축하고 구성합니다.</p>
+<p>Deployment and Setup Guide _ 의 단계에 따라 가상 어플라이언스를 구축하고 구성합니다.</p>
 </li>
 </ol>
 </div>
@@ -4872,4 +4864,5 @@
     </script>
     <script src='/ko-kr/ontap-sm-classic/js/www-ntap.js'></script>
     <script src='/ko-kr/ontap-sm-classic/js/tabbed-blocks.js'></script>
+    <script src='/ko-kr/ontap-sm-classic/js/sidebar.js'></script>
   </body></html>

@@ -277,35 +277,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">한국어</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">한국어</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ko-kr/ontap-sm-classic/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_creating_snaplock_volumes.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_creating_snaplock_volumes.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_creating_snaplock_volumes.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_creating_snaplock_volumes.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/online-help-96-97/task_creating_snaplock_volumes.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_creating_snaplock_volumes.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_creating_snaplock_volumes.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_creating_snaplock_volumes.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_creating_snaplock_volumes.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/online-help-96-97/task_creating_snaplock_volumes.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -3463,7 +3455,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-sm-classic/index.html">
         System Manager Classic 문서
       </a></li><li class="subfolders "><a href="#">
@@ -4691,7 +4683,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-13 23:23:18 +0000">04/13/2022</time>
+    <time datetime="2022-06-04 16:28:04 +0000">06/04/2022</time>
     
   
 
@@ -4778,13 +4770,13 @@
 </div>
 </li>
 <li>
-<p>볼륨에 대한 씬 프로비저닝을 설정하려면 * Thin Provisioned * 를 선택합니다.</p>
+<p>* 선택 사항: * 씬 프로비저닝 * 을 선택하여 볼륨에 대한 씬 프로비저닝을 활성화합니다.</p>
 <div class="paragraph">
 <p>씬 프로비저닝이 설정된 경우 데이터가 볼륨에 기록될 때에만 aggregate에서 볼륨에 공간이 할당됩니다.</p>
 </div>
 </li>
 <li>
-<p>볼륨에서 중복 제거를 설정하려면 * Storage Efficiency * 탭에서 필요한 내용을 변경합니다.</p>
+<p>* 선택 사항: * 볼륨에서 중복 제거를 활성화하려면 * 스토리지 효율성 * 탭에서 필요한 사항을 변경합니다.</p>
 <div class="paragraph">
 <p>System Manager에서는 기본 중복 제거 일정을 사용합니다. 지정된 볼륨 크기가 중복 제거를 실행하는 데 필요한 제한을 초과하면 볼륨이 생성되고 중복제거가 활성화되지 않습니다.</p>
 </div>
@@ -4794,7 +4786,7 @@
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>자동 커밋 기간을 지정합니다.</p>
+<p>* 선택 사항: * 자동 커밋 기간을 지정합니다.</p>
 <div class="paragraph">
 <p>파일이 WORM 상태로 커밋되기 전에 지정하는 기간 동안 볼륨에 있는 파일은 변경되지 않습니다. 파일을 WORM 상태로 수동으로 설정하려면 자동 커밋 설정으로 * 지정되지 않음 * 을 선택해야 합니다.</p>
 </div>
@@ -4822,7 +4814,7 @@
 </div>
 </li>
 <li>
-<p>서비스 품질 * 탭에서 * 스토리지 서비스 품질 관리 * 확인란을 선택하여 FlexVol 볼륨에 대한 스토리지 QoS를 활성화하여 워크로드 성능을 관리합니다.</p>
+<p>* 선택 사항: * 서비스 품질 * 탭에서 * 스토리지 서비스 품질 관리 * 확인란을 선택하여 FlexVol 볼륨의 스토리지 QoS를 활성화하여 워크로드 성능을 관리합니다.</p>
 </li>
 <li>
 <p>스토리지 QoS 정책 그룹을 생성하거나 기존 정책 그룹을 선택하여 FlexVol 볼륨의 I/O(Input/Output) 성능을 제어합니다.</p>
@@ -5178,4 +5170,5 @@
     </script>
     <script src='/ko-kr/ontap-sm-classic/js/www-ntap.js'></script>
     <script src='/ko-kr/ontap-sm-classic/js/tabbed-blocks.js'></script>
+    <script src='/ko-kr/ontap-sm-classic/js/sidebar.js'></script>
   </body></html>

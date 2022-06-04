@@ -277,35 +277,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">한국어</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">한국어</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ko-kr/ontap-sm-classic/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_service_processors.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/concept_service_processors.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/concept_service_processors.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/concept_service_processors.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/online-help-96-97/concept_service_processors.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/concept_service_processors.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_service_processors.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/concept_service_processors.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/concept_service_processors.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/online-help-96-97/concept_service_processors.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -3463,7 +3455,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-sm-classic/index.html">
         System Manager Classic 문서
       </a></li><li class="subfolders "><a href="#">
@@ -4691,7 +4683,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-13 23:23:18 +0000">04/13/2022</time>
+    <time datetime="2022-06-04 16:28:04 +0000">06/04/2022</time>
     
   
 
@@ -4713,11 +4705,6 @@
 </div>
 <div class="paragraph">
 <p>대부분의 스토리지 컨트롤러의 관리 이더넷 포트(섀시 뒤쪽에 렌치 아이콘으로 표시됨)는 내부 이더넷 스위치에 연결됩니다. 내부 스위치는 SP/BMC 및 e0M 관리 인터페이스에 대한 연결을 제공하며, 이 인터페이스를 사용하여 텔넷, SSH 및 SNMP와 같은 TCP/IP 프로토콜을 통해 스토리지 시스템에 액세스할 수 있습니다.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="../media/prnt_en_drw_e0m.gif" alt="이 그래픽은 주변 텍스트로 설명됩니다.">
-</div>
 </div>
 <div class="paragraph">
 <p>원격 관리 장치와 e0M을 모두 사용하려는 경우 동일한 IP 서브넷에 구성해야 합니다. 이러한 인터페이스는 대역폭이 낮은 인터페이스이므로 관리 트래픽 전용 서브넷에 SP/BMC 및 e0M을 구성하는 것이 좋습니다.</p>
@@ -5083,4 +5070,5 @@
     </script>
     <script src='/ko-kr/ontap-sm-classic/js/www-ntap.js'></script>
     <script src='/ko-kr/ontap-sm-classic/js/tabbed-blocks.js'></script>
+    <script src='/ko-kr/ontap-sm-classic/js/sidebar.js'></script>
   </body></html>
