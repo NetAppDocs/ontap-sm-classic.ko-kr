@@ -27,7 +27,7 @@ https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"]
 +
 VMware vSphere 5.0 이상에서는 기본적으로 VAAI가 설정됩니다.
 
-. 에서 * Tools * > * NFS VAAI Tools * 로 이동합니다.
+. Virtual Storage Console에서 * Tools * > * NFS VAAI Tools * 로 이동합니다.
 . 파일 선택 * 을 클릭하여 'NetAppNasPlugIn.vib' 파일을 업로드합니다.
 . 업로드 * 를 클릭합니다.
 +

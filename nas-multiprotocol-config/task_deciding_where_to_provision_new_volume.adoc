@@ -19,7 +19,7 @@ summary: 새 멀티프로토콜 볼륨을 생성하기 전에 볼륨을 기존 �
 
 * 새 SVM에서 볼륨을 프로비저닝하고 싶은 경우, 기본 SVM을 생성합니다.
 +
-link:task_creating_new_svm.md#["기본 SVM 생성"]
+link:task_creating_new_svm.html["기본 SVM 생성"]
 
 +
 기존 SVM에서 CIFS 및 NFS가 아직 활성화되지 않은 경우 이 옵션을 선택해야 합니다.

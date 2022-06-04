@@ -257,12 +257,6 @@ xref:task_deleting_luns.adoc[LUN을 삭제하는 중입니다]
 
 xref:task_creating_initiator_groups.adoc[이니시에이터 그룹을 생성하는 중입니다]
 
-xref:task_deleting_initiator_groups.adoc[이니시에이터 그룹을 삭제합니다]
-
-xref:task_adding_initiators.adoc[이니시에이터 추가]
-
-xref:task_deleting_initiators_from_initiator_group.adoc[이니시에이터 그룹에서 이니시에이터를 삭제합니다]
-
 xref:task_editing_luns.adoc[LUN 편집]
 
 xref:task_editing_initiator_groups.adoc[이니시에이터 그룹 편집]
