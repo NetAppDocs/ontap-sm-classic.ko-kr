@@ -11,7 +11,7 @@ summary: System Manager를 사용하여 사용자 정보를 중앙에서 관리�
 
 
 [role="lead"]
-ONTAP System Manager 클래식(사용 가능한 9.7 이하 버전)을 사용하여 사용자 정보를 중앙에서 관리하는 LDAP 서버를 구성할 수 있습니다.
+ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 사용자 정보를 중앙에서 관리하는 LDAP 서버를 구성할 수 있습니다.
 
 
 
