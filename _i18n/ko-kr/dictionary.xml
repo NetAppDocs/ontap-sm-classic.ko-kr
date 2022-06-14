@@ -210,7 +210,6 @@
   <block id="3ce0bb375ae7d33aa4a029564d1fd1bf" category="list-text">호스트에서 다시 검색하여 새로 추가된 경로를 검색합니다.</block>
   <block id="98dc4ac3695fdb0b990b7b0f31ebeca3" category="list-text">MPIO 구성에 새 경로를 추가합니다.</block>
   <block id="43ee995f485e80d5a5277609e963e025" category="list-text">보고 노드 목록에서 이전 LUN 소유자 및 해당 파트너 노드를 제거합니다.</block>
-  <block id="a8e0ec82d23eef4ff77e89906b9a0adb" category="paragraph">'LUN mapping remove-reporting-nodes-remote-nodes-vserver vserver_name-path lun_path-igroup igroup_name'</block>
   <block id="f2d074c5a39bd379f209f91612839fd7" category="list-text">호스트를 재검색하여 이전 경로가 제거되었는지 확인합니다.</block>
   <block id="61b57d9564461a9838d453f1ef6ce433" category="paragraph">호스트를 재검색하는 특정 단계는 호스트 설명서를 참조하십시오.</block>
   <block id="264600d8c4bfddb483a5b1cff7dbe8e1" category="summary">ONTAP 9.7 이하와 ONTAP System Manager의 '클래식' 인터페이스를 사용하여 볼륨을 이동하고 수동 컷오버를 사용할지 여부를 결정할 수 있습니다. LUN 보고 노드를 업데이트해야 하는 경우 CLI(Command-Line Interface)의 고급 절차를 따라야 합니다. 필요한 경우 볼륨 이동 타이밍을 계획할 수도 있습니다.</block>
@@ -9319,4 +9318,5 @@
   <block id="d73a1bbe7bd0149cca8c9fa64d7f58bc" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 기본 네트워크 구성을 사용하여 SVM(기능 스토리지 가상 시스템) 또는 SVM을 설정한 후 SVM 관리자에게 SVM 관리 권한을 선택적으로 위임할 수 있습니다.</block>
   <block id="1e7c18dca5baf689eb77365e4897ed8b" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 SAN 호스트용 SVM(스토리지 가상 머신)에서 FC 프로토콜과 FCoE 프로토콜을 구성할 수 있습니다. LIF는 가장 적합한 어댑터에 생성되며 데이터 경로 이중화를 위해 포트 세트에 할당됩니다. 요구사항에 따라 System Manager를 사용하여 FC 프로토콜이나 FCoE 프로토콜을 구성하거나 두 프로토콜을 모두 구성할 수 있습니다.</block>
   <block id="b11a96e74a2cd810945103e98f648e14" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하면 SVM(스토리지 가상 머신)에서 CIFS 및 NFS 프로토콜을 구성하여 NAS 클라이언트에 파일 레벨 데이터 액세스를 제공할 수 있습니다. CIFS 프로토콜을 설정하려면 데이터 LIF 및 CIFS 서버를 생성해야 합니다. NFS 프로토콜을 사용하도록 설정하려면 NIS 세부 정보와 데이터 LIF를 지정할 수 있습니다.</block>
+  <block id="7d5188aa4e5eb813646e2fb2a52c4e9f" category="paragraph">'LUN mapping remove-reporting-nodes-remote-nodes-vserver vserver_name-path lun_path-igroup igroup_name'</block>
 </blocks>
