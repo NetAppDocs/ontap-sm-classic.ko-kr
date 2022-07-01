@@ -146,16 +146,11 @@
   <block id="4bb047f8c530785002e490ef17fa725e" category="doc">추가 정보를 찾을 수 있는 위치</block>
   <block id="c79552c3752b64e4900c6490f17147ce" category="inline-xref-macro">볼륨 재해 복구</block>
   <block id="d1d6ba1e49d10a6a2753f7d8d1caed94" category="list-text"><block ref="d1d6ba1e49d10a6a2753f7d8d1caed94" category="inline-xref-macro-rx"></block></block>
-  <block id="994b9e24558386119def2c5e542475ea" category="paragraph">재해 발생 후 대상 볼륨을 빠르게 활성화한 다음 ONTAP에서 소스 볼륨을 다시 활성화하는 방법에 대해 설명합니다.</block>
   <block id="7e7397a7b79323762c61941fc0e6b5f9" category="inline-link">데이터 보호</block>
   <block id="b63bcbb90a3b6bba197d8dfc6da71a9d" category="list-text"><block ref="b63bcbb90a3b6bba197d8dfc6da71a9d" category="inline-link-rx"></block></block>
   <block id="a0d4c7db7dd69d763a26425db765a94e" category="paragraph">에서는 스냅샷 복사본과 원격 시스템에 대한 SnapMirror 복제를 사용하여 데이터 손실을 방지하는 방법을 설명합니다</block>
-  <block id="37a4c5f171f9c477191bc02b862d6a32" category="inline-link">Active IQ Unified Manager 9.8 클러스터 상태 관리를 위한 워크플로우</block>
-  <block id="4585324eb6aec1c92c62db522205c13c" category="list-text"><block ref="4585324eb6aec1c92c62db522205c13c" category="inline-link-rx"></block></block>
-  <block id="7c7f8994892d0b2a6ed2b9f10c24964a" category="paragraph">웹 UI를 사용하여 Active IQ Unified Manager(이전의 OnCommand Unified Manager) 작업을 수행하는 방법과 문제 해결에 대한 정보와 상세한 개념 정보를 제공합니다.</block>
   <block id="654b5ef83fa66dad8993f3654a8bebb5" category="inline-link">ONTAP 개념</block>
   <block id="019865899d8e6ff37eb3e563886dabc3" category="list-text"><block ref="019865899d8e6ff37eb3e563886dabc3" category="inline-link-rx"></block></block>
-  <block id="f1f9c2b0860a27aa32c1e0c059a0e7bc" category="paragraph">SnapMirror 기술을 사용한 재해 복구에 대한 개념적 정보를 제공합니다.</block>
   <block id="b4de17ead867a3cf0b9d11e57e562672" category="summary">기계 번역</block>
   <block id="6b6c87870bfc5260f4e7282bb5b52dd6" category="paragraph">한글 콘텐츠에 대한 중요 정보는 netapp.com 을 참조하십시오.</block>
   <block id="db9bfd81e26275c9db26e2db3ac172c3" category="paragraph"><block ref="db9bfd81e26275c9db26e2db3ac172c3" category="inline-link-rx"></block></block>
@@ -921,33 +916,7 @@
   <block id="f7bf01e4d65020649efb611019a37de5" category="list-text">NFSv3 * 을 선택합니다.</block>
   <block id="c16fe44e324b7508eb5b8cceafeb015a" category="list-text">읽기 전용 * 아래의 * UNIX * 확인란을 제외한 모든 확인란의 선택을 취소합니다.</block>
   <block id="b38c6bea0b182345afcadaedf8160f0f" category="paragraph">이제 NFSv3 클라이언트가 SVM에서 생성된 모든 볼륨에 액세스할 수 있습니다.</block>
-  <block id="b0ac7418280972fa069bbc2a11514d3e" category="summary">CIFS 및 NFS 클라이언트 액세스를 성공적으로 테스트한 후 고급 CIFS 및 NFS 구성을 수행하거나 SAN 액세스를 추가할 수 있습니다. 프로토콜 액세스가 완료되면 SVM의 루트 볼륨을 보호해야 합니다. 이러한 목표를 달성하는 데 도움이 되는 포괄적인 컨텐츠 및 기술 보고서가 있습니다.</block>
-  <block id="23353013b42b6a98388dd2bce5be051a" category="paragraph">CIFS 및 NFS 클라이언트 액세스를 성공적으로 테스트한 후 고급 CIFS 및 NFS 구성을 수행하거나 SAN 액세스를 추가할 수 있습니다. 프로토콜 액세스가 완료되면 SVM의 루트 볼륨을 보호해야 합니다. 이러한 목표를 달성하는 데 도움이 되는 포괄적인 컨텐츠 및 기술 보고서가 있습니다.</block>
-  <block id="dd72e8231c2ab0c2133630fe6bc76e20" category="section-title">CIFS/SMB 구성</block>
-  <block id="6730d4603d3f770e9758b0495c9a2a62" category="inline-link">CIFS 관리</block>
-  <block id="575124ad880ed28864d887a160002ff9" category="list-text"><block ref="575124ad880ed28864d887a160002ff9" category="inline-link-rx"></block></block>
-  <block id="67a933ca8c13b0371da20884d6ea7ebe" category="paragraph">CIFS/SMB 프로토콜을 사용하여 파일 액세스를 구성 및 관리하는 방법에 대한 설명은 에 나와 있습니다.</block>
-  <block id="df7018e8b5dea8270e2b53ed45ca3664" category="inline-link">NetApp 기술 보고서 4191: clustered Data ONTAP 8.2 Windows 파일 서비스에 대한 모범 사례 가이드를 참조하십시오</block>
-  <block id="d7c04e1dc685306d20b6ac98cbc8abcf" category="list-text"><block ref="d7c04e1dc685306d20b6ac98cbc8abcf" category="inline-link-rx"></block></block>
-  <block id="40261511a12711af686f66a0ba5aee3e" category="paragraph">SMB 구현 및 기타 Windows 파일 서비스 기능에 대한 간략한 개요와 ONTAP의 권장 사항 및 기본 문제 해결 정보를 제공합니다.</block>
-  <block id="f34506326aba5bd2e96ea949212bfb7f" category="inline-link">NetApp 기술 보고서 3740: Data ONTAP의 SMB 2 차세대 CIFS 프로토콜</block>
-  <block id="31c2bf0ec91d71ed35f91e6ebf5a28c1" category="list-text"><block ref="31c2bf0ec91d71ed35f91e6ebf5a28c1" category="inline-link-rx"></block></block>
-  <block id="61e501f46c7150f878e0af89f471c9ef" category="paragraph">SMB 2 기능, 구성 세부 정보 및 ONTAP에서의 구축에 대해 설명합니다.</block>
   <block id="10edbbba4e4c39fc161aeac9fbb88aef" category="section-title">NFS 구성</block>
-  <block id="21ae56f6aa9d52a6117102a2043a8ab3" category="paragraph">다음 콘텐츠 및 기술 보고서를 사용하여 NFS 액세스를 추가로 구성할 수 있습니다.</block>
-  <block id="fdd906b3ec7fd28d857deaeaeec1ed3b" category="paragraph">NFS 프로토콜을 사용하여 파일 액세스를 구성 및 관리하는 방법에 대한 설명은 에 나와 있습니다.</block>
-  <block id="5c7b39fa0ac319237594c811115fa7ef" category="inline-link">NetApp 기술 보고서 4067: NFS 모범 사례 및 구현</block>
-  <block id="aa6535ba68f899261fb57fc7f4d6e6ee" category="list-text"><block ref="aa6535ba68f899261fb57fc7f4d6e6ee" category="inline-link-rx"></block></block>
-  <block id="554f8f91fd053df3641c049c7d347e51" category="paragraph">NFSv3 및 NFSv4 운영 가이드 역할을 하며 NFSv4를 중심으로 ONTAP 운영 체제에 대한 개요를 제공합니다.</block>
-  <block id="e2d406f34dca3665308ea0fe5df39308" category="inline-link">NetApp 기술 보고서 4668: 이름 서비스 모범 사례</block>
-  <block id="66e72a73ea31081d558c3961ceb4caf0" category="list-text"><block ref="66e72a73ea31081d558c3961ceb4caf0" category="inline-link-rx"></block></block>
-  <block id="2670471c3693debcd84cafb18698692f" category="paragraph">인증을 위해 LDAP, NIS, DNS 및 로컬 사용자 및 그룹 파일을 구성할 때 고려해야 할 사항과 제한 사항, 권장 사항 및 사항에 대한 포괄적인 목록을 제공합니다.</block>
-  <block id="664ed7f89359986e03d8ad4c39f35a20" category="inline-link">NetApp 기술 보고서 3580: NFSv4 향상 및 모범 사례 가이드 Data ONTAP 구축</block>
-  <block id="bdce1016f77fd0c1a9aea40e262163d4" category="list-text"><block ref="bdce1016f77fd0c1a9aea40e262163d4" category="inline-link-rx"></block></block>
-  <block id="e134f6887670f332c2b86db886021c0e" category="paragraph">에서는 ONTAP를 실행하는 시스템에 접속된 AIX, Linux 또는 Solaris 클라이언트에서 NFSv4 구성 요소를 구축하는 동안 따라야 하는 Best Practice를 설명합니다.</block>
-  <block id="faae9782a49940846862f2a32231e07f" category="section-title">루트 볼륨 보호</block>
-  <block id="51e02859c0b7c44b7441c12e6b68d54b" category="paragraph">SVM에서 프로토콜을 구성한 후에는 루트 볼륨이 보호되는지 확인해야 합니다.</block>
-  <block id="3b4dfd331ed7ccbf7d283ce016bb62b7" category="paragraph">NAS 지원 SVM에 대한 NetApp의 모범 사례인 SVM 루트 볼륨을 보호하기 위해 로드 공유 미러를 생성하는 방법에 대해 설명합니다. 또한, 로드 공유 미러에서 SVM 루트 볼륨을 프로모션하여 볼륨 장애 또는 손실로부터 빠르게 복구하는 방법을 설명합니다</block>
   <block id="9070d87e36c1d6360e632a98d7bcf0af" category="summary">기존 SVM에 CIFS/SMB 및 NFS 액세스를 모두 추가하려면 데이터 LIF를 생성하고, CIFS 서버를 구성하고, NFS를 사용하도록 설정하고, 선택적으로 NIS를 구성해야 합니다.</block>
   <block id="0c3bb5b31ec67a898e05af86e5aa27bc" category="doc">기존 SVM에 CIFS 및 NFS 액세스를 추가합니다</block>
   <block id="443d2509676db6b49e32be862ae7c6a6" category="list-text">사이트에서 NIS를 사용하여 이름 서비스 또는 이름 매핑을 사용하는 경우 NIS 정보입니다</block>
@@ -1054,10 +1023,6 @@
   <block id="50580e1f2cd43d40ef6e056bb5fc2ce7" category="list-text"><block ref="50580e1f2cd43d40ef6e056bb5fc2ce7" category="inline-xref-macro-rx"></block></block>
   <block id="44ea9f0ed591049dd8bd6b6587397fd7" category="paragraph">재해 복구 준비 시 다른 ONTAP 클러스터에서 대상 볼륨을 빠르게 구성하는 방법에 대한 설명은 에 나와 있습니다.</block>
   <block id="66ca3c38cb3909a4e5d341b4c95d1e1a" category="paragraph">재해 발생 후 다른 ONTAP 클러스터에서 대상 볼륨을 빠르게 활성화하는 방법과 복구 후 소스 볼륨을 다시 활성화하여 SnapMirror 관계를 원래 상태로 복원하는 방법에 대해 설명합니다.</block>
-  <block id="ae35a7645e117deffc1a921838461f46" category="inline-link">테이프 백업을 사용한 데이터 보호</block>
-  <block id="0cad657c2feaf8364bde8cf73e51c6b4" category="list-text"><block ref="0cad657c2feaf8364bde8cf73e51c6b4" category="inline-link-rx"></block></block>
-  <block id="4540391cf89cc1aa1f36aa40e59182db" category="paragraph">에서는 NDMP 및 덤프 기술을 사용하여 클러스터에서 테이프 백업 및 복구 기능을 사용하여 데이터를 백업하고 복구하는 방법에 대해 설명합니다.</block>
-  <block id="ac1a1da03e093afb2af0d0bd79ace5a7" category="paragraph">재해 복구 준비 시 ONTAP 클러스터에 대한 개념적 정보를 설명합니다.</block>
   <block id="be7f6863cf4c156a445c3197e651a91c" category="summary">SnapVault 백업 대상 볼륨을 선택한 후에는 백업 데이터를 테스트하기 위해 새 볼륨에 복구 작업을 수행하거나 기존 볼륨에 복원 작업을 수행하여 손실되거나 손상된 데이터를 복원해야 합니다.</block>
   <block id="21cb3025551e165ca38c40b0fccada1d" category="doc">SnapVault 백업에서 데이터를 복원합니다</block>
   <block id="3b1422bc1362c2e83ce270f11a6fa026" category="list-text">SnapVault 백업 대상 볼륨이 포함된 SVM을 선택하고 * 운영 * &gt; * 복원 * 을 클릭합니다.</block>
@@ -1212,8 +1177,6 @@
   <block id="feed6122f4184fcdec75b30135610d5f" category="paragraph">VAAI(VMware vStorage APIs for Array Integration)를 사용하면 복제 오프로드 및 공간 예약을 수행할 수 있습니다. VMware VAAI용 플러그인은 ESXi 호스트를 통과할 필요가 없으므로 ONTAP에서 공간 및 시간 효율성이 뛰어난 클론 생성을 활용할 수 있으므로 이를 사용하여 호스트 성능을 향상시킵니다.</block>
   <block id="c1d14d20450e486195a2453dad82c1f5" category="paragraph">데이터 저장소 용량 할당에 VMware VAAI를 사용하는 것이 Best Practice입니다.</block>
   <block id="ba57eb39fed6c8030e4496610bee0e42" category="list-text">NFS 액세스는 VMware VAAI에서 사용할 수 있도록 NFSv3 및 NFSv4를 통해 이루어집니다.</block>
-  <block id="4fa7027f5c486116a971b22d989ffdc3" category="inline-link">NetApp 기술 보고서 4597: ONTAP이 포함된 VMware vSphere</block>
-  <block id="692a969ba2c3d4a614223404347adda8" category="list-text"><block ref="692a969ba2c3d4a614223404347adda8" category="inline-link-rx"></block></block>
   <block id="0ae8f1eaedc1d03237b696eca1e35060" category="summary">ESXi 호스트가 NFS 연결 또는 스토리지 손실을 올바르게 관리할 수 있도록 ESXi 호스트 Best Practice 설정이 올바른지 확인해야 합니다.</block>
   <block id="cfd867867f69ce1c617eb710ca044691" category="doc">ESXi 호스트 Best Practice 설정을 구성합니다</block>
   <block id="587a8eb32b2ede7f1dbc717fa03286ca" category="list-text">VMware vSphere Web Client * Home * 페이지에서 * vCenter * &gt; * Hosts * 를 클릭합니다.</block>
@@ -1266,13 +1229,7 @@
   <block id="97f85f443f7e88a1844638de336cbf6a" category="list-text">Virtual Storage Console * 을 선택합니다.</block>
   <block id="537959d92c38e7215beb02adf5e6083d" category="list-text">스토리지 시스템 * 을 선택한 다음 * 추가 * 아이콘을 클릭합니다.</block>
   <block id="feb821562411a9b1bbde3efda15489f5" category="list-text">스토리지 시스템 추가 * 대화 상자에서 스토리지 클러스터에 대한 호스트 이름과 관리자 자격 증명을 입력하거나 * 확인 * 을 클릭합니다.</block>
-  <block id="f83d9513e5785c599b940874b81ce7c4" category="summary">NFS 클라이언트 액세스를 성공적으로 테스트한 후 추가 NFS 구성을 수행하거나 SAN 액세스를 추가할 수 있습니다. 프로토콜 액세스가 완료되면 의 루트 볼륨을 보호해야 합니다. 이러한 목표를 달성하는 데 도움이 되는 포괄적인 컨텐츠 및 기술 보고서가 있습니다.</block>
   <block id="ad87cdf66d1dd42a93d527243f468772" category="list-text"><block ref="ad87cdf66d1dd42a93d527243f468772" category="inline-link-rx"></block></block>
-  <block id="9731f349780de77af2ad9c6ef9bf326e" category="paragraph">CLI 명령을 사용하여 새 볼륨 또는 qtree에 포함된 파일에 대한 고급 NFS 클라이언트 액세스를 구성하는 방법에 대한 설명은 에 나와 있습니다.</block>
-  <block id="aa50384f57470ecc3cd57c193fbe56b8" category="paragraph">인증, 권한 부여 및 보안을 포함하여 NFS 프로토콜을 사용하여 파일 액세스를 관리하는 방법에 대한 설명은 에 나와 있습니다.</block>
-  <block id="38c10cd520dfe5c1f6f54f2a2b53e13b" category="paragraph">에서는 ONTAP 및 VMware vSphere 서버 가상화 환경을 사용할 때 따라야 하는 Best Practice를 설명합니다.</block>
-  <block id="b9e873d1c81460d5ff87bb5366d578e1" category="paragraph">NFSv4를 중심으로 ONTAP에 대해 간략하게 설명합니다.</block>
-  <block id="f6dad1a866b6daf167c2286f4aa1a5df" category="paragraph">로드 공유 미러를 생성하여 NAS 지원 SVM에 대한 NetApp의 모범 사례인 루트 볼륨을 보호하는 방법에 대해 설명합니다. 또한, 로드 공유 미러에서 SVM 루트 볼륨을 프로모션하여 볼륨 장애 또는 손실로부터 빠르게 복구하는 방법을 설명합니다.</block>
   <block id="3aa139c51bdb6074c010296fec3186c5" category="summary">NFS 클라이언트 구성 작업을 수행하려면 네트워크 주소 및 스토리지 구성 정보가 필요합니다.</block>
   <block id="1651af3b9ae79a42c0cd2400d098d40d" category="doc">NFS 클라이언트 구성 워크시트를 작성합니다</block>
   <block id="cbd222fb5254a9ed2e5d31f711420a43" category="paragraph">클러스터의 각 노드에 대해 NFS 데이터 LIF용 IP 주소가 2개인 서브넷이 필요합니다. 고가용성을 위해서는 두 개의 별도 네트워크가 있어야 합니다. SVM을 생성할 때 ONTAP에서 특정 IP 주소를 할당합니다.</block>
@@ -7536,12 +7493,8 @@
   <block id="05162a975b25b031c88664470cb9990c" category="paragraph">소스 볼륨은 읽기/쓰기 액세스 권한을 가지고 있으며 대상 볼륨에 의해 보호됩니다.</block>
   <block id="b5a68721f84465afc63f9b2df2f905ae" category="summary">볼륨 레벨 재해 복구 관계를 관리하는 데 도움이 되는 추가 정보를 제공하고 데이터 리소스의 가용성을 보호하는 다른 재해 복구 방법을 제공합니다.</block>
   <block id="f374ab402892ea91daa38f079bc00eff" category="list-text"><block ref="f374ab402892ea91daa38f079bc00eff" category="inline-xref-macro-rx"></block></block>
-  <block id="11f72f4c3bd9d348b7579fbd1fc019c6" category="paragraph">서로 다른 ONTAP 클러스터에 있는 볼륨 간의 백업 볼트 관계를 빠르게 구성하는 방법에 대해 설명합니다.</block>
   <block id="6bc1243e75fc1858d3d414570259fd5f" category="inline-xref-macro">SnapVault를 사용한 볼륨 복원 관리</block>
   <block id="94169667dd416a5297ed3b46a622fa62" category="list-text"><block ref="94169667dd416a5297ed3b46a622fa62" category="inline-xref-macro-rx"></block></block>
-  <block id="cb58fc1134f76b358260cdb5b9943956" category="paragraph">ONTAP의 백업 볼트에서 볼륨을 빠르게 복원하는 방법에 대해 설명합니다.</block>
-  <block id="25b67dc5180ef638acf68abf19cd20ce" category="paragraph">ONTAP에서 복제를 구성하는 방법에 대한 정보와 Best Practice를 설명합니다.</block>
-  <block id="c13f09e860d57e9e946bb8c4833f9f54" category="paragraph">클러스터 시스템의 재해 복구 및 D2D 백업에 대한 개념적 정보를 제공합니다.</block>
   <block id="5af10cac5bb119e67eb656888383295c" category="summary">볼륨 재해 복구 워크플로우에는 대상 볼륨 활성화, 데이터 액세스를 위한 대상 볼륨 구성, 원래 소스 볼륨 재활성화가 포함됩니다.</block>
   <block id="5631a4a4a5cbe1126b6d5532597609b1" category="doc">볼륨 재해 복구 워크플로우</block>
   <block id="65707d06aabd8ef798e5b07352f5dc17" category="summary">데이터 손상, 실수로 인한 삭제 또는 오프라인 상태와 같은 이벤트로 인해 소스 볼륨에서 데이터를 처리할 수 없는 경우 소스 볼륨에서 데이터를 복구할 때까지 대상 볼륨을 활성화하여 데이터 액세스를 제공해야 합니다. 앞으로 SnapMirror 데이터 전송을 중지하고 SnapMirror 관계를 끊는 작업이 활성화 됩니다.</block>
@@ -7600,7 +7553,6 @@
   <block id="0acbaa58e2a15a8cfdca743b66a7589f" category="image-alt">SnapVault 9 3</block>
   <block id="6a34cf18fb7026d09fc129111db8a169" category="summary">백업 데이터를 테스트하거나 소스 볼륨이 손실된 경우 대상 볼륨에서 데이터를 복원하는 데 도움이 되는 추가 설명서가 제공됩니다.</block>
   <block id="580df0707800400af79839e20238fb6e" category="paragraph">ONTAP의 SnapVault 백업에서 볼륨을 빠르게 복원하는 방법에 대해 설명합니다</block>
-  <block id="02bd2eca2939d07c436bc3118e6f838f" category="paragraph">클러스터 시스템의 재해 복구 및 D2D 백업에 대한 개념적 정보를 설명합니다</block>
   <block id="71aed633800367d53ba6748d69be7e9a" category="summary">SnapVault 관계의 상태를 주기적으로 모니터링하여 지정된 스케줄에 따라 데이터가 대상 볼륨에 백업되도록 해야 합니다.</block>
   <block id="5071de6d7bacaf0ed705d44eceda96a9" category="doc">SnapVault 관계를 모니터링합니다</block>
   <block id="50b655b5a3938c0becc8ee16a3a77564" category="list-text">소스와 대상 볼륨 간의 SnapVault 관계를 선택한 다음 * Details * Bottom 탭에서 상태를 확인합니다.</block>
@@ -7647,20 +7599,8 @@
   <block id="a1029214cec37461a45facf2c0c59e43" category="list-text">소스 IP * 또는 * 초기자 IP * 의 경우, 다른 iSCSI 대상 LIF의 서브넷 또는 VLAN에 있는 다른 포트의 IP 주소를 선택합니다.</block>
   <block id="89b866eed8c08d97e28e5f7d9b74727b" category="list-text">대상 포털 * 의 경우 * 소스 IP * 에 대해 선택한 포트에 해당하는 iSCSI 대상 LIF의 IP 주소를 선택합니다.</block>
   <block id="ed8b28642022b4712da782b21043f185" category="list-text">8단계부터 12단계까지 반복하여 사용 가능한 각 타겟 LIF에 연결합니다.</block>
-  <block id="f1f8463a64e93440a6b88aa7f10e9dbe" category="summary">iSCSI 구성에 대한 자세한 내용을 확인할 수 있는 추가 문서가 있습니다.</block>
-  <block id="5dd1f51dddd66f8a65eadff5313aa5ae" category="paragraph">다음 문서를 모두 사용할 수 있습니다.</block>
   <block id="4f27a34799ad8580f67b93c57e242ad0" category="inline-link">SAN 구성</block>
   <block id="8df008702fa0e2bb8532580307170b2b" category="list-text"><block ref="8df008702fa0e2bb8532580307170b2b" category="inline-link-rx"></block></block>
-  <block id="4f7fa3b4a184c3cda5627e0078c044e4" category="paragraph">에서는 클러스터의 스토리지 컨트롤러에 호스트 컴퓨터를 연결하기 위한 지원되는 FC, iSCSI 및 FCoE 토폴로지를 설명합니다.</block>
-  <block id="c986aac4db67c6064107d038fe08c841" category="paragraph">LUN, igroup 및 타겟의 구성을 비롯하여 클러스터 SAN 환경에 대한 iSCSI, FCoE 및 FC 프로토콜을 구성 및 관리하는 방법에 대해 설명합니다.</block>
-  <block id="727d6ec7c143ece348a58c5723f2f025" category="section-title">Microsoft 설명서</block>
-  <block id="ffe732a76690d8495fdb0c0bbbde49d9" category="paragraph">Microsoft iSCSI 소프트웨어 이니시에이터에 대한 설명서는 Microsoft에서 직접 구할 수 있습니다.</block>
-  <block id="dc6723f0157e6e51ae83777c3910ff17" category="list-text">_Microsoft iSCSI 소프트웨어 초기자 버전 2.X 사용 설명서 _</block>
-  <block id="246a34e59cb3ee20a527a09c3e77760f" category="paragraph">에서는 Windows Server 2008용 Microsoft iSCSI 소프트웨어 이니시에이터에 대해 설명합니다. iSCSI 소프트웨어 초기자 다운로드 파일에 포함되어 있습니다.</block>
-  <block id="cffcdf01933eb8672e4d2cfbaecbd778" category="list-text">_Microsoft iSCSI 초기자 개요 _</block>
-  <block id="606f6d36931ed61114983bf60933f6a8" category="paragraph">Windows Server 2012 iSCSI 초기자에 대한 온라인 도움말(초기자 내에서 사용 가능). 소프트웨어 초기자에 대해 설명하고 자세한 내용을 보려면 Microsoft 웹 사이트에 대한 링크를 포함합니다.</block>
-  <block id="140864078aeca1c7c35b4beb33c53c34" category="inline-link">마이크로소프트</block>
-  <block id="cac3b61a19ad01d79649c712ac882352" category="paragraph"><block ref="cac3b61a19ad01d79649c712ac882352" category="inline-link-rx"></block></block>
   <block id="75110c21a18cf82e6ab010b060e2ea50" category="paragraph">자세한 케이블 연결 및 구성 정보는 NetApp Support 사이트의 ONTAP 버전 또는 E-Series 스토리지 시스템에 대한 _SAN 구성_을 참조하십시오.</block>
   <block id="7392f120ea4b4b31e706b24aa83e22bb" category="paragraph">을 참조하십시오 <block ref="1179aa2b4bf54b4bc7a80cf9167a034d" category="inline-link-macro-rx"></block> 을 참조하십시오.</block>
   <block id="2c8b101b50671f6958c952cc22b47147" category="paragraph">테스트에 실패한 경우 iSCSI 서비스가 실행 중인지 확인하고 LUN에 대한 iSCSI 경로를 확인해야 합니다.</block>
@@ -7846,17 +7786,6 @@
   <block id="6ec9a78c20c8e2ef04c04cca42d4a2bc" category="doc">스토리지 클러스터 또는 SVM을 VMware vSphere용 VSC에 추가합니다</block>
   <block id="5505303d0891ddaec045fb9d7440d546" category="paragraph">스토리지 클러스터 또는 추가하려는 SVM에 대한 관리자 자격 증명이 있어야 합니다.</block>
   <block id="804b20fd259e6a99cc044cbb9da70c5b" category="list-text">스토리지 시스템 추가 * 대화 상자에서 스토리지 클러스터 또는 SVM에 대한 호스트 이름과 관리자 자격 증명을 입력한 다음 * 확인 * 을 클릭합니다.</block>
-  <block id="f8fad6712cc74aaf58696fe5741fcf76" category="summary">FC 구성에 대해 자세히 알아볼 수 있는 추가 문서가 있습니다.</block>
-  <block id="8f123b6f4ad978f9c6803038618a9b8c" category="inline-link">ONTAP 9 SAN 구성</block>
-  <block id="30c9bf2fd4921da10d1760727d7dc6cd" category="list-text"><block ref="30c9bf2fd4921da10d1760727d7dc6cd" category="inline-link-rx"></block></block>
-  <block id="d6dd3e964a45af39f1a2d0d162a9c917" category="inline-link">ONTAP 9 SAN 관리</block>
-  <block id="19a784614020f03847308e98240415b6" category="list-text"><block ref="19a784614020f03847308e98240415b6" category="inline-link-rx"></block></block>
-  <block id="70cd8bfb8fd7a4082087201414ab2fe4" category="section-title">VMware 설명서</block>
-  <block id="ab912994b4aa16fba6be2c16896c3115" category="paragraph">ESXi 서버용 iSCSI에 대한 문서는 VMware에서 직접 제공됩니다.</block>
-  <block id="e012bb8bfed783fdc9ae512fc954250c" category="list-text">_vSphere 스토리지 _</block>
-  <block id="ac486e8c7eaa144720f9743326a1eb94" category="paragraph">이 VMware 콘텐츠에서는 ESXi 5.x의 FC 및 iSCSI 구성에 대해 설명합니다</block>
-  <block id="1e7a821c0fffd45e16b8e9fbdf58abd9" category="list-text">_ 포트 바인딩 _ 을(를) 사용하여 소프트웨어 iSCSI에 대한 다중 경로 구성</block>
-  <block id="eecf341f578c40b0088a2c825bcf9fae" category="paragraph">기술 백서에서는 ESXi 서버에 대한 MPIO 설정을 설명합니다.</block>
   <block id="d6ff5b5a26ae5549ee7d2bc14188eb07" category="paragraph">LUN이 생성되는 클러스터 노드를 파트너 노드로 페일오버할 수 있는 경우 노드가 페일오버되는 동안 데이터 읽기를 확인해야 합니다. 클러스터가 운영 사용 중이면 이 테스트가 불가능할 수 있습니다.</block>
   <block id="4dc0389415472d593b69d49bacf4649f" category="list-text">vSphere Web Client * Home * 페이지에서 * 호스트 및 클러스터 * 를 클릭합니다.</block>
   <block id="7fe011ebfb370eaf25e0c9163017e471" category="list-text">탐색 창에서 * Storage * 탭을 클릭합니다.</block>
@@ -8121,9 +8050,6 @@
   <block id="62c3d0218bd330a6afc5e9f86cc2e138" category="list-text">'-unitname vifmgr' 매개 변수를 사용하여 명령을 반복합니다.</block>
   <block id="759fa1b7b557c3836bdaa5599f72de54" category="list-text">'-unitname bcomd' 매개 변수로 명령을 반복합니다.</block>
   <block id="c16003666357e7b99963a68a75397e1d" category="list-text">'-unitname CRS' 파라미터로 명령을 반복한다.</block>
-  <block id="c1f4234043f24b65e6b04de33fad8001" category="summary">클러스터를 확장한 후 새 노드에서 새 볼륨을 생성하거나 기존 데이터를 새 노드로 이동하여 새 노드에 데이터를 저장할 수 있습니다.</block>
-  <block id="286658c24ca59ebf54d30a4ca466d9e1" category="paragraph">FlexVol 볼륨, FlexClone 볼륨, 파일 및 LUN, FlexCache 볼륨 등 클러스터에서 논리적 스토리지 리소스를 관리하는 방법에 대해 설명합니다. 중복제거, 압축, Qtree 및 할당량 사용</block>
-  <block id="5e142b2510ac017f0d0b460f84e482f0" category="paragraph">FlexVol 볼륨, FlexClone 볼륨, 파일 및 LUN, FlexCache 볼륨 등 클러스터의 논리 스토리지 리소스에 대한 개념적 정보를 설명합니다. 중복제거, 압축, Qtree 및 할당량 사용</block>
   <block id="ab404c9b59455c8e361cb04ef5a5e046" category="summary">새로 설치된 컨트롤러 모듈이 준비되면 cluster setup 명령을 사용하여 각 모듈을 클러스터에 추가할 수 있습니다.</block>
   <block id="e40f74ab6685105e0f140f9c7ad30518" category="doc">CLI를 사용하여 클러스터에 노드를 연결합니다</block>
   <block id="4776573d00ec630fdac866d72ed0fe29" category="paragraph">새로 설치된 컨트롤러 모듈이 준비되면 "cluster setup" 명령을 사용하여 각 모듈을 클러스터에 추가할 수 있습니다.</block>
@@ -8484,8 +8410,6 @@
   <block id="12a6d8abfd6ea00add112b5495cfc3ac" category="paragraph">이는 SAN 프로토콜 구성 절차에 따라 SVM을 생성하지 않은 경우에 해당합니다.</block>
   <block id="221e45a1da90d562052e9339a40aa840" category="image-alt">이 그림은 SNMP 구성 워크플로의 순서도입니다. 워크플로의 단계가 항목과 일치합니다.</block>
   <block id="0e42715b0f3608f82b54eceb95451d07" category="summary">새로운 SVM(스토리지 가상 머신) 또는 기존 SVM(스토리지 가상 머신)에서 새 볼륨에 SMB/CIFS 및 NFS 액세스를 빠르게 설정할 수 있습니다.</block>
-  <block id="5e65ed5040441519dbf697f9ba224c8e" category="paragraph">다음 정보 및 기술 보고서를 사용하여 CIFS 액세스를 추가로 구성할 수 있습니다.</block>
-  <block id="789b5f0afd817cef21cddcb1e0bcec40" category="paragraph">다음 정보 및 기술 보고서를 사용하여 NFS 액세스를 추가로 구성할 수 있습니다.</block>
   <block id="2a2f5ad7f8e4a01c34616cc59fe94051" category="paragraph">다른 프로토콜을 구성하면서 SVM을 생성하기 위해 이 절차를 따르지 않은 경우에 해당됩니다.</block>
   <block id="4deca5c9e89ed5a65084ecad9f22d328" category="paragraph">SVM 루트 볼륨의 엑스포트 정책을 엽니다.</block>
   <block id="688b2339e3b3d8cfdcd364ef8ed87e41" category="image-alt">이 그림은 SnapVault 볼륨 복원 워크플로의 흐름도입니다. 워크플로의 단계가 항목과 일치합니다."&gt;</block>
@@ -8601,8 +8525,6 @@
   <block id="cf60e092711952c2c868d7d19e86f100" category="summary">HA 쌍을 추가하면 기존 클러스터를 빠르고 중단 없이 확장할 수 있습니다. 클러스터가 클수록 클러스터에서 사용할 수 있는 성능과 스토리지 용량이 늘어납니다.</block>
   <block id="e8fd990d5fe6a50d516b83641fb7fc4a" category="paragraph">다음 조건이 참인 경우에만 이 절차를 사용해야 합니다.</block>
   <block id="5924a921008cf1a2f38d2d7a41990138" category="paragraph">이 절차의 예에서는 2노드 클러스터를 사용하지만 2개 이상의 노드가 있는 클러스터에도 적용됩니다.</block>
-  <block id="77c61fd6aef6817840becd82172bd57c" category="paragraph">클러스터에서 SnapMirror 또는 SnapVault 관계를 사용하여 데이터를 보호하는 경우 를 참조하십시오 <block ref="cbb596e26b08606ba2582d682bef9bd9" category="inline-link-macro-rx"></block> 새 노드에 대한 적절한 인터클러스터 LIF를 설정하는 방법에 대한 가이드</block>
-  <block id="05eac09172b61971be85d0a01b8162b9" category="paragraph">새로 추가된 노드로 데이터를 이동하려면 다음 정보를 사용합니다.</block>
   <block id="4147675dfdaf47726b2bef9cf232aa84" category="list-text">포틀세트 업데이트:</block>
   <block id="0ff4e590ab4228f68c6e92c2925a6247" category="list-text">'lun show' 명령을 사용하여 포트 세트가 있는지 여부를 확인합니다.</block>
   <block id="c98b16f1475c5ed3edd5940478bbb261" category="list-text">새 LIF를 기존 호스트에 표시하려면 각 LIF에 대해 'LUN add' 명령을 사용하여 새 LIF를 포트 세트에 추가합니다.</block>
@@ -9319,4 +9241,5 @@
   <block id="7d5188aa4e5eb813646e2fb2a52c4e9f" category="paragraph">'LUN mapping remove-reporting-nodes-remote-nodes-vserver vserver_name-path lun_path-igroup igroup_name'</block>
   <block id="56ee085ee9b22a4b36ce3b7988853da3" category="paragraph">ONTAP System Manager 클래식(ONTAP 9.7 이하 버전에서 사용 가능)을 사용할 때 문제가 발생하면 로그 파일을 보내 NetApp 지원 팀의 지시에 따라 문제를 해결할 수 있습니다. System Manager 로그 파일은 ONTAP 로그 파일과 함께 'mlog' 디렉토리에 있습니다.</block>
   <block id="1124479f0b36cfdc0c874c70e2e87d7f" category="paragraph">클러스터의 NTP(Network Time Protocol)는 항상 활성화되어 있습니다. NTP는 비활성화할 수 있지만 권장하지 않습니다.</block>
+  <block id="16eba74b838138b1c9d34e93a3730cc6" category="paragraph">+ 재해 발생 후 대상 볼륨을 빠르게 활성화한 다음 ONTAP에서 소스 볼륨을 다시 활성화하는 방법에 대해 설명합니다.</block>
 </blocks>
