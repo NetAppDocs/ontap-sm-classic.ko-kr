@@ -9244,4 +9244,12 @@
   <block id="16eba74b838138b1c9d34e93a3730cc6" category="paragraph">+ 재해 발생 후 대상 볼륨을 빠르게 활성화한 다음 ONTAP에서 소스 볼륨을 다시 활성화하는 방법에 대해 설명합니다.</block>
   <block id="11f72f4c3bd9d348b7579fbd1fc019c6" category="paragraph">서로 다른 ONTAP 클러스터에 있는 볼륨 간의 백업 볼트 관계를 빠르게 구성하는 방법에 대해 설명합니다.</block>
   <block id="cb58fc1134f76b358260cdb5b9943956" category="paragraph">ONTAP의 백업 볼트에서 볼륨을 빠르게 복원하는 방법에 대해 설명합니다.</block>
+  <block id="df39128709788b5d11e19397bbed7e5e" category="paragraph">ONTAP 9.8 이상을 사용하여 라이센스를 관리하는 방법에 대한 자세한 내용은 다음 정보를 참조하십시오.</block>
+  <block id="85180b24dbd0c343b9c87bf144ede023" category="inline-link-macro">라이센스 관리 개요(클러스터 관리자만 해당)</block>
+  <block id="ce1ae1f692dcc386afa95c6f51ac8788" category="list-text"><block ref="ce1ae1f692dcc386afa95c6f51ac8788" category="inline-link-macro-rx"></block></block>
+  <block id="a9a72d6af23763d014760a444a6e414b" category="inline-link">라이센스 키를 추가하여 새 기능을 활성화합니다</block>
+  <block id="79e933e86e0dbffc33f713b1dd45913b" category="list-text"><block ref="79e933e86e0dbffc33f713b1dd45913b" category="inline-link-rx"></block></block>
+  <block id="9eb2f679e34f007fb487deb886aea701" category="list-text">ONTAP 9.10.1부터는 System Manager를 사용하여 NetApp 라이센스 파일(NLF)을 설치하여 라이센스가 부여된 여러 기능을 한 번에 활성화할 수 있습니다. NetApp 라이센스 파일을 사용하면 더 이상 별도의 기능 라이센스 키를 추가할 필요가 없으므로 라이센스 설치를 간소화할 수 있습니다. NetApp Support 사이트에서 NetApp 라이센스 파일을 다운로드합니다.</block>
+  <block id="08cb1da33bf826c64dbcece5a06b7881" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="7a8e6f659072e8056021df642c019ac1" category="inline-link-macro-rx"></block></block>
+  <block id="8aa8ad9857fa98f48cbbef9e553f013e" category="paragraph">라이센스 관리에 대한 자세한 내용은 을 참조하십시오 <block ref="ce1ae1f692dcc386afa95c6f51ac8788" category="inline-link-macro-rx"></block></block>
 </blocks>
