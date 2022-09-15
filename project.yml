@@ -5,8 +5,8 @@ settings:
     pdf_enabled: true
   prod:
     pdf_enabled: true
+    harmony_enabled: false
   search: ontap
-  harmony_enabled: true
   langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw
 sidebar:
   entries:
@@ -107,3 +107,7 @@ homepage:
       url: https://docs.netapp.com/us-en/ontap/
     - title: 자동화 및 REST API 문서
       url: https://docs.netapp.com/us-en/ontap-automation/index.html
+product-family:
+  name: ONTAP
+  repo: ontap-family
+  sidebar_label: All ONTAP product documentation

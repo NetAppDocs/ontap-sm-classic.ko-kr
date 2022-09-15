@@ -85,5 +85,5 @@ image::../media/vol_move_cutover.gif[이 이미지는 주변 텍스트로 설명
 .. 확인 * 을 클릭합니다.
 
 
-. 반복합니다 <<step4-monitor,4단계>>.
+. 반복합니다 ,4단계.
 
