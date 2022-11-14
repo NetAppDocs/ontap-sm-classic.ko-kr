@@ -1113,12 +1113,8 @@
   <block id="c473aabf4633c021ba073d52d8d03beb" category="summary">NFS 지원 SVM을 설정하려면 NFS 볼륨과 내보내기를 통해 새 SVM을 생성하고 SVM 루트 볼륨의 기본 엑스포트 정책을 연 다음 UNIX 관리 호스트에서 NFS 액세스를 확인해야 합니다. 그런 다음 NFS 클라이언트 액세스를 구성할 수 있습니다.</block>
   <block id="71377dd90c4ed44dacd9218651097d0d" category="doc">새 NFS 지원 SVM을 생성합니다</block>
   <block id="364ab21c9ba0779072ce35edfec687b1" category="doc">NFS 클라이언트 액세스 구성 및 확인(새 NFS 지원 SVM 생성)</block>
-  <block id="97446f85d622caa408c1900719e976fe" category="summary">기존 에 NFS 액세스를 추가하려면 먼저 데이터 논리 인터페이스(LIF)를 생성해야 합니다. 그런 다음 ESXi 호스트에서 NFS 액세스를 구성하고 가상 스토리지 콘솔을 사용하여 ESXi에 NFS가 설정되어 있는지 확인할 수 있습니다.</block>
-  <block id="2463feb7085c1de79b2a536a798cc5e6" category="doc">기존 에 NFS 액세스를 추가합니다</block>
   <block id="b3cd292080da5468bda5b81ea6f6944e" category="list-text">에서 사용할 네트워킹 구성 요소는 다음 중 어느 것입니까?</block>
   <block id="e38f4915c562ac0524f64ba1d2309e50" category="list-text">노드 및 데이터 LIF가 생성되는 해당 노드의 특정 포트입니다</block>
-  <block id="99ffc0c2d2de5a9c707e0cc9f57ee896" category="list-text">의 프로토콜을 구성할 수 있는 * Details * 창으로 이동합니다.</block>
-  <block id="0e54ed6c5d54f8809e3fac442e018cb8" category="list-text">구성할 를 선택합니다.</block>
   <block id="b211141019007f2b9c919f45f464be6e" category="list-text">NFS 프로토콜 구성 * 대화 상자에서 데이터 LIF를 생성합니다.</block>
   <block id="34047da9f91a8187fda235b588989bf0" category="paragraph">볼륨 용량을 할당할 정보를 입력하지 마십시오. 나중에 Virtual Storage Console을 사용하여 데이터 저장소를 프로비저닝할 수 있습니다.</block>
   <block id="ea969559dd5cc111e771d23a7b91e7f0" category="summary">용 은 ESXi 호스트에서 스토리지를 사용하는 데 필요한 많은 구성 및 프로비저닝 작업을 자동화합니다. 는 vCenter Server에 대한 플러그인입니다.</block>
@@ -1244,16 +1240,11 @@
   <block id="af2e2a8528b3b09b31bbc9e601e4032e" category="paragraph">내보내기 설명(선택 사항)</block>
   <block id="286212487451d619de0dafa658b897cd" category="paragraph">기존 을 사용하지 않는 경우 새 을 만들려면 다음 정보가 필요합니다.</block>
   <block id="b1cb83cd4c72191e2c33f80d32661e9e" category="summary">기존 SVM을 사용하도록 선택하는 경우 먼저 SVM에서 NFS가 활성화되어 있는지 확인해야 합니다. 그런 다음 가상 스토리지 콘솔을 사용하여 ESXi를 사용하여 NFS 액세스를 구성하고 ESXi에 NFS가 설정되어 있는지 확인할 수 있습니다.</block>
-  <block id="c55e4b00195074bed992d5e9f2637458" category="doc">기존 NFS에서 사용하도록 설정되어 있는지 확인합니다</block>
   <block id="273e4130e50845a5e9d5f4538db4799b" category="list-text">프로토콜 * 창에서 * NFS * 를 클릭합니다.</block>
   <block id="4634424eddac4e5139eed002d9f57e0e" category="list-text">NFS가 Enabled로 표시되는지 확인합니다.</block>
   <block id="66b55e440f72539f4895f89ea8a145a8" category="paragraph">NFS가 활성화되어 있지 않으면 NFS를 활성화하거나 새 SVM을 생성해야 합니다.</block>
-  <block id="9bd777b8df02f89f109bd507aebe44cd" category="summary">새 를 설정하려면 새 NFS를 생성하고 설정해야 합니다. 그런 다음 ESXi 호스트에서 NFS 액세스를 구성하고 가상 스토리지 콘솔을 사용하여 ESXi에 대해 NFS가 활성화되었는지 확인할 수 있습니다.</block>
-  <block id="963ebd9778f5487b1a26decf3928acd7" category="doc">새 NFS 설정 생성</block>
   <block id="45b68e6b7d95b623f79bcb6bb2f31176" category="paragraph">SVM 생성, DNS 구성, 데이터 LIF 생성 및 NFS 설정 프로세스를 안내하는 마법사를 사용할 수 있습니다.</block>
-  <block id="8335f43bb715b8b81168959acc5ed2a6" category="list-text">SVM(Storage Virtual Machine) 설정 * 창에서 다음을 생성합니다.</block>
   <block id="16d91ce3e54e199d42185d64282f16aa" category="list-text">데이터 프로토콜로 * nfs * 를 선택합니다.</block>
-  <block id="6cf4a7024cd8da06dfb2de07d0ab1de3" category="paragraph">동일한 프로토콜 상에서 추가 프로토콜을 사용하려는 경우 프로토콜을 즉시 구성하지 않아도 해당 프로토콜을 선택해야 합니다.</block>
   <block id="73d7dbe8dde20a9df035458e497ebc27" category="paragraph">루트 볼륨에 대해 선택한 aggregate에서 데이터 볼륨의 위치가 결정되지 않습니다.</block>
   <block id="17d37d4e5172456b53b44a4310af144b" category="image-alt">SVM 설정</block>
   <block id="d28037416dced6462706c78db21b49f2" category="paragraph">가 생성되지만 프로토콜이 아직 구성되지 않았습니다.</block>
@@ -1263,7 +1254,6 @@
   <block id="a5575c94511939f9d8cf19ce5b41b7c2" category="list-text">표시되는 다른 모든 프로토콜 구성 페이지의 경우 * Skip * (건너뛰기 *)을 클릭한 다음 나중에 프로토콜을 구성합니다.</block>
   <block id="caf9dbd96074307c13aa33081a8d3d21" category="list-text">Skip * 을 클릭한 다음 필요에 따라 나중에 관리자를 구성합니다.</block>
   <block id="ad2676b3a3f03b8fbe67f24aa2ca8cc8" category="list-text">요약 * 페이지를 검토하고 나중에 필요한 정보를 모두 기록한 다음 * 확인 * 을 클릭합니다.</block>
-  <block id="e4fc8a8fc79c60838d6b6ee645b01c52" category="paragraph">NFS가 설정된 상태에서 새 가 생성됩니다.</block>
   <block id="2ddad2e2d0d34e4a5404bf8e5d2d8c9c" category="summary">FC를 사용하여 호스트에서 스토리지를 사용할 수 있게 하면 스토리지 가상 머신에 볼륨 및 LUN을 프로비저닝한 다음 호스트에서 LUN에 연결됩니다.</block>
   <block id="84537406a801e386b5b242a76072a064" category="doc">FC 구성 워크플로우</block>
   <block id="b7d149379f3d19b9d2d0c5ec0e877edb" category="paragraph">FC를 사용하여 호스트에서 스토리지를 사용할 수 있도록 하면 SVM(스토리지 가상 머신)에 볼륨 및 LUN을 프로비저닝하고 호스트에서 LUN에 연결합니다.</block>
@@ -9252,4 +9242,11 @@
   <block id="9eb2f679e34f007fb487deb886aea701" category="list-text">ONTAP 9.10.1부터는 System Manager를 사용하여 NetApp 라이센스 파일(NLF)을 설치하여 라이센스가 부여된 여러 기능을 한 번에 활성화할 수 있습니다. NetApp 라이센스 파일을 사용하면 더 이상 별도의 기능 라이센스 키를 추가할 필요가 없으므로 라이센스 설치를 간소화할 수 있습니다. NetApp Support 사이트에서 NetApp 라이센스 파일을 다운로드합니다.</block>
   <block id="08cb1da33bf826c64dbcece5a06b7881" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="7a8e6f659072e8056021df642c019ac1" category="inline-link-macro-rx"></block></block>
   <block id="8aa8ad9857fa98f48cbbef9e553f013e" category="paragraph">라이센스 관리에 대한 자세한 내용은 을 참조하십시오 <block ref="ce1ae1f692dcc386afa95c6f51ac8788" category="inline-link-macro-rx"></block></block>
+  <block id="d027bd811a2a1f3a54f02f5f6a138ec5" category="summary">기존 SVM에 NFS 액세스를 추가하려면 먼저 데이터 논리 인터페이스(LIF)를 생성해야 합니다. 그런 다음 ESXi 호스트에서 NFS 액세스를 구성하고 가상 스토리지 콘솔을 사용하여 ESXi에 NFS가 설정되어 있는지 확인할 수 있습니다.</block>
+  <block id="42229a2e75e26c066264f05943b5cd4b" category="list-text">SVM의 프로토콜을 구성할 수 있는 * Details * 창으로 이동합니다.</block>
+  <block id="6b772ada3bd4d8de498db46061f4af88" category="doc">기존 SVM에서 NFS가 활성화되어 있는지 확인합니다</block>
+  <block id="b2c6f5e7b85eccc355666a7ce9b42837" category="summary">새 SVM을 설정하려면 새로운 NFS를 생성하고 설정해야 합니다. 그런 다음 ESXi 호스트에서 NFS 액세스를 구성하고 가상 스토리지 콘솔을 사용하여 ESXi에 대해 NFS가 활성화되었는지 확인할 수 있습니다.</block>
+  <block id="8a7baa903a5556eb48abcebc91df47d2" category="paragraph">동일한 SVM에서 추가 프로토콜을 사용할 계획이라면 프로토콜을 즉시 구성하지 않아도 됩니다.</block>
+  <block id="2569b2d1e3dcd3875b983af8427bd364" category="paragraph">NFS를 사용하도록 설정하면 새 SVM이 생성됩니다.</block>
+  <block id="d1b92a4930d50c6ed1038655db0d2684" category="sidebar">모든 ONTAP 제품 설명서</block>
 </blocks>

@@ -7,7 +7,7 @@ settings:
     pdf_enabled: true
     harmony_enabled: false
   search: ontap
-  langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw
+  langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,fr-fr,de-de
 sidebar:
   entries:
   - title: System Manager Classic 문서
@@ -110,4 +110,4 @@ homepage:
 product-family:
   name: ONTAP
   repo: ontap-family
-  sidebar_label: All ONTAP product documentation
+  sidebar_label: 모든 ONTAP 제품 설명서

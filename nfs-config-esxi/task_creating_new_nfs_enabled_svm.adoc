@@ -1,17 +1,17 @@
 ---
 permalink: nfs-config-esxi/task_creating_new_nfs_enabled_svm.html 
 sidebar: sidebar 
-keywords: set, up, creating, create, enable, enabling, nfs, esxi, create a new nfs-enabled 
-summary: 새 를 설정하려면 새 NFS를 생성하고 설정해야 합니다. 그런 다음 ESXi 호스트에서 NFS 액세스를 구성하고 가상 스토리지 콘솔을 사용하여 ESXi에 대해 NFS가 활성화되었는지 확인할 수 있습니다. 
+keywords: set, up, creating, create, enable, enabling, nfs, esxi, create a new nfs-enabled SVM 
+summary: 새 SVM을 설정하려면 새로운 NFS를 생성하고 설정해야 합니다. 그런 다음 ESXi 호스트에서 NFS 액세스를 구성하고 가상 스토리지 콘솔을 사용하여 ESXi에 대해 NFS가 활성화되었는지 확인할 수 있습니다. 
 ---
-= 새 NFS 설정 생성
+= 새 NFS 지원 SVM을 생성합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-새 를 설정하려면 새 NFS를 생성하고 설정해야 합니다. 그런 다음 ESXi 호스트에서 NFS 액세스를 구성하고 가상 스토리지 콘솔을 사용하여 ESXi에 대해 NFS가 활성화되었는지 확인할 수 있습니다.
+새 SVM을 설정하려면 새로운 NFS를 생성하고 설정해야 합니다. 그런 다음 ESXi 호스트에서 NFS 액세스를 구성하고 가상 스토리지 콘솔을 사용하여 ESXi에 대해 NFS가 활성화되었는지 확인할 수 있습니다.
 
 .시작하기 전에
 * 네트워크를 구성해야 하며 관련 물리적 포트를 네트워크에 연결해야 합니다.
@@ -29,7 +29,7 @@ SVM 생성, DNS 구성, 데이터 LIF 생성 및 NFS 설정 프로세스를 안�
 .단계
 . SVM * 창으로 이동합니다.
 . Create * 를 클릭합니다.
-. SVM(Storage Virtual Machine) 설정 * 창에서 다음을 생성합니다.
+. SVM(Storage Virtual Machine) 설정 * 창에서 SVM을 생성합니다.
 +
 .. SVM의 고유한 이름을 지정합니다.
 +
@@ -37,7 +37,7 @@ SVM 생성, DNS 구성, 데이터 LIF 생성 및 NFS 설정 프로세스를 안�
 
 .. 데이터 프로토콜로 * nfs * 를 선택합니다.
 +
-동일한 프로토콜 상에서 추가 프로토콜을 사용하려는 경우 프로토콜을 즉시 구성하지 않아도 해당 프로토콜을 선택해야 합니다.
+동일한 SVM에서 추가 프로토콜을 사용할 계획이라면 프로토콜을 즉시 구성하지 않아도 됩니다.
 
 .. 기본 언어 설정인 C. UTF-8을 유지합니다.
 +
@@ -98,4 +98,4 @@ NFS 클라이언트는 데이터 LIF의 IP 주소를 알아야 합니다.
 
 
 
-NFS가 설정된 상태에서 새 가 생성됩니다.
+NFS를 사용하도록 설정하면 새 SVM이 생성됩니다.

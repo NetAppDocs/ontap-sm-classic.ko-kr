@@ -1,17 +1,17 @@
 ---
 permalink: nfs-config-esxi/concept_adding_nfs_access_to_existing_svm.html 
 sidebar: sidebar 
-keywords: nfs, access, exist, create, data, logical, interface, lif, configure, esxi, host, verify, add, add nfs access to an existing 
-summary: '기존 에 NFS 액세스를 추가하려면 먼저 데이터 논리 인터페이스(LIF)를 생성해야 합니다. 그런 다음 ESXi 호스트에서 NFS 액세스를 구성하고 가상 스토리지 콘솔을 사용하여 ESXi에 NFS가 설정되어 있는지 확인할 수 있습니다.' 
+keywords: nfs, access, exist, create, data, logical, interface, lif, configure, esxi, host, verify, add, add nfs access to an existing SVM 
+summary: '기존 SVM에 NFS 액세스를 추가하려면 먼저 데이터 논리 인터페이스(LIF)를 생성해야 합니다. 그런 다음 ESXi 호스트에서 NFS 액세스를 구성하고 가상 스토리지 콘솔을 사용하여 ESXi에 NFS가 설정되어 있는지 확인할 수 있습니다.' 
 ---
-= 기존 에 NFS 액세스를 추가합니다
+= 기존 SVM에 NFS 액세스를 추가합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-기존 에 NFS 액세스를 추가하려면 먼저 데이터 논리 인터페이스(LIF)를 생성해야 합니다. 그런 다음 ESXi 호스트에서 NFS 액세스를 구성하고 가상 스토리지 콘솔을 사용하여 ESXi에 NFS가 설정되어 있는지 확인할 수 있습니다.
+기존 SVM에 NFS 액세스를 추가하려면 먼저 데이터 논리 인터페이스(LIF)를 생성해야 합니다. 그런 다음 ESXi 호스트에서 NFS 액세스를 구성하고 가상 스토리지 콘솔을 사용하여 ESXi에 NFS가 설정되어 있는지 확인할 수 있습니다.
 
 .시작하기 전에
 * 에서 사용할 네트워킹 구성 요소는 다음 중 어느 것입니까?
@@ -28,9 +28,9 @@ summary: '기존 에 NFS 액세스를 추가하려면 먼저 데이터 논리 �
 
 
 .단계
-. 의 프로토콜을 구성할 수 있는 * Details * 창으로 이동합니다.
+. SVM의 프로토콜을 구성할 수 있는 * Details * 창으로 이동합니다.
 +
-.. 구성할 를 선택합니다.
+.. 구성할 SVM을 선택합니다.
 .. Details * 창에서 * Protocols * 옆에 있는 * NFS * 를 클릭합니다.
 +
 image::../media/svm_add_protocol_nfs_nfs_esxi.gif[이 이미지는 주변 텍스트로 설명됩니다.]

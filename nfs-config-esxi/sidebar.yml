@@ -28,11 +28,11 @@ entries:
     url: "/nfs-config-esxi/task_creating_aggregate.html"
   - title: 새 볼륨을 프로비저닝할 위치를 결정합니다
     url: "/nfs-config-esxi/task_deciding_where_to_provision_new_volume.html"
-  - title: 새 NFS 설정 생성
+  - title: 새 NFS 지원 SVM을 생성합니다
     url: "/nfs-config-esxi/task_creating_new_nfs_enabled_svm.html"
-  - title: 기존 에 NFS 액세스를 추가합니다
+  - title: 기존 SVM에 NFS 액세스를 추가합니다
     url: "/nfs-config-esxi/concept_adding_nfs_access_to_existing_svm.html"
-  - title: 기존 NFS에서 사용하도록 설정되어 있는지 확인합니다
+  - title: 기존 SVM에서 NFS가 활성화되어 있는지 확인합니다
     url: "/nfs-config-esxi/task_verifying_that_nfs_is_enabled_on_existing_svm.html"
   - title: 데이터 저장소를 프로비저닝하고 포함하는 볼륨을 생성합니다
     url: "/nfs-config-esxi/task_provisioning_datastore_creating_its_containing_lun_volume.html"
