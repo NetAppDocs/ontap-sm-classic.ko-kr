@@ -13,6 +13,7 @@ summary: 시스템 관리자를 사용하여 FlexGroup 볼륨에 대한 정보�
 [role="lead"]
 ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사용하여 FlexGroup 볼륨에 대한 정보를 볼 수 있습니다. 할당된 공간, 보호 상태 및 FlexGroup 볼륨의 성능에 대한 그래픽 표시를 볼 수 있습니다.
 
+.이 작업에 대해
 또한 FlexGroup 볼륨에 사용할 수 있는 스냅샷 복사본, FlexGroup 볼륨에 대한 데이터 보호 관계, 평균 성능 메트릭, 읽기 성능 메트릭, 지연 시간, IOPS, 처리량을 기준으로 FlexGroup 볼륨의 쓰기 성능 메트릭 등을 확인할 수 있습니다.
 
 .단계

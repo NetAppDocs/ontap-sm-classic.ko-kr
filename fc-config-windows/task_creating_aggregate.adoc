@@ -23,4 +23,5 @@ image::../media/aggregate_creation_fc_windows.gif[System Manager에서 애그리
 
 
 
+.결과
 Aggregate는 지정된 구성으로 생성되어 애그리게이트 창의 애그리게이트 목록에 추가됩니다.

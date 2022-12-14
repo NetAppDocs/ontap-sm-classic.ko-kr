@@ -13,10 +13,12 @@ summary: 'Linux 호스트의 FC HBA(호스트 버스 어댑터)가 지원되는 
 [role="lead"]
 Linux 호스트의 FC HBA(호스트 버스 어댑터)가 지원되는 드라이버, 펌웨어 및 BIOS 버전을 실행하고 있지 않으면 업데이트해야 합니다.
 
+.시작하기 전에
 상호 운용성 매트릭스 툴에서 지원되는 구성 드라이버, 펌웨어 및 BIOS 버전을 식별해야 합니다.
 
 https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"]
 
+.이 작업에 대해
 HBA 공급업체가 드라이버, 펌웨어, BIOS 및 HBA 유틸리티를 제공합니다.
 
 .단계

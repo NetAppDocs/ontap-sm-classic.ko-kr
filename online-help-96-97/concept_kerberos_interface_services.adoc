@@ -33,6 +33,7 @@ CIFS 서버는 기본 NFS Kerberos 액세스에 필요하지 않습니다. CIFS 
 ====
 
 
+.이 작업에 대해
 Microsoft Active Directory Kerberos를 사용하는 경우 도메인에서 사용되는 SPN의 처음 15자는 고유해야 합니다. Microsoft Active Directory는 최대 15자의 SPN에 대한 제한이 있으며 중복 SPN을 허용하지 않습니다.
 
 .단계

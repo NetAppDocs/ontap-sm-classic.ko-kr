@@ -18,6 +18,7 @@ FlexGroup 볼륨이 더 이상 필요하지 않은 경우 ONTAP 9.7 이하에서
 * FlexGroup 볼륨이 오프라인 상태여야 합니다.
 
 
+.이 작업에 대해
 System Manager에서는 FlexGroup 볼륨의 구성요소 관리 레벨을 지원하지 않습니다.
 
 .단계

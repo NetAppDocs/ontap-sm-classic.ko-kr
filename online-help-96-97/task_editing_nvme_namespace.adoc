@@ -11,6 +11,7 @@ summary: System Manager를 사용하면 네임스페이스가 매핑되는 하�
 [role="lead"]
 ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager Classic을 사용하면 네임스페이스가 매핑된 서브시스템을 변경하여 네임스페이스를 편집할 수 있습니다.
 
+.이 작업에 대해
 이 창에서는 NVMe 하위 시스템 설정만 수정할 수 있으며 다른 네임스페이스 세부 정보는 편집할 수 없습니다.
 
 .단계

@@ -13,6 +13,7 @@ summary: Aggregate를 생성하는 동안 System Manager를 사용하여 Aggrega
 [role="lead"]
 Aggregate를 생성하는 동안 ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용하여 애그리게이트의 RAID 유형 및 RAID 그룹 크기 옵션의 기본값을 수정할 수 있습니다.
 
+.이 작업에 대해
 Aggregate 디스크의 디스크 유형이 FSA 또는 mSATA 이고 디스크 크기가 10TB보다 크거나 같은 경우 RAID-TEC만 사용할 수 있는 RAID 유형입니다.
 
 .단계

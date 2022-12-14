@@ -9249,4 +9249,9 @@
   <block id="8a7baa903a5556eb48abcebc91df47d2" category="paragraph">동일한 SVM에서 추가 프로토콜을 사용할 계획이라면 프로토콜을 즉시 구성하지 않아도 됩니다.</block>
   <block id="2569b2d1e3dcd3875b983af8427bd364" category="paragraph">NFS를 사용하도록 설정하면 새 SVM이 생성됩니다.</block>
   <block id="d1b92a4930d50c6ed1038655db0d2684" category="sidebar">모든 ONTAP 제품 설명서</block>
+  <block id="fd69c5cf902969e6fb71d043085ddee6" category="paragraph-title">결과</block>
+  <block id="f6544266822afc00f9e28a38a852cab9" category="paragraph-title">CIFS 프로토콜 추적의 결과 목록입니다</block>
+  <block id="7d5ed3e12000d1e71004e9e21d57eae0" category="paragraph-title">NFS 프로토콜 추적의 결과 목록입니다</block>
+  <block id="48f1b7cd8c5e771ef4ce929e95a1d530" category="section-title">[[사전 요구 사항 - 피어링, 클러스터 피어링을 위한 사전 요구 사항]] 클러스터 피어링을 위한 사전 요구 사항</block>
+  <block id="30f60d67f457bb040dffde52197a54da" category="paragraph-title">관련 정보</block>
 </blocks>

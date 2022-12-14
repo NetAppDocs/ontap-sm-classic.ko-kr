@@ -13,6 +13,7 @@ summary: DM 다중 경로는 Linux 호스트와 스토리지 클러스터 간의
 [role="lead"]
 DM 다중 경로는 Linux 호스트와 스토리지 클러스터 간의 여러 경로를 관리합니다. Linux 호스트에 SCSI 디바이스로 표시되는 LUN에서 DM 다중 경로를 구성하면 경로 또는 구성 요소에 장애가 발생할 경우 Linux 호스트가 스토리지 클러스터의 LUN에 액세스할 수 있습니다.
 
+.시작하기 전에
 상호 운용성 매트릭스 툴에서 필요한 버전의 DM 다중 경로를 식별해야 합니다.
 
 https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"]

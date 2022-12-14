@@ -18,6 +18,7 @@ summary: '클러스터 액세스 및 관리에 CLI(Command-Line Interface) 대�
 * 브라우저에서 쿠키 및 사이트 데이터를 활성화해야 합니다.
 
 
+.이 작업에 대해
 클러스터 관리 LIF 또는 노드 관리 LIF를 사용하여 ONTAP 시스템 관리자에 액세스할 수 있습니다. ONTAP System Manager에 중단 없이 액세스하려면 클러스터 관리 LIF를 사용해야 합니다.
 
 .단계

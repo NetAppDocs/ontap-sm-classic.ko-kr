@@ -13,6 +13,7 @@ summary: System Manager를 사용하면 스냅샷 복사본의 이름을 변경�
 [role="lead"]
 ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 방식을 사용하여 스냅샷 복사본의 이름을 변경하여 스냅샷 복사본을 구성하고 관리할 수 있습니다.
 
+.이 작업에 대해
 SnapVault 관계에 있는 SnapLock DP 볼륨의 스냅샷 복사본(WORM 상태로 커밋됨)은 이름을 바꿀 수 없습니다.
 
 .단계

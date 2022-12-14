@@ -13,6 +13,7 @@ summary: FlexGroup 볼륨을 오프라인으로 전환하거나 FlexGroup 볼륨
 [role="lead"]
 FlexGroup ONTAP 9.7 이하에서 사용 가능한 ONTAP System Manager 클래식 을 사용하면 볼륨을 오프라인으로 전환하거나, FlexGroup 볼륨을 온라인으로 전환하거나, FlexGroup 볼륨에 대한 액세스를 제한하려는 경우 FlexGroup 볼륨의 상태를 변경할 수 있습니다.
 
+.이 작업에 대해
 System Manager에서는 FlexGroup 볼륨에 대한 구성 요소 레벨 관리를 지원하지 않습니다.
 
 .단계

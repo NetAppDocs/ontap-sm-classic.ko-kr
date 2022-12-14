@@ -13,6 +13,7 @@ summary: Linux Unified Host Utilities 소프트웨어에는 스토리지 클러�
 [role="lead"]
 Linux Unified Host Utilities 소프트웨어에는 스토리지 클러스터 노드에 대한 정보를 표시하는 데 사용할 수 있는 NetApp LUN 보고 툴인 'NetApp' 유틸리티가 포함되어 있습니다. 또한 NetApp 스토리지 성능을 최적화하려면 Linux 호스트에서 올바른 서버 프로필을 활성화해야 합니다.
 
+.시작하기 전에
 상호 운용성 매트릭스를 사용하여 구성에서 지원되는 Linux Unified Host Utilities 버전을 식별해야 합니다. 또한 Linux OS 배포의 일부이고 호스트에서 서버 프로파일을 설정하는 데 사용하는 'tuned-adm' 명령이 포함된 'tuned' 패키지도 있어야 합니다.
 
 .단계

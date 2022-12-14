@@ -13,6 +13,7 @@ summary: System Manager 9.6부터 FlexCache 볼륨을 만들 수 있습니다.
 [role="lead"]
 System Manager 9.6부터 FlexCache 볼륨을 만들 수 있습니다.
 
+.이 작업에 대해
 FlexCache 볼륨을 생성하려면 먼저 FlexCache 용량 라이센스가 있어야 합니다.
 
 .단계

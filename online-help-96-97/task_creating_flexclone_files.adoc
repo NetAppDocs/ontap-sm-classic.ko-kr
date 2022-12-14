@@ -35,6 +35,7 @@ ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager 클래식 을 사�
 . 클론 * 을 클릭합니다.
 
 
+.결과
 FlexClone 파일은 상위 파일과 동일한 볼륨에 생성됩니다.
 
 * 관련 정보 *
