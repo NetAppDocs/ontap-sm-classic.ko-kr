@@ -7706,7 +7706,6 @@
   <block id="8ffc06d28e87576dd9ff2da3caa069e3" category="paragraph">ONTAP 9.3부터 ONTAP 9.7까지 ONTAP System Manager_classic_interface를 사용하여 SVM 피어 관계를 생성할 수 있습니다. SVM(스토리지 가상 시스템) 피어링을 통해 두 SVM 간에 피어 관계를 설정하여 데이터 보호를 제공할 수 있습니다.</block>
   <block id="61c932880254c345e3760972ca757cab" category="list-text">SVM 피어링 시작 * 을 클릭합니다.</block>
   <block id="1d38d81d646985ec3458b8d11103d5e2" category="summary">클러스터 피어링 관계를 성공적으로 생성한 후에는 데이터의 가용성을 보호할 준비가 된 것입니다.</block>
-  <block id="16514528850809da669879bf9c0def51" category="paragraph">클러스터 피어링 관계를 성공적으로 생성한 후에는 데이터의 가용성을 보호할 준비가 된 것입니다. 다음 정보를 사용하여 데이터를 보호할 수 있습니다.</block>
   <block id="a97f5cda69815f1e77668550fdaeedca" category="list-text"><block ref="a97f5cda69815f1e77668550fdaeedca" category="inline-link-macro-rx"></block></block>
   <block id="3552a03559c9745468390e65ff5420dd" category="paragraph">에서는 여러 클러스터에 있는 볼륨 간의 SnapMirror 관계를 빠르게 구성하고 모니터링하는 방법에 대해 설명합니다.</block>
   <block id="4a4c3d33f3a7344913b2fc74439a7be1" category="paragraph">인터클러스터 SnapVault 관계를 빠르게 구성하는 방법에 대해 설명합니다.</block>
@@ -9254,4 +9253,8 @@
   <block id="7d5ed3e12000d1e71004e9e21d57eae0" category="paragraph-title">NFS 프로토콜 추적의 결과 목록입니다</block>
   <block id="48f1b7cd8c5e771ef4ce929e95a1d530" category="section-title">[[사전 요구 사항 - 피어링, 클러스터 피어링을 위한 사전 요구 사항]] 클러스터 피어링을 위한 사전 요구 사항</block>
   <block id="30f60d67f457bb040dffde52197a54da" category="paragraph-title">관련 정보</block>
+  <block id="0832a9959e45466f30fb7d8ac340284b" category="list-text">SVM을 선택한 다음 * 편집 * 을 클릭합니다.</block>
+  <block id="34a08238e292163c8a9e2bbdbca31b46" category="paragraph">백그라운드에서 중복 제거가 지속적으로 수행되도록 지정합니다. 이 정책은 새로 생성된 모든 볼륨과 백그라운드 중복제거를 위해 수동으로 구성되지 않은 업그레이드된 모든 볼륨에 대해 설정됩니다. 정책을 "기본값" 또는 다른 정책으로 변경하면 "자동" 정책이 비활성화됩니다.</block>
+  <block id="0edff1709e29131d53711deec4ab07ca" category="paragraph">볼륨이 비 AFF 시스템에서 AFF 시스템으로 이동하는 경우 기본적으로 타겟 노드에서 ""자동"" 정책이 활성화되어 있습니다. 볼륨이 AFF 노드에서 비 AFF 노드로 이동하는 경우 대상 노드의 "자동" 정책은 기본적으로 "인라인 전용" 정책으로 대체됩니다.</block>
+  <block id="52d62f4cf5db67fc9fd3bfd390035923" category="paragraph">다음 정보를 사용하여 데이터를 보호할 수 있습니다.</block>
 </blocks>
