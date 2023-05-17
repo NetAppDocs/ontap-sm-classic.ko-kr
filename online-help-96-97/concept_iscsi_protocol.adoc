@@ -192,4 +192,4 @@ iSCSI 서비스를 중지합니다.
 
 * 관련 정보 *
 
-https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN 관리"^]
+https://["SAN 관리"^]

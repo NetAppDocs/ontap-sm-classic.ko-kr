@@ -39,4 +39,4 @@ LUN이 생성되는 클러스터 노드를 파트너 노드로 페일오버할 �
 
 * 관련 정보 *
 
-https://docs.netapp.com/us-en/ontap/high-availability/index.html["ONTAP 9 고가용성 구성"]
+https://["ONTAP 9 고가용성 구성"]

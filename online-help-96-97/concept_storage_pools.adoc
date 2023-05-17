@@ -285,4 +285,4 @@ xref:task_provisioning_storage_by_creating_flash_pool_aggregate_manually.adoc[Fl
 
 xref:task_provisioning_cache_by_adding_disks.adoc[SSD를 추가하여 캐시 프로비저닝]
 
-https://docs.netapp.com/us-en/ontap/disks-aggregates/index.html["디스크 및 애그리게이트 관리"]
+https://["디스크 및 애그리게이트 관리"]

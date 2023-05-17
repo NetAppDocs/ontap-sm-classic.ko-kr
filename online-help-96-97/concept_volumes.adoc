@@ -22,6 +22,6 @@ ONTAP System Manager 클래식(9.7 이하 버전에서 사용 가능)을 사용�
 ====
 * 관련 정보 *
 
-https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP 개념"^]
+https://["ONTAP 개념"^]
 
-https://docs.netapp.com/us-en/ontap/volumes/index.html["논리적 스토리지 관리"^]
+https://["논리적 스토리지 관리"^]

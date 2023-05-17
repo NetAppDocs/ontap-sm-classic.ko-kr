@@ -42,5 +42,5 @@ SVM(스토리지 가상 시스템)에서 FC 서비스를 빠르게 설정하고,
 | ONTAP CLI(Command Line Interface) | link:https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html["CLI를 사용한 LUN 설정 워크플로우"^] 
 |===
 .추가 리소스
-* https://docs.netapp.com/us-en/ontap-sanhost/index.html["NetApp 설명서: 호스트 유틸리티"^]
+* https://["NetApp 설명서: 호스트 유틸리티"^]
 

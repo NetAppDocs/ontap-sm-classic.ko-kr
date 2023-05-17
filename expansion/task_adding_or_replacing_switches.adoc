@@ -19,13 +19,13 @@ summary: 클러스터를 확장하기 전에 클러스터 스위치가 확장된
 
 * 현재 클러스터가 2노드 스위치가 없는 클러스터인 경우, 원하는 스위치 유형을 사용하여 클러스터를 2노드 스위치가 있는 클러스터로 마이그레이션합니다.
 +
-https://library.netapp.com/ecm/ecm_download_file/ECMP1140536["Cisco 클러스터 스위치를 사용하여 2노드 스위치 클러스터로 마이그레이션"]
+https://["Cisco 클러스터 스위치를 사용하여 2노드 스위치 클러스터로 마이그레이션"]
 
 +
-https://library.netapp.com/ecm/ecm_download_file/ECMP1140535["NetApp CN1610 클러스터 스위치를 사용하여 2노드 스위치 클러스터로 마이그레이션"]
+https://["NetApp CN1610 클러스터 스위치를 사용하여 2노드 스위치 클러스터로 마이그레이션"]
 
 * 기존 스위치에 향후 구성을 지원하는 데 사용할 수 있는 포트가 충분하지 않은 경우 적절한 교체 절차를 사용하여 스위치를 교체하십시오.
 +
-https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62371["NetApp 문서: 클러스터, 관리 및 스토리지 스위치"]
+https://["NetApp 문서: 클러스터, 관리 및 스토리지 스위치"]
 
 

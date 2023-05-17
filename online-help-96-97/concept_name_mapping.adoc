@@ -129,4 +129,4 @@ SVM에서 그룹 매핑을 편집할 수 있는 그룹 매핑 항목 편집 대�
 
 * 관련 정보 *
 
-https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB/CIFS 관리"]
+https://["SMB/CIFS 관리"]

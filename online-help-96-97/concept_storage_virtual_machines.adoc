@@ -15,6 +15,6 @@ ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을
 
 * 관련 정보 *
 
-https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN 관리"^]
+https://["SAN 관리"^]
 
-https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP 개념"^]
+https://["ONTAP 개념"^]

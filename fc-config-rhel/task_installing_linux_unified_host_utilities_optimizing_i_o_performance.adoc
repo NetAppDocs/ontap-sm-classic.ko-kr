@@ -19,13 +19,13 @@ Linux Unified Host Utilities 소프트웨어에는 Linux 호스트에 있는 스
 .단계
 . NetApp Support 사이트에서 지원되는 Linux Unified Host Utilities 버전을 다운로드하십시오.
 +
-http://mysupport.netapp.com/NOW/cgi-bin/software["NetApp 다운로드: 소프트웨어"]
+http://["NetApp 다운로드: 소프트웨어"]
 
 . 설치 설명서의 지침에 따라 Linux Unified Host Utilities 소프트웨어를 설치합니다.
 . tuned 패키지가 설치되어 있지 않으면 yum install tuned 명령을 입력한다
 . 물리적 호스트의 경우 '엔터프라이즈 스토리지' 프로파일('tuned-adm profile enterprise-storage')을 설정해야 합니다
 . 가상 호스트의 경우 'virtual-guest' 프로파일(tuned-adm profile virtual-guest)을 설정해야 합니다
 +
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2547936["Linux Unified Host Utilities 7.1 설치"]
+https://["Linux Unified Host Utilities 7.1 설치"]
 
 

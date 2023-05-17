@@ -16,7 +16,7 @@ DM 다중 경로는 Linux 호스트와 스토리지 클러스터 간의 여러 �
 .시작하기 전에
 상호 운용성 매트릭스 툴에서 필요한 버전의 DM 다중 경로를 식별해야 합니다.
 
-https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"]
+https://["NetApp 상호 운용성 매트릭스 툴"]
 
 [NOTE]
 ====

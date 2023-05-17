@@ -45,4 +45,4 @@ SAML(Security Assertion Markup Language) 인증이 활성화된 시스템에서�
 
 * 관련 정보 *
 
-https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 문서 센터"]
+https://["ONTAP 9 문서 센터"]

@@ -20,7 +20,7 @@ iSCSI에 사용되는 호스트 포트 및 스토리지 클러스터 포트는 �
 
 이 작업에는 ESXi 호스트를 구성하기 위한 상위 단계가 나와 있습니다. 자세한 지침이 필요한 경우 사용 중인 ESXi 버전에 대한 VMware publication_VMware vSphere Storage_를 참조하십시오.
 
-http://www.vmware.com["VMware"]
+http://["VMware"]
 
 .단계
 . vSphere Client에 로그인한 다음 인벤토리 창에서 ESXi 호스트를 선택합니다.

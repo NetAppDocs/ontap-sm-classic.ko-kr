@@ -53,4 +53,4 @@ image::../media/lun_creation_thin_provisioned_windows_iscsi_windows.gif[그림 �
 
 * 관련 정보 *
 
-https://docs.netapp.com/us-en/ontap/system-admin/index.html["시스템 관리"]
+https://["시스템 관리"]

@@ -28,9 +28,9 @@ NOTE: FCoE(Fibre Channel over Ethernet)는 이 절차에서 다루지 않습니�
 
 이러한 가정이 현재 상황에 맞지 않는 경우 다음 리소스를 참조하십시오.
 
-* https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN 관리"^]
-* https://docs.netapp.com/us-en/ontap/san-config/index.html["SAN 구성"^]
-* https://docs.netapp.com/us-en/ontap-sanhost/hu_luhu_71.html["Linux Unified Host Utilities 7.1 설치"^]
+* https://["SAN 관리"^]
+* https://["SAN 구성"^]
+* https://["Linux Unified Host Utilities 7.1 설치"^]
 
 
 

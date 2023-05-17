@@ -103,4 +103,4 @@ ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에서 제�
 
 * 관련 정보 *
 
-https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/System_Manager_Cluster_Guided_Setup_Templates["System Manager 클러스터 가이드 설치 템플릿"]
+https://["System Manager 클러스터 가이드 설치 템플릿"]

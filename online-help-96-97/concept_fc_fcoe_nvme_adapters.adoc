@@ -29,4 +29,4 @@ System Manager에서 FC/FCoE 및 NVMe 어댑터 설정 편집 대화 상자를 �
 
 xref:reference_network_window.adoc[네트워크 창]
 
-https://docs.netapp.com/us-en/ontap/networking/index.html["네트워크 관리"]
+https://["네트워크 관리"]

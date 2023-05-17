@@ -22,7 +22,7 @@ System Manager의 Licenses 창을 사용하면 클러스터 또는 노드에 설
 ONTAP 9.8 이상을 사용하여 라이센스를 관리하는 방법에 대한 자세한 내용은 다음 정보를 참조하십시오.
 
 * link:https://docs.netapp.com/us-en/ontap/system-admin/manage-licenses-concept.html["라이센스 관리 개요(클러스터 관리자만 해당)"^]
-* https://docs.netapp.com/us-en/ontap/task_admin_enable_new_features.html["라이센스 키를 추가하여 새 기능을 활성화합니다"^]
+* https://["라이센스 키를 추가하여 새 기능을 활성화합니다"^]
 
 
 .시작하기 전에
@@ -263,6 +263,6 @@ System Manager는 평가 라이센스를 모니터링하지 않으며 평가 라
 
 * 관련 정보 *
 
-https://docs.netapp.com/us-en/ontap/system-admin/index.html["시스템 관리"]
+https://["시스템 관리"]
 
 xref:task_creating_cluster.adoc[클러스터 생성]

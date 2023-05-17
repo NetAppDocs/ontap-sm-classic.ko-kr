@@ -47,4 +47,4 @@ summary: 스냅샷 복사본을 삭제하여 디스크 공간을 절약하거나
 
 xref:reference_volumes_window.adoc[볼륨 창]
 
-https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 문서 센터"]
+https://["ONTAP 9 문서 센터"]

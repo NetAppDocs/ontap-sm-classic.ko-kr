@@ -225,10 +225,10 @@ qtree가 포함된 볼륨의 마운트 경로, 엑스포트 정책에 대한 세
 
 * 관련 정보 *
 
-https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP 개념"^]
+https://["ONTAP 개념"^]
 
-https://docs.netapp.com/us-en/ontap/volumes/index.html["논리적 스토리지 관리"^]
+https://["논리적 스토리지 관리"^]
 
-https://docs.netapp.com/us-en/ontap/nfs-admin/index.html["NFS 관리"^]
+https://["NFS 관리"^]
 
-https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB/CIFS 관리"^]
+https://["SMB/CIFS 관리"^]

@@ -15,8 +15,8 @@ ONTAP ONTAP 9.7 이하에서 사용 가능한 System Manager의 기존 버전을
 
 * 관련 정보 *
 
-https://docs.netapp.com/us-en/ontap/disks-aggregates/index.html["디스크 및 애그리게이트 관리"^]
+https://["디스크 및 애그리게이트 관리"^]
 
-https://docs.netapp.com/ontap-9/topic/com.netapp.doc.vs-irrg/home.html["FlexArray 가상화 설치 요구 사항 및 참조 자료"^]
+https://["FlexArray 가상화 설치 요구 사항 및 참조 자료"^]
 
-https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP 개념"^]
+https://["ONTAP 개념"^]

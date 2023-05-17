@@ -17,4 +17,4 @@ image::../media/updating_cluster_mcc_configuration.gif[클러스터 MCC 구성�
 
 * 관련 정보 *
 
-https://docs.netapp.com/us-en/ontap/upgrade/task_upgrade_andu_sm.html["ONTAP를 업그레이드합니다"]
+https://["ONTAP를 업그레이드합니다"]

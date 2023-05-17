@@ -93,4 +93,4 @@ FC/FCoE 서비스를 중지합니다.
 
 xref:task_configuring_fc_fcoe_protocol_on_svms.adoc[SVM에서 FC 프로토콜 및 FCoE 프로토콜 구성]
 
-https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN 관리"^]
+https://["SAN 관리"^]

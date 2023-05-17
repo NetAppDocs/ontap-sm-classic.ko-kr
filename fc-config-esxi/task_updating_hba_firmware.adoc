@@ -14,7 +14,7 @@ summary: ESX 호스트의 FC 호스트 버스 어댑터가 지원되는 드라�
 ESX 호스트의 FC HBA(호스트 버스 어댑터)가 지원되는 드라이버, 펌웨어 및 BIOS 버전을 실행하고 있지 않으면 업데이트해야 합니다.
 
 .시작하기 전에
-에서 구성에 대해 지원되는 드라이버, 펌웨어 및 BIOS 버전을 식별해야 합니다 https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"].
+에서 구성에 대해 지원되는 드라이버, 펌웨어 및 BIOS 버전을 식별해야 합니다 https://["NetApp 상호 운용성 매트릭스 툴"].
 
 .이 작업에 대해
 HBA 공급업체가 드라이버, 펌웨어, BIOS 및 HBA 유틸리티를 제공합니다.
@@ -29,4 +29,4 @@ HBA 공급업체가 드라이버, 펌웨어, BIOS 및 HBA 유틸리티를 제공
 
 * 관련 정보 *
 
-http://kb.vmware.com/kb/1002413["VMware KB 문서 1002413: Qlogic 또는 Emulex FC HBA의 펌웨어 식별"]
+http://["VMware KB 문서 1002413: Qlogic 또는 Emulex FC HBA의 펌웨어 식별"]

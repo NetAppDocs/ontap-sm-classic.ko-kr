@@ -48,4 +48,4 @@ ONTAP는 이 볼륨을 사용하여 스토리지 시스템을 관리합니다. �
 
 * 관련 정보 *
 
-https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 문서 센터"]
+https://["ONTAP 9 문서 센터"]

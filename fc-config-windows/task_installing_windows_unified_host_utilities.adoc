@@ -18,11 +18,11 @@ Windows Unified Host Utilities에는 Windows 호스트에서 NetApp ONTAP 및 E-
 
 * 상호 운용성 매트릭스 에서 지원되는 구성을 확인하십시오
 +
-https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"]
+https://["NetApp 상호 운용성 매트릭스 툴"]
 
 * 상호 운용성 매트릭스에서 필요한 Windows 핫픽스 식별
 +
-https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"]
+https://["NetApp 상호 운용성 매트릭스 툴"]
 
 * FCP 라이센스를 추가하고 대상 서비스를 시작합니다
 * 케이블 연결을 확인합니다
@@ -43,12 +43,12 @@ Hyper-V 게스트의 경우 다중 경로 지원을 선택한 경우 원시(통�
 
 자세한 설치 정보는 에서 확인할 수 있습니다 link:https://docs.netapp.com/us-en/ontap-sanhost/hu_wuhu_71.html#installing-the-host-utilities["Windows Unified 호스트 설치"].
 
-https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"]
+https://["NetApp 지원"]
 
 .단계
 . NetApp Support 사이트에서 해당 버전의 Windows Unified Host Utilities를 다운로드하십시오.
 +
-https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"]
+https://["NetApp 지원"]
 
 . 실행 파일을 실행하고 화면의 지침을 따릅니다.
 . 메시지가 나타나면 Windows 호스트를 재부팅합니다.

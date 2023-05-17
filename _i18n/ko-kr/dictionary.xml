@@ -393,7 +393,6 @@
   <block id="4ccd1411513c65dcb6a679ea9915e95f" category="paragraph">SAN 관리에 대한 자세한 내용은 을 참조하십시오<block ref="8499bea34abc994e4281bc61265ea2b9" category="inline-link-rx"></block></block>
   <block id="d0f2df2bdd6b328117c96dcaacb4a936" category="cell">재설계된 System Manager(9.7 이상에서 사용 가능)</block>
   <block id="64f576bfce499e9d2ae488c0d3e09336" category="inline-link">Linux 서버용 SAN 스토리지 용량 할당</block>
-  <block id="2043d9c76a0ce0aead2a3d90c7edea3d" category="cell"><block ref="2043d9c76a0ce0aead2a3d90c7edea3d" category="inline-link-rx"></block></block>
   <block id="9ad9dc11e51ff2950987cfa2ea72bc38" category="cell">ONTAP CLI(Command Line Interface)</block>
   <block id="eb6376dffb5514ac68fd3270be5c262d" category="inline-link">CLI를 사용한 LUN 설정 워크플로우</block>
   <block id="21da5bdcfd1b855ee9de397cb8a78a1d" category="cell"><block ref="21da5bdcfd1b855ee9de397cb8a78a1d" category="inline-link-rx"></block></block>
@@ -9260,4 +9259,5 @@
   <block id="a8bab46b4ec9127ebe1ca2eb2c46a963" category="paragraph">ONTAP 9.7 이하 릴리스에서 _Classic_System Manager UI를 사용하는 경우 이 작업을 완료하십시오. ONTAP 9.7 이상에서 System Manager UI를 사용하는 경우 를 참조하십시오 <block ref="7a8e6f659072e8056021df642c019ac1" category="inline-link-macro-rx"></block>.</block>
   <block id="793d21bf18b025e1a67b437de47189f5" category="inline-link-macro">라이센스 관리 개요</block>
   <block id="0f130bf77768be1af34e32b76ed78492" category="paragraph">라이센스 관리에 대한 자세한 내용은 을 참조하십시오 <block ref="40de9a66c3e4481acf1e199beb3ce8ce" category="inline-link-macro-rx"></block>.</block>
+  <block id="604cb5a84c00d7e349ae07b5f7fe770d" category="cell"><block ref="604cb5a84c00d7e349ae07b5f7fe770d" category="inline-link-rx"></block></block>
 </blocks>

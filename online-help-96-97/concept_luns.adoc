@@ -22,4 +22,4 @@ LUN 탭은 FC/FCoE 및 iSCSI 라이센스를 활성화한 경우에만 표시됩
 ====
 * 관련 정보 *
 
-https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN 관리"^]
+https://["SAN 관리"^]

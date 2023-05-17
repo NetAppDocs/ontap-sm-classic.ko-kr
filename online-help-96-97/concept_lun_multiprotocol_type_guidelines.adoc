@@ -138,10 +138,10 @@ Xen을 사용하는 경우 LUN은 Linux LVM과 Dom0으로 구성됩니다.
 
 xref:task_creating_luns.adoc[LUN 생성 중]
 
-https://mysupport.netapp.com/NOW/products/interoperability["NetApp 상호 운용성"]
+https://["NetApp 상호 운용성"]
 
-https://library.netapp.com/ecm/ecm_download_file/ECMP1148981["Solaris Host Utilities 6.1 설치 및 설정 가이드"]
+https://["Solaris Host Utilities 6.1 설치 및 설정 가이드"]
 
-https://library.netapp.com/ecm/ecm_download_file/ECMP1148983["Solaris Host Utilities 6.1 빠른 명령 참조"]
+https://["Solaris Host Utilities 6.1 빠른 명령 참조"]
 
-https://library.netapp.com/ecm/ecm_download_file/ECMP1148982["Solaris Host Utilities 6.1 릴리스 정보"]
+https://["Solaris Host Utilities 6.1 릴리스 정보"]

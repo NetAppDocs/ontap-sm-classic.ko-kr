@@ -30,13 +30,13 @@ image::../media/volume_move_workflow.jpg[볼륨 이동 워크플로우]
  a| 
 재설계된 System Manager(ONTAP 9.7 이상에서 사용 가능)
  a| 
-https://docs.netapp.com/us-en/ontap/volumes/manage-volumes-task.html["볼륨 관리"^]
+https://["볼륨 관리"^]
 
 
 
  a| 
 ONTAP 명령줄 인터페이스입니다
  a| 
-https://docs.netapp.com/us-en/ontap/volumes/index.html["논리적 스토리지 관리"^]
+https://["논리적 스토리지 관리"^]
 
 |===

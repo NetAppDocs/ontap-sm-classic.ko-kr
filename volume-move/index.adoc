@@ -53,14 +53,14 @@ ONTAP 9.5를 실행하는 NVMe 구성에는 볼륨 이동이 지원되지 않습
  a| 
 재설계된 System Manager(ONTAP 9.7 이상에서 사용 가능)
  a| 
-https://docs.netapp.com/us-en/ontap/volumes/manage-volumes-task.html["볼륨 관리"^]
+https://["볼륨 관리"^]
 
 
 
  a| 
 ONTAP 명령줄 인터페이스입니다
  a| 
-https://docs.netapp.com/us-en/ontap/volumes/index.html["논리적 스토리지 관리"^]
+https://["논리적 스토리지 관리"^]
 
 |===
 
@@ -71,10 +71,10 @@ https://docs.netapp.com/us-en/ontap/volumes/index.html["논리적 스토리지 �
 
 * 운영 중단 없이 컨트롤러를 업그레이드하려는 경우 물리적 데이터 이동이 필요하지 않은 ARL(Aggregate relocation)을 사용할 수 있습니다.
 +
-https://docs.netapp.com/us-en/ontap/high-availability/index.html["고가용성"^]
+https://["고가용성"^]
 
 * 포함된 볼륨이 없는 LUN만 이동하려는 경우 LUN 이동 프로세스를 사용할 수 있습니다.
 +
-https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN 관리"^]
+https://["SAN 관리"^]
 
 

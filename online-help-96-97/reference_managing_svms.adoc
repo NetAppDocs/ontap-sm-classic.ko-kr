@@ -42,4 +42,4 @@ SVM 관리자는 작업, 네트워크 연결, 네트워크 인터페이스, SVM 
 
 * 관련 정보 *
 
-https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 문서 센터"]
+https://["ONTAP 9 문서 센터"]
