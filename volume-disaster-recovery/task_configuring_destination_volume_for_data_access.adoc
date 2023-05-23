@@ -47,4 +47,4 @@ summary: 대상 볼륨을 활성화한 후 데이터 액세스를 위해 볼륨�
 
 * 관련 정보 *
 
-https://["ONTAP 9 문서 센터"]
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 문서 센터"]

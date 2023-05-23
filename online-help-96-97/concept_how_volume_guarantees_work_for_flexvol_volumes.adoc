@@ -40,4 +40,4 @@ System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)으로 FlexVol 볼
 
 * 관련 정보 *
 
-http://["NetApp 기술 보고서 3965: NetApp 씬 프로비저닝 구축 및 구현 Data ONTAP 8.1(7-Mode)"^]
+http://www.netapp.com/us/media/tr-3965.pdf["NetApp 기술 보고서 3965: NetApp 씬 프로비저닝 구축 및 구현 Data ONTAP 8.1(7-Mode)"^]

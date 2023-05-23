@@ -27,9 +27,9 @@ ONTAP System Manager 클래식 인터페이스(ONTAP 9.7 이하)를 사용하면
 * iSCSI SAN 부팅을 구성하지 않습니다.
 
 
-ONTAP를 사용하여 특정 호스트를 구성하는 방법에 대한 자세한 내용은 를 참조하십시오 https://["ONTAP SAN 호스트 구성"].
+ONTAP를 사용하여 특정 호스트를 구성하는 방법에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/ontap-sanhost/index.html["ONTAP SAN 호스트 구성"].
 
-SAN 관리에 대한 자세한 내용은 을 참조하십시오 https://["ONTAP 9 SAN 관리 개요"]
+SAN 관리에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/ontap/san-admin/index.html["ONTAP 9 SAN 관리 개요"]
 
 
 
@@ -41,8 +41,8 @@ SAN 관리에 대한 자세한 내용은 을 참조하십시오 https://["ONTAP 
 | 을 사용하여 이 작업을 완료하려면... | 자세한 내용은... 
 
 
-| 재설계된 System Manager(9.7 이상에서 사용 가능) | https://["SAN 스토리지 용량 할당"^] 
+| 재설계된 System Manager(9.7 이상에서 사용 가능) | https://docs.netapp.com/us-en/ontap/san-admin/provision-storage.html["SAN 스토리지 용량 할당"^] 
 
 
-| ONTAP CLI(Command Line Interface) | https://["CLI를 사용한 LUN 설정 워크플로우"^] 
+| ONTAP CLI(Command Line Interface) | https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html["CLI를 사용한 LUN 설정 워크플로우"^] 
 |===

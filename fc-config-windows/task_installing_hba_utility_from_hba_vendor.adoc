@@ -29,8 +29,8 @@ HBA 유틸리티를 사용하면 각 FC 포트의 WWPN(Worldwide Port Name)을 �
 
 * 관련 정보 *
 
-https://["Broadcom(Emulex) 지원 문서 및 다운로드"]
+https://www.broadcom.com/support/download-search?tab=search["Broadcom(Emulex) 지원 문서 및 다운로드"]
 
-https://["Emulex HBA 매니저"]
+https://www.broadcom.com/products/storage/fibre-channel-host-bus-adapters/emulex-hba-manager["Emulex HBA 매니저"]
 
-http://["QLogic: NetApp 다운로드"]
+http://driverdownloads.qlogic.com/QLogicDriverDownloads_UI/OEM_Product_List.aspx?oemid=372["QLogic: NetApp 다운로드"]

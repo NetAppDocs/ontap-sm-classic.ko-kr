@@ -57,4 +57,4 @@ LIF 생성에 실패하면 LIF를 생성하고 FC/FCoE 창에서 FCP 서비스�
 
 * 관련 정보 *
 
-https://["ONTAP 9 문서 센터"]
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 문서 센터"]

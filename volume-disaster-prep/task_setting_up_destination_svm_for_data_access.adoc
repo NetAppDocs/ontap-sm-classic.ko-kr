@@ -46,4 +46,4 @@ LIF, CIFS 공유, NAS 환경을 위한 엑스포트 정책, 타겟 볼륨을 포
 
 * 관련 정보 *
 
-https://["ONTAP 9 문서 센터"]
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 문서 센터"]

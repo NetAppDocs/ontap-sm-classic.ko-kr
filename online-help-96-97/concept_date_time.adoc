@@ -45,4 +45,4 @@ xref:task_setting_time_zone_for_cluster.adoc[클러스터의 시간대 설정]
 
 xref:task_setting_up_network_when_ip_address_range_is_disabled.adoc[IP 주소 범위가 비활성화된 경우 네트워크 설정]
 
-https://["시스템 관리"]
+https://docs.netapp.com/us-en/ontap/system-admin/index.html["시스템 관리"]

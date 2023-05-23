@@ -181,4 +181,4 @@ Array LUNs 목록 아래의 영역에는 선택한 스토리지 LUN에 대한 �
 
 * 관련 정보 *
 
-https://["FlexArray 가상화 설치 요구 사항 및 참조 자료"]
+https://docs.netapp.com/ontap-9/topic/com.netapp.doc.vs-irrg/home.html["FlexArray 가상화 설치 요구 사항 및 참조 자료"]

@@ -17,7 +17,7 @@ ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)을 사용�
 * 이름이 AFF_SAN_DEFAULT_SVM인 SVM(스토리지 가상 시스템)을 하나만 생성하고 이 SVM에 LUN이 없는지 확인해야 합니다.
 * 하드웨어 설정이 성공적으로 완료되었는지 확인해야 합니다.
 +
-https://["ONTAP 9 문서 센터"]
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 문서 센터"]
 
 
 
@@ -98,4 +98,4 @@ SQL
 
 * 관련 정보 *
 
-https://["ONTAP 9 문서 센터"]
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 문서 센터"]

@@ -96,4 +96,4 @@ System Manager를 사용하면 명령 또는 명령 디렉토리에 대한 액�
 
 * 관련 정보 *
 
-https://["관리자 인증 및 RBAC"^]
+https://docs.netapp.com/us-en/ontap/authentication/index.html["관리자 인증 및 RBAC"^]

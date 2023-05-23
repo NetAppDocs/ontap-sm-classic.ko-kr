@@ -15,4 +15,4 @@ System Manager를 사용하여 애그리게이트를 만들어 다양한 보안 
 
 * 관련 정보 *
 
-https://["디스크 및 애그리게이트 관리"]
+https://docs.netapp.com/us-en/ontap/disks-aggregates/index.html["디스크 및 애그리게이트 관리"]

@@ -16,7 +16,7 @@ ONTAP 9.7 이하와 ONTAP System Manager_CLASSIC_INTERFACE를 사용하여 클�
 .이 작업에 대해
 모든 버전의 ONTAP에서 SNMPv3는 기본적으로 클러스터 수준에서 활성화되어 있으며 SNMPv1 및 SNMPv2c는 기본적으로 비활성화되어 있습니다. SNMP 커뮤니티를 생성하면 SNMPv1 및 SNMPv2c가 활성화됩니다.
 
-데이터 LIF에서 SNMP는 기본적으로 해제되어 있습니다. 데이터 LIF에서 SNMP를 사용하는 방법에 대한 자세한 내용은 를 참조하십시오 https://["네트워크 관리"^].
+데이터 LIF에서 SNMP는 기본적으로 해제되어 있습니다. 데이터 LIF에서 SNMP를 사용하는 방법에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/ontap/networking/index.html["네트워크 관리"^].
 
 .단계
 . 홈 아이콘을 클릭합니다.

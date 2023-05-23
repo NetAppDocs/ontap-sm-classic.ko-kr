@@ -22,4 +22,4 @@ summary: 데이터 저장소를 마운트하면 호스트에서 스토리지에 
 
 * 관련 정보 *
 
-https://["9.6 릴리즈용 VMware vSphere Administration용 Virtual Storage Console, VASA Provider 및 Storage Replication Adapter"]
+https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html["9.6 릴리즈용 VMware vSphere Administration용 Virtual Storage Console, VASA Provider 및 Storage Replication Adapter"]

@@ -40,13 +40,13 @@ ONTAP 9.7 이하와 함께 ONTAP System Manager_CLASSIC_INTERFACE를 사용하�
  a| 
 재설계된 System Manager(ONTAP 9.7 이상에서 사용 가능)
  a| 
-https://["클러스터에서 SNMP 관리(클러스터 관리자만 해당) 및 GT; 개요"^]
+https://docs.netapp.com/us-en/ontap/networking/manage_snmp_on_the_cluster_@cluster_administrators_only@_overview.html["클러스터에서 SNMP 관리(클러스터 관리자만 해당) 및 GT; 개요"^]
 
 
 
  a| 
 ONTAP CLI(명령줄 인터페이스)
  a| 
-https://["SNMP 관리를 위한 명령입니다"^]
+https://docs.netapp.com/us-en/ontap/networking/commands_for_managing_snmp.html["SNMP 관리를 위한 명령입니다"^]
 
 |===

@@ -23,7 +23,7 @@ ESXi 호스트를 관리하는 데 사용되는 vCenter Server에 관리자 자�
 .단계
 . 상호 운용성 매트릭스 툴에 표시된 대로 구성에서 지원되는 가상 스토리지 콘솔 버전을 다운로드하십시오.
 +
-https://["NetApp 지원"]
+https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"]
 
 . 가상 어플라이언스를 구축하고 _Deployment and Setup Guide _ 의 단계에 따라 구성합니다.
 

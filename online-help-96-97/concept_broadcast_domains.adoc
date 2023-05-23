@@ -61,4 +61,4 @@ System Manager를 사용하여 이름, MTU 크기 및 브로드캐스트 도메�
 
 xref:reference_network_window.adoc[네트워크 창]
 
-https://["네트워크 관리"]
+https://docs.netapp.com/us-en/ontap/networking/index.html["네트워크 관리"]

@@ -95,4 +95,4 @@ xref:task_editing_volume_properties.adoc[볼륨 속성 편집]
 
 xref:task_modifying_export_policy_rules.adoc[엑스포트 정책 규칙을 수정합니다]
 
-https://["SMB/CIFS 관리"]
+https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB/CIFS 관리"]

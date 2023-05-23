@@ -26,7 +26,7 @@ HA 쌍을 추가하면 기존 클러스터를 빠르고 중단 없이 확장할 
 단일 노드 클러스터에 노드를 추가하려면 다른 절차를 따라야 합니다.
 
 +
-https://["두 번째 컨트롤러를 추가하여 HA 쌍 생성"]
+https://docs.netapp.com/platstor/topic/com.netapp.doc.hw-controller-add/home.html["두 번째 컨트롤러를 추가하여 HA 쌍 생성"]
 
 ** IPv6 주소 지정 또는 스토리지 암호화를 사용하지 않습니다.
 ** MetroCluster 구성이 아닙니다.
@@ -41,7 +41,7 @@ https://["두 번째 컨트롤러를 추가하여 HA 쌍 생성"]
 
 * System Manager로 ONTAP 구성 작업을 수행할 때 ONTAP 9.7 이상을 지원하는 ONTAP System Manager UI가 아니라 ONTAP 9.7 이전 릴리즈용 _Classic_System Manager UI를 사용해야 합니다.
 +
-https://["ONTAP 시스템 관리자 설명서"]
+https://docs.netapp.com/us-en/ontap/["ONTAP 시스템 관리자 설명서"]
 
 * 사용 가능한 모든 옵션을 탐색하는 것이 아니라 모범 사례를 사용하려고 합니다.
 * 많은 개념적 배경을 읽고 싶지 않습니다.

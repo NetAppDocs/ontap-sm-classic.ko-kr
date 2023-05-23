@@ -51,4 +51,4 @@ IPspace가 더 이상 필요하지 않은 경우 System Manager를 사용하여 
 
 * 관련 정보 *
 
-https://["네트워크 관리"]
+https://docs.netapp.com/us-en/ontap/networking/index.html["네트워크 관리"]

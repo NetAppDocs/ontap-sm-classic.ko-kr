@@ -315,4 +315,4 @@ All-Flash(All SSD) 애그리게이트만 FabricPool 지원 애그리게이트를
 
 * 관련 정보 *
 
-http://["NetApp 기술 보고서 4070: Flash Pool 설계 및 구축"^]
+http://www.netapp.com/us/media/tr-4070.pdf["NetApp 기술 보고서 4070: Flash Pool 설계 및 구축"^]

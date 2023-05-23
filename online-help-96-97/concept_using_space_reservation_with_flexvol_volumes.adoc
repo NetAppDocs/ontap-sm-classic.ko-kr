@@ -21,6 +21,6 @@ ONTAP System Manager 클래식(ONTAP 9.7 이하에서 사용 가능)에서는 �
 
 * 관련 정보 *
 
-http://["NetApp 기술 보고서 3563: NetApp 씬 프로비저닝은 필요에 따라 할당 하여 스토리지 활용도를 높입니다"^]
+http://www.netapp.com/us/media/tr-3563.pdf["NetApp 기술 보고서 3563: NetApp 씬 프로비저닝은 필요에 따라 할당 하여 스토리지 활용도를 높입니다"^]
 
-http://["NetApp 기술 보고서 3483: NetApp SAN 또는 IP SAN 엔터프라이즈 환경에서 씬 프로비저닝"^]
+http://www.netapp.com/us/media/tr-3483.pdf["NetApp 기술 보고서 3483: NetApp SAN 또는 IP SAN 엔터프라이즈 환경에서 씬 프로비저닝"^]

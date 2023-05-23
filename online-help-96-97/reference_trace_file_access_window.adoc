@@ -108,6 +108,6 @@ NFS 프로토콜을 지정하면 지정한 매개 변수를 기반으로 결과 
 
 * 관련 정보 *
 
-https://["SMB/CIFS 관리"]
+https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB/CIFS 관리"]
 
 xref:../nas-multiprotocol-config/index.html[SMB/CIFS 및 NFS 멀티 프로토콜 구성]

@@ -72,4 +72,4 @@ NIS 서버를 추가, 삭제 또는 수정할 수 있는 NIS 도메인 편집 �
 
 * 관련 정보 *
 
-https://["NFS 구성"^]
+https://docs.netapp.com/us-en/ontap/nfs-config/index.html["NFS 구성"^]

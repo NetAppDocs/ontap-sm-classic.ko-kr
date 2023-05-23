@@ -18,7 +18,7 @@ summary: 클러스터를 확장하려면 Config Advisor 툴을 실행하고 여�
 +
 ** 랩톱에 Config Advisor가 없는 경우 다운로드합니다.
 +
-https://["NetApp 다운로드: Config Advisor"]
+https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp 다운로드: Config Advisor"]
 
 ** Config Advisor가 있는 경우 시작하고, * 도움말 * > * 업데이트 확인 * 을 클릭한 다음, 필요한 경우 프롬프트에 따라 업그레이드합니다.
 +

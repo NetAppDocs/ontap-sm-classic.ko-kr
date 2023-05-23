@@ -17,4 +17,4 @@ image::../media/updating_cluster.gif[클러스터를 업데이트하는 중입�
 
 * 관련 정보 *
 
-https://["ONTAP를 업그레이드합니다"]
+https://docs.netapp.com/us-en/ontap/upgrade/task_upgrade_andu_sm.html["ONTAP를 업그레이드합니다"]

@@ -193,6 +193,6 @@ xref:reference_network_window.adoc[네트워크 창]
 
 xref:task_configuring_iscsi_protocol_on_svms.adoc[SVM에서 iSCSI 프로토콜 구성]
 
-https://["ONTAP 개념"]
+https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP 개념"]
 
-https://["네트워크 관리"]
+https://docs.netapp.com/us-en/ontap/networking/index.html["네트워크 관리"]

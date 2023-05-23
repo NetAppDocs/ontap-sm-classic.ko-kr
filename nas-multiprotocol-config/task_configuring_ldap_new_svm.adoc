@@ -19,13 +19,13 @@ SVM(스토리지 가상 시스템)에서 Active Directory 기반 LDAP(Lightweigh
 다른 유형의 LDAP를 사용하는 경우 LDAP를 구성하려면 CLI(Command-Line Interface) 및 기타 설명서를 사용해야 합니다.
 
 +
-https://["NetApp 기술 보고서 4067: NetApp ONTAP의 NFS"^]
+https://www.netapp.com/pdf.html?item=/media/10720-tr-4067.pdf["NetApp 기술 보고서 4067: NetApp ONTAP의 NFS"^]
 
 +
-https://["NetApp 기술 보고서 4616: ONTAP에서 Microsoft Active Directory와 NFS Kerberos"^]
+https://www.netapp.com/pdf.html?item=/media/19384-tr-4616.pdf["NetApp 기술 보고서 4616: ONTAP에서 Microsoft Active Directory와 NFS Kerberos"^]
 
 +
-https://["NetApp 기술 보고서 4835: ONTAP에서 LDAP를 구성하는 방법"^]
+https://www.netapp.com/pdf.html?item=/media/19423-tr-4835.pdf["NetApp 기술 보고서 4835: ONTAP에서 LDAP를 구성하는 방법"^]
 
 * AD 도메인 및 서버는 물론 인증 레벨, Bind 사용자 및 암호, 기본 DN 및 LDAP 포트와 같은 바인딩 정보를 알아야 합니다.
 

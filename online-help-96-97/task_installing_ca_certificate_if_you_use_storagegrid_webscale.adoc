@@ -16,7 +16,7 @@ ONTAP에서 StorageGRID를 FabricPool 지원 애그리게이트의 오브젝트 
 .단계
 . StorageGRID 시스템 설명서에 따라 그리드 관리 인터페이스를 사용하여 StorageGRID 시스템의 CA 인증서를 복사합니다.
 +
-https://["StorageGRID 11.3 관리자 안내서"]
+https://docs.netapp.com/sgws-113/topic/com.netapp.doc.sg-admin/home.html["StorageGRID 11.3 관리자 안내서"]
 
 +
 StorageGRID를 클라우드 계층으로 추가하는 동안 CA 인증서가 설치되지 않은 경우 메시지가 표시됩니다.

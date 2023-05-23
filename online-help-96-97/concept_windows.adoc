@@ -15,4 +15,4 @@ System Manager를 사용하여 Windows 그룹 및 사용자 계정을 만들고 
 
 * 관련 정보 *
 
-https://["SMB/CIFS 관리"]
+https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB/CIFS 관리"]
