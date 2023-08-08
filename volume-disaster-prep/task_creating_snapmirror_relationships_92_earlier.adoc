@@ -62,7 +62,7 @@ summary: 한 클러스터의 소스 볼륨과 재해 복구를 위한 데이터 
 
 
 +
-image::../media/destination_volume_settings.gif[대상 볼륨 설정입니다]
+image::../media/destination_volume_settings.gif[대상 볼륨 설정]
 
 . 구성 세부 정보 * 섹션에서 미러 정책으로 * MirrorAllSnapshots * 를 선택합니다.
 +
@@ -74,7 +74,7 @@ SnapMirror 관계에 사용할 수 있는 또 다른 기본 미러 정책은 '�
 SnapMirror 관계를 초기화하면 타겟 볼륨에 소스 볼륨 보호를 시작할 기준이 있습니다.
 
 +
-image::../media/create_snapmirror_relationship_window.gif[SnapMirror 관계 창을 생성합니다]
+image::../media/create_snapmirror_relationship_window.gif[SnapMirror 창 생성]
 
 +
 소스 볼륨에서 타겟 볼륨으로 데이터의 기본 전송을 시작하여 관계가 초기화됩니다.
@@ -83,14 +83,14 @@ image::../media/create_snapmirror_relationship_window.gif[SnapMirror 관계 창�
 초기화 작업에는 약간의 시간이 걸릴 수 있습니다. 상태 섹션에는 각 작업의 상태가 표시됩니다.
 
 +
-image::../media/snapmirror_create_3_successful.gif[SnapMirror 생성 3 성공]
+image::../media/snapmirror_create_3_successful.gif[SnapMirror를 성공적으로 생성했습니다]
 
 . SnapMirror 관계의 관계 상태를 확인합니다.
 +
 .. 볼륨 * 목록에서 SnapMirror 관계를 생성한 볼륨을 선택한 다음 * 데이터 보호 * 를 클릭합니다.
 .. 데이터 보호 * 탭에서 생성한 SnapMirror 관계가 나열되고 관계 상태가 '스냅샷 복사'인지 확인합니다.
 +
-image::../media/snapmirror_create_4_verify.gif[SnapMirror 생성 4 확인]
+image::../media/snapmirror_create_4_verify.gif[관계가 생성되었는지 확인합니다]
 
 
 

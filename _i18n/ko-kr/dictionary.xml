@@ -67,20 +67,16 @@
   <block id="4197254eb42abadf4e07041f97c8369f" category="list-text">새 볼륨 * 옵션을 선택합니다.</block>
   <block id="bf3c24cccf670b34d6776b8942e7a929" category="list-text">기본 볼륨 이름을 사용하거나 새 볼륨 이름을 지정합니다.</block>
   <block id="afe6c8ce0f37963464b2701045bf73a6" category="list-text">대상 애그리게이트를 선택합니다.</block>
-  <block id="25889688d2dab599f422759da9889d11" category="image-alt">대상 볼륨 설정입니다</block>
   <block id="9f010bb70a3cf9f282ab15c52a375d90" category="list-text">구성 세부 정보 * 섹션에서 미러 정책으로 * MirrorAllSnapshots * 를 선택합니다.</block>
   <block id="daf602eff6257ccc1585152cfa264dff" category="paragraph">SnapMirror 관계에 사용할 수 있는 또 다른 기본 미러 정책은 '기본값'과 'MirorLatest'입니다.</block>
   <block id="7a60aecb8c3538e9a671e6bb26a79282" category="list-text">스케줄 목록에서 보호 스케줄을 선택합니다.</block>
   <block id="962acae637b5a6d13230ba6c3c1db5e2" category="list-text">관계 초기화 * 확인란이 선택되어 있는지 확인한 다음 * 작성 * 을 클릭합니다.</block>
   <block id="9006c9f92be4bea3381f69a4a4f9506b" category="paragraph">SnapMirror 관계를 초기화하면 타겟 볼륨에 소스 볼륨 보호를 시작할 기준이 있습니다.</block>
-  <block id="3dd7b013b73a1c6f7e075f0af837ac53" category="image-alt">SnapMirror 관계 창을 생성합니다</block>
   <block id="6b30a92bd990fd6bdf7ef4a3b009417a" category="paragraph">소스 볼륨에서 타겟 볼륨으로 데이터의 기본 전송을 시작하여 관계가 초기화됩니다.</block>
   <block id="71f4dfe0a538ccc961465fbef08d3f18" category="paragraph">초기화 작업에는 약간의 시간이 걸릴 수 있습니다. 상태 섹션에는 각 작업의 상태가 표시됩니다.</block>
-  <block id="ca5b32513c7bc82739ecbb42c0816f5a" category="image-alt">SnapMirror 생성 3 성공</block>
   <block id="1e09209118660dffb580a75afff21cd6" category="list-text">SnapMirror 관계의 관계 상태를 확인합니다.</block>
   <block id="72ec6eb58743e16b28503a78409f276c" category="list-text">볼륨 * 목록에서 SnapMirror 관계를 생성한 볼륨을 선택한 다음 * 데이터 보호 * 를 클릭합니다.</block>
   <block id="ed8df297d64d8ea7830711d96a0f8774" category="list-text">데이터 보호 * 탭에서 생성한 SnapMirror 관계가 나열되고 관계 상태가 '스냅샷 복사'인지 확인합니다.</block>
-  <block id="5e8ac563a17019f0db410450d785301b" category="image-alt">SnapMirror 생성 4 확인</block>
   <block id="3f710cadb0123c693533da68aaf5b596" category="section-title">다음 단계</block>
   <block id="028fafb74e3b83afc82a43a425f93cb9" category="paragraph">씬 프로비저닝, 중복제거, 압축, 자동 확장 등과 같은 소스 볼륨의 설정을 기록해야 합니다. 이 정보를 사용하여 SnapMirror 관계를 끊을 때 대상 볼륨 설정을 확인할 수 있습니다.</block>
   <block id="b2763c325ff29a11475210e77550cdbf" category="summary">재해 복구 준비를 위해 피어링된 ONTAP 클러스터에서 소스 볼륨을 빠르게 보호할 수 있습니다. 볼륨 재해 복구를 위해 피어링된 클러스터 간에 SnapMirror 관계를 구성 및 모니터링하려는 경우 이 콘텐츠를 사용해야 하며 작업에 대한 많은 개념적 배경이 필요하지 않습니다.</block>
@@ -128,7 +124,6 @@
   <block id="b1d6c3bc5dbf7b37cbdbe937bcacaae1" category="list-text">관계 유형으로 * 미러 * 를 선택합니다.</block>
   <block id="db9f6468d4481688fa9033abc1963271" category="list-text">타겟 클러스터, 타겟 SVM 및 타겟 볼륨 이름의 접미사를 선택합니다.</block>
   <block id="00eb0c752078cdbcec9dd22b17ea3c76" category="paragraph">피어링된 SVM과 허용된 SVM만 타겟 SVM 아래에 나열됩니다.</block>
-  <block id="1ec1faf69d8ee6e200c521f39fba978d" category="list-text">을 클릭합니다 <block ref="a1671da25382ecdf2e7c60b53cc3fc3d" category="inline-image-macro-rx" type="image"></block>.</block>
   <block id="b690261847676d1036c0d37c3ab9e7cd" category="list-text">고급 옵션 * 대화 상자에서 MirorAllSnapshots이 보호 정책으로 설정되어 있는지 확인합니다.</block>
   <block id="cc4e6ab08b9e6aa23e33393c70c86c2c" category="paragraph">SnapMirror 관계에 사용할 수 있는 또 다른 기본 보호 정책은 '기본값'과 'MirorLatest'입니다.</block>
   <block id="63aac8665b835b82daf050f515b927ed" category="list-text">보호 스케줄을 선택합니다.</block>
@@ -136,12 +131,10 @@
   <block id="0eaad8f614e7a32adf496fe716320ed4" category="list-text">SnapVault 관계를 초기화하기 위해 * 예 * 가 선택되어 있는지 확인합니다.</block>
   <block id="0531876d83d0e6dd65845a4e72053423" category="paragraph">모든 데이터 보호 관계는 기본적으로 초기화됩니다. SnapMirror 관계를 초기화하면 타겟 볼륨에 소스 볼륨 보호를 시작할 기준이 있습니다.</block>
   <block id="38326335c467e4d64391788cf6a6f1c1" category="list-text">변경 사항을 저장하려면 * 적용 * 을 클릭합니다.</block>
-  <block id="b0d23a57325c3084c24baecf58667326" category="image-alt">SnapMirror 고급 옵션 93</block>
   <block id="acb8bdf1358d7537887f6dc69f5224e6" category="list-text">Save * 를 클릭하여 SnapMirror 관계를 생성합니다.</block>
   <block id="ec658862dd1e10953fce5b7f177f02f1" category="list-text">SnapMirror 관계의 관계 상태가 '미러됨' 상태인지 확인합니다.</block>
   <block id="376cacbb467173386e24f40a767d478b" category="list-text">Volumes * 창으로 이동한 다음 SnapMirror 관계를 생성한 볼륨이 있는 볼륨을 선택합니다.</block>
   <block id="e01451bc5d1145df607e72e46d03d5d2" category="list-text">볼륨을 두 번 클릭하여 볼륨 세부 정보를 확인한 다음 * 보호 * 를 클릭하여 볼륨의 데이터 보호 상태를 확인합니다.</block>
-  <block id="67dfc6258a4d7b0eef457b3eeb43e734" category="image-alt">SnapMirror 9 3</block>
   <block id="e4f23fa5eebad806cea9c12d5857146a" category="summary">재해 복구 설정을 테스트하거나 재해가 발생할 때 대상 볼륨을 활성화하는 데 도움이 되는 추가 설명서가 제공됩니다. 재해 발생 후 소스 볼륨을 다시 활성화하는 방법에 대해서도 자세히 알아볼 수 있습니다.</block>
   <block id="4bb047f8c530785002e490ef17fa725e" category="doc">추가 정보를 찾을 수 있는 위치</block>
   <block id="c79552c3752b64e4900c6490f17147ce" category="inline-xref-macro">볼륨 재해 복구</block>
@@ -4093,7 +4086,6 @@
   <block id="de0a16cd5c098f4e0cfe40e55e964715" category="list-text">확인 대화 상자에서 * 확인 * 을 클릭하여 볼륨 상태를 변경합니다.</block>
   <block id="d48c8b246d92a7c78407fc86df071671" category="summary">System Manager는 그래픽 관리 인터페이스로, 스토리지 시스템과 스토리지 오브젝트(예: 디스크, 볼륨 및 애그리게이트)를 관리하고 웹 브라우저에서 스토리지 시스템과 관련된 공통 관리 작업을 수행할 수 있습니다. 클러스터 관리자는 System Manager를 사용하여 전체 클러스터와 리소스를 관리할 수 있습니다.</block>
   <block id="3ce055103da31ce1df71764f20016d59" category="doc">OnCommand ® System Manager를 사용하여 클러스터 관리</block>
-  <block id="0c8ff84025de62a7a5aeea1fe6d60ebf" category="paragraph">System Manager는 더 이상 실행 파일로 사용할 수 없으며, 이제 ONTAP 소프트웨어에 웹 서비스로 포함되어 기본으로 활성화되며 브라우저를 통해 액세스할 수 있습니다.</block>
   <block id="08528f0f39e6782683d545afe6b1f198" category="paragraph">System Manager의 이름이 이전 버전에서 변경되었습니다. 버전 9.5 및 이전 버전은 OnCommand System Manager로 명명되었습니다. 버전 9.6 이상은 이제 ONTAP 시스템 관리자라고 합니다.</block>
   <block id="9270ee495bc464b61000cccd332db6a6" category="paragraph">System Manager를 사용하면 다음과 같은 일반적인 작업을 수행할 수 있습니다.</block>
   <block id="160e6c815686e81a07d0da8d6912bd7d" category="list-text">클러스터를 생성하고, 네트워크를 구성하고, 클러스터에 대한 지원 세부 정보를 설정합니다.</block>
@@ -9260,4 +9252,13 @@
   <block id="793d21bf18b025e1a67b437de47189f5" category="inline-link-macro">라이센스 관리 개요</block>
   <block id="0f130bf77768be1af34e32b76ed78492" category="paragraph">라이센스 관리에 대한 자세한 내용은 을 참조하십시오 <block ref="40de9a66c3e4481acf1e199beb3ce8ce" category="inline-link-macro-rx"></block>.</block>
   <block id="604cb5a84c00d7e349ae07b5f7fe770d" category="cell"><block ref="604cb5a84c00d7e349ae07b5f7fe770d" category="inline-link-rx"></block></block>
+  <block id="5c210c9c66a924b033442506eda7fd06" category="paragraph">System Manager는 HTML5 기반 그래픽 관리 인터페이스로서, 스토리지 시스템과 스토리지 오브젝트(예: 디스크, 볼륨 및 애그리게이트)를 관리하고 웹 브라우저에서 스토리지 시스템과 관련된 일반적인 관리 작업을 수행할 수 있습니다. System Manager는 ONTAP 소프트웨어에 웹 서비스로 포함되어 있으며, 기본적으로 활성화되어 있으며 브라우저를 통해 액세스할 수 있습니다. 클러스터 관리자는 System Manager를 사용하여 전체 클러스터와 리소스를 관리할 수 있습니다.</block>
+  <block id="f45292349272c0e8d698e0559d3516b8" category="image-alt">대상 볼륨 설정</block>
+  <block id="66329551f2e91e48bc40cabcda0d761b" category="image-alt">SnapMirror 창 생성</block>
+  <block id="1338eec46c9b0932a879be3427d074eb" category="image-alt">SnapMirror를 성공적으로 생성했습니다</block>
+  <block id="f7d9fc01c37002a8f4bfc1d0c51eebee" category="image-alt">관계가 생성되었는지 확인합니다</block>
+  <block id="dd69bf72e13ac23bfd95e008374ecb5d" category="inline-image-macro">고급 옵션 아이콘</block>
+  <block id="ef801f1f815e00496ec892cdfa53d06d" category="list-text">을 클릭합니다 <block ref="215361fd1fc3c1e3c1287fe809a1790a" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="52d4c2f2276b49422642781ce12ded0c" category="image-alt">고급 옵션 창</block>
+  <block id="f730116d3cb429cf0e30f40c1db51df9" category="image-alt">SnapMirror 상태 스크린샷</block>
 </blocks>
