@@ -35,6 +35,11 @@ MetroCluster 구성을 위해 디스크를 재할당하려면 명령줄 인터�
 
 
 
+[NOTE]
+====
+이후 ONTAP 릴리즈에서는 ONTAP CLI를 사용하여 디스크 소유권을 제거한 다음 새 소유자를 할당합니다.
+
+====
 .단계
 . 스토리지 * > * 애그리게이트 및 디스크 * > * 디스크 * 를 클릭합니다.
 . Disks * 창에서 * Inventory * 탭을 선택합니다.
@@ -42,4 +47,10 @@ MetroCluster 구성을 위해 디스크를 재할당하려면 명령줄 인터�
 . 경고 * 대화 상자에서 * 계속 * 을 클릭합니다.
 . 디스크 할당 * 대화 상자에서 디스크를 재할당할 노드를 선택합니다.
 . 할당 * 을 클릭합니다.
+
+
+.관련 정보
+* link:https://docs.netapp.com/us-en/ontap/disks-aggregates/remove-ownership-disk-task.html["ONTAP CLI를 사용하여 디스크 소유권 제거(ONTAP 9.3 이상)"]
+* link:https://docs.netapp.com/us-en/ontap/disks-aggregates/disk-autoassignment-policy-concept.html["ONTAP CLI를 사용하여 자동으로 디스크 할당(ONTAP 9.3 이상)"]
+* link:https://docs.netapp.com/us-en/ontap/disks-aggregates/manual-assign-disks-ownership-manage-task.html["ONTAP CLI를 사용하여 수동으로 디스크 할당(ONTAP 9.3 이상)"]
 
