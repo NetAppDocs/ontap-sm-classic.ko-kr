@@ -33,7 +33,21 @@ System Manager를 사용하여 SAML(Security Assertion Markup Language) 인증�
 
 
 .이 작업에 대해
-System Manager에서 검증된 IdP는 Shibboleth 및 Active Directory Federation Services입니다.
+다음 IdP는 System Manager에서 검증되었습니다.
+
+* Active Directory 페더레이션 서비스
+* Cisco Duo(다음 ONTAP 버전에서 검증:)
++
+** 9.7P21 이상 9.7 릴리스
+** 9.8P17 이상 9.8 릴리스
+** 9.9.1P13 이상 9.9 릴리스
+** 9.10.1P9 이상 9.10 릴리스
+** 9.11.1P4 이상 9.11 릴리즈
+** 9.12.1 이상 릴리즈
+
+
+* 시바볼레스
+
 
 [NOTE]
 ====

@@ -5444,7 +5444,6 @@
   <block id="a1036b59d73505365ef378243a1e483a" category="list-text">원격 인증에 사용하려는 IDP를 구성해야 합니다.</block>
   <block id="72577700d76e5482df206852d16b3918" category="paragraph">구성한 IDP에서 제공하는 설명서를 참조하십시오.</block>
   <block id="3a9e3f68d0c667f8a7b447e51b0c8cba" category="list-text">IDP의 URI가 있어야 합니다.</block>
-  <block id="de421c081fd7f349421dae3208f4659f" category="paragraph">System Manager에서 검증된 IdP는 Shibboleth 및 Active Directory Federation Services입니다.</block>
   <block id="fa8cd930b8e2dc9dc9fd65817b5ce669" category="paragraph">SAML 인증이 활성화된 후에는 원격 사용자만 System Manager GUI에 액세스할 수 있습니다. SAML 인증이 활성화된 후에는 로컬 사용자가 System Manager GUI에 액세스할 수 없습니다.</block>
   <block id="a7d79b434e817cf2263ffd64d11515ad" category="list-text">SAML 인증 활성화 * 확인란을 선택합니다.</block>
   <block id="7849e92346678a0ffd88e8ea34d75d14" category="list-text">SAML 인증을 사용하도록 System Manager 구성:</block>
@@ -9268,4 +9267,14 @@
   <block id="fdfcc2567d3a9cc9343a1e14e2a5778e" category="list-text"><block ref="fdfcc2567d3a9cc9343a1e14e2a5778e" category="inline-link-macro-rx"></block></block>
   <block id="a3f857c78c1b112becd5a124491290c0" category="inline-link-macro">ONTAP CLI를 사용하여 수동으로 디스크 할당(ONTAP 9.3 이상)</block>
   <block id="8e0d62951eeeb6b52dfa9aabfdf5c35c" category="list-text"><block ref="8e0d62951eeeb6b52dfa9aabfdf5c35c" category="inline-link-macro-rx"></block></block>
+  <block id="d3804326967b3c4d0d1fe456e58f9e3c" category="paragraph">다음 IdP는 System Manager에서 검증되었습니다.</block>
+  <block id="3a6d511a9d218e11dc64c9d43b7d1d73" category="list-text">Active Directory 페더레이션 서비스</block>
+  <block id="76d715baa02451f676fce832bea3cab0" category="list-text">Cisco Duo(다음 ONTAP 버전에서 검증:)</block>
+  <block id="99ee2d51ff9d719a2f4ed99cdd7e8201" category="list-text">9.7P21 이상 9.7 릴리스</block>
+  <block id="7dec5294fcbec488e754eddbe6ba09b4" category="list-text">9.8P17 이상 9.8 릴리스</block>
+  <block id="0802d2f599d23393bab9380c14849ce2" category="list-text">9.9.1P13 이상 9.9 릴리스</block>
+  <block id="761c4970281fb273f713e924e77278ad" category="list-text">9.10.1P9 이상 9.10 릴리스</block>
+  <block id="f807dcc2ee9aff63931a364b0bfb045d" category="list-text">9.11.1P4 이상 9.11 릴리즈</block>
+  <block id="04faa4f6e99109900566d6589f5adfd3" category="list-text">9.12.1 이상 릴리즈</block>
+  <block id="3679bf7b8140ea8f4291be1d7fc023bd" category="list-text">시바볼레스</block>
 </blocks>
