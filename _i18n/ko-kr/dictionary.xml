@@ -3464,7 +3464,6 @@
   <block id="5bbec01d3493c1cd58a5562c1ccadcef" category="list-text">크기를 조정할 FlexCache 볼륨을 선택한 다음 * 추가 작업 * &gt; * 크기 조정 * 을 클릭합니다.</block>
   <block id="503e6a1d24532cf16b90068dcf9d0814" category="list-text">FlexCache 볼륨 크기 조정 * 창에서 FlexCache 볼륨의 크기를 조정할 크기를 지정합니다.</block>
   <block id="ee06c3a75d2f90d528d0bdad6ee8b794" category="inline-link-macro">FlexCache 볼륨에 대한 고급 옵션 지정</block>
-  <block id="bf1a8ac5c931866758030b4588ed85b1" category="paragraph">새 리소스를 추가하여 FlexCache 볼륨을 확장하려면 를 클릭합니다 <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> (고급 옵션). 을 참조하십시오 <block ref="ff23e8b352173b9385a50749f03a49b1" category="inline-link-macro-rx"></block>.</block>
   <block id="689dc6ae2f8d54723af8baa6aff39f7d" category="list-text">FlexCache 볼륨의 크기를 조정하려면 * 저장 * 을 클릭합니다.</block>
   <block id="d0301e8aa18e111d6fd24af281e7819f" category="paragraph">CLI(Command-Line Interface)에서 손상된 미러 관계를 중지했다면 System Manager에서 관계를 재개할 수 없습니다. CLI를 사용하여 관계를 재개해야 합니다.</block>
   <block id="cd10025bb0c0201ed512834fc9a96785" category="list-text">재개할 미러 관계를 선택합니다.</block>
@@ -9277,4 +9276,5 @@
   <block id="f807dcc2ee9aff63931a364b0bfb045d" category="list-text">9.11.1P4 이상 9.11 릴리즈</block>
   <block id="04faa4f6e99109900566d6589f5adfd3" category="list-text">9.12.1 이상 릴리즈</block>
   <block id="3679bf7b8140ea8f4291be1d7fc023bd" category="list-text">시바볼레스</block>
+  <block id="0141b877fcf49f33b47400dd7edb78c1" category="paragraph">새 리소스를 추가하여 FlexCache 볼륨을 확장하려면 를 클릭합니다 <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> (고급 옵션). 을 참조하십시오 <block ref="4f3fc931d92f22f55a489e2373f71d6c" category="inline-link-macro-rx"></block>.</block>
 </blocks>
