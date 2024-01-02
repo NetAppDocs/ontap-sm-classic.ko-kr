@@ -33,7 +33,7 @@ entries:
     url: "/smb-config/task_verifying_smb_client_access.html"
   - title: CIFS 클라이언트 액세스를 구성하고 확인합니다
     url: "/smb-config/task_configuring_verifying_client_access.html"
-- title: CIFS 지원 SVM에 CIFS 볼륨 추가
+- title: CIFS 지원 SVM에 CIFS 볼륨을 추가합니다
   url: "/smb-config/concept_adding_protocol_volume_to_protocol_enabled_svm.html"
   entries:
   - title: 볼륨을 생성하고 구성합니다
